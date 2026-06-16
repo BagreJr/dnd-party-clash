@@ -1,0 +1,2645 @@
+```metadata
+title: Warlock
+description: ''
+tags: []
+renderer: V3
+theme: 5ePHB
+
+```
+
+```css
+.page{
+	width  : 210mm;
+	height : 296.3mm;
+}
+
+css
+
+.page .columnWrapper {
+	height: 100%
+}
+
+.page .toc.wide {
+	columns: 1;
+	height: 100%;
+}
+
+.page .toc > ul > li {
+	font-weight:100;
+	margin-bottom:-2.1px;
+
+}
+
+.page .toc ul ul {
+	margin-left: 0;
+	font-weight: 5;
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```
+
+{{frontCover}}
+
+{{logo ![](/assets/naturalCritLogoRed.svg)}}
+
+# Warlock
+
+![background image](https://i.imgur.com/P67ohQc.jpg){position:absolute,bottom:0,left:0,height:127%}
+
+\page
+
+{{toc,wide
+
+  - ### [{{ Warlock}}{{ 3}}](#p3)
+    -  [{{ Sworn and Beholden}}{{ 3}}](#p3)
+    -  [{{ Delvers into Secrets}}{{ 3}}](#p3)
+    -  [{{ Creating a Warlock}}{{ 3}}](#p3)
+    - ### [{{ Class Features}}{{ 4}}](#p4)
+    -  [{{ Otherworldly Patron}}{{ 5}}](#p5)
+    -  [{{ Pact Boon}}{{ 5}}](#p5)
+    -  [{{ Spellcasting}}{{ 5}}](#p5)
+    -  [{{ Eldritch Invocations}}{{ 5}}](#p5)
+    -  [{{ Ability Score Improvement}}{{ 6}}](#p6)
+    -  [{{ Contact Patron}}{{ 6}}](#p6)
+    -  [{{ Hex Master}}{{ 6}}](#p6)
+    -  [{{ Eldritch Master}}{{ 6}}](#p6)
+    - ### [{{ Pact Spells}}{{ 6}}](#p6)
+- ### [{{ Otherworldly Patrons}}{{ 8}}](#p8)
+  -  [{{ The Alabaster}}{{ 8}}](#p8)
+  -  [{{ The Archfey}}{{ 9}}](#p9)
+  -  [{{ The Archmage}}{{ 10}}](#p10)
+  -  [{{ The Celestial}}{{ 11}}](#p11)
+  -  [{{ The Coven}}{{ 12}}](#p12)
+  -  [{{ The Dead Mists}}{{ 13}}](#p13)
+  -  [{{ The Elder Sphinx}}{{ 14}}](#p14)
+  -  [{{ The Fathomless}}{{ 15}}](#p15)
+  -  [{{ The Fiend}}{{ 16}}](#p16)
+  -  [{{ The Future You}}{{ 17}}](#p17)
+  -  [{{ The Genie}}{{ 18}}](#p18)
+  -  [{{ The GM}}{{ 20}}](#p20)
+  -  [{{ The Great Tree}}{{ 21}}](#p21)
+  -  [{{ The Great Old One}}{{ 22}}](#p22)
+  -  [{{ The Great Wyrm}}{{ 23}}](#p23)
+  -  [{{ The Hexblade}}{{ 24}}](#p24)
+  -  [{{ The King}}{{ 25}}](#p25)
+  -  [{{ The Lantern}}{{ 26}}](#p26)
+  -  [{{ The Legacy}}{{ 27}}](#p27)
+  -  [{{ The Legendary Hero}}{{ 28}}](#p28)
+  -  [{{ The Magician}}{{ 29}}](#p29)
+  -  [{{ The Mummy Lord}}{{ 30}}](#p30)
+  -  [{{ The Primeval Growth}}{{ 31}}](#p31)
+  -  [{{ The Raven Queen}}{{ 32}}](#p32)
+  -  [{{ The Shinigami}}{{ 33}}](#p33)
+  -  [{{ The Singularity}}{{ 34}}](#p34)
+  -  [{{ The Solar}}{{ 35}}](#p35)
+  -  [{{ The Star}}{{ 36}}](#p36)
+  -  [{{ The Swarm}}{{ 37}}](#p37)
+  -  [{{ The Symbiont}}{{ 38}}](#p38)
+  -  [{{ The Titan}}{{ 39}}](#p39)
+  -  [{{ The Unblinking}}{{ 40}}](#p40)
+  -  [{{ The Undead}}{{ 41}}](#p41)
+  -  [{{ The Undying}}{{ 42}}](#p42)
+  -  [{{ The Virtuoso}}{{ 43}}](#p43)
+  -  [{{ The Void}}{{ 44}}](#p44)
+  -  [{{ The Wild Hunt}}{{ 46}}](#p46)
+  - ### [{{ Eldritch Invocations}}{{ 47}}](#p47)
+}}
+
+
+
+
+
+\page
+
+## Warlock
+With a pseudodragon curled on his shoulder, a young elf in golden robes smiles warmly, weaving a magical charm into his honeyed words and bending the palace sentinel to his will.
+
+As flames spring to life in her hands, a wizened human whispers the secret name of her demonic patron, infusing her spell with fiendish magic.
+
+Shifting his gaze between a battered tome and the odd alignment of the stars overhead, a wild-eyed tiefling chants the mystic ritual that will open a doorway to a distant world.
+
+Warlocks are seekers of the knowledge that lies hidden in the fabric of the multiverse. Through pacts made with mysterious beings of supernatural power, warlocks unlock magical effects both subtle and spectacular. Drawing on the ancient knowledge of beings such as fey nobles, demons, devils, hags, and alien entities of the Far Realm, warlocks piece together arcane secrets to bolster their own power.
+
+### Sworn and Beholden
+A warlock is defined by a pact with an otherworldly being. Sometimes the relationship between warlock and patron is like that of a cleric and a deity, though the beings that serve as patrons for warlocks are not gods. A warlock might lead a cult dedicated to a demon prince, an archdevil, or an utterly alien entity—beings not typically served by clerics. More often, though, the arrangement is similar to that between a master and an apprentice. The warlock learns and grows in power, at the cost of occasional services performed on the patron’s behalf.
+
+The magic bestowed on a warlock ranges from minor but lasting alterations to the warlock’s being (such as the ability to see in darkness or to read any language) to access to powerful spells. Unlike bookish wizards, warlocks supplement their magic with some facility at hand-to-hand combat. They are comfortable in light armor and know how to use simple weapons.
+
+{{imageMaskCorner24,--offsetX:-50%,--offsetY:-70%,--rotation:0
+  ![](https://i.imgur.com/FpUgX2L.png){height:50%}
+}}
+
+
+
+
+\column
+
+### Delvers into Secrets
+Warlocks are driven by an insatiable need for knowledge and power, which compels them into their pacts and shapes their lives. This thirst drives warlocks into their pacts and shapes their later careers as well.
+
+Stories of warlocks binding themselves to fiends are widely known. But many warlocks serve patrons that are not fiendish. Sometimes a traveler in the wilds comes to a strangely beautiful tower, meets its fey lord or lady, and stumbles into a pact without being fully aware of it. And sometimes, while poring over tomes of forbidden lore, a brilliant student’s mind is opened to realities beyond the material world and to the alien beings that dwell in the outer void.
+
+Once a pact is made, a warlock’s thirst for knowledge and power can’t be slaked with mere study and research. Rather, the vast majority of warlocks spend their days in active pursuit of their goals, which typically means some kind of adventuring. Furthermore, the demands of their patrons drive warlocks toward adventure.
+
+### Creating a Warlock
+As you make your warlock character, spend some time thinking about your patron and the obligations that your pact imposes upon you. What led you to make the pact, and how did you make contact with your patron? Were you seduced into summoning a devil, or did you seek out the ritual that would allow you to make contact with an alien elder god? Did you search for your patron, or did your patron find and choose you? Do you chafe under the obligations of your pact or serve joyfully in anticipation of the rewards promised to you?
+
+Work with your DM to determine how big a part your pact will play in your character’s adventuring career. Your patron’s demands might drive you into adventures, or they might consist entirely of small favors you can do between adventures.
+
+What kind of relationship do you have with your patron? Is it friendly, antagonistic, uneasy, or romantic? How important does your patron consider you to be? What part do you play in your patron’s plans? Do you know other servants of your patron?
+
+How does your patron communicate with you? If you have a familiar, it might occasionally speak with your patron’s voice. Some warlocks find messages from their patrons etched on trees, mingled among tea leaves, or adrift in the clouds — messages that only the warlock can see. Other warlocks converse with their patrons in dreams or waking visions, or deal only with intermediaries.
+
+#### Quick Build
+You can make a warlock quickly by following these suggestions. First, Intelligence or Wisdom or Charisma should be your highest ability score, followed by Constitution. Second, choose the charlatan background.
+{{pageNumber,auto}}
+\page
+
+{{classTable,frame,decoration,wide
+##### The Warlock
+| Level | Proficiency | Features     |           | Prepared |  | --- Spell Slots Per Spell Level ---|||||
+|      ^| Bonus       |             ^|Invocations| Spells    | Cantrips  |1st |2nd |3rd |4th |5th |
+|:-----:|:-----------:|:-------------|:---------:|:--------:|:------:|:--:|:--:|:--:|:--:|:--:|
+|  1st  | +2 | Pact Boon, Spellcasting, Otherworldly Patron  | —   |    2     |   2    | 2  | —  | —  | —  | —  |
+|  2nd  | +2 | Eldritch Invocations    | 2   |    3     |   2    | 2  | —  | —  | —  | —  |
+|  3rd  | +2 | Subclass Feature  | 2   |    4     |   2    | 3  | —  | —  | —  | —  |
+|  4th  | +2 | Ability Score Improvement     | 2   |    5     |   3    | 3  | —  | —  | —  | —  |
+|  5th  | +3 | Eldritch Invocation       | 3   |    6     |   3    | 4  | 2  | —  | —  | —  |
+|  6th  | +3 | Subclass Feature     | 3   |    6     |   3    | 4  | 2  | —  | —  | —  |
+|  7th  | +3 | Eldritch Invocation    | 4   |    7     |   3    | 4  | 3  | —  | —  | —  |
+|  8th  | +3 | Ability Score Improvement    | 4   |    7     |   3    | 4  | 3  | —  | —  | —  |
+|  9th  | +4 | Eldritch Invocation     | 5   |    9     |   3    | 4  | 3  | 2  | —  | —  |
+| 10th  | +4 | Subclass Feature      | 5   |    9     |   3    | 4  | 3  | 2  | —  | —  |
+| 11th  | +4 | Contact Patron, Eldritch Invocation    | 6   |    10     |   4    | 4  | 3  | 3  | —  | —  |
+| 12th  | +4 | Ability Score Improvement | 6   |    10     |   4    | 4  | 3  | 3  | —  | —  |
+| 13th  | +5 | Eldritch Invocation       | 7   |    11    |   4    | 4  | 3  | 3  | 1  | —  |
+| 14th  | +5 | Subclass Feature  | 7   |    11    |   4    | 4  | 3  | 3  | 1  | —  |
+| 15th  | +5 | Eldritch Invocation  | 8   |    12    |   4    | 4  | 3  | 3  | 2  | —  |
+| 16th  | +5 | Ability Score Improvement     | 8   |    12    |   4    | 4  | 3  | 3  | 2  | —  |
+| 17th  | +6 | Eldritch Invocation          | 9   |    14    |   4    | 4  | 3  | 3  | 3  | 1  |
+| 18th  | +6 | Hex Master       | 9   |    14    |   4    | 4  | 3  | 3  | 3  | 1  |
+| 19th  | +6 | Ability Score Improvement | 9  |    15    |   4    | 4  | 3  | 3  | 3  | 2  |
+| 20th  | +6 | Eldritch Master       | 9  |    15    |   4    | 4  | 3  | 3  | 3  | 2  |
+}}
+
+ {{imageMaskEdge6,--offset:11%,--rotation:90
+  ![](https://cdn.wallpapersafari.com/39/43/UFty3N.jpg){height:100%,bottom:0px}
+}}
+
+<img src='https://i.imgur.com/DpXtvRk.png'
+style='position:absolute;bottom:-10px;left:-160px;
+width:600px;'/> 
+{{artist,position:relative,top:200px,left:230px,margin-bottom:-30px
+##### Pracmenar
+}}
+
+
+\column
+
+
+## Class Features
+
+#### Hit Points
+**Hit Dice:**                    :: 1d8 per warlock level
+**Hit Points at 1st Level:**     :: 8 + your Constitution modifier
+**Hit Points at Higher Levels:** :: 1d8 (or 5) + your Constitution modifier per warlock level after 1st
+
+#### Proficiencies
+**Armor:**   :: Light armor, Medium armor
+**Weapons:** :: Simple weapons
+**Tools:**   :: None
+
+**Saving Throws:** :: Wisdom, Charisma
+**Skills:**        :: Choose two from Arcana, Deception, History, Intimidation, Investigation, Nature, Religion
+
+#### Equipment
+You start with the following equipment, in addition to the equipment granted by your background:
+- *(a)* a light crossbow and 20 bolts or *(b)* any simple weapon
+- *(a)* a component pouch or *(b)* an arcane focus
+- *(a)* a scholar's pack or *(b)* a dungeoneer's pack
+- Leather armor, any simple weapon, and two daggers
+
+{{pageNumber,auto}}
+\page
+### Otherworldly Patron
+By 1st level, you have struck a bargain with an otherworldly being of your choice. Your choice grants you features at 3rd, 6th, 10th, and 14th level.
+
+### Pact Boon
+At 1st level, you have formed a pact with an otherworldly entity that has bestowed magical powers upon you. You always have the *Eldritch Blast* and *Hex* spells prepared, and you choose one of the following boons, each of which is detailed below. You determine the identity of the entity and choose its plane of existence, such as the Feywild, the Shadowfell, or an Outer Plane.
+
+Each boon gives you a choice for the spellcasting ability used by your Spellcasting feature, and it gives you a pact spell that you always have prepared.
+#### Pact of the Bag
+**Spellcasting Ability:** Intelligence or Wisdom::
+**Pact Spell:** Pact Bag::
+
+#### Pact of the Blade
+**Spellcasting Ability:** Wisdom or Charisma::
+**Pact Spell:** Pact Weapon::
+
+#### Pact of the Chain
+**Spellcasting Ability:** Intelligence or Charisma::
+**Pact Spell:** Pact Familiar::
+
+#### Pact of the Cloak
+**Spellcasting Ability:** Wisdom or Charisma::
+**Pact Spell:** Pact Cloak::
+
+#### Pact of the Shield
+**Spellcasting Ability:** Intelligence or Charisma::
+**Pact Spell:** Pact Shield::
+
+#### Pact of the Tome
+**Spellcasting Ability:** Intelligence or Wisdom::
+**Pact Spell:** Book of Shadows::
+
+\column
+
+### Spellcasting
+At 1st level, delving into eldritch secrets, you have learned how to cast spells.
+
+#### Cantrips
+You know two cantrips of your choice from the Arcane spell list. Rather than choosing, you may start with Chill Touch and Prestidigitation. Whenever you gain a Warlock level, you can replace one of your cantrips with another Arcane cantrip of your choice. When you reach 4th and 10th level in this class, you learn another Arcane cantrip of your choice, as shown in the Cantrips column of the Warlock table.
+
+#### Spell Slots
+The Warlock table shows how many Spell Slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell’s level or higher. You regain all expended Spell Slots when you finish a Long Rest.
+
+#### Prepared Spells of 1st+ Level
+You prepare the list of spells of 1st level and higher that are available for you to cast with this feature. To start, choose two 1st-level spells from the Arcane spell list. Rather than choosing, you may start with Charm Person and Witch Bolt.
+
+
+The number of spells on your list increases as you gain Warlock levels, as shown in the Prepared Spells column of the Warlock table. Whenever that number increases, choose additional spells from the Arcane spell list until the number of spells on your list matches the number on the table. The chosen spells must be of a level for which you have Spell Slots. For example, if you’re a 5th-level Warlock, your list of prepared spells can include six Arcane spells of 1st or 2nd level, in any combination.
+
+If another Warlock feature gives spells that you always have prepared, those spells don’t count against the number of spells on the list you prepare with this Spellcasting feature, but those spells otherwise follow the rules in this feature.
+
+#### Changing Your Prepared Spells
+Whenever you gain a Warlock level, you can replace one spell on your list with another Arcane spell for which you have Spell Slots. 
+
+#### Spellcasting Ability
+Your Pact Boon feature determines the spellcasting ability for the spells you cast with your Warlock features. you use your spellcasting ability modifier when setting the saving throw DC for a warlock spell you cast and when making an attack roll with one.
+
+**Spell save DC** = 8 + your proficiency bonus + your spellcasting modifier
+
+**Spell attack modifier** = your proficiency bonus + your spellcasting modifier
+
+
+#### Spellcasting Focus
+You can use an Arcane Focus as a Spellcasting Focus for the spells you cast with your Warlock features.
+
+{{pageNumber,auto}}
+\page
+
+### Eldritch Invocations
+Starting 2nd level, in your study of occult lore, you have unearthed Eldritch Invocations, fragments of forbidden knowledge that imbue you with an abiding magical ability or other lessons.
+
+You gain two Eldritch Invocations of your choice from the “Eldritch Invocation Options” section later in this class’s description. You can’t pick the same invocation more than once unless an invocation’s description says otherwise.
+
+If an invocation has a prerequisite, you must meet it to learn that invocation, and you can learn the invocation at the same time that you meet its prerequisite. For example, if an invocation requires you to be a 5th-level Warlock, you can select the invocation when you reach 5th level in this class.
+
+When you gain certain Warlock levels, you gain more invocations of your choice, as shown in the Invocations column of the Warlock table.
+
+Additionally, whenever you gain a Warlock level, you can choose one of the invocations you know and replace it with another invocation for which you qualify, or if the invocation (such as Mystic Arcanum) involved a choice, you can replace the invocation with itself but make a different choice.
+
+
+### Ability Score Improvement
+When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
+
+### Contact Patron
+By 11th level, in the past, you have usually contacted your patron through intermediaries. Now you can communicate directly; you always have the Contact Other Plane spell prepared. With this feature, you can cast the spell without expending a Spell Slot to contact your patron, and you automatically succeed on the spell’s saving throw.
+
+Once you cast the spell with this feature, you can’t do so again until you finish a Long Rest.
+
+### Hex Master
+Starting at 18th level, you have mastered the dread application of hexes, allowing you to cast the Hex spell without expending a Spell Slot.
+
+### Eldritch Master
+At 20th level, you can draw on your inner reserve of mystical power while entreating your patron to regain expended spell slots. You can spend 1 minute entreating your patron for aid to regain one expended spell slot of each level and any uses of Mystic Arcanum up to level 7. Once you use this feature, you must finish a long rest before you can do so again.
+
+
+
+\column
+
+## Pact Spells
+#### Book of Shadows
+*Conjuration Cantrip*
+
+**Casting Time:** :: 1 hour
+**Range:**        :: self
+**Components:**   :: S, V
+**Duration:**     :: instantaneous
+
+Stitching together strands of shadow, you conjure forth a book in your hand. The book contains eldritch magic that only you can access, granting you the following benefits:
+
+**Cantrips and Rituals.** When the book appears, choose two cantrips, and choose two 1st-level spells that have the Ritual tag. The spells can be from the Arcane, Divine, and Primal spell lists, and they must be spells you don’t already have prepared. While the book is on your person, you have the chosen spells prepared.
+
+**Spellcasting Focus.** You can use the book as a Spellcasting Focus.
+
+The book disappears if you cast this spell again or die.
+
+**Cantrip Upgrade.** When you reach 5th level as a Warlock, this spell also enhances other cantrips while the book is on your person; you can add your Warlock spellcasting ability modifier to the damage rolls of any cantrip you cast that doesn’t already have that modifier added to its damage roll.
+
+#### Pact Familiar
+*Conjuration Cantrip*
+
+**Casting Time:** :: 1 hour
+**Range:**        :: 10 feet
+**Components:**   :: S, V
+**Duration:**     :: Instantaneous
+
+You summon an unearthly entity to serve you. It manifests in an unoccupied space of your choice within range. This creature uses the Pact Familiar stat block. If you already have a familiar from this spell, that familiar transforms into the new one but retains its memories; you don’t get a second Pact Familiar.
+
+Whenever you cast the spell, choose the familiar’s creature type: Aberration (flumph or knot of tentacles), Celestial (owl, raven, or other bird), Dragon (pseudodragon or similar dragonet), Fey (pixie or sprite), Fiend (imp or quasit), or Undead (shadow or skull). This choice affects the familiar’s default appearance, as noted in the parentheses, and it determines certain traits in its stat block. You can alter details of the creature’s appearance each time you summon it.
+
+**Combat.** The familiar is an ally to you and your companions, and it obeys you. In combat, it shares your Initiative count, but it takes its turn immediately after yours. On its turn, the familiar takes the Dodge action and uses its Move to avoid danger, unless you use your Reaction to command it to attack instead.
+{{pageNumber,auto}}
+\page
+**Disappearance of the Familiar.** The familiar disappears if it drops to 0 Hit Points, if you dismiss it as a Bonus Action, or if you die. When it disappears, it leaves behind anything it was wearing or carrying. If you cast this spell again,
+you decide whether you summon the familiar that disappeared or a different one.
+
+**Remote Viewing.** As an action, you can see what your familiar sees and hear what it hears until the end of your next turn.
+
+**Cantrip Upgrade.** Starting when you reach 5th level as a Warlock, you can communicate telepathically with your familiar as long as you two are on the same plane of existence. Additionally, while perceiving through your familiar’s senses, you can also speak through your familiar in your own voice 
+
+#### Pact Weapon
+*Conjuration Cantrip*
+
+**Casting Time:** :: 1 action
+**Range:**        :: self
+**Components:**   :: S
+**Duration:**     :: 24 hours
+
+Tracing arcane sigils in the air, you conjure a Simple or Martial melee weapon of your choice in your outstretched hand, or you create a bond with a magic weapon you touch. The weapon you conjure or touch must lack the Heavy property, and the spell fails if you touch a magic item that is attuned to someone else. 
+
+For the duration, the weapon grants you the following benefits:
+
+**Eldritch Warrior.** When you attack with the weapon, you can use your spellcasting ability modifier for the attack and damage rolls, instead of using Strength or Dexterity.
+
+**Proficiency.** You have proficiency with the weapon.
+
+**Returning Weapon.** If the weapon has the Thrown property, the weapon returns to your hand immediately after hitting or missing a target.
+
+The spell ends early if you cast the spell again or die. When it ends, a conjured weapon disappears, or your bond with a magic weapon stops.
+
+**Cantrip Upgrade.** When you reach 5th level as a Warlock, you gain the Extra Attack feature for the conjured or magic weapon only. With that feature, you can attack twice with the weapon, instead of once, when you take the Attack action on your turn Moreover, if you use your action to cast a Warlock spell, you can make one weapon attack as a bonus action on that turn.
+
+
+
+\column
+
+#### Pact Cloak
+*Conjuration Cantrip*
+
+**Casting Time:** :: 1 action
+**Range:**        :: self
+**Components:**   :: S
+**Duration:**     :: 24 hours
+
+Shrouding yourself in eldritch fabric, you conjure a mystical cloak that binds to your shoulders. While wearing the cloak, you add your spellcasting ability modifier to any Dexterity (Stealth) checks you make. 
+
+The cloak vanishes if you cast this spell again, if you die, or if you doff it as a Bonus Action.
+
+While wearing the cloak, you can also cast the *Chameleon* spell at will.
+
+**Cantrip Upgrade.** Starting at 5th level as a Warlock, you can use your Bonus Action to become invisible until the end of your turn while wearing the cloak. This invisibility ends early if you attack or cast a spell.
+
+#### Pact Bag
+*Conjuration Cantrip*
+**Casting Time:** :: 1 action
+**Range:**        :: self
+**Components:**   :: S
+**Duration:**     :: 24 hours
+
+You conjure an otherworldly bag  that bonds to you and contains a small extradimensional pocket. Only you can access this space unless you willingly hand the bag to another creature. The bag vanishes if you cast this spell again, if you die, or if you remove it as a Bonus Action.
+
+The extradimensional pocket can hold up to 64 cubic feet or 500 pounds of material. Retrieving or storing an item from the hat requires an Action. The space is in a pocket dimension; the hat always weighs 3 pounds, regardless of its contents. Time does not pass for objects stored in the hat. Food does not spoil, and flames are extinguished when stored.
+
+**Cantrip Upgrade.** Starting at 5th level as a Warlock, you can use a Bonus Action to magically produce any stored item that weighs 10 pounds or less directly into your hand.
+
+#### Pact Shield
+*Conjuration Cantrip*
+**Casting Time:** :: 1 action
+**Range:**        :: self
+**Components:**   :: S
+**Duration:**     :: 24 hours
+
+Tracing arcane sigils in the air, you conjure a magical shield in your off-hand, or you create a bond with a shield you touch. You have proficiency with the shield and while wielding the shield, you gain a +2 bonus to AC.
+
+**Cantrip Upgrade.** Starting at 5th level as a Warlock, you can add your shield’s AC bonus to any Dexterity saving throw you make against a spell or other harmful effect that targets only you.
+{{pageNumber,auto}}
+\page
+
+## Otherworldly Patrons
+
+### The Alabaster
+Some wield magic not for personal glory, but to cultivate devoted followers who will act in their stead. Warlocks of the Alabaster Pact use enchantments and mystical influence to guide their chosen allies, ensuring that they execute the warlock’s will with precision.
+
+Masters of subtlety and strategy, these warlocks rarely take center stage in battle, preferring to operate from the shadows, directing their forces with an unseen hand.
+
+
+
+
+#### Bound Guardian
+At 3rd level, you can form a mystical bond with a loyal companion who fights by your side. Choose a willing humanoid that accompanies you on your adventures. This companion must be Large or smaller and have a challenge rating of 1/4 or lower.
+
+Your companion benefits from your magical influence, gaining the following enhancements:
+
+- Add your proficiency bonus to its AC, attack rolls, and damage rolls, as well as to any saving throws and skill checks it is proficient in.
+- Its hit point maximum equals either the hit point number in its stat block or four times your warlock level, whichever is higher. Like any creature, it can spend Hit Dice during a short rest to regain hit points.
+- Your companion has a number of d8 Hit Dice equal to your warlock level.
+
+Your bound guardian follows your commands and acts on your initiative. On your turn, you can verbally direct it where to move (no action required). You can use your bonus action to command it to take the Attack, Dash, Disengage, or Help action. If you issue no command, it takes the Dodge action.
+
+If you are incapacitated or absent, your companion acts on its own, focusing on protecting you and itself. It never requires your command to use its reaction, such as making an opportunity attack.
+
+If your companion is defeated, you can form a bond with a new willing humanoid who meets the requirements. You may only have one bound guardian at a time, but you may choose to release your current companion at any time.
+
+
+At 11th level, you can bond with a humanoid of challenge rating 1 or lower, and when you command your companion to take the Attack action, it can make two attacks or use its Multiattack action if it has one.
+
+At 17th level, you can bond with a humanoid of challenge rating 2 or lower.
+
+\column
+
+
+#### Alabaster Spells
+Your future self lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.
+Warlock Level| Spells
+:-|:-
+3rd| *Command, Sleep*
+5th| *Calm Emotions, Mind Whip*
+9th| *Catnap, Sending*
+13th| *Confusion, Dominate Beast*
+17th| *Dominate Person, Modify Memory*
+#### Devoted Guardian
+At 6th level, your companion's unwavering loyalty strengthens their will. While they can see you, they have advantage on all saving throws and cannot be charmed by anyone other than you.
+
+#### Sacrificial Bond
+At 10th level, you have learned to channel the resilience of your bound guardian, transferring their energy through yourself to your patron.
+
+As an action, you can drain vitality from your companion. You may remove any number of their Hit Dice. For each Hit Die removed, roll a d8 and choose one of the following effects:
+
+- You regain hit points equal to the total rolled.
+- You deal necrotic damage equal to the total rolled to a creature within 120 feet. The target can make a Charisma saving throw against your spell save DC, taking half damage on a success. 
+
+In either case, your companion takes necrotic damage equal to the total rolled.
+
+#### Retributive Strike
+At 14th level, your companion has become fiercely dedicated to your survival. If your bound guardian attacks the last creature that dealt damage to you within the past minute, they make their attack rolls with advantage and score a critical hit on a 19 or 20.
+{{pageNumber,auto}}
+\page
+
+### The Archfey
+Your patron is a lord or lady of the fey, a creature of legend who holds secrets that were forgotten before the mortal races were born. This being's motivations are often inscrutable, and sometimes whimsical, and might involve a striving for greater magical power or the settling of age-old grudges. Beings of this sort include the Prince of Frost; the Queen of Air and Darkness, ruler of the Gloaming Court; Titania of the Summer Court; her consort Oberon, the Green Lord; Hyrsam, the Prince of Fools; and ancient hags.
+#### Archfey Spells
+The archfey lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.
+Warlock Level| Spells
+|:---------:|:------------:|
+3rd| faerie fire, sleep
+5th| calm emotions, phantasmal force
+9th| blink, plant growth
+13th| dominate beast, greater invisibility
+17th| dominate person, seeming
+
+\column
+
+#### Fey Presence
+Starting at 3rd level, your patron bestows upon you the ability to project the beguiling and fearsome presence of the fey. As an action, you can cause each creature in a 10- foot cube originating from you to make a Wisdom saving throw against your warlock spell save DC. The creatures that fail their saving throws are all charmed or frightened by you (your choice) until the end of your next turn.
+
+Once you use this feature, you can't use it again until you finish a short or long rest.
+#### Misty Escape
+Starting at 6th level, you can vanish in a puff of mist in response to harm. When you take damage, you can use your reaction to turn invisible and teleport up to 60 feet to an unoccupied space you can see. You remain invisible until the start of your next turn or until you attack or cast a spell.
+
+Once you use this feature, you can't use it again until you finish a short or long rest. unless you expend a Spell Slot of at least 2nd level when you use it again.
+#### Beguiling Defenses
+Beginning at 10th level, your patron teaches you how to turn the mind-affecting magic of your enemies against them. You are immune to being charmed, and when another creature attempts to charm you, you can use your reaction to attempt to turn the charm back on that creature. The creature must succeed on a Wisdom saving throw against your warlock spell save DC or be charmed by you for 1 minute or until the creature takes any damage.
+
+#### Dark Delirium
+Starting at 14th level, you can plunge a creature into an illusory realm. As an action, choose a creature that you can see within 60 feet of you. It must make a Wisdom saving throw against your warlock spell save DC. On a failed save, it is charmed or frightened by you (your choice) for 1 minute or until your concentration is broken (as if you are concentrating on a spell). This effect ends early if the creature takes any damage.
+
+Until this illusion ends, the creature thinks it is lost in a misty realm, the appearance of which you choose. The creature can see and hear only itself, you, and the illusion.
+
+Once you use this feature, you can’t use it again until you finish a Long Rest unless you expend a Spell Slot of at least 4th level when you use it again.
+{{pageNumber,auto}}
+\page
+### The Archmage
+For those with the willpower and time, arcane magic can be a path to great power. Those who ascend to these lofty heights of arcane power are known as Archmages, masters of the weave. So wondrous is their power, and so strange are their goals, these masters of magic will sometimes enlist warlocks to help with, what appear to the Archmage, to be trivial tasks.
+
+#### Archmage Spell
+The Archmage lets you choose from an expanded list of spells when you learn a warlock spell. Starting at 3rd level,
+the spells below are added to the warlock spell list for you.
+
+Warlock Level|	Spells
+:-:|:-:
+3rd|	magic missile, shield
+5th|	magic weapon, rope trick
+9th|	lightning bolt, tiny servant
+13th|	arcane eye, resilient sphere
+17th|	arcane hand, wall of force
+
+#### Arcane Apprentice
+When you make your Pact with the Archmage, they impart to you a mote of their wondrous arcane ability so you may carry out their wishes. At 3rd level, you gain the following benefits:
+
+- Intelligence becomes your spellcasting ability for warlock spells and class features. Anytime you gain a warlock feature that uses your spellcasting modifier, you use Intelligence instead.
+- You gain proficiency in Arcana.
+- You learn one cantrip of your choice from the wizard spell list. It counts as a warlock cantrip for you, but it doesn't count against your total number of Cantrips Known.
+
+\column
+
+#### Astral Slip
+Beginning at 6th level, you can draw on the arcane power of your patron to shield yourself from harm. When you are hit by an attack, you can use your reaction to roll a d6. On a roll of 4 or higher, the attack instead misses you, regardless of its roll. 
+
+Once you use this feature, you can’t use it again until you finish a short or long rest. unless you expend a Spell Slot of at least 2nd level when you use it again.
+
+#### Arcane Savant
+Your patron grants you enhanced insight into the theories of arcane magic. Also at 6th level, each time you finish a long rest you can replace one warlock spell you know of 1st-level or higher with another warlock spell of your choice.
+
+#### Spell Ward
+Your understanding of the arcane allows you to resist magical effects. At 10th level, you gain resistance to force damage.
+
+Additionally, when you are forced to make a saving throw to resist the effects of a spell, you can make an Intelligence saving throw in place of the normal saving throw.
+
+You can use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a long rest.
+
+#### Banishing Shunt
+Starting at 14th level, when you hit a creature with an attack, you can force them to make a Charisma saving throw in place of dealing damage. On a failed save, the target is instantly transported to a demiplane of your patron's creation for up to 1 minute, or until you lose concentration on this ability.
+
+When this feature ends, the banished creature returns to the nearest unoccupied space and must make an additional Charisma saving throw. It takes 5d10 force damage on a failed save, and half as much on a success.
+
+Once you use this feature to banish a creature you must finish a long rest before you can use it again.
+
+{{pageNumber,auto}}
+\page
+### The Celestial
+Your patron is a powerful being of the Upper Planes. You have bound yourself to an ancient empyrean, solar, ki-rin, unicorn, or other entity that resides in the planes of everlasting bliss. Your pact with that being allows you to experience the barest touch of the holy light that illuminates the multiverse.
+
+Being connected to such power can cause changes to your behavior and beliefs. You might find yourself driven to annihilate the undead, to defeat fiends, and to protect the innocent. At times, your heart might also be filled with a longing for the celestial realm of your patron, a desire to wander that paradise for the rest of your days. But you know that your mission is among mortals for now and that your pact binds you to bring light to the dark places of the world.
+#### Celestial Spells
+The celestial lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.
+
+Warlock Level| Spells
+|:---------:|:------------:|
+3rd| cure wounds, guiding bolt
+5th| flaming sphere, lesser restoration
+9th| daylight, revivify
+13th| guardian of faith, wall of fire
+17th| flame strike, greater restoration
+#### Bonus Cantrips
+At 3rd level, you learn the Light and Sacred Flame cantrips. They count as warlock cantrips for you, but they don’t count against your number of cantrips known.
+#### Healing Light
+At 3rd level, you gain the ability to channel celestial energy to heal wounds. You have a pool of d6s that you spend to fuel this healing. The number of dice in the pool equals 1 + your warlock level.
+
+As a bonus action, you can heal one creature you can see within 60 feet of you, spending dice from the pool. The maximum number of dice you can spend at once equals your spellcasting modifier (minimum of one die). Roll the dice you spend, add them together, and restore a number of hit points equal to the total.
+
+Your pool regains all expended dice when you finish a long rest.
+#### Radiant Soul
+Starting at 6th level, your link to the Celestial allows you to serve as a conduit for radiant energy. You have resistance to radiant damage, and when you cast a spell that deals radiant or fire damage, you add your spellcasting modifier to one radiant or fire damage roll of that spell against one of its targets.
+
+\column
+
+#### Celestial Resistance
+Starting at 10th level, you gain temporary hit points whenever you finish a short or long rest. These temporary hit points equal your warlock level + your Charisma modifier. Additionally, choose up to five creatures you can see at the end of the rest. Those creatures each gain temporary hit points equal to half your warlock level + your spellcasting modifier.
+#### Searing Vengeance
+Starting at 14th level, the radiant energy you channel allows you to resist death. When you have to make a death saving throw at the start of your turn, you can instead spring back to your feet with a burst of radiant energy. You regain hit points equal to half your hit point maximum, and then you stand up if you so choose. Each creature of your choice that is within 30 feet of you takes radiant damage equal to 2d8 + your spellcasting modifier, and is blinded until the end of the current turn.
+
+Once you use this feature, you can’t use it again until you finish a Long Rest unless you expend a Spell Slot of at least 4th level when you use it again. You can use this feature only once per round.
+{{pageNumber,auto}}
+\page
+### The Coven
+Grandmother, wood witch, medicine woman, old crone; the strange creatures known as hags go by many names. Their motivations are nearly alays sinister, and they delight in the suffering of others. When hags gather and form a magic pact, known as a Coven, they gain access to power beyond what any of them could hope to achieve individually. Together, their ability to sow pain increases tenfold. What strange bargain have you made to access the Coven's unorthodox magic?
+
+#### Coven Spell List
+The Coven lets you choose from an expanded list of spells when you learn a warlock spell. Beginning at 1st level, the following spells are added to the warlock spell list for you.
+
+Warlock Level|	Spells
+:-:|:-:
+3rd|	inflict wounds, ray of sickness
+5th|	alter self, enhance ability
+9th|	bestow curse, nondetection
+13th|	dominate beast, polymorph
+17th|	insect plague, skill empowerment 
+
+#### Weird Magicks
+At 3rd level, your Coven grants you knowledge of unorthodox magic. When you cast a warlock spell of 1st-level or higher, you can replace its damage with the damage type from another warlock spell you know of 1st-level or higher, altering the spell for this casting only.
+
+Spells cast in this way resemble the strange magic of hags, and may be unrecognizable to traditional spellcasters, though your spells can be dispelled and counterspelled as normal.
+
+#### Deviant Recovery
+Beginning at 6th level, when you finish a short rest, instead of regaining an expended spell slot, you can impart its magical energy to a friendly creature with the spellcasting ability who completed the short rest with you. That creature regains expended spell slots that have a combined level equal to or less than the level of your spell slot.
+
+Once you impart magical energy with this feature you must finish a long rest before you can do so again.
+
+#### Vile Resilience
+ Beginning at 10th level, when you take damage from a spell or other magical effect, you can use your reaction to grant yourself resistance to the damage from the triggering spell or magical effect.
+
+You can use this reaction a number of times equal to your spellcasting modifier (minimum of once), and you regain all of its expended uses each time you complete a long rest.
+
+\column
+
+#### Shared Spellcasting
+At 14th level, you have grown powerful enough to form a Coven of your own. At the end of a long rest, you can choose two willing creatures with the spellcasting to form a Coven with you. While the members of your Coven are within 30 feet of one another, they can all cast any Spell Known or prepared by another member of the Coven, along with their own spells, expending their own spell slots.
+
+All members of a Coven are always aware of the direction and distance between them and the other members of their Coven, so long as they are on the same plane of existence.
+
+When you form a Coven, the bond remains in place until you complete 1d6 long rests, or a Coven member dies. You can then form a new Coven at the end of your next long rest.
+
+{{note
+##### Forming Your Coven
+Each warlock may have different requirements for others to enter their Coven. Some take any who provide their power freely, while others require embers to swear loyalty to their own Patron Coven.
+}}
+{{pageNumber,auto}}
+\page
+### The Dead Mists
+The starry expanse of the Astral Plane contains horrors both great and small, but none rival the mass of astral fog known as the Dead Mists. An inky smoke that curls and drifts about the plane, they are infamous for claiming every incautious traveler that wanders into their misty embrace. Yet the Dead Mists aren’t a mere astral hazard: they possess a grim intelligence, an intent, and a bottomless well of necromantic power.
+
+Warlocks that embrace the Dead Mists unlock a terrible type of necromancy: the ability to trade pure life essence for arcana. As such, the Dead Mists slowly consume their warlocks, granting them surges of arcane power in exchange for every drop of life they possess.
+
+\column
+
+#### Dead Mists Spells 
+The Dead Mists let you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.
+Dead Mist Expanded Spells
+Warlock Level| Spells
+|:---------:|:------------:|
+3rd| dead mist lash, fog cloud
+5th| detect thoughts, protect threshold
+9th| clairvoyance, dead fog
+13th| black tentacles, confusion
+17th| cloudkill, scrying
+#### Drink the Mists
+Starting at 3rd level, you learn to draw the withering Dead Mists into your soul, granting you eldritch insights and power at the cost of your health. As a bonus action, you can choose to lose hit points equal to a number of d8 rolls of your choice , up to 5 dice slots. At the start of your next turn, you regain expended spell slots of levels equal to the number of dice rolled or lower. If this ability reduces you to 0 hit points, you are knocked unconscious, even if you have temporary hit points.
+
+Because of the soul-draining nature of the Dead Mists, you can’t regain hit points from any spell you cast.
+#### Feed the Soul
+Starting at 6th level, your body begins to merge with the Dead Mists, allowing you to heal your mortal form by burning eldritch energy. As an action on your turn, you can consume one spell slot to regain 1d8 hit points for each level of the spell slot consumed. This amount of healing can’t be increased or maximized.
+#### Fog Form
+At 10th level, you learn to fully immerse yourself in the Dead Mists, transforming into a hazy, misty reflection of your true self. As an action, you can cast the spell gaseous form, targeting yourself only, without using a spell slot.
+
+#### Master of the Mists
+Starting at 14th level, once on each of your turns when you deal necrotic damage to a hostile creature with a warlock spell, you drain some of the target's life essence with the Dead Mists. You regain hit points equal to 1d8 + your spellcasting modifier, up to the damage dealt.
+
+{{pageNumber,auto}}
+\page
+### The Elder Sphinx
+Immortal guardians of divine treasures, Sphinxes live to test mortals who desire the relics of forgotten deities. They are masters of riddles and other trials that reveal the true nature of those they put to the test. To an Elder Sphinx, time has no meaning, and legends say the most powerful Sphinxes can influence the flow of time with their ancient magic.
+
+You have entered into a pact with one such Elder Sphinx. Do you work in tandem, or did you fail the test of the Sphinx, and rather then perish you opted to serve them with your life?
+
+#### Elder Sphinx Spells
+The Elder Sphinx lets you choose from an expanded list of spells when you learn a warlock spell. Starting at 1st level,
+the spells below are added to the warlock spell list for you.
+
+Warlock Level|	Spells
+:-:|:-:
+3rd|	command, detect evil and good
+5th|	lesser restoration, zone of truth
+9th|	clairvoyance, slow
+13th|	divination, freedom of movement
+17th|	dispel evil and good, greater restoration,	time stop
+
+#### Guardian's Ward
+The power granted by your Patron allows you to prevent the unworthy from approaching you or anything you stand guard over. Beginning at 3rd level, you can use an action to project a small but powerful magical Ward outward from yourself, with a radius in feet equal to five times your proficiency bonus.
+
+When a hostile creature enters the area of your Ward, or starts its turns within it, it must succeed on a Strength saving throw in order to move. On a success, it can move, but it treats the area within your Ward as difficult terrain. On a failure, it cannot move into, or within, the area of your Ward.
+
+Your Ward lasts for 1 minute. It ends early if you end it as a bonus action or you are incapacitated. Once used, you must finish a short or long rest before you can use the Ward again.
+
+#### Time Slip
+Beginning at 6th level, you learn to manipulate time in minor ways, much like the great Sphinx of legend. As an action, you can pause time for all creatures other than you, and move up to twice your speed without provoking opportunity attacks. You can only use this bonus movement while time is stopped. You cannot use actions, bonus actions, or reactions during this period. Time resumes when you finish your movement.
+
+Once you use this action, you must finish a short or long rest before you can use it again. If you have no uses left, you can expend a Spell Slot of at least 2nd level when you use it again.
+
+
+\column
+
+#### Inscrutable
+Your Patron shields you from divination magic, much like it is shielded from such spells. Beginning at 10th level, you are immune to any effect that would sense your emotions or read your thoughts, as well as any divination spell that you refuse.
+
+Moreover, any Wisdom (Insight) checks made to ascertain your intentions or sincerity are made at disadvantage.
+
+#### Eternal Guardian
+The Sphinx you serve has blessed you with a semblance of their immortality. Starting at 10th level, you no longer require food, water, or sleep, although you still require rest to reduce exhaustion and still benefit from both short and long rests.
+
+In addition, for every 10 years that pass, your body ages only 1 year, and you are immune to being aged by magic.
+
+#### Power of the Ancients
+Starting at 14th level, you gain an empowered mastery over time, but only in your sphere of influence. As an action, while your Guardian's Ward is active, you can cast a limited version of time stop. However, you may only interact with creatures and objects within the radius of your Guardian's Ward.
+
+When your time stop spell ends, your Guardian's Ward ends as well. Once you cast time stop in this way you must finish a long rest before you can cast it in this way again.
+
+{{pageNumber,auto}}
+\page
+
+### The Fathomless
+You have plunged into a pact with the deeps. An entity of the ocean, the Elemental Plane of Water, or another otherworldly sea now allows you to draw on its thalassic power. Is it merely using you to learn about terrestrial realms, or does it want you to open cosmic floodgates and drown the world?
+
+Perhaps you were born into a generational cult that venerates the Fathomless and its spawn. Or you might have been shipwrecked and on the brink of drowning when your patron's grasp offered you a chance at life. Whatever the reason for your pact, the sea and its unknown depths call to you.
+
+#### Fathomless Spells
+The Fathomless lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.
+
+Warlock Level| Spells
+|:---------:|:------------:|
+3rd| Create or Destroy Water, Thunderwave
+5th| Gust of Wind, Silence
+9th| Lightning Bolt, Sleet Storm
+13th| Control Water, Summon Elemental
+17th| Bigby's Hand (appears as a tentacle), Cone of Cold
+
+
+#### Tentacle of the Deep
+At 3rd level, you can magically summon a spectral tentacle that strikes at your foes. As a bonus action, you create a 10- foot-long tentacle at a point you can see within 60 feet of you. The tentacle lasts for 1 minute or until you use this feature to create another tentacle.
+
+When you create the tentacle, you can make a melee spell attack against one creature within 10 feet of it. On a hit, the target takes 1d8 cold damage, and its speed is reduced by 10 feet until the start of your next turn. When you reach 10th level in this class, the damage increases to 2d8.
+
+As a bonus action on your turn, you can move the tentacle up to 30 feet and repeat the attack . You can summon the tentacle a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.
+#### Gift of the Sea
+Also at 3rd level, you gain a swimming speed of 40 feet, and you can breathe underwater.
+#### Oceanic Soul
+At 6th level, you are now even more at home in the depths. You gain resistance to cold damage. In addition, when you are fully submerged, any creature that is also fully submerged can understand your speech, and you can understand theirs.
+
+\column
+
+#### Guardian Coil
+At 6th level, your Tentacle of the Deeps can defend you and others, interposing itself between them and harm. When you or a creature you can see takes damage while within 10 feet of the tentacle, you can use your reaction to choose one of those creatures and reduce the damage to that creature by 1d8. When you reach 10th level in this class, the damage reduced by the tentacle increases to 2d8.
+#### Grasping Tentacles
+Starting at 10th level, You learn the spell Evard's Black Tentacles. It counts as a warlock spell for you, but it doesn't count against the number of spells you know. You can also cast it once without using a spell slot, and you regain the ability to do so when you finish a long rest.
+
+Whenever you cast this spell, your patron's magic bolsters you, granting you a number of temporary hit points equal to your warlock level. Moreover, damage can't break your concentration on this spell.
+#### Fathomless Plunge
+When you reach 14th level, you can magically open temporary conduits to watery destinations. As an action, you can teleport yourself and up to five other willing creatures that you can see within 30 feet of you. Amid a whirl of tentacles, you all vanish and then reappear up to 1 mile away in a body of water you've seen (pond size or larger) or within 30 feet of it, each of you appearing in an unoccupied space within 30 feet of the others.
+
+Once you use this feature, you can’t use it again until you finish a Long Rest unless you expend a Spell Slot of at least 4th level when you use it again.
+{{pageNumber,auto}}
+\page
+
+### The Fiend
+You have made a pact with a fiend from the lower planes of existence, a being whose aims are evil, even if you strive against those aims. Such beings desire the corruption or destruction of all things, ultimately including you. Fiends powerful enough to forge a pact include demon lords such as Demogorgon, Orcus, Fraz'Urb-luu, and Baphomet; archdevils such as Asmodeus, Dispater, Mephistopheles, and Belial; pit fiends and balors that are especially mighty; and ultroloths and other lords of the yugoloths.
+#### Fiend Spells
+The fiend lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.
+Warlock Level| Spells
+|:---------:|:------------:|
+3rd| burning hands, command
+5th| blindness/deafness, scorching ray
+9th| fireball, stinking cloud
+13th| fire shield, wall of fire
+17th| flame strike, hallow
+
+
+#### Dark One's Blessing
+Starting at 3rd level, when you reduce an enemy to 0 Hit Points or an enemy drops to 0 Hit Points within 5 feet of you, you gain Temporary Hit Points equal to your spellcasting ability modifier + your Warlock level (minimum of 1).
+#### Dark One's Own Luck
+Starting at 6th level, you can call on your fiendish patron to alter fate in your favor. When you make an ability check or a saving throw, you can use this feature to add a d10 to your roll. You can do so after seeing the initial roll but before any of the roll’s effects occur.
+
+You can use this feature a number of times equal to your spellcasting ability modifier (minimum of once), and you regain all uses when you finish a Long Rest.
+#### Fiendish Resilience
+Starting at 10th level, you can channel the preternatural resilience of Fiends, choosing one damage type, other than Force, whenever you finish a Short Rest or Long Rest. 
+
+You gain Resistance to that damage type until you choose a different one with this feature.
+
+\column
+
+#### Hurl Through Hell
+Starting at 14th level, when you hit a creature with an attack roll, you can use this feature to instantly transport the target through the Lower Planes. The creature disappears and hurtles through a nightmare landscape.
+
+At the end of your next turn, the target returns to the space it previously occupied or the nearest unoccupied space. If the target is not a Fiend, it must make a Wisdom saving throw against your Spell Save DC upon its return. On a failed save, the target takes 10d10 Psychic damage. On a successful save, it takes half as much damage.
+
+Once you use this feature, you can’t use it again until you finish a Long Rest unless you expend a Spell Slot of at least 4th level when you use it again. You can use this feature only once per turn.
+{{pageNumber,auto}}
+\page
+### The Future You
+Your patron is your future self from many decades ahead. It's possible that your future self came across a powerful artifact that links them to the past, and now they must guide you to discover it. Alternatively, they might have learned mystical arts from their own future self a long time ago, and eventually, you will continue this cycle by teaching yourself. Your future self has forgotten some specific details and refuses to reveal information you're not supposed to know yet.
+
+#### Future You  Spells
+Your future self lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.
+
+Warlock Level| Spells
+|:---------:|:------------:|
+3rd| accelerate/decelerate, instant replay
+5th| delay, recall
+9th| haste, protection from energy
+13th| death ward, dire warning
+17th| evasiveness, legend lore
+
+#### It Happened Like This
+Starting at 3rd level, your discussions of the future with yourself have given you some periphery knowledge about how events played out. When you take a short or long rest, you roll a d20 and record the number rolled on the d20.
+
+You can replace any attack roll, ability check, or saving throw you make with this recorded value. You must choose to do so before the roll and can only use this recorded value once.
+#### I could Do With Fewer Scars
+At 6th level, when a creature you can see makes an attack against you, you can use your reaction to gain a +10 bonus to your AC against that attack.
+
+Once you use this feature, you can’t use it again until you finish a Long Rest unless you expend a Spell Slot when you use it again.
+
+
+#### Expect an Ambush
+At 10th level, your future self always warns you about potential ambushes. As a result, you cannot be surprised while you are conscious, and you have advantage on initiative rolls.
+
+\column
+
+#### Grandfather Paradox
+At 14th level, your knowledge of the future allows you to exploit some of the rules of spacetime. As an action, you can goad a creature that can hear you into causing a paradox. The creature must make an Intelligence saving throw against your warlock spell save DC. On a failed save, the creature is stunned for up to 1 minute, locked between two opposing timelines while the paradox sorts itself out. An affected creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+
+Once you use this feature, you can’t use it again until you finish a Long Rest unless you expend a Spell Slot of at least 4th level when you use it again. You can use this feature only once per turn.
+{{pageNumber,auto}}
+\page
+### The Genie
+You have made a pact with one of the rarest kinds of genie, a noble genie. Such entities rule vast fiefs on the Elemental Planes and have great influence over lesser genies and elemental creatures. Noble genies are varied in their motivations, but most are arrogant and wield power that rivals that of lesser deities. They delight in turning the table on mortals, who often bind genies into servitude, and readily enter into pacts that expand their reach.
+
+You choose your patron's kind or determine it randomly, using the Genie Kind table.
+##### Genie Kind
+
+
+{{column-count:2
+d4| Kind| Element
+:-:|:----------------|:--:|
+1| Dao      | Earth  |
+2| Djinni            | Air |
+
+d4| Kind| Element
+:-:|:------------------|:--:|
+3| Efreeti              | Fire |
+4| Marid         | Water |
+}}
+
+
+#### Genie  Spells
+At 3rd level, the Genie lets you choose from an expanded list of spells when you learn a warlock spell. The Genie Expanded Spells table shows the genie spells that are added to the warlock spell list for you, along with the spells associated in the table with your patron's kind: dao, djinni, efreeti, or marid.
+Warlock Level| Genie Spells| Dao Spells| Djinni Spells| Efreeti Spells| Marid Spells|
+|:---------:|:------------:|:------------:|:---------:|:------------:|:------------:|
+3rd| Detect Evil and Good| Sanctuary| Thunderwave| Burnin Hands| Fog| Cloud|
+5th| Phantasmal Force| Spike Growth| Gust of Wind| Scorching Ray| Blur|
+9th| Create Food and Water| Meld into Stone| Wind Wall| Fireball| Sleet Storm|
+13th| Phantasmal Killer| Stone Shape| Greater Invisibility| Fire Shield| Control Water
+17th| Creation| Wall of Stone| Seeming| Flame Strike| Cone of Cold
+
+\column
+
+
+#### Genie’s Vessel
+Also at 3rd level, your patron gifts you a magical vessel that grants you a measure of the genie's power. The vessel is a Tiny object, and you can use it as a spellcasting focus for your warlock spells. You decide what the object is, or you can determine what it is randomly by rolling on the Genie's Vessel table.
+
+While you are touching the vessel, you can use it in the following ways:
+
+**Bottled Respite:** As an action, you can magically vanish and enter your vessel, which remains in the space you left. The interior of the vessel is an extradimensional space in the shape of a 20-foot-radius cylinder, 20 feet high, and resembles your vessel. The interior is appointed with cushions and low tables and is a comfortable temperature. While inside, you can hear the area around your vessel as if you were in its space. You can remain inside the vessel up to a number of hours equal to twice your proficiency bonus. You exit the vessel early if you use a bonus action to leave, if you die, or if the vessel is destroyed. When you exit the vessel, you appear in the unoccupied space closest to it. Any objects left in the vessel remain there until carried out, and if the vessel is destroyed, every object stored there harmlessly appears in the unoccupied spaces closest to the vessel's former space. Once you enter the vessel, you can't enter again until you finish a long rest.
+
+**Genie’s Wrath:** Once during each of your turns when you hit with an attack roll, you can deal extra damage to the target equal to your proficiency bonus. The type of this damage is determined by your patron: bludgeoning (dao), thunder (djinni), fire (efreeti), or cold (marid).
+
+The vessel's AC equals your spell save DC. Its hit points equal your warlock level plus your proficiency bonus, and it is immune to poison and psychic damage.
+
+If the vessel is destroyed or you lose it, you can perform a 1-hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and the previous vessel is destroyed if it still exists. The vessel vanishes in a flare of elemental power when you die.
+d6| Vessel
+|:---------:|:------------:|
+1| Oil lamp
+2| Urn
+3| Ring with a compartment
+4| Stoppered bottle
+5| Hollow statuette
+6| Ornate lantern
+{{pageNumber,auto}}
+\page
+
+#### Elemental Gift
+At 6th level, you begin to take on characteristics of your patron's kind. You now have resistance to a damage type determined by your patron's kind: bludgeoning (dao), thunder (djinni), fire (efreeti), or cold (marid).
+
+In addition, as a bonus action, you can give yourself a flying speed of 30 feet that lasts for 10 minutes, during which you can hover. You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.
+
+#### Sanctuary Vessel
+At 10th level, When you enter your Genie's Vessel via the Bottled Respite feature, you can now choose up to five willing creatures that you can see within 30 feet of you, and the chosen creatures are drawn into the vessel with you.
+
+As a bonus action, you can eject any number of creatures from the vessel, and everyone is ejected if you leave or die or if the vessel is destroyed.
+
+In addition, anyone (including you) who remains within the vessel for at least 10 minutes gains the benefit of finishing a short rest, and anyone can add your proficiency bonus to the number of hit points they regain if they spend any Hit Dice as part of a short rest there.
+
+#### Wish
+At 14th level, you entreat your patron to grant you a wish. As an action, you can speak your desire to your Genie's Vessel, requesting the effect of one spell that is 8th level or lower and has a casting time of 1 action. 
+
+The spell can be from any class's spell list, and you don't need to meet the requirements in that spell, including costly components: the spell simply takes effect as part of this action.
+
+Once you use this feature, you can't use it again until you finish 1d4 long rests.
+{{pageNumber,auto}}
+\page
+### The GM
+None of this is real, not a lick of it. You, me, the whole damn world: we're nothing but pencil scratches on some pieces of paper. It doesn't matter if you believe me, because there's nothing you or I can do about it. The world is the way it is, and it only exists so long as the GM wants to tell a story; after that, the whole thing goes poof.
+
+The GM isn't one creature. It might be male, female, or something else entirely. Maybe it's old, young, smart, dumb; or any one of a million different things. The GM may be no more powerful than a commoner in its own world, but to our world, its will is absolute. The GM grants us our powers and its laws and decisions dictate the way everything in our world works. In fact, it can change the very fabric of reality on a whim. Those that fight the will of the GM find that its ire is easy to rouse and hard to be rid of, but if you cater to it and play along with the story that it wants to tell, you might find that things go very well for you.
+
+#### Expanded Spell List
+The enigmatic GM lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.
+
+#### The GM Expanded Spells
+Warlock Level| Spells
+|:---------:|:------------:|
+3rd| detect magic, identify
+5th| augury, locate object
+9rd| clairvoyance, remove curse
+13th| divination, locate creature
+17th| commune, legend lore
+#### Player Character
+Beginning at 3rd level, you have grasped the profound secret that you are merely under the control of a far-distant player, making you a player character, one of the GM’s favorite playthings.
+
+You have advantage on Charisma (Persuasion) checks and Charisma (Deception) checks that you make to interact with friendly humanoids. 
+
+However, you only gain this benefit when doing so would advance the plot in a way that the GM feels is appropriate.
+
+\column
+
+#### Fudge the Roll
+By 6th level, your player has gotten a taste of success and wants to look as impressive as possible while achieving it. Consequently, they might occasionally fudge a cosmic die roll in your favor. When you make an attack roll, ability check, or saving throw, you can nudge the d20 slightly, changing the number to one of the three sides adjacent to the topmost side. Alternatively, you can reroll the die. You must use the new result.
+
+Once you use this ability, you can’t do so again until you finish a short or long rest. However, you can push your luck and attempt to use it additional times between rests; doing so might evoke the GM’s wrath, however, and cause unpredictable negative side effects, decided by the GM.
+#### Plot Armor
+By 10th level, you’ve learned that the universe follows an overarching plot, and your role in the plot is critical. As such, the GM conspires to keep you and your allies alive.
+
+When you finish a short or long rest, you and each of your allies that rested with you gains temporary hit points equal to your warlock level plus your spellcasting ability modifier.
+#### OP Class Feature
+At 14th level, you have stored up enough cache with the GM to use abilities other player characters would be punished for employing. 
+
+You can use your bonus action to break the balance of the game. For the next minute, you roll advantage on all attack rolls, ability checks, and saving throws. For this duration, you roll three d20s and take the highest number rolled for advantage, instead of two as normal.
+
+Once you use this feature, you can’t use it again until you finish a Long Rest unless you expend a Spell Slot of at least 4th level when you use it again. You can use this feature only once per round.
+{{pageNumber,auto}}
+\page
+### The Great Tree
+The inimitable princes of the Feywild are not the only
+source of power in the enchanted forests and magical
+jungles of that realm―and indeed, there are good reasons
+why a prospective warlock might not wish to deal with
+them. Far more stable and reliable partners can be found in
+the towering, ancient trees whose roots have long drunk
+from the natural undercurrents of magic that permeate the
+Feywild soil.
+
+
+ Although journeying out into the woods to find a Great
+Tree with which to form a pact can be dangerous, the
+rewards are clear: these patrons are generous with their
+power, seeking to nurture their mortal charges, guiding and
+pruning them until they are fit in body and mind to serve as
+guardians of the forest.
+
+#### Expanded Spell List
+The Great Tree grants you the choice of an expanded list of
+spells when you learn a warlock spell. The following spells
+are added to the warlock spell list for you.
+
+Warlock Level| Spells
+|:---------:|:------------:|
+3rd| entangle, faerie fire
+5th| barkskin, spike growth
+9th| conjure animals, speak with plants
+13th| blight, dominate beast
+17th| insect plague, tree stride
+
+#### Spriggan
+Starting at 3rd level, you can use your bonus action to assume the form of a primal force of nature. Your body becomes covered entirely in bark, any hair you have becomes leaves and moss, your eyes glow amber, and you sprout a twisting pair of branch-like antlers. This form lasts for 1 minute, or until you dismiss it (no action required).
+
+For the duration, you have the following benefits:
+- Your AC equals 13 + your Constitution modifier.
+- Your fingers twist into sharpened roots which can be used as natural weapons, dealing 1d4 slashing damage on a hit.
+- You have advantage on Dexterity (Stealth) checks made while in a forest.
+- You gain temporary hit points equal to your spellcasting modifier when you enter this form.
+
+Once you use this feature, you can’t use it again until you finish a Short or Long Rest unless you expend a Spell Slot when you use it again.
+
+\column
+
+#### Creeping Roots
+Starting at 6th level, when a hostile creature that you can see within 30 feet of you attacks one of your allies, you can use your reaction to ensnare them. Immediately after the attack, you slam your arms into the ground, and they transmute into twisting roots that ensnare the hostile creature. That creature must make a Strength saving throw against your warlock spell save DC. On a failed save, you
+drag it to an unoccupied space within 5 feet of you.
+
+Once you use this feature, you can’t use it again until you finish a Long Rest unless you expend a Spell Slot of at least 2nd level when you use it again.
+#### Wildwood Guardian
+Starting at 10th level, you are immune to disease, and when you use your Spriggan feature, you gain the following benefits:
+- You gain temporary hit points equal to 5 + your spellcasting modifier at the start of each of your turns.
+- You have resistance to poison damage, and advantage on saving throws against being poisoned.
+#### Ironwood
+Starting at 14th level, while using your Spriggan feature,
+you have resistance to bludgeoning, piercing, and slashing
+damage.
+
+{{pageNumber,auto}}
+\page
+### The Great Old One
+Your patron is a mysterious entity whose nature is utterly foreign to the fabric of reality. It might come from the Far Realm, the space beyond reality, or it could be one of the elder gods known only in legends. Its motives are incomprehensible to mortals, and its knowledge so immense and ancient that even the greatest libraries pale in comparison to the vast secrets it holds. 
+
+#### Patron Spells
+The great old one lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.
+
+Warlock Level| Spells
+|:---------:|:------------:|
+3rd| dissonant whispers, Tasha's hideous laughter
+5th| detect thoughts, phantasmal force
+9th| clairvoyance, sending
+13th| dominate beast, Evard's black tentacles
+17th| dominate person, telekinesis
+#### Awakened Mind
+Starting at 3rd level, your alien knowledge gives you the ability to touch the minds of other creatures. 
+
+You can communicate telepathically with any creature you can see within 30 feet of you. You don't need to share a language with the creature for it to understand your telepathic utterances, but the creature must be able to understand at least one language.
+
+#### Entropic Ward
+At 6th level, you learn to magically ward yourself against attack and to turn an enemy's failed strike into good luck for yourself. When a creature makes an attack roll against you, you can use your reaction to impose disadvantage on that roll. 
+
+If the attack misses you, your next attack roll against the creature has advantage if you make it before the end of your next turn.
+
+Once you use this feature, you can’t use it again until you finish a Short or Long Rest unless you expend a Spell Slot when you use it again.
+
+\column
+
+#### Thought Shield
+Starting at 10th level, your thoughts can't be read by telepathy or other means unless you allow it. You also have resistance to psychic damage, and whenever a creature deals psychic damage to you, that creature takes the same amount of damage that you do.
+
+#### Create Thrall
+At 14th level, you gain the ability to infect a humanoid's mind with the alien magic of your patron. You can use your action to touch an incapacitated humanoid. That creature is then charmed by you until a Remove Curse spell is cast on it, the charmed condition is removed from it, or you use this feature again.
+
+You can communicate telepathically with the charmed creature as long as the two of you are on the same plane of existence.
+
+
+{{pageNumber,auto}}
+\page
+
+### The Great Wyrm
+Inherently magical creatures with incredibly long lifespans, dragons hoard not only wealth and material possessions, but servants and slaves as well. Benevolent and malicious, kind and terrible, good and evil, ancient dragons of all types have motivations beyond comprehension to most mortal beings.
+
+What sort of bargain did you enter into in order to access the overwhelming elemental power of an ancient dragon?
+
+#### Great Wyrm Spell List
+The Great Wyrm lets you choose from an expanded list of spells when you learn a warlock spell. Starting at 3rd level,
+the spells below are added to the warlock spell list for you.
+
+Warlock Level|	Spells
+:-:|:-:
+3rd|	chromatic orb, command
+5th|	dragon's breath, scorching ray
+9th|	fireball, lightning bolt
+13th|	vitriolic sphere, wall of fire
+17th|	dominate person, cone of cold
+
+#### Draconic Spark
+When you form this Pact at 3rd level, the Great Wyrm imbues you with a Draconic Spark, a fraction of its elemental power. Ancient dragons can impart any element, but they most often bestow one that matches their breath weapon. Choose either acid, cold, fire, lighting, or poison for your Draconic Spark.
+
+You gain resistance to the damage type of Draconic Spark, and any time you cast a warlock spell, you can choose for it to deal the damage type associated with your Draconic Spark.
+
+Moreover, the magic of your Draconic Spark allows you to speak, read, and write Draconic.
+
+#### Elemental Potency
+Your Draconic Spark increases the potency of your magic. Starting at 6th level, when you cast a warlock spell of 1st-level or higher that deals the damage of your Draconic Spark type, you gain a 1d8 bonus to one of the spell's damage rolls.
+
+#### Imposing Presence
+Draconic magic has empowered your willpower and force of personality. Beginning at 10th level, you are immune to both the charmed and frightened conditions.
+
+#### Draconic Wings
+Starting at 14th level, you can use a bonus action to manifest a pair of leathery dragon wings from your back, which grant you a flying speed equal to your walking speed. These wings last until you use your bonus action to dismiss them.
+
+You cannot manifest your wings while wearing armor unless the armor is specifically made to accommodate them. Any clothes you are wearing that do not accommodate your wings are destroyed when you manifest them.
+{{pageNumber,auto}}
+\page
+### The Hexblade
+You have made your pact with a mysterious entity from the Shadowfell – a force that manifests in sentient magic weapons carved from the stuff of shadow. The mighty sword Blackrazor is the most notable of these weapons, which have been spread across the multiverse over the ages. The shadowy force behind these weapons can offer power to warlocks who form pacts with it. Many hexblade warlocks create weapons that emulate those formed in the Shadowfell. Others forgo such arms, content to weave the dark magic of that plane into their spellcasting.
+
+Because the Raven Queen is known to have forged the first of these weapons, many sages speculate that she and the force are one and that the weapons, along with hexblade warlocks, are tools she uses to manipulate events on the Material Plane to her inscrutable ends.
+
+#### Hexblade Spells
+The hexblade lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.
+Warlock Level| Spells
+|:---------:|:------------:|
+3rd| shield, wrathful smite
+5th| blur, branding smite
+9th| blink, elemental weapon
+13th| plantasmal killer, staggering smite
+17th| banishing smite, cone of cold
+
+#### Hexblade's Curse
+Starting at 3rd level, you gain the ability to place a baleful curse on someone. As a bonus action, choose one creature you can see within 30 feet of you. The target is cursed for 1 minute. The curse ends early if the target dies, you die, or you are incapacitated. Until the curse ends, you gain the following benefits:
+- You gain a bonus to damage rolls against the cursed target. The bonus equals your proficiency bonus.
+- Any attack roll you make against the cursed target is a critical hit on a roll of 19 or 20 on the d20.
+- If the cursed target dies, you regain hit points equal to your warlock level + your spellcasting modifier (minimum of 1 hit point).
+
+Once you use this feature, you can’t use it again until you finish a Long Rest unless you expend a Spell Slot when you use it again.
+
+\column
+
+#### Hex Warrior
+At 3rd level, you acquire the training necessary to effectively arm yourself for battle. You gain proficiency with shields, and martial weapons.
+
+The influence of your patron also allows you to mystically channel your will through a particular weapon. Whenever you finish a long rest, you can touch one weapon that you are proficient with and that lacks the two-handed property. When you attack with that weapon, you can use your spellcasting modifier, instead of Strength or Dexterity, for the attack and damage rolls. 
+
+This benefit lasts until you finish a long rest. If you have the Pact of the Blade feature, this benefit extends to every pact weapon you conjure with that feature, no matter the weapon's type.
+#### Accursed Specter
+Starting at 6th level, you can curse the soul of a person you slay, temporarily binding it in your service. When you slay a humanoid, you can cause its spirit to rise from its corpse as a specter. When the specter appears, it gains temporary hit points equal to half your warlock level. 
+
+Roll initiative for the specter, which has its own turns. It obeys your verbal commands, and it gains a special bonus to its attack rolls equal to your spellcasting modifier (minimum of +0).
+
+The specter remains in your service until the end of your next long rest or until you use this feature again, at which point it vanishes to the afterlife.
+
+Once you use this feature, you can’t use it again until you finish a Long Rest unless you expend a Spell Slot of at least 2nd level when you use it again.
+#### Armor of Hexes
+At 10th level, your hex grows more powerful. If the target cursed by your Hexblade’s Curse hits you with an attack roll, roll a d6. On a 4 or higher, the attack instead misses you, regardless of its roll.
+#### Master of Hexes
+Starting at 14th level, you can spread your Hexblade's Curse from a slain creature to another creature. When the creature cursed by your Hexblade's Curse dies, you can apply the curse to a different creature you can see within 30 feet of you, provided you aren't incapacitated. 
+
+When you apply the curse in this way, you don't regain hit points from the death of the previously cursed creature.
+{{pageNumber,auto}}
+\page
+### The King
+The King is a legendary figure of honor, justice, and valor, can serve as a patron for those who seek to uphold these noble ideals through magical means.
+
+#### The King Spells
+The King let you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.
+
+Warlock Level| Spells
+:-:|:-:
+3rd| Command, Heroism
+5th| Warding Bond, Find Steed
+9th| Crusader's Mantle, Aura of Vitality
+13th| Compulsion, Aura of Life
+17th|Banishing Smite, Circle of Power
+
+#### Divinity Warrior
+At 3rd level, you gain proficiency with meele martial weapons, heavy armor and shields.
+#### Noble Invocation
+Starting at 3rd level, your connection to King grants you the ability to channel his noble aura. As a bonus action, you can imbue yourself or a willing creature you touch with the bravery of a knight. 
+
+For 1 minute, the target gains advantage on saving throws against being frightened and gains temporary hit points equal to your spellcasting modifier at the start of each of its turns. 
+
+Once you use this feature, you can't use it again until you finish a short or long rest.
+
+#### Excalibur's Boon
+At 6th level, you gain the ability to summon a spectral weapon resembling Excalibur, the legendary sword of King Arthur, and you gain the following benefits:
+
+- This weapon deals slashing damage and you have proficiency with it.
+
+
+- Its damage is 1d8 if wielded one-handed or 1d10 if wielded two-handed.
+
+- Your meele weapons attacks count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.
+
+- You can use your spellcasting modifier , instead of your Strength or Dexterity, for weapon attack and damage rolls against it.
+
+- When you hit a creature with this weapon, it must succeed on a Wisdom saving throw against your warlock spell save DC or become frightened of you until the end of your next turn.
+
+- You can summon or dismiss this weapon as bonus action.
+
+If you have the Pact of the Blade feature, Excalibur gains the benefits of your Pact of the Blade feature.
+
+\column
+
+#### Majesty's Retribution
+Upon reaching 10th level, your connection to The King infuses your attacks with divine retribution against those who cower before your noble presence. Whenever you hit a creature that is frightened of you with a meele weapon attack, you deal additional radiant damage equal to your warlock level. 
+
+Additionally, you gain proficiency in one skill of your choice: Arcana, Athletics, History, Insight, or Persuasion. 
+
+
+
+#### Camelot's Blessing
+Starting at 14th level, you can call upon the blessings of Camelot to protect yourself and your allies. As an action, you create a magical aura with a 30-foot radius centered on yourself that lasts for 1 minute. 
+
+While inside the aura, you and friendly creatures gain resistance to bludgeoning, piercing, and slashing damage. 
+
+Additionally, any hostile creature that starts its turn in the aura must make a Wisdom saving throw against your save DC. On a failed save, the creature is frightened of you until the end of your next turn.
+
+
+{{imageMaskCorner17,--offsetX:55%,--offsetY:-30%,--rotation:0
+  ![](https://i.imgur.com/7KU5UQL.png){height:70%,left:350px,top:445px}
+}}
+{{pageNumber,auto}}
+\page
+### The Lantern
+
+Warlocks who make a pact with a powerful spirit are able
+to tap into the magic that flows through the Spirit Realm.
+These warlocks are known by the special lanterns they
+carry—lanterns that burn with the essence of their patron.
+The illumination of this vessel carries with it the attributes
+of the spirit, granting the warlock an array of abilities.
+When spirits enter pacts with people, there is often more
+to it than generosity. Spirits powerful enough to lend out
+bits of their magic do so for a variety of reasons.
+
+
+#### Lantern Spells
+The Lantern lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.
+Warlock Level| Spells
+|:---------:|:------------:|
+3rd| Faerie Fire, Identify
+5th| Augury, Locate object
+9th| Daylight, Nondetection
+13th| Guardian of Faith, Locate Creature
+17th| Circle of Power, Dawn
+
+#### Illuminating Aura
+Starting at 3rd level, the essence of your spirit patron is
+channeled into a lantern, where it appears as a minor form
+of itself. You can use your lantern as a spellcasting focus for
+your warlock spells.
+
+As a bonus action, you can activate your lantern, causing
+it to shed bright light in a 20-foot radius and dim light for
+an additional 20 feet. This light lasts for 1 minute, or until
+you let go of the lantern or choose to end this effect
+early (no action required). For the duration, you gain the
+following benefits:
+
+- Whenever you see a creature in your lantern’s bright light make a saving throw, you can use your reaction to grant that creature a bonus to the save equal to your Spellcasting modifier (minimum of +1).
+
+- Whenever a hostile creature within your lantern’s dim light fails a saving throw, it takes radiant damage equal to half your warlock level (rounded up).
+
+Once you use this feature, you can’t do so again until you
+finish a short or long rest.
+
+
+#### Revealing Light
+Starting at 3rd level, you can use an action to cause your
+lantern to illuminate with a vibrant maroon light, which
+sheds bright light in a 10-foot radius and dim light for an
+additional 10 feet. 
+
+Invisible creatures and objects are visible as long as they are in the lantern’s bright light. The lantern sheds light in this manner for 1 hour or until you snuff it out early as a bonus action.
+
+Once you use this feature, you can’t do so again until you
+finish a short or long rest.
+
+\column
+
+#### Dangerous Tool
+Starting at 6th level, your Illuminating Aura no longer ends
+if you let go of your lantern. While you aren’t holding your
+lantern, you can magically take control of it for 1 minute (no
+action required), using it as if it were a *Spiritual Weapon*
+cast as a 2nd-level spell. 
+
+Your lantern continues to act
+as your spellcasting focus while using this feature, even
+though you are no longer holding the lantern.
+
+The level at which *Spiritual Weapon* is cast increases
+when you reach certain levels in this class, increasing to
+a 4th-level spell at 10th level and a 6th-level spell at
+15th level.
+
+Once you take control of your lantern in this way, you can’t do so again until you finish a long rest, unless you expend a 2nd spell slot to take control of it again.
+
+#### Oracle Illumination
+Beginning at 6th level, you can spend an action to magically connect your mind to a light source such as a candle or torch that you can see or are familiar with. The light source acts as if it were the sensor created by the *Clairvoyance* spell, granting you the same benefits.
+
+You can use the light source in this way for 10 minutes or until you use this feature again.
+
+Once you use this feature on a light source, you can’t use it on the same light source again until you finish a long rest.
+
+#### Brilliant Illumination
+Starting at 10th level, while your lantern’s Illuminating
+Aura is active you can use an action to cause the light to
+flare with an overwhelmingly brilliant flash. Each creature
+other than you illuminated by either your lantern’s bright
+light or dim light (your choice) must make a Constitution
+saving throw against your warlock spell save DC. 
+
+On a failed save, a creature takes radiant damage equal to 2d8 + your
+warlock level and is blinded until the end of your next
+turn. 
+
+On a successful save, the creature takes half as much
+damage and isn’t blinded.
+
+Once you use this feature, you can’t do so again until you
+finish a short or long rest.
+#### Brighter Still
+At 14th level, you gain the ability to activate your lantern’s
+Illuminating Aura at will. Features such as Dangerous Tool
+and Brilliant Illumination that work in conjunction with
+Illuminating Aura are still limited to the number of uses
+described in their respective features.
+
+Additionally, while holding your lantern, you can use an
+action to cause it to illuminate with a pale blue light, revealing a glowing arcane path to a location you’re familiar with,
+as if casting the *Find the Path* spell.
+Once you use your lantern in this way, you can’t do so
+again until you finish a Long Rest unless you expend a Spell Slot of at least 4th level when you use it again.
+{{pageNumber,auto}}
+\page
+### The Legacy
+Rather than forging a pact inked by blood or bound to your soul, you have inherited a Legacy, a patron embodied by a line of inheritors sworn to a sacred cause. In so doing, you have acquired a relic of this ancient legacy, an object of unimaginable power passed down through the generations or recently uncovered from a long-lost civilization. With it, you can transform into the most powerful version of yourself to continue your Legacy’s fight.
+
+Countless Legacies have imbued warlocks with ancient powers, and only a few remain today, but each possesses a unique type of relic and bestows a unique type of transformation. How you use this transformation is ultimately up to you, but the Legacy conspires to see you achieve greatness and advance its unknowable ancient goals.
+#### Expanded Spell List
+Your ancient Legacy lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you 
+
+Warlock Level| Spells
+|:---------:|:------------:|
+3rd| boomering, heroism
+5th| aid, flame blade
+9th| fireball, phantom steed
+13th| death ward, stoneskin
+17th| cone of cold, dispel evil and good
+#### Relic Of Transformation
+Beginning when you choose this subclass at 3rd level, you have a magical relic tied to your patron which allows you to undergo a fantastic transformation or reverse it as a bonus action. The exact nature of the transformation varies from Legacy to Legacy, but it always changes your appearance and confers dramatic power. While transformed you have the following benefits:
+- Your AC equals 10 + your Dexterity modifier + your spellcasting modifier.
+- Unless a creature has truesight or watches you transform, you can’t be recognized as your true identity.
+- You have a pool of battle dice, which are d6s. A battle die is expended when you use it. You regain all expended battle dice when you finish a short or long rest, or when you roll initiative. Your battle die changes and more battle dice become available when you reach certain levels in this class, as shown on the Battle Dice table below.
+- Once on each of your turns, when you hit a creature with an attack, you can roll a battle die and add it to the attack's damage roll.
+
+\column
+
+#### Battle Dice
+Warlock Level| Battle Dice
+|:---------:|:------------:|
+3rd| 2d8
+7th| 3d8
+13th| 3d10
+19th| 4d10
+
+
+
+#### Relic of Force
+Relics of Legacy are always tied to the fundamental forces of magic, nature, and the elements. At 3rd level, choose one of the following damage types: acid, cold, fire, lightning, necrotic, or radiant. While transformed, whenever you deal damage with a warlock spell, warlock ability, or a Pact Weapon, you can deal the chosen type of damage instead of the spell, ability, or weapon's normal damage type.
+#### Resolute Legacy
+Starting at 6th level, while transformed, you can emanate an aura of courage as an action. For the next minute, you and friendly creatures within 30 feet of you have advantage on death saving throws and saving throws against being frightened. 
+
+Additionally, for the duration, you can expend a battle die as a bonus action to heal a willing creature within the aura, which regains hit points equal to the die roll + your spellcasting modifier.
+
+Once you use this ability, you can’t use it again until you finish a short or long rest.
+#### Aura of Legend
+Starting at 10th level, while transformed, you and any friendly creatures within 30 feet of you gain resistance to your Relic Force damage type.
+#### Final Legacy
+Starting at 14th level, while you are transformed, you can use your action to begin charging the power of your allies into an ultimate attack. Until the start of your next turn, each friendly creature within 10 feet of you can use their action to aid your charge. At the start of your next turn, you fire a massive beam of force in a 120-foot long, 5-foot wide line in a direction you choose. Each creature in the line must make a Dexterity saving throw against your spell save DC, taking 10d10 force damage on a failed save, or half as much damage on a successful one. The beam's damage increases by 4d10 for each creature that aided your charge, up to a maximum of 30d10 force damage.
+
+Once you use this feature, you must finish a long rest before you can use it again. If you have no uses remaining, you can expend a Spell Slot of at least 4th level to transform again.
+{{pageNumber,auto}}
+\page
+### The Legendary Hero
+Each age has its heroes that stave off the darkness, and after
+their time has come, these heroes fade into legend and myth.
+Some especially powerfully heroes are able to avoid the grasp
+of death, and continue to protect the world, choosing suitably
+heroic mortals to serve as vessels of their legendary power.
+
+#### Heroic Armament
+At level 3rd, your Patron infuses your magic with its own mythic power.
+Whenever you use Eldritch Blast, you can choose for it to
+take the shape of a flying weapon, and on hit it deals 1d10
+magical bludgeoning, piercing, or slashing damage.
+
+Additionally, you gain proficiency shields and all martial weapons.
+
+#### Heroic Resilience
+You can call on your Patron to empower your body with their
+legendary determination. At level 3rd, as a bonus action on your turn, you can expend a spell slots of 1st level to gain temporary hit points equal to your spellcasting modifier (minimum of 1) + 1d8 per level of the spell slot you expended.
+
+While you have these temporary hit points you cannot be frightened.
+
+Unlike normal temporary hit points, these temporary hit points fade when you finish your next short or long rest.
+
+#### Legendary Hero Spells
+You learn the following Patron Spells at the Warlock levels
+listed below. The following spells are added to the warlock spell list for you.
+Warlock Level| Spells
+|:---------:|:------------:|
+3rd| divine favor, heroism
+5th| enhance ability, spiritual weapon
+7th| beacon of hope, spirit guardians
+13th| death ward, freedom of movement
+17th| dispel evil and good, legend lore
+
+\column
+
+#### Armor of Heroes
+At 6th level, the power granted to you by your heroic Patron enhances your combat prowess. As an action, you can summon the Armor of Heroes. Your base AC becomes 16 + Dexterity modifier, with a maximum bonus of +2.
+
+This armor lasts for 8 hours, and it ends early if you are incapacitated.
+
+
+#### Mythic Determination
+The spirit of your mythical Patron inspires you to press on
+when others would fail. At 10th level, when you fail a saving throw, you can use your reaction to expend a spell slots of 3rd level or higher to re-roll your saving throw, possibly turning a failure into a success.
+
+#### Otherworldly Champion
+You directly channel your Patron allowing them to walk in the
+world once more. At 14th level, You can use an action to transform into a
+heroic shade of your Patron, gaining the following benefits:
+
+- You gain temporary hit points equal to your Warlock level. While you have these temporary hit points you gain resistance to all damage.
+- Your weapon attacks deal force damage on hit in place of the normal bludgeoning, piercing, or slashing damage.
+- When you take the Attack action on your turn and make only melee weapon attacks, you can make three attacks as part of that action (instead of the normal two).
+
+This transformation lasts for 1 minute, and it ends early if
+you are incapacitated or choose to end it as a bonus action.
+
+Once you use this feature, you must finish a long rest before you can use it again. If you have no uses remaining, you can expend a Spell Slot of at least 4th level to transform again.
+
+
+
+{{imageMaskEdge5,--offset:25%,--rotation:0
+  ![](https://i.imgur.com/iY0fMi7.png){height:90%,top:650px}
+}}
+
+{{pageNumber,auto}}
+\page
+### The Magician
+While all warlocks are skilled in the art of magic, very few are what most people would consider “magicians,” skilled in the arts of physical illusion, sleight of hand, and showmanship. Those with such talents might find themselves drawn to the mysterious Magician, believed to be a minor trickster deity (who most often takes the form of a white rabbit), long forgotten and bereft of worshipers. Under the Magician's patronage, warlocks command an amalgamation of real and fake magic, such that it's never clear if they're casting spells, performing a ruse, or putting on a show.
+#### Magician Spells
+The Magician lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.
+Warlock Level| Spells
+|:---------:|:------------:|
+3rd| find familiar, fog cloud
+5th| knock, rope trick
+7th| blink, speak with dead
+13th| freedom of movement, secret chest
+17th| creation, mislead
+#### Abracadabra
+Starting at 3rd level, you gain proficiency in the Sleight of Hand skill, and you learn the *card trick* and *prestidigitation* cantrips, which do not count against your total number of cantrips known.
+
+Additionally, you can attempt to cast any cantrip that you do not know from the wizard spell list by succeeding on a DC 10 spellcasting check. While being cast, the cantrip counts as a warlock spell for you. On a failure, the spell fails.
+#### Impresive Escape
+Starting at 6th level, you can use your spellcasting modifier instead of the normal modifier for Dexterity (Sleight of Hand) checks, and you can add your spellcasting modifier to all skill checks involving picking locks, escaping ropes or manacles, or other similar feats of escape artistry.
+
+Additionally, as a bonus action, you can vanish in a puff of smoke (or into a shower of confetti or a number of released doves) teleporting to any unoccupied location you choose within 120 feet. You can only choose a destination from which no conscious creature can see you appear. 
+
+Once you use this feature, you must finish a long rest before you can use it again. If you have no uses remaining, you can expend a Spell Slot of at least 2th level to transform again.
+\column
+#### Alakazam
+When you reach 10th level, you learn to alter your spellcasting in a number of ways, both to hide it from your audience and to expand your magical repertoire. Whenever you cast a warlock spell of 1st level or higher, you can manipulate it in one of two ways:
+
+**Conceal.** You can cast the spell without using spell components by succeeding on a Dexterity (Sleight of Hand) check. The DC for this check equals 8 + the spell’s level. On a failure, the spell fails. You cannot use this ability on a spell with material components that have a cost.
+
+**Transmute.** You can attempt to cast any other spell from the wizard spell list of the same level or lower instead of the spell you initially cast. When you do so, you must succeed on a spellcasting check with a DC equal to 12 + the spell’s level. Otherwise, the spell fails.
+#### Master of Illusions
+Upon reaching 14th level, you gain a mastery over illusion magic. You can cast the spells silent image and major image at will without using a spell slot or spell components, and you can concentrate on one of these spells in addition to another spell.
+
+{{pageNumber,auto}}
+\page
+
+### The Mummy Lord
+Ancient monarchs and emperors of old who sought to extend their mortal lives could turn to sinister gods, bargaining their eternal soul for dark preservation. Known as Mummy Lords, these tyrants of ages past are often found deep in the ruins of their long dead empires, often swallowed by the sands. They enlist the help of mortals, imbuing them with a fraction of their accursed power, and look to rebuild their lost empires.
+
+#### Ancient Knowledge
+Your accursed Patron has imbued you with knowledge of ancient days. At 3rd level, you gain proficiency in your choice of either History or Religion. Whenever you make an ability check that uses the skill proficiency you gained from this feature, you treat a roll of 7 or lower on the d20 as an 8.
+
+#### Dreadful Curse
+When you enter into your Pact with your Patron at 3rd level, you are taught forgotten curses in long dead tongues. As an action, you can force a creature who can hear you within 60 feet to make a Constitution saving throw. On a failure, the target is blinded, deafened, and cannot speak for 1 minute.
+
+The creature can repeat this saving throw at the end of each turn, ending the effects of your curse on a success.
+
+Once you use this feature you must finish a short or long rest before you can use it again. When you have no uses left, you can expend a  spell slot to use it again.
+
+
+
+
+#### Mummy Lord Spells
+The Mummy Lord lets you choose from an expanded list of spells when you learn a warlock spell. Starting at 1st level,
+the spells below are added to the warlock spell list for you.
+
+Warlock Level|	Spells
+:-:|:-:
+3rd|	guiding bolt, silent image
+5th|	dust devil, earthen grasp 
+9th|	major image, wall of sand 
+13th|	giant insect, guardian of faith
+17th|	antilife shell, insect plague
+
+#### Shifting Sands
+At 6th level, you learn to disappear into the sands when in danger. When you take damage, you can use your reaction to dissolve into a pile of sand, gaining resistance to the damage of the triggering attack. You then reform in an unoccupied space of your choice within 60 feet that you can see.
+
+You can use this reaction a number of times equal to your spellcasting modifier (minimum of once), and you regain all expended uses when you complete a long rest.
+
+\column
+
+#### Canoptic Preservation
+Upon reaching 10th level, your Patron instructs you in their method of preservation. During the course of a long rest, you can spend 1 hour performing a ritual where you remove one of your organs and seal it within a Canoptic Jar, which has an Armor Class and hit points equal to your warlock level.
+
+You can create one of these Jars with no penalty, but for each Canoptic Jar you create after the first, you must expend one of your spell slots. You can't regain the spell slot you expended in its creature until its Jar is destroyed.
+
+When you are reduced to 0 hit points or killed, you can choose to return to 1 hit point at the beginning of your next turn by consuming the magic of one of your Canoptic Jars. 
+
+That Canoptic Jar is instantly destroyed, and you regain the  spell slot you expended to create that Jar.
+
+You can also destroy one of your Jars as an action on your turn, regaining the spell slot contained within.
+
+#### Blasphemous Word
+At 14th level you learn to directly channel the sinister magic of your undead Patron. As an action, you can speak a word of ancient blasphemy, forcing creatures of your choice within 30 feet that can hear you to make a Constitution saving throw. On a failure, they are stunned until the end of your next turn.
+
+Once you use this feature, you must finish a long rest before you can use it again. If you have no uses remaining, you can expend a Spell Slot of at least 4th level to transform again.
+
+{{pageNumber,auto}}
+\page
+### The Primeval Growth
+Not all who serve nature seek balance as Druidic Circles do. Older, and oftentimes more sinister forces are at work in the ancient forests of the world. Eldest of all plant life, ancient trees, sacred groves, and sentient forests can remember an age when plants, not mortals or beasts, dominated the land. These ancient beings are known as Primeval Growths, the power limited only by the roots that hold them in place.
+
+Able to channel elder nature magic, these ancient beings lend their power to mortals who have the ability to move about the world, and can work to enact their primal will.
+
+#### Primeval Growth Spell List
+The Primeval Growth lets you choose from an expanded list of spells when you learn a warlock spell. Starting at 3rd level, the following spells are added to your warlock spell list.
+
+Warlock Level|	Spells
+:-:|:-:
+3rd|	ensnaring strike, entangle
+5th|	barkskin, spike growth
+9th|	erupting earth, plant growth
+13th|	grasping vine, guardian of nature XGtE
+17th|	tree stride, wrath of nature
+
+#### Grasping Vines
+When you enter your Pact with the Primeval Growth you are imbued with a seed of primeval magic. At 3rd level, you learn the thorn whip cantrip. It counts as a warlock cantrip for you, but it doesn't count against your number of Cantrips Known.
+
+When you hit a creature with thorn whip, or damage or restrain a creature with a Primeval Growth Spell, you can use a bonus action to drain the life from one target. The creature takes necrotic damage equal to your warlock level, and you gain temporary hit points equal to the necrotic damage dealt.
+
+You can use this bonus action a number of times equal to your spellcasting modifier (minimum of once), and you regain all expended uses when you finish a long rest.
+
+#### Primeval Resilience
+Your primeval magic has made your flesh rough and treelike. Starting at 6th level, your Armor Class cannot be less than 16.
+
+In addition, when you cast thorn whip, you can target up to two creatures that are within the range of the spell.
+
+#### Arboreal Guardian
+You have become more plant then mortal. Beginning at 10th level, you are resistant to non-magical bludgeoning, piercing, and slashing damage. You no longer require food or drink, as long as you spend at least 1 hour in sunlight each day.
+
+\column
+
+#### Wrath of the Forest
+Starting at 14th level, you can use an action to lash out with grasping roots. A number of creatures of your choice equal
+to your proficiency bonus within 30 feet must succeed on a Strength saving throw or be restrained for 1 minute. As an action, a restrained creature can make a Strength (Athletics) check against your spell save DC, escaping on a success.
+
+Once you use this feature, you must finish a long rest before you can use it again. If you have no uses remaining, you can expend a Spell Slot of at least 4th level to transform again.
+{{pageNumber,auto}}
+\page
+### The Raven Queen
+Your patron is the Raven Queen, a mysterious being who rules the Shadowfell from a palace of ice deep within that dread realm. The Raven Queen watches over the world, anticipating each creature’s death and ensuring that it meets its end at the proscribed time and place. As the ruler of the Shadowfell, she dwells in a decayed, dark reflection of the world. Her ability to reach into the world is limited. Thus, she turns to mortal warlocks to serve her will. Warlocks sworn to the Raven Queen receive visions and whispers from her in their dreams, sending them on quests and warning them of impending dangers.
+
+The Raven Queen’s followers are expected to serve her will in the world. She concerns herself with ensuring that those fated to die pass from the world as expected, and bids her agents to defeat those who seek to cheat death through undeath or other imitations of immortality. She hates intelligent undead and expects her followers to strike them down, whereas mindless undead such as skeletons and zombies are little more than stumbling automatons in her eyes.
+
+#### Raven Queen Spell List 
+
+
+Warlock Level	| Spells 
+:-:|:-:
+3rd| False Life, Sanctuary
+5th| Silence, Spiritual Weapon
+9th| Feign Death, Speak with Dead
+13th| Ice Storm, Locate Creature
+17th| Commune, Cone of Cold
+
+#### Sentinel Raven
+Starting at 3rd level, you gain the service of a spirit sent by the Raven Queen to watch over you. The spirit assumes the form and game statistics of a raven, and it always obeys your commands, which you can give telepathically while it is within 100 feet of you.
+
+While the raven is perched on your shoulder, you gain darkvision with a range of 30 feet and a bonus to your passive Wisdom (Perception) score and to Wisdom (Perception) checks. The bonus equals your Spellcasting modifier. 
+
+While perched on your shoulder, the raven can’t be targeted by any attack or other harmful effect; only you can cast spells on it; it can’t take damage; and it is incapacitated.
+
+You can see through the raven’s eyes and hear what it hears while it is within 100 feet of you.
+
+In combat, you roll initiative for the raven and control how it acts.
+
+The raven doesn’t require sleep. While it is within 100 feet of you, it can awaken you from sleep as a bonus action.
+
+The raven vanishes when it dies, if you die, or if the two of you are separated by more than 5 miles.
+
+At the end of a short or long rest, you can call the raven back to you—no matter where it is or whether it died—and it reappears within 5 feet of you.
+
+\column
+
+#### Soul of the Raven
+At 6th level, you gain the ability to merge with your raven spirit. As a bonus action when your raven is perched on your shoulder, your body merges with your raven’s form. While merged, you become Tiny, you replace your speed with the raven’s, and you can use your action only to Dash, Disengage, Dodge, Help, Hide, or Search. 
+
+During this time, you gain the benefits of your raven being perched on your shoulder. As a bonus action, you and the raven return to normal.
+
+#### Raven's Shield
+At 10th level, the Raven Queen grants you a protective blessing. You gain advantage on death saving throws, immunity to the frightened condition, and resistance to necrotic damage.
+
+Additionally, If the Raven is slain by a creature, you gain advantage on all attack rolls against the killer for the next 24 hours.
+
+#### Queen's Right Hand
+Starting at 14th level, you can channel the Raven Queen’s power to slay a creature. You can cast *Finger of Death*. 
+
+After you cast the spell with this feature, you can’t do so again until you finish a long rest.
+
+
+{{pageNumber,auto}}
+\page
+### The Shinigami 
+You have entered into a pact with a shinigami, a fearsome spirit of the netherworld, with powers of death and possession. Shinigami themselves are beings of variable character, some playing active roles in the lives of their emissaries, others inscrutable and shrouded in mystery.
+
+#### Shinigami Spell List 
+
+
+Warlock Level	| Spells 
+:-:|:-:
+3rd| command, sleep 
+5th| blindness/deafness, phantasmal force
+9th| hypnotic pattern, speak with dead 
+13th| death ward, greater invisibility 
+17th| animate objects, dominate person 
+
+#### Grim Puppeteer 
+At 3rd level, as an action, you can take control of a corpse or unconscious creature you can see within 60 feet of you for 1 minute or until you lose concentration (as if concentrating on a spell). The target must be Large or smaller and of a CR equal to or less than your warlock level (or the CR it had in life if it’s a corpse). The size of target you can control with this feature increases to Huge at 6th level and Gargantuan at 14th level. While you control a target in this way, it uses its own stat block with the following changes: 
+- It’s treated as an Undead creature if it’s a corpse. 
+- It can’t gain hit points or recover from the unconscious condition. 
+- It’s immune to the charmed and frightened conditions. 
+- It gains temporary hit points equal to your Charisma modifier plus five times your warlock level. 
+- It can use your spellcasting modifier for its attack and damage rolls.
+
+When its temporary hit points are depleted, your control of the target ends, and you can’t use this feature on that target again until you finish a long rest. 
+
+If the target was unconscious, and it has more than 0 hit points, it immediately regains consciousness when your control over it ends. Your puppet takes its turn immediately after yours. It does nothing unless you use a bonus action on your turn to command it to take an action. That action can be one in its stat block (or in the stat block it had in life if it’s a corpse) or some other action. 
+
+**Limited Control.** There are limitations to the scope of your influence over your puppet. While you are puppeting a target, it can’t cast spells and can’t use any reactions, any legendary actions, any lair actions, and any actions that create or summon additional creatures (such as a wraith’s Create Specter action). You can use this feature a number of times equal to your Spellcasting modifier (minimum of once), and you regain all expended uses when you finish a long rest. 
+
+If you have no uses left, you can use it if you expend a spell slot when you take the action to activate it. 
+
+#### Shinigami Vision 
+At 3rd level, your bond to the Shinigami grants you a piercing insight into the lifespan of others and reveals the best way to cut it short. As a bonus action, you can focus your attention on one creature you can see within 60 feet of you. You become aware of one of its damage vulnerabilities (if any) and its damage resistances or damage immunities (if any). 
+
+#### Gift of the Psychopomp
+At 6th level, while you are puppeteering a target using your Grim Puppeteer feature, you can make any spell you cast that targets only you also target your puppet.
+
+#### Shinigami Domination 
+At 10th level, you have developed the power of precise and meticulous control over your puppets. While a target is under the effect of your Grim Puppeteer feature, you can see through its eyes, hear what it hears, and speak through it using its own voice. You can now puppeteer a creature for up to 1 hour or until you lose your concentration. A creature interacting with the puppet can use an action to make a Wisdom (Insight) check against your warlock spell save DC, identifying something awry on a success. 
+
+Additionally, creatures you puppeteer have resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks that aren’t silvered. 
+
+#### Master of Death 
+At 14th level, when you are reduced to 0 hit points, you don’t fall unconscious. Instead, your spirit is thrown from your physical form, and you are able to continue to fight, puppeteering your own body as a disembodied spirit of death. While puppeteering your own body in this way, your game statistics and capabilities remain the same, you can’t puppeteer another creature, you automatically succeed on all death saving throws, and you gain temporary hit points equal to your Charisma modifier plus five times your warlock level.
+
+Your spirit returns to your body immediately if you regain at least 1 hit point. You can’t fall unconscious until your temporary hit points are depleted, at which time your spirit returns to your body and this feature ends. 
+
+Once you use this feature, you must finish a long rest before you can use it again. If you have no uses remaining, you can expend a Spell Slot of at least 4th level to transform again.
+{{pageNumber,auto}}
+\page
+### The Singularity
+Most denizens of the galaxy think that the ravenous chasms known as black holes are simply portals to the Void, formed from the collapse of particularly large stars. This theory brings them a sense of understanding to these dangerous galactic phenomena, and imparts a sense of control and comfort to those who would otherwise despair in the face of such a terrible, destructive force of nature.
+
+However, the small group of warlocks who draw their power from these black holes know better: The Singularity is intelligent, malevolent, and, above all, hungry.
+
+#### Singularity Spells
+The Singularity gives you the power to choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.
+Warlock Level| Spells
+|:---------:|:------------:|
+3rd| inflict wounds, silent image
+5th| blindness/deafness, darkvision
+9th| haste, slow
+13th| intensify gravity, phantasmal killer
+17th| geas, telekinesis
+
+#### Hunger of the Void
+Starting at 3rd level, you can channel the ravenous hunger of The Singularity to absorb energies directed at you. When you are damaged by an effect or attack that deals damage of a type other than bludgeoning, piercing, or slashing, you can use your reaction to reduce the damage you take by an amount equal to your spellcasting modifier. When you do so, you gain temporary hit points equal to your warlock level.
+#### Brink of the Void
+Starting at 6th level, you can induce terror and despair by showing others the truth of the Void as an action. Each creature within 30 feet of you that can see you must succeed a Wisdom saving throw or be frightened of you for 1 minute. If a frightened creature ends its turn in a location where it doesn't have line of sight to you, the creature can make a Wisdom saving throw, ending the effect on a successful save.
+
+Once you use this feature, you can’t use it again until you finish a Long Rest unless you expend a Spell Slot when you use it again.
+
+\column
+
+#### Accretion Disk
+Starting at 10th level, whenever you use your Hunger of the Void ability, you can surround yourself with a swirling disc of damaging energy. While you have temporary hit points from Hunger of the Void or dismiss this effect on your turn (no action required), any creature that starts its turn within 10 feet of you takes damage equal to your warlock level of the type you avoided.
+
+#### Event Horizon
+Starting at 14th level, as an action, you can summon a 20-foot radius sphere of pure voidstuff, centered on yourself. The first time a creature enters the area on its turn or when it starts its turn there, it must make a Strength saving throw. On a failed save, it takes 7d6 necrotic damage and is restrained until the start of its next turn. On a successful save, the creature takes half as much damage, and moves through the area as difficult terrain. You can concentrate on this effect, as you would a spell, to maintain this sphere for up to 1 minute.
+
+Once you use this feature, you can’t use it again until you finish a Long Rest unless you expend a Spell Slot of at least 4th level when you use it again. You can use this feature only once per turn. 
+
+Additionally, you have advantage on checks you make to control spheres of annihilation.
+{{pageNumber,auto}}
+\page
+
+### The Solar
+You have made a pact with the Solar, an exalted creature from on high, a being of eternal grace and splendor. Anointed in its light, you have joined in its quest to rid the world of the wicked and protect the innocent from harm.
+
+Only the most powerful angels, short of truly divine beings, are mighty enough to forge such a pact. 
+
+Additionally, the terms of this pact differ from the zeal of a paladin or cleric. Perhaps warlockhood is a means to save your damned soul, or perhaps it is to repay a debt owed to the gods. Whatever the reason, you are less the apostle, and more the servant.
+
+#### Bonus Cantrips
+Startingat 3rd level, you know the *light* and *Lance of Faith* cantrips. These cantrips count as warlock spells for you, and don't count against your number of cantrips known.
+
+#### Shield of Heaven
+ Also at 3rd level, when a friendly creature you can see within 15 feet of you takes damage, you can use your reaction to grant resistance to the damage inflicted, and you also take the same amount of damage.
+
+#### Light of Mending
+At 6th level, you can petition the angels above to grant you a hallowed light from Mt. Celestia. As an action, you can cause your holy symbol to glow brightly, casting bright light in a 20 foot radius, and dim light an additional 20 feet. Friendly creatures within the bright light heal 2d4 + your Charisma modifier.
+
+Once you use this feature, you must finish a long rest before you can use it again. If you have no uses remaining, you can expend a Spell Slot of at least 2nd level to transform again.
+
+#### Exalted Health
+By 10th level, the forces of decay hold no sway over you, and you have resistance to necrotic damage. 
+
+Additionally, you now no longer suffer any penalties for old age.
+
+#### Saint’s Chains
+At 14th level, you can pass judgement on a foe, entrapping them in glowing, golden chains which spring from nearby surfaces. As an action, choose a creature that you can see within 60 feet of you. It must make a Wisdom saving throw against your warlock spell save DC. 
+
+On a failed save, the target is incapacitated and can’t move for a number of rounds equal to your Charisma modifier, or until your concentration is broken (as if you are concentrating on a spell), as the chains hold its limbs to the ground. If the target is a fiend or undead, it takes 2d8 radiant damage each round it is held in this way.
+
+Once you use this feature, you must finish a long rest before you can use it again. If you have no uses remaining, you can expend a Spell Slot of at least 4th level to transform again.
+{{pageNumber,auto}}
+\page
+### The Star
+It is impossible to comprehend the unbridled power contained within a star: an infinity of nuclear reactions, a constant explosion, unceasing for millennia—the ultimate inferno. It’s no surprise that someone would seek to harness some of this power for their own.
+
+With the right words of forgotten lore, warlocks can do just that, drawing some small fraction of the howling flames into themselves. The Star is not a sentient patron, it doesn't demand sacrifices or worship from its warlocks; it is a beacon in a sea of black, a force of nature that will long outlive any living thing.
+
+Though the annals of history do not recount their battles, warlocks of The Star have waged endless war with those of The Singularity, who seek to plunge the galaxy into perfect darkness.
+
+#### Star Spells
+The Star gives you the power to choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.
+
+Spell Level| Spells
+|:---------:|:------------:|
+3rd| burning hands, color spray
+5th| continual flame, scorching ray
+9th| daylight, fireball
+13th| fire shield, wall of fire
+17th| dispel evil and good, flame strike
+
+#### Bonus Cantrips
+You know the *light* and *produce flame* cantrips. These cantrips count as warlock spells for you, and don't count against your number of cantrips known.
+#### Nova
+At 3rd level, you can unleash your Star’s fury in earnest. However, if you channel its energy for too long, it will consume your mortal body. You can use your bonus action to enter a Nova. 
+
+When you enter a Nova, and each subsequent turn you begin while your Nova is active, you take special radiant damage called Nova damage. 
+
+This damage begins at 1d6 when you enter your Nova, and increases to 2d6 the following turn, 3d6 the turn after, and so on. This damage can’t be reduced or avoided. You don't make Constitution saving throws to maintain your concentration as a result of taking this damage.
+
+Your Nova ends if you drop to 0 hit points or if you use your bonus action to end it.
+
+While your Nova is active, you can add additional d6s of damage, up to a maximum of twice the Nova damage you have taken on your turn, when you damage a creature with an attack on your turn. You can choose to add all the damage dice to the roll of a single attack, or divide up the damage among multiple attacks.
+
+\column
+
+#### Solar Flare
+Starting at 6th level, if you drop to 0 hit points while your Nova is active, you can choose to instead drop to 1 hit point and cause each hostile creature within 30 feet of you to take radiant damage equal to your spellcasting modifier + your warlock level. Your Nova ends.
+
+Once you use this feature, you must finish a long rest before you can use it again. If you have no uses remaining, you can expend a Spell Slot of at least 2nd level to transform again.
+
+#### Healing Rays
+At 10th level, the Star’s soothing rays can mend even your severest of wounds. When you begin your turn in direct sunlight and your Nova isn't active, you can use your action to regain 1d6 hit points.
+
+You can heal yourself a number of times using this ability equal to your spellcasting modifier and regain all expended uses when you finish a short or long rest. At 14th level, this healing increases to 1d10.
+
+#### Supernova
+Starting at 14th level, when you enter a Nova, you can choose for your Nova damage dice and the additional damage you deal to other creatures to be d10s, instead of d6s.
+
+{{pageNumber,auto}}
+\page
+
+### The Swarm
+Malevolent forces like mummies, vampires, and
+hags can unite the will of individual beasts and turn
+them to a single dark purpose, creating a swarm.
+Some swarms form naturally, as in the presence of
+a rat king of a plague of locusts. All swarms are faint
+echoes, cheap imitators of the first Swarm. This
+inscrutable hivemind of insect-like creatures has
+infested the Ethereal Plane since time immemorial
+and is constantly chewing at the walls of reality,
+searching for a way in. No one knows how old this
+Swarm is or where it came from, but its purpose is
+clear: to assimilate all life into the will of the Swarm.
+
+
+#### Swarm Spells
+The Swarm lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.
+Warlock Level| Spells
+|:---------:|:------------:|
+3rd| jump, speak with animals
+5th| see invisibility, web
+9th| blink, wind wall
+13th| contagion, insect plague
+17th| awaken, commune with nature
+
+#### Infest Foe
+Beginning when you choose this otherworldly
+patron at 3rd level, the ethereal, intangible drones
+of the Swarm heed your command. When you hit
+a creature with an attack, you can call upon your
+drones to infest it and claw at its eyes and skin.
+Whenever the target makes an attack roll, ability
+check, or saving throw, it must roll a d4 and subtract
+the number rolled from the result. This effect lasts
+for 1 minute or until you die or you use this ability
+again.
+
+Starting at 10th level, the target subtracts a d6
+instead of a d4 from its attack rolls, ability checks,
+and saving throw.
+
+You can use this feature a number of times
+equal to your proficiency bonus, and you regain all
+expended uses when you finish a long rest.
+
+#### Writhing Escape
+Starting at 6th level, when you take damage, you can use your reaction to disincorporate into a swarm of drones. You gain resistance to the damage taken, and can move up to your walking speed to an unoccupied space you can see without provoking opportunity attacks. 
+
+During this movement, you have a climb speed equal to your walking speed and you can move through any space large enough for a Tiny insect, though you can’t end your movement in a space that isn’t large enough for you. You coalesce back into your original form after moving.
+
+Once you use this feature, you must finish a long rest before you can use it again. If you have no uses remaining, you can expend a Spell Slot of at least 2nd level to transform again.
+
+\column
+
+#### Drone Spy
+By 10th level, as an
+action, you can produce an ethereal Tiny drone,
+which vanishes after 1 hour, when drops to 0 hit
+points, when you dismiss it as an action on your
+turn, or when you use this feature to create a
+new drone. The drone has AC 10, 1 hit point, and
+immunity to all conditions. It automatically fails all
+saving throws.
+
+The drone is nearly invisible and requires a
+successful Intelligence (Investigation) check against
+your spell save DC to be found.
+
+You can mentally command the drone to fly up
+to 30 feet on each of your turns (no action required).
+There is no limit to how far away from you the
+drone can move, but it can’t enter another plane of
+existence.
+
+As an action, you can see through the drone’s
+eyes and hear what it hears until the start of
+your next turn. The drone has normal vision and
+darkvision out to 30 feet. During this time, you are
+blind and deaf with regard to your own senses.
+
+#### Eldritch Hive
+Beginning at 14th level, when a creature infested
+by your Infest Foe feature dies, you can use your
+reaction to infest its body with your drones,
+transforming it into a corpse hive under your control.
+The creature doesn’t fall prone when it dies.
+
+The corpse hive is an object with AC 10, 50
+HP, and immunity to poison and psychic damage.
+
+As a bonus action on your turn, you can
+mentally command the corpse hive to move up to
+the creature’s walking speed or 30 feet, whichever is
+higher, to an unoccupied location you can see.
+
+If a creature you choose begins its turn within
+5 feet of the hive, it is temporarily infested with
+your ethereal drones. Until the start of its next turn,
+whenever the creature makes an attack roll, ability
+check, or saving throw, it must roll a d6 and subtract
+the number rolled from the result.
+
+The hive explodes in a wave of eldritch energy
+after 1 minute, or when it drops to 0 HP or you
+command it to as an action on your turn. Each
+creature within 20 feet of the hive must make a
+Dexterity saving throw against your spell save DC,
+taking 10d8 force damage on a failed save, or half as
+much damage on a successful one.
+
+Once you use this feature, you must finish a long rest before you can use it again. If you have no uses remaining, you can expend a Spell Slot of at least 4th level to transform again.
+
+{{pageNumber,auto}}
+\page
+
+### The Symbiont
+Though most warlocks forge pacts with distant, intangible entities, your patron is a physical being of incomprehensible power—a being which dwells inside your very body. This arrangement was struck in the spirit of symbiosis: your patron, which resembles a muscular, living ichor, requires a mortal dwelling, and you in turn may profit from its magic. You can even draw your patron out from where it resides in your blood, causing it to seep forth onto your skin, until you are a monstrous hybrid of ichor and man, replete with claws and teeth to rend your foes asunder.
+
+#### Symbiont Spells
+The Symbiont lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.
+Warlock Level| Spells
+|:---------:|:------------:|
+3rd| entangle, longstrider
+5th| blur, enlarge/reduce
+9th| haste, meld into stone
+13th| black tentacles, stoneskin
+17th| cloudkill, mislead
+
+#### Symbiotic Transformation
+Starting when you choose this patron at 3rd level, you can draw out your Symbiont, which proceeds to coat your body in a living slime exoskeleton. You can undergo this transformation or reverse it as a bonus action on your turn. While transformed, you can’t cast spells, but transforming doesn’t break your concentration or prevent you from taking actions that are part of a spell that you’ve already cast. While transformed, you gain the following benefits:
+
+**The Flesh.** Your Armor Class equals 10 + your Dexterity modifier + your spellcasting modifier.
+
+**The Claws.** You sprout a set of wicked claws, which you can use as natural melee weapons to make claw attacks. You have proficiency in your claw attacks and can use your spellcasting modifier, instead of Strength, for their attack and damage rolls. On a hit, your claws deal 1d8 slashing damage which counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage. If you later gain the Pact of the Blade feature, your claws count as pact weapons for warlock class features.
+
+**Extra Attack.** Starting at 5th level, you can attack twice with your claws, instead of once, whenever you take the Attack action on your turn.
+
+\column
+
+#### Traumatic Rend
+Starting at 6th level, you can rake your foe’s eyes with your claws to discourage its attacks. When you hit a creature with your claws twice on your turn, you can make an additional attack using your claws against the target. On a hit, the target has disadvantage on attack rolls against you until the start of your turn.
+
+Once you use this feature, you must finish a long rest before you can use it again. If you have no uses remaining, you can expend a Spell Slot of at least 2nd level to transform again.
+
+#### Lifedrain
+By 10th level, your parasitic patron can draw life from those around you. While you are conscious, whenever you deal damage to a hostile creature using your claws, you regain 1d4 hit points.
+
+#### Violence After Death
+Beginning at 14th level, if you should fall in combat, your Symbiont shall keep fighting. If you drop to 0 hit points while transformed with your Symbiotic Transformation, you do not fall prone or begin making death saving throws until the end of your next turn. 
+
+Instead, your Symbiont controls your actions, acting as if you were not unconscious, and attacking any hostile creatures it sees. If you take any damage while at 0 hit points, you instantly fall unconscious and suffer one death saving throw failure. 
+
+At the end of your next turn, you collapse and begin to make death saving throws as normal.
+{{pageNumber,auto}}
+\page
+### The Titan
+At the dawn of creation the world was dominated by massive creatures; powerful giants bound together by the Ordning, hulking elementals that would become the landscape itself, and legendary Titans, like the Tarrasque, that still slumber beneath the earth. In remote places of the material plane these ancient beings sleep, their power dormant, waiting for an opportunity to remind the world of their existence.
+
+Why were you chosen by a Titan? Are they trapped, and need someone to carry out their will in the world, or do you draw your power from an ancient slumbering giant?
+
+#### Titan Spells
+The Titan lets you choose from an expanded list of spells when you learn a warlock spell. Beginning at 1st-level, the following spells are added to the warlock spell list for you.
+
+Warlock Level|	Spells
+:-:|:-:
+3rd|	catapult, earth tremor
+5th|	enlarge/reduce (enlarge only), spike growth
+9th|	erupting earth, protection from energy
+13th|	guardian of nature, stone shape
+17th|	transmute rock, wall of stone
+
+#### Elder Soul
+The elder magic of your titanic Patron greatly enhances your vigor. At 3rd level, your hit point maximum increases by 3, and increases by 1 again whenever you gain a warlock level.
+
+You also learn to speak, read, and write either Primordial or Giant (your choice). Whenever you make a Charisma check when interacting with elementals (if you chose Primordial) or giants (if you chose Giant), your proficiency bonus is doubled.
+
+
+
+\column
+
+#### Colossal Form
+Also at 3rd level, you can use a bonus action on your turn to take on a Colossal Form, granting you the benefits below:
+
+- You gain temporary hit points equal to your warlock level.
+- Your size increases by one category. For example, if you are a Medium creature you would grow to become Large.
+- When you make a Strength-based ability check or saving throw, you add your spellcasting modifier to the roll.
+- When you hit a creature with a melee weapon attack that uses your Strength, you gain a bonus to your damage roll equal to your spellcasting modifier (minimum of +1).
+
+Your Colossal Form lasts for 1 minute, but ends early if you are incapacitated or you choose to end it as a bonus action. Once you use your Colossal Form, you must finish a short or long rest before you can use it again. If you have no uses remaining, you can expend a Spell Slot of at least 1st level to transform again.
+
+#### Titanic Endurance
+You can draw upon the wondrous resilience of your Patron to reduce incoming damage. At 6th level, you gain a special pool of d8 dice that you can use to absorb incoming damage. This pool has a number of d8s equal to 1 + your warlock level.
+
+As a reaction when you take damage, you can expend any number of dice from this pool, and reduce the damage by an amount equal to the dice roll + your spellcasting modifier. Your pool regains all expended dice at the end of each long rest.
+
+#### Stalwart Blood
+Your connection to your gargantuan patron has deepened. Starting at 10th level, when you make a Constitution-based ability check or Constitution saving throw, you gain a bonus to the roll equal to your spellcasting modifier (minimum of +1).
+
+#### Legendary Behemoth
+You have mastered the overwhelming magic of the Titan and wield its power with ease. Beginning at 14th level, when you enter your Colossal Form, you can choose to grow by two size categories, for example, from Medium to Huge. When you hit a creature with a melee weapon attack while transformed, you roll one of the weapon's damage dice an additional time.
+
+In addition, once you adopt your Colossal Form, it lasts until you are incapacitated or end it as a bonus action.
+
+{{pageNumber,auto}}
+\page
+
+
+
+
+
+### The Unblinking
+You have entered the service of one of the great and paranoid tyrants known only as Beholders. Their origins are unknown, but their presence is felt in nearly every major city and keep where mortals dwell. Preferring to have others do their dirty work, Beholders are known for employing vast networks of mortals to carry out their paranoid and tyrannical will.
+
+#### Unblinking Spells
+The Unblinking lets you choose from an expanded list of spells when you learn a warlock spell. Starting at 1st level,
+the spells below are added to the warlock spell list for you.
+
+Warlock Level|	Spells
+:-:|:-:
+3rd|	chaos bolt, ray of sickness
+5th|	arcane scorcher, levitate
+9th|	clairvoyance, minute meteors 
+13th|	arcane eye, vitriolic sphere
+17th|	dominate person, telekinesis, antimagic field
+
+#### Unblinking Eye
+At 3rd level, your Patron magiaclly implants you with an additional Unblinking Eye, reminiscent of theirs, in the center of your forehead. You gain proficiency in Perception, and you add your spellcasting modifier (minimum of +1) to Wisdom (Perception) checks.
+
+#### Ocular Ray
+Starting at 3rd level, you can use your Unblinking Eye as a spellcasting focus for any spell that requires an attack roll.
+
+When using your Eye as a spellcasting focus, you must have at least one free hand to cast spells that require somatic or material components, and you must still provide material components that are consumed or have a gold cost.
+
+\column
+
+#### Unsleeping Awareness
+The magic of your otherworldly Unblinking Eye has grown. Beginning at 6th level, you cannot be surprised, even if you are sleeping, as your Unblinking Eye remains ever alert.
+
+Moreover, when you cast a spell and use your Eye as the spellcasting focus, you can add your spellcasting modifier to
+the damage roll of that spell if you do not do so already.
+
+#### Prescient Sight
+You can channel the eldritch power of your Patron to glimpse the near future. Starting at 10th level, you can use an action to enter a heightened state of prescience for 10 minutes. You must concentrate on this state if you were concentrating on a spell. While in this state you gain the following benefits:
+
+- You add your spellcasting modifier to your initiative rolls.
+- Creatures you can see cannot attack you with advantage.
+- When you are hit by an attack, you can use your reaction to add 1d4 to your Armor Class against that attack.
+
+#### Eye Tyrant
+You have unlockd the true power of your Patron. Starting at 14th level, you can use an action to have your Unblinking Eye emanate an antimagic zone in a 30 foot cone. The area of this cone is under the effects of the antimagic field spell.
+
+At the start of each of your turns, you decide which way your cone of antimagic faces until the start of your next turn.
+
+Your Eye emanates this cone for 1 minute. The effect ends early if you are incapacitated or you choose to end the effect at the beginning of your turn (no action required).
+
+
+
+{{imageMaskEdge8,--offset:30%,--rotation:0
+  ![](https://www.gmbinder.com/images/l27MKDX.jpg){height:50%,top:700px}
+}}
+
+
+
+{{imageMaskCorner26,--offsetX:55%,--offsetY:-67%,--rotation:0
+  ![](){height:50%,left:250px}
+}}
+
+
+{{pageNumber,auto}}
+\page
+### The Undead
+
+You've made a pact with a deathless being, a creature that defies the cycle and life and death, forsaking its mortal shell so it might eternally pursue its unfathomable ambitions. For such beings, time and morality are fleeting things, the concerns of those for whom grains of sand still rush through life's hourglass. Having once been mortal themselves, these ancient undead know firsthand the paths of ambition and the routes past the doors of death. They eagerly share this profane knowledge, along with other secrets, with those who work their will among the living.
+
+Beings of this type include the demilich Acererak, the vampire tyrant Kas the Bloody-Handed, the githyanki lich-queen Vlaakith, the dracolich Dragotha, the undead pharaoh Ankhtepot, and the elusive Darklord, Azalin Rex.
+
+
+#### Undead Spells
+At 3rd level, the Undead lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.
+
+
+Warlock Level|	Spells
+:-:|:-:
+3rd|	Bane, False Life
+5th|	Blindness/Deafness, Phantasmal Force
+9th|Phantom Steed, Speak with Dead
+13th|	Death Ward, Greater Invisibility
+17th|	Antilife Shell, Cloudkill
+
+#### Form of Dread
+At 3rd level, you manifest an aspect of your patron’s dreadful power. As a bonus action, you transform for 1 minute. You gain the following benefits while transformed:
+
+- You gain temporary hit points equal to 1d10 + your warlock level.
+- Once during each of your turns, when you hit a creature with an attack, you can force it to make a Wisdom saving throw, and if the saving throw fails, the target is frightened of you until the end of your next turn.
+- You are immune to the frightened condition.
+
+You can transform a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.
+
+The appearance of your Form of Dread reflects some aspect of your patron. For example, your form could be a shroud of shadows forming the crown and robes of your lich patron, or your body might glow with glyphs from ancient funerary rites and be surrounded by desert winds, suggesting your mummy patron.
+
+
+
+#### Grave Touched
+At 6th level, your patron’s powers have a profound effect on your body and magic. You don’t need to eat, drink, or breathe.
+
+In addition, once during each of your turns, when you hit a creature with an attack and roll damage against the creature, you can replace the damage type with necrotic damage. While you are using your Form of Dread, you can roll one additional damage die when determining the necrotic damage the target takes.
+
+#### Necrotic Husk
+At 10th level, Your connection to undeath and necrotic energy now saturates your body. You have resistance to necrotic damage. If you are transformed using your Form of Dread, you instead become immune to necrotic damage.
+
+In addition, when you are reduced to 0 hit points, you can use your reaction to drop to 1 hit point instead and cause your body to erupt with deathly energy. Each creature of your choice that is within 30 feet of you takes necrotic damage equal to 2d10 + your warlock level. You then gain 1 level of exhaustion. Once you use this reaction, you can’t do so again until you finish 1d4 long rests.
+
+#### Spirit Projection
+At 14th level, your spirit can become untethered from your physical form. As an action, you can project your spirit from your body. The body you leave behind is unconscious and in a state of suspended animation.
+
+Your spirit resembles your mortal form in almost every way, replicating game statistics but not your possessions. Any damage or other effects that apply to your spirit or physical body affects the other. Your spirit can remain outside your body for up to 1 hour or until your concentration is broken (as if concentrating on a spell). 
+
+When your projection ends, your spirit returns to your body or your body magically teleports to your spirit’s space (your choice).
+
+While projecting your spirit, you gain the following benefits:
+
+- Your spirit and body gain resistance to bludgeoning, piercing, and slashing damage.
+- When you cast a spell of the conjuration or necromancy school, the spell doesn’t require verbal or somatic components or material components that lack a gold cost.
+- You have a flying speed equal to your walking speed and can hover. You can move through creatures and objects as if they were difficult terrain, but you take 1d10 force damage if you end your turn inside a creature or an object.
+- While you are using your Form of Dread, once during each of your turns when you deal necrotic damage to a creature, you regain hit points equal to half the amount of necrotic damage dealt.
+
+Once you use this feature, you must finish a long rest before you can use it again. If you have no uses remaining, you can expend a Spell Slot of at least 4th level to transform again.
+{{pageNumber,auto}}
+\page
+### The Undying
+Death holds no sway over your patron, who has unlocked the secrets of everlasting life, although such a prize – like all power – comes at a price. Once mortal, the Undying has seen mortal lifetimes pass like the seasons, like the flicker of endless days and nights. It has the secrets of the ages to share, secrets of life and death. Beings of this sort include Vecna, Lord of the Hand and the Eye; the dread Iuz; the lich-queen Vol; the Undying Court of Aerenal; Vlaakith, lichqueen of the githyanki; and the deathless wizard Fistandantalus.
+
+In the Realms, Undying patrons include Larloch the Shadow King, legendary master of Warlock's Crypt, and Gilgeam, the God-King of Unther.
+#### Undying Spells
+The undying lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.
+Warlock Level| Spells
+|:---------:|:------------:|
+3rd| false life, ray of sickness
+5th| blindness/deafness, silence
+9th| feign death, speak with dead
+13th| aura of life, death ward
+17th| contagion, legend lore
+
+#### Among the Dead
+Starting at 3rd level, you learn the Spare the Dying cantrip, which counts as a warlock cantrip for you. You also have advantage on saving throws against any disease.
+
+Additionally, undead have difficulty harming you. If an undead targets you directly with an attack or a harmful spell, that creature must make a Wisdom saving throw against your spell save DC (an undead needn't make the save when it includes you in an area effect, such as the explosion of Fireball). 
+
+On a failed save, the creature must choose a new target or forfeit targeting someone instead of you, potentially wasting the attack or spell. On a successful save, the creature is immune to this effect for 24 hours. 
+
+An undead is also immune to this effect for 24 hours if you target it with an attack or a harmful spell.
+#### Defy Death
+Starting at 6th level, you can give yourself vitality when you cheat death or when you help someone else cheat it. You can regain hit points equal to 1d8 + your Constitution modifier (minimum of 1 hit point) when you succeed on a death saving throw or when you stabilize a creature with Spare the Dying.
+
+Once you use this feature, you can’t use it again until you finish a Long Rest unless you expend a Spell Slot when you use it again.
+
+\column
+
+#### Undying Nature
+Beginning at 10th level, you can hold your breath indefinitely, and you don't require food, water, or sleep, although you still require rest to reduce exhaustion and still benefit from finishing short and long rests.
+
+In addition, you age at a slower rate. For every 10 years that pass, your body ages only 1 year, and you are immune to being magically aged.
+
+#### Indestructible Life
+When you reach 14th level, you partake of some of the true secrets of the Undying. On your turn, you can use a bonus action to regain hit points equal to 1d8 + your warlock level. Additionally, if you put a severed body part of yours back in place when you use this feature, the part reattaches.
+
+Once you use this feature, you can’t use it again until you finish a Long Rest unless you expend a Spell Slot of at least 3rd level when you use it again. You can use this feature only once per turn.
+{{pageNumber,auto}}
+\page
+### The Virtuoso
+Your patron is not a creature, but a concept—the pure, primal essence of music itself. It is the sound of a star collapsing, the first note of creation, and the final, defiant chord of a dying world. This entity, often called the Maestro, the Great Song, or the Virtuoso, seeks to be heard. You are its instrument, a performer chosen to carry its sound across the planes.
+
+Your pact is a performance, your magic a melody, and your life a stage. You might be a defiant rebel shredding chords of power, or a sublime artist whose music can soothe or shatter.
+
+#### Virtuoso Spell List
+The Void lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.
+
+Warlock Level|	Spells
+:-:|:-:
+3rd|	*Heroism, Thunderwave*
+5th|	*Calm Emotions, Shatter*
+9th|	*Fear, Hypnotic Pattern*
+13th|	*Charm Monster, Compulsion*
+17th|	*Dominate Person, Synaptic Static*
+
+#### Power Chord
+At 3rd level, you gain proficiency in the Performance skill and with one musical instrument of your choice. This instrument can serve as your arcane focus for your warlock spells.
+
+Additionally, your Eldritch Blast beams deal thunder damage instead of force damage.
+
+#### Inspiring Riff
+Starting at 3rd level, you can use your music to inspire your allies. As a bonus action, you can play a short, powerful riff on your instrument. Choose a number of friendly creatures you can see within 30 feet of you, up to your spellcasting modifier (minimum of one). Each target gains temporary hit points equal to 1d6 + your warlock level.
+
+Once you use this feature, you can't use it again until you finish a Long Rest unless you expend a Spell Slot of at least 1st level when you use it again.
+
+\column
+
+#### Captivating Perfomance
+Starting at 6th level, your music can hold an audience spellbound. If you perform on your instrument for at least 1 minute, you can attempt to magically captivate your audience. At the end of the performance, choose a number of humanoids within 60 feet of you who watched and listened to the entire performance, up to a number equal to your spellcasting modifier (minimum of one).
+
+Each target must succeed on a Wisdom saving throw against your warlock spell save DC  or be charmed by you. While charmed in this way, the target is enthralled by you and has disadvantage on Wisdom (Perception) checks made to perceive anything other than you. This effect ends after 1 hour, if the target takes any damage, if you attack it, or if it witnesses you attacking any of its allies.
+
+Once you use this feature, you can't use it again until you finish a long rest.
+
+#### Sonic Feedback
+Beginning at 10th level, you can deflect harm with a blast of pure sound. When you take damage from a creature you can see within 30 feet of you, you can use your reaction to create a shield of sonic energy. You gain resistance to the triggering damage type until the start of your next turn.
+
+Additionally, the creature that damaged you must make a Constitution saving throw against your spell save DC. On a failed save, it takes thunder damage equal to your warlock level and is deafened for 1 minute.
+
+
+#### Face-Melting Solo
+Starting at 14th level, you can channel the Virtuoso's pure essence into an earth-shattering performance. As an action, you begin your solo. For 1 minute, you gain the following benefits:
+
+- You emanate an aura of overwhelming sound in a 30-foot radius. Any hostile creature that starts its turn in the aura or enters it for the first time on a turn must make a Wisdom saving throw against your spell save DC. On a failed save, it is frightened of you until the start of its next turn.
+
+- Once on your turn when you deal thunder damage to a creature, you can add your half warlock level to one damage roll of that spell or attack.
+
+Once you use this feature, you can't use it again until you finish a Long Rest unless you expend a Spell Slot of at least 4th level when you use it again.
+{{pageNumber,auto}}
+\page
+### The Void
+These warlocks have made a pact with an eldritch being
+from the deepest depths of the Cosmos—a being that
+devours energy, holds the secrets of creation, and paves
+the way to the apocalypse. Pray that they are not aware
+of your presence. A deep fascination for the cosmos, or
+perhaps profound meditation on the heat death of the
+universe could've brought about the circumstances that
+lead to this pact. Very few are able to withstand such
+knowledge and power, and the few that do are often
+seen as mysterious and reclusive figures.
+
+Warlocks who strike a pact with the Void walk an
+eerie and dangerous path, focused on manipulating
+gravity and harnessing the immense power of black
+holes. Crushing their foes in condensed wells of gravity,
+whilst liberating themselves from the shackles that hold
+them, these warlocks carve their own destiny under the
+guidance of the cosmos.
+#### Void Spell List
+The Void lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.
+
+Warlock Level|	Spells
+:-:|:-:
+3rd|	feather fall, Magnify Gravity
+5th|	Hold Person, Repulsor Ring
+9th|	conjure barrage, blink
+13th|	Evard's Black Tentacles, resilient sphere
+17th|	Starfire,telekinesis
+
+#### Fugite Omnis
+At 3rd level, you can partially ignore the shackles of gravity. You gain the ability to hover a few inches off the ground. 
+
+You can ascend and descend as part of your movement. You can't hover more than a foot above the ground and fall if you are above that height. 
+
+If you were to be knocked prone while hovering, you are instead made to stand on the ground.
+
+\column
+
+#### Voracious Void
+At 3rd level, as a bonus action, you can create a miniature black hole a 5-foot-radius sphere centered on a point on the ground that you can see within 60 feet of you.
+
+This black hole exerts a gravitational influence extending 10 feet beyond its radius. It lasts for 1 minute or until your concentration ends (as if concentrating on a spell). The area of the black hole is considered difficult terrain for all creatures except you.
+
+When the sphere appears, and at the start of each of your turns until the effect ends, unsecured objects within the black hole’s domain of influence are drawn toward its center, ending in the nearest unoccupied space to it.
+
+When you create the sphere, and as a bonus action on subsequent turns, you can target one creature within the black hole’s domain of influence, intensifying the gravitational pull around them. The creature must succeed on a Strength saving throw against your spell save DC or be pulled straight toward the sphere’s center, ending in the nearest unoccupied space to it.
+
+A creature within the domain of influence of the black hole has its speed halved.
+
+When a creature enters the black hole’s space for the first time on a turn, or starts its turn there, it takes 1d6 magical bludgeoning damage and becomes restrained for the duration. A restrained creature can use its action to make a Strength (Athletics) check against your spell save DC, freeing itself on a success. When it does so, the creature moves to the nearest unoccupied space outside the black hole.
+
+Once you use this feature, you can’t use it again until you finish a long rest, unless you expend a Spell Slot of at least 1st level to use it again.
+
+Once you use this feature, you can't use it again until you finish a long rest, unless you expend a warlock spell slot to use it again.
+
+This miniature black hole grows with you. When your pact magic increases in power, so does this feature:
+
+At 5th level in this class, the domain of influence of the sphere increases to 20 feet and the damage to 2d6. A creature reduced to 0 hit points while inside the black hole is annihilated, along with any nonmagical items it is wearing or carrying.
+
+ At 7th level in this class, the radius of the black hole increases to 10 feet.
+
+At 9th level in this class, the damage increases to 3d6 and the sphere's domain of influence to 30 feet. You can summon the black hole at any point that you can see, not just on the ground. If the sphere is in the air, creatures restrained by it hover inside the black hole.
+
+{{note
+##### Note
+The black hole and its domain of influence are two different things. At 3rd level, only the black hole, meaning the 5-foot radius sphere at the center of your ravenous void, can restrain creatures.
+}}
+
+{{pageNumber,auto}}
+\page
+ 
+
+#### Gravitational Pull
+At 6th level, when a creature you can see within 120 feet of you is targeted by a ranged attack, if your Voracious Void is active, you can use your reaction to divert the strike.
+
+If the attack passes through the miniature black hole or its domain of influence, you can make a ranged spell attack. 
+
+If you roll higher than their attack roll, you deflect the trajectory and the target takes no damage.
+
+If you roll lower, you reduce the damage by 1d6 + your Charisma modifier. 
+
+If you roll a 20, the attack is deflected and streaks towards the center ofthe black hole, randomly hitting one of the creatures inside, if any are present.
+
+#### Warp Gravity
+At 10th level, you can bend gravity around you at will, allowing you to move through the air as if you were walking on solid ground. You gain a flying speed equal to your walking speed and can hover.
+
+You can grant these benefits to one creature that is touching you.
+
+They lose this flying speed immediately if they are no longer in contact with you.
+
+#### Oblivion
+At 14th level, you can unleash the ravenous hunger of the void. When you use your Voracious Void ability, you can choose to let it run wild. 
+
+In that case, rather than as a bonus action, whenever a creature starts its turn within the black hole or its domain of influence, they must succeed on a Strength saving throw against your spell save DC or be pulled to the center.
+
+You and your choice of a number of creatures equal to your Spellcasting modifier (minimum 1) aren't affected by this effect.
+
+Once you use this feature, you can't do so again until you finish a long rest.
+{{pageNumber,auto}}
+\page
+### The Wild Hunt
+The Wild Hunt is a strange phenomenon that takes hold of mortals, driving them to hunt whatever poor creature they perceive to be their prey. The source of this phenomenon is unclear, but legends tell of raiding parties from the Feywild that draw wayward mortals into their hunt, or of individuals cursed by sinister druidic magic during the full moon.
+
+While its exact origins are unclear, mortals who are bound to this force by a pact start to take on strange and unusual characteristics of the Feywild; sprouting antlers and their ears growing pointed. As their appearance changes, they slowly lose who they are, becoming one with the Wild Hunt.
+
+#### Wild Hunt Spell List
+The Wild Hunt lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.
+
+Warlock Level|	Spells
+:-:|:-:
+3rd|	hail of thorns, zephyr strike
+5th|	find steed, locate animals or plants
+9th|	conjure barrage, haste
+13th|	find greater steed, locate creature
+17th|	conjure volley, tree stride
+
+#### Wild Warrior
+When you make your Pact with the Wild Hunt at 3rd level, it imbues you with supernatural skill. You gain proficiency in Survival and martial weapons.
+
+Also, when you would make a Survival check, you can make with your spellcasting modifier instead.
+
+Finally, if you have the Pact of the Blade feature the weapon you conjure can be a shortbow, longbow, light crossbow, or heavy crossbow and gains the benefits of your Pact of the Blade feature.
+
+#### Hunter's Quarry
+You can mark your foe with the dark magic of the Wild Hunt. Beginning at 3rd level, you can use a bonus action to mark a creature within 60 feet as your Quarry, gaining the following benefits for 1 minute, or until you mark another creature:
+
+- When you hit it with a weapon attack, you gain a bonus to your damage roll equal to your spellcasting modifier.
+- When you hit it with a weapon attack, you can expend a spell slot to deal additional force damage to the target equal to 1d8 per level of the spell slot spent.
+
+\column
+
+#### Predator's Intuition 
+At 6th level, your connection to the Wild Hunt sharpens your instincts. You gain advantage on Wisdom (Perception) and Wisdom (Survival) checks related to tracking, hunting, or locating creatures. 
+
+Furthermore, you can communicate simple ideas with beasts, allowing you to gather information from the natural world.
+
+#### Spirit of the Hunt
+Beginning at 6th level, when you mark your Quarry you can conjure a Spirit of the Hunt to harry its steps, forcing it to make a Strength saving throw. On a failed save, its speed is reduced by a number of feet equal to 5 times your spellcasting modifier (minimum of 5 feet) for 1 minute. This speed reduction ends early if you mark another Quarry.
+
+Once you use this feature, you must finish a long rest before you can use it again. If you have no uses remaining, you can expend a Spell Slot of at least 2nd level to transform again.
+
+ 
+
+#### Predatory Resolve
+At 10th level, the savage fervor of the Wild Hunt heightens your predatory instincts. When your Quarry hits you with an attack, you can use a reaction to add your spellcasting modifier (minimum of +1) to your Armor Class against the attack.
+
+As a reaction when the Spirit of the Hunt is summoned and your Quarry hits you with an attack, you can have the Spirit to absorb the full damage, instantly disappearing.
+
+#### Master of the Hunt
+Upon reaching 14th level, you can call on your allies to join you in the Wild Hunt. 
+
+When you mark a creature as your Quarry, you can choose two creatures within 60 feet. 
+
+These creatures can add your spellcasting modifier to the damage of any weapon attacks they make against your Quarry.
+
+{{pageNumber,auto}}
+\page
+
+## Eldritch Invocations
+The following options are available to your Eldritch Invocations feature. The options are presented in alphabetical order.
+
+#### Agonizing Blast
+Whenever you cast Eldritch Blast, you can add your spellcasting ability modifier to the spell’s damage rolls.
+#### Aegis Expert
+*Prerequisite:5th level Warlock, Pact of the Shield*::
+
+While your Pact Shield is conjured or bonded, you gain a +1 bonus to AC.
+
+#### Armor of Shadows
+You can cast Mage Armor on yourself without expending a Spell Slot or using Material components.
+#### Ascendant Step
+*Prerequisite: 9th-level Warlock*::
+You can cast Levitate on yourself without expending a Spell Slot or using Material components.
+#### Aspect of the Moon
+*Prerequisite: Pact of the Tome*::
+You no longer need to sleep and can’t be forced to sleep by any means. To gain the benefits of a long rest, you can spend all 8 hours doing light activity, such as reading your Book of Shadows and keeping watch.
+#### Beast Speech
+You can cast *Speak with Animals* without expending a Spell Slot.
+#### Book of Ancient Secrets
+*Prerequisite: Pact of the Tome*:: 
+You can now inscribe magical rituals in your Book of Shadows. Choose two 1st-level spells that have the ritual tag from any class's spell list; these rituals needn’t be from the same spell list. The spells appear in the book and don't count against the number of spells you know. With your Book of Shadows in hand, you can cast the chosen spells as rituals. You can't cast the spells except as rituals, unless you've learned them by some other means. You can also cast a warlock spell you know as a ritual if it has the ritual tag.
+
+On your adventures, you can add other ritual spells to your Book of Shadows. When you find such a spell, you can add it to the book if the spell's level is equal to or less than half your warlock level (rounded up) and if you can spare the time to transcribe the spell. For each level of the spell, the transcription process takes 2 hours and costs 50 gp for the rare inks needed to inscribe it.
+
+\column
+
+#### Breath of the Bag
+*Prerequisite: Pact of the Bag*::
+
+As a bonus action, you can pull the brim of your Pact Hat down over your face, magically creating a breathable air pocket inside. For the next hour, you can breathe normally regardless of the surrounding environment, and you gain immunity to harmful gases, poisons, and spells that would otherwise affect your breathing (such as Cloudkill or Stinking Cloud).
+#### Cloak of Flies
+*Prerequisite: 5th level*::
+As a bonus action, you can surround yourself with a magical aura that looks like buzzing flies. The aura extends 5 feet from you in every direction, but not through total cover. It lasts until you're incapacitated or you dismiss it as a bonus action.
+
+The aura grants you advantage on Charisma (Intimidation) checks but disadvantage on all other Charisma checks. Any other creature that starts its turn in the aura takes poison damage equal to your spellcasting modifier (minimum of 0 damage).
+
+Once you use this invocation, you can’t use it again until you finish a short or long rest.
+#### Devil's Sight
+You can see normally in darkness—both magical and nonmagical—to a distance of 120 feet.
+
+
+
+#### Eldritch Mind
+*Prerequisite: Pact of the Tome feature*::
+You have advantage on Constitution saving throws that you make to maintain your concentration on a spell.
+#### Eldritch Sight
+*Prerequisite: eldritch blast cantrip.*::
+You can cast *Detect Magic* without expending a Spell Slot.
+
+#### Eldritch Smite
+*Prerequisite: 5th level, Pact of the Blade feature*::
+Once per turn when you hit a creature with your pact weapon, you can expend a warlock spell slot to deal an extra 1d6 force damage to the target, plus another 1d6 per level of the spell slot.
+#### Eldritch Spear
+*Prerequisite: eldritch blast cantrip.*::
+When you cast *Eldritch Blast*, its range is 300 feet.
+{{pageNumber,auto}}
+\page
+#### Eldritch Strike
+*Prerequisite: eldritch blast cantrip.*::
+For you, the range of eldritch blast is reduced to 5 feet and it becomes a melee spell attack. Make a separate melee spell attack for each beam, dealing 1d12 force damage on hit.
+
+Any class features or Eldritch Invocations that affect the range of eldritch blast do not work with this Invocation.
+
+#### Eldritch Touch
+
+*Prerequisite: eldritch blast cantrip.*::
+
+When you cast eldritch blast, you can choose to twist the spell into a touch of energy. When cast in this way, the spell's range becomes Touch, it does not require a ranged spell attack roll, and it does not create multiple beams at higher levels.
+
+Instead, a creature you touch must make a Constitution saving throw against your warlock spell save DC. On a failed save, the target takes 1d12 force damage. This damage increases by 1d12 when you reach 5th level (2d12), 11th level (3d12), and 17th level (4d12).
+
+This casting counts as eldritch blast for the purpose of other Eldritch Invocations, though invocations that increase the spell's range have no effect on this use.
+
+
+#### Eldritch Ward
+Prerequisite: *5th level, Pact of the Cloak*::
+
+While wearing your Pact Cloak, you gain a +2 bonus to AC. This bonus applies only if you are not wielding a shield and not wearing medium or heavy armor.
+
+
+
+#### Eyes of the Rune Keeper
+You can read all writing. This ability doesn’t decode secret messages in a text; you read the surface meaning and must rely on other capabilities to decode something.
+
+#### Far Scribe
+*Prerequisite: 5th level, Pact of the Tome feature*::
+A new page appears in your Book of Shadows. With your permission, a creature can use its action to write its name on that page, which can contain a number of names equal to your spellcasting modifier (minimum of 1).
+
+Once per long rest per target you can cast the sending spell, targeting a creature whose name is on the page, without using a spell slot and without using material components. To do so, you must write the message on the page. The target hears the message in their mind, and if the target replies, their message appears on the page, rather than in your mind. The writing disappears after 1 minute.
+
+As an action, you can magically erase a name on the page by touching the name on it.
+
+\column
+
+#### Favor of the Chain Master
+*Prerequisite: 9th-level Warlock, Pact of the Chain*::
+Your bond with the familiar summoned by your Pact Familiar spell grows more powerful. Whenever the familiar hits with its Eldritch Strike, the target experiences the following effect associated with the familiar’s creature type:
+
+**Aberration:** *Slowing Slime.* The target’s Speed is reduced by 15 feet until the end of your next turn, and during that time, it can’t take the Dash or Disengage actions.
+
+**Celestial:** *Guiding Light.* The next attack roll against the target before the end of your next turn has Advantage, and if the target has the Invisible condition, that condition is suppressed for the duration.
+
+**Dragon:** *Draconic Might.* If the target is Medium or smaller, it has the Prone condition.
+
+**Fey:** *Beguiling Sting.* The target has the Charmed condition until the end of your next turn and perceives both you and the familiar as the charmer.
+
+**Fiend:** *Unearthly Toxin.* The target has the Poisoned condition until the end of your next turn.
+
+**Undead:** *Whispers of the Grave.* The target has the Frightened condition until the end of your next turn. You choose whether the target is frightened of you or the familiar.
+
+#### Fiendish Vigor
+You can cast *False Life* on yourself without expending a Spell Slot or using Material components.
+
+
+
+#### Gaze of two Minds
+*Prerequisite: 5th-level Warlock*::
+You can use a Bonus Action to touch a willing Humanoid and perceive through its senses until the end of your next turn. As long as the creature is on the same plane of existence as you, you can use a Bonus Action on subsequent turns to maintain this connection, extending the duration until the end of your next turn.
+
+While perceiving through the other creature’s senses, you benefit from any special senses possessed by that creature, and you can cast spells as if you were in your space or the other creature’s space.
+
+#### Ghostly Gaze
+*Prerequisite: 5th level*::
+As an action, you gain the ability to see through solid objects to a range of 30 feet. Within that range, you have darkvision if you don’t already have it. This special sight lasts for 1 minute or until your concentration ends (as if you were concentrating on a spell). During that time, you perceive objects as ghostly, transparent images.
+{{pageNumber,auto}}
+\page
+#### Ghoststep Mantle
+*Prerequisite: Pact of the Cloak*::
+
+While wearing your Pact Cloak, you can move through the space of hostile or allied creatures without impediment, and doing so costs you no extra movement.
+
+If you end your movement inside another creature’s space, you immediately take 1d6 force damage for each 5 feet of movement you traveled that turn and are pushed 5 feet to the nearest unoccupied space.
+
+#### Gift of the Depths
+*Prerequisite: 5th level*::
+You can breathe underwater, and you gain a swimming speed equal to your walking speed.
+
+You can also cast Water Breathing without expending a spell slot. You regain the ability to do so when you finish a long rest.
+#### Gift of the Protectors
+*Prerequisite: 9th-level Warlock, Pact of the Tome*::
+A new page appears in your Book of Shadows when you conjure it. With your permission, a creature can use its action to write its name on that page, which can contain a number of names equal to your Proficiency Bonus.
+
+When any creature whose name is on the page is reduced to 0 Hit Points but not killed outright, the creature magically drops to 1 Hit Point instead. Once this magic is triggered, no creature can benefit from it until you finish a Long Rest.
+
+As an action, you can erase a name on the page by touching it.
+
+#### Grasp of Hadar
+*Prerequisite: Eldritch Blast cantrip*::
+Once on each of your turns when you hit a creature with your Eldritch Blast, you can move that creature in a straight line 10 feet closer to yourself.
+
+#### Guardian’s Rebuke
+*Prerequisite: Pact of the Shield*::
+
+When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. To use this reaction, you must be wielding your Pact Shield
+#### Hexer
+*Prerequisite: Hex spells*::
+When you cast Hex, its range is 600 feet, and you have Advantage on any Constitution saving throw you make to maintain your Concentration on the spell.
+
+\column
+
+#### Lance of Lethargy
+*Prerequisite: Eldritch Blast cantrip*::
+Once on each of your turns when you hit a creature with your Eldritch Blast, you can reduce that creature’s speed by 10 feet until the end of your next turn.
+
+#### Lesssons of the First Ones
+You have received knowledge from an elder entity of the multiverse, allowing you to gain one feat of your choice, such as Skilled, that is available to 1st-level characters and that lacks prerequisites.
+
+#### Living Containment
+*Prerequisite: 9th-level Warlock, Pact of the Bag*::
+
+As an action, you can place one willing or restrained creature of Small size or smaller into your Pact Bag’s extradimensional space. Only one creature can be contained this way at a time.
+
+The creature remains inside the bag until it chooses to exit as an Action to release it.
+
+While inside, the creature has enough air to breathe, but it cannot attack, cast spells, or interact with the outside world. The creature is considered incapacitated but not unconscious.
+
+You cannot place unwilling creatures into the bag unless they are restrained or grappled.
+
+#### Lifedrinker
+*Prerequisite: 9th-level Warlock, Pact of the Blade*::
+When you hit a creature with the weapon of your Pact Weapon spell, the creature takes an extra 1d6 Necrotic damage. In addition, the first time you deal Necrotic damage with this invocation on each of your turns, you regain a number of Hit Points equal to the Necrotic damage dealt.
+#### Maddening Hex
+*Prerequisite: 5th level*::
+As a bonus action, you cause a psychic disturbance around the target cursed by your Hex spell or by a warlock feature of yours, such as Hexblade’s Curse and Sign of Ill Omen. When you do so, you deal psychic damage to the cursed target and each creature of your choice within 5 feet of it. The psychic damage equals your spellcasating modifier (minimum of 1 damage). To use this invocation, you must be able to see the cursed target, and it must be within 30 feet of you.
+#### Mask of Many Faces
+You can cast *Disguise Self* without expending a Spell Slot.
+#### Master of Myriad Forms
+*Prerequisite: 15th-level Warlock*::
+You can cast *Alter Self* without expending a Spell Slot.
+
+
+
+{{pageNumber,auto}}
+\page
+#### Misty Visions
+You can cast *Silent Image* without expending a Spell Slot or using Material components.
+#### Mystic Arcanum
+*Prerequisite: 5th-level Warlock or Higher*::
+Your explorations of the arcane have unlocked magic within you. Choose one spell from the Wizard spell list that has a level for which you qualify, as shown on the Mystic Arcanum table. Look for your Warlock level on the table to see the maximum level that the spell can have.
+
+You can cast the chosen spell once without expending a Spell Slot, and you must finish a Long Rest before you can do so again.
+
+**Repeatable.** You can take this invocation more than once. Each time you do so, the spell you gain must be of a different level from any other spell you’ve chosen for this invocation.
+##### Mystic Arcanum
+Warlock Level| Max. Spell Level
+|:---------:|:------------:|
+5th–6th| 3rd
+7th–8th |4th
+9th–10th| 5th
+11th–12th| 6th
+13th–14th| 7th
+15th–16th| 8th
+17th+| 9th
+#### One with Shadows
+*Prerequisite: 5th-level Warlock or Higher*::
+When you are in an area of Dim Light or Darkness, you can use your action to have the Invisible condition until you move or take an action, a Bonus Action, or a Reaction.
+
+#### Otherworldly Nature
+*Prerequisite: 9th-level Warlock*::
+Your very being is suffused with eldritch magic. You no longer need to eat, breathe, or sleep. Though, to gain the benefits of a long rest, you must spend 8 hours doing light activity. Also, for every 10 years that pass, your body ages only 1 year.
+
+#### Otherworldly leap
+*Prerequisite: 9th-level Warlock or Higher*::
+You can cast Jump on yourself without expending a Spell Slot or using Material components.
+
+
+#### Relentless Hex
+ *Prerequisite: 5th level*::
+Your curse creates a temporary bond between you and your arget. As a bonus action, you can magically teleport up to 0 feet to an unoccupied space you can see within 5 feet of he target cursed by your Hex spell or by a warlock feature f yours, such as Hexblade’s Curse and Sign of Ill Omen. To eleport in this way, you must be able to see the cursed arget.
+
+\column
+
+#### Repelling Blast
+*Prerequisite: None*::
+Whenever you hit a creature that is Large or smaller with Eldritch Blast, you can push that creature horizontally up to 10 feet straight away from you.
+
+#### Shroud of Shadow
+*Prerequisite: 15th level*::
+You can cast Invisibility at will, without expending a spell lot.
+
+
+#### Spriggan Magic
+*Prerequisite: 5th level*::
+You learn the *druidcraft* and *shillelagh* cantrips. These cantrips count as warlock spells for you. 
+
+In addition, you can target your claws with shillelagh, treating both hands as
+one weapon. 
+
+Starting at 5th level, you can make an additional attack with your claws as a bonus action, adding your ability modifier to the damage.
+
+
+
+#### Tomb of Levistus
+*Prerequisite: 5th level*::
+As a reaction when you take damage, you can react by entombing yourself in ice, which melts away at the end of your next turn. You gain 10 temporary hit points per warlock level, which absorb as much of the triggering damage as possible. Immediately after taking the damage, you become vulnerable to fire damage, your speed is reduced to 0, and you are incapacitated. These effects, including any remaining temporary hit points, all end when the ice melts.
+
+Once you use this invocation, you can’t use it again until ou finish a short or long rest.
+#### Trickster's Escape
+*Prerequisite: 9th level*::
+You can cast Freedom of Movement once on yourself without expending a spell slot. You regain the ability to do o when you finish a long rest.
+#### Visions of Distant Realms
+*Prerequisite: 15th-level Warlock or Higher*::
+You can cast *Arcane Eye* without expending a Spell Slot.
+
+#### Whispers of the Grave
+*Prerequisite: 9th-level Warlock or Higher*::
+You can cast *Speak with Dead* without expending a Spell Slot.
+#### Witch Sight
+*Prerequisite: 15th-level Warlock or Higher*::
+You have Truesight with a range of 30 feet.

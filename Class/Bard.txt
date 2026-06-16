@@ -1,0 +1,2105 @@
+```metadata
+title: Bard
+description: ''
+tags: []
+systems:
+  - 5e
+renderer: V3
+theme: 5ePHB
+
+```
+
+```css
+.page{
+	width  : 210mm;
+	height : 296.3mm;
+}
+
+css
+
+.page .columnWrapper {
+	height: 100%
+}
+
+.page .toc.wide {
+	columns: 1;
+	height: 100%;
+}
+
+.page .toc > ul > li {
+	font-weight:100;
+	margin-bottom:-2.1px;
+
+}
+
+.page .toc ul ul {
+	margin-left: 0;
+	font-weight: 5;
+	color: black;
+}
+
+
+
+
+
+```
+
+{{frontCover}}
+
+
+
+# Bard
+
+{{logo ![](/assets/naturalCritLogoRed.svg)}}
+![background image](https://i.imgur.com/KhRav9l.png){position:absolute,bottom:-80px,left:0,height:120%}
+
+\page
+
+{{toc,wide
+
+- ### [{{ Bard}}{{ 3}}](#p3)
+  -  [{{ Music and Magic}}{{ 3}}](#p3)
+  -  [{{ Learning from Experience}}{{ 3}}](#p3)
+  - #### [{{ Creating a Bard}}{{ 3}}](#p3)
+  -  [{{ Class Features}}{{ 4}}](#p4)
+  -  [{{ Spellcasting}}{{ 4}}](#p4)
+  -  [{{ Bardic Inspiration}}{{ 5}}](#p5)
+  -  [{{ Jack of All Trades}}{{ 6}}](#p6)
+  -  [{{ Magical Inspiration (Optional)}}{{ 6}}](#p6)
+  -  [{{ Song of Rest}}{{ 6}}](#p6)
+  -  [{{ Bard College}}{{ 6}}](#p6)
+  -  [{{ Expertise}}{{ 6}}](#p6)
+  -  [{{ Ability Score Improvement}}{{ 6}}](#p6)
+  -  [{{ Font of Inspiration}}{{ 6}}](#p6)
+  -  [{{ Countercharm}}{{ 6}}](#p6)
+  -  [{{ Magical Secrets}}{{ 6}}](#p6)
+  -  [{{ Superior Inspiration}}{{ 6}}](#p6)
+- ### [{{ Bard Colleges}}{{ 7}}](#p7)
+  -  [{{ College of Apocalypse}}{{ 7}}](#p7)
+  -  [{{ College of Birdsong}}{{ 10}}](#p10)
+  -  [{{ College of blade conductors}}{{ 11}}](#p11)
+  -  [{{ College of Cantors}}{{ 12}}](#p12)
+  -  [{{ College of Chance}}{{ 12}}](#p12)
+  -  [{{ College of Chaos}}{{ 13}}](#p13)
+  -  [{{ College of Command}}{{ 13}}](#p13)
+  -  [{{ College of Creation}}{{ 14}}](#p14)
+  -  [{{ College of Crossroads}}{{ 16}}](#p16)
+  -  [{{ College of Cyberwave}}{{ 17}}](#p17)
+  -  [{{ College of Dance}}{{ 18}}](#p18)
+  -  [{{ College of Drama}}{{ 19}}](#p19)
+  -  [{{ College of Eloquence}}{{ 20}}](#p20)
+  -  [{{ College of Eulogies}}{{ 21}}](#p21)
+  -  [{{ College of Fey}}{{ 22}}](#p22)
+  -  [{{ College of Fine Art}}{{ 23}}](#p23)
+  -  [{{ College of Fools}}{{ 23}}](#p23)
+  -  [{{ College of Glamour}}{{ 24}}](#p24)
+  -  [{{ College of Glory}}{{ 25}}](#p25)
+  -  [{{ College of Graffiti}}{{ 26}}](#p26)
+  -  [{{ College of Jesters}}{{ 27}}](#p27)
+  -  [{{ College of Lore}}{{ 27}}](#p27)
+  -  [{{ College of the Mad God}}{{ 28}}](#p28)
+  -  [{{ College of Many Faces}}{{ 28}}](#p28)
+  -  [{{ College of Masks}}{{ 29}}](#p29)
+  -  [{{ College of Mercantile}}{{ 31}}](#p31)
+  -  [{{ College of Radiance}}{{ 32}}](#p32)
+  -  [{{ College of Revelry}}{{ 33}}](#p33)
+  -  [{{ College of Romance}}{{ 34}}](#p34)
+  -  [{{ College of the Spheres}}{{ 34}}](#p34)
+  -  [{{ College of Swords}}{{ 35}}](#p35)
+  -  [{{ College of Thunder}}{{ 36}}](#p36)
+  -  [{{ College of the Vanguard}}{{ 37}}](#p37)
+  -  [{{ College of Valor}}{{ 38}}](#p38)
+  -  [{{ College of Whispers}}{{ 39}}](#p39)
+  -  [{{ College of the Wilds}}{{ 40}}](#p40)
+}}
+
+
+\page
+## Bard
+:
+Humming as she traces her fingers over an ancient monument in a long-forgotten ruin, a half-elf in rugged leathers finds knowledge springing into her mind, conjured forth by the magic of her song—knowledge of the people who constructed the monument and the mythic saga it depicts.
+
+A stern human warrior bangs his sword rhythmically against his scale mail, setting the tempo for his war chant and exhorting his companions to bravery and heroism. The magic of his song fortifies and emboldens them.
+
+Laughing as she tunes her cittern, a gnome weaves her subtle magic over the assembled nobles, ensuring that her companions’ words will be well received.
+
+Whether scholar, skald, or scoundrel, a bard weaves magic through words and music to inspire allies, demoralize foes, manipulate minds, create illusions, and even heal wounds.
+
+### Music and Magic
+In the worlds of D&D, words and music are not just vibrations of air, but vocalizations with power all their own. The bard is a master of song, speech, and the magic they contain. Bards say that the multiverse was spoken into existence, that the words of the gods gave it shape, and that echoes of these primordial Words of Creation still resound throughout the cosmos. The music of bards is an attempt to snatch and harness those echoes, subtly woven into their spells and powers.
+
+The greatest strength of bards is their sheer versatility. Many bards prefer to stick to the sidelines in combat, using their magic to inspire their allies and hinder their foes from a distance. But bards are capable of defending themselves in melee if necessary, using their magic to bolster their swords and armor. Their spells lean toward charms and illusions rather than blatantly destructive spells. They have a wide-ranging knowledge of many subjects and a natural aptitude that lets them do almost anything well. Bards become masters of the talents they set their minds to perfecting, from musical performance to esoteric knowledge.
+{{imageMaskCorner21,--offsetX:-53%,--offsetY:-70%,--rotation:0
+  ![](https://i.imgur.com/RabwA8r.png){height:55%,top:730px}
+}}
+
+
+
+
+\column
+
+### Learning from Experience
+True bards are not common in the world. Not every minstrel singing in a tavern or jester cavorting in a royal court is a bard. Discovering the magic hidden in music requires hard study and some measure of natural talent that most troubadours and jongleurs lack. It can be hard to spot the difference between these performers and true bards, though. A bard’s life is spent wandering across the land gathering lore, telling stories, and living on the gratitude of audiences, much like any other entertainer. But a depth of knowledge, a level of musical skill, and a touch of magic set bards apart from their fellows.
+
+Only rarely do bards settle in one place for long, and their natural desire to travel—to find new tales to tell, new skills to learn, and new discoveries beyond the horizon—makes an adventuring career a natural calling. Every adventure is an opportunity to learn, practice a variety of skills, enter long-forgotten tombs, discover lost works of magic, decipher old tomes, travel to strange places, or encounter exotic creatures. Bards love to accompany heroes to witness their deeds firsthand. A bard who can tell an awe-inspiring story from personal experience earns renown among other bards. Indeed, after telling so many stories about heroes accomplishing mighty deeds, many bards take these themes to heart and assume heroic roles themselves.
+
+### Creating a Bard
+Bards thrive on stories, whether those stories are true or not. Your character’s background and motivations are not as important as the stories that he or she tells about them. Perhaps you had a secure and mundane childhood. There’s no good story to be told about that, so you might paint yourself as an orphan raised by a hag in a dismal swamp. Or your childhood might be worthy of a story. Some bards acquire their magical music through extraordinary means, including the inspiration of fey or other supernatural creatures.
+
+Did you serve an apprenticeship, studying under a master, following the more experienced bard until you were ready to strike out on your own? Or did you attend a college where you studied bardic lore and practiced your musical magic? Perhaps you were a young runaway or orphan, befriended by a wandering bard who became your mentor. Or you might have been a spoiled noble child tutored by a master. Perhaps you stumbled into the clutches of a hag, making a bargain for a musical gift in addition to your life and freedom, but at what cost?
+
+#### Quick build
+
+You can make a bard quickly by following these suggestions. First, Charisma should be your highest ability score, followed by Dexterity. Second, choose the entertainer background. Third, choose the dancing lights and vicious mockery cantrips, along with the following 1st-level spells: charm person, detect magic, healing word, and thunderwave.
+
+
+
+{{pageNumber,auto}}
+\page
+
+{{imageMaskEdge3,--offset:10%,--rotation:180
+  ![](https://i.imgur.com/DvabnPG.png){height:50%,width:100%,top:-10px,left:0px}
+}}
+
+::::::::::::::::::::::::::::::::::::::
+
+{{artist,position:relative,top:-130px,left:10px,margin-bottom:-30px
+##### Snaaks
+}}
+### Class Features
+As a bard, you gain the following class features
+#### Hit Points
+___
+- **Hit Dice:** 1d8 per bard level
+- **Hit Points at 1st Level:** 8 + your Constitution modifier
+- **Hit Points at Higher Levels:** 1d8 (or 5) + your Constitution modifier per bard level after 1st
+
+#### Proficiencies
+___
+- **Armor:** Light armor
+- **Weapons:** Simple weapons, hand crossbows, longswords, rapiers, shortswords
+- **Tools:** Three musical instruments of your choice
+___
+- **Saving Throws:** Dexerity, Charisma
+- **Skills:** Choose any three
+
+
+#### Equipment
+You start with the following equipment, in addition to the equipment granted by your background:
+- *(a)* a rapier, *(b)* a longsword, or *(c)* any simple weapon
+- *(a)* a diplomat’s pack or *(b)* an entertainer’s pack
+
+- *(a)* a lute or *(b)* any other musical instrument
+- Leather armor and a dagger
+
+::::::::::::::::::::::::::::::::::::
+{{note
+##### Alternative Spellcasting List
+**Ask your DM**  
+Spells known of 1st level or higher: spells must be from the Arcane list and must be from the abjuration, divination, enchantment, illusion or transmutation schools. You can also choose any "word" or "restoration" spell.
+}}
+
+### Spellcasting
+You have learned to untangle and reshape the fabric of reality in harmony with your wishes and music. Your spells are part of your vast repertoire, magic that you can tune to different situations. See Spells Rules for the general rules of spellcasting and the Spells Listing for the bard spell list.
+
+#### Cantrips
+You know two cantrips of your choice from the bard spell list. You learn additional bard cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Bard table.
+
+#### Spell Slots
+The Bard table shows how many spell slots you have to cast your bard spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest.
+
+For example, if you know the 1st-level spell cure wounds and have a 1st-level and a 2nd-level spell slot available, you can cast cure wounds using either slot.
+{{pageNumber,auto}}
+\page
+
+{{classTable,frame,wide
+##### The Bard
+| Level | Proficiency Bonus | Features | Cantrips Known | Spells Known | 1st | 2nd | 3rd | 4th | 5th | 6th | 7th | 8th | 9th |
+|:---:|:---:|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1st | +2 | Spellcasting, Bardic Inspiration (d6) | 2 | 4 | 2 | — | — | — | — | — | — | — | — |
+| 2nd | +2 | Jack of All Trades, Song of Rest (d6), Magical Inspiration (Optional) | 2 | 5 | 3 | — | — | — | — | — | — | — | — |
+| 3rd | +2 |Bard College, Expertise | 2 | 6 | 4 | 2 | — | — | — | — | — | — | — |
+| 4th | +2 | Ability Score Improvement | 3 | 7 | 4 | 3 | — | — | — | — | — | — | — |
+| 5th | +3 | Bardic Inspiration (d8), Font of Inspiration | 3 | 8 | 4 | 3 | 2 | — | — | — | — | — | — |
+| 6th | +3 | Countercharm, Bard College Feature | 3 | 9 | 4 | 3 | 3 | — | — | — | — | — | — |
+| 7th | +3 | — | 3 | 10 | 4 | 3 | 3 | 1 | — | — | — | — | — |
+| 8th | +3 | Ability Score Improvement | 3 | 11 | 4 | 3 | 3 | 2 | — | — | — | — | — |
+| 9th | +4 | Song of Rest (d8) | 3 | 12 | 4 | 3 | 3 | 3 | 1 | — | — | — | — |
+| 10th | +4 | Bardic Inspiration (d10), Expertise, Magical Secrets | 4 | 14 | 4 | 3 | 3 | 3 | 2 | — | — | — | — |
+| 11th | +4 | — | 4 | 15 | 4 | 3 | 3 | 3 | 2 | 1 | — | — | — |
+| 12th | +4 | Ability Score Improvement | 4 | 15 | 4 | 3 | 3 | 3 | 2 | 1 | — | — | — |
+| 13th | +5 | Song of Rest (d10) | 4 | 16 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | — | — |
+| 14th | +5 | Magical Secrets, Bard College Feature | 4 | 18 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | — | — |
+| 15th | +5 | Bardic Inspiration (d12) | 4 | 19 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 | — |
+| 16th | +5 | Ability Score Improvement | 4 | 19 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 | — |
+| 17th | +6 | Song of Rest (d12) | 4 | 20 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 | 1 |
+| 18th | +6 | Magical Secrets | 4 | 22 | 4 | 3 | 3 | 3 | 3 | 1 | 1 | 1 | 1 |
+| 19th | +6 | Ability Score Improvement | 4 | 22 | 4 | 3 | 3 | 3 | 3 | 2 | 1 | 1 | 1 |
+| 20th | +6 | Superior Inspiration | 4 | 22 | 4 | 3 | 3 | 3 | 3 | 2 | 2 | 1 | 1 |
+}}
+
+#### Spells Known of 1st Level and Higher
+You know four 1st-level spells of your choice from the bard spell list.
+
+The Spells Known column of the Bard table shows when you learn more bard spells of your choice. Each of these spells must be of a level for which you have spell slots, as shown on the table. For instance, when you reach 3rd level in this class, you can learn one new spell of 1st or 2nd level.
+
+Additionally, when you gain a level in this class, you can choose one of the bard spells you know and replace it with another spell from the bard spell list, which also must be of a level for which you have spell slots.
+#### Spellcasting Ability
+Charisma is your spellcasting ability for your bard spells. Your magic comes from the heart and soul you pour into the performance of your music or oration. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a bard spell you cast and when making an attack roll with one.
+
+**Spell save DC** = 8 + your proficiency bonus + your Charisma modifier
+
+**Spell attack modifier** = your proficiency bonus + your Charisma modifier
+
+#### Ritual Casting
+You can cast any bard spell you know as a ritual if that spell has the ritual tag.
+
+\column
+
+#### Spellcasting Focus
+You can use a musical instrument (see the Tools section) as a spellcasting focus for your bard spells.
+### Bardic Inspiration
+You can inspire others through stirring words or music. To do so, you use a bonus action on your turn to choose one creature other than yourself within 60 feet of you who can hear you. That creature gains one Bardic Inspiration die, a d6.
+
+Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes, and if the chreature cast a spell, it can add it to one damage or healing roll of the spell. The creature can wait until after it rolls the d20 before deciding to use the Bardic Inspiration die, but must decide before the DM says whether the roll succeeds or fails. Once the Bardic Inspiration die is rolled, it is lost. A creature can have only one Bardic Inspiration die at a time.
+
+You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain any expended uses when you finish a long rest.
+
+Your Bardic Inspiration die changes when you reach certain levels in this class. The die becomes a d8 at 5th level, a d10 at 10th level, and a d12 at 15th level.
+
+{{pageNumber,auto}}
+\page
+### Jack of All Trades
+Starting at 2nd level, you can add half your proficiency bonus, rounded down, to any ability check you make that doesn’t already include your proficiency bonus.
+### Magical Inspiration (Optional)
+At 2nd level, if a creature has a Bardic Inspiration die from you and casts a spell that restores hit points or deals damage, the creature can roll that die and choose a target affected by the spell. Add the number rolled as a bonus to the hit points regained or the damage dealt. The Bardic Inspiration die is then lost.
+
+### Song of Rest
+Beginning at 2nd level, you can use soothing music or oration to help revitalize your wounded allies during a short rest. If you or any friendly creatures who can hear your performance regain hit points at the end of the short rest by spending one or more Hit Dice, each of those creatures regains an extra 1d6 hit points.
+
+The extra hit points increase when you reach certain levels in this class: to 1d8 at 9th level, to 1d10 at 13th level, and to 1d12 at 17th level.
+
+### Bard College
+At 3rd level, you delve into the advanced techniques of a bard college of your choice: Cantors, Creation, Eloquence, Glamour, Graffiti, Jesters, Lore, Mad God, Mask, Romance, Spheres, Sword, Valor or Whispers. Your choice grants you features at 3rd level and again at 6th and 14th level.
+
+### Expertise
+At 3rd level, choose two of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.
+
+At 10th level, choose two more of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.
+
+
+### Ability Score Improvement
+When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.
+
+Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.
+
+
+\column
+
+### Font of Inspiration
+Beginning when you reach 5th level, you regain all of your expended uses of Bardic Inspiration when you finish a short or long rest.
+
+
+
+### Countercharm
+At 6th level, you gain the ability to use musical notes or words of power to disrupt mind-influencing effects. As an action, you can start a performance that lasts until the end of your next turn. During that time, you and any friendly creatures within 30 feet of you have advantage on saving throws against being frightened or charmed. A creature must be able to hear you to gain this benefit. The performance ends early if you are incapacitated or silenced or if you voluntarily end it (no action required).
+### Magical Secrets
+By 10th level, you have plundered magical knowledge from a wide spectrum of disciplines. Choose two spells from any classes, including this one. A spell you choose must be of a level you can cast, as shown on the Bard table, or a cantrip.
+
+The chosen spells count as bard spells for you and are included in the number in the Spells Known column of the Bard table.
+
+You learn two additional spells from any classes at 14th level and again at 18th level.
+
+### Superior Inspiration
+At 20th level, when you roll initiative and have no uses of Bardic Inspiration left, you regain one use.
+:
+![](https://i.imgur.com/JiQZRfT.png) {width:525px,left:320px,position:absolute}
+
+{{pageNumber,auto}}
+\page
+## Bard Colleges
+
+The way of a bard is gregarious. Bards seek each other out to swap songs and stories, boast of their accomplishments, and share their knowledge. Bards form loose associations, which they call colleges, to facilitate their gatherings and preserve their traditions.
+### College of Apocalypse
+Apocalypse bards are masters at conjuring forth the
+ancient powers of eldritch gods, summoning forth their
+otherworldly might to wreak havoc on the mortal realm.
+All who hear their aberrant harmonies fear and revere
+them-they understand that with a single whisper, these
+bards can cause the end of all things. Apocalypse bards
+are often found on the front lines of battle, their music
+serving as a rallying cry for their allies and a death knell
+for their enemies. With each stanza they produce, a
+member of the College of the Apocalypse draws closer to
+the ultimate revelation of the horrors that lie beyond the
+veil. Many fear the day when they willfinally succumb to
+the madness that gnaws within their mind.
+
+As they progress in their studies, members of this bard
+college gain the ability to summon forth devastating
+powers with their music. They can call down swarms of
+pain, tear open rifts in reality, and unleash waves of
+madness upon their foes. They know the apocalypse is
+coming, for they are the ones bringing it.
+
+#### Endless Symphony
+When you join the College of the Apocalypse at 3rd level,
+and again at 6th and 14th level, you gain another use of
+your Bardic Inspiration feature.
+
+In exchange, your Bardic Inspiration die doesn't change
+at 5th level, remaining a d6; it becomes a d8 at 10th
+level, and a d10 at 15th level.
+
+\column
+
+#### Eldritch Choir
+At 3rd level, you understand how to use your bardic magic to conjure forth the power of the Great Ones.
+
+You learn two Eldritch Melodies of your choice, which are detailed under "Eldritch Melodies" below. A level prerequisite refers to your level in this class. You can use a melody as an action, expending one use of your Bardic Inspiration. After you use a melody, you can't use
+that melody again until you finish a short or long rest.
+
+If a melody requires a saving throw, it uses your spell
+save DC. For a creature to become affected by one of
+your melodies, it must be able to hear you when you
+take the action.
+
+You learn one additional Eldritch Melody of your
+choice at 6th and 14th level.
+
+When you finish a long rest, you can delve into what
+lies beyond the veil, replacing one or more melodies you
+know with another one. Each time you attempt to
+replace a melody, make a DC 17 Charisma saving throw.
+On a failed save, you lose control over your mental
+journey into the void; you gain one short-term madness,
+don't replace that melody, and you can't replace any
+other melodies until you finish a long rest.
+
+#### Knowledge from Beyond the Stars
+At 6th level, the maddening revelations that haunt your
+mind guide you through the treacherous void. You learn
+to speak, read, and write Deep Speech. Additionally,
+whenever you make an Intelligence check that relates to
+the cosmos or the eldritch, you gain a bonus on that
+check equal to one roll of your Bardic Inspiration die
+(this doesn't expend the die).
+#### Devouring Maw
+Starting at 6th level, your words can call beings from
+beyond the veil. When a creature that possesses a Bardic
+Inspiration die from you is targeted by an attack, it can
+use its reaction to expend the die, summoning an
+eldritch maw that engulfs and protects it. 
+
+Until the start of its next turn, it gains a bonus to its AC equal to the number rolled. If this causes the triggering attack to miss, the targeted creature can choose to be ripped through space by the maw, teleporting it to a point within 30 feet of it that it can see; if it does so, it loses 
+
+the bonus to its АС.
+#### Song of the Apocalypse
+Starting at 14th level, you learn the spell divine order:
+transcend. It doesn't count against the number of
+spells you know. You can also cast it once without
+expending a spell slot, and you regain the ability to do
+so when you finish a long rest. When you cast the spell
+in this way, the apocalypse flows through you; damage
+can't break your concentration on this spell, and you
+automatically succeed on the saving throws to keep
+control over the spell.
+{{pageNumber,auto}}
+\page
+## Eldritch Melodies
+
+### Ballad of the Nameless City
+*Prerequisite: 3rd level*::
+You channel the name of the lost city of the Great
+Ones, warping reality. Each creature within 30 feet of
+you must succeed on a Strength saving throw or be
+pushed up to 10 feet in a direction of your choice and
+knocked prone.
+
+The number of feet up to which a creature is pushed
+increases to 20 feet at 6th level and 30 feet at 14th level.
+
+### Concord of the Depths
+*Prerequisite: 3rd level*::
+You sing a hypnotic melody that evokes the presence of
+the sleeping horrors beneath the waves. Choose one
+creature within 60 feet of you. It must succeed on a
+Wisdom saving throw or become incapacitated and
+have its speed reduced to 0 for 1 minute, until it takes
+damage, or until someone uses an action to shake or
+slap it out of its stupor.
+
+Starting at 6th level, you can target two creatures, and
+at 14th level, you can target a number of creatures
+equal to your Charisma modifier (minimum of three).
+
+### Epode for whom the bell tolls
+*Prerequisite: 3rd level*::
+You toll the bells of death, bolstering your allies.
+Choose up to five creatures within 30 feet of you. Each
+creature gains a bonus to their attack and damage rolls
+equal to half your Charisma modifier (rounded up) for 2
+rounds, ending at the end of your subsequent turn.
+
+Starting at 6th level, the bonus to damage rolls equals
+your Charisma modifier, and at 14th level, the bonus to
+both attack and damage rolls becomes equal to your
+Charisma modifier.
+
+### Transcendence of Flesh
+*Prerequisite: 3rd level*::
+You sing a gloria in the name of corruption, calling forth
+writhing tentacles that surround and protect your
+allies. Each willing creature of your choice within 30
+feet of you gains temporary hit points equal to half
+your bard level + your Charisma modifier, as tentacles
+sprout from its mouth, eyes, and ears, defending them
+without impeding their abilities. 
+
+In addition, they have advantage on Strength checks and Strength saving throws until the end of your next turn.
+
+\column
+
+### Aria of reviled stalker
+*Prerequisite: 6th level*::
+You sing a haunting melody that evokes the presence of
+the lurking horrors beyond the veil. Choose one
+creature within 30 feet of you. It is partially absorbed
+by the cosmos for 1 hour, gaining a +10 bonus to
+Stealth checks and becoming unable to be tracked
+except by magical means. In addition, as an action, the
+creature can become incorporeal and move through
+other creatures and objects as if they were difficult
+terrain until the end of its turn. If it ends its turn inside
+an object, it takes 5 (1d10) force damage and is
+immediately shunted to the nearest unoccupied space.
+
+Once the creature uses this action, it can't do so again
+for the duration of the transformation.
+
+Starting at 14th level, when the creature uses an action
+to become incorporeal, the effect lasts for 10 minutes
+instead.
+
+### Ode to Subjugation
+*Prerequisite: 6th level*::
+You invoke the power of a devouring Great One,
+summoning forth a horde of writhing tentacles to
+ensnare your enemies. Each creature of your choice
+that you can see within 30 feet of you must make a
+Dexterity saving throw, becoming restrained for 1
+minute on a failed save. A creature can repeat the
+saving throw at the end of each of its turns, ending the
+effect on itself on a success.
+
+Starting at 14th level, a restrained creature takes 3d6
+necrotic damage at the start of each of its turns.
+
+### Requiem of Chaos
+*Prerequisite: 6th level*::
+You don the visage of the Crawling Chaos, whispering
+your enemies' demise. Choose up to two creatures
+within 60 feet of you. They have disadvantage on
+Wisdom checks and Wisdom saving throws until the
+end of your next turn.
+
+Starting at 14th level, you can target a number of creatures equal to your Charisma modifier (minimum of 3).
+{{pageNumber,auto}}
+\page
+### Song of Abject Birth
+*Prerequisite: 6th level*::
+You invoke the power of the primordial chaos, hurling
+forth a horde of writhing fetuses. Each creature in a 30-
+foot cone originating from you must make a Dexterity
+saving throw, taking a number of d4s of necrotic
+damage equal to your level in this class on a failed save,
+or half as much damage on a successful one.
+Starting at 14th level, the cone's size increases to 60 feet.
+### Assonance of Dreams
+
+*Prerequisite: 14th level*::
+You sing a melody that allows travel through the dream
+realm. You conjure a circular portal up to 20 feet in
+diameter linking an unoccupied space you can see
+within 10 feet of you to a precise location you are very
+familiar with within 1 mile of you on the same plane of
+existence as you. You can orient the portal in any
+direction you choose. The portal lasts for 1 minute.
+Anything that travels through the portal is instantly
+transported to the location you chose, appearing in an
+unoccupied space nearest to the location.
+### Euphony of Self-destruction
+*Prerequisite: 14th level*::
+You carve the ancient symbol of the convergence of
+light, unleashing a portal to realms untold. Choose
+one creature you can see within 60 feet of you. It
+must succeed on a Charisma saving throw or be
+drawn through it to an unknown destination. At the
+end of your next turn, the target returns to the space
+it previously occupied, or the nearest unoccupied
+space. If the target isn't an aberration, it takes 5d12
+psychic damage and must succeed on a Wisdom
+saving throw or gain a long-term madness.
+### Nightmare of the Abyss
+*Prerequisite: 14th level*::
+You recite the forbidden incantations of He Who Lies
+Dreaming, summoning forth a vision of the being's
+power. Each creature of your choice within 60 feet of
+you must succeed on a Wisdom saving throw or be
+stunned until the end of your next turn.
+
+\column
+
+### Whispers of the Flesh-defiler
+*Prerequisite: 14th level*::
+You recite forbidden lore learned from a tome of flesh,
+summoning forth a swarm of buzzing, entrail-eating
+creatures. For 1 minute, a 30-foot-radius sphere of
+writhing worms appears at a point that you can see
+within 60 feet of you. When a creature enters the area
+for the first time on a turn or starts its turn there, it is
+devoured by it and must make a Constitution saving
+throw. It takes 5d6 necrotic damage and is poisoned
+for 1 minute on a failed save, or half as much damage
+and isn't poisoned on a successful one.
+
+A poisoned
+creature can repeat the saving throw at the end of
+each of its turns, ending the effect on itself on a
+success. 
+
+On each of your turns after you summon the
+swarm, you can use a bonus action to move it up to 30
+feet in any direction. This effect ends early if you take
+fire or radiant damage.
+
+{{pageNumber,auto}}
+\page
+### College of Birdsong
+As the legend goes, the first bards learned to
+sing from a nightingale, or perhaps a thrush.
+Each morning, the bird sang a splendid song that
+beckoned the sun to rise and flowers to bloom, and in
+turn every other bird joined the chorus. Bards which
+continue this tradition join the College of Birdsong
+and learn to sing as the nightingale once did.
+
+#### Whistle in the Wind
+Starting when you choose this college at 3rd level,
+you gain the ability to magically communicate
+through music with any Beast and Monstrosity that
+has a flying speed. The knowledge and awareness
+of such creatures is limited by their intelligence, but
+at minimum, they can give you information about
+nearby locations and monsters, including whatever
+they can perceive or have perceived within the
+past day. Additionally, you have advantage on all
+Charisma checks you make to influence them.
+
+#### Birdsong
+By 3rd level, you can bestow flight with your singing
+voice. When you give a creature a Bardic Inspiration
+die as a bonus action, you and that creature each
+gain a flying speed equal to your respective walking
+speeds. This benefit lasts until the end of your next
+turn. When the effect ends, a flying target floats
+gently to the ground if it is still aloft.
+
+\column
+
+#### Feather Charms
+Beginning at 6th level, you can use your action to
+conjure a number of magical feathers equal to your
+Charisma modifier. When you conjure them, you can
+choose to bestow a feather on any willing creature
+within 60 feet of you. The feathers orbit you and the
+creatures which you bestowed them upon, granting
+the following benefits:
+- The creature gains a +2 bonus to its Armor Class and Dexterity saving throws.
+- The creature’s walking or flying speed increases by 10 feet.
+- Opportunity attacks against the creature have disadvantage.
+
+As a part of the action used to conjure the feathers
+or as an action on a later turn, you can expend a
+feather orbiting you and launch it at a target within
+120 feet. Make a ranged spell attack. On a hit, the
+target takes 1d8 force damage for each point of your
+proficiency bonus + your Charisma modifier.
+
+Unexpended feathers vanish after 1 minute.::
+
+Once you use this feature to conjure feathers, you
+can’t do so again until you finish a long rest, unless
+you expend a spell slot of 3rd level or higher to use
+this feature again.
+
+#### Chorus of the Sky
+At 14th level, when you use your Birdsong feature,
+you can bestow flight to a number of willing
+creatures you choose within 30 feet of you up to your
+Charisma modifier.
+Additionally, a creature that has a Bardic
+Inspiration die from you can expend that die as a
+bonus action to take the Attack (one weapon attack
+only), Dash, Disengage, Dodge, or Hide action
+
+{{pageNumber,auto}}
+\page
+### College of blade conductors
+Blade Conductors are remarkable masters of symphony who dedicate their lives to mastering the parallels between swordplay and music. In that twilight zone- rhythm, cadence, and tempo- is where Blade Conductors create art. These bards see battle as a symphony, and seek to create art amidst the bloodshed by means of a dazzling dance of whirling blades which soar to and fro across the field of battle.
+
+#### Maestro
+
+At 3rd level, you gain proficiency with one type of melee weapon of your choice that lacks the two-handed property.
+
+Additionally, whenever you grant a creature a Bardic Inspiration die, you can summon a Bardic Blade; a spectral blade which takes on the form of a weapon of your choice, which appears in an unoccupied
+space within 5 feet of either the creature or you, hovering in place.
+
+When a friendly creature is within 5 feet of a Bardic Blade, the first time they hit an enemy with an attack, the Blade strikes in tandem, granting that creature a bonus to the attack’s damage roll equal to your Charisma modifier (minimum of 1). A creature may benefit from this effect once per turn.
+
+Your Bardic Blades vanish after 1 minute.
+
+#### Ensemble
+At 3rd level, when a hostile creature within 10 feet of a Bardic Blade hits an ally with an attack, you can use your Reaction to cause that Blade to slash at all enemies within 10 feet of it. Enemies within 10 feet of that Bardic Blade must make a Dexterity saving throw against your Spell Save DC or take Slashing damage equal to one roll of your Bardic Inspiration die plus your Charisma modifier, or half as much on a successful saving throw.
+
+#### Staccato
+
+Starting 6th level, as a Bonus Action, you can recall all summoned Bardic Blades, which come flying to you in a straight line.
+
+Creatures whose occupied space is in the path of a Blade are subjected to an effect depending on whether they are hostile or friendly to you:
+
+- **Friendly** creatures gain Temporary Hit Points equal to your Bard level when a Blade passes through their space.
+- **Hostile** creatures have disadvantage on the first attack roll they make before the end of your next turn.
+
+Bardic Blades that you summon to you via this feature become Recalled, no longer granting the effects of the Maestro and/or Ensemble features. Instead, they hover around you, grant a +1 bonus to your AC per Recalled Blade (maximum bonus of +5).
+
+Recalled Bardic Blades vanish after 1 minute, or if you use this feature again.
+
+\column
+
+#### Encore 
+At 6th level, in addition to summoning a Bardic Blade at the time of granting a creature a Bardic Inspiration die, you can now summon a Bardic Blade when the creature expends a Bardic Inspiration die.
+
+#### Magnum opus
+At 14th level, whenever you hit a creature with a weapon- or spell attack, you can expend any number of Recalled Bardic Blades, causing them to fly towards that creature, which must make a Dexterity saving throw against your Spell Save DC or take Slashing damage equal to a number of Bardic Inspiration dice equal to the amount of Recalled
+Bardic Blades sent out. The damage is halved if the creature succeeds its saving throw.
+
+You are free to choose how many Recalled Bardic Blades you expend at any given time for this feature. Recalled Bardic Blades vanish after striking.
+
+{{pageNumber,auto}}
+\page
+### College of Cantors
+The cantors are a group of bards who lead the faithful through the praise and worship of the gods. Their music is directed towards the heavens, with their instruments usually relating in some way to the god that they worship. Cantors are well loved within their respective communities, and it is hard to find a talented cantor who will stay in one place for long, as the demand for their soothing hymns is widespread.
+
+#### Heavely Voice
+When you choose this college at 3rd level, you gain the thaumaturgy cantrip, which counts as a bard spell for you and does not count against the number of cantrips you can learn.
+
+#### Healing Hymn
+Also at 3rd level, when you cast a spell of 1st level or higher which restores hit points to one or more creatures, you can expend one use of your Bardic Inspiration to bolster that healing. Each creature that regains hit points adds a roll of your Bardic Inspiration die plus half your bard level to the number of hit points regained.
+
+#### Angelic Chorus
+Starting at 6th level, your heavenly music empowers those who join in its chorus. You can create the following additional effects when using the thaumaturgy cantrip:
+- As part of the action used to cast this spell, you can use the Help action to aid two allies. If you use the Help action to aid an ally in attacking a creature, the target of that attack can be within 30 feet of you, rather than within 5 feet of you, if the target can see or hear you.
+- You ward a willing creature you can see within 30 feet with a shimmering golden radiance for up to 1 minute. Only one creature can be warded using this ability at a time. 
+
+When an attacker within 5 feet of the warded creature hits it with an attack, the creature can use its reaction to deal radiant damage equal to half your bard level to
+the attacker.
+
+#### Song Of The Divines
+Starting at 14th level, you can use your Healing Hymn ability without expending uses of your Bardic Inspiration.
+
+\column
+
+### College of Chance
+Gamblers, risk-takers, and daredevils alike all find a home in the College of Chance. Bards that dedicate themselves to this way of life live for the adrenaline that comes with great risks. These whimsical wanderers wield songs that draw upon the ambient wild magic in the world, channeling its risky power.
+
+#### Risk-Taker
+At 3rd level, when you fall short you can enhance your abilities with wild magic, possibly turning a failure into a success or a success into a failure. When you make an ability check, but before you know if you succeed or fail, you can grant yourself a bonus to your roll equal to a roll of your Bardic Inspiration die.
+
+If you roll an even number on this bonus die, you add the result to your ability check. If you roll an odd number on this bonus die you subtract the result from your ability check.
+
+This feature improves when you reach certain levels in this class. At 6th level, you can use this feature when you make a weapon or spell attack roll. Finally, at 14th level, you can use the feature whenever you make a saving throw.
+    
+#### Wild Inspiration
+The nature of your magic bleeds into your other abilities. At 3rd level, when a creature that can hear you within 30 feet makes an attack roll, ability check, or saving throw, you can use your reaction to expend a use of Bardic Inspiration, roll the Bardic Inspiration die, and add the result to the creature's roll.
+
+#### Whimsical Song
+At 6th level, you enhance your bardic song with the power of wild magic. When a creature under the effect of your Countercharm uses one of your Bardic Inspiration dice, it can choose to use the maximum possible result for that die in place of rolling.
+
+However, if it uses Bardic Inspiration in this way and still misses its attack roll or fails its ability check or saving throw, it must immediately roll on the Wild Magic table found in the Sorcerer class on page 104 of the Player's Handbook.
+
+#### Master of Chance
+At 14th level, he forces of chance favor your wild lifestyle. Whenever you or another creature uses one of your Bardic Inspiration dice and rolls the maximum possible result, it gains an additional bonus to the roll equal to a roll of your Bardic Inspiration die.
+{{pageNumber,auto}}
+\page
+### College of Chaos
+While most Bards use their skill with words to entertain and support, some choose to spread confusion, misinformation, and distrust. Though they reject the idea of formal leaders, some discordant Bards join the College of Chaos, a loose association of misanthropes that study discordant magics.
+
+
+#### Bewildering Whisper
+You use your magic to sow chaos in the midst of battle. At 3rd level, when a creature within 60 feet that can hear you makes an attack roll, you can use your reaction to expend a Bardic Inspiration die and force it to make a Wisdom saving throw. On a failed save, the creature must use the same attack against another creature of your choice within the range of its attack.
+
+#### Sower of Discord
+At 3rd level, you gain the skills to sow strife amongst your foes. You gain proficiency with disguise kits, forgery kits, and theives' tools.
+
+#### Pandemonium
+6th-level College of Chaos feature
+You infuse your bardic songs with chaotic magic. At 3rd level, when you use Countercharm, you can force a creature within range of the effect to make a Wisdom saving throw. On a failed save, roll a d8 and the creature suffers the corresponding effect from the table below until the end of your Countercharm.
+
+d8|	Effect
+:-:|:-:
+1|It retreats into its mind and is Paralyzed. The effect ends early if it takes damage.
+2|	It is Incapacitated and convinced that its allies are secretly plotting against it.
+3|	It is Frightened of the closest creature and uses its turn to flee from it.
+4|	It cannot speak or cast spells and it feels if it opens its mouth its voice will escape.
+5|	It experiences vivid hallucinations and has disadvantage on all attack rolls.
+6|	It is highly suggestible and will do anything it is told to do that isn't self-destructive.
+7|	It experiences insatiable hunger and uses its action to eat anything it can.
+8|	It uses its turn to repeat its previous turn or action to the best of its ability.
+
+A creature suffering from this effect can make a Wisdom saving throw at the start of each of its turns, ending the effect on a success. Once a creature succeeds on its saving throw it is immune to this feature for the next 24 hours.
+
+\column
+
+#### Reign of Chaos
+At 14th level, you have mastered the chaotic magic that is the source of your power. You learn confusion, but it doesn't count against your total number of Spells Known. If you already know this spell you instead learn another enchantment spell of your choice from the Bard spell list.
+
+As a bonus action, you can expend a use of your Bardic Inspiration to cast confusion with the following changes:
+
+- You can only target one creature.
+- It does not require your concentration, but you can't
+- have more than one instance of the spell active.
+- When a creature makes a saving throw to resist the effects of this spell you can expend a use of your Bardic Inspiration to impose disadvantage on its saving throw.
+
+### College of Command
+Bards of the College of Command infuse their voice with the magic to inspire others to feats of heroism in battle. Rather than use their abilities to empower themselves, they bring out the best in their allies. For some Bards of this College, their days of gallantry are long behind them. For others, they lead allies from the front, issuing orders and drawing swords.
+
+#### Commander's Training
+At 3rd level, you have honed both your body and mind for battle. You gain proficiency with medium armor, shields, and martial weapons that lack the heavy or two-handed properties.
+
+In addition, you gain proficiency with two gaming sets of your choice, and you can add double your proficiency bonus to any ability check that uses these gaming sets.
+
+#### Inspiring Orders
+At 3rd level, as an action, you can expend a use of Bardic Inspiration to issue one of the Orders detailed below, targeting a willing creature within 60 feet that can either see or hear you:
+
+##### Attack Order
+The next time the target takes the Attack action before the start of your next turn, it can make one additional weapon attack as part of its Attack action.
+
+##### Defensive Order
+The target gains a bonus to its Armor Class equal to one roll of your Bardic Inspiration until the start of your next turn.
+
+##### Maneuvering Order
+The target can immediately move up to its full speed without provoking opportunity attacks.
+{{pageNumber,auto}}
+\page
+
+##### Steadfast Order
+Whenever the target makes an ability check or saving throw that uses its Strength, Dexterity, or Constitution before the start of your next turn, it gains a bonus to the result of its roll equal to one roll of your Bardic Inspiration.
+
+##### Support Order
+The target can immediately take the Help, Hide, Search, or Use an Object action. If it makes an ability check as part of this action it adds one roll of Bardic Inspiration to the result.
+
+#### Gallant Leader
+At 6th level, you can seamlessly fight and issue
+Orders to your allies. Whenever you use your action to issue an Order, you can make a single weapon attack or cast one Bard cantrip you know as a bonus action.
+
+In addition, when you are forced to make a saving throw to resist being charmed or frightened you can add your Bardic Inspiration bonus to your roll.
+
+#### Masterful Commander
+At 14th level, your confident Orders embolden your allies. You can issue your Orders without expending Bardic Inspiration, rolling a d6 in place of your Bardic Inspiration die for that Order.
+
+If you do expend a use of Bardic Inspiration to issue an Order, the target of the Order gains temporary hit points equal to one roll of your Bardic Inspiration in addition to the normal benefits of the Order.
+
+### College of Creation
+
+Bards believe the cosmos is a work of art - the creation of the first dragons and gods. That creative work included harmonies that continue to resound through existence today, a power known as the Song of Creation. The bards of the College of Creation draw on that primeval song through dance, music, and poetry, and their teachers share this lesson: "Before the sun and the moon, there was the Song, and its music awoke the first dawn. Its melodies so delighted the stones and trees that some of them gained a voice of their own. And now they sing too. Learn the Song, students, and you too can teach the mountains to sing and dance."
+
+Dwarves and gnomes often encourage their bards to become students of the Song of Creation. And among dragonborn, the Song of Creation is revered, for legends portray Bahamut and Tiamat-the greatest of dragons -as two of the song's first singers.
+
+\column
+
+#### Note of Potential
+When you join the College of Creation at 3rd level, whenever you give a creature a Bardic Inspiration die, you can utter a note from the Song of Creation to create a Tiny mote of potential, which orbits within 5 feet of that creature. The mote is intangible and invulnerable, and it lasts until the Bardic Inspiration die is lost. The mote looks like a musical note, a star, a flower, or another symbol of art or life that you choose.
+
+When the creature uses the Bardic Inspiration die, the mote provides an additional effect based on whether the die benefits an ability check, an attack roll, or a saving throw, as detailed below:
+
+**Ability Check.** When the creature rolls the Bardic Inspiration die to add it to an ability check, the creature can roll the Bardic Inspiration die again and choose which roll to use, as the mote pops and emits colorful, harmless sparks for a moment.
+
+**Attack Roll.** Immediately after the creature rolls the Bardic Inspiration die to add it to an attack roll against a target, the mote thunderously shatters. The target and each creature of your choice that you can see within 5 feet of it must succeed on a Constitution saving throw against your spell save DC or take thunder damage equal to the number rolled on the Bardic Inspiration die.
+
+**Saving Throw.** Immediately after the creature rolls the Bardic Inspiration die and adds it to a saving throw, the mote vanishes with the sound of soft music, causing the creature to gain temporary hit points equal to the number rolled on the Bardic Inspiration die plus your Charisma modifier (minimum of 1 temporary hit point).
+
+#### Performance of Creation
+Also at 3rd level, as an action, you can channel the magic of the Song of Creation to create one nonmagical item of your choice in an unoccupied space within 10 feet of you. The item must appear on a surface or in a liquid that can support it. The gp value of the item can't be more than 20 times your bard level, and the item must be Medium or smaller. The item glimmers softly, and a creature can faintly hear music when touching it. The created item disappears after a number of hours equal to your proficiency bonus. For examples of items you can create, see the equipment chapter of the Player's Handbook.
+
+Once you create an item with this feature, you can't do so again until you finish a long rest, unless you expend a spell slot of 2nd level or higher to use this feature again. You can have only one item created by this feature at a time; if you use this action and already have an item from this feature, the first one immediately vanishes.
+
+The size of the item you can create with this feature increases by one size category when you reach 6th level (Large) and 14th level (Huge).
+{{pageNumber,auto}}
+\page
+
+
+#### Animating Performance
+By 6th level, as an action, you can target a Large or smaller nonmagical item you can see within 30 feet of you and animate it. The animate item uses the Dancing Item stat block, which uses your proficiency bonus (PB), The item is friendly to you and your companions and obeys your commands. It lives for 1 hour, until it is reduced to 0 hit points, or until you die.
+
+In combat, the item shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are incapacitated, the item can take any action of its choice, not just Dodge.
+
+When you use your Bardic Inspiration feature, you can command the item as part of the same bonus action you use for Bardic Inspiration.
+
+Once you animate an item with this feature, you can't do so again until you finish a long rest, unless you expend a spell slot of 3rd level or higher to use this feature again. You can have only one item animated by this feature at a time; if you use this action and already have a dancing item from this feature, the first one immediately becomes inanimate.
+
+{{monster,frame
+> ## Dancing Item
+>*Large or smaller construct*
+> ___
+> - **Armor Class** 16 (natural armor)
+> - **Hit Points** 10 + 5 times your bard level
+> - **Speed** 30 ft., fly 30 ft. (hover)
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|18 (+4)|14 (+2)|16 (+3)|4 (-3)|10 (+0)|6 (-2)|
+>___
+> - **Damage Immunities** poison, psychic
+> - **Condition Immunities** charmed, exhaustion, poisoned, frightened
+> - **Senses** darkvision 60 ft., passive Perception 10
+> - **Languages** understands the languages you speak
+> ___
+> ***Immutable Form.*** The item is immune to any spell or effect that would alter its form.
+
+> ***Irrepressible Dance.*** When any creature starts its turn within 10 feet of the item, the item can increase or decrease (your choice) the walking speed of that creature by 10 feet until the end of the turn, provided the item isn't incapacitated.
+> ### Actions
+> ***Force-Empowered Slam.*** *Melee Weapon Attack:* your spell attack modifier to hit, reach 5 ft., one target you can see.  *Hit:* 1d10 + PB force damage. 
+}}
+
+\column
+
+#### Creative Crescendo
+At 14th level, when you use your Performance of Creation feature, you can create more than one item at once. The number of items equals your Charisma modifier (minimum of two items). If you create an item that would exceed that number, you choose which of the previously created items disappears. Only one of these items can be of the maximum size you can create; the rest must be Small or Tiny.
+
+You are no longer limited by gp value when creating items with Performance of Creation.
+
+{{imageMaskCorner28,--offsetX:50%,--offsetY:-33%,--rotation:0
+  ![](https://cdna.artstation.com/p/assets/images/images/039/583/532/large/lie-setiawan-416315final2.jpg?1626319905){height:80%,left:100px,bottom:-70px}
+}}
+<!-- Use --offsetX to shift the mask left or right (can use cm instead of %)
+     Use --offsetY to shift the mask up or down
+     Use --rotation to set rotation angle in degrees. -->
+
+
+{{pageNumber,auto}}
+\page
+
+### College of Crossroads
+While most Bards are naturally skilled musicians, singers, or storytellers, some gained their talent through more nefarious means. Known informally as the College of Crossroads, this organization is named for the traditional location where such mortal bargains are made. An agreement with a devil, demon, or other denizen of the lower planes is the start of such an infernal Bard's quest for personal power, fame, and fortune.
+
+#### Infernal Musician
+
+At 3rd level, you have gained strange and sinister skills from an infernal deal at a Crossroads. You gain the following benefits:
+
+- You gain proficiency in Performance, and whenever you make a Charisma (Performance) check you can treat a d20 roll of 7 or lower as an 8.
+- You gain proficiency with one musical instrument.
+- You learn to speak, read, write, and sing in Infernal.
+
+In addition, whenever you make a Charisma check that includes Infernal speech or lyrics, you gain a bonus to the roll equal to your Bardic Inspiration roll.
+
+#### Forbidden Arcana
+At 3rd level, your nefarious dealings with the lower planes have granted you access to dark magics. When you learn a new Bard spell you can choose the spell from the Bard or the Warlock spell list. It then becomes a Bard spell for you.
+
+#### Eldritch Recovery
+
+You can draw upon the dark arts to regenerate your magic, much as a Warlock does.At 6th level, when you finish a short rest, you can regain one expended Bard spell slot of a level equal to your Charisma modifier (minimum of 1st-level) or lower.
+
+However, if you choose to use this feature during a short rest then you cannot use Song of Rest.
+
+\column
+
+#### Sinister Song
+Your bardic magic is infused with the power of the lower planes. At 6th level, when a creature under the effect of Countercharm succeeds on a saving throw to resist being charmed or frightened, you can use a reaction to expend a use of Bardic Inspiration and force a creature of your choice within range of your Countercharm to make a Wisdom saving throw.
+
+On a failed save, it is charmed or frightened (your choice) for the duration of Countercharm. The creature can repeat its saving at the end of each turn, and each time it takes damage, ending the charm or frighten effect on a success.
+
+
+#### Otherworldly Virtuoso
+
+You have mastered the Infernal musical power imparted to you. At 14th level ,when you cast a Bard spell with a verbal component you can expend a Bardic Inspiration to enhance the spell in one of the following ways:
+
+##### Emboldening Melody
+If the Bard spell restores hit points, one target of the spell regains additional hit points equal to your Charisma modifier (minimum of 1). All targets of the spell have advantage on the next attack roll, ability check, or saving throw they make.
+
+##### Infectious Tune 
+If the Bard spell requires your concentration, the first time you are forced to make a Constitution saving throw to maintain concentration on that spell you gain a bonus to your roll equal to one roll of your Bardic Inspiration.
+
+##### Resounding Note
+If the Bard spell deals damage, you can cause it to deal thunder damage in place of its normal damage. Large or smaller creatures affected by the spell must succeed on an (additional) Strength saving throw or fall prone.
+
+{{imageMaskEdge8,--offset:30%,--rotation:0
+  ![](https://www.gmbinder.com/images/wZDVXMs.jpg){height:60%,bottom:-290px}
+}}
+
+{{pageNumber,auto}}
+\page
+### College of Cyberwave
+Bards that subscribe to the genre and college of
+Cyberwave indulge in gadgetry and music in equal
+measure, constructing elaborate instruments from
+spare technology to brave new frontiers in music.
+Their consummate instrument, the wave synth, is
+half blaster, half synthesizer, capable of playing tunes
+on the waves of blaster bolts. While also providing a
+spectacular light show, the wave synth is unmatched
+when performing haunting and pulse-pounding
+orchestrations.
+
+#### Etheradio Stations.
+Upon choosing this college at 3rd level, you gain the ability to tune into the mystical aetheric frequencies that carry distant whispers, urgent calls for aid, and cryptic messages from unseen realms. Additionally, you can project brief messages across these spectral waves, ensuring your voice can be heard wherever you will it to be.
+As an action, you can send a short message of twenty-five words or less to a creature with which you are familiar. The creature hears the message in its mind, recognizes you as the sender if it knows you, and can answer in a like manner immediately.
+
+You can send the message across any distance, but not to other planes of existence.
+
+Once you use this feature, you can’t use it again until you finish a long rest.
+
+#### Wave Synth.
+Also at 3rd level, you finish constructing your very own wave synth, a music instrument built on the framework of a blaster (colloquially called a “moog” by bards of this college). You can simultaneously use this device as an instrument and a blaster with which you have proficiency. When used as a weapon, the wave synth is a blaster with a range of 60/240 feet and the Two-Handed property. On a hit, it deals thunder damage equal to two rolls of your Bardic Inspiration die.
+
+Once per turn when you hit a creature with your wave synth, you can expend one use of your Bardic Inspiration to deal extra damage to the target. The damage equals the number you roll on the Bardic Inspiration die. If you roll a 1 or 2 on the Bardic Inspiration die, you don’t expend a use of your Bardic Inspiration.
+
+\column
+
+#### Modulation.
+Beginning at 6th level, you can modify your wave synth with modules scavenged from other blasters and electronic instruments. You can choose to use one of the following modules when you start your turn:
+
+**Cone Resonator.** You can use your action to make a ranged attack against any number of creatures you can see within a 15-foot-cone. You must make a separate attack roll for each target.
+
+**Direct Amplifier.** Whenever you hit a creature with your wave synth, you deal an extra die of damage to the target.
+
+**Harmonic Reverb.** Whenever you hit a creature with your wave synth, the next attack roll made against this target before the end of your next turn has advantage.
+
+#### Polyphonic Echo.
+
+By 14th level, you have optimized your synth with
+the latest in blaster tech. Once on each of your turns
+when you miss with an attack using your wave synth,
+you can make another weapon attack as part of the
+same action.
+
+Additionally, when you roll the highest number
+on a damage die for your wave synth, you can roll an
+additional die and add its damage to the total, rolling
+again if this die is also the highest number, and so
+on. You can roll a total of eight damage dice for this
+damage roll, or sixteen on a critical hit.
+{{pageNumber,auto}}
+\page
+### College of Dance
+Bards of the College of Dance tell stories and perform music without making a sound, choosing to instead move with feylike grace and magic to evade harm and inspire others. These dances originate from the Festerwood, whose radiant spores and light made for miraculous performances and deadly hazards. These bards can be found anywhere from the local tavern to the highest levels of theater moving crowds to tears as quickly as rebellion. At every turn, they inspire others to be brave, move, and join in.
+
+#### Fast movement
+ When you join the College of Dance at 3rd level, your walking speed increases by 10 feet. When you reach 6th and 14th level in this class, your walking speed increases by an extra 5 feet.
+ 
+#### Inspirational Dance
+ Also at 3rd level, you learn how to use the universal language of dance. As a bonus action, you can expend one of your uses of Bardic Inspiration to dance and reinvigorate a creature other than you who can see you. When you do, roll a Bardic Inspiration die. That creature gains temporary hit points equal to the number rolled plus your Charisma modifier (minimum of 1).
+ 
+When a creature gains temporary hit points in this way, it can immediately use its reaction to move up to its speed without provoking opportunity attacks or take the Dodge action.
+ 
+#### Entrancing Movement
+ At 6th level, your movements become so graceful that even the most cold-hearted enemies are filled with remorse for having stopped your dance. Whenever a creature hits you with an opportunity attack, that creature takes psychic damage equal to your Charisma modifier + half your bard level.
+ 
+ In addition, you can use your dance to cast the *charm person* spell,without expending a spell slot. When cast in this way, the target doesn’t have advantage on the saving throw if you’re currently fighting it. When you reach 14th level in this class, you can cast the irresistible dance spell in this way as well. A spell cast with this feature requires only somatic components. After you cast a spell in this way, you can’t use this feature to cast it again until you finish a long rest.
+ 
+#### Endless Dance
+ By 14th level, your dance has become so invigorating that it can inspire an ally to attack. A creature that gains temporary hit points from your Inspirational Dance can choose to use its reaction to make one weapon attack.
+ 
+ In addition, your endless dancing allows you to more easily avoid being hit. You can use a bonus action to take the Dodge action, and whenever you use a bonus action to expend a Bardic Inspiration die, you can take the Dodge action as part of that bonus action.
+ 
+{{imageMaskEdge4,--offset:10%,--rotation:270
+  ![](https://static1.thegamerimages.com/wordpress/wp-content/uploads/2024/11/dungeons-dragons-human-college-of-dance-bard-by-katerina-ladon-and-dragonborn-college-of-valor-bard-by-ignatius-budi-1.jpg?q=70&fit=crop&w=1140&h=&dpr=1){height:100%,left:-250px,top:-1px}
+}}
+
+
+ 
+{{pageNumber,auto}}
+\page
+
+{{imageMaskEdge5,--offset:31%,--rotation:180
+  ![](https://www.gmbinder.com/images/EtVHCIw.jpg){height:60%,top:-265px}
+}}
+
+
+::::::::::::::::::::::::
+### College of Drama
+Long have the performing arts been a favorite pastime for people of all walks of life. Performers and thespians use the stage to tell stories that while fictional, can reveal great truths about life, death, and the struggles in between. The Muse, the ancient spirit of inspiration, moves the hearts of these actors, both great and small, to give their all in every performance.
+
+#### Channel the Muse
+At 3rd level, you have learned to channel songs of The Muse to magically manifest two masks. One, a laughing Mask of Comedy, the other, a weeping Mask of Tragedy. At the end of a long rest, you choose which Mask manifests, which lasts until the end of your next long rest, and grants you the abilities below:
+
+##### Mask of Comedy
+You use your talent for the dramatic to inspire your allies in combat. When a friendly creature that can see or hear you within 30 feet fails an ability check or saving throw, or misses with an attack roll, you can use your reaction to expend a use of Bardic Inspiration, roll it, and the result to the creature's roll, possibly turning its failure into a success.
+
+##### Mask of Tragedy
+Your flair for tragedy allows you to inflict sorrow upon your foes. When a hostile creature that can see or hear you within 30 feet succeeds on an ability check or saving throw, or hits with an attack roll, you can use your reaction to expend a use of Bardic Inspiration, roll it, and subtract the result from its roll, possibly turning its success into a failure.
+
+#### Thespian's Craft
+At 3rd level, the Muse has granted the skills of a master stage performer. You gain proficiency in Performance and with disguise kits, and whenever you make an ability check with either of these proficiencies you can treat a d20 roll of 7 or lower as an 8.
+
+\column
+:::::::::::::::::::::::::
+#### Soliloquy
+At 6th level, your bardic magic and song is infused with the performative power of The Muse. When you use Countercharm it gains the effects below based on the Mask you are currently wearing:
+
+##### Mask of Comedy
+The sound of your music inspires great deeds. Creatures of your choice that can hear you within range of Countercharm gain temporary hit points equal to your Charisma modifier (minimum of 1) at the start of each of their turns.
+
+##### Mask of Tragedy
+Your bardic magic and song undermine the resolve of your enemies. Creatures of your choice that can hear you within range of Countercharm have disadvantage on saving throws to resist any spell that includes a verbal component.
+
+#### Final Curtain
+At 14th level, the Muse grants you the ability to enthrall Death itself, if
+only for a short while. Your Masks grant the benefits below:
+
+##### Mask of Comedy
+You can bring allies back from the brink of death. When a creature you can see within 30 feet makes a death saving throw, you can use your reaction to expend a use of Bardic Inspiration and make a Charisma (Performance) check. The creature can choose to use the result of your check in place
+of making a normal death saving throw roll.
+
+##### Mask of Tragedy
+You can bargain with death itself for more time. When you are reduced to 0 hit points but not killed outright, you can expend a use of Bardic Inspiration die to immediately make
+a Charisma (Performance) check. If the result of your check is a 20 or greater, you fall to 1 hit point instead of 0.
+{{pageNumber,auto}}
+\page
+### College of Eloquence
+Adherents of the College of Eloquence master the art of oratory. Persuasion is regarded as a high art, and a well-reasoned, well-spoken argument often proves more powerful than objective truth. These bards wield a blend of logic and theatrical wordplay, winning over skeptics and detractors with logical arguments, and plucking at heartstrings to appeal to the emotions of entire audiences.
+
+#### Silver Tongue
+Starting at 3rd level, you are a master at saying the right thing at the right time. When you make a Charisma (Persuasion) or Charisma (Deception) check, you can treat a d20 roll of 9 or lower as a 10.
+
+#### Unsettling Words
+Also at 3rd level, you can spin words laced with magic that unsettle a creature and cause it to doubt itself. As a bonus action, you can expend one use of your Bardic Inspiration and choose one creature you can see within 60 feet of you. Roll the Bardic Inspiration die. The creature must subtract the number rolled from the next saving throw it makes before the start of your next turn.
+
+#### Unfailing Inspiration
+At 6th level, your inspiring words are so persuasive that others feel driven to succeed. When a creature adds one of your Bardic Inspiration dice to its ability check, attack roll, or saving throw and the roll fails, the creature can keep the Bardic Inspiration die.
+
+#### Universal Speech
+Also at 6th level, you have gained the ability to make your speech intelligible to any creature. As an action, choose one or more creatures within 60 feet of you, up to a number equal to your Charisma modifier (minimum of one creature). The chosen creatures can magically understand you, regardless of the language you speak, for 1 hour.
+
+Once you use this feature, you can't use it again until you finish a long rest, unless you expend a spell slot to use it again.
+
+#### Infectious Inspiration
+At 14th level, when you successfully inspire someone, the power of your eloquence can now spread to someone else. When a creature within 60 feet of you adds one of your Bardic Inspiration dice to its ability check, attack roll, or saving throw and the roll succeeds, you can use your reaction to encourage a different creature (other than yourself) that can hear you within 60 feet of you, giving it a Bardic Inspiration die without expending any of your Bardic Inspiration uses.
+
+You can use this reaction a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a long rest.
+
+{{imageMaskEdge6,--offset:10%,--rotation:270
+  ![](https://i.imgur.com/U3OxhVu.png){height:103%,left:-67px,top:0px}
+}}
+
+
+
+{{pageNumber,auto}}
+\page
+
+### College of Eulogies
+Bards are masters of eliciting all types of emotions with their music. They use their magic to make audiences feel a longing for places they have never been and love for people long dead. Those who join the College of Eulogies have a fondness for the more negative emotions; grief, sorrow, and fear. They take their name from the speeches typically delivered in memory of the deceased, for they see themselves as bringers of death.
+
+#### Bardic Dirge
+At 3rd level, you wield the melancholic magic of negative emotions and can use it to inflict minor curses. When a creature that can hear you within 60 feet, makes an attack roll, ability check,
+or saving throw, you can use your reaction to expend a use
+of Bardic Inspiration to impose disadvantage on its roll.
+
+#### Lament for the Dead
+At 3rd level,  you have steeped yourself in strange magic and ancient lore associated with death. Whenever you make an Intelligence check to recall knowledge pertaining to rituals or lore related
+to death, the undead, or the magic of necromancy, you can add double your proficiency bonus to your roll.
+
+Also, whenever you learn a new Bard spell, you can choose to learn a necromancy spell of your choice from any spell list.
+
+#### Restless Spirit
+At 6th level, you can conjure and bind Restless Spirits that died with unfinished business. At the end of each long rest, you can perform a short ritual that summons such a Spirit. It is friendly to both you and your allies, obeys your
+commands, and uses the Restless Spirit stat block, which uses your Spell Save DC, and proficiency bonus (PB).
+
+In combat, the Spirit acts during your turn. It can move
+and use its reaction on its own, but the only action it takes is the Dodge action, unless you used your bonus action to command it to take one of the actions in its stat block, or another action. If you are incapacitated, the Restless Spirit can take any action it chooses.
+
+If your Spirit was destroyed within the last hour, you can expend a spell slot of 1st-level or higher. After 1 minute, it returns from beyond the veil with all its hit points restored.
+
+#### Infectious Despair
+The sadness and despair that you inflict upon your foes cloys to them until it exacts its toll.Starting 14th level, when you use Bardic Dirge on a creature, and that creature succeeds on its roll despite the disadvantage, it also has disadvantage on its next attack roll, ability check, or saving throw it makes as well.
+
+Regardless of the outcome of the second roll, this feature ends after its next attack roll, ability check, or saving throw.
+
+\column
+{{monster,frame
+## Restless Spirit
+
+*Medium Undead, Unaligned*
+___
+**Armor Class** :: 13 + PB (natural armor)
+**Hit Points**  :: 5 + five times your Bard level
+**Speed**       :: 30 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|14 (+2)|14 (+2)|15 (+2)|10 (+0)|14 (+2)|11 (+0)|
+___
+**Damage Resistances**   :: necrotic
+**Condition Immunities** :: frightened, grappled
+**Senses**               :: darkvision 60 ft., passive Perception 12
+**Languages**            :: the Spirit understands the languages you speak, but it cannot speak itself
+**Challenge**            :: 0 (0 XP)
+___
+***Misery's Company.*** The Spirit has advantage on attack rolls against creatures that are frightened of it.
+:
+
+***Spirit Bond.*** When the Spirit makes an ability check
+or saving throw you can use your reaction to expend a use of Bardic Inspiration and add it to its roll.
+
+### Actions
+***Mournful Wail.*** One creature of your choice within
+30 feet of the Spirit that can hear it must succeed
+on a Wisdom saving throw or be frightened of it for
+1 minute. It can repeat the saving throw at the end
+of each of its turns, ending the effect on a success.
+:
+***Spectral Claw.*** *Melee Spell Attack:* your spell attack modifier to hit, reach 5 ft., one target. *Hit* 1d8 + your Charisma modifier necrotic damage. 
+}}
+
+{{imageMaskEdge6,--offset:10%,--rotation:270
+  ![](https://www.gmbinder.com/images/YiVmeZb.jpg){height:102%,left:-250px,top:0px}
+}}
+{{pageNumber,auto}}
+\page
+
+### College of Fey
+Bards that hail from the Feywild are of truly sublime skill.
+The fey create unmatched songs and sonnets, some of which can magically charm the minds of men through lyrics alone. Perhaps driven to capture some of this skill, some mortal bards befriend the fey and, with practice and dedication, learn to adopt their art and magic. These bards join the College of Fey and begin to approach the unearthly grace of feykind.
+
+#### Fey Medley
+You can bind yourself to a single musical instrument in a 1-hour ritual. This instrument takes on an otherworldly appearance and, if you are on the same plane of existence as it, you can summon it as a bonus action on your turn, causing it to teleport to your hand.
+
+#### Duplicitous Tune
+At 3rd level, you can spin tunes which confound your enemies, fooling their senses and lower their defenses. As a bonus action, you can target a creature you can see within 60 feet of you and expend a Bardic Inspiration die. This creature must succeed a Charisma saving throw against
+your spell save DC or subtract the number rolled from its AC, to a minimum of 10, for 1 minute.
+
+The creature automatically succeeds this saving throw if it can't hear you. At the beginning of each of its turns, it can repeat this saving throw to end this effect early.
+
+#### Ritual Notes
+Starting at 6th level, you have a spellbook written in musical notes only you can read. 
+
+Other creatures require a *comprehend languages* spell, or similar effect to read this book.
+
+This spellbook contains every 1st-level ritual spell from the druid spell list, which you can cast from the book as a ritual as if they were bard spells known to you.
+
+If you observe a ritual spell being cast that is of a level for which you have spell slots, you can expend a Bardic Inspiration die to magically add that ritual to your spellbook. If the spellbook is stolen, misplaced, or destroyed, a new one magically appears on your person 24
+hours after you were separated from it.
+
+\column
+
+#### Out of Thin Air
+At 14th level, you can choose one of the following tricks.
+
+This selection can be changed when you take a short or
+long rest.
+
+**In Hand.** You can produce most material components
+for spells out of thin air, ignoring all material components
+under 100 gp which are not consumed by the casting.
+
+Additionally, you can magically produce up to 10 gold
+pieces each day. If not spent, this currency vanishes at
+dawn.
+
+ **Flitter.** You can expend a Bardic Inspiration die to
+teleport 15 feet to a space that you can see, expending
+movement normally for this teleport.
+
+ **Call for Help.** You can expend a Bardic Inspiration die
+to cast a modified version of the spell conjure fey. You can
+cast this spell as an action, rather than a minute, and its
+duration is the number of rounds rolled on the Bardic
+Inspiration die.
+{{pageNumber,auto}}
+\page
+### College of Fine Art
+While most Bards unlock their signature magic with song, some learn to channel magic through visual mediums. Most often using ink or paint, these whimsical artists animate wondrous images to both entertain and adventure with. They can channel bardic illusion magic through art and bring the strange and wonderful figments of their imagination to life.
+
+#### Classical Artist
+You have mastered the use of visual art forms for your bardic magic.At 3rd level, you gain proficiency with calligrapher's and painter's supplies, and whenever you make an ability check with either tool you can add double your proficiency bonus to your roll.
+
+Moreover, you can use calligrapher's supplies or painter's supplies as a spellcasting focus for any Bard spell you know.
+
+Finally, whenever you learn a Bard spell, you can choose to learn an illusion spell of your choice from any spell list.
+
+#### Living Art
+At 3rd level, your signature bardic magic can bring your artwork to life. You learn the find familiar spell, but it doesn't count against your total number of Spells Known. Though, you can only cast find familiar using calligrapher's supplies or painter's supplies as your spellcasting focus.
+
+When you cast find familiar in this way, your familiar resembles a living two-dimensional piece of artwork. As an action, your familiar can flatten itself against any surface to appear as mundane art or graffiti. If a creature succeeds on an Intelligence (Investigation) check against your Spell Save DC it realizes that the artwork is a living familiar.
+
+#### Illusory Artwork
+
+At 6th level, If you cast an illusion spell and use calligrapher's supplies or painter's supplies as your spellcasting focus you can expend a use of Bardic Inspiration to cast the spell with a spell slot one level lower than you normally would (minimum of 1st-level).
+
+\column
+
+#### Bardic Masterpiece
+At 14th level, As an action you can use calligrapher's or painter's supplies to paint a picture of a beast of CR 4 or lower that you have seen before in an unoccupied space adjacent to you, bringing the artistic depiction on the beast to life for 1 minute.
+
+While it is animated, the artwork beast is completely under your control, is friendly toward you and your allies, and it uses the stat block of the beast you depicted. In combat, the beast shares your initiative, but it can only take the Dodge action unless you use your bonus action to command it to take an action from its stat block or another action.
+
+If the artwork beast is reduced to zero hit points it is
+dispelled and melts into a puddle of ink or paint.
+
+Once you use this feature you must finish a long
+rest before you can use it again. When you have no
+uses of this feature remaining, you can expend a spell slot of 5th-level or higher to use it again.
+
+
+### College of Fools
+Bards who join the College of Fools use crude stories, daring acrobatics, and cutting jokes to entertain audiences, ranging from tavern crowds to royal courts. Where other Bards seek out forgotten lore or tales of bravery, Fools tell embarrassing and hilarious stories of all kinds. Fools undermine the plans of the powerful, and their acrobatic ability to tumble, dodge, leap, and climb makes them slippery opponents in battle.
+
+#### Satirical Theatrics
+You gain the skills to pass as a bumbling nincompoop. At 3rd level, you gain proficiency in Acrobatics and Sleight of Hand, and when you make an ability check with either of these skills, you can treat a d20 roll of 7 or lower as an 8.
+
+#### Tumbling Fool
+Your training allows you to move about in strange and bizarrely entertaining ways.At 3rd level, you can take the Dash action as a bonus action. When you take the Dash action, you gain the following benefits, which last until the end of your turn:
+
+- Opportunity attacks against you have disadvantage.
+- You gain a climbing speed equal to your walking speed.
+- You can reduce any falling damage you take by an amount equal to your Bard level + your Charisma modifier.
+                            
+#### Sharp Tongue
+
+Starting 6th level, you learn vicious mockery, but it doesn't count against your total number of Cantrips Known, and when you use vicious mockery you add your Charisma modifier to the damage roll.
+
+If you already know vicious mockery you learn another cantrip of your choice from the Bard spell list.
+{{pageNumber,auto}}
+\page
+#### Sharper Wit
+At 6th level, when a creature that you can see targets you with an attack, you can use your reaction to cast vicious mockery targeting the attacker. If it fails its saving throw, it must choose another target within range of its attack. If there are no other targets in range then its attack misses.
+
+You can cast vicious mockery as a reaction a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a long rest.
+
+#### Fool's Luck
+14th level College of Fools feature
+You combine bardic magic with foolish antics to manipulate luck. When you make an ability check, attack roll, or saving throw with advantage, you can choose to automatically fail in comical fashion and gain one point of Fool's Luck
+
+When a creature within 30 feet that can see or hear you, makes an attack roll, ability check, or saving throw, you can use your reaction to expend a point of Fool's Luck to impose advantage or disadvantage (your choice) on its roll.
+
+You can have a total number of points of Fool's Luck equal to your Charisma modifier (minimum of 1). Unused Fool's Luck fades at the end of your next long rest.
+
+### College of Glamour
+
+The College of Glamour is the home Of bards who mastered their craft in the vibrant realm of the Feywild or under the tutelage Of someone who dwelled there. Tutored by satyrs, eladrin, and other fey, these bards learn to use their magic to delight and captivate others. The bards of this college are regarded with a mixture of awe and fear. Their performances are the stuff Of legend.
+
+These bards are so eloquent that a speech or song that one of them performs can cause captors torelease the bard unharmed and can lull a furious dragon into complacency. The same magic that allows them to quell beasts can also bend minds. Villainous bards Of this college can leech Off a community for weeks, misusing their magic to turn their hosts into thralls. Heroic bards of this college instead use this power to gladden the downtrodden and undermine oppressors.
+
+\column
+
+#### Mantle of Inspiration
+When you join the College of Glamour at 3rd level, you gain the ability to weave a song of fey magic that imbues your allies with vigor and speed.
+
+As a bonus action, you can expend one use of your Bardic Inspiration to grant yourself a wondrous appearance. When you do so, choose a number of creatures you can see and who can see you within 60 feet of you, up to a number equal to your Charisma modifier (minimum of one). Each of them gains 5 temporary hit points. When a creature gains these temporary hit points, it can immediately use its reaction to move up to its speed, without provoking opportunity attacks.
+
+The number of temporary hit points increases when you reach certain levels in this class, increasing to 8 at 5th level, 11 at 10th level, and 14 at 15th level.
+
+#### Enthralling Performance
+Starting at 3rd level, you can charge your performance with seductive, fey magic.
+
+
+If you perform for at least 1 minute, you can attempt to inspire wonder in your audience by singing, reciting a poem, or dancing. At the end of the performance, choose a number of humanoids within 60 feet of you who watched and listened to all of it, up to a number equal to your Charisma modifier (minimum of one). Each target must succeed on a Wisdom saving throw against your spell save DC or be charmed by you. While charmed in this way, the target idolizes you, it speaks glowingly of you to anyone who speaks to it, and it hinders anyone who opposes you, avoiding violence unless it was already inclined to fight on your behalf. This effect ends on a target after 1 hour, if it takes any damage, if you attack it, or if it witnesses you attacking or damaging any of its allies.
+
+If a target succeeds on its saving throw, the target has no hint that you tried to charm it.
+
+Once you use this feature, you can’t use it again until you finish a short or long rest.
+![Deluxo](https://i.imgur.com/5KgrHPm.png) {width:425px,position:absolute,left:400px,bottom:-5px,transform:scaleX(1)}
+
+{{artist,position:absolute,top:710px,left:430px,margin-bottom:-0px
+##### Duque Ortencio Felipe Vasco Hernández 
+}}
+{{pageNumber,auto}}
+\page
+
+#### Mantle of Majesty
+At 6th level, you gain the ability to cloak yourself in a fey magic that makes others want to serve you. As a bonus action, you cast Command, without expending a spell slot, and you take on an appearance of unearthly beauty for 1 minute or until your concentration ends (as if you were concentrating on a spell). During this time, you can cast Command as a bonus action on each of your turns, without expending a spell slot.
+
+Any creature charmed by you automatically fails its saving throw against the Command you cast with this feature.
+
+Once you use this feature, you can’t use it again until you finish a long rest.
+
+#### Unbreakable Majesty
+At 14th level, your appearance permanently gains an otherworldly aspect that makes you look more lovely and fierce.
+
+In addition, as a bonus action, you can assume a magically majestic presence for 1 minute or until you are incapacitated. For the duration, whenever any creature tries to attack you for the first time on a turn, the attacker must make a Charisma saving throw against your spell save DC. On a failed save, it can't attack you on this turn, and it must choose a new target for its attack or the attack is wasted. On a successful save, it can attack you on this turn, but it has disadvantage on any saving throw it makes against your spells on your next turn.
+
+Once you assume this majestic presence, you can't do so again until you finish a short or long rest.
+
+### College of Glory
+Bards are known for telling the tale and ballads that laud the heroic action of others. While most are satisfied by this role, others strive to be the hero themselves. Many a brave Bard has joined the ranks of the College of Glory for this reason.
+
+Valuing bravery and decisive action above all, Glory Bards emulate heroes of legend. Augmented by magic, they cultivate larger-than-life personas and hone physical abilities to match
+
+#### Heroic Stature
+At 3rd level, you have decided to become the hero that other Bardswill sing of. You gain the following benefits so long asyou are not wearing armor or wielding a shield:
+
+- Your Armor Class is equal to 10 + your Strength modifier + your Charisma modifier.
+- Your unarmed strikes deal bludgeoning damage equal to one roll of your Bardic Inspiration die + your Strength modifier on hit.
+- Whenever you make a Strength (Athletics) check or roll damage for an unarmed strike, you can expend a use of Bardic Inspiration and add it to the result of your roll.
+
+\column
+
+#### Glorious Purpose
+At 3rd level, you have trained to overcome any obstacle that may stand in the path of your legend. You gain proficiency in Athletics and have advantage on saving throws to resist being frightened.
+
+#### Extra Attack
+Starting 6th level, you can attack twice, instead of once, when you take the Attack action on your turn. Moreover, you can cast one of your Bard cantrips in place of one of those attacks.
+
+#### Hero of Legend
+You take up the mantle of a legendary hero, transforming to match the legend. At 14th level, you can use a bonus action to transform into your Heroic Form, gaining the following benefits:
+
+- You gain temporary hit points equal to your Bard level.
+- You can take the Dash action as a bonus action so long as you end your movement closer to a hostile creature.
+- As a reaction when a creature targets you with a melee attack, you can make one attack against that creature.
+
+These benefits last for 1 minute and end early if you fall unconscious or die. Once you use this feature you must finish a short or long rest before you can transform again.
+
+#### Paragon of Glory
+At 14th level, you are immune to the frightened condition, and whenever you make a death saving throw you can expend a use of Bardic Inspiration, roll it, and add the result to your roll.
+
+{{imageMaskCorner28,--offsetX:55%,--offsetY:-65%,--rotation:0
+  ![](https://www.gmbinder.com/images/1m2XiJF.jpg){height:50%,top:650px,left:250px}
+}}
+<!-- Use --offsetX to shift the mask left or right (can use cm instead of %)
+     Use --offsetY to shift the mask up or down
+     Use --rotation to set rotation angle in degrees. -->
+
+
+{{pageNumber,auto}}
+\page
+
+### College of Graffiti
+To many, the College of Graffiti is a nuisance, a
+band of hooligans that vandalize the city with no
+regard for the law. But bards who learn to tag know
+that graffiti is the single greatest art form. Graffiti
+artists use the entire city as their canvases, placing
+murals of inspiration where everyone can see them
+and personal tags where few will notice. Theirs is a
+bold, creative endeavor that, while illegal, breathes
+vibrancy into the city and emboldens those within it.
+#### Bonus Proficiencies
+Starting when you choose this college at 3rd level, you gain proficiency with painter's supplies and in your choice of the Stealth or Sleight of Hand skill.
+#### Custom Apparek
+Also at 3rd level, you learn the tag cantrip, which
+counts as a bard cantrip for you, but doesn’t count
+against your number of cantrips known. 
+
+As a bonus action, you can expend one use of your Bardic Inspiration to spray out a tag on  a creature body or clothes. For the next minute, that creature gains a +1 bonus to ability checks, attack rolls, and saving throws.
+
+#### Signature Mark
+Starting at 6th level, you can paint a target on a
+creature’s back. As a bonus action, you can attempt
+to magically spray a signature mark directly onto
+a creature you can see within 5 feet of you. Make
+a melee spell attack roll against that creature. On a
+hit, the creature is marked. Once on each of your
+turns, when you hit a creature you have marked with
+a melee weapon attack, you can add 1d8 to the roll.
+
+Additionally, when a friendly creature makes an
+attack against a creature you have marked, you can
+use your reaction to grant advantage on the attack
+roll.
+
+A creature can remove its armor or outermost
+clothing or wash itself with soap as an action to
+remove its tag.
+
+#### Kaleidoscopic Spray
+Beginning at 14th level, as an action, you can let
+loose a flurry of magical paint, coating every surface.
+
+Each creature you choose in a 15-foot cone must
+make a Dexterity saving throw against your spell
+save DC or be blinded until the end of its next turn.
+Each creature in the area is marked by you, whether
+or not succeeds its saving throw.
+
+Once you use this ability, you can't use it again
+until you finish a short or long rest.
+
+
+{{imageMaskEdge6,--offset:10%,--rotation:270
+  ![](https://www.hollywoodreporter.com/wp-content/uploads/2021/08/NW_BardClassArt-1.jpg){height:102%,left:-90px,top:0px}
+}}
+
+
+
+{{pageNumber,auto}}
+\page
+
+### College of Jesters
+Consummate humorists, acrobats, and orators, bards of the College of Jesters can often be found in royal courts and livening up the local tavern. These bards specialize in truth through biting humor,
+rather than stories or sonnets, and compliment their razor wits with acrobatic stunts and other feats of showmanship. When among nobility, jesters offer off-kilter wisdom and fierce satire in equal measures. Among their peers, jesters make fine companions, as
+long as you can take a joke.
+
+#### Raconteur
+When you join this college at 3rd level, you learn the vicious mockery cantrip if you don't already know it. You can spend a use of your Bardic Inspiration when a creature fails a saving throw against vicious mockery to add a roll of the Bardic Inspiration die plus your Charisma modifier to the damage roll. If a creature fails its saving throw against vicious mockery by 5 or more, it also has disadvantage on the first saving throw it makes before the beginning of its next turn.
+
+#### Advanced Tumbling
+Also at 3rd level, you can move through the space
+of any creature by performing acrobatic bounds and
+flips. Once you have moved through a creature's
+space, that creature has disadvantage on opportunity
+attacks against you until the end of your turn.
+#### Juggling
+By 6th level, you are a renowned and daring juggler. You can use your bonus action to start juggling a number of thrown weapons up to twice your proficiency bonus. Once on each of your turns, when
+you take the Attack action to throw a weapon, move out of a creature's reach, or cast the vicious mockery cantrip, you can make one ranged weapon attack against a creature you can see using one of your juggled weapons.
+
+#### Grand Finale
+Starting at 14th level, you can perform a climactic stunt, conclude a stirring oration, or bring a song to a close with pizzazz. 
+When you use this feature, you can take one additional action on top of your regular action and a possible bonus action.
+
+You can't use this feature on the first round of combat. Once you use this feature, you can’t take actions on your following turn.
+
+
+\column
+### College of Lore
+
+Bards of the College of Lore know something about most things, collecting bits of knowledge from sources as diverse as scholarly tomes and peasant tales. Whether singing folk ballads in taverns or elaborate compositions in royal courts, these bards use their gifts to hold audiences spellbound. When the applause dies down, the audience members might find themselves questioning everything they held to be true, from their faith in the priesthood of the local Temple to their loyalty to the king.
+
+The loyalty of these bards lies in the pursuit of beauty and truth, not in fealty to a monarch or following the tenets of a deity. A noble who keeps such a bard as a herald or Advisor knows that the bard would rather be honest than politic.
+
+The college’s members gather in libraries and sometimes in actual colleges, complete with classrooms and dormitories, to share their lore with one another. They also meet at festivals or affairs of state, where they can expose corruption, unravel lies, and poke fun at self-important figures of authority.
+
+#### Bonus Proficiencies
+When you join the College of Lore at 3rd Level, you gain proficiency with three Skills of your choice.
+
+#### Cutting Words
+Also at 3rd Level, you learn how to use your wit to distract, confuse, and otherwise sap the confidence and competence of others. When a creature that you can see within 60 feet of you makes an Attack roll, an ability check, or a damage roll, you can use your Reaction to expend one of your uses of Bardic Inspiration, rolling a Bardic Inspiration die and subtracting the number rolled from the creature’s roll. You can choose to use this feature after the creature makes its roll, but before the GM determines whether the Attack roll or ability check succeeds or fails, or before the creature deals its damage. The creature is immune if it can’t hear you or if it’s immune to being Charmed.
+
+#### Additional Magical Secrets
+At 6th level, you learn two Spells of your choice from any class. A spell you choose must be of a level you can cast, as shown on the Bard table, or a cantrip.
+The chosen Spells count as Bard Spells for you but don’t count against the number of Bard Spells you know.
+
+#### Peerless Skill
+Starting at 14th level, when you make an ability check, you can expend one use of Bardic Inspiration. Roll a Bardic Inspiration die and add the number rolled to your ability check. You can choose to do so after you roll the die for the ability check, but before the GM tells you whether you succeed or fail.
+
+
+{{pageNumber,auto}}
+\page
+### College of the Mad God
+In the middle of the night, you hear the music. Every time, it begins the same way, rising from a low drone into a deafening cacophony. The noise is maddening. In your waking hours, your fingers learn to imitate this melody and bring others to your level
+of psychosis. Some attribute the dreadful nightmares to a
+curse or stress, but you know better. You and others like you are called nightly by the beating of vile drums and the thin monotonous whine of accursed flutes, the sounds of a mad god who echoes the pandemonium of the universe, and summons you to do something. You know not what.
+
+#### Bonus Proficiencies
+When you join this college at 3rd level, you gain proficiency in one skill, which is selected for you by the GM. Whenever you finish a long rest, your GM can change this selection.
+#### Cacophony
+By 3rd level, the discordant sounds of your instrument can drive others to tears and utter madness. Once on each of your turns, when a creature fails an Intelligence, Wisdom, or Charisma saving throw against one of your bard spells or features while you are holding an instrument, you can expend a use of your Bardic Inspiration to play a cacophonous noise. A deafened creature is immune to this effect. Choose one of the following effects:
+- The creature takes psychic damage equal to a roll of your Bardic Inspiration die.
+- The creature is deafened and cant speak until the end of its next turn.
+- The creature moves up to 10 feet in a direction you choose. This movement doesn't provoke opportunity attacks.
+
+#### Frenzied Strings
+Starting at 6th level, as an action, you can play a mind-infecting tune for a creature within 60 feet that can hear you. This creature must make a Wisdom saving throw or be frenzied for up to 1 minute. The creature can repeat this saving throw whenever it takes damage, ending the effect on itself on a success. A frenzied creature loses the ability to distinguish between friend and foe, regarding all creatures it can see as enemies. While frenzied, the creature chooses the targets for its attacks, spells, and abilities randomly from among the creatures it can see within range, and it must make an opportunity attack if any creature provokes one.
+Once you use this ability, you can’t use it again until you finish a short or long rest.
+
+\column
+
+#### Mad Melody
+Beginning at 14th level, you can use your action to begin playing the accursed melody which haunts your dreams. On each of your subsequent turns, you can use your action to continue the melody. Only creatures you choose within 60 feet of you can hear the melody; all other creatures hear it as discordant noise. Even deafened creatures can hear the haunting melody.
+When you use your action to play the melody, a creature that can hear the melody must make a Wisdom saving throw against your spell save DC. 
+On a failed save, it takes psychic damage and suffers an additional effect based on the number of consecutive turns you have been playing the melody, as shown on the Mad Melody table. After four consecutive rounds, or if no creature hears the melody for one round, the melody begins again at the first round. 
+
+##### Mad Melody
+{{classTable,frame
+Round| Psychic Damage| Effect|
+|:--:|:--:|:--:|
+1st| 4d8| The target is deafened
+2nd |7d8 |The target can’t speak and has disadvantage on ability checks.
+3rd| 4d8| The target is charmed by you until the end of its turn
+4th |9d8| —
+}}
+
+### College of Many Faces 
+Masking is among the most ancient artistic traditions of the Yokai Realms. Conjuring masks to transform their persona, bards of this college bring tales of fallen heroes, nefarious villains, and epic confrontations to life. Whether on stage or in the heat of battle, such bards perform as a whirling kaleidoscope of character, emotion, and magic, shifting between personas of solitude, war, beauty, and hope.
+
+#### Kabuki Conjuration 
+At 3rd level, you have the power to conjure magical masks. As a bonus action, you conjure one mask of your choice from the options below. It appears on your face or levitates in the air around you, and it lasts for 1 minute or until you use a bonus action to dismiss it or conjure another one. While conjured, your mask grants you advantage on Performance checks, and you can use it as a spellcasting focus for your bard spells. The type of mask you conjure also grants an additional benefit:
+
+**Mask of Beauty.** When a creature within 30 feet of you that you can see makes a saving throw to resist the effects of an enchantment spell you cast, you can use your reaction to expend one use of your Bardic Inspiration, imposing disadvantage on that roll. 
+
+**Mask of Hope.** When a creature within 60 feet of you that can see or hear you rolls a Bardic Inspiration die, you can use your reaction to add your Charisma modifier (minimum of +1) to that roll. 
+{{pageNumber,auto}}
+\page
+
+ **Mask of Solitude.** When a creature hits you with a melee attack, you can use your reaction to release a blast of force from your mask, dealing 1d8 force damage to the creature and pushing it up to 15 feet away from you.
+
+**Mask of War.** You can add your Charisma modifier (minimum of +1) to the damage roll of a weapon attack you make or a bard spell you cast (no action required). 
+
+You can use this benefit once per turn. You can create a mask in this way a number of times equal to your Charisma modifier (minimum once), and you regain all expended uses when you finish a long rest. 
+
+If you have no uses of this feature remaining, you can create a mask by expending one use of your Bardic Inspiration. 
+
+#### Inspiring Performance 
+At 3rd Level, you learn to empower others through the art of performance. If you perform for at least 10 minutes, you can choose a number of creatures up to your Charisma modifier (minimum of 1) who witnessed your performance. Each creature gains temporary hit points equal to your Charisma modifier + your proficiency bonus and has advantage on its next initiative roll before it finishes a long rest. 
+
+#### Stagecraft 
+Starting 6th Level, your mastery of illusions and trickery grants you the power to move yourself and others through space. While you are on the ground or a surface that can support you, you can use a bonus action to target one creature that is no more than one size larger than you within 60 feet of you. That target must succeed on a Charisma saving throw against your bard spell save DC or you both teleport, swapping places. A creature can choose to fail this saving throw. You can use this feature a number of times equal to your Charisma modifier (minimum once), and you regain all expended uses when you finish a long rest. 
+
+#### Grandiose Transformation 
+At 14th Level, your mastery of performance and magic enhances your masks with incredible power. You gain additional benefits depending on the mask you currently have conjured: 
+
+**Mask of Beauty.** You gain a bonus to all saving throws equal to your Charisma modifier (minimum of +1). 
+
+**Mask of Hope.** When a creature you can see within 90 feet of you falls to 0 hit points but isn’t killed outright, you can use a reaction to expend one use of your Bardic Inspiration. If you do so, the creature is reduced to 1 hit point instead. Once a creature benefits from this feature, it can’t do so again until it finishes a long rest. 
+
+**Mask of Solitude.** You have resistance to bludgeoning, piercing, and slashing damage. 
+
+**Mask of War.** If you use your action to cast a spell, you can make one weapon attack as a bonus action that turn.
+
+### College of Masks
+Bards in the College of Masks (the masters of masks, as they have come to be called) are virtuoso performers who practice becoming the figure they portray, rather than merely imitating them. Bards
+who join in this college come to believe that all life is performed, rather than lived, and that to become an actor in this Great Play requires that one merely puts on the metaphorical mask of another. To engage in this great stage drama, a master of masks carries with him a number of masks, each a potent magical artifact of a specific archetypal character or creature to allow them to better enter those roles.
+
+#### Bonus Proficiencies
+When you join the College of Masks at 3rd level, you
+gain proficiency in the Performance skill.
+#### Persona Masks
+Also at 3rd level, you learn to craft potent magical masks, each of which allows you to take on a different persona and gain some aspect of that archetypal character. You gain two Persona Masks of
+your choice. You gain an additional mask at 6th level (3 masks) and another one at 14th level (4 masks). You can exchange a mask you have for another mask whenever you gain a level in this class. If one of your masks is lost or stolen, you can remake the mask with 8 hours of work and 100 gp in materials.
+
+You can put on a mask or switch masks as a bonus action. Only you can gain the effects of your
+#### Persona Masks.
+Beginning at 6th level, some of your persona
+masks improve and gain additional abilities.
+
+#### Hidden Persona
+By 6th level, you wear the masks of others wherever you go, even when others cannot see it. You can use your bonus action to cause a mask you are wearing to become invisible or return to visibility.
+
+#### Master of many faces
+At 14th level, you have become a master of assuming the archetypes contained within the masks. You can wear two masks simultaneously, gaining the benefits of each.
+
+{{pageNumber,auto}}
+\page
+#### Persona Masks
+The following masks are listed alphabetically.
+#### Angel
+An alluring, serene face gazes out of this mask of flawless alabaster. When you hit a creature with a melee weapon attack, you can expend a use of your Bardic Inspiration to deal additional radiant damage to the target equal to the number you roll on the Bardic Inspiration die plus your Charisma modifier.
+
+#### Archmage
+This clay mask bears exaggerated wrinkles and the
+scowl of a cantankerous old man. You know the
+fire bolt cantrip, as well as the spells shown on the
+table below. As you gain higher levels in this class,
+you know additional spells while wearing the mask.
+These spells count as bard spells for you, but don’t
+count against the total number of spells you know.
+|Bard Level| Spells|
+|:---------:|:------------:|
+3rd |gust of wind, scorching ray
+5th |lightning bolt, protection from energy
+7th |dimension door, ice storm
+9th |scrying, wall of stone
+
+#### Devil
+This obsidian mask grins with the fangs and horns of a handsome fiend. As a reaction when you take damage from a creature you can see within 5 feet of you, you can expend one use of your Bardic
+Inspiration to deal fire damage equal to two rolls of your Bardic Inspiration die to the creature.
+
+#### Dragon
+Painted cloth forms the scales, horns, eyes, flowing whiskers, and teeth of a multihued dragon’s head. While you wear this mask, you can use your action and expend one use of your Bardic Inspiration to exhale destructive energy. Each creature in a 15-foot cone must make a Dexterity saving throw against
+
+your spell save DC. A creature takes fire damage equal to three rolls of your Bardic Inspiration die on a failed save, or half as much damage on a successful one.
+
+#### Faceless
+Two perfectly round eyeholes stare out of this otherwise blank, featureless porcelain mask. While you wear this mask, can cast the spell *disguise self* without expending a spell slot or material components.
+#### Fool
+This porcelain mask of a grinning jester is adorned
+with bells, ribbons, and vibrant checkerboard paints.
+While you wear this mask, your movement speed
+increases by 10 feet. Additionally, you can take the
+Disengage action as a bonus action.
+
+**Improvement.** Beginning at 6th level, you can
+take the Dash action as a bonus action.
+
+\column
+
+#### Gladiator
+This grim metal helm, pockmarked and scratched, conceals the entire face. While you wear this mask, you have proficiency with martial weapons and shields. Improvement. Beginning at 6th level, you can add your Charisma modifier to your melee weapon damage rolls.
+
+#### High Priest
+In lieu of a face, this bronze mask bears the image of a holy symbol, with the barest of slits to see out of. You know the sacred flame cantrip, as well as the spells shown on the table below. As you gain higher levels in this class, you know additional spells while wearing the mask. These spells count as bard spells for you, but don’t count against the total number of spells you know.
+|Bard Level| Spells|
+|:---------:|:------------:|
+3rd| aid, lesser restoration
+5th| mass healing word, tongues
+7th| banishment, death ward
+9th| greater restoration, mass cure wounds
+
+#### Lord
+This gleaming silver mask bears a golden, jeweled
+diadem instead of eyes. When a creature rolls one of
+your Bardic Inspiration dice and rolls a 1 while you
+wear this mask, it can reroll the die and must use the new roll.
+Improvement. Starting at 6th level, the creature can reroll the Bardic Inspiration die when it rolls a 1 or 2, and must use the new roll.
+#### Spirit
+This white fabric mask conceals the face as a funeral shroud, with two gold coins sewn over the eyes. You become invisible if you do not speak, move, or take any actions for 1 minute. You remain invisible for up to 10 minutes, or until you remove this mask,
+take damage, make an attack, or cast a spell. While invisible, you can become half-visible as a ghostly image or return to invisibility as a bonus action. 
+
+**Improvement.** Starting at 6th level, while invisible, you levitate an inch above the ground, which allows you to ignore difficult terrain and make no noise while moving.
+{{pageNumber,auto}}
+\page
+### College of Mercantile
+ Bards of the College of Mercantile are well versed in the artistry of cutting deals and enemies alike in order to come out ahead. Talented merchants, smugglers, and tradesmen alike all learn from this college in some form or another, using both silvered words and sharp cunning to inspire their allies and subvert competition. 
+
+These calculated risk-takers travel the world to make their mark—and their fortune—by navigating treacherous landscapes, economies, and people. With even just a copper to their name, these bards are always worth their weight in gold.
+
+
+#### Magic coin
+Also at 3rd level, you know that coins can be just as powerful as the most enthralling rhetoric. Whereas other bards may use words and song as their means for conjuring spells, you instead use a simple coin. You can 
+use any coin worth at least 1 cp as a spellcasting focus for your bard spells.
+
+ In addition, you can use an action to magically fling a coin from your hand at a target within 60 feet of you.
+ 
+Make a ranged spell attack with the coin, using your Charisma modifier for the attack roll. On a hit, the target takes 1 bludgeoning damage plus 1d12 thunder damage. Immediately after the attack, the coin returns to your hand. If you roll a 20 on the attack roll against a hostile creature using a nonmagical copper, silver, electrum, or gold piece, the coin is magically duplicated when it returns to your hand. The new coin can appear in your hand, at your feet, or in a coin pouch on your person (your choice).
+
+ The coin’s thunder damage increases by 1d12 when you reach 6th level (2d12) and 14th level (3d12).
+
+#### Money Talks
+By 6th level, you’ve learned how to briefly enchant a coin with divination magic. You can enchant a mundane copper, silver, electrum, gold, or platinum piece that you’re holding in this way using an action. A creature holding the coin that knows at least one language can understand the meaning of any word you speak, and when it speaks, you understand what it says. 
+
+In addition, you have advantage on the first Charisma (Persuasion) check you make when negotiating the value of a good or service with a creature that’s holding or carrying the enchanted coin.
+
+ Alternatively, you can use an action to see and hear through the enchanted coin until the start of your next turn as if you were in the coin’s space. During this time, you are deaf and blind with regard to your own senses.
+ 
+ The coin remains enchanted for 10 minutes or until you end the effect early (no action required). You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain all expended uses when you finish a long rest.
+ 
+\column
+
+#### Shrewd Consumer
+ Starting at 14th level, whenever you cast a spell that consumes a material component, drink a potion, or use a spell scroll that’s worth no more than 500 gp, there is a 50 percent chance that the component, potion, or scroll isn’t consumed. 
+ 
+In addition, you can use a bonus action to take the Use an Object action or drink a potion.
+
+{{pageNumber,auto}}
+\page
+### College of Radiance
+Worship takes on many forms across the multiverse; the quiet contemplation of the monastic hermit, the insightful guidance of the temple priest, the resolute dedication of the faith-filled zealot, and the impassioned preacher spreading the tenants of their faith across the land with word and song.
+
+Bards of the College of Radiance are devout preachers of the divine, and all their performances sing the praise of their deity. These bards use the power of their voice to further the will of their god and inspire devotion in their followers.
+
+#### Divine Revelation
+
+Your deity has blessed you with a measure of their divine power in return for your service.At 3rd level, choose a Divine Domain from those available to the Cleric that best fits the deity you serve. Whenever you learn a new Bard spell, you can choose from the Bard spell list, the Cleric spell list, or your list of Domain Spells, and the spell becomes a Bard spell for you. You must obey all other rules from learning a new spell.
+
+You also gain proficiency in Religion, and you add double your proficiency bonus to Intelligence (Religion) checks.
+
+#### Words of Healing
+The god you serve empowers your healing magic. At 3rd level, when you cast a Bard spell of 1st-level or higher that restores hit points to a creature, the target regains additional hit points equal to your Charisma modifier (minimum of 1).
+
+#### Heavenly Chorus
+Your faith empowers your bardic song. At 6th level, when you use Countercharm, you can expend a use of Bardic Inspiration
+to empower it with one of the following celestial effects:
+
+##### Guidance
+Creatures of your choice within range add your Charisma modifier (minimum of +1) to the first ability check, attack roll, or saving throw they make before the start of your next turn.
+
+\column
+
+##### Judgment
+One creature of your choice within range that can hear you must succeed on a Wisdom saving throw or be frightened of you until the start of your next turn. Once a creature succeeds on this saving throw, or the effect ends for it, that creature is immune to this effect for the next 24 hours.
+
+##### Protection
+For the duration, creatures of your choice within range are resistant to necrotic and radiant damage, and their maximum hit points cannot be reduced.
+
+##### Restoration
+One creature of your choice within range that can hear you gains temporary hit points equal to your Bardic Inspiration.
+ 
+#### Beatific Vision
+
+You can allow the power of your deity to shine forth from you. Starting 14th level, when you cast a Bard spell that forces at least one creature to make a saving throw, you can expend Bardic Inspiration to impose disadvantage on one creature's saving throw for each Bardic Inspiration you expend as part of this spell.
+
+{{pageNumber,auto}}
+\page
+
+{{imageMaskEdge6,--offset:10%,--rotation:90
+  ![](https://cdnb.artstation.com/p/assets/images/images/023/622/731/large/johannes-voss-407663-galia-lord-of-misrule-web.jpg?1579801160){height:100%,left:-550px}
+}}
+
+
+\column
+
+
+### College of Revelry
+Bards that join the College of Revelry somehow seem to be the center of attention wherever they go. They enjoy the after-party more than their performance, and they never turn down an invitation to a good time. From formal banquets to harvest celebrations of small towns, Revelry Bards live for the party.
+
+#### Charming Presence
+At 3rd level, your natural charm makes others uniquely comfortable around you. You gain proficiency in Persuasion. If you are already proficient in Persuasion you instead gain proficiency
+in either Deception, Performance, or Sleight of Hand.
+
+If you are currently carousing with a creature, you have advantage on any Deception, Performance, Persuasion, or Sleight of Hand checks you make directed at that creature.
+
+For the purposes of this feature, carousing could be any of the following activities: drinking, dancing, feasting, partying, gambling, or any other activity that lowers inhibitions.
+
+#### Depraved Enchantments
+Your voice drips with debilitating pleasure and weakens the mental resolve of your enemies. At 3rd level, whenever you cast an enchantment spell of 1st-level or higher with a verbal component, you can expend a use of Bardic Inspiration to impose disadvantage on the target's saving throw.
+
+#### Stirring Performance
+Starting 6th level, your presence during rests enlivens your allies and assuages their worries. Any creature that benefits from your Song of Rest feature regains additional hit points equal to your Charisma modifier (minimum of 1 hit point). 
+
+Moreover, any creature that benefits from your Song of Rest feature also has advantage on the first ability check, attack roll, or saving throw it makes after it completes a short rest with you.
+
+#### Hedonistic Trance
+
+Begining 14th level, your bardic songs send creatures into a state of ecstasy. As an action, you can expend a use of Bardic Inspiration to force a creature that can hear you within 30 feet to make a Wisdom saving throw. On a failed save, it is stunned for 1 minute. If the creature takes damage, it can immediately repeat the saving throw, ending the effect on a success. If the creature succeeds on its saving throw, or the effect ends for it, it is immune to this feature for the next 24 hours.
+
+While stunned, the creature is in state of pure ecstasy of your choosing. It could be a drunken stupor, a fit of uncontrollable laughter, sensual hallucinations, or overwhelming pleasure.
+
+When you use this feature, you can expend an additional use of your Bardic Inspiration to impose disadvantage on its initial saving throw.
+{{pageNumber,auto}}
+\page
+### College of Romance
+Love is a powerful thing, and none know this better than the bards of the College of Romance. Paramours, seductors, and silver-tongued devils, these bards have turned the art of wooing someone into a science, which they ply to their advantage with mechanical efficiency. Given the option, these bards would rather make love than war, knowing full well that an enemy turned ally is twice as effective as an enemy slain.
+
+#### Likeable
+Starting when you choose this college at 3rd level, you have a magnetic personality. You can use your bonus action to distract a hostile creature you have charmed. On its turn, the charmed creature has disadvantage on attack rolls and can't move further away from you unless it first takes the Disengage action.
+If you charm a creature that isn't hostile to you, it regards you and your allies as friendly acquaintances.
+
+#### Cupid's Arrow
+Also at 3rd level, you can sway other creatures through your personality. As an action, expend one use of Bardic Inspiration and choose one creature you can see within 30 feet which can see or hear you to make a Wisdom saving throw. On a failed save, the
+creature is charmed by you for a number of rounds equal to the die roll.
+
+This effect ends early if you move more than 30 feet away from the creature, if the creature can neither see nor hear you, if the creature takes damage from you or your allies, or if you use this ability again.
+
+#### Enemy of my enemy
+At 6th level, when you take the Attack action, you can use your bonus action to direct a creature you have charmed that can see or hear you to attack. That creature can immediately use its reaction to make one weapon attack.
+#### Infatuate
+Starting at 14th level, you can make yourself the object of another creature's affections. You can use your action to touch an incapacitated humanoid. That creature is then charmed by you until a remove curse spell is cast on it, the charmed condition is removed from it, or you use this feature again. 
+
+Once you use this feature, you can't use it again until you finish a short or long rest.
+
+{{note
+##### ENCHANTMENT ISN'T LOVE
+
+Spellcasters of all stripes possess magic which
+can influence the heart, inspiring emotions
+which simply aren’t *genuine*. 
+When this magic fades, so too do the emotions they inspired.
+Even spellcasters which derive their powers
+from emotionality should be mindful of this:
+magically-inspired emotions are manipulative,
+not romantic.
+
+}}
+\column
+
+
+
+### College of the Spheres
+Since time immemorial, musicians and storytellers have looked to the heavens for inspiration, imagining them to be the souls of great heroes or the divine singers of some eternal ballad. Now that bards can travel among the celestial spheres for themselves, the true sound of the Universal Music has been found: not in the roaring of stars or the crashing of asteroids, but in the incredible diversity of peoples and cultures that permeates the galaxy. Bards who belong to the College of the Spheres seek to blend as many of these influences together as they can, creating stunning, multi-layered compositions that push both the player and the listener to the limits of possibility.
+
+#### Universal Music
+When you join this college at 3rd level, you begin to
+explore the relationship between music and mathematics, gaining a deep understanding of cutting-edge science.
+
+You have advantage on any Intelligence check relating to advanced mathematics, geometry, kinematics, acoustics, or ballistics.
+
+#### Astronomy Domine
+Also at 3rd level, you begin to channel the majesty of the stars with your spellcasting. Whenever you deal damage with a bard spell, you can change the damage type to radiant damage.
+
+Additionally, you can increase the damage by expending one use of your Bardic Inspiration, adding that die to the spell’s damage roll.
+
+#### Stellar Chorus
+Starting at 6th level, your voice gains the backing of a distant chorus that echoes across the heavens. Whenever one of your Bardic Inspiration dice is rolled, you can roll it twice and take whichever result you prefer.
+
+#### Harmonic Convergence
+When you reach 14th level, you are so attuned to the
+rhythm of the cosmos that the skies shake when you
+sing. Once per turn, when a creature makes a saving
+throw against a spell you cast, you can expend one use of Bardic Inspiration, rolling a Bardic Inspiration die and subtracting the number rolled from the creature’s roll.
+{{pageNumber,auto}}
+\page
+
+
+### College of Swords
+
+Bards of the College of Swords are called blades, and they entertain through daring feats of weapon prowess. Blades perform stunts such as sword swallowing, knife throwing and juggling, and mock combats. Though they use their weapons to entertain, they are also highly trained and skilled warriors in their own right.
+
+Their talent with weapons inspires many blades to lead double lives. One blade might use a circus troupe as cover for nefarious deeds such as assassination, robbery, and blackmail. Other blades strike at the wicked, bringing justice to bear against the cruel and powerful. Most troupes are happy to accept a blade’s talent for the excitement it adds to a performance, but few entertainers fully trust a blade in their ranks.
+
+Blades who abandon their lives as entertainers have often run into trouble that makes maintaining their secret activities impossible. A blade caught stealing or engaging in vigilante justice is too great a liability for most troupes. With their weapon skills and magic, these blades either take up work as enforcers for thieves’ guilds or strike out on their own as adventurers.
+
+#### Bonus Proficiencies
+When you join the College of Swords at 3rd level, you gain proficiency with medium armor and the scimitar.
+
+If you’re proficient with a simple or martial melee weapon, you can use it as a spellcasting focus for your bard spells.
+
+
+#### Fighting Style
+At 3rd level, you adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again.
+
+**Dueling**
+When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.
+
+**Two-Weapon Fighting**
+When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.
+{{imageMaskEdge8,--offset:30%,--rotation:0
+  ![](https://i.imgur.com/BYfABCL.png){height:55%,top:630px}
+}}
+
+
+
+
+\column
+
+#### Blade Flourish
+At 3rd level, you learn to conduct impressive displays of martial prowess and speed.
+
+Whenever you take the Attack action on your turn, your walking speed increases by 10 feet until the end of the turn, and if a weapon attack that you make as part of this action hits a creature, you can use one of the following Blade Flourish options of your choice.
+
+You can use only one Blade Flourish option per turn.
+
+**Defensive Flourish.** You can expend one use of your Bardic Inspiration to cause the weapon to deal extra damage to the target you hit. The damage equals the number you roll on the Bardic Inspiration die. You also add the number rolled to your AC until the start of your next turn.
+
+**Slashing Flourish.** You can expend one use of your Bardic Inspiration to cause the weapon to deal extra damage to the target you hit and to any other creature of your choice that you can see within 5 feet of you. The damage equals the number you roll on the Bardic Inspiration die.
+
+**Mobile Flourish.** You can expend one use of your Bardic Inspiration to cause the weapon to deal extra damage to the target you hit. The damage equals the number you roll on the Bardic Inspiration die. You can also push the target up to 5 feet away from you, plus a number of feet equal to the number you roll on that die. You can then immediately use your reaction to move up to your walking speed to an unoccupied space within 5 feet of the target.
+
+#### Extra Attack
+Starting at 6th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.
+
+#### Master's Flourish
+Starting at 14th level, whenever you use a Blade Flourish option, you can roll a d6 and use it instead of expending a Bardic Inspiration die.
+{{pageNumber,auto}}
+\page
+
+### College of Thunder
+Some Bards grow in talent, weaving beautiful ballads that
+move their listeners to tears. Some bards just turn up the
+volume. The college of thunder is a path for those that want to
+be heard - to convey their message with great emphasis to as
+many people as possible. They often are keenly interested in
+innovating their instruments, finding new improvements that
+allow them to make new, louder, sounds... the musicality of
+those sounds is sometimes debated by more classical artists.
+Lacking in subtlety, these bards are viewed as innovators
+and pioneers by themselves... and generally a large pain in the
+ears by most others, most especially their proceeding
+generation.
+#### Dramatic Cantrips
+At 3rd level when you select this college, you gain the ability to cast *thaumaturgy*.
+
+#### Harsh Chord
+Starting at 3rd level, as an action you can expend a use of bardic inspiration to play a powerful chord that sweeps outward. 
+
+Each of your choice creature within 20 feet of you must make a Constitution saving throw. A creature takes thunder damage equal to your bardic inspiration die + your bard level on a failed saving throw, and half as much damage on a successful one. 
+
+Constitution saving throws to maintain concentration on spells triggered by this damage are made with disadvantage.
+
+#### Louder
+Starting at 6th level, when you cast a spell that deals thunder damage, you can add your Charisma modifier to the damage dealt.
+
+#### Amplified Antics
+Additionally at 6th level, when you cast a bard spell with a range greater than 5 feet, the range increases by 30 feet.
+
+#### Reverberating Echo
+At 14th level, when expend a spell slot to cast a spell that
+deals thunder damage, you can cast that spell again on your
+next turn without expending a spell slot, but the damage it
+deals is halved.
+
+\column
+
+
+##### College of Thunder Quirks
+The following are some optional quirks for a player of the
+College of Thunder. You can optionally roll or select a quirk
+that suits your character.
+
+d6| Quirk
+:-:|:-:
+1| All performance checks are better when made at maximum volume.
+2| Your fashion taste is memorable.
+3| You plunge into things recklessly. Old age is for boring people.
+4| You prefer odd instruments that you tinker with endlessly.
+5| Everything is a stage if you believe hard enough.
+6| You sometimes get very involved in mimed performances.
+
+
+
+{{pageNumber,auto}}
+\page
+### College of the Vanguard
+
+Bards who follow the College of the Vanguard dedicate themselves to unwavering support of a chosen companion. Rather than spreading their talents thinly among many, they focus their inspiration and tactical insight on a single ally, ensuring their success through keen strategy and steadfast encouragement. These bards act as stalwart tacticians, guiding their allies with precision and fostering an unbreakable camaraderie.
+
+#### Tactical Focus
+At 3rd level, when you take a short rest, you may choose a creature to focus your attention upon. That creature treats all rolls of their hit dice during this rest as their maximum (e.g. a d8 would result in an 8).
+
+#### Coordinated Maneuvers
+At 3rd level, you may choose two Coordinated Maneuvers. Maneuvers may be used as a bonus action by expending a Bardic Inspiration. Each Maneuver targets one creature within 5 feet of you that can see and hear you, other than yourself.
+
+You may choose 1 more Maneuver at 9th level and again at 13th and 17th level.
+
+- **Strike True.** Target creature receives a bonus to their attack and damage rolls equal to your proficiency bonus until the start of your next turn.
+- **Relentless Onslaught.** Target creature may reroll damage rolls of 1 until the start of your next turn.
+- **Unhindered Movement.** Target creature may move through difficult terrain without suffering a speed penalty and may Dash as a bonus action until the start of your next turn.
+- **Know Your Enemy.** Target creature you can see must make a Charisma saving throw vs your spell save DC. If it fails, you learn either its damage immunities and resistances, its saving throw proficiencies, or its condition immunities.
+- **Steadfast Resilience.** Target creature makes death saving throws at advantage while within 30 feet of you. Additionally, you may stabilize that creature as a bonus action if you are within 5 feet of them. This effect lasts for 1 hour or until you choose another creature to receive this Maneuver, whichever happens first.
+- **Surefooted.** When the target rolls a 1 on the d20 for an attack roll, ability check, or saving throw, they can reroll the die and must use the new roll. This effect lasts for 1 hour or until you choose another creature to receive this Maneuver, whichever happens first.
+- **Shield the Leader.** (Prerequisite: Bard level 13) Target willing creature you can see may spend its reaction when you are targeted by an attack while you are within 5 feet of them to have that attack target them instead. This effect lasts for 1 hour or until you choose another creature to receive this Maneuver, whichever happens first.
+- **Break Their Focus.** (Prerequisite: Bard level 13) Target creature that can see you must make a concentration check at disadvantage if they are concentrating on a spell.
+- **Commanding Presence.** (Prerequisite: Bard level 17) Target creature that can hear you must make a Charisma saving throw versus your spell save DC. If they fail, you may speak a statement of no longer than ten words about you or an object the target can see. The target takes your words as true and acts accordingly for the next 5 minutes. The creature may repeat the saving throw when they take damage, ending the effect on a success. On a successful save, the target is unaffected, and you cannot use this Maneuver on them again for the next 24 hours.
+- **Imposing Authority.** (Prerequisite: Bard level 17) Target creature that can see you must make a Charisma saving throw vs your spell save DC. If they fail, they subtract your Charisma modifier from all attack rolls they make for the next minute.
+
+#### Guardian’s Presence
+At 6th level, your presence alone can shield allies from insidious effects. As a bonus action, you may place a hand upon a creature within 5 feet of you. So long as you remain touching that creature with that hand, the creature is immune to being charmed or frightened.
+
+This effect also ends either condition if that creature is already charmed or frightened. You may touch a second creature to also give them this benefit as another bonus action on a subsequent turn, but you will be unable to cast spells that require a somatic component while both hands are occupied.
+
+#### Insightful Observer
+At 6th level, you gain the ability to analyze a creature’s behavior and intentions with remarkable accuracy. After 1 minute of speaking with a creature in a language you both understand, you gain advantage when making Charisma (Persuasion) and Charisma (Deception) checks against that creature.
+
+#### Lasting Impression
+At 14th level, your influence leaves a deep mark on those who experience it. When a creature that is charmed by you has the condition end, as a reaction you may choose to spend one Bardic Inspiration and have that creature take 6d6 + your Charisma modifier psychic damage, overwhelmed by the weight of their realization or loss of guidance.
+
+
+{{pageNumber,auto}}
+\page
+### College of Valor
+Bards of the College of Valor are daring skalds whose tales keep alive the memory of the great heroes of the past, and thereby inspire a new generation of heroes. These bards gather in mead halls or around great bonfires to sing the deeds of the mighty, both past and present. They travel the land to witness great events firsthand and to ensure that the memory of those events doesn't pass from the world. With their songs, they inspire others to reach the same heights of accomplishment as the heroes of old.
+
+#### Bonus Proficiencies
+When you join the College of Valor at 3rd level, you gain proficiency with medium armor, shields, and martial weapons.
+
+#### Combat Inspiration
+Also at 3rd level, you learn to inspire others in battle. A creature that has a Bardic Inspiration die from you can roll that die and add the number rolled to a weapon damage roll it just made. 
+
+Alternatively, when an attack roll is made against the creature, it can roll the Bardic Inspiration die and add the number rolled to its AC against that attack, after seeing the roll but before knowing whether it hits or misses.
+
+#### Extra Attack
+Starting at 6th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.
+
+Additionally, when you take the Attack action on your turn, you can cast a cantrip in place of one of your attacks.
+#### Battle Magic
+At 14th level, you have mastered the art of weaving spellcasting and weapon use into a single harmonious act. When you take the Attack action on your turn, you can cast an Bard spell in place of one of your weapon attacks.
+
+{{imageMaskEdge3,--offset:10%,--rotation:270
+  ![](https://www.worldanvil.com/uploads/images/b6c5c091cd6c854fb2ec55fb41de2fab.jpg){height:101%,top:-1px}
+}}
+
+
+
+![Chris](https://i.imgur.com/s0AzXAC.png) {width:525px,position:absolute,left:360px,bottom:-5px}
+
+{{artist,position:absolute,top:820px,left:350px,margin-bottom:-30px
+##### Chris 
+}}
+
+{{pageNumber,auto}}
+\page
+### College of Whispers
+  
+Most folk are happy to welcome a bard into their midst. Bards of the College of Whispers use this to their advantage. They appear to be like any other bard, sharing news, singing songs, and telling tales to the audiences they gather. In truth, the College of Whispers teaches its students that they are wolves among sheep. These bards use their knowledge and magic to uncover secrets and turn them against others through extortion and threats.
+
+
+Many other bards hate the College of Whispers, viewing it as a parasite that uses the bards’ reputation to acquire wealth and power. For this reason, these bards rarely reveal their true nature unless they must. They typically claim to follow some other college, or keep their true nature secret in order to better infiltrate and exploit royal courts and other settings of power.
+
+#### Psychic Blades
+When you join the College of Whispers at 3rd level, you gain the ability to make your weapon attacks magically toxic to a creature's mind.
+
+When you hit a creature with a weapon attack, you can expend one use of your Bardic Inspiration to deal an additional 2d6 psychic damage to that target. You can do so only once per round on your turn.
+
+The psychic damage increases when you reach certain levels in this class, increasing to 3d6 at 5th level, 5d6 at 10th level, and 8d6 at 15th level.
+
+
+#### Words of Terror
+At 3rd level, you learn to infuse innocent-seeming words with an insidious magic that can inspire terror.
+
+If you speak to a humanoid alone for at least 1 minute, you can attempt to seed paranoia and fear into its mind. At the end of the conversation, the target must succeed on a Wisdom saving throw against your spell save DC or be frightened of you or another creature of your choice. The target is frightened in this way for 1 hour, until it is attacked or damaged, or until it witnesses its allies being attacked or damaged.
+
+If the target succeeds on its saving throw, the target has no hint that you tried to frighten it.
+
+Once you use this feature, you can’t use it again until you finish a short rest or long rest.
+
+\column
+
+#### Mantle of Whispers
+At 6th level, you gain the ability to adopt a humanoid's persona. When a humanoid dies within 30 feet of you, you can magically capture its shadow using your reaction. You retain this shadow until you use it or you finish a long rest.
+
+You can use the shadow as an action. When you do so, it vanishes, magically transforming into a disguise that appears on you. You now look like the dead person, but healthy and alive. This disguise lasts for 1 hour or until you end it as a bonus action.
+
+While you're in the disguise, you gain access to all information that the humanoid would freely share with a casual acquaintance. Such information includes general details on its background and personal life, but doesn't include secrets. The information is enough that you can pass yourself off as the person by drawing on its memories.
+
+Another creature can see through this disguise by succeeding on a Wisdom (Insight) check contested by your Charisma (Deception) check. 
+
+You gain a +5 bonus to your check.
+
+Once you capture a shadow with this feature, you can't capture another one with it until you finish a short or long rest.
+
+
+
+#### Shadow Lore
+At 14th level, you gain the ability to weave dark magic into your words and tap into a creature’s deepest fears.
+
+As an action, you magically whisper a phrase that only one creature of your choice within 30 feet of you can hear. The target must make a Wisdom saving throw against your spell save DC. It automatically succeeds if it doesn’t share a language with you or if it can’t hear you. On a successful saving throw, your whisper sounds like unintelligible mumbling and has no effect.
+
+If the target fails its saving throw, it is charmed by you for the next 8 hours or until you or your allies attack or damage it. It interprets the whispers as a description of its most mortifying secret.
+While you gain no knowledge of this secret, the target is convinced you know it. While charmed in this way, the creature obeys your commands for fear that you will reveal its secret. It won’t risk its life for you or fight for you, unless it was already inclined to do so. It grants you favors and gifts it would offer to a close friend.
+
+When the effect ends, the creature has no understanding of why it held you in such fear.
+
+Once you use this feature, you can’t use it again until you finish a long rest.
+
+{{pageNumber,auto}}
+\page
+### College of the Wilds
+Some Bards are so inspired by the majesty of nature they can draw musical magic from nature itself. Often more at home in nature than on the stage, Bards who join the College of the Wilds feel a special kinship with wild plants and animals of all kinds. They can use their enchanting music to soothe even the most savage beasts, turning them from enemy to ally.
+
+#### Friend of Nature
+
+At 3rd level, you have gained the skills to charm and subdue wild plants and animals of all kinds. You gain proficiency in both Animal Handling and Performance and whenever you would make a Wisdom (Animal Handling) check you can choose to make a Charisma (Animal Handling) check instead.
+
+Also, whenever you cast an enchantment spell from the Bard spell list that can target a humanoid, you can choose to target beasts and plants with that spell as well.
+
+#### Primal Inspiration
+Your bardic magic can bestow primal on others.At 3rd level, as a bonus action, you can expend a use of Bardic Inspiration and grant one of the effects below to one creature of your choice within 60 feet that can hear you. The abilities last for 1 hour, but they end early if the creature uses a bonus action to end it,
+if you grant it another ability, or it is incapacitated:
+
+##### Flight of the Squirrel
+The creature sprouts lightweight flaps or fins. When it falls, it subtracts 60 feet from its fall when calculating fall damage, and it can move horizontally 2 feet for every 1 foot it falls.
+
+##### Grip of the Monkey
+The creature gains the ability to grip almost any surface. It gains a 30-foot climbing speed and it has advantage on any Strength (Athletics) checks it makes to grapple creatures.
+
+\column
+
+##### Resilience of the Forest
+The creature's skin becomes rough and bark-like. It gains the benefits of the barkskin spell for the duration.
+
+##### Speed of the Deer
+The creature's legs grow limber and its pace quickens. Its movement speed increases by 15 feet.
+
+##### Swiftness of the Dolphin
+The creature grows webbing between its digits. It gains a 30-foot swimming speed and it can hold its breath for 1 hour.
+
+
+#### Wild Companion
+Starting 6th level, at the end of a long rest, you can call a creature of the wild to your side. One beast or plant of your choice native to the area appears. It is friendly to you and obeys you completely. In combat, it shares your turn in initiative order. It can move and use its reaction on its own, but it can only take the dodge action unless you use your bonus action to command it to take an action from its stat block or another action.
+
+Your Bard level determines the maximum CR of the beast or plant you can summon, as shown in the table below:
+
+Bard Level|	Max. CR|	Example Companions
+:-:|:-:|:-:
+6th|	1|	Brown Bear, Vine Blight
+14th|	2|	Awakened Tree, Giant Elk
+17th|	4|	Elephant, Giant Scorpion
+
+If your companion has died within the past hour, you can touch it and expend a spell slot of 1st-level or higher and it returns to life with all of its hit points restored. You can only control one Companion at a time with this feature. Calling a second Companion causes the first to flee into the wild.
+
+#### Soothe the Savage Beast
+Your mastery of music allows you to soothe any creature, no matter how savage it is. Starting 14th level, you can target aberrations, dragons, giants, monstrosities with enchantment spells that normally can only target humanoids.
+
+You also learn dominate beast, but it doesn't count against your total number of Spells Known.
+
+{{imageMaskEdge3,--offset:35%,--rotation:0
+  ![](https://www.mtgnexus.com/img/gallery/1689731076/2193-hymn-of-the-wilds.jpg){height:55%,top:750px}
+}}

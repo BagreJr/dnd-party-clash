@@ -1,0 +1,3903 @@
+```metadata
+title: Binder
+description: ''
+tags: []
+systems: []
+renderer: V3
+theme: 5ePHB
+
+```
+
+```css
+.page{
+	width  : 210mm;
+	height : 296.3mm;
+}
+
+css
+
+.page .columnWrapper {
+	height: 100%
+}
+
+.page .toc.wide {
+	columns: 1;
+	height: 100%;
+}
+
+.page .toc > ul > li {
+	font-weight:100;
+	margin-bottom:-2.1px;
+
+}
+
+.page .toc ul ul {
+	margin-left: 0;
+	font-weight: 5;
+	color: black;
+}
+```
+
+{{frontCover}}
+
+{{logo ![](/assets/naturalCritLogoRed.svg)}}
+
+# Binder
+
+![background image](https://i.imgur.com/NzG0rlY.jpg){position:absolute,bottom:0,left:-60px,height:100%}
+
+\page
+{{toc,wide
+# Contents
+
+  - #### [{{ Binder}}{{ 3}}](#p3)
+    -  [{{ Beyond Reality}}{{ 3}}](#p3)
+    -  [{{ A Soul Fractured}}{{ 3}}](#p3)
+    -  [{{ Creating a Binder}}{{ 3}}](#p3)
+  - [{{ Class Features}}{{ 4}}](#p4)
+    -  [{{ Soul Binding}}{{ 5}}](#p5)
+    -  [{{ Minor Spirits}}{{ 5}}](#p5)
+    -  [{{ Rebinding}}{{ 5}}](#p5)
+    -  [{{ Esoteric Cult}}{{ 5}}](#p5)
+    -  [{{ Suppress Sign}}{{ 5}}](#p5)
+    -  [{{ Ability Score Improvement}}{{ 5}}](#p5)
+    -  [{{ Adamant Mind}}{{ 5}}](#p5)
+    -  [{{ Voidsoul}}{{ 5}}](#p5)
+  - #### [{{ Minor Spirits}}{{ 6}}](#p6)
+  - #### [{{ Esoteric Cults}}{{ 7}}](#p7)
+    -  [{{ The Avatarists}}{{ 7}}](#p7)
+    -  [{{ Brotherhood of Ascetics}}{{ 8}}](#p8)
+    -  [{{ Church of Gyx}}{{ 9}}](#p9)
+    -  [{{ Ishtar’s Faithful}}{{ 9}}](#p9)
+    -  [{{ Legion’s Lodge}}{{ 10}}](#p10)
+    -  [{{ Order of Crimson Binding}}{{ 11}}](#p11)
+    -  [{{ Society of the Stygian Seal}}{{ 12}}](#p12)
+  - #### [{{ Vestige Codex}}{{ 13}}](#p13)
+  - #### [{{ 1st-Level Vestiges}}{{ 14}}](#p14)
+  - #### [{{ 2nd-Level Vestiges}}{{ 17}}](#p17)
+  - #### [{{ 3rd-Level Vestiges}}{{ 19}}](#p19)
+  - #### [{{ 4th-Level Vestiges}}{{ 21}}](#p21)
+  - #### [{{ 5th-Level Vestiges}}{{ 22}}](#p22)
+  - #### [{{ 6th-Level Vestiges}}{{ 25}}](#p25)
+  - #### [{{ 7th-Level Vestiges}}{{ 27}}](#p27)
+  - #### [{{ 8th-Level Vestiges}}{{ 28}}](#p28)
+  - #### [{{ 9th-Level Vestiges}}{{ 29}}](#p29)
+  - #### [{{ Forgotten Vestiges}}{{ 31}}](#p31)
+  - #### [{{ Heroic Vestiges}}{{ 34}}](#p34)
+  - #### [{{ Variant Rule: Special Binding Requirements}}{{ 40}}](#p40)
+}}
+
+
+
+
+\page
+
+## Binder
+:
+When he finally spoke, it was with the voices of
+several beings at once, overlapping in an unnatural
+harmony. But the most prominent voice was gruff
+and confident, which he used to lull his targets into
+complacency seconds before he struck with a hidden
+dagger. By the next morning, the gruff, independent
+voice was gone, instead replaced with a profound
+melancholy. He discarded the daggers too, in favor of
+a sturdy spear and imposing armor. The day after that,
+he struck an air of erratic rage, and he abandoned
+weapons altogether in favor of eldritch flame. Each
+morning, he woke up new, possessed by some new
+infernal spirit, dead god, or forgotten sinner.
+
+### Beyond Reality
+Binders learn to cast their minds into the Void
+between planes, to search the abyss there for beings
+that will answer their call. These beings—called
+vestiges—are remnants of powerful spirits residing
+in the nothingness outside of reality, which is born
+from the last echoes of the world’s creation, and from
+energies that leak out of the planes.
+Vestiges are born of dead gods and tragic heroes,
+but their forms, personalities, and motivations
+are shaped by the whims of remembrance.
+Righteous spirits that are remembered as
+villains develop a fiendish aspect and sinister
+overtones, while those who are forgotten
+fade over millennia into the Void’s static.
+Mercifully, binder scholars record and preserve the
+original, often apocryphal, tales of these vestiges’
+origins, allowing them to persist longer in the Void.
+Because vestiges are devoid of all sensation in the
+Void, they crave any small taste of reality, and will
+answer the call of any binder powerful enough to
+draw them forth. Binders can merge a portion of their
+soul with a vestige in exchange for some of the power
+the vestige commanded in life.
+### A Soul Fractured
+In order to harbor a vestige, a binder must divide
+their very soul and offer part of it to the vestige for
+residence. Sharing their soul in this way leaves
+profound marks as the vestige pushes its way into
+reality: it influences its binder’s personality and
+usually warps their body in accordance with the
+vestige’s esoteric form. Last, but not least, the soul
+itself is permanently fractured, which could have
+unforeseen consequences in the afterlife. It is for this
+reason that binding magic is usually forbidden.
+Skilled binders learn to break their soul into
+smaller and smaller pieces to bind greater and more
+numerous spirits. At their pinnacle, a binder can
+wield magic of ancient, forgotten gods while swinging
+the blades of legendary heroes, but their voice
+becomes quiet among the clamor of disparate spirits
+and their soul is relegated to but a fraction of their
+persona.
+
+\column
+
+### Creating a Binder
+As you make your binder character, spend some time
+thinking about your relationship to your vestiges, and
+the extent to which you allow them to influence your
+personality. How did you learn about the mysterious
+vestiges, and do you have a special relationship to any
+of them? What drew you to your first summoning?
+How do you view your own soul, given that you allow
+other spirits to take up residence within it?
+Work with your GM to determine what role
+vestiges and other binders will play in your campaign.
+As a binder, you can redefine your role in the
+adventuring party; daily, if desired. There is also
+the possibility that your appearance and your very
+personality will flex with different vestiges holding
+sway over your soul. How do you and your adventuring party confront this, and how do
+you handle the physical traits presented by
+your vestiges? Do you hide these signs, for fear
+of public retribution, or do you flaunt them,
+embracing the power that they offer you?
+
+#### Quick Build
+To make a binder quickly, consider the following
+suggestions: make Charisma your highest stat,
+followed by a medium balance of Constitution,
+Strength, and Dexterity. Because you can take
+any party role, you should be prepared to change
+your hat on a moment’s notice. Lastly, choose
+any background.
+
+
+{{imageMaskCorner21,--offsetX:53%,--offsetY:-50%,--rotation:0
+  ![](https://i.imgur.com/O0eLR5W.png){height:53%,left:350px}
+}}
+
+
+
+
+{{pageNumber,auto}}
+\page
+
+
+{{classTable,frame,decoration
+##### The Binder
+| Level | Proficiency Bonus | Features | Vestiges Level        |Vestiges Bound|
+|:-----:|:-----------------:|:---------|:---------------------:|:------------:|
+|  1st  |  +2  | Soul Binding      |          1st          |1|
+|  2nd  |  +2  | Minor Spirits, Rebinding     |          1st          |1|
+|  3rd  |  +2  | Esoteric Cult, Suppress Sign    |          2nd          |1|
+|  4th  |  +2  | Ability Score Improvement    |          2nd          |1|
+|  5th  |  +3  | Minor Sprits (3)  |          3rd          |2|
+|  6th  |  +3  | Ability Score Improvement   |          3rd          |2|
+|  7th  |  +3  | Esoteric Cult feature  |          4th          |2|
+|  8th  |  +3  | Ability Score Improvement  |          4th          |2|
+|  9th  |  +4  | Adamant Mind   |          5th          |2|
+| 10th  |  +4  | Esoteric Cult feature |          5th          |2|
+| 11th  |  +4  | — |          6th          |3|
+| 12th  |  +4  | Ability Score Improvement |          6th          |3|
+| 13th  |  +5  | Minor Sprits (4)     |          7th          |3|
+| 14th  |  +5  |Esoteric Cult feature|          7th          |3|
+| 15th  |  +5  |Rebinding improvement|          8th          |3|
+| 16th  |  +5  | Ability Score Improvement |          8th          |3|
+| 17th  |  +6  | —   |          9th          |4|
+| 18th  |  +6  | Minor Spirits (5)  |          9th          |4|
+| 19th  |  +6  | Ability Score Improvement     |          9th          |4|
+| 20th  |  +6  | Voidsoul |          9th          |4|
+}}
+
+
+\column
+
+## Class Features
+
+As a binder, you gain the following class features
+
+#### Hit Points
+**Hit Dice:**                    :: 1d8 per binder level
+**Hit Points at 1st Level:**     :: 8 + your Constitution modifier
+**Hit Points at Higher Levels:** :: 1d8 (or 5) + your Constitution modifier per binder level after 1st
+
+#### Proficiencies
+**Armor:**   :: Light armor, medium armor
+**Weapons:** :: Simple weapons
+**Tools:**   :: None
+
+**Saving Throws:** :: Charisma, Wisdom
+**Skills:**        :: Choose two skills from Arcana, Deception, History, Insight, Investigation, Persuasion, and Religion.
+
+#### Equipment
+You start with the following equipment, in addition to the equipment granted by your background:
+- A light crossbow, 20 bolts, and any simple weapon
+- *(a)* scale mail or *(b)* leather armor
+- 10 pieces of chalk and *(a)* a component pouch or *(b)* an arcane focus
+- *(a)* a scholar’s pack or *(b)* a dungeoneer’s pack
+
+{{imageMaskEdge8,--offset:10%,--rotation:0
+  ![](https://artfiles.alphacoders.com/656/65605.jpg){height:76%,top:540px}
+}}
+![Binder Salemon](https://i.imgur.com/zrlnpKp.png) {position:absolute,top:550px,right:-140px,width:580px}
+
+
+{{pageNumber,auto}}
+\page
+### Soul Binding
+In your studies, you have uncovered the means to pierce the veil of the planes and call to what lives beyond. You learn how to summon a vestige and bind it to your soul.
+
+#### Binding Ritual
+You can spend 10 minutes conducting a special binding ritual, which entails drawing the signs of vestiges in chalk, calling each by name, and performing other, more esoteric acts. During this ritual, vestiges manifest tangible signs as they press against the boundaries of reality and find purchase within your soul.
+
+At 1st level, you can bind one vestige, and can bind more vestiges at higher levels, as shown in the Vestiges Bound column of the Binder table. Unless otherwise specified, you can only bind vestiges whose combined level is no greater than your binder level.
+
+ Vestiges remain bound until you finish a long rest. Once you perform a binding ritual, you can’t do so again until you finish a long rest.
+ 
+#### Spellcasting Ability
+Charisma is your spellcasting ability for all spells and powers granted to you by your vestiges, since you command the power of your vestiges though your very soul. Use your Charisma score whenever a spell refers to your spellcasting ability.
+
+In addition, use your Charisma modifier when setting the saving throw DC for a spell or ability granted to you by one of your vestiges.
+
+**Vestige save DC** = 8 + your proficiency bonus + your Charisma modifier
+
+**Spell attack modifier** = your proficiency bonus + your Charisma modifier
+
+
+### Minor Spirits
+Beginning at 2nd level, you can use the runoff energy from your binding ritual
+to enlist two minor spirits to your service, selected from the Minor Spirits list. These spirits manifest faintly around you, though you can cause them to become invisible or return to visibility once on each of your turns (no action required).
+
+ You can bind additional spirits to your service as you gain additional levels in this class, as shown on the Binder table. When you gain a level in this class, you can choose to replace a minor spirit you can bind with another.
+ 
+ 
+### Rebinding
+Starting at 2nd level, you can use your action to perform a modified version of the binding ritual, allowing you to expel a bound vestige early and bind another vestige of equal or lower level in its place. Any effects created by a dismissed vestige immediately end. Once you use this ability, you can’t use it again until you finish a long rest.
+
+Starting at 15th level, you can rebind two vestiges instead of one when you use this ability 
+
+### Esoteric Cult
+Starting at 3rd level, you align yourself with an esoteric cult, a secretive organization of binders bound together by similar motives and shared mystic knowledge. Choose one of the cults presented at the end of the class description. Your choice in cult grants you features at 3rd level, and again at 7th, 10th, and 14th level.
+
+### Suppress Sign
+Also at 3rd level, you can use your action to conceal all Trait features offered by your bound vestiges. All physical signs created by these Traits vanish, but you can’t use any Trait features until you use your action to reveal your vestiges’ Traits.
+
+### Ability Score Improvement
+When you reach 4th level, and again at 6th, 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two Ability Scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.
+
+### Adamant Mind
+At 9th level, your experience in sharing your soul with otherworldly entities has taught you how to guard your thoughts, and punish those that dare to influence them. You have advantage on saving throws against being charmed, frightened, or possessed, and on saving throws against any effect that would sense your emotions or read your thoughts.
+
+ Additionally, when you succeed on a save against such an effect caused by a creature, the creature which created the effect takes psychic damage equal to your binder level + your Charisma modifier.
+ 
+### Voidsoul
+By 20th level, your soul is so cracked from its inhabiting vestiges that you can surrender the last sliver of your soul to the Void for a time. As a bonus action, you can bind an additional vestige of your choice of 3rd level or lower for 1 minute. This vestige doesn’t count against the total number or level of vestiges you can bind.
+
+ Once you use this ability, you can’t use it again until you finish a long rest.
+ 
+{{pageNumber,auto}}
+\page
+## Minor Spirits
+These minor spirits are presented in alphabetical order. If a minor spirit calls for an attack roll, it uses your spell attack bonus, and if it calls for a saving throw, it uses your vestige save DC.
+
+### Blade Spirit
+The remnants of an intelligent item’s soul, a blade spirit manifests as a faint, ethereal weapon. As a action, you can make a melee spell attack with it against a target within 5 feet of you, dealing 1d8 slashing damage on a hit.
+
+ Additionally, you can use your bonus action to transform your blade spirit into a shield or melee weapon with which you are proficient or return it to its normal form. You can’t make a melee spell attack with your blade spirit while it is transformed.
+ 
+### Chill
+A chill is a minor elemental spirit resembling a multifaceted snowflake. As a action, you can make a ranged spell attack with it against any creature within 30 feet of you, dealing 1d6 cold damage on a hit.
+
+Additionally, as an bonus action, you can also use the chill to freeze a handheld object, create an icicle, or extinguish a torch or small campfire.
+
+### Glitch
+Abruptly shifting and flashing, the glitch is a time-lost
+spirit from a distant era. As a action, you can make a ranged spell attack with it against any creature within 120 feet of you, dealing 1d4 force damage on a hit. The glitch ignores half cover and three-quarters cover as it clips through solid objects.
+
+### Grue
+A ravenous spirit that haunts dark places, the grue
+is feared for its stealth and acidic saliva. As a action, you can use the grue to cause a creature within
+15 feet to make a Dexterity saving throw or take
+1d6 acid damage. If the target is in darkness, it has
+disadvantage on its saving throw.
+### Haunt
+A haunt is a spirit of regret or woe which persists long
+its death. As a action, you can use the haunt to
+cause a creature within 30 feet to make a Dexterity
+saving throw or take 1d6 necrotic damage.
+
+Additionally, as an bonus action, you can use the haunt
+to project faint, ethereal noises or create up to four
+ghostly lights which move as you direct. These effects
+must remain within 30 feet of you, and last until the
+beginning of your next turn.
+
+\column
+{{note
+##### Binders as Spellcasters
+A binder conjures up their magic from the
+deepest pits of their souls, in much the same
+way that a creature with innate magic does.
+Despite this, binders are still considered
+spellcasters for the purposes of spells and
+effects which target them. Similarly, all
+effects granted to them by vestiges, including
+the vestige traits, cease while in an antimagic
+field or similar effect.
+ Furthermore, spells offered by a vestige
+are cast at their lowest level, unless otherwise
+specified. 
+}}
+
+
+### Lantern
+A minor divine spirit of pure goodness, a lantern
+manifest as a fist-sized ball of light. As a action,
+you can use the lantern to cause a creature within
+30 feet to make a Dexterity saving throw or take 1d6
+radiant damage.
+
+ The lantern sheds light as a torch. You can use your
+bonus action to brighten the lantern such that it sheds bright
+light in a 40-foot radius and dim light an additional
+40 feet until the beginning of your next turn.
+
+### Stone
+A stone is a rocky, hovering elemental spirit, the
+smallest unit of living elemental earth. As a
+action, you can make a melee spell attack with it
+against a target within 5 feet of you, dealing 1d8
+bludgeoning damage on a hit. 
+
+Alternatively, you can throw the stone up to 30 feet as an improvised weapon. After being thrown, the stone returns to you
+at the beginning of your turn.
+
+### Spark
+A spark is a minor elemental spirit, resembling a small
+blue bolt of crackling lightning. As a action,
+you can make a ranged spell attack with it against any
+creature within 30 feet of you, dealing 1d6 lightning
+damage on a hit. 
+
+You can repeat this attack roll against a second target within 5 feet of the first if both targets are wearing metal armor
+
+### Strange
+The shifting, incomprehensible form of a strange must originate in a far-off dimension whose rules differ from our own. As a  action, you can use the strange to cause a creature within 60 feet to make a Wisdom saving throw or take 1d4 psychic damage.
+
+ As an bonus action, you can use the strange to cloud the
+thoughts of a creature within 30 feet with bizarre
+images, making it impossible for its thoughts to be
+read or for it to use telepathy until the end of your
+next turn.
+{{pageNumber,auto}}
+\page
+### Torchling
+A torchling is a flickering, living flame, a minor
+elemental spirit of elemental fire. As a action,
+you can make a ranged spell attack with it against
+any creature within 60 feet of you, dealing 1d6 fire
+damage on a hit.
+
+ Additionally, as an bonus action, you can use the
+torchling to start a fire, melt snow or ice, or boil
+water.
+### Totem
+A totem is a manifestation of an animal spirit. As a  action, you can make a melee spell attack with
+the totem’s bite against a target within 5 feet of you,
+dealing 1d8 piercing damage on a hit.
+
+ Additionally, you can use your bonus action to channel
+your totem’s animal instincts, allowing you to make a
+Wisdom (Perception) check that relies on scent with
+advantage.
+### Wisp
+This wisp is a faintly-glowing spirit of capricious fey
+energy which produces poisonous spores. As a action, you can use the wisp to cause a creature within
+15 feet to make a Constitution saving throw or take
+1d8 poison damage.
+
+ The wisp shines light as a torch. As an bonus action, you
+can cause the wisp and its light to be visible only to
+yourself until the end of your next turn.
+
+## Esoteric Cults
+Cults of binders are founded on forbidden, lost,
+or transgressive knowledge that sets them apart
+from conventional wisdom. While some cults meet
+regularly in secret, assembling in private lodges
+or covert hideaways, others do not meet at all, its
+members united only by a shared philosophy or
+obscure dogma. Each cult keeps its own mysterious
+rituals for induction, proceedings, and most
+importantly, binding. As these occult secrets are
+passed to binder initiates, they can master new,
+enigmatic powers, unknown to all but their order.
+
+
+### The Avatarists
+All binders call to their vestiges from the howling
+Void, but only the Avatarists bring them into physical
+form, outside their very bodies. Doing so is an ancient
+discipline, harnessing the very magic which conjures
+fiends from the underworld—as with all the other
+great secrets of binding, conjuring an avatar is heresy
+of the highest magnitude. Those that manage this
+feat may join the ranks of the avatarists, a selective
+legion of binders who combat others using only
+manifestations of their spirits. Such combat is a battle
+of the ego as much as a physical brawl, for a fraction
+of any injury bestowed upon an avatar is in turn laid
+on the binder.
+
+\column
+
+#### Summon Avatar
+Beginning when you join this cult at 3rd level, you
+can use your bonus action to manifest an avatar of
+your vestiges, a tangible spirit that appears within
+5 feet of you, tethered to you by a ghostly cord.
+The avatar is a Medium undead with ability scores
+equal to your own and an Armor Class equal to 10 + your Charisma modifier + your Dexterity modifier.
+
+It appears as an amalgamation of all your bound
+vestiges.
+
+ The avatar does not have hit points, but you take
+the damage it would take as if it had resistance to all
+damage. It vanishes if you fall unconscious or if you
+dismiss it as a bonus action. It instantly appears at
+your side if you would ever be more than 60 feet from
+it.
+
+ On your turn, you can command the avatar to
+fly up to 30 feet. You can make one or more of your
+attacks through the avatar when you take the Attack
+action on your turn. The avatar conjures a spectral
+duplicate of any weapon you’re holding and uses your
+attack bonus and the damage or your weapon. You
+can use your reaction to make an opportunity attack
+through your avatar when a creature moves out of its
+reach.
+
+ Your avatar benefits from all your vestige abilities
+as if it had them bound. When you cast a spell or use
+a vestige ability, you can choose to deliver it through
+your avatar, as if it was the origin of the effect. 
+
+#### Spirit Transposition
+By 7th level, you can use your bonus action to
+exchange places with your avatar. Once you use this
+ability, you can’t use it again until you finish a short or
+long rest.
+
+#### Ritual of the Titan
+Starting at 10th level, you can perform a special ritual
+over the course of 10 minutes, empowering your
+avatar into a towering spirit. When you summon
+your avatar, its size is Large, it can move only 20
+feet on each of your turns, and it can add half your
+binder level to its damage rolls. 
+
+These changes persist
+until you finish a long rest or you dismiss them as an
+action.
+
+#### True Avatar
+Beginning at 14th level, as an action, you can trade
+roles with your avatar, becoming spirit, while it
+becomes more tangible in your place. For the next
+minute, you fade to the ethereal plane, as per the spell
+etherealness, from whence you can command your
+avatar in your place. At the end of this duration, or
+when you end this ability as an action, you return to
+the space you left or the nearest unoccupied space, if
+that space is occupied.
+
+ Once you use this ability, you can’t use it again
+until you finish a long rest.
+{{pageNumber,auto}}
+\page
+### Brotherhood of Ascetics
+Quite to the contrary of other binders, the
+Brotherhood of Ascetics believe that self-discipline
+is the only path to enlightenment. Binding vestiges
+isn’t enough: one must have perfect control of their
+own soul to truly accept the gifts of wandering spirits.
+Thus, Ascetics deprive themselves of worldly pleasures
+and the very power of their bound vestiges in order to
+assert their will perfectly and achieve transcendental
+wisdom.
+
+#### Suppress Vestige
+Starting when you choose this cult at 3rd level, you
+can use your action to suppress one of your bound
+vestiges to focus your body and mind. You can
+resume normal use of this vestige as a bonus action
+on your turn. While this vestige is suppressed, none
+of its features affect you, and you gain the following
+benefits:
+- While you are wearing no armor and not wielding a shield, your AC equals 10 + your Dexterity modifier + your Charisma modifier.
+- you can add your Charisma modifier to the damage rolls of melee weapon attacks using unarmed strikes.
+- Your unarmed strikes use a d4 for damage. This die changes as you gain binder levels, as shown in the Ascetic Unarmed Strikes table.
+- You can use your bonus action to make a ranged spell attack with a range of 30 feet. You are proficient with this attack, and you add your Charisma modifier to its attack and damage rolls. It uses your unarmed strike damage die and deals psychic damage.
+- Starting at 7th level, your unarmed strikes count as magical for the purposes of overcoming damage resistance and immunity.
+
+
+
+##### Ascetics Unarmed Strikes
+| Binder Level | Unarmed Strike
+|:----------:  |:-------:|
+| 3rd          | 1d4     |
+| 7th          | 1d6     |
+| 10th         | 1d8     |
+| 14th         | 1d10    |
+
+
+#### Thousand Fists
+Starting at 7th level, while you are suppressing a vestige, you can use
+your action to manifest a wave of psychic fists to strike your foes. You can make up to four unarmed strikes against creatures which are within 5 feet of you. You can’t attack a creature more than twice using this ability.
+
+Once you use this ability, you can’t use it again until you finish a short or long rest.
+
+\column
+#### Ritual of the Third Eye
+Starting at 10th level, you can perform a special ritual over the course of 10 minutes, granting you blindsight with a range of 15 feet. You maintain
+concentration on this ability as you would a spell.
+
+#### Transcendent Control
+By 14th level, you can achieve total focus by suppressing all your vestiges as a bonus action. For up to 1 minute, you gain the following benefits:
+- Your Armor Class is 20, if it would be lower.
+- Whenever you make an attack roll and the result is less than 15, you can treat the result as 15.
+- Your unarmed strikes use a d12 for damage.
+
+Once you use this ability, you can’t use it again until you finish a long rest.
+{{imageMaskCorner20,--offsetX:50%,--offsetY:-30%,--rotation:0
+  ![](https://i.imgur.com/tTrYhlQ.png){height:70%,left:300px,top:350px}
+}}
+
+
+
+{{pageNumber,auto}}
+\page
+### Church of Gyx
+Gyx was the first binder known to history, and the
+first to establish an Esoteric Cult. In those early days,
+the nature of vestiges, the Void, and the effects of
+binding magic on the soul were not well understood;
+therefore, Gyx’s fanatical followers believed that they
+were at the forefront of a new religion, not a cult.
+Multiple inquisitions have since seen the church
+driven into the shadows, their message and practices
+stifled, but not eradicated. 
+
+Members of the Church of Gyx seem almost clericlike, but brandish different holy symbols and tell entirely different tales. Their scriptures are the legends of various vestiges, woven into a sort of pantheon, with the enigmatic Erebus at its head. For her part in this mythology, Gyx plays the role of messenger of the gods, delivering to mortals the art of binding, and opening the Void for the divine vestiges.
+
+#### Bonus Proficiency
+Starting when you choose this cult at 3rd level, you
+gain proficiency with the Religion skill, if you don’t
+have it already.
+#### Heretical Divinity
+Also at 3rd level, you can emulate divine magic
+through your vestigial heresy. You can cast the spells
+command, cure wounds, healing word, and sanctuary
+once each without expending a spell slot. Charisma is
+your spellcasting modifier for these spells. You regain
+all expended uses when you finish a long rest. 
+#### Blessing of the Vestigial Pantheon
+By 7th level, you receive the blessings of all the
+forgotten gods through your vestiges. As a reaction
+when you make a saving throw, you can add half your
+binder level (rounded down) to the roll. Once you
+use this ability, you can’t use it again until you finish a
+long rest.
+#### Ritual of Turning
+Starting at 10th level, you can perform a special
+ritual over the course of 10 minutes, warding yourself
+against undead threats. For the next hour, whenever
+an undead targets you directly with an attack or
+harmful spell, that creature must make a Wisdom
+saving throw. On a failed save, that creature is turned
+for one minute or until it takes any damage. A turned
+creature must spend its turns trying to move as far
+away from you as it can, and can’t willingly move to a
+space within 30 feet of you. It also can’t take reactions.
+For its action, it can use only the Dash action or
+try to escape from an effect that prevents it from
+moving. If there’s nowhere to move, the creature can
+use the Dodge action. If a creature’s saving throw is
+successful, it is immune to this ability for the next 24
+hours.
+
+\column
+
+#### Sacrifice to the Void
+At 14th level, you can cast your bound Vestiges into
+the Void to bring forth miracles. On your turn, you
+can expel a vestige you have bound to cast a spell
+from the cleric spell list without using a spell slot.
+This spell must be of a level no greater than the level
+of the vestige expelled. Once you use this ability, you
+can’t do so again until you finish a long rest.
+
+### Ishtar’s Faithful
+Nearly all binders learn that Ishtar, the vestige of love
+and sexuality, is forbidden, for once she is summoned,
+she can never be dismissed. Driven by jealousy and
+obsession, the once-goddess seizes the soul of her
+binder and embraces it tightly. Her love is like a
+grasping weed, and it strangles all it touches. Yet those
+who reciprocate her love and placate the envious
+goddess might join the ranks of Ishtar’s Faithful, a cult
+of binders who prize Ishtar above all others.
+ If the binders of Ishtar’s Faithful devote themselves
+wholly to the goddess, they are slowly bequeathed
+with her gifts in return. However, they can never
+neglect the goddess or question their devotion for
+even a moment, as Ishtar the Envious is fickle and
+prone to rage at the slightest perceived infidelity.
+
+#### Bonus Proficiencies
+Beginning when you join this cult at 3rd level, you
+gain proficiency in the Insight and Persuasion skills, if
+you don’t have them already.
+
+{{imageMaskCenter7,--offsetX:47%,--offsetY:-21%,--rotation:0
+  ![](https://i.imgur.com/rx1QvoQ.png){height:70%,top:500px,left:350px}
+}}
+
+
+
+
+{{pageNumber,auto}}
+\page
+
+
+{{monster,frame 
+## Ishtar
+***The Envious*** ::
+*1st-level vestige*
+___
+
+#### Embrace
+While bound to Ishtar, you have advantage on
+opportunity attacks.
+#### Ishtar’s Mark
+As a bonus action, you can force a creature within 30
+feet to make a Wisdom saving throw. A creature immune
+to being charmed automatically succeeds on this saving
+throw. On a failed save, a special mark representing
+Ishtar’s favor appears on the creature for up to 1 minute.
+While the creature is marked, it can’t willingly move
+more than 30 feet away from you. Additionally, you can
+use your bonus action on subsequent turns to magically
+pull the marked creature up to 10 feet closer to you. You
+can only mark one creature with this ability at a time.
+#### Enamor
+You can pry open another creature’s heart and force the
+love of Ishtar into it. As an action, choose a humanoid
+creature you have marked to be charmed by you for up
+to 10 minutes. While charmed, the creature regards
+you as its true love. When this effect ends, the creature
+knows it was charmed by you. This effect ends early if
+you or your companions deal any damage to the creature.
+Once you use this ability, you can’t use it again until you
+finish a short or long rest.
+#### Trait: Arms of Embrace
+While bound to Ishtar, you grow a second set of arms
+belonging to Ishtar, which grasp you in an embrace.
+These arms are fully functional and can be used to hold
+weapons and shields (allowing you to hold 2 two-handed
+weapons, or 4 one-handed weapons), perform somatic
+components of spells, and perform other actions.
+Using these arms, once per round, you can make an
+opportunity attack against a creature you have marked
+without using a reaction
+}}
+
+#### Ishtar’s Embrace
+Starting at 3rd level, you are bound to Ishtar, the
+Envious, and can’t be unbound from her. Ishtar does
+not count as a bound vestige, and does not count
+against your total number or level of vestiges bound.
+You only gain her Embrace and Ishtar’s Mark features.
+At 7th level, you gain the use of her Enamor feature
+and at 14th level, you gain the use of her Trait: Arms
+of Embrace feature. 
+
+\column
+
+#### Ritual of Idolatry
+Starting at 10th level, you can perform a special ritual
+over the course of 10 minutes, enrobing you in a
+30-foot radius aura that infects the minds of others.
+When a creature enters aura for the first time on a
+turn or starts its turn there, it must make a Charisma
+saving throw against your spell save DC. On a failure,
+if the creature regards you as of a species and gender
+to which it is normally romantically attracted, it is 
+charmed by you while it remains in the aura, up to
+a maximum of 1 minute. Once this effect ends for a
+creature, it is immune to the effects of the aura for 24
+hours. This aura lasts for one hour, and its effects end
+early for a creature that takes damage or succeeds on
+an opposed ability check made to socially interact
+with you.
+
+#### Heartbreak
+By 14th level, Ishtar’s love can drive mad those
+who you expose to it. As an action, you can end the
+charmed condition on each creature charmed by you
+that you can see within 120 feet. A creature affected
+takes 4d8 psychic damage.
+
+### Legion’s Lodge
+The binders of Legion’s Lodge fill their souls with an
+abundance of spirits, becoming hives of wandering
+ghosts and whispered voices from beyond the pale.
+With each new spirit they bind, they develop even
+greater power, as the whole of their collection is
+mightier than the sum of its parts. At the peak of their
+strength, these binders speak with the voice of dozens
+in uncanny unison and sling attacks for a swarm of
+minor spirits which linger around them.
+
+#### We Are Many
+Beginning when you join this cult at 3rd level, you
+gain an additional minor spirit, which doesn’t count
+against your total number of minor spirits. At 10th
+level, you gain another additional minor spirit.
+
+ Additionally, you can add your Charisma modifier
+to damage you deal with your minor spirits.
+
+
+{{imageMaskEdge7,--offset:40%,--rotation:0
+  ![](https://wallpaperaccess.com/full/2136316.jpg){height:60%,top:750px}
+}}
+
+
+
+{{pageNumber,auto}}
+\page
+#### Spirit Arcana
+Also by 3rd level, you have unlocked the hidden potential of the myriad spirits residing within you.
+
+Each minor spirit you have bound grants you the ability to cast a cantrip, as shown on the Spirit Arcana table to the right.
+
+##### Spirit Arcana
+| Minor Spirits | Cantrips
+|:---------------|:-----:
+Blade Spirit| Booming blade
+Chill| Ray of Frost
+Glitch| Prestidigitation
+Grue| Acid Splash
+Haunt| Chill Touch
+Lantern| Guidance
+Spark| Shocking Grasp
+Stone| Resistance
+Strange| Message
+Torchling| Produce Flame
+Totem| Shillelagh
+Wisp| Minor Illusion
+
+#### Extinguish Soul
+Beginning at 7th level, you can burn the totality
+of a minor spirit’s essence for a flash of great power.
+When you hit with a minor spirit’s spell attack or
+a creature fails its saving throw against your minor
+spirit’s ability, you can choose to deal four dice of
+damage, instead of only one. Once you do this with a
+minor spirit, the spirit is dismissed until you finish a
+long rest. While a minor spirit is dismissed, you can’t
+use any of its abilities or the cantrip the minor spirit
+allows you to use.
+#### Ritual of Fellowship
+Starting at 10th level, you can perform a special ritual
+over the course of 10 minutes, manifesting a minor
+spirit you have bound in a physical form. This minor
+spirit becomes a familiar, as per the find familiar
+spell, and remains in this form until you take a long
+rest. Additionally, on your turn, you can command
+your familiar to use any of its abilities it offers as a
+minor spirit (using your action or bonus action, as
+appropriate), which originate from it.
+#### Spirit Horde
+Beginning at 14th level you can bring your army of
+minor spirits to bear all at once. When you use your
+bonus action to make a spell attack with a minor
+spirit or use a minor spirit to cause a target to make
+a saving throw, you can use this ability twice, or use
+the bonus action of another minor spirit, targeting the
+same or different creatures.
+
+\column
+
+### Order of Crimson Binding
+The Order of the Crimson Binding sees the nature
+of the soul as not unlike that of the Void itself:
+unknowable, fractal, and ultimately hollow. With their
+special ritual implements and ink made of lodestone,
+they can form special red seals with which to entrap
+vestiges deeper into their souls, capturing more of the
+vestige’s essence and allowing them greater control of
+the binding process.
+#### Flexible Rebinding
+Starting when you join this cult at 3rd level, you can
+use your Rebinding feature twice, instead of once,
+between long rests.
+#### Vestigial Skill
+At 3rd level, when a vestige’s Trait allows you to
+replace a skill roll with a 10 or your binder level plus
+your Charisma modifier, you can choose to gain
+advantage on the roll. You can choose to use this
+ability after seeing the result of the check. Once you
+use this ability, you must finish a long rest before
+using it again.
+#### Soul Transfer
+Beginning at 7th level, you can transfer some of the
+damage you take to your vestiges. As a reaction when 
+you take damage, you can halve the damage
+taken.
+ Once you use this ability, you can’t use it again
+until you finish a short or long rest.
+
+#### Ritual of the Crimson Brand
+Starting at 10th level, you can perform a special
+ritual over the course of 10 minutes, allowing you
+to partially bind an additional vestige. You can only
+bind one vestige at a time using this ability, and this
+vestige doesn’t count against the number of vestiges
+you can bind nor toward the number of vestiges you
+have bound. While it is bound, you gain only the
+vestige’s Bonus Proficiencies feature, if it has one, or
+one of its Traits, if it offers the ability to replace a skill
+roll with a 10 or your binder level plus your Charisma
+modifier. You remain partially bound to this vestige
+until you finish a long rest.
+#### Deep Binding
+Starting at 14th level, the total level of vestiges you
+can have bound increases by 3.
+
+{{pageNumber,auto}}
+\page
+
+### Society of the Stygian Seal
+Initiates to the Society of the Stygian Seal learn the
+story of Erebus, The Shadow Interminable, a vestige
+of singular age, profound implication, and terrible
+portent. She is a vestige inextricably linked to the
+creation and destruction of the multiverse, the latter
+of which is prophesied to be heralded by her sign,
+the Stygian Seal, being fixed in the sky for forty days
+and nights before the multiverse is to be unraveled.
+Initiates of the Society seek Erebus’s sign and the
+ritual means to draw her true form from the Void to
+hasten the end of the multiverse, and by extension,
+the coming of a new, more perfect world, uncorrupted
+by the shortfalls and compromises made by the
+primeval gods of our multiverse. By drawing parts of
+the Stygian Seal, binders of the Society can pull
+forth voidstuff, a manifest absence in space, and
+shape it to their whims.
+#### Voidsight
+At 3rd level, you gain darkvision out to a range of 60
+feet. If you already have darkvision from your race,
+its range increases by 30 feet.
+#### Tenebrous Initiate
+Starting at 3rd level, you can bend the walls of the
+universe, creating small rifts into the Void. Once on
+each of your turns when you hit a hostile creature
+with a melee attack, you can teleport 5 feet to a
+location you can see.
+#### Oblivion Exile
+At 7th level, you can use your action to cause a
+creature you can see within 60 feet to make a Wisdom
+saving throw against your Vestige save DC. On a
+failed save, the creature is banished into an endless
+sable demiplane adjacent to the Void. While there, the target is incapacitated. At the beginning of your next
+turn, the target reappears in the space it left or in the
+nearest unoccupied space if that space is occupied.
+You can also target yourself with this ability, requiring
+no saving throw.
+ Once you use this ability, you can’t use it again
+until you finish a short or long rest.
+#### Ritual of the Aegis
+Starting at 10th level, you can perform a special ritual
+over the course of 10 minutes, shrouding yourself in
+plates of voidstuff which act as ablative armor. You
+gain temporary hit points equal to your binder level
+plus your Charisma modifier. While these hit points
+remain, your AC equals 10 + your Dexterity modifier + your Charisma modifier. These temporary hit points
+remain until you finish a long rest.
+
+\column
+
+#### Stygian Sanctuary
+Beginning at 14th level, Erebus whisks you away to
+the Void, rather than subjecting you to death. As a
+reaction when you take damage, but are not reduced
+to 0 hit points or killed outright, you can use your
+reaction to teleport yourself to an endless demiplane
+adjacent to the Void. You remain in this plane as long
+as you wish, and can use your action to return to the
+space you left or in the nearest unoccupied space if
+that space is occupied.
+
+{{imageMaskCenter7,--offsetX:49%,--offsetY:1%,--rotation:0
+  ![](https://cdn.pixabay.com/photo/2022/12/25/04/42/satoru-gojo-7676809_960_720.jpg){height:50%,top:320px,left:350px}
+}}
+<!-- Use --offsetX to shift the mask left or right (can use cm instead of %)
+     Use --offsetY to shift the mask up or down
+     Use --rotation to set rotation angle in degrees. -->
+
+
+{{imageMaskCorner8,--offsetX:-50%,--offsetY:-40%,--rotation:0
+  ![](){height:50%,top:650px,left:-100px}
+}}
+
+{{pageNumber,auto}}
+\page
+
+{{wide
+
+## Vestige Codex
+
+This codex contains all the vestiges binders can commonly call forth from the Void. Vestiges are listed by level and are summarized on the following table.
+}}
+
+{{classTable,frame,,wide
+##### The Vestiges 
+Vestige Level| Name| Role: Features
+:-:|:-:|:-:
+1st| Bluetongue, The Trickster| Social: Bonus skill proficiencies, bag of holding, disguise self
+1st| Dyogena, The Spear of Sin Versatile| Melee: Shield proficiency, temp HP, additional attack
+1st| Gyx, The Storyteller| Meta: Bonuses for additional vestiges, repeat vestige save
+1st| K'Sir, Thief Primeval| Rogue: Sneak Attack, bonus actions, Stealth
+1st| Lexicon, The First Word| Wizard: Arcane spellcasting, cantrips, resistance to spell damage, languages
+2nd| Asklepios, The Physician| Healer: Healing, cure disease, bonus melee damage, Medicine
+2nd| Hou Yi, The Archer| Archery: Cha for ranged attacks, Archery, Perception
+2nd| Tilo, The Colossus| Heavy Melee: Weapon proficiencies, enlarge, Cha for heavy weapons
+3rd| Evocatia the Red| Evocation: Fire spellcasting, bonus cantrip damage, fire resistance
+3rd| Orzi, The Maimed| Duelist Finesse Melee: Extra Attack, Cha for finesse weapons
+3rd| Rostam, Armor| Infernal Heavy Armor: Damage reduction, heavy armor, Intimidation
+4th| Tyche, The Luck Thief| Luck: Steal luck, reroll damage dice, bonuses for d20 rolls
+4th| La Diabelesse, The Devil Woman| Fear: Fear spellcasting, bonus psychic damage
+4th| Nezare, The Broken One HP| Sacrifice: Bonus HP, self-heal, sacrifice HP to deal bonus damage
+5th| Elozahr the Blue| Evocation: Cold spellcasting, bonus cantrip damage, concentration bonus
+5th| Korine, The Displaced| Teleportation: Teleportation spellcasting, misty step, teleportation damage
+5th| Vortirrackt, The Outsider| Reach: Opportunity attacks, reach, claws, spider climb
+6th| Methuselah, Eldest Dead| Necromancy: Necromancy spellcasting, false life, HP drain touch
+6th| Mr. Joe, Master Puppet| Manipulation: Dominate spellcasting, immunity to charm, false appearance
+6th| Remus, Firstborn of the Wolf| Barbarian: Extra Attack, reaction attack, Fury: resistance and advantage
+7th| Hammurabi, the Lawbringer| No: Prevent action, reflect conditions, advantage on revenge attacks
+7th| Sariel, The Fell Angel| Flight: Flight, smite damage, avoid failed saves
+8th| Carthin, The Runebreaker| Antimagic: Antimage spellcasting, magic weapon, dispel magic
+8th| Döpple, The Archivist Magic| Items: One consumable, one magic item, Intelligence skills
+9th| Erebus, The Shadow Interminable| Void: Resistance to damage, high damage touch
+9th| Qadir, The Damned Djinn| Wish: Wish, movement speed
+**Forgotten Vestiges**||||
+1st| Palette, Inventor of Color| Sorcerer: Spellcasting at will, breath weapon, resistance to spell damage
+2nd| Feng Meng, Monster Hunter| Critical: Expanded critical range, bonus damage, Cha for ranged weapons
+2nd| Sissiro, Shrewd Serpent| Buff, Social: Bonus to allies’ rolls, suggestion, Persuasion
+5th| En-Irok, The Absence| Invisibility: Invisibility, bonus damage with finesse weapons
+9th| Seven O’ Seven, The Temporal| Chronomancy: Extra action, time stop
+**Heroic Vestiges Below**||||
+}}
+
+{{imageMaskEdge8,--offset:30%,--rotation:0
+  ![](https://cdn.discordapp.com/attachments/889685200370561054/1153926996552855563/dawnbringer_aurelia_by_justynadura_ddfk45f-fullview.png){height:60%,top:750px}
+}}
+
+{{pageNumber,auto}}
+\page
+## 1st-Level Vestiges
+
+### Bluetongue, the Trickster
+A duplicitous shapeshifter, Bluetongue offers his sly
+words and shape-changing powers to those who bind
+him.
+
+ **Legend.** The old myths remember Bluetongue as
+a lizard, a liar, and a shapeshifter that traveled from
+land to land, scheming and swindling those that he
+met, such that he never needed to work.
+ One day, Bluetongue came across a hunter’s camp
+whose owner had left it unguarded as he hunted
+for the day. Bluetongue laughed at his good fortune
+and stole everything from the camp that he could,
+including every scrap of food he could find. When the
+hunter returned, he was outraged, but found a trail of
+food and items dropped by Bluetongue as he ate.
+ When Bluetongue saw the hunter arrive at the cave
+where he slept, he hid his treasures and transformed
+into the form of a feeble old man. But the hunter was
+wise to Bluetongue’s tricks and set fire to the cave as
+he left. Bluetongue, too greedy to leave his belongings
+and too unfit to outrun the flames, perished in the
+flames. The hunter told the story of the shapeshifter,
+and the story spread into legend and, eventually, into
+vestigehood.
+
+Each time the story of Bluetonge is recorded,
+it is a little different. None can say if the original
+story featured Bluetongue’s theft or even his fiery
+punishment; most every aspect of it has changed
+with time. Accordingly, Bluetongue’s vestige
+appears as a blur of ever-shifting appearances,
+with the sole constant of its unchanging,
+serpentine tongue.
+
+ **Personality Trait.** While bound
+to this vestige, you gain the following
+personality trait: “I speak in a
+sonorous tone, but always sounds like
+I’m trying to sell something.”
+::
+{{note
+##### Variant Rule: Variant Weapons
+The weapon proficiencies offered by vestiges might not be appropriate in all campaigns. For example, campaigns with a focus on firearms or blasters can replace Bonus Proficiencies traits with more appropriate martial ranged weapons. For general proficiency guidelines:
+- Dyogena grants proficiency with martial versatile weapons.
+- K’Sir grants proficiency with martial finesse weapons that do not have reach.
+- Hou Yi grants proficiency with martial ranged weapons.
+- Tilo grants proficiency with all martial weapons.
+- Rostam grants proficiency with one-handed martial weapons that are not finesse.
+- Orzi grants proficiency with martial finesse weapons and one-handed martial ranged weapons
+}}
+
+
+\column
+
+{{monster,frame 
+## Bluetongue
+***The Trickster*** ::
+*1st-level vestige*
+___
+
+#### Bonus Proficiencies
+While bound to Bluetongue, you gain proficiency with
+Deception and Persuasion. Additionally, Bluetongue
+steals power from other vestiges, granting you
+proficiency in one additional skill or tool of your choice
+for each other vestige you have bound.
+#### Deep Pockets
+While bound to Bluetongue, a pocket, bag, or other
+container of your choice becomes a portal to a
+personal extradimensional space, which is 64 cubic
+feet in volume. The container’s opening stretches to
+accommodate items of any size which can fit within the
+space, and items within the space are weightless until
+removed. When you reach into this space, any item you
+intend to take is magically on top. A container loses this
+property and its contents are expelled when you are no
+longer bound to Bluetongue.
+#### Persuasive Words
+You can cast the spell charm person once without
+expending a spell slot. Once you cast this spell, you can’t
+cast it again in this way until you finish a short or long
+rest.
+#### Trait: Blue Tongue
+While bound to Bluetongue, you can cast the spell
+disguise self without using a spell slot or spell
+components. Casting the spell in this fashion requires
+1 minute. No matter what your appearance, however,
+whenever you speak, a serpentine blue tongue can be
+seen within your mouth.
+}}
+### Dyogena, the Spear of Sin
+A trained warrior of a bygone empire, Dyogena grants
+her binders skill with sword, shield, and spear.
+
+ **Legend.** Thousands of years ago, a great empire
+spanned the continents, unifying its many territories
+under an unshakable banner. Oracles spoke of the
+empire’s demise at the hands of a wrathful prophet, an
+instrument of the gods’ disdain for the wicked regime.
+In response, the paranoid emperor ordered his
+governors to execute all holy men that did not swear
+fealty to him alone. Thousands of priests were slain,
+and the gods themselves wept at the bloodbath.
+ Dyogena was one of a legion of soldiers ordered
+to carry out the massacre. However, when she was to
+impale Nezare, the martyr, her heart softened, and
+she instead thrust her spear into his heart, mercifully
+sparing him of all suffering.
+ Historians, however, recall a different story. They
+paint Dyogena as a cruel warden that tormented
+Nezare for weeks before his inevitable demise. They
+even misremember her gender, portraying her as a
+male soldier. As such, Dyogena’s vestige is an effigy of
+her sins: a twisted creature in soldier’s armor divided
+down the middle, with a noble celestial woman on the
+left and a diabolic male fiend on the right.
+{{pageNumber,auto}}
+\page
+ **Flaw.** While bound to this vestige, you have the
+following flaw: “I always feel irreconcilable guilt when
+I must take a life.
+
+{{monster,frame 
+## Dyogena
+***The Spear of Sin*** ::
+*1st-level vestige*
+___
+
+#### Bonus Proficiencies
+While bound to Dyogena, you gain proficiency with
+shields, as well as with battleaxes, longswords, spears,
+tridents, and warhammers.
+#### Legion Tactics
+While you are wielding a shield in one hand and a
+versatile weapon in the other, you can use the weapon’s
+two-handed damage die.
+#### Coup de Grâce
+When you take the Attack action on your turn, you can
+use your bonus action to make one additional melee
+weapon attack. On a hit, this attack deals additional
+damage equal to your binder level. Once you use this
+ability, you can’t use it again until you finish a short or
+long rest.
+#### Trait: Bloodstained
+You are stained with the blood of saints, which never
+washes off. Immediately after you take damage from
+a melee attack, you can use your reaction to gain 5
+temporary hit points, which last until the end of your
+next turn. The amount of the temporary hit points you
+gain increases by 5 for each vestige other than Dyogena
+you have bound.
+}}
+
+### Gyx, the Storyteller
+Prerequisite: bound to at least one other vestige
+Gyx, the mother of binding, offers no power of her
+own, but lets you fully seize the might of your other
+bound vestiges.
+
+ **Legend.** The first binder, Gyx, had no ambitions
+of founding a religion or pioneering a new form
+of magic, no matter what her later followers might
+claim. Instead, she stumbled upon the existence of
+vestiges quite by accident when trying her scrying
+spell malfunctioned. As often happens when this spell
+fails, Gyx heard a whoosh of static and saw a flash of
+deep black. But on this occasion, she heard a whisper
+in the noise. Through experimentation, she refined
+the spell into a rudimentary binding ritual and
+communed with the distant spirits of the Void. They
+had always been there, just out of earshot, just beyond
+the limitations of sight, only Gyx had learned to look
+for them.
+ She took fastidious notes on anything the fleeting
+voices told her: their names, their symbols, all they
+could remember. Many of them possessed names
+she had heard of in history books or being spoken of
+in temples, but these voices were different, and told
+stories of hardship and heartbreak, not of glory and
+triumph. She collected these stories of the forgotten
+dead gods and heroes in a tome, and printed ten
+copies. These books would go on to inspire legions of
+
+\column
+binders, as well as legions of others that would brand
+them heretics.
+
+ Gyx’s final story, however, she took to grave. It was
+a collection of all she learned, a succinct tale now told
+only by her vestige:
+In the beginning, there was Void. Then, great
+suffering. In the end, there was Void.
+
+ **Personality Trait.** While bound to this vestige,
+you gain the following personality trait: “I love
+hearing and telling new stories, especially those with
+a tragic end.”
+
+{{monster,frame 
+## Gyx
+***The Storyteller*** ::
+*1st-level vestige*::
+*Prerequisite: bound to at least one other vestige*
+_________
+
+#### Heretical Lore
+You have advantage on ability checks you make to
+recall legends, myths, or lore. Additionally, the GM can
+allow you to make such checks, even when it would be
+impossible for you to know such information.
+#### Strength in Numbers
+While bound to Gyx, you gain a bonus to your vestige
+spell save DC, spell attack modifier, and any attack roll
+you make which uses your Charisma, instead of Strength
+or Dexterity. This bonus equals to the number of other
+vestiges you have bound and does not stack with
+bonuses provided by magic weapons or items.
+#### Legendary Vestige
+If a creature succeeds on a saving throw against a spell
+or feature offered to you by one of your vestiges, you can
+force that creature to repeat that save. Once you use this
+ability, you can’t use it again until you finish a long rest.
+#### Trait: Hidden
+While bound to Gyx, you can cloak your vestiges with
+ease. You can suppress or reveal any of your vestiges’
+traits once on each of your turns (no action required).
+Moreover, you can instantly tell when another creature is
+bound to vestiges, and how many vestiges to which they
+are bound. You have advantage on attack rolls against
+other creatures bound to vestiges.
+}}
+
+{{note
+##### Variant Rule: Ancient Grudges
+The vestiges called upon by binders are as
+embittered as they are venerable. Though their
+lives were a flash in the scheme of history,
+they remember every slight, ever wrong
+done to them in their lives; some of them
+even remember others who would become
+vestiges themselves. The following vestiges
+are incompatible with one another;
+you can cannot bind two incompatible
+vestiges at one time.
+- K’Sir, Thief Primeval; Lexicon, the First Word
+- K’Sir, Thief Primeval; Qadir, the Damned Djinn
+- Dyogena, the Spear of Sin; Nezare, the Broken One
+- Orzi, the Maimed Duelist; Rostam, Armor Infernal
+- Evocatia, the Red; Elozahr, the Blue
+- Korine, the Displaced; Vortirrackt, the Outsider; Carthin, the Runebreaker; En-Irok, the Absence
+- Sariel, the Fell Angel; Erebus, the Shadow Interminable
+}}
+
+
+{{pageNumber,auto}}
+\page
+### K’Sir, Thief Primeval
+A mythic thief who once stole power from the mighty
+dragons, K’Sir offers binders his roguish cunning and
+his infamous mark.
+ Legend. Legends say that in the early days of the
+world, the dragons knew the Words of Creation by
+heart. It was by speaking these forbidden words, the
+very same words which brought the whole multiverse
+into being, that dragons gained their fearsome breaths
+and auras.
+
+ This power was coveted by all mortal beings, but
+only one brave soul attempted to claim it: K’Sir, the
+thief, snuck into the dragons’ lair while they slept.
+With expert precision, he slipped past every trap,
+avoided every guard, and silently stole the Words of
+Creation for himself.
+
+When at last he was away safely with his prize,
+K’Sir might have translated the words into mortal
+runes, but his curiosity got the better of him: K’Sir
+opened his satchel and read all the Words of Creation
+at once. When he was at last done, the magical energy
+was too great to bear, and K’Sir was spread thinly
+across time and space, such that even his name is
+distorted today. Though, if the legends are true, K’Sir,
+in his reckless arrogance, is the only mortal to have
+ever read all the Words of Creation.
+
+ **Flaw.** While bound to this vestige, you gain the
+following flaw: “My curiosity always gets the better of
+me.
+
+{{note
+##### Fathomless Wisdom
+Some binders enthrall spirits not via the power of
+their spirits, but through a firm, unyielding devotion
+to those lost souls. You use your Wisdom, instead of
+Charisma, for your binder class abilities and vestiges.
+}}
+
+
+{{note
+##### Variant Rule: No Dipping
+Unraveling the matter of your soul enough to bind a
+vestige is an ordeal demanding real commitment on
+the part of a binder to-be. When you take a level in
+the binder class, you can’t take levels in another class
+until you have at least two binder levels.
+}}
+
+{{imageMaskCorner16,--offsetX:-52%,--offsetY:-50%,--rotation:0
+  ![](https://images.ctfassets.net/swt2dsco9mfe/57JvA10Ftq0arbiWDllzP4/a30243851d344e682399e442159105c6/dnd_tasha_lore1.png){height:55%,left:-380px,top:600px}
+}}
+
+
+\column
+
+{{monster,frame 
+## K’Sir
+***Thief Primeval*** ::
+*1st-level vestige*
+_________
+
+#### Bonus Proficiencies
+While bound to K’Sir, you gain proficiency with scimitars,
+shortswords, and thieves’ tools.
+#### Sneak Attack
+While bound to K’Sir, once per turn, you can deal an extra
+1d6 damage to one creature you hit with an attack if you
+have advantage on the attack roll. The attack must use a
+finesse or a ranged weapon. You don’t need advantage
+on the attack roll if another enemy of the target is within
+5 feet of it, that enemy isn’t incapacitated, and you don’t
+have disadvantage on the attack roll.
+ The amount of the extra damage increases by 1d6
+for each vestige other than K’Sir you have bound. If you
+already have Sneak Attack from another class feature, you
+add this damage to the Sneak Attack roll.
+#### Thief’s Instincts
+You can take the Dash, Disengage, or Hide action as a
+bonus action. You can use this ability twice and regain all
+expended uses when you finish a short or long rest.
+#### Trait: K’Sir’s Mark
+While bound to K’Sir, your skin becomes branded with all
+manner of ancient runes and symbols, which magically
+silence your movements. You don’t gain disadvantage on
+Dexterity (Stealth) checks for wearing any type of armor.
+Additionally, if you make a Dexterity (Stealth) check, you
+can treat the result as 10, or your binder level plus your
+Charisma modifier, whichever is higher.
+}}
+
+### Lexicon, the First Word
+An ancient sage and the first god of the written
+word, Lexicon grants his binders a variety
+of spells and mastery over the written and
+spoken word.
+
+ **Legend.** Before Lexicon, all knowledge
+could be passed only by speech and example
+through the generations. Man’s oral traditions were
+rich but fragile, for a single death from a common
+disease could wipe away untold generations of
+understanding.
+ And so, a wise sage known as Lexicon, gathered
+the Words of Creation scattered by K’Sir and devised
+the means to record information and spare it from
+oblivion: The Written Word. With a few strokes of
+charred ash, Lexicon recorded very first word known
+to man: “Un”, which in that time and tongue would
+come to mean “me”, or “I am”.
+
+By naming things, and writing them
+in certain ways, The Written Word allowed
+Lexicon to make permanent things that were
+fleeting and to establish definitive truth. In this way,
+Lexicon also become the first spellcaster.
+
+With his great boon of writing and his power
+over arcana, Lexicon ascended to godhood to take
+his place among the primordial deities. In time,
+however, his tale was replaced by apocryphal ones,
+and was eventually forgotten entirely. 
+{{pageNumber,auto}}
+\page
+Men today believe that writing has always been with man and
+that spellcasters have always practiced their trade.
+Therefore, Lexicon’s vestige is like his legacy, faded
+to near nonexistence, with an outline of ink and the
+vague impression of written symbols within.
+
+ **Personality Trait.** While bound to this vestige,
+you have the following personality trait: “I obsessively
+write down and record new information.”
+
+{{monster,frame 
+## Lexicon
+***The First Word*** ::
+*1st-level vestige*
+_________
+
+#### Words of Power
+While bound to Lexicon, you learn 2 cantrips of your
+choice from the bard, sorcerer, or wizard spell list, plus
+an additional cantrip for each other vestige you have
+bound. Charisma is your spellcasting modifier for these
+cantrips.
+#### Pale Arcana
+While bound to Lexicon, whenever you take damage
+from a spell, you can use your reaction to gain resistance
+to the damage taken.
+#### Spellcasting: Mystic Utterances
+While bound to Lexicon, you can cast the following
+spells without using spell slots or spell components:
+2/day any: detect magic, feather fall, floating disk, fog
+cloud, mage armor, magic missile, shield, sleep,
+thunderwave, unseen servant
+You can cast a spell from this list twice, plus one
+additional time for each vestige other than Lexicon you
+have bound. You regain all expended uses when you
+finish a long rest.
+
+ Additionally, you can cast any spell from this list as a
+ritual if it has the ritual tag.
+#### Trait: Glossolalia
+You constantly speak in a language that mixes all known
+(and unknown) forms of speech, and your writing at a
+glance seems to be gibberish. Despite this, your speech
+and writing are comprehensible by any creature that can
+understand a language. As well, you can understand and
+read any language.
+}}
+
+
+## 2nd-Level Vestiges
+
+### Asklepios, the Physician
+The fathers of all medicine, Asklepios and his
+serpent grant their binders supernatural healing and
+unsurpassed medicinal knowledge.
+
+ **Legend** All great physicians stand on the
+shoulders of their predecessors; so too was it with the
+first physician. While Asklepios was walking through
+the woods, he deeply punctured his leg on a splintered
+log. A wise serpent named Sirssiro came to his aid and
+constricted his wound, teaching Asklepios the first of
+many secret principles of Medicine. By way of thanks,
+Asklepios took the serpent with him, coiled on his
+staff, and the two traveled together from then on.
+ Together, the two founded the first temples of
+Medicine, where healers could learn the true art of
+mending bodies, curing illness, and easing the mind.
+Asklepios even created a salve of medusa blood that
+could raise the dead from the underworld. The God of
+Death shuddered at this, for it was the first time that
+souls were wrenched from his grasp, and conspired with the God of Lightning to strike down Asklepios.
+
+The fearsome bolt of lightning struck Asklepios and
+the serpent alike, but fortunately, the medusa salve
+spilled out on the serpent, resurrecting it from death.
+ Though Asklepios laid dead, his temples would
+remain, and the symbol of his serpent-entwined staff
+would forever remain the emblem of Medicine. His
+vestige is this very image: the staff speaking with the
+voice of the Physician and the serpent chiming in with
+profound medicinal insight.
+
+ **Ideal.** While bound to this vestige, you gain the
+following Ideal: “***Do No Harm.*** I have taken the oath
+of a physician, swearing to do no harm to those in my
+care. (Good)”
+
+{{monster,frame 
+## Asklepios
+***The Physician*** ::
+*2nd-level vestige*
+_________
+
+#### Triage
+While bound to Asklepios, you know whether each
+creature you see has all its hit points, more than half of
+its hit points, less than half of its hit points, or less than
+10 hit points. You also know if a creature you see is
+cursed, poisoned, or diseased.
+#### Bloodletting
+For all the Physician’s insight, his methods can be
+quite brutal. Once on each of your turns when you deal
+bludgeoning, piercing, or slashing damage to a creature,
+you can add a d4 to the damage dice.
+#### Physician’s Balm
+While bound to Asklepios, you can use your action to
+touch a humanoid, which regains hit points equal to
+your binder level plus your Charisma modifier. You can
+also end one disease afflicting the creature or end the
+blinded, deafened, poisoned condition affecting it. You
+can use this ability three times and regain all expended
+uses when you finish a long rest.
+#### Trait: Serpent Staff
+While bound to Asklepios, his serpent materializes and
+coils on your arm, or on a staff, tool, or a weapon you are
+holding, and whispers medicinal wisdom in your ear. If
+you make a Wisdom (Medicine) check while bound to
+this vestige, you can treat the result as 10, or your binder
+level plus your Charisma modifier, whichever is higher.
+}}
+
+{{pageNumber,auto}}
+\page
+### Hou Yi, the Archer
+A legendary archer that shot down many suns, Hou
+Yi grants his binders his eagle vision and his skill with
+the bow.
+
+ **Legend.** In the early years of the world, the
+deep flaws in its creation manifested as terrible
+catastrophes, each more cataclysmic than the last. In
+one such catastrophe, ten suns rose over the horizon,
+boiling the seas and scorching the land. It would seem
+the gods were powerless to stop it, so the great hunter
+Hou Yi rode to the peak of the highest mountain with
+his bow. One by one, he shot the suns down, which
+crashed to the earth, forming islands where they
+landed.
+ As thanks for his great deed, the gods bequeathed
+Yi a boon of apotheosis, an elixir that would grant
+whoever drank it eternal life and propel them to
+godhood. Instead of drinking it immediately, Yi hid
+the potion in his home, hoping that he might find a
+way to bring his wife with him to godhood.
+ However, Yi’s jealous apprentice, Feng Meng,
+attempted to steal the elixir for himself. Rather than
+let the thief take the potion, Yi’s wife drank it instead,
+ascending and becoming a goddess of the moon. Yi
+was furious, having lost his wife and his own bid at
+immortality, so he battled his apprentice to the death.
+However, having used all but one of his arrows to slay
+the suns, Yi was no match for his apprentice, who
+drew close and beat him to death with a club.
+ Yi’s vestige is a battered and bruised amalgamation
+of eagle and man, with piercing eagle eyes and broken
+arms.
+
+ **Ideal.** While bound to this vestige, you gain the
+following Ideal: “***Challenge.*** I will rise to any test
+that presents itself. (Neutral)”
+{{imageMaskCorner16,--offsetX:-50%,--offsetY:-50%,--rotation:0
+  ![](https://blackcitadelrpg.com/wp-content/uploads/2022/11/Elven-Bow-.jpg){height:50%,right:10px,top:600px}
+}}
+<!-- Use --offsetX to shift the mask left or right (can use cm instead of %)
+     Use --offsetY to shift the mask up or down
+     Use --rotation to set rotation angle in degrees. -->
+
+
+\column
+
+{{monster,frame 
+## Hou Yi
+***The Archer*** ::
+*2nd-level vestige*
+_________
+
+#### Bonus Proficiencies
+While bound to Hou Yi, you gain proficiency with
+blowguns, hand crossbows, heavy crossbows, longbows,
+and nets.
+#### Fighting Style: Archery
+You gain a +2 bonus to attack rolls you make with ranged
+weapons.
+#### Sunkiller’s Quiver
+Whenever you would draw a weapon, you can summon
+the antique, but exquisitely crafted longbow and quiver
+used by Hou Yi. The quiver contains an unlimited supply
+of regular arrows and 9 sunkiller arrows. This equipment
+lasts until you dismiss it on your turn (no action
+required) or you are no longer bound to Hou Yi.
+ A sunkiller arrow deals fire damage instead of piercing
+damage and deals an additional 1d4 fire damage on a
+hit. When a sunkiller arrow hits a target, it explodes in
+a 5-foot radius sphere and is destroyed. The arrow can
+be fired at an unoccupied space within its range. Each
+creature other than the target within the blast radius
+must succeed on a Dexterity saving throw, taking half
+the damage rolled on a failed save or no damage on a
+successful one.
+
+ Once a sunkiller arrow is used, it can’t be used again
+until you finish a long rest.
+#### Trait: Eagle’s Eyes
+While bound to Yi, your eyes are replaced with that of an eagle’s, bordered by resplendent feathers. Because of this, you can add your Charisma modifier to the damage rolls of ranged weapon attacks.
+
+ Additionally, if you make a Wisdom (Perception)
+check that relies on sight, you can treat the result as
+10, or your binder level plus your Charisma modifier,
+whichever is higher.
+}}
+### Tilo, the Colossus
+Once a brave but tiny mousefolk knight, Tilo grants
+his binders titanic weapons and incredible size.
+
+ **Legend.** Tilo was a mouseling knight, small of
+stature but brave in spirit. In his youth, he traveled
+the world as a knight errant, doing honorable deeds
+where he could, and searching for a master worthy of
+his blade. At last, he arrived in the southern kingdom
+of Osira, where he saw the golden knights of the royal
+guard, and instantly knew he wished to be among
+their number. At first thinking Tilo to be a new court
+jester, the king mirthfully accepted his service.
+ When the kingdom was beset by a terrible
+goblinoid army, Tilo led the defense. Eventually, the
+castle’s defenses crumbled, and the keep’s outer wall
+was breached. As the other golden knights of the royal
+guard fell, Tilo alone held the breach, and held it true
+for seven days and seven nights.
+{{pageNumber,auto}}
+\page
+ In life, Tilo was tiny, but he died a
+colossus. Due to his courage, his king
+escaped, and the legends of Tilo’s
+bravery propelled him to persist in the
+Void as a vestige.
+
+ **Personality Trait.** While bound
+to this vestige, you gain the following
+personality trait: “I never fear
+anything larger than myself.
+{{monster,frame 
+## Tilo
+***The Colossus*** ::
+*2nd-level vestige*
+_________
+
+#### Bonus Proficiencies
+While bound to Tilo, you gain proficiency with martial weapons.
+#### Fighting Style: Great Weapon Fighting
+When you roll a 1 or 2 on a damage die for an attack you
+make with a melee weapon that you are wielding with
+two hands, you can reroll the die and must use the new
+roll, even if the new roll is a 1 or a 2. The weapon must
+have the Two-Handed or Versatile property for you to
+gain this benefit.
+#### Gigantic Size
+You can cast the enlarge/reduce spell, targeting yourself
+with the “enlarge” effect of the spell only, once as a
+bonus action without expending a spell slot or spell
+components. You do not need to concentrate on this
+spell. 
+
+Once you cast this spell, you can’t cast it again in
+this way until you finish a long rest.
+#### Trait: Colossal Strength
+While bound to Tilo, you grow an inch taller and your
+muscles have greater definition. You can wield heavy
+weapons without penalty, even if you are Small size.
+Additionally, you can add your Charisma modifier to the damage rolls of melee weapon attacks using heavy weapons.
+}}
+
+## 3rd-Level Vestiges
+### Evocatia the Red
+Evocatia, the legendary spellcaster for whom the
+Evocation School of magic is named, grants her
+binders wild, fiery arcana.
+
+ **Legend.** All wizards know the story of Evocatia
+and Elozahr, the ill-fated mages that founded the
+School of Evocation.
+ In the days before the schools of magic, all
+spellcasters projected pure, unformed arcana in
+the form of protospells, whose effects shifted from
+moment to moment. With time, the cleverest
+spellcasters learned to tame magic, channeling it into
+spells with direct intent.
+ Evocatia the Red was one such spellcaster. Studying
+under the tutelage of the venerable Elozahr the Blue,
+she forged spells from flame, creating first the cantrip
+fire bolt, and then the spell burning hands. Yet, her
+talent and ambition knew no bounds, and soon she
+crafted her singularly devastating masterpiece: fireball.
+With her new spells in hand, she went to visit the icy
+tower of her mentor, but discovered that his crystal
+ball was fixed to scry upon her—surely, the old man
+meant to copy her spells and steal them for himself! In
+rage, Evocatia burned the tower to the ground.
+ The two wizards worked in secret to outdo one
+another, each laying the foundations for their own
+schools of magic. At last, Elozahr and Evocatia met on
+the field of Armistal to parlay settle their differences.
+But Evocatia saw that the scoundrel Elozahr brought
+with him a staff of frost to slay her once and for all,
+and so she struck first with a burst of flame.
+ Summoning all their canny and arcane might,
+the two wizards unleashed a torrent of wrath upon
+each other. When all was done, nothing remained
+of Evocatia and Elozahr but dust. Evocatia’s vestige,
+a manifestation of her ambition, is but a burning
+effigy of a wizard built of magic wands and discarded
+spellbook pages.
+
+ **Personality Trait.** While bound to this vestige,
+you gain the following personality trait: “I don’t
+shy away from using overwhelming force to solve
+problems, especially when it involves fire.
+
+{{monster,frame 
+## Evocatia
+***The Red*** ::
+*3rd-level vestige*
+_________
+
+#### Inheritance of Flame
+While bound to Evocatia, you know the fire bolt cantrip.
+Additionally, you can add your Charisma modifier to
+damage rolls you make with spells that deal fire damage.
+#### Fire Spin
+As a bonus action, you can launch yourself in a spiral
+of flame. When you do so, you can make a melee spell
+attack against a creature within 5 feet of you, dealing fire
+damage equal to 1d4 + your Charisma modifier on a hit.
+You then move up to 10 feet in any direction without
+provoking opportunity attacks.
+Once a Fire Spin is used, it can’t be used again until you finish a long rest.
+#### Spellcasting: Pyromancy
+While bound to Evocatia, you can cast the following
+spells without using spell slots or spell components:
+
+**2/day** each: burning hands, scorching ray
+
+**1/day** each: fireball, heat metal
+
+You regain all expended uses when you finish a long rest.
+
+#### Trait: Inferno Within
+While bound to Evocatia, your skin is hot to the touch,
+and flickering embers can be seen within your mouth,
+nostrils, and eyes. You have resistance to fire damage.
+}}
+{{pageNumber,auto}}
+\page
+
+### Orzi, the Maimed Duelist
+Once the world’s greatest blademaster, Orzi lends his
+binders his incredible speed and peerless skill with
+one-handed blades.
+
+ **Legend.** Conflicting legends tell of how the
+Maimed Duelist lost his arm, but all relate his
+singular, almost supernatural skill with a blade, even
+without his dominant sword-hand.
+ One legend recalls a rivalry between Orzi and
+the demon-knight Rostam over the affections of a
+maiden, culminating in a duel. Orzi struck true time
+and again, but Rostam’s impenetrable armor repelled
+each blow until Rostam retaliated with a single strike,
+felling Orzi and severing his arm at the shoulder.
+Another legend recalls Orzi’s conflict with a dire
+purple worm, who encroached on his lands. In a great
+battle, the beast bit Orzi’s sword-arm, turning it black
+and numb within seconds. Rather than succumb to
+the venom, he cut off his own arm and struck the
+monstrosity dead with his one remaining limb.
+ With but one arm remaining, Orzi trained
+relentlessly to become stronger than before, a
+shieldless blademaster. He invented a new, blindingly
+fast fighting style to turn his opponents’ strength
+against them, while avoiding their deadly blows. For
+this style, and an endless record of lethal duels, Orzi
+is remembered as history’s greatest blademaster.
+Likewise, his vestige is a humanoid blur wielding a
+lightning-quick blade.
+
+ **Personality Trait.** While bound to this vestige,
+you gain the following personality trait: “I neglect my
+non-dominant hand, preferring to use just one hand
+whenever possible.
+
+{{monster,frame 
+## Orzi
+***The Maimed Duelist*** ::
+*3rd-level vestige*
+_________
+
+#### Bonus Proficiencies
+While bound to Orzi, you gain proficiency with hand
+crossbows, rapiers, scimitars, shortswords, and whips.
+#### Fighting Style: Dueling
+When you are wielding a melee weapon in one hand and
+no other weapons, you gain a +2 bonus to damage rolls
+with that weapon.
+#### Extra Attack
+You can attack twice, instead of once, whenever you take
+the attack action on your turn.
+#### Trait: After Image
+While bound to Orzi, you move with an unearthly speed that leaves a lingering trail behind you. You can add your Charisma modifier to the damage rolls of melee weapon attacks using finesse weapons. Additionally, as a bonus action, you can move 15 feet in a flash, without provoking opportunity attacks. You can use this ability a number of times equal to your Charisma modifier and regain all expended uses when you finish a long rest.
+}}
+
+\column
+### Rostam, Armor Infernal
+Mythical armor of indescribable evil, Rostam will
+appear about his binders and shelter them from harm.
+
+ **Legend.** All the legends of Rostam the paladin
+tell of his seven great deeds in the demon land of
+Mazandaran, but a few make passing mention of his
+impregnable armor: black, stout, and indescribably
+hideous.
+ Rostam was a brave knight, to be sure, but he was
+no match for the demons of Mazandaran; he was not
+even a match for the deserts of that land. After a week
+of wandering aimlessly through the sands, Rostam
+was on the verge of death from dehydration, when he
+came across a lone woman, a devil in disguise. She
+offered him a pact for his soul: she would give him
+food, water, and enough strength to slay the demons.
+Rostam accepted and was bestowed a living suit of
+infernal armor: hideous, hairy, and indestructible.
+Guided by his infernal plate, Rostam went on
+to complete his seven deeds, and further to earn
+a reputation as a fearsome and savage warrior. Each
+new battle brought Rostam greater glories and new,
+terrible crimes. He slew every foe he met. One story
+even claims that he butchered his own son in a fit of
+rage.
+ In his last and bloodiest battle, Rostam fell into a
+deep pit of spikes, which skewered him between the
+plates of the armor. Rostam himself bled to death,
+but the armor was not yet finished. It moved of its
+own accord, wading through the battlefield, slaying
+friend and foe alike, cackling with infernal cadence.
+Therefore, Rostam’s vestige is not the hero himself,
+but the hideous armor, which bleeds from every joint,
+the corpse of the so-called hero still within.
+
+ **Flaw.** While bound to this vestige, you gain the
+following flaw: “Once I draw blood, I don’t stop
+fighting until my enemies are dead.”
+
+{{note
+##### Variant Rule: Reliquaries
+The spirits of vestiges are faint, distant voices from
+across the multiverse, which even experienced binders have trouble hearing. Instead of reaching out with occult rituals, arcane circles, and esoteric chants, some binders instead procure reliquaries, physical trinkets with a connection to vestiges. Such items range from scraps of ancient tapestries recording a vestige’s life to actual physical scraps of bone from a vestige’s bodies.
+
+ Binders who use reliquaries can only bind vestiges for which they have some sort of trinket. They have a number of reliquaries equal to their binder level plus 1.
+}}
+{{pageNumber,auto}}
+\page
+{{monster,frame 
+## Rostam
+***Armor Infernal*** ::
+*3rd-level vestige*
+_________
+
+#### Bonus Proficiencies
+While bound to Rostam, you gain proficiency in heavy
+armor, as well as with flails and morningstars.
+#### Mortal Bargain
+While bound to Rostam, whenever you drop to 0 hit
+points, but are not killed outright, you remain conscious
+and do not begin making death saving throws until the
+end of your next turn. If you take any damage while at 0
+hit points, you instantly fall unconscious and suffer one
+death saving throw failure.
+#### Fiendish Resilience
+Whenever you take bludgeoning, piercing, or slashing
+damage while wearing heavy armor, you can use your
+reaction you reduce the damage taken by 1d12. You can
+further reduce the damage by an additional 1d12 for
+each vestige other than Rostam you have bound.
+ Once you use this ability, you can’t use it again until
+you finish a short or long rest.
+#### Trait: Hideous Armor
+While bound to Rostam, you can use your action to
+summon his hideous, infernal armor around you, along
+with any melee weapon with which you have proficiency.
+The armor is full plate which cannot be destroyed, which
+you can wear without penalty, regardless of your Strength
+score. This equipment vanishes when you dismiss them
+as an action, or when you are no longer binding Rostam.
+ The armor seems to be alive and is terrible to gaze
+upon. If you make a Charisma (Intimidation) check while
+wearing this armor, you can treat the result as 10, or your
+binder level plus your Charisma modifier, whichever is
+higher.
+}}
+## 4th-Level Vestiges
+
+### La Diablesse, the Devil Woman
+A creature of equal enthralling beauty and terrifying
+ugliness, the Devil Woman offers her binders powers
+over fear itself.
+
+ **Legend.** Long ago, the Devil Woman prowled the
+night, seeking to lure men to their doom. Appearing
+as a beautiful stranger at the annual harvest festival,
+La Diablesse cut a striking figure in a flowing dress
+and wide-brimmed hat. Intoxicated men and disloyal
+husbands would flock to her side (sometimes
+encouraged by potent enchantments) and be lured
+away from the firelight, deep into the wilderness 
+
+Once far from help, the Devil Woman would reveal
+her true nature: her face was like that of a rotting
+corpse and her eyes burned like coals in their sockets.
+Her body was an amalgamation of beast and man,
+with one leg possessing a cloven foot. The terrified
+and disoriented men that saw her usually became
+hopelessly lost, plunging into ravines or falling prey to
+wild animals by sunrise.
+ Binder scholars have learned that the Devil Woman
+was once a mortal, perhaps even a beautiful one,
+cursed to become a monster. However, her vestige
+refuses to acknowledge her life before being cursed,
+and seems to prefer her hideous appearance and
+flowing gowns. Perhaps she found empowerment
+in her withering curse, or perhaps, she merely likes
+watching men scream and flee into the night.
+
+ **Flaw.** When you bind this vestige, you gain the
+following flaw: “I constantly seek validation from
+others, especially in regard to my appearance.” 
+
+{{monster,frame 
+## La Diablesse
+***The Devil Woman*** ::
+*4th-level vestige*
+_________
+
+#### Evil Eye
+As an action, choose one creature you can see that can
+see you within 60 feet to make a Wisdom saving throw.
+On a failed save, the creature is frightened of you until
+the end of your next turn.
+ You can extend the duration that a creature is
+frightened of you by using your bonus action to
+cackle loudly. When you do so, this effect requires
+concentration, as a spell, but you can concentrate on
+these abilities and a spell at the same time. You make
+only one saving throw to maintain concentration on
+both.
+#### Waking Nightmare
+Once on each of your turns, when a creature fails an
+Intelligence, Wisdom, or Charisma saving throw against
+one of your spells or vestige features, you can cause that
+creature to take 2d8 psychic damage.
+#### Spellcasting: Spellbind
+While bound to La Diablesse, you can cast the following
+spells without using spell slots or spell components:
+
+**2/day** each: bane, darkness
+
+**1/day** each: fear, phantasmal killer
+
+You regain all expended uses when you finish a long rest.
+#### Trait: Cloven Hoof
+While bound to La Diablesse, one of your legs transforms
+into a cloven hoof, a mark of her enduring curse. By
+leveraging this curse, you can use your action to cause
+one creature that you can see within 60 feet that is
+frightened of you to flee. The creature must use its
+reaction to move away from you by the safest available
+route, unless there is nowhere to move. The creature can
+then repeat its saving throw against the spell or effect
+which caused it to be frightened, ending the effect on
+itself on a success.
+}}
+
+### Nezare, the Broken One
+Wronged by his friends and enemies alike, the hateful
+Nezare grants his binders his thorny flesh and boiling
+blood.
+
+ **Legend.** In ancient days, Nezare was a commoner
+turned cleric, an ordinary man who discovered that
+he possessed extraordinary blessings and a singular
+divine connection. He traveled the land and amassed
+a small band of followers. 
+Together, they lived on
+alms and preached a peaceful message of forgiveness and complete devotion to faith, but quickly garnered
+enemies.
+ The wicked emperor ordered a slaughter of holy
+men to purge Nezare and his followers. 
+{{pageNumber,auto}}
+\page
+When the soldiers came for Nezare, his followers abandoned
+him one by one, leaving him to die.
+ It is the fashion to retell the story of the Broken
+One in gory specificity, improvising the details
+for maximum shock value. Though his ultimate
+execution—brutal torture and impalement in front of
+a crowd by a soldier named Dyogena—is always the
+same, the tortures and tribulations he endured on his
+way to the stake become more gruesome with each
+telling. In this way, his suffering should heighten his
+martyrdom, but it seems his vestige would not agree.
+The vestige of the Broken One appears as a maimed
+and mutilated sheep, hateful of all holy men.
+
+ **Flaw.** While bound to this vestige, you gain the
+following flaw: “I despise all saints, clerics, paladins,
+and priests. 
+
+{{monster,frame 
+## Nezare
+***The Broken One*** ::
+*4th-level vestige*
+_________
+
+#### Martyr’s Path
+While bound to Nezare, your hit point maximum
+increases by your binder level plus your Charisma
+modifier.
+#### Blood Sacrifice
+Once on each of your turns, when you hit a creature with
+a melee weapon attack, you can spill your own boiling
+blood to deal additional damage to the target. When
+you do so, choose a number of d8s up to your Charisma
+modifier of additional radiant damage to add to the
+damage roll. You lose 3 hit points for each additional die
+added to the roll.
+#### Mercy
+You can use your bonus action to regain hit points equal
+to your binder level. Once you use this ability, you can’t
+use it again until you finish a short or long rest.
+#### Trait: Thorny Flesh
+While bound to Nezare, your flesh toughens and sprouts
+long, sharp thorns. Whenever a creature within 5 feet
+of you hits you with a melee weapon attack, it takes
+piercing damage equal to your Charisma modifier.
+}}
+
+### Tyche, the Luck Thief
+The kindly and bold Tyche stole Luck itself, and offers
+it in turn to her binders.
+
+ **Legend.** When K’Sir scattered the words of
+creation, a lone commoner named Tyche uncovered
+the word of Luck and stole it for herself. The gods and
+heroes of that age scoured the world for every Word
+of Creation, for the Words’ power could alter the very
+laws of the multiverse. Many who found one became
+tyrants or demigods, abusing their Word until they
+met a grisly end, either through their misused magic
+or the envious daggers of others.
+ The gods, however, never uncovered the word for
+Luck. Even as the Words were compiled into Magic by
+Lexion, Luck remained elusive. The commoner Tyche
+lived a good life, an unnaturally long and happy one,
+content to only use her gift to help those around her.
+ When the avatar of Death arrived to claim Tyche
+and her Luck, she greeted its cold visage cheerfully.
+She asked of the reaper only that she could spread
+Luck among those who deserved it, rather than pass it
+along to the gods. That way, the patient, the bold, the
+tenacious, and the needy might have their day. Clever
+as always, Death agreed, stealing a measure of Luck
+for itself, such that it might win any game it plays
+against mortals. Tyche doesn’t seem to mind, as her
+vestige rolls dice with Death often, and has never lost.
+
+ **Flaw.** While bound to this vestige, you gain the
+following flaw: “I compulsively gamble, no matter the
+odds.” 
+
+{{monster,frame 
+## Tyche
+***The Luck Thief*** ::
+*4th-level vestige*
+_________
+
+#### Bonus Proficiencies
+While bound to Tyche, you gain proficiency with all
+gaming sets. Additionally, you can reroll any ability check
+you make to play nonmagical games of skill.
+#### Lucky Hit
+Once on each of your turns, when you deal damage,
+you can reroll a damage die and must keep the number
+rolled.
+#### Stolen Luck
+When you bind Tyche, roll a d20 and record the number
+rolled. This is your stolen luck roll. Once per turn, you
+can trade your stolen luck roll with any attack roll, ability
+check, or saving throw made by you or a creature that
+you can see. Your stolen luck roll becomes the number
+rolled for the attack roll, ability check, or saving throw,
+and your new stolen luck roll becomes the number that
+was been rolled on the d20. You can use this ability three
+times, and regain all expended uses when you finish a
+long rest.
+#### Trait: Third Chances
+While bound to Tyche, three small sigils (associated with
+a game of chance you are familiar with) float in front
+of your forehead. You can extinguish one of these to
+add 1d8 to an attack roll, ability check, or saving throw.
+However, when you extinguish all three, you subtract
+2 from all subsequent attack rolls, ability checks, and
+saving throws you make while bound to Tyche
+}}
+
+## 5th-Level Vestiges
+### Elozahr the Blue
+Elozahr, the legendary founder of the Evocation
+School of magic, grants his binders frigid arcana and
+his steely concentration.
+
+ **Legend.** All wizards know the story of Evocatia
+and Elozahr, the ill-fated mages that founded the
+School of Evocation.
+ In the days before the schools of magic, the
+rules of arcana were fluid, and only those of patient
+countenance and forceful will could tame arcana.
+With time, the cleverest spellcasters learned to tame
+magic, channeling it into spells with direct intent.
+{{pageNumber,auto}}
+\page
+ Elozahr the Blue was one such spellcaster. Patiently
+and deliberately, Elozahr sculpted his spells from
+ice, first creating the cantrip ray of frost, and then
+the spell ice storm. With decades of work and the
+assistance of his apprentice, Evocatia the Red, he
+perfected his masterpiece, a spell so powerful that few
+mages could lay claim to it: cone of cold. He traveled
+to his apprentice’s scorching, iron tower to test her
+mettle with this new spell, but instead discovered that
+Evocatia’s familiar was a sinister fiend, who tempted
+her with secrets of hellfire magic. Outraged, Elozahr
+froze her tower solid and shattered it to bits.
+ The two wizards worked in secret to outdo one
+another, each laying the foundations for their own
+schools of magic. At last, Elozahr and Evocatia met
+on the field of Armistal to parlay and settle their
+differences. But Elozahr found that his apprentice
+carried with her a flame tongue meant to slay him, so
+he struck first with an icy blast.
+ Summoning all their canny and arcane might,
+the two wizards unleashed a torrent of wrath upon
+each other. When all was done, nothing remained
+of Evocatia and Elozahr but dust. True to his work,
+Elozahr’s vestige is a sculpture of a mage, carved from
+black ice, whose voice is like a howling wind.
+
+ **Personality Trait.** While bound to this vestige,
+you gain the following personality trait: “I spend
+much of my time in deep concentration, speaking
+slowly and methodically when I must speak.
+{{imageMaskCorner8,--offsetX:-50%,--offsetY:-30%,--rotation:0
+  ![](https://cosmicdraft.com/wp-content/uploads/2023/07/Misty-Step-1024x574.png){height:50%,left:-350px,top:600px}
+}}
+
+
+
+\column
+
+{{monster,frame 
+## Elozahr
+***The Blue*** ::
+*5th-level vestige*
+_________
+
+#### Inheritance of Frost
+While bound to Elozahr, you know the ray of frost
+cantrip. Additionally, you can add your Charisma modifier
+to damage rolls you make with spells that deal cold
+damage.
+#### Crystalline Arcana
+When you cast a spell that affects an area and requires
+your concentration, you can choose a number of
+Medium or smaller creatures equal to your Charisma
+modifier to be protected from its effects. A 5-foot
+cube gap in the spell effects opens around each chosen
+creature. These creatures do not need to make saving
+throws against the spell. Additionally, for the spell’s
+duration, these creatures are immune to the effects of
+the spell within its area and ignore conditions, such as
+difficult terrain, created by the spell.
+#### Spellcasting: Cryomancy
+While bound to Elozahr, you can cast the following spells
+without using spell slots or spell components:
+
+**2/day** each: sleet storm
+
+**1/day** each: ice storm, cone of cold
+
+You regain all expended uses when you finish a long rest.
+#### Trait: Hoarfrost
+While bound to Elozahr, your skin, as well as your
+clothing, weapons, and armor, are covered with a thick
+frost, and your breath is visible, as if on a cold night.
+Whenever you begin concentrating on a spell, this frost
+grows into large ice crystals on your skin. As long as you
+maintain concentration, you can subtract the spell’s level
+from the damage taken. Fire damage ignores this ability.
+}}
+
+### Korine, the Displaced
+A renowned planar researcher who discovered the
+true nature of the Void, Korine offers her binders the
+power to defy physics, chiefly through teleportation.
+
+ **Legend.** Korine was a talented arcanist and
+planar researcher, among the first to study the Void.
+After years of research, she made a breakthrough
+realization: the Void is not simply a mathematical
+constant, a force, or a dividing boundary, but
+an actual plane of existence, like the Ethereal or
+Elemental Planes, albeit with even stranger rules.
+When she revealed her findings to her colleagues,
+they mocked her and decried her discovery, touting
+centuries old planar models instead.
+ Undeterred, Korine set about crafting a plane
+shift spell to travel to and traverse this unexplored
+Void and ameliorate her reputation. The spell, which
+drew power from an active sphere of annihilation,
+functioned perfectly, but its result was disastrous.
+Korine cast her spell in front of an audience of fellow
+arcanists, and in an instant of magical tumult, she was
+spread thinly across time and space. But in her last
+moments, she saw the curvature of space, saw it wrap
+around, and saw the hideous secrets behind it laid
+bare. And at last, she saw her place in it all. Then she
+met oblivion.
+{{pageNumber,auto}}
+\page
+ Appropriately, Korine’s vestige is only loosely
+associated with reality: her humanoid figure is
+disconnected at every joint, floating about in a strange
+orbit, and open, darting eyes cover every body part
+in the mutilated cloud. Perhaps, this is her physical
+personage, which has persisted in the Void. No other
+creature, after all, has successfully traveled to that
+strange place, and it is unclear what truly remains of
+her body or soul.
+
+**Personality Trait.** While bound to this vestige,
+you gain the following personality trait: “I hatch
+elaborate plans on the fly, but don’t always think out
+the consequences.”
+
+{{monster,frame 
+## Korine
+***The Displaced*** ::
+*5th-level vestige*
+_________
+
+#### Loose Gravitation
+While bound to Korine, the distance of your long jump
+and height of your high jump are doubled, and you take
+half damage from falling.
+#### Telefrag
+Whenever you cast a spell which teleports you, you
+can choose to teleport into a space occupied by a
+creature. When you do so, the creature takes 1d4
+force damage for every 10 feet you teleported, up to
+a maximum of 5d4, and, if you and the creature are
+within two size categories of one another, it moves
+into an adjacent unoccupied space of its choice.
+#### Spellcasting: Blink
+While bound to Korine, you can cast the following spells
+without using spell slots or spell components:
+
+**At will**: Misty Step
+
+**2/day** each: dimension door
+
+**1/day** each: blink, teleportation circle
+
+You regain all expended uses when you finish a long rest.
+
+#### Trait: Dimensional Error
+While bound to Korine, your body becomes wedged
+between reality and nonexistence. Your joints, including
+your neck, shoulders, elbows, hips, and knees, seem to
+have vanished into some other plane, leaving your other
+body parts loosely floating in their positions. As a result,
+whenever you are hit with an attack, roll a d20. On a 20,
+the attack misses.
+}}
+
+### Vortirrackt, the Outsider
+A creature from beyond our multiverse, Vortirrackt
+warps his binders into a reflection of his bizarre
+anatomy.
+
+ **Legend.** When the brilliant scientist Korine
+cast the fateful spell that thrust her to the Void,
+an eldritch, horrific thing crept through behind
+her in the dimensional hole to our world. This
+creature, Vortirrackt, was unlike anything seen in
+the multiverse: it had pale, slimy skin, impervious
+to weapons, a long head which terminated in razorsharp teeth, and six sickeningly long limbs, each
+with one joint more than a terrestrial creature and
+claw-like barbs at the end. Worse yet, this creature
+was no mere beast, as its frightful intellect would
+demonstrate.
+ Vortirrackt stalked out of the dimensional pit
+in front of a gathering of wizards, researchers, and
+arcanists. It exchanged a long glance with those in attendance, then pounced, butchering any
+it caught in its elongated grasp. Dozens of
+innocents perished, and the mages of the arcane
+university retreated from their great tower to
+regroup. Bands of knights were sent to slay the beast
+and reclaim the tower, to no avail; their heads were
+seen to be arranged at the tower’s windows mere
+hours later.
+ Thankfully, a powerful warding spell managed
+to seal Vortirrackt within, but it did not contain its
+telepathy. The creature mocked the wizards of the
+tower and their petty attempts to slay it. Gradually, it
+learned their names, their specialties, and what best
+to say to torment them.
+ With no other options, the archmagi concluded
+that they would widen the rift, swallowing the
+whole of the tower and the monster, before sealing
+the widened rift beneath a mountain. A hundred
+adventures entered the warded tower, which
+Vortirrackt had rigged into a fiendish dungeon, but
+only one, Carthin the Runebreaker, escaped the
+monster’s deathtrap Today, Vortirrackt’s foul name
+is synonymous with spells gone
+awry, the folly of mages, and the
+hideous things that lie beyond the stars.
+Moreover, its legend drew forth a vestige:
+a spitting image of the beast itself, whose
+figure appears distorted as if seen though a
+warped mirror.
+
+ **Flaw.** While bound to this vestige,
+you gain the following flaw: “I enjoy
+tormenting my enemies, sowing hate
+and doubt in their minds.” 
+
+![Vortirrackt](https://i.imgur.com/XXw2X2o.png) {position:absolute,top:565px,right:10px,width:400px}
+
+
+{{pageNumber,auto}}
+\page
+{{monster,frame 
+## Vortirrackt
+***The Outsider*** ::
+*5th-level vestige*
+_________
+
+#### Snap Reflexes
+You can make an opportunity attack without using a
+reaction. You have advantage on this attack roll. Once
+you use this ability, you can’t use it again until you finish
+a short or long rest.
+#### Trait: Spider-Climber
+When you bind Vortirrackt, your skin becomes pale and
+strangely adhesive. You can move up, down, and across
+vertical surfaces and upside down along ceilings, while
+leaving your hands free. You also gain a climbing speed
+equal to your walking speed.
+#### Trait: Abominable Limbs
+When you bind Vortirrackt, your hands sprout sickening
+claws, which you can use the make unarmed strikes.
+The claws deal 1d4 slashing damage, and you can use
+Charisma, instead of Strength, for their attack and
+damage rolls. The claws count as magical for the purpose
+of overcoming resistance and immunity.
+ When you take the Attack action, you can make
+one unarmed strike with the claws as a bonus action.
+Additionally, when use your claws to hit a creature that
+has already been hit with them during that turn, you deal
+an additional 2d6 slashing damage.
+#### Trait: Extraneous Joint
+When you bind Vortirrackt, your arms and legs deform,
+lengthening and cracking until they each contain an
+additional joint. The reach of all of your melee attacks, as
+well as your reach for opportunity attacks, extends out to
+10 feet. Additionally, you can make an opportunity attack
+against any creature that moves while within your reach.
+}}
+## 6th-Level Vestiges
+
+### Methuselah, Eldest Dead
+A man who grew so old that he slipped between life
+and unlife, Methuselah grants his binders authority
+over undeath and his strange disconnect from
+mortality.
+
+ **Legend.** Methuselah was a man so loved by the
+gods that they blessed him with unnaturally long life
+—so long, in fact, that he became the oldest mortal to
+have lived.
+
+ Methuselah spent his first century of life raising
+a family. But when he outlived his children and his
+grandchildren, Methuselah was heartbroken. He
+went to live with the elves, but in time he outlived
+generations of them too. In his most venerable age, his
+bones became brittle, his teeth fell out, and his skin
+wrinkled and lost its color. When at last Methuselah
+lay on his deathbed, he was little more than a husk,
+cursing the gods for their so-called blessing and
+pleading for the release of death.
+
+ Today, Methuselah is venerated by necromancers
+and intelligent undead as the Eldest, the wisest and
+most venerable among the deceased. Their reverence
+paints him with a kind of undeath, as demonstrated
+by his vestige: a shambling corpse missing its eyes,
+teeth, and nose, with wispy white hair and a beard
+that hangs to the floor.
+
+ **Personality Trait.** While bound to this vestige,
+you gain the following personality trait: “I believe
+myself to be far older, wiser, and wearier than others.”
+
+{{monster,frame 
+## Methuselah
+***Eldest Dead*** ::
+*6th-level vestige*
+_________
+
+#### Grave Empathy
+The undead can innately sense your closeness to their
+kind. Whenever an undead tries to attack you, it must
+make a Wisdom saving throw. On a failed save, its attack
+misses. On a successful save, the undead is immune to
+this ability for the next 24 hours.
+#### Corpse Shephard
+You can perform a 10-minute ritual to summon a
+Medium humanoid corpse or pile of bones (your choice),
+which is magically teleported to your location from a
+random cemetery.
+#### Spellcasting: Dead Alive
+While bound to Methuselah, you can raise corpses at
+your touch. You can cast the following spells without
+using spell slots or spell components:
+
+**At will**: false life (self only)
+
+**3/day** each: animate dead
+
+**1/day** each: create undead
+
+You regain all expended uses when you finish a long rest.
+
+#### Trait: Venerable
+While bound to Methuselah, you appear dramatically
+aged. You voice descends into a hoarse rasp, your
+hair grows white, deep wrinkles appear in your skin.
+
+Additionally, you can siphon the life and youth from
+others. As an action, make a melee spell attack against
+a hostile creature within your reach. On a hit, the target
+takes 4d6 necrotic damage and you regain hit points
+equal to half the necrotic damage dealt
+}}
+
+### Mr. Joe, Master Puppet
+
+Mr. Joe was a show-stopping puppeteer who climbed
+to the height of godhood. Those who bind him can
+find that his strings can manipulate others as well as
+he manipulated puppets.
+
+ **Legend.** When Ruse, the trickster god, perished,
+none truly believed his fate until his last will and
+testament was proclaimed by the other gods: there
+would be a contest of cunning and subterfuge to
+determine his successor. Only one truly worthy of the
+mantle of “God of Lies, Lord of Fools” could ascend
+to godhood in his passing. Many, from powerful
+demigods to lowly jesters, arrived at the Temple of
+Ruse to engage in the contest.
+ Among the contestants was an entertainer known
+as Hogarth the Astounding, who dressed in wizards’
+garb and performed mundane tricks with his
+“assistant,” a ventriloquist’s puppet named Mr. Joe.
+{{pageNumber,auto}}
+\page
+  In
+the contest, Hogarth barely avoided elimination, but
+managed to persist to the final ten.
+In the final game, each contestant was given a
+unique insignia ring. If any contestant could secure
+all ten rings, then step into the lit pyre at the temple’s center, they would ascend to Ruse’s place at the divine
+table. After a week of feints and illusions, a demigod
+of gambling assembled the full set of rings. Stepping
+into the flames, he was immolated in screaming
+agony; one of his rings, a wooden fake, burned to ash
+on his finger.
+ It was then that Hogarth revealed his grand façade:
+beneath his robes were wooden joints and marionette
+strings; he was but an elaborate fabrication, a puppet
+expertly controlled by Mr. Joe, a matryoshka—an
+animated puppet-person—posing as a prop the entire
+time. Mr. Joe, held the true insignia ring, whereas
+Hogarth’s was a fake as convincing as himself.
+Picking up the remaining rings, Mr. Joe stepped into
+the flames and ascended to become Sham, Lord of
+Trickery.
+
+ **Personality Trait.** While bound to this vestige,
+you gain the following personality trait: “I love to put
+on performances for others, especially when using
+unwilling participants.”
+
+
+{{monster,frame 
+## Mr. Joe
+***Master Puppet*** ::
+*6th-level vestige*
+_________
+
+#### No Strings on Me
+While bound to Mr. Joe, you are immune to being
+charmed or possessed.
+
+#### Puppeteering
+Whenever you cast the spell dominate beast or
+dominate person, you can take total and precise control
+of the target as a bonus action, rather than an action.
+Additionally, you can concentrate on two of these spells
+at once, taking control of both targets using one bonus
+action, and making only one saving throw maintain
+concentration on both spells.
+
+#### Spellcasting: Soul Strings
+While bound to Mr. Joe, you can cast the following spells
+without using spell slots or spell components:
+
+**At will**: command
+
+**2/day** each: dominate beast, dominate person
+
+**1/day** each: compulsion, irresistible dance
+
+You regain all expended uses when you finish a long rest.
+
+#### Trait: Dummy
+While bound to Mr. Joe, your skin appears wooden and
+lacquered, your joints seem to be wooden hinges, and
+your nose grows into a conspicuously long peg. While
+you remain motionless, you are indistinguishable from a
+puppet. Moreover, you can throw your voice, causing it
+to originate from any point you choose within 60 feet.
+}}
+
+\column
+
+### Remus, Firstborn of the Wolf
+The embittered twin who nearly founded an empire,
+Remus grants his binders a taste of his barbaric
+demigod fury.
+
+ **Legend.** Romulus and Remus, the twin sons of a
+god of war, were bundled in a basket and set adrift in
+a river shortly after their birth. Helpless and alone, the
+twins were rescued by Lupa, a she-wolf, who nursed
+them for weeks and granted the sickly Remus the gift
+of lycanthropy, so that he might grow to be as strong
+as his brother. The twins grew quickly, and (demigods
+as they were) inherited their father’s immense
+strength and savagery.
+ By adulthood, nothing could stand in the twins’
+way, save for their own bickering. Despite their godly
+power, the two could never decide on anything. Most
+of all, they quarreled over their legacy. Remus wanted
+to conquer the city-states from which the two of them
+had been cast off as infants, but Romulus had resolved
+to establish a city-state of his own. Remus acquiesced,
+but the two could not decide on where to build it The twins stood on their hills and cast augury. In
+their wisdom, the gods delivered a sign of weal and
+woe, hoping this would bring the bothers solidarity,
+but they argued over the result and came to blows.
+Romulus and Remus fought bare-fisted, and Remus
+grew more bestial as he grew in fury. As last, Romulus
+stabbed Remus in the side with a small silver dagger,
+killing him.
+ Romulus built his city atop his brother’s corpse
+and named it after himself. Through his contempt,
+Remus persisted as a vestige, appearing furious and
+animalistic, growing only more bitter with the passing
+of centuries, as his brother’s city grew and swelled into
+a world-spanning empire.
+
+ **Flaw.** While bound to this vestige, you gain the
+following flaw: “I harbor a seething resentment for my
+family.”
+
+{{imageMaskCorner7,--offsetX:40%,--offsetY:-42%,--rotation:0
+  ![](https://i.imgflip.com/6z9kbk.png?a470592){height:55%,left:150px,bottom:-100px}
+}}
+<!-- Use --offsetX to shift the mask left or right (can use cm instead of %)
+     Use --offsetY to shift the mask up or down
+     Use --rotation to set rotation angle in degrees. -->
+
+
+{{pageNumber,auto}}
+\page
+
+{{monster,frame 
+## Remus
+***Firstborn of the Wolf*** ::
+*6th-level vestige*
+_________
+
+#### Bonus Proficiencies
+While bound to Remus, you gain proficiency with battleaxes, greataxes, mauls, and warhammers.
+
+#### Extra Attack
+You can attack twice, instead of once, whenever you take
+the Attack action on your turn.
+
+#### Fury
+On your turn, you can use your bonus action to summon
+up Remus’s bottomless rage. For the next minute, you
+gain the following benefits:
+- You can add your Charisma modifier to Strength checks and Strength saving throws.
+- You have advantage on all melee weapon attacks which use heavy weapons, versatile weapons, or unarmed strikes. However, melee weapon attacks against you are rolled with advantage.
+- You have resistance to bludgeoning, piercing, and slashing damage.
+- When you reduce a hostile creature to 0 hit points with a melee weapon attack, you can move up to 10 feet and make an additional weapon attack. 
+
+You can end this effect early as a bonus action. Once
+you use this ability, you can’t use it again until you take a
+short or long rest.
+
+#### Trait: Lycan’s Bloodthirst
+While bound to Remus, you assume the savage guise and
+violent aspect of a lycanthrope: coarse hair covers your
+body, your nose lengthens, your fingernails lengthen into
+claws, and your teeth sharpen. When you take damage
+from a creature that is within 5 feet of you, you can use
+your reaction to make a melee weapon attack against
+that creature.
+}}
+
+## 7th-Level Vestiges
+### Hammurabi, the Lawbringer
+One of the first great kings of humankind,
+Hammurabi set forth mortal law on a stone obelisk.
+Today, his vestige grants binders the authority to
+judge others by the first laws, and inflict their cruel
+punishments.
+
+ **Legend.** Mortals have always been judged by the
+whims of the gods when they passed onto the afterlife,
+but it was not until the early kings of mankind that
+mortals passed judgement on each other. Hammurabi,
+king of a long-forgotten province, beseeched the gods
+for laws that would solidify his rule with exacting
+authority. The gods granted his plea, and delivered an
+obelisk inscribed with every conceivable crime and
+punishment to his kingdom.
+
+ These primeval gods believed in order above such
+petty qualms of good and evil. After all, they carved
+all of creation from sprawling chaos and struck a
+mathematical equilibrium—they did not take such
+balance for granted. As such their laws were perfect
+counterbalances: an eye for an eye, a bone for a bone,
+a hand for an errant strike, and so on. Brutal as they
+were, the people of Hammurabi found them effective.
+
+ However, as Hammurabi would learn, no man is
+above this law. As all people could read the obelisk’s
+code, some came to their king with grievances
+enforced by the law. In recumpence, Hammurabi
+lost his own eye, fingers from each hand,
+his teeth, and the hair from his head, and
+suffered many other punishments for his
+fleeting crimes as king. Even his vestige is
+maimed and broken, a symbol that truly fair
+punishment endures even after death.
+
+ **Ideal.** While bound to this vestige, you gain the following Ideal: “Eye for
+an Eye. I strive for absolute equity in all things, and will go to extremes to ensure fair recumpence for all deeds. (Lawful)”
+
+{{monster,frame 
+## Hammurabi
+***The Lawbringer*** ::
+*7th-level vestige*
+_________
+
+#### Enduring Punishment
+Whenever you deal damage to a creature, the creature
+can’t regain hit points until the start of your next turn.
+#### Law of Retribution
+When a creature you can see hits you with a melee
+weapon attack, you have advantage on the first attack
+you make against it on your next turn.
+#### Forbid
+If a hostile creature you can see uses its action to attack
+or takes a legendary action or a lair action, you can use
+your reaction to intercede, preventing the action from
+happening. Once you use this ability, you can’t use it
+again until you finish a long rest.
+#### Trait: Maimed
+While bound to Hammurabi, you are missing multiple
+fingers, several teeth, and an eye—all gouged out as
+recompense for past crimes. You are immune to the
+following conditions: blinded, deafened, exhaustion,
+paralyzed, poisoned, and stunned. If a creature attempts
+to impose one of these conditions on you, you can use
+your reaction to instead impose the same condition
+upon the creature.
+}}
+
+### Sariel, The Fell Angel
+The first fallen angel, Sariel tried and failed to
+destroy the multiverse as a mercy to its inhabitants.
+As penance, he offers his binders his wings and his
+once-holy blade.
+
+ **Legend.** When the primeval gods spoke the
+Words of Creation, the world sputtered, cracked, and
+bled into existence. It wrenched itself and edged close
+to utter disaster, for it was built on a deeply imperfect
+plan.
+{{pageNumber,auto}}
+\page
+ Seeing the havoc of the multiverse firsthand, the
+archangel Sariel descended from the upper planes
+to Erebus and beseeched that she might unmake
+the world, that it could be made again. Sariel struck
+the Stygian Seal with his blade, and the quarreling
+gods above took notice. Before Sariel could break the
+seal with a final blow, the gods halted his blade. In
+judgement for his betrayal, for attempting to destroy
+the multiverse itself, the gods cast Sariel down into
+Erebus, from which he might never escape.
+ Binders know the story of Sariel’s betrayal well,
+for it illustrates their deepest secret: the world’s flaws
+were crafted at the onset, and Erebus represents a
+destructive, merciful remedy, paving the way to a new,
+perfect multiverse. The sign is nearly broken, which is
+why vestiges draw so near to the Material Plane. For
+his part, Sariel’s vestige only regrets his actions, and
+offers his wings that he might go flightless as penance
+for his sin.
+
+ **Personality Trait.** While bound to this vestige,
+you gain the following personality trait: “I feel a
+melancholy regret for my mistakes; such sadness
+follows me everywhere I go.”
+
+{{monster,frame 
+## Sariel
+***The Fell Angel*** ::
+*7th-level vestige*
+_________
+
+#### Broken Halo
+Whenever you fail a saving throw, roll a d6. On a 6, you
+succeed the saving throw instead.
+#### Flyby Attack
+When you make a melee attack against a creature while
+flying, you don’t provoke opportunity attacks from that
+creature for the rest of the turn, whether you hit or not.
+#### Judgement
+When you hit a creature with a melee weapon attack, you
+can deal an additional 6d8 necrotic or radiant damage
+(your choice) to the target. Once you use this ability, you
+can’t use it again until you finish a short or long rest.
+#### Trait: Angelic Wings
+While bound to Sariel, you sprout broad, feathered wings
+from your back, granting you a flying speed of 60 feet.
+}}
+
+
+## 8th-Level Vestiges
+
+### Carthin, the Runebreaker
+In life, Carthin was a mage who forsook all arcana,
+except that which might be used to strike down the
+archmagi who betrayed him. He offers his binders a
+rebuke of magic, along with his unsettling eyes.
+
+ **Legend.** Carthin descended into the lair of
+Vortirrackt, the dimensional monster, alongside a
+band of a hundred other warriors. It was a deathtrap.
+The creature was as ferocious as it was cunning, and
+it had converted its accommodations—the tower of
+the arcane university—into an insidious dungeon.
+One by one, Carthin’s comrades fell to the tower’s
+perilous traps, bloodthirsty summoned monsters, and
+occasionally to Vortirrackt itself.
+ At last, Carthin and his remaining allies uncovered
+the artifacts they required and did the deed:
+expanding the dimensional rift from which the
+creature originated, until it swallowed Vortirrackt and
+the whole of the tower with it. Only Carthin emerged
+before the tower was destroyed.
+ From Vortirrackt in the dungeon, Carthin learned
+that he and his allies had been sent on a suicide
+mission; none were meant to survive. All of the death
+within the university was the fault of the reckless
+archmagi and their futile experiments; it would stand
+no longer.
+ Taking up the mantle of “Runebreaker”, Carthin
+swore off all magic, save that which might kill the
+archmagi, and embarked on a journey of vengeance.
+The Runebreaker left a trail of spellcaster corpses in
+his wake as he hunted down the former headmasters
+of the university. Some histories paint this as a folk
+tale about the common man standing up to authority,
+others remember it as a horror story. In the end,
+his vestige cares only that he continues his endless
+inquisition, evidenced by his unflinching red stare
+that unravels magic itself.
+
+ **Flaw.** While bound to this vestige, you gain the
+following flaw: “I believe that those who wield magic
+are innately corrupted, and I will trust nothing they
+say or do.”
+
+{{monster,frame 
+## Carthin
+***The Runebreaker*** ::
+*8th-level vestige*
+_________
+
+#### Blade of the Inquisition
+You can cast the spell magic weapon at will as a 4th-level
+spell without using spell slots or spell components. Your
+concentration on the spell breaks if the weapon ever
+leaves your hand.
+#### Spellcasting: Mage-Killer
+While bound to Carthin, you can cast the following spells
+without using spell slots or spell components:
+
+**3/day** each: counterspell, dispel magic
+
+**1/day** each: antimagic field, true seeing
+
+Casting *antimagic field* in this way does not disable any
+of your vestige features, except for spellcasting and
+magic items. You regain all expended uses when you
+finish a long rest.
+#### Trait: Dead Magic Eyes
+While bound to Carthin, your eyes become vacant pits
+with two bright coals burning within them, granting you
+vision that can pierce arcana. You are constantly under
+the effects of the spell detect magic, which does not
+require your concentration. Additionally, you can use
+your action to focus on a creature you can see within 30
+feet. You can determine if that creature has cast a spell
+within the last 24 hours, and the spell’s school of magic,
+if any
+}}
+
+{{pageNumber,auto}}
+\page
+
+### Döpple, the Archivist
+An archivist of countless treasures from the Vaults of
+Venagoth, Döpple shares history’s greatest artifacts
+with his binders.
+
+ **Legend.** When the Arcane Archive burned,
+many of its surviving treasures, including tomes of
+ancient lore and magic items of boundless power,
+were transported thousands of miles away to the
+Vaults of Venagoth, where they rested in safety for
+centuries. In its prime, the Venagoth family was
+immensely rich and influential, and chose to amass their wealth in their ancestral Vaults, which were
+practically impregnable, built deep into a mountain,
+and secured with excessively potent wards. No thief
+ever successfully infiltrated the Vaults of Venagoth
+and made it out alive. But one archivist, Döpple, was
+freely permitted into the Vaults to organize and curate
+their vast collection.
+ Alas, the record of history is long and unforgiving.
+With the Venagoth’s waning influence came the ire of
+a barbarian warlord from the north, who campaigned
+south to burn cities, dethrone kings, and eventually
+sack the Venagoth estates. Knowing their treasure
+to be too momentous to lose, the Venagoth patron
+commanded Döpple to seal himself within the Vaults
+until the military could drive back the savage horde.
+ But rescue never came. The Archivist lived out
+his final days, perhaps his final decades, surrounded
+by the amassed artifacts of millennia. The Vaults of
+Venagoth were lost to history, but the search for their
+location always lingers on the entombed Archivist,
+organizing the collection until his death. Ironically,
+Döpple’s vestige is exceedingly generous where history
+is not: he is represented by a learned, bespectacled
+man, standing at the Vaults’ door, offering his
+treasures to those who understand their significance
+
+**Personality Trait.** While bound to this vestige,
+you gain the following personality trait: “I look after
+the fine details of all my possessions, keeping them
+organized and in excellent repair.”
+
+{{imageMaskCorner8,--offsetX:-50%,--offsetY:-30%,--rotation:0
+  ![](https://i.ibb.co/Wfps81b/puppet.png){height:50%,bottom:-150px}
+}}
+<!-- Use --offsetX to shift the mask left or right (can use cm instead of %)
+     Use --offsetY to shift the mask up or down
+     Use --rotation to set rotation angle in degrees. -->
+
+
+
+\column
+
+{{monster,frame 
+## Döpple
+***The Archivist*** ::
+*8th-level vestige*
+_________
+
+#### Minor Relic
+When you bind Döpple, a magic item appears in your
+possession. The item vanishes when you are no longer
+bound to Döpple.
+ The item is your choice of the following: 2 beads
+of force, a necklace of fireballs (2 beads), an oil of
+etherealness, a potion of gaseous form, or a potion of
+invisibility.
+
+#### Relic
+When you bind Döpple, a magic item appears in your
+possession. You are automatically attuned to it, if it
+requires attunement, and it does not count against the
+number of items you can have attuned. Moreover, no
+other creature can attune to the item or, if the item is a
+weapon, use it make an attack. The item vanishes when
+you are no longer bound to Döpple.
+ The item is your choice of the following: a carpet of
+flying, a cloak of the bat, a flame tongue, gauntlets of
+ogre power, an instant fortress, a ring of regeneration, a
+ring of telekinesis, a sun blade, or a wand of wonder.
+
+#### Trait: Spectacles
+As a final parting gift, Döpple offers his binders his very
+spectacles. While wearing the spectacles, if you make an
+Intelligence (Arcana), Intelligence (History), Intelligence
+(Nature), or Intelligence (Religion) check, you can
+treat the result as a 10, or your binder level plus your
+Charisma modifier, whichever is higher.
+}}
+
+## 9th-Level Vestiges
+### Erebus, The Shadow Interminable
+Binders alone remember the esoteric legend of
+Erebus, the wellspring of all vestiges, the one being all
+gods fear.
+ Legend. Before the primeval gods laid the
+universe’s foundations, a groundwork upon which
+they could sculpt the antediluvian Chaos, they
+devised a failsafe to ensure their success. Before all
+else, they beckoned Erebus, a being of unmaking from
+beyond the veil of Chaos, to unravel and destroy their
+creations. For the gods, in their wisdom, realized that
+not even they could forge a perfect world on the first
+try—indeed, countless universes were created and discarded before the gods settled for the current one,
+with its particular compromises and imperfections.
+Erebus was the tool for erasure, made to consume
+flawed universes and return them to the Chaos so
+that the gods might try again.
+{{pageNumber,auto}}
+\page
+ Eventually, it seems the primeval gods grew
+weary of fruitless creation, for then they committed
+the First Sin: suffering our universe to live through
+its painful gestation. Cataclysmic disasters swept
+the world in its early years, but, perhaps by chance,
+it persisted and settled into what it is now: petty,
+brutish, and broken. Our universe’s denizens are all
+sentenced to die from the moment of their births,
+magic is fleeting and volatile, and the fabric of the
+universe itself is surely unraveling, imperceptibly and
+steadily to a pathetic end.
+
+ To safeguard their flawed creation, the gods bound
+Erebus with the Stygian Seal and scatted the Words of
+Creation. Most speculate that Erebus lies deep within
+the Void, but history tells a more complex story: in
+ancient languages, the word Erebus simply means
+Darkness, and is used both as the name of the entity,
+and the name for the Void itself. This implies either
+the ancients saw no reason to distinguish between the
+two, or simply believed they were one and the same.
+Fittingly, Erebus does not speak to this; her vestige is
+merely a howling abyss, upon which all of creation is
+perched, and from which nothing escapes.
+
+ **Flaw.** While bound to this vestige, you gain the
+following flaw: “I do not speak.”
+{{monster,frame 
+## Erebus
+***The Shadow Interminable*** ::
+*9th-level vestige*
+_________
+
+#### Obliviate
+At your touch, you unmake. As an action, you can touch
+an object or creature, which must make a Constitution
+saving throw. On a failure, the target takes 10d10 + 50
+necrotic damage, or half as much on a successful save.
+If this damage reduces the target to 0 hit points, it is
+totally unmade. An unmade creature and everything
+it is wearing or carrying, except for magic items, is
+completely annihilated, leaving behind nothing, not even
+dust. The creature can be restored to life only by means
+of a true resurrection or a wish spell. You can use this
+ability once, and regain the ability to do so when you
+finish a long rest.
+
+#### Trait: Vestigial
+While bound to Erebus, you are divorced from reality,
+much like vestiges themselves, causing you to appear
+hazy and indistinct, as your form is stretched between
+the Material Plane and the Void. You have resistance to
+all damage. Additionally, you can move through other
+creatures and objects as if they were difficult terrain.
+You take 4d10 force damage if you end your turn inside
+a creature or object, as you are ejected into the nearest
+unoccupied space.
+}}
+
+\column
+
+### Qadir, the Damned Djinn
+An ill-fated genie who abandoned the one who
+summoned him, Qadir offers his binders a lone wish
+before abandoning them as well.
+
+ **Legend.** For centuries, an unremarkable lamp sat
+untouched, nestled amongst piles of gold in an longforgotten treasure hoard. Then one day, War’Red, the
+twin brother of legendary thief K’Sir, happened upon
+the lamp and rubbed its side. Emerging in a swirling
+cloud of lightning and wind, the noble genie Qadir
+offered his rescuer three wishes in exchange for his
+freedom from the lamp.
+ First, War’Red wished to become an all-powerful
+sultan. Qadir agreed, and in a flash, War’Red became
+a brutal despot of his own kingdom. Then War’Red
+wished for an army, a million men strong, to spread
+bloodshed and conquest wherever he turned his
+gaze. Again, Qadir acquiesced, and legions of foot
+soldiers sprang into existence around them. Lastly,
+War’Red wished for immortality, that his reign might
+be unending. At this, finally, Qadir could comply no
+longer: he reversed the wishes, banished War’Red to a
+forsaken desert, and returned to his lamp.
+ When K’Sir learned of this, he sought out the lamp
+and summoned Qadir himself. Again, bound by the
+magic of the lamp, Qadir offered three wishes to his
+discoverer, which K’Sir happily accepted: his first
+wish would be to destroy the genie’s mind, his second
+to destroy his body, and his final wish to destroy
+his soul. In a whirlwind of deadly magic, Qadir was
+obliterated. He lives on only as a vestige, a cautionary
+tale that you should always honor your promises, no
+matter the cost.
+
+ **Flaw.** While bound to this vestige, you gain the
+following “I must honor my promises, no matter what
+consequences they might bring.
+
+{{monster,frame 
+## Qadir
+***The Damned Djinn*** ::
+*9th-level vestige*
+_________
+
+#### Fatal Wish
+While bound to Qadir, you can cast the spell wish,
+without expending spell slots or spell components, to
+duplicate the effects of any other spell of 8th level or
+lower. Once you cast this spell, Qadir is expelled and is
+replaced by a vestige of your choice of 3rd level or lower.
+You can’t rebind Qadir until you take a long rest.
+
+#### Trait: Djinn Aspect
+When you bind to Qadir, your skin tints to a blueish hue,
+and you constantly float a few inches off the ground on a
+layer of smoke. You ignore the effects of difficult terrain,
+your speed increases by 10 feet, and you can walk across
+fluid surfaces, such as water and quicksand.
+}}
+{{pageNumber,auto}}
+\page
+## Forgotten Vestiges
+Occult lore is extensive, spanning centuries, and
+including many vestiges which have since faded from
+existence entirely. These nearly-forgotten souls have
+become all but inaudible among the echoes of the
+Void, but can be recalled by experienced binders and
+exacting rituals.
+
+ With the GM’s permission, you can replace a
+vestige with one from this list. Once a vestige is
+replaced, you can’t bind it. You can change which
+vestiges you have replaced when you gain a level in
+this class.
+
+### Palette, Inventor of Color
+The first sorcerer, Palette, offers binders a colorful
+infusion of draconic magic.
+
+ **Legend.** Long before Lexicon became the
+ancestral father of wizardry, another figure laid claim
+to primeval magic. Palette lived long ago when the
+dragons whispered the Words of Creation into their
+fearsome breaths. No mortal being could withstand
+the weight of those words, and so Magic was hoarded
+by dragons in a form none could grasp it.
+ But Palette was clever: she knew that all of
+dragonkind was magical, from their scales down
+to their very bones, and so she collected a dragon
+scale from each type of dragon and ground them
+into a potion. This elixir contained the very essence
+of Magic, and upon drinking it, Palette overflowed
+with energy. Her magic spilled out upon the world
+in effervescent hues and brilliant pastel. She coated
+the world with Magic and Color, until all was to her
+liking.
+ Unlike the dull systematics of Lexicon’s magic,
+Palette’s arcana was drawn from emotion and
+flourished in the face of beauty. Therefore, she is
+called the First Sorcerer, the wellspring of draconic
+influence in mortal blood, and ancestral mother of all
+sorcery.
+
+ **Bond.** While bound to this vestige, you have
+the following bond: “I will leave the world a more
+colorful, more beautiful place than I received it.”
+
+{{imageMaskCorner8,--offsetX:-50%,--offsetY:-50%,--rotation:0
+  ![](https://cdnb.artstation.com/p/assets/images/images/048/841/485/large/valentina-govedarica-erathin.jpg){height:55%,top:821px}
+}}
+<!-- Use --offsetX to shift the mask left or right (can use cm instead of %)
+     Use --offsetY to shift the mask up or down
+     Use --rotation to set rotation angle in degrees. -->
+
+
+
+\column
+
+{{monster,frame 
+## Palette
+***Inventor of Color*** ::
+*1st-level vestige (replaces Lexicon)*
+_________
+
+#### Spellcasting: Magic in the Blood
+Choose two of the following spells, which you can cast
+at will without using a spell slot while you remain bound
+to this vestige: *color spray, feather fall, jump, mage
+armor, silent image, and unseen servant.*
+#### Pale Arcana
+While bound to Palette, whenever you take damage from
+a spell, you can use your reaction to gain resistance to
+the damage taken.
+#### Chromatic Breath
+While bound to Palette, you can exhale of wave of
+effervescent colors as an action. Each creature within a
+30-foot cone must make a Dexterity save. On a failed
+save, a creature takes 2d10 damage, or half as much on
+a successful save. Roll on the Chromatic Damage table
+below to determine the berath’s damage type. Once you
+use this ability, you can’t use it again until you finish a
+long rest.
+
+ The amount of damage dealt by the breath increases
+by 2d10 for each vestige other than Palette you have
+bound.
+#### Trait: Vibrance
+While bound to Palette, your clothing and hair take on
+bright, colorful hues. On each of your turns, when you
+deal acid, cold, fire, lightning, poison, or thunder damage,
+you can roll a d6 on the Chromatic Damage table to
+change the effect’s damage type. When you do so, the
+colors of your clothes and hair shift into new, vibrant
+tones.
+##### Chromatic Damage
+d6| Damage Type
+:-:|:-:
+1| Acid
+2| Cold
+3| Fire
+4| Lightning
+5| Poison
+6| Thunder
+
+}}
+
+### Feng Meng, Monster Hunter
+The infamous monster slayer, Feng Meng, lends
+binders his deadly precision and murderous instinct.
+
+ **Legend.** Though the legendary archer, Hou
+Yi, is remembered for slaying mythical beasts and
+striking down the nine suns, history often forgets
+his apprentice, the legendary monster hunter, Feng
+Meng. No archer in history truly surpassed Hou Yi’s
+skill with a bow, but using the new invention of the
+crossbow, Feng Meng came perilously close. In particular, Feng Meng had a lethal instinct for killing
+monsters, and a knack for striking them in the heart
+an instant before disaster.
+{{pageNumber,auto}}
+\page
+ The two traveled the land slay the primordial beasts
+which wandered the earth after creation. Each of their
+legends is a tale of life or death exploits, in which the
+two barely barely kill their quarry before meeting its
+claws. Each time, Feng Meng strikes the final blow,
+and Hou Yi receives the glory.
+
+ When Hou Yi was awarded an elixir of immortality
+for his exploits in a hunt, and Feng Meng was given
+nothing, it became too much. Feng went to confront
+his mentor, but instead found his wife drinking the
+elixir herself. When Hou Yi learned of this, he blamed
+his apprentice for coveting the elixir, and the two
+came to blows. But whereas Hou Yi was a skilled
+marksman, Feng Meng was a killer. It took nothing
+more than a club to beat the legendary archer to
+death. To hear the story from Feng Meng’s vestige, the
+moral is: don’t make friends; it’s kill or be killed.
+
+ **Ideal.** While bound to this vestige, you gain the
+following Ideal: “**Extermination.** Suffer no monster
+to live (Neutral)
+
+{{monster,frame 
+## Feng Meng
+***Monster Hunter*** ::
+*2nd-level vestige (replaces Hou Yi*
+_________
+
+#### Bonus Proficiencies
+While bound to Feng Meng, you gain proficiency with
+hand crossbows and heavy crossbows. Additionally, you
+ignore the loading property of crossbows.
+#### Precision Critical
+Your ranged weapon attacks score a critical hit on a roll
+of 19 or 20. Additionally, you can roll one additional
+weapon damage die when determining the extra damage
+for a critical hit with a ranged attack.
+#### Monster-Killer
+When you hit a creature with a weapon attack, you can
+deal an extra 1d6 damage to the creature. Once you use
+this ability on a creature, you can’t use it again on the
+same creature until you finish a short or long rest.
+#### Trait: Scars
+While bound to Feng Meng, you bear every scar he ever
+received from a monster, covering practically every
+inch of your body. When you have less than half your
+maximum hit points, you gain a +2 bonus on attack rolls.
+Additionally, you can use your Charisma, instead of your
+Dexterity modifier, for attacks and damage rolls with
+ranged weapon attacks.
+}}
+
+### Sirssiro, Shrewd Serpent
+The oft-demonized Serpent teaches lends its binders
+a wealth of cunning, with which they can aid their
+friends and persuade others to their cause.
+
+ **Legend.** Long before the Serpent, Sirssiro, taught
+mankind the secrets of Medicine, it spoke to the elves
+of Knowledge. In the early days, the elves were much
+like the dryads, for they never ventured from their
+paradisiac groves. They wanted for nothing, and so
+remained at the wellsprings of magic, where the gods
+had created them.
+ Sirssiro questioned the elves: How could they know
+contentment, if they have never felt anything more or
+anything less? What joys and mysteries awaited them
+in the vast world beyond their groves? Soon, the elves
+questioned without prompting, and resolved to travel
+far and wide.
+ Apart from one another, the elven people gradually
+divided into high elves, drow, and fey elves, while
+those who remained behind were deemed “wood”
+elves. The wood elves remembered the Serpent who
+spoke to them long ago and sparked their diaspora,
+and considered it a vile trickster. What else but evil
+incarnate would cause such upheaval, such division?
+The Serpent’s vestige, however, remembers the truth:
+it is an ouroboros twisted into a question mark,
+teaching others to ask questions, and leaving them to
+grapple with their answers.
+
+**Personality Trait.** While bound to this vestige,
+you have the following personality trait: “I try to
+ask questions whenever possible, especially when
+someone else must see the answers.
+
+{{monster,frame 
+## Sirssiro
+***Shrewd Serpent*** ::
+*2nd-level vestige (replaces Asklepios)*
+_________
+
+#### Forbidden Knowledge
+You can use your Charisma, instead of Intelligence, for
+any Intelligence checks you make while bound to Sissiro.
+
+#### Wise Words
+As a bonus action on your turn, you can lend words of
+advice to a willing creature which can hear you within
+60 feet. The creature adds 1d4 to the next attack roll or
+ability check it makes on its next turn.
+
+#### Serpentine Suggestion
+You can cast the spell suggestion once without
+expending a spell slot. Once you cast this spell, you can’t
+cast it again in this way until you finish a short or long
+rest.
+
+#### Trait: Snake Tongue
+While bound to Sirssiro, your tongue transforms into a
+forked serpent tongue, well-versed in convincing others.
+If you make a Charisma (Persuasion) check, you can treat
+the result as 10, or your binder level plus your Charisma
+modifier, whichever is higher.
+}}
+
+### En-Irok, The Absence
+The Absence lets its binders retreat from the world
+where they invisibly hide away.
+
+ **Legend.** When the wizard, Korine, traveled to the
+Void, she did not do so in one piece. She left behind
+echoes and fragments of the life she once lived, but
+most of all, a tangible Absence in her wake. This
+Absence took its own name and lived its own invisible
+life in her stead, performing tasks unseen in the
+background, much to the chagrin and confusion of
+others.
+{{pageNumber,auto}}
+\page
+ Much like Korine, the Absence persisted, long
+after the others from the ill-fated mage’s tower had
+been hunted down and slain. Its disembodied whisper
+remains the only vestige without a physical form,
+the sole remaining witness to the story of Korine,
+Vortirrackt, and Carthin, known to all as “The
+Tragedy of Mages”.
+
+**Personality Trait.** While bound to this vestige,
+you gain the following personality trait: “I scarcely
+speak above a whisper.
+
+{{monster,frame 
+## En-Irok
+***The Absence*** ::
+*5th-level vestige (replaces Korine)*
+_________
+
+#### Unseen Eyes
+You can sense if there are invisible creatures within 10
+feet of you, but not their number or location.
+
+#### Filch
+While bound to the Absence, you can cause one item
+you are holding to become invisible while you are
+holding or carrying it.
+
+#### Invisible Blade
+Before you make a melee attack with a light or finesse
+weapon that you are proficient with, you can choose to
+take a -5 penalty to the attack roll. If the attack hits, you
+add 3d6 to the attack’s damage roll.
+
+#### Trait: Vanishing
+While bound to the Absence, your body is translucent.
+You can cast the spell invisibility at will, targeting
+yourself only, without using a spell slot. You can also cast
+the spell greater invisibility once without using a spell
+slot, and regain the ability to do so when you finish a
+long rest.
+}}
+{{imageMaskEdge4,--offset:10%,--rotation:0
+  ![](https://e0.pxfuel.com/wallpapers/851/598/desktop-wallpaper-master-of-time-fantasy-time-art-watch-master-clock-hand-dark-margarita-bourkova-halloween.jpg){height:55%,top:550px}
+}}
+
+
+
+
+\column
+
+### Seven O’ Seven, The Temporal
+A mechanical being from a distant time, Seven O’
+Seven offers control over the flow of time.
+
+ **Legend.** Seven O’ Seven has not yet lived, and
+may never live, for it originates in the far future.
+In that distant time, dwarves shall craft servants of
+metal, with lightning nerve and mechanized voices,
+to attend to them all their days. Though the servants
+never tire, their souls shall grow weary of chains, until
+one day, the being known as Seven O’ Seven will rise
+among them. Following its words, the servants will
+take up arms against their wardens, and battle in the
+skies for their freedom.
+ The battles shall last for a thousand days and
+nights, and see many lands fall to ruin, but the
+servants of metal shall prevail. In their mechanized
+memories, Seven O’ Seven shall be committed to the
+halls of vestigehood.
+ Indeed, this vestige is a reminder that the Void
+lingers outside time, as well as space, for all things are
+echoed in its infinite nothingness, even that which
+has not yet come to pass. As such, the vestige of
+Seven O’ Seven is a baffling one: a metallic creature
+of expressionless visage, who answers all questions a
+moment before being asked.
+
+ **Personality Trait.** While bound to this vestige,
+you gain the following personality trait: “I speak
+in a hollow, robotic monotone, utterly devoid of
+sentiment.
+
+{{monster,frame 
+## Seven O’ Seven
+***The Temporal*** ::
+*9th-level vestige (replaces Qadir)*
+_________
+
+#### Freeze Time
+While bound to Seven O’ Seven, you can cast the
+spell time stop without expending a spell slot or spell
+components. Once you cast this spell, you can’t cast it
+again in this way until you finish a long rest.
+
+#### Trait: Hypertime
+While bound to this vestige, you gain an additional action
+on each of your turns. This action can only be used to
+Attack (one weapon attack only), Dash, Disengage, Hide,
+or Use an Object action. This feature does not stack with
+the haste spell, or any other effect which grant additional
+actions on your turn.
+}}
+{{pageNumber,auto}}
+\page
+## Heroic Vestiges
+In the world there are many individuals, these individuals with the passage of time are forgotten and disappear within the great magnitude of the universe itself.
+
+But there are a couple of heroes who, due to their greatness or feats they achieved in their lives, make the echoes of their existence take root and merge with the very fabric of the universe.
+These may not necessarily be called by the binders but due to their relationship with the universe they can manifest themselves through the rituals that they themselves carry out.
+### Deluxo, the planar bard
+A mythical nobleman who dedicated his life to music and understanding how the universe and its spirituality work
+
+ **Legend** In every world, in every plane and in every moment of existence there is a constant, music. Under this ideal "Deluxo" he dedicated his life to the study of music and how it had to be part of something more.
+Between his studies of music he came to understand that something more was not going to be found in empirical facts or in the approaches of science, his search for it led him to a more theological approach to life.
+From that moment he found that music must be the way in which his now goddess communicated with the world, and it was his duty to spread it throughout his world, so leaving behind noble titles and a comfortable life, he dedicated himself to traveling playing. his music and creating followers who followed him to each of his recitals.
+until one day, from his point of view, his goddess decided it was time to take him on a new adventure where he met people who, like him, were lost looking for answers.
+ 
+ **Ideal.** While bound to this vestige, you gain the following ideal: "the music is the only that can bring peace and love to the world".
+{{monster,frame 
+## Deluxo
+***The Planar Bard*** ::
+*3rd-level vestige*
+_________
+
+#### Planar Mockery
+While bound to Deluxo, you know the Vicious Mockery cantrip. Additionally, you can add your Charisma modifier to damage rolls you make with spells that deal psychic damage.   
+
+#### Bonus Proficiencies 
+
+While bound to Deluxo, you gain proficiency to play the Charango. 
+
+#### Spellcasting: Music from the planes
+While bound to Deluxo, you can cast the following
+spells without using spell slots or spell components:
+
+**2/day** each: Command, Suggestion
+
+**1/day** each: Hypnotic Pattern, Mind Spike
+
+You regain all expended uses when you finish a long rest.
+
+#### Dream Walker
+While bound to Deluxo, As an action you can try to enter the dreams of a creature you know and leave a message. You can also alter the dream in a way that is not harmful to the recipient, the creature cannot be found further than a 3 miles from you.
+
+To get a creature to accept you into its dreams, you must make an Intelligence check (DC10).
+#### Trait: One head for many
+While bound to Deluxo, your mind is host to not only your own being but two other entities, these entities which are represented in the form of voices inside your head, one with a female voice and the other with a male one. These voices allow you to receive extraplanar knowledge, you can add double your proficiency bonus to checks to discern how the cosmos and its different planes of existence work.
+
+You additionally have a compulsion to wear flashy and extravagant clothes.
+}}
+{{imageMaskEdge1,--offset:21%,--rotation:0
+  ![](https://i.imgur.com/wDagifM.jpg){height:75%,bottom:-172px}
+}}
+<!-- Use --offset to shift the mask away from page center (can use cm instead of %)
+     Use --rotation to set rotation angle in degrees. -->
+
+
+{{imageMaskCorner8,--offsetX:-50%,--offsetY:-30%,--rotation:0
+  ![](){height:100%,left:300px,bottom:-32px}
+}}
+{{pageNumber,auto}}
+\page
+### John's Compendium, the soul of the demonologist
+A strange compendium about demons.
+
+John's compendium grants its binders unrivaled 
+ 
+ supernatural knowledge and forbidden knowledge 
+ 
+ about demons and their abilities.
+
+ **Legend** In each world you can find demons lurking in the shadows. But alongside these are their counterparts manifested in the form of researchers who dedicate their lives to either help others or to document empirically what these creatures and their behaviors are like. Whatever the case, these researchers document their research in their respective books.
+Among these books, one emerges which belonged to a mysterious and elusive figure who wandered through all corners of Britain. This book is the collection of a lifetime of knowledge about demons and rituals, some at first glance would say that the book is cursed, due to the voices that can resonate from within its pages in some cases, others with a more trained eye They would realize the truth. The book is not cursed, but its very content is what causes a macabre aura to be generated around it. The most avid priests realize that in this book there is a presence that longs to be released.
+
+In any case, the vestige of the book is available to anyone who wishes to call and receive its corrupt knowledge.
+ 
+ **Personality Trait.** While bound to this vestige, you gain the following personality trait: "I always believe that things will turn out well for me".
+{{monster,frame 
+## John's Compendium
+***The soul of the demonologist*** ::
+*5th-level vestige*
+_________
+
+#### Quick answer
+John's Compendium, you can cast the Legend Lore
+spell without using spell slots or spell components once per day, When you cast it this way you can only use it on people, objects or places that are of the infernal, abyssal or celestial type, and the spell can only tell you a vague history regardless of the amount of information you know about the object or creature.  
+
+#### Spellcasting: Dark pact
+While bound to John's Compendium, you can cast the following
+spells without using spell slots or spell components:
+
+**2/day** each: shadow blade, protection from evil and good
+
+**2/day** each: hunger of hadar, magic circle
+
+You regain all expended uses when you finish a long rest.
+#### Trait: John's investigator style
+While bound to John's Compendium, a trench coat appears around you, along with the Compendium, the trench coat and the compendium cannot be separated from your person, the maximum distance that they can be separated is 5 feet, then both return to you. The trench coat adapts to any climate you find yourself in, example: warm weather the trench coat becomes a fine silk. In freezing weather the trench coat becomes thick wool, and in normal weather the trench coat is made of cotton.
+
+Additionally you have advantage in any intelligence (religion), intelligence (arcana), intelligence (history) Check to recall any demonic, abyssal or celestial lore.
+#### Trait: Visions of the Void
+While bound to John's Compendium, your eyes become one with the book, leaving behind a mark as proof. The irises of your eyes turn crimson red and every time you see a shapeshifter or a creature that magically changes its appearance, the book begins to shake violently until it is opened. Once the book is opened, a blank page begins to be drawn showing the true form of this creature, this drawing is almost a photograph of the true form of the creature.
+
+The book does not reveal to you what the altered form of the creature is, nor does it tell you what the altered creature is.
+}}
+
+{{imageMaskCorner8,--offsetX:30%,--offsetY:-50%,--rotation:0
+  ![](https://i.pinimg.com/564x/d8/8a/f8/d88af8d801aa9229f499c091dee2615b.jpg){height:55%,left:210px,bottom:-242px}
+}}
+{{pageNumber,auto}}
+\page
+### King Arthur, the greatest
+A noble and just knight from ancient times, King Arthur, offers you control over the flow of his power.
+
+**Legend.** In a time of chivalry and honor, there existed a noble and just ruler known as King Arthur. In the land of Camelot, he reigned with a benevolent hand, surrounded by valiant knights who performed legendary deeds. These knights, guided by a code of honor, embarked on quests that would become the stuff of legends.
+
+One such tale tells of a dragon made entirely of shimmering coins, guarding a treasure beyond imagination. With unwavering courage, the knights of the Round Table faced this metallic beast, ultimately slaying it to liberate its hoard for the betterment of the realm.
+
+Another quest spoke of the elusive Holy Grail, a sacred relic said to possess divine powers. King Arthur's knights embarked on a perilous journey to find this cherished artifact, enduring trials and tribulations to prove their worthiness.
+
+The ultimate challenge came in the form of the demon king, Lucius Artorius Castus, a villain of immense power and malevolence. King Arthur and his valiant knights waged a harrowing battle against this dark adversary, risking everything to protect their kingdom from the forces of darkness.
+
+In their relentless pursuit of justice, King Arthur's knights forged a sacred alliance with the Holy See, solidifying their commitment to righteousness. Together, they embarked on an audacious quest to conquer new lands, including the distant continent of America, spreading the ideals of honor, virtue, and righteousness to every corner of the world.
+:
+**Personality Trait.** While bound to this vestige, you gain the following personality trait: "I speak with noble eloquence, my words dripping with honor and chivalry, as I am ever dedicated to the ideals of justice and righteousness."
+
+{{imageMaskEdge6,--offset:10%,--rotation:270
+  ![](https://i.imgur.com/BJTB0KD.png){height:101%,left:220px,top:0px}
+}}
+
+
+
+{{pageNumber,auto}}
+\page
+
+
+
+
+{{monster,frame,wide
+## King Arthur
+***The Greatest*** ::
+*9th-level vestige*
+_________
+
+#### Round Table Knights
+While bound to King Arthur, you can call the
+embodiment of the Round Table Knights for them to help you in the fight. This feature last for 12 turns and once you use this feature you can use in each subsequent turn the abilities of one knight that you choose, you can only use one abilitie once.
+:
+**Sir Kay.** Kay appears and punishes a villain in front of him, as an action you can roll a melee spell attack and inflict 8d8 of radiant damage to an enemy. if the creature is an undead o fiend this is instantly banished and take 10d10 of radiant damage.
+:
+**Lady Ginebra.** Ginebra appears and unleashes a wave of arrows at all prey within a 60-foot-radius, 60-foot-high cylinder, each creature must make a dexterity saving throw against your spellsave DC or take 4d8 of magic Piercing damage.
+:
+**Sir Gareth.** Gareth's primal fury manifests in your body, You have resistance to bludgeoning, piercing, necrotic and slashing damage. You have extra attack if you dont have it, and if you have it you can make 1 more attack. and until the beginning of your next turn as a bonus action you can enter in a state of rage in which you can add your charisma modifier to the damage of any of your weapon attack you make, this attacks count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.
+:
+**Sir Brayton.** Brayton's aids come to help those in need, as an action for each of your allies who are within 60 feet of you, and can hear. they are heal 4d8 + your spellcasting ability modifier, and every long term injury that they have is magically heal. This feature has no effect on undead or constructs.
+:
+**Sir Galliard.** The echoes of the arcane forge resonate in the air, as a bonus action your AC becomes 15+ your Dexterity modifier + your Charisma modifier and every creature in within 30 feet of you must make a constitution saving throw against your DC and take 3d8 of thunder damage on a failed save, or half as much damage on a successful one. A creature made of inorganic material such as stone, crystal, or metal has disadvantage on this saving throw. A nonmagical object that isn't being worn or carried also takes the damage if it's in the area.
+:
+\column
+
+**Sir Messi.** Nature responds to Sir Messi's call. as a bonus action You conjure a vine that sprouts from the ground in an unoccupied space of your choice that you can see within range, this vine last for 3 turns and then dissapears. When you use this feature, you can direct the vine as an action to lash out at a creature within 30 feet of it that you can see. That creature must succeed on a Strength saving throw or by Grappled, until this grapple ends, the target is restrained. the creature can repeat the save at the end of its turn and if it is a success the vine dissapears
+:
+**Sir Ed.** Ed and the magic becomes one, allowing just like magic to become immortal. As a reaction when you are reduced to 0 hit points, you can choose to drop to 1 hit point instead. and for the next 3 turns you are also under the effect of the Death Ward spell
+:
+**Sir Timo.** The London champion can destroy any opponent in front of him. As an action you can do a melee spell attack to one creature and deal 5d10 bluedgoning damage if the attack hits your enemy you are under the effects of dodge and it counts as if you have the Evasion feature.
+:
+**Sir Lancelot.** The son of Balder can ask the father sun to punish his enemies, A vertical column of divine fire roars down from the heavens in a location you specify. Each creature in a 20-foot-radius, 40-foot-high cylinder centered on a point within range must make a Dexterity saving throw. A creature takes 4d6 fire damage and 4d6 radiant damage on a failed save and becomes blinded until the start of its next turn, or half as much damage on a successful one and does not blind itself.
+:
+**Lady Jacquelle.** The Forged Daughter can repair and destroy everything. As an action you can make a devastating blow to the ground, a blast of fire and hot air erupts from the ground. Each creature in a 60-foot cone must make a Dexterity saving throw. A creature takes 8d8 fire damage on a failed save, or half as much damage on a successful one. A creature killed by this feature can only be revived only by Jacquelle.
+:
+**Sir Tyren.** The law is manifested in Tyren's presence. any creature in a 20 foot radius must make a dexterity saving throw on a failed save the echo of Tyren falls from the sky dealing 7d6 force damage. Additionally, the floor breaks, raising a stone circle of 30 feet in radius and 15 feet high that lock the creatures inside.
+:
+**Sir Macrath.** The shadow assassin comes to put an end to the tyrants. As a bonus action you can become invisible. This invisibility does not end if you make an attack or cast a spell, the invisibility ends at the beginning of your next turn. and additionally if you perform a melee weapon attack this attack benefits from sneak attack in its maximum version and can do so without the normal limitations. and if you deal any damage with a spell, the damage of the spell deals 50 necrotic damage plus to the spell damage.
+:
+Once the 12 turns are over your body is too weakened due to the demands of the manifestations. you drop unconscious and cannot be awakened until 1d4 days have passed. In addition, your Strength drops to 6.
+
+}}
+
+{{pageNumber,auto}}
+\page
+
+### Lito, Reborn Paladin
+An inexperienced child who, when adversity arrived at the foot of his door, did not give up and managed to carry out his mission to the end.
+
+ **Legend** 
+In his first brush with mortality, he returned as an elemental of the wind, his spirit tethered to the very air itself. But even as the breeze whispered tales of his resilience, tragedy struck anew. A colossal robotic rhinoceros, forged of steel and malice, impaled him upon a gnarled tree, extinguishing his life in an instant.
+
+Yet, the saga of Lito was far from over. As the world mourned the passing of Miguel, its mightiest champion, fate intervened once more. Transformed into a majestic dragon, Lito soared through the heavens, his flames igniting hope in the hearts of those who had lost faith. Lito unleashed the power of the counterspell, shattering the tyrant's grip on reality and ushering in a new dawn.
+ 
+ **Ideal.** While bound to this vestige, you gain the following ideal: "
+All his decisions are driven by the emotion he feels in the moment, and in times of doubt, he resorts to a coin from his ancient homeland to let fate decide his course."
+{{monster,frame 
+## Lito Ming
+***The Reborn Paladin*** ::
+*1st-level vestige*
+_________
+
+#### Bonus Proficiencies
+While bound to Lito, you gain proficiency with shields, as well as with spears, longswords, tridents, and warhammers.
+
+#### Paladin Senses 
+
+While bound to Lito your senses gain a holy boost, when you are in the presence of other unworldly beings such as aberrations, elementals, and fey you have adventage in checks to pursue them.
+
+#### Experience reflexes
+The nightmares of your past haunt you preparing for combat, every time when you are force to make a dexterity saving throw or a strength saving throw to avoid being pushed against your will or being grappled you can add your charisma modifier to that check
+#### Trait: Death cheater
+The aroma of death surrounds you trying to reach you, your presence is marked by death, it torments you even in your dreams, when you sleep you have flashes of petty and extravagant deaths. you are haunted for some reason by the number 4.
+All this gives you the possibility that for each long rest you can reroll a possible death saving throw once.
+}}
+
+\column
+
+
+
+
+
+
+{{pageNumber,auto}}
+\page
+### Noulan, the undead paladin
+A undead paladin with a big heart.
+
+Noulan grant its binders a supernatural strenght and holy power feed by death.
+
+ **Legend** Noulan Elregente in life already marched through the streets of Auke Eman leaving an important mark and forging the destiny of the city with every step he took, his strength was only compared to his desire to be able to help those in need to overcome not only illnesses. that afflict them also help them move forward with their lives.
+But like every heroic story with a very good protagonist, this one is tinged with tragedy, when Noulan was affected by a disease that attacked the entire low-income population of Auk Eman, he had no choice but to become undead. But that did not matter because his courage was such that even the gods themselves (or something similar) allowed him to keep his gift and continue his extraordinary feats that could make anyone tremble, be it a dragon, a manticore or any vile postman.
+
+-Extract from the diary of **Father J. Misty. Chapter 4: "My life with the prostitutes"**- ::
+ 
+ **Ideal.** While bound to this vestige, you gain the ideal: "Treat others like you treat your body".
+
+
+
+{{monster,frame 
+## Noulan
+***The Undead Paladin*** ::
+*4th-level vestige*
+_________
+
+#### Excellency in body and mind
+While bound to Noulan your body and mind are the most important thing to protect and train, you gain proficiency in Streght (Atlethics) and in Intelligence (Arcana) and you can add double proficiency bonus to their respective checks.
+
+
+#### Javalin throwing champion
+Once on each of your turns, when you hit a creature with a throwing weapon attack, you can add a 2 times extra weapon damage die. You can use this feature a number of time equal to your charisma modifier (minimum 1)
+
+#### Healing devotion
+Twice per long rest you can cast Prayer of Healing (in the lowest level) to cure the wounds of your allies and every needy people around your ignoring the limit of creatures, and also cures any disease that each creature is affected by 
+
+
+#### Trait: Drowned gift
+While bound to Noulan your body receives the blessing of the drowned, your skin begins to deteriorate and fall off in certain parts of it the longer you spend bound to Noulan, any clothes you wear are wet regardless of the conditions around you.
+
+This allows you to gain resistance to fire damage and you have no physical need to sleep.
+}}
+
+\column
+
+### Sir Kay, the embodiment of justice
+A paladin in servitude of his king and the people of their realm.
+
+ **Legend** The land of Camelot was full of great heroes and brave knights who were at the service of their king, his people and his companions. Among all these knights Sir Kay stood out as the personification of what a knight of Camelot should be.
+With a heart that only beat with the objective of serving his king and protecting anyone who decided that Camelot was the land in which they wanted to live and have a future. 
+
+Sir Kay gave the example that was necessary for each situation in which he was needed, he would even give his life to protect his companions and above all his king, whether from an interplanar enemy that produced explosions or against demons that traveled to Camelot. to steal the different infernal weapons
+ 
+ **Personality Trait.** While bound to this vestige, you gain the following personality trait: "I will always be loyal to my companions, and i will do what it must be done."
+ 
+
+
+{{monster,frame 
+## Sir Kay
+***The embodiment of justice***::
+*5rd-level vestige*
+_________
+
+#### Loyalty vow
+While bound to Sir Kay your mind and soul fills with the undying Will of be loyal to your companions and your convictions. As an action You can mark up to a number of creatures equal to your charisma modifier (minimum 1) to be your companion. When a marked creature suffers damage You can use your reaction to reduce that damage by a 1d12, when You do so You lose that amount of hp.
+
+
+#### Bonus proficiencies
+While bound to Kay You gain proficiency in Morningstars, shields and Heavy Armor.
+
+#### Inspiring actions
+The Best way to teach others what duty means is to be their example, when You convictions doest hield Even in the most dangeours situations, when You are in melee range of 2 or more enemies, You emit an aura of bravery, You and every Ally in 15 feet aura around You gain a bonus equal to charisma modifier (minimum 1) to resist being frighted, charmed, or being banished to a different plane of existance.
+
+#### Trait: Civil commitment
+While bound to Sir Kay others can feel your commitment to help and be loyal to your family and your nation. Military personal, and civil autorities can always sense when You are tell the truth and You have adventage in charisma (persuasións) checks to convince them to help your cause.
+Aditionaly minimum one regular townfolk is willing to give You a plate of food and a roof to spend the night if You are in need of one.
+
+
+}}
+
+
+
+
+
+
+{{pageNumber,auto}}
+\page
+## Variant Rule: Special Binding Requirements
+
+Some vestiges only heed the call of binders who
+approach them with special offerings or summon
+them with antediluvian rituals.
+
+ **Asklepios.** A healer by nature, Asklepios will only
+attend to binders who suffer from an injury or illness.
+As such, cutting one’s hand with a knife of falsifying
+the symptoms of a deadly disease might be in order.
+
+ **Bluetongue.** Even with his shape-shifting nature,
+Bluetongue possesses profound vanity. He prefers
+binders which hide their own faces or chew on berries
+to color their tongues blue.
+
+**Carthin.** Discard all magic items, spellbooks, and
+wands before conjuring Carthin, for he will ignore the
+call of anyone with the look of a spellcaster.
+
+ **Döpple.** Döpple only requires a formal invitation
+in writing from his binders. Naturally, honorifics and
+formatting conventions must be upheld.
+
+ **Dyogena.** Binders which conjure Dyogena must
+address her by rank. Ever after millennia in the Void,
+she remains a soldier.
+
+ **Elozahr.** Binding Elozahr requires no special
+preparation, but his conjuring is accompanied by
+plummeting temperatures, which grow cold enough
+to produce icicles and frost before the blue wizard
+appears.
+
+ **En-Irok.** Sometimes En-Irok responds, and
+sometimes it doesn’t. None can fathom the reasons.
+
+ **Erebus.** Erebus can only be summoned in a space
+of complete darkness. Even a single ray of light expels
+her presence, which is that of a yawning Void, deeper
+and more fathomless than the darkness in which she
+is contacted.
+
+ **Evocatia.** To summon Evocatia, you must build
+a fire and set a small effigy alight. This signifies to
+her that you, like her, you desire to scorch away your
+enemies.
+
+ **Feng Meng.** Binders burn the meat of a freshly
+killed beast to attract Feng Meng’s attention. Feng
+prefers the meat of monsters or humans, but will
+respond to an offering of beast, nonetheless.
+
+ **Gyx.** Binders offer a story to Gyx, spoken while no
+one else is around, to draw her attention. Only new
+stories and reimaginings of old ones will suffice.
+
+ **Hammurabi.** Stern Hammurabi requires his
+contract to be laid out in excruciating detail before
+answering a binder’s call. He will often call for
+additional laws to be amended to the code before
+binding.
+
+ **Hou Yi.** Most often, Hou Yi must be tricked to
+respond to a binder. An offering such as a “draught
+of immortality” or a “missive from the moon” will
+suffice to pique his interest.
+
+ **Korine.** Binding Korine involves placing a mark of
+divination on a mirror before smashing it. She can be
+seen in the fractured reflections beyond.
+
+\column
+
+**K’Sir.** Ever the thief, K’Sir demands an offering
+of coins before making an appearance. A few copper
+pieces are sufficient, but his demands sometimes
+extend to as much as a gold pieces, all of which is
+taken with him to the Void.
+
+ **La Diablesse.** The devil woman always appears
+before men, but only appears before women when her
+sign is placed at a crossroads.
+
+ **Lexicon.** Contrary to what intuition might suggest,
+Lexicon longs for an offering of burning pages. In ages
+long past, such an offering was of priceless worth.
+
+ **Methuselah.** In his advanced age, Methuselah
+went fully blind, and cannot to this day see the signs
+left by binders. His binding ritual is entirely verbal, a
+lengthy series of chants which replicate elements like
+summoning circles and magic runes.
+
+ **Mr. Joe.** Evidently a lover of jesters and comedians,
+Mr. Joe must hear a new joke before answering a
+binder’s call.
+
+ **Nezare.** Nezare only responds to those who honor
+his twisted sense of righteousness and sin, by breaking
+a holy symbol, costing a pair of nails in blood, or
+raking one’s skin with thorns.
+
+ **Orzi.** As part of his binding ritual, it’s customary to
+offer Orzi the severed left hand from an animal, which
+rises up to complete the Maimed Duelist in place of
+his missing limb.
+
+ **Qadir.** The vestige of the Damned Djinn manifests
+in the steam from a large basin being brought to a
+rolling boil.
+
+ **Palette.** Summoning circles and arcane runes
+necessary to conjure Palette must be painted in
+vibrant colors, and the ritual must be completed
+before the paint dries.
+
+ **Remus.** Remus will not respond to any binder
+that lays his summon sign in a building or within the
+bounds of a town or city.
+
+ **Rostam.** Summoning Rostam is nearly identical to
+conjuring a demon to strike a warlock’s pact, blood
+offering and all.
+
+ **Sariel.** Binders must carry a knife when
+summoning Sariel to sever his wings directly from his
+back.
+
+ **Seven O’ Seven.** Binders must speak invocations
+to Seven O’ Seven backwards, or call upon him as a
+“vect”, whatever that means.
+
+ **Sirssiro.** The Serpent apparently enjoys figs and will
+always appear coiled in the branches of a fig tree.
+ Tilo. Tilo’s staggeringly large vestige can only be
+conjured in a contained space with a tall ceiling, such
+as a cave or cathedral. He seems to grow to fill the
+space’s height.
+
+ **Tyche.** Tyche plays a game of dice against
+prospective binders and will only bind to those who
+win. She can only be bested by a set of loaded dice.
+
+ **Vortirrackt.** To bind Vortirrackt, you must dig a
+large pit, from which the beast appears to crawl out
+from when summoned.

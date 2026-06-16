@@ -1,0 +1,2589 @@
+```metadata
+title: Vessel
+description: ''
+tags: []
+renderer: V3
+theme: 5ePHB
+
+```
+
+```css
+.page{
+	width  : 210mm;
+	height : 296.3mm;
+}
+
+css
+
+.page .columnWrapper {
+	height: 100%
+}
+
+.page .toc.wide {
+	columns: 1;
+	height: 100%;
+}
+
+.page .toc > ul > li {
+	font-weight:100px;
+	margin-bottom:0.1px;
+
+}
+
+.page .toc ul ul {
+	margin-left: 0;
+	font-weight: 20px;
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```
+
+{{frontCover}}
+
+{{logo ![](/assets/naturalCritLogoRed.svg)}}
+
+# Vessel
+![background image](https://www.gmbinder.com/images/IUnRJMG.jpg){position:absolute,bottom:0,left:-280px,height:100%}
+
+\page
+
+
+{{toc,wide
+
+- ### [{{ Vessel}}{{ 3}}](#p3)
+-  [{{ Otherworldly Power}}{{ 3}}](#p3)
+-  [{{ Mortal Vessel}}{{ 3}}](#p3)
+-  [{{ Creating Your Vessel}}{{ 3}}](#p3)
+- ### [{{ Class Features}}{{ 4}}](#p4)
+-  [{{ Sealed Spirit}}{{ 5}}](#p5)
+-  [{{ Spirit Mantle}}{{ 5}}](#p5)
+-  [{{ Unsealed Aspects}}{{ 5}}](#p5)
+-  [{{ Vessel Magic}}{{ 5}}](#p5)
+-  [{{ Archon Form}}{{ 6}}](#p6)
+-  [{{ Ability Score Improvement}}{{ 6}}](#p6)
+-  [{{ Extra Attack}}{{ 6}}](#p6)
+-  [{{ Controlled Transformation}}{{ 6}}](#p6)
+-  [{{ Twin Consciousness}}{{ 6}}](#p6)
+-  [{{ Unchained Power}}{{ 6}}](#p6)
+-  [{{ Dire Preservation}}{{ 6}}](#p6)
+-  [{{ Twin Soul}}{{ 6}}](#p6)
+- ### [{{ Sealed Spirit}}{{ 7}}](#p7)
+-  [{{ The Ancient Wyrms}}{{ 7}}](#p7)
+-  [{{ The Ascended}}{{ 8}}](#p8)
+-  [{{ The Beyond}}{{ 9}}](#p9)
+-  [{{ The Cataclysm}}{{ 10}}](#p10)
+-  [{{ The Conduit}}{{ 12}}](#p12)
+-  [{{ The Cursed}}{{ 13}}](#p13)
+-  [{{ The Ego}}{{ 14}}](#p14)
+-  [{{ The Empty}}{{ 15}}](#p15)
+-  [{{ The Fallen}}{{ 16}}](#p16)
+-  [{{ The Formless}}{{ 18}}](#p18)
+-  [{{ The Mercurial}}{{ 19}}](#p19)
+-  [{{ The Mushroom Prince}}{{ 20}}](#p20)
+-  [{{ The Mythic Hero}}{{ 21}}](#p21)
+-  [{{ The Nihilist}}{{ 23}}](#p23)
+-  [{{ The Parasite}}{{ 24}}](#p24)
+-  [{{ The Overgrown}}{{ 25}}](#p25)
+-  [{{ The Repercussion}}{{ 26}}](#p26)
+-  [{{ The Savage}}{{ 28}}](#p28)
+-  [{{ The Sovereign}}{{ 30}}](#p30)
+-  [{{ The Titan}}{{ 31}}](#p31)
+-  [{{ The Trickster}}{{ 32}}](#p32)
+-  [{{ The Undying}}{{ 33}}](#p33)
+-  [{{ The Zenith}}{{ 34}}](#p34)
+- ### [{{ Unsealed Aspects}}{{ 36}}](#p36)
+}}
+
+
+\page
+
+##  Vessel
+A ragged young man fled down
+an alley in a vain attempt to lose
+the thugs that pursued him. As their
+shadows grew longer, he realized that
+he had no choice. As the ruffians pinned
+him against the wall, he looked inward and
+called upon the sinister entity bound to his
+soul. When he finally regained his senses,
+the smell of sulfur was overwhelming. He fled
+the alleyway, leaving the charred remains of
+the brigands behind. They were but the latest
+victims of the dark presence he harbored within.
+
+An austere elven woman stood on a raised dais at
+the center of a crowded amphitheater. Members of
+the church hierarchy and common folk alike had
+come to witness her awesome transformation. She
+did not know why she was chosen, but within her soul
+was bound a fallen heavenly being, charged to perform one hundred and one good deeds in order to regain its status in the celestial courts. As the crowd gathered around, she said a prayer and gave herself over to the overwhelming radiance.
+
+The strange elderly halfling knew that he did not belong in the tower he called home. The tower's keeper, a reclusive old archmage, only kept him around as a reminder of what would happen to any who dared cross him. At night, the halfling could hear crying inside of his head, the sounds of a former student who had attempted to overthrow the great archmage, now bound to the aging body and soul of the lowliest student.
+
+All three people described above are Vessels, bearers of wondrous otherworldly power in the form of Spirits bound within their body and soul. With training, these adventurers can learn to wield a fraction of their Spirit's amazing power.
+
+### Otherworldly Power
+Within every Vessel is bound an extraplanar being of strange and wondrous power. No matter their origin, these immortal Spirits cannot be killed by conventional means. Instead, they are often bound to mortal flesh, forced to dwell within a body on the material plane. While many such Spirits are bound to their Vessel against their will, some choose to dwell within a mortal, lending them power in causes that align with theirs.
+
+No matter the reason, these otherworldly beings are the source of the power for the adventurers known as Vessels.
+
+\column
+
+### Mortal Vessel
+A rare occurrence in most worlds, mortal Vessels will likely never meet another of their kind unless they seek them out. The binding of an otherworldly Spirit is a deadly task, and is almost always done by a higher power or legendary mortal.
+
+Bearers of this extraplanar power can learn to channel the wondrous abilities of the Spirit inside them. Through their force of will, they can allow small amounts of this power out, channeling it to defend themselves, produce eldritch magic, enhance their physical abilities, and influence friend and foe.
+
+However, the mark of a true Vessel is their ability to take on the appearance of the Spirit bound to their soul, known as an Archon Form. Through this wondrous transformation, they are able to directly wield the power of the Spirit within, and
+   use its power to overcome obstacles and thwart foes.
+
+### Creating Your Vessel
+When creating a Vessel, the most important thing to consider is how you came to be bound to the Spirit within you. Are you the Acolyte of a god, chosen to bear one of its angels that has fallen from grace? Are you a prophetic child of a cult, forced to bear the sinister power of their infernal lord? Or, are you descended from a bloodline of Vessels, each parent passing the Spirit on to their child when they have reached old age?
+
+Secondly, consider the nature of your Sealed Spirit and its relationship to you. Does your Spirit communicate with you freely, hoping that your goals will align? Is your Spirit bound against its will and seeking your demise so it can once again be free? Or, is the nature of your Sealed Spirit a mystery that you have struck out into the world to uncover more about?
+
+#### Quick Build
+You can make a Vessel quickly by using these suggestions. First make Charisma your highest ability score, followed by your Constitution. Second, choose the Acolyte background. Finally, choose Opalescent Armor and Spirit your starting Unsealed Aspects.
+
+{{imageMaskCorner10,--offsetX:50%,--offsetY:-50%,--rotation:0
+  ![](https://i.imgur.com/GpdzP1V.png){height:35%,left:420px,top:780px}
+}}
+
+
+
+{{pageNumber,auto}}
+\page
+
+## Class Features
+
+#### Hit Points
+**Hit Dice:**                    :: 1d10 per Vessel level
+**Hit Points at 1st Level:**     :: 10 + your Constitution modifier
+**Hit Points at Higher Levels:** :: 1d10 (or 6) + your Constitution modifier per Vessel level after 1st
+
+#### Proficiencies
+**Armor:**   :: Light armor
+**Weapons:** :: Simple weapons, scimitars, and shortswords
+**Tools:**   :: None
+
+**Saving Throws:** :: Constitution, Charisma
+**Skills:**        :: Choose two of the following: Acrobatics, Athletics, Insight, Intimidation, Perception, Religion, and Survival
+
+#### Equipment
+As a Vessel, you start with the following equipment:
+
+- *(a)* a scimitar or *(b)* two daggers
+- *(a)* a simple weapon or *(b)* a shortbow and 20 arrows
+- *(a)* leather armor or *(b)* hide armor
+- *(a)* an explorer’s pack or *(b)* a priest's pack
+
+\column
+
+
+{{classTable,frame
+##### The Vessel
+|       |   |                                 |Cantrip | Spells |Spells    | Slots  |Aspects|  
+| Level |PB | Features                         |known| Known    | Slots  | Level  |Unsealed|
+|:-----:|:-:|:------------------------------|:---:|:--------:|:---------:|:-------:|:-:|
+| 1st  | +2 | Unsealed Aspects, Sealed Spirit, Spirit Mantle|─|─|─|─| 1
+| 2nd  | +2 | Vessel Magic |2 |2| 2 |1st| 2
+| 3rd  | +2 | Archon Form|2|3 | 2   |   1st     | 3
+| 4th  | +2 | Ability Score Improvement|3|4   |2       |   1st |    3
+| 5th  | +3 | Extra Attack|3   |5         | 2        |   2nd    |3
+| 6th  | +3 | Sealed Spirit Feature|3|5         | 2        |   2nd     |4
+| 7th  | +3 | Controlled Transformation|3           |6        | 2        |   2nd     |4
+| 8th  | +3 | Ability Score Improvement|3        |6         | 2        |   2nd     |4
+| 9th  | +4 | ─         |3|7         | 2        |   3rd     |5
+| 10th | +4 | Twin Consciousness|4              |7         | 2        |   3rd     |5
+| 11th | +4 | Unchained Power|4	 |8         | 3       |   3rd     |5
+| 12th | +4 | Ability Score Improvement|4        |8         | 3        |   3rd     |6
+| 13th | +5 | ─	          |4 |9         | 3        |   4th     |6
+| 14th | +5 | Sealed Spirit Feature |4            |9         | 3        |   4th     |6
+| 15th | +5 | Dire Preservation               |4|9         | 3        |   4th  |7
+| 16th | +5 | Ability Score Improvement|4        |9         | 3        |   4th     |7
+| 17th | +6 | ─ |4|10         | 4        |   5th     |7
+| 18th | +6 | Sealed Spirit Feature|4   |10         | 4        |   5th     |8
+| 19th | +6 | Ability Score Improvement|4        |11        | 4        |   5th     |8
+| 20th | +6 | Twin Soul |4              |11         | 4        |   5th     | 8
+}}
+
+{{imageMaskEdge6,--offset:12%,--rotation:0
+  ![](https://www.gmbinder.com/images/IUnRJMG.jpg){height:60%,top:550px}
+}}
+{{pageNumber,auto}}
+\page
+
+### Sealed Spirit
+In you is sealed a spiritual being of great power. At 1st level, choose your Sealed Spirit.
+
+Your Sealed Spirit grants you features at 1st level, and again when you reach 6th, 14th, and 20th level in this class.
+
+#### Archon Form
+Each Sealed Spirit includes a unique stat block for its Archon Form. Archons are vaguely ethereal, humanoid in shape, and share a resemblance to your Sealed Spirit's true nature.
+
+### Spirit Mantle
+At 1st level, you can use a bonus action to cloak yourself with (or dismiss) your Spirit Mantle, an ethereal cloak of spiritual power that is reminiscent of the entity bound within you.
+
+While the Mantle is active, you gain the following features:
+#### Iridescent Strike
+You can draw on the Spirit sealed in you to strike with otherworldly power. When you make an unarmed strike, you can cloak the strike in spiritual power and use your Dexterity, in place of Strength, for the attack and damage rolls. On hit, these special unarmed strikes deal 1d6 damage of a type determined by your Sealed Spirit and gain a bonus to it's damage equal to your Charisma modifier.
+
+Also, whenever you take the Attack action, you can make one unarmed Iridescent Strike as a bonus action.
+
+#### Spiritual Defense
+So long as you are not wearing armor or wielding a shield spiritual power wards you and your Armor Class equals 10 + your Constitution modifier + your Charisma modifier.
+### Unsealed Aspects
+You have learned to channel Aspects of your Spirit's power. At 1st level, you gain two Unsealed Aspects of your choice from the list at the end of this class. If an Aspect has a prerequisite, like another Unsealed Aspect or a Vessel level, you must meet those prerequisites to unlock it.
+
+At certain Vessel levels, you unlock additional Aspects, as shown in the Unsealed Aspects column of the Vessel table.
+
+Finally, when you unlock a new Unsealed Aspect, you can replace one of your Unsealed Aspects with another Aspect of your choice. Though, you can't replace prerequisite Aspects.
+
+\column
+
+### Vessel Magic
+Also at 2nd level, you learn to draw upon the immense power of the Sealed Spirit bound within your soul to produce spells, much like a Warlock does. You gain the following features:
+
+#### Cantrips
+You learn two Cantrips of your choice from the Vessel spell list, which can be found at the end of this class description.
+
+You learn another Vessel Cantrip at 4th and 10th levels.
+#### Spell Slots
+The Vessel table above shows how many spell slots you have to cast your Vessel spells and the level of those spell slots. All of your spell slots are the same level. To cast a Vessel spell of 1st-level or higher, you must expend a spell slot. You regain all of your spell slots when you finish a short or long rest.
+
+#### Spells Known of 1st-Level and Higher
+At 2nd level, you learn two 1st-level spells of your choice from the Vessel Spell List, which is found at the end of this class.
+
+The Spells Known column of the Vessel table shows when you learn additional Vessel spells of 1st-level and up. Vessel spells you learn must all be of a level equal to, or lower than, your Slot Level, as shown on the Vessel table.
+
+When you gain a Vessel level, you can replace one Vessel spell you know with a Vessel spell of your choice, which also
+    must be of a level for which you have spell slots.
+
+#### Spirit Spells
+Each Sealed Spirit has a list of Spirit Spells that you learn at the Vessel levels noted in your Spirit's description. Your Spirit Spells count as Vessel spells for you, but do not count against your total number of Spells Known. You can't switch your Spirit Spells out for another spell when you gain a level.
+
+#### Spellcasting Ability
+Charisma is your spellcasting ability for your Vessel spells, as you are using your will to draw on the power of the Spirit that dwells within you. You use your Charisma whenever a spell refers to your spellcasting ability, when you set the saving throw DC for a spell, and when you make a spell attack roll.
+
+**Spell save DC** = 8 + your proficiency bonus + your Charisma modifier
+
+**Spell attack modifier** = your proficiency bonus + your Charisma modifier
+
+#### Spellcasting Focus
+Your body is the spellcasting focus for your Vessel spells. You must have a free hand to cast a spell that requires a somatic or a material component, and you must still provide material components that are consumed by a spell or have a gold cost.
+
+{{pageNumber,auto}}
+\page
+### Archon Form
+Starting at 3rd level, you can use a bonus action to draw upon your Spirit's power to transform into its Archon Form, which uses the stat block in your Sealed Spirit's description. It may use your proficiency bonus (PB), Charisma modifier (CHA), and your Vessel Spell save DC in several places.
+
+You can maintain your Archon Form for 10 minutes. You then revert to your normal form unless you expend a Vessel Magic spell slot to extend the transformation by 10 minutes. You also revert to your normal form if you are incapacitated, or use a bonus action on your turn to do so.
+
+While in your Archon Form, the following rules apply:
+
+- Your game statistics are replaced those in your Archon's stat block. You retain your alignment, personality, ability scores, and your hit points.
+- You also retain all your skill and saving throw proficiencies, and gain those of your Archon.
+- If your Archon Form has the same skill proficiency as you, use the higher bonus between the two.
+- Your Archon Form gains the benefits of your Spirit Mantle. Some Archon Forms grant you a bonus to your Armor Class. This AC Bonus only applies to your Ethereal Armor from your Spirit Mantle.
+- When you transform, you gain temporary hit points equal to your twice your Vessel level. Any temporary hit points you gain in Archon Form are lost when you revert.
+- You retain the benefits of any features from your class, player race, and any other source, and can use them if your Archon Form is capable of doing so, including casting spells with Vessel Magic.
+- When you transform, you choose if your equipment falls to the ground, merges into your Archon Form, or is worn by it. Worn equipment functions as normal, but your DM can decide whether it is practical for your Archon to use it. Equipment that merges with your Archon has no effect until your transformation ends.
+
+You can transform into your Archon Form once, and you regain the ability to transform again when you finish a short or long rest. If you have no uses left, you can expend a Vessel Magic spell slot to transform into your Archon Form again.
+{{note
+##### Archon Form Appearance
+You determine your Archon's appearance, but this has no effect on its abilities. Most are ethereal in appearance, but all Archons are vaguely humanoid in shape and share a resemblance with your Spirit.
+}}
+
+### Ability Score Improvement
+At 4th level, and again when you reach 8th, 12th, 16th, and 19th level, you can increase one of your ability scores by 2, or two different ability scores of your choice by 1. As normal, you cannot increase an ability score above 20 using this feature.
+
+\column
+
+
+
+
+### Extra Attack
+Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn. Moreover, if you use your action to cast a Vessel spell, you can make one Iridescent Strike as a bonus action on that turn.
+
+### Controlled Transformation
+Beginning at 7th level, you can channel and maintain control over more power from your Sealed Spirit. Your Archon Form transformation can now last for up to 1 hour, and it only ends early if you are reduced to 0 hit points or you use your bonus action to end it. You cannot rest in Archon Form.
+
+Also, when you roll initiative and are not Incapacitated or
+       Surprised, you can instantly transform into Archon Form.
+### Twin Consciousness
+Starting at 10th level, your Sealed Spirit lends you its mental abilities. When you fail an Intelligence, Wisdom, or Charisma saving throw, or a saving throw to maintain concentration you can add your Charisma modifier (minimum of +1) to your roll, possibly turning your failure into a success.
+
+You can do so a number of times equal to your Charisma modifier (a minimum of once), and you regain all expended uses of this feature when you complete a long rest.
+
+### Unchained Power
+Beginning at 11th level, you can unleash a greater amount of your Sealed Spirit's true power. When you transform into your Archon Form, you can cast a Vessel Spell you know that has a casting time of one action or one bonus action, as part of the same bonus action expending a spell slot.
+
+### Dire Preservation
+At 15th level, the Spirit bound to you will unleash its power to defend its Vessel. When you would be reduced to 0 hit points, but not killed outright, you can transform into Archon Form, expending resources as normal, and fall to 1 hit point instead.
+
+### Twin Soul
+Upon reaching 20th level, you and the Spirit bound to your soul merge and become an entirely new and distinct creature.  your Archon Form transformation lasts indefinitely and only ends if you are killed or if you use a bonus action to end it.
+
+{{pageNumber,auto}}
+\page
+## Sealed Spirit
+Choose the Sealed Spirit that best represents the being bound to you.
+### The Ancient Wyrms
+First born of all mortal creatures dragons are capable of both great good and terrible evil. Thess extremely long-lived beings have a natural affinity for arcane magic, and when they reach their full maturity, they can ascend beyond their mortal forms to become forces of great power. These Ancient Wyrms can't be slain by normal means and must instead be sealed away.
+
+#### Draconic Essence
+At 1st level, an ancient dragon of terrible power has been bound within your soul.  Your Iridescent Strikes deal the damage type of the Dragon's Essence.
+##### Draconic Essence
+{{column-count:2
+| Dragon | Essence |
+|:----------------|:--:|
+Amethyst| Force
+Black| Acid
+Blue |Lightning
+Brass| Fire
+Bronze| Lightning
+Copper| Acid
+Crystal| Radiant
+Emerald| Psychic
+
+| Dragon   | Essence |
+|:------------------|:--:|
+Gold| Fire
+Green |Poison
+Red| Fire
+Sapphire |Thunder
+Silver| Cold
+Steel| Acid
+Topaz| Necrotic
+White| Cold
+}}
+#### Ancient Wyrm Spells
+You learn the spells at the Vessel levels noted in the table below. These don't count against your total number of Spells Known and cannot be switched out when you gain a level.
+Vessel Level|	Spells
+:-:|:-:
+2nd| absorb elements , command
+5th| scorching ray, suggestion
+9th| fear, fireball
+13th| elemental bane, wall of fire
+17th| dominate person, cone of cold
+
+#### Wyrm’s Resilience
+At 3rd level, an ancient dragon of terrible power has been bound within your soul. you gain resistance to your Dragon’s associated Essence. 
+
+Also, when you cast a Vessel Magic spell that deals damage, you can choose for it to deal the damage type of the Dragon’s Essence in place of its normal damage.
+
+#### Draconic Archon
+3rd level you draw on the power of the Ancient Wyrm bound to you to take on a Draconic form. Whenever you transform into your Archon Form you use the Draconic Archon stat block below:
+
+{{monster,frame
+## Draconic Archon
+*Medium Dragon (Shapechanger)*
+___
+**Armor Class Bonus**:: +1
+**Speed**       :: 30 ft., climb 30 ft., swim 30 ft.
+___
+**Skills** :: Arcana +PB, Intimidation +PB
+**Damage Resistances** :: Draconic Essence type
+**Condition Immunities** ::frightened
+**Languages** ::Draconic, and any languages you know
+
+___
+***Iridescent Breath.*** As a bonus action, the Archon can
+expend a Vessel Magic spell slot to exhale a torrent
+of Iridescent energy in an adjacent 30-foot cone or
+a 60-foot line (your choice), forcing creatures in that
+area to make a Dexterity saving throw. Creatures take
+damage of your Essence type equal to 2d8 per level
+of the Vessel Magic spell slot expended on a failure,
+and half as much damage on a successful save.
+:
+***Resonating Strikes.*** Once per turn when the Archon hits a creature with an Iridescent Strike, it can unleash a burst of resonant energy. The target must succeed on a Constitution saving throw or suffer disadvantage on its next saving throw made before the end of its next turn.
+}}
+
+#### Elemental Potency
+At 6th level, you can draw out even more elemental power from the Wyrm bound within you. Whenever you deal your Draconic Essence damage type to a creature, you can ignore resistance to that damage, and you treat immunity to that damage type as resistance.
+
+
+#### Elemental Sovereignty
+Starting at 14th level, the power of your Ancient Wyrm surges forth, granting you unparalleled mastery over its elemental essence. As a bonus action, you can unleash an aura of elemental power in a 30-foot radius around you for 1 minute. Creatures of your choice that start their turn in the aura or enter it for the first time on a turn take damage of your Draconic Essence type equal to your Charisma modifier (minimum of 1). This damage ignores resistance and treats immunity as resistance.
+
+#### Ancient Tyrant
+At 18th level, your power allows your Spirit to walk in the material world once again. Your Archon Form gains the following benefits:
+- You assume the true appearance of your Ancient Wyrm.
+- You are immune to the charmed and poisoned conditions, and to both your Draconic Essence and poison damage.
+- You can use your Iridescent Breath at will, as if you had spent a 5th-level slot, without expending a spell slot.
+
+{{pageNumber,auto}}
+\page
+### The Ascended
+When mortals attain heights of arcane power that allow them to ascend beyond their physical forms, they make themselves vulnerable to being sealed away. Often, these great sorcerers and archmages are punished by the deities of magic, and are imprisoned where they can no longer violate arcane laws.
+
+#### Ascended Essence
+The ascended mage bound to your soul. At 1st level, your Iridescent Strikes deal force damage on hit.
+
+#### Ascended Spells
+At 2nd level, You learn the spells at the Vessel levels noted in the table below. These don't count against your total number of Spells Known and cannot be switched out when you gain a level.
+
+Vessel Level|	Spells
+:-:|:-:
+2nd|	*arcane lance, shield*
+5th|	*hold person, invisibility*
+9th|  *counterspell, minute meteors*
+13th|	*arcae eyen, resilient sphere*
+17th|	*legend lore, wall of force*
+
+#### Ancient Knowledge
+At 3rd level, your Spirit grants you its esoteric knowledge. Whenever you learn a spell, you can choose from the Vessel or Wizard spell
+  list, and it becomes a Vessel spell for you. You can also cast
+     the ritual version of any Vessel spell you know.
+\column
+
+#### Ascended Archon
+At 3rd level, your Archon Form uses the stat block below:
+
+{{monster,frame
+## Ascended Archon
+*Medium Humanoid (Shapechanger)*
+___
+**Armor Class Bonus**:: +0
+**Speed**       :: 30 ft., fly 10 ft. (hover)
+___
+**Skills** ::  Arcana +PB, History +PB, Religion +PB
+**Damage Resistances**   :: Damage from all spells
+**Languages**            :: Primordial, and any languages you know
+___
+***Astral Step.*** Whenever the Archon casts a spell, it can teleport a number of feet equal to 10 times the spell level (minimum 10) to an unoccupied space it sees.
+:
+***Arcane Blast.*** Once on its turn, the Archon forgo one attack to cause a burst of magic at a point it can see within 60 feet. Creatures within 5 feet must succeed on a Dexterity saving throw or take damage as if they had been hit by one of your Iridescent Strikes.
+}}
+
+
+
+#### Potent Spellcasting
+At 6th level, the mage imprisoned within your soul empowers your spells. Whenever you deal damage with a Vessel spell, you add your Charisma modifier (minimum of +1) to one damage roll.
+
+#### Ascended Arcanum
+You wrest even greater magics from the Ascended within you. You learn a single 6th-level Wizard spell of your choice, which you can cast once per long rest without spending a spell slot.
+
+At 18th level, you learn a 7th-level Wizard spell that you can also cast once per long rest without expending a spell slot.
+
+#### Archmage Reborn
+
+At 18th level, your soul allows your Ascended Spirit to manifest itself once again. Your Archon Form gains the following benefits:
+
+- You assume the appearance The Ascended had in life.
+- The distance you can teleport with Astral Step is doubled.
+- As a bonus action on each of your turns, you can teleport up to 30 feet to an unoccupied space you can see in range.
+- The radius of your Arcane Blast becomes 15 feet.
+
+{{imageMaskCorner31,--offsetX:-50%,--offsetY:-50%,--rotation:0
+  ![](https://www.gmbinder.com/images/bK2QLDT.jpg){height:55%,left:-60px,top:650px}
+}}
+{{pageNumber,auto}}
+\page
+
+### The Beyond
+Creatures beyond comprehension of the far realm, classified commonly as Aberrations, can occasionally find their way to the material plane, with some of them being incomprehensibly powerful. Known as beyonders, they are commonly sealed by wizards, clerics, and druids alike for the safety of the world at large.
+
+#### Beyonder Essence
+At 1st level, your Iridescent Strikes deal psychic damage on hit.
+
+#### Beyonder Spells
+At 2nd level, You learn the spells at the Vessel levels noted in the table below. These don't count against your total number of Spells Known and cannot be switched out when you gain a level.
+
+Vessel Level|	Spells
+:-:|:-:
+2nd|	*Dissonant Whispers, Tasha’s Hideous Laughter*
+5th|	*Tasha’s Mind Whip, Mind Spike*
+9th|  *Enemies Abound, Hunger of Hadar*
+13th|	*Evard’s Black Tentacles, Raulothim’s Psychic Lance*
+17th|	*Contact Other Plane, Dominate Person*
+
+#### Awakened Mind
+
+At 3rd level, your mind has been opened to the powers beyond, granting you supernatural powers. You gain a telepathy out to 30ft. This increases to 60 ft. at 6th level, and finally 120 ft. at 14th level. Creatures can telepathically communicate back to you.
+
+In addition, you learn an language of your choice and gain proficiency in history. 
+
+#### Beyonder  Archon
+At 3rd level, You change into a form of unspeakable horror, inscrutable and indescribable. When you transform into your archon form you use the Beyonder Archon stat block below:
+
+{{monster,frame
+## Beyonder  Archon
+*Medium Aberration (Shapechanger)*
+___
+**Armor Class Bonus**:: +0
+**Speed**       :: 30 ft.
+___
+**Skills** ::  History +PB, Arcana +PB
+**Languages**            :: Deep Speech, and any languages you know
+**Senses**:: Blindsight 30ft
+___
+***Dominion of the Mind.*** once per turn, when you hit a creature with an iridescent strike, you can force them to make a wisdom save. On a failed save, the target is charmed by you until the end of your next turn.
+:
+***Mind Sap.*** When a creature is charmed by you, you can choose for it to take psychic damage equal to a roll of your iridescent strike die at the start of its turn, and your temporary hit points increase by the amount rolled. This damage does not affect the charm.
+
+}}
+
+#### Warp Beyond the Veil
+At 6th level, you can use your newfound powers to travel beyond the veil, making you impossible to hit. When you use your movement, you can teleport instead, up to a number of feet equal to 5 times your Charisma modifier. 
+
+In addition, when you transform into your archon form, you can teleport up to 30ft.
+
+
+#### Parasitic Control
+
+At 14th level, your spirit reveals to you a method of controlling others. When you would reduce a humanoid target to 0 Hit Point, you can instead bring it under your control. It is treated as being charmed, and continues to be until a remove curse spell is cast on it, the charmed condition is removed, or you use this feature again. 
+
+You can telepathically communicate with this creature so long as the two of you are on the same plane of existence.
+
+#### Rip Away The Veil
+
+At 18th level, your true form is unveiled, driving all who view your form to insanity. While in archon form, you gain the following benefits:
+
+- You assume the true form of your Beyonder Spirit
+- You gain immunity to psychic damage, and whenever you deal psychic damage, you ignore resistance to psychic damage and you treat immunity to psychic damage as resistance.
+- When a target takes damage from Mind sap, you can instead choose to forgo rolling and deal the maximum amount of damage.
+
+{{imageMaskCorner27,--offsetX:45%,--offsetY:-55%,--rotation:0
+  ![](https://i.imgur.com/V3JO44Z.jpeg){height:50%,left:50px,top:600px}
+}}
+
+
+
+{{pageNumber,auto}}
+\page
+
+### The Cataclysm                                   
+At the dawn of time, elemental forces ran wild. Elder beings of pure air, earth, fire, and water rampaged across the world, shaping it by their destruction. These primordial elementals and elder genies were banished from the material plane, but always seek to return. When they threaten the mortal realm, great forces bind these elder elemental Cataclysms to hosts.
+
+#### Elemental Essence
+
+Within you is bound an ancient elemental Spirit of overwhelming power. At 1st level, choose the type of Elemental Spirit bound to you: Air, Earth, Fire, or Water. This choice grants you an Affinity with certain damage:
+
+{{column-count:4
+| Air |
+|:---:|
+| thunder |
+
+| Earth |
+|:---:|
+|bludgeoning|
+
+| Fire |
+|:---:|
+|  fire 	|
+
+| Water |
+|:---:|
+| cold   |
+}}
+
+Your Iridescent Strikes deal your Elemental Affinity damage type on hit. The damage of your Iridescent Strikes is magical, regardless of the damage type.
+
+#### Cataclysm Spells
+At 2nd level, you also learn certain spells at the Vessel levels below. They are Vessel spells for you, but they do not count against your number of Spells Known, and they cannot be replaced.
+
+Spells on the first table are shared by Cataclysm Vessels
+of all Elemental Affinities. The second spell you gain at the Vessel levels listed below is determined by your Elemental Affinity, and are listed by Element on the tables below.
+
+Vessel Level|	Spells
+:-:|:-:
+2nd|	*absorb elements*
+5th|	*enlarge/reduce*
+9th|	*fly*
+13th|	*summon elemental*
+17th|	*arcane hand*
+
+Vessel Level|	Air Spells	|	Earth Spells
+:-:|:-:|:-:
+2nd|	*thunderwave* |*earth tremor* 
+5th|	*dust devil*| *spike growth*
+9th|	*sonic wave*|*erupting earth*
+13th|	*storm sphere*|*accursed touch*
+17th|	*control winds*|*wall of stone*
+
+Vessel Level|	Fire Spells	|	Water Spells
+:-:|:-:|:-:
+2nd|	*hellish rebuke* |*torrent* 
+5th|	*flaming sphere*| *misty step*
+9th|	*fireball*|*tidal wave*
+13th|	*wall of fire*|*watery sphere*
+17th|	*flame strike*|*maelstrom*
+
+\column
+####  Elemental Resistance
+At 3rd level, you gain resistance to your Affinity damage type.
+
+#### Cataclysm Archon
+At 3rd level, when you transform into your Archon Form, you use the Cataclysm Archon stat block below that corresponds to the Elemental Affinity you chose at 1st level:
+{{monster,frame
+## Air Archon
+*Medium Elemental (Shapechanger)*
+___
+**Armor Class Bonus**:: +0
+**Speed**       :: 20 ft., fly 30 ft. (hover)
+___
+**Skills** ::  Acrobatics +PB, Stealth +PB
+**Damage Resistances**   ::  thunder, lighting
+**Languages**            :: Auran, and any languages you know
+___
+***Bluster.*** Whenever the Archon deals thunder damage to a creature with an Iridescent Strike, it can knock it back 10 feet in a straight line. This distance is halved for each size the target is above the Archon.
+:
+***Elder Elemental.*** Whenever the Archon deals lighting or thunder damage, it ignores resistance, and treats immunity to those damage types as resistance.
+:
+***Gaseous.*** The Archon can move through any space as narrow as 1 inch wide without squeezing, and it does not provoke opportunity attacks while it is flying.
+}}
+
+{{monster,frame
+## Fire Archon
+*Medium Elemental (Shapechanger)*
+___
+**Armor Class Bonus**:: +0
+**Speed**       :: 40 ft.
+___
+**Skills** ::  Nature +PB, Intimidation +PB
+**Damage Resistances**   ::  fire, radiant
+**Languages**            :: Ignan, and any languages you know
+___
+***Elder Elemental.*** When the Archon deals fire or radiant damage, it ignores resistance, and treats immunity to those damage types as resistance.
+:
+***Ignite.*** Whenever the Archon deals fire damage to a creature with an Iridescent Strike, it can ignite it if it is flammable. Ignited targets take CHA fire damage at the end of each of their turns until they drop prone or a creature uses its action to extinguish the flames.
+:
+***Illumination.*** The Archon sheds bright light out to a 30-foot radius and dim light 30 feet beyond that.
+}}
+
+
+{{pageNumber,auto}}
+\page
+{{monster,frame
+## Earth Archon
+*Medium Elemental (Shapechanger)*
+___
+**Armor Class Bonus**:: +3
+**Speed**       :: 30 ft., climb 30 ft., burrow 10 ft.
+___
+**Skills** ::  Nature +PB, Survival +PB
+**Damage Resistances**   ::  bludgeoning, poison
+**Senses Tremmorsense** :: 10 ft.
+**Languages**            :: Terran, and any languages you know
+___
+***Elder Elemental.*** When the Archon deals bludgeoning damage, it ignores resistance, and treats immunity to bludgeoning damage as resistance.
+:
+***Rock Solid.*** Whenever the Archon deals bludgeoning damage to a creature with an Iridescent Strike, it can halve its speed until the start of your next turn. It can impose this effect on each creature once per turn.
+:
+***Siege Monster.*** When the Archon deals bludgeoning damage to a non-magical object or structure, it deals the maximum possible damage instead of rolling.
+}}
+
+{{monster,frame
+## Water Archon
+*Medium Elemental (Shapechanger)*
+___
+**Armor Class Bonus**:: +0
+**Speed**       :: 30 ft., swim 50 ft.
+___
+**Skills** ::  Medicine +PB, Nature +PB
+**Damage Resistances**   ::  acid, cold
+**Senses** :: darkvision 120 ft.
+**Languages**            :: Aquan, and any languages you know
+___
+***Aqueous.*** The Archon can breathe normally in both air and water, and it can move through spaces as narrow as 1 inch wide without squeezing.
+:
+***Elder Elemental.*** When the Archon deals bludgeoning or cold damage, it ignores resistance, and it treats immunity to those damage types as resistance.
+:
+***Flowing Resilience.*** When the Archon takes damage it can use a reaction to reduce it by CHA and move up to 15 feet without provoking opportunity attacks. It cannot use this reaction on force or psychic damage.
+}}
+
+#### Elder Power
+
+Starting 6th level, your elemental Spirit infuses you with its ancient destructive powers. Whenever you deal Affinity damage, you can treat a roll of 1 or 2 on any of the damage dice you roll as a 3.
+
+You are also immune to any Affinity damage dealt by your own Vessel spells while your Spirit Mantle is active.
+
+
+\column
+
+#### Elemental Eruption
+
+Raw primordial energies erupt from your Spirit. At 14th level, as an action, you can cause a 15-foot diameter, 60-foot high, pillar of raw elemental power to erupt from a point you can see within 30 feet, forcing creatures in that area to make a Dexterity saving throw. They take 8d6 Affinity damage on a failure, and half as much on a successful save. This counts as having cast a spell of your Vessel magic spell slot level for any features you could benefit from.
+
+You can use this feature a number of times equal to your Charisma modifier (minimum of once), and you regain all of your expended uses when you finish a long rest.
+
+#### Cataclysm Reborn
+
+At 18th level, you wield the full power of your primordial Cataclysm. When you are in your Archon Form you gain the following benefits:
+
+- You assume the true appearance of your Cataclysm.
+- The weather in a 1-mile radius surrounding you subtly changes to reflect your primordial elemental influence.
+- You can use your Elemental Eruption action at will.
+
+{{imageMaskCorner22,--offsetX:55%,--offsetY:-51%,--rotation:0
+  ![](https://www.gmbinder.com/images/FVF1g3Q.jpg){height:60%,left:200px,top:480px}
+}}
+
+{{pageNumber,auto}}
+\page
+### The Conduit
+
+While most gods are content to work through chosen Clerics
+and Paladins, some prefer a more direct method of influence.
+When they have found a suitable mortal host, they undergo
+an ancient celestial ritual which allows them to sever a part
+of their essence, forming a Divine Spark, which they imbue
+into their chosen mortal host. 
+
+Eventually, this Divine Spark will grow giving the mortal access to wondrous divine power. 
+
+
+
+#### Conduit Essence
+
+ At 1st level, your Iridescent Strikes deal damage depending on the alignment of the god you serve as a Conduit.
+ 
+| Alignment  |  Damage |
+|:-----------:|:-------:|
+| Good       | radiant |
+| Neutral    | thunder |
+| Evil       | necrotic|
+
+Additionally, choose a Divine Domain from among those available to the Cleric class that best represents the domain of your god. This will influence later Conduit Spirit features.
+
+#### Conduit Magic
+
+At 2nd level, in place of the normal list of Spirit Spells, your Divine Spark infuses you with the knowledge of spells related to your god.
+
+You learn the 1st-level Domain Spells of the Divine Domain you selected. 
+
+They count as Vessel spells for you, but they do not count against your total number of spells known.
+
+When your Vessel Magic slot level increases, you learn the Domain Spells of that same level from your Divine Domain
+
+
+#### Conduit Archon
+At 3rd level, when you transform into Archon Form, you use the Cursed Archon stat block below:
+{{monster,frame
+## Conduit Archon
+*Medium Celestial (Shapechanger)*
+___
+**Armor Class Bonus (Prophet)**:: +0
+**Armor Class Bonus (Slayer)**:: +2
+**Speed**       :: 30 ft., (fly 10 ft., Prophet Only)
+___
+**Skills** ::  ntimidation +PB, Religion +PB
+**Damage Resistances**   :: radiant, necrotic
+**Languages**            :: Celestial, and any languages you know
+___
+***Celestial Regeneration.*** Whenever the Archon casts a Vessel spell, its temporary hit points increase by an amount equal to twice the level of the spell. Your temporary hit points cannot exceed twice your level.
+:
+***Channel Divinity.*** The Archon can use the 2nd-level Channel Divinity option from your chosen Divine Domain. It can only do so once per long rest.
+
+}}
+
+
+#### Divine Spark
+
+At 3rd level, you have been chosen to serve as a the Conduit for a deity of the upper planes and have been imbued with a Divine Spark of their wondrous power. You gain the following benefits:
+- Whenever a Vessel class feature uses Charisma, you use Wisdom instead.
+- Whenever you learn a Vessel spell, you can instead choose to learn a spell of the same level from the Cleric spell list.
+
+
+#### Empowered Conduit
+At 6th level,  when you cast a Vessel spell that deals damage, you can choose for that casting of the spell to deal the same damage
+type as your Iridescent Strike, in place of its normal damage.
+
+Also, when you deal the damage type of your Iridescent Strikes to certain creatures as shown on the table below, you
+can treat a roll of 2 or lower on the damage dice as a 3.
+
+Alignment (Damage)| Creatures Affected
+|:-----------:|:-------:|
+Good (Radiant)| Fiends, Undead
+Neutral (Thunder)| Celestials, Fiends
+Evil (Necrotic)| Celestials, Fey
+
+
+#### Anointed One
+
+At 14th level, you are able to draw more power from your Divine Spark to
+use in service to your god. You learn a single 6th-level spell of
+your choice from the Cleric spell list, and you can cast that
+spell once, at 6th-level, without expending a spell slot. 
+
+Once you cast this Cleric spell in this way you must finish a long rest before you can cast it in this way again.
+
+At 18th level, you learn a Cleric spell of 7th-level, following the same rules as the 6th-level spell you learned.
+
+#### Celestial Champion
+At 18th level, you are able to directly channel the power of your deity into
+the world. Your Archon Form gains the following benefits:
+
+- You assume the true appearance of your Deity.
+- You can cast your 1st-level Divine Domain spells at-will, at 1st-level, without expending a spell slot.
+- Once per Archon Form transformation, you can cast the divine word spell without expending a spell slot.
+
+{{pageNumber,auto}}
+\page
+### The Cursed
+Condemned by the heavens for transgressions at the dawn of time, Cursed Spirits were wielders of overwhelming sinister power. Counted among these Spirits are demons, devils, and other vile spirits of the lower planes. Cursed pose a threat to the multiverse, and are sealed to prevent untold calamity.
+
+#### Cursed Essence
+
+The aura of the Cursed Spirit sealed within your soul bleeds into your personality. At 1st level, your Iridescent Strikes deal fire damage on hit.
+
+#### Cursed Spells
+
+At 2nd level, you learn the spells at the Vessel levels noted in the table below. These don't count against your total number of Spells Known and cannot be switched out when you gain a level.
+
+Vessel Level|	Spells
+:-:|:-:
+2nd|	*cause fear, hellish rebuke*
+5th|	*flame blade, scorching ray*
+9th|	*fireball, vampiric touch*
+13th|	*dominate beast, wall of fire*
+17th|	*flame strike, insect plague*
+
+#### Cursed Archon
+
+You can take on a sinister form wreathed in the dark flame and shadow of your Cursed Spirit. At 3rd level, when you transform into Archon Form, you use the Cursed Archon stat block below:
+
+{{monster,frame
+## Cursed Archon
+*Medium Fiend (Shapechanger)*
+___
+**Armor Class Bonus**:: +1
+**Speed**       :: 40 ft., climb 40 ft.
+___
+**Skills** ::  Athletics +PB, Stealth +PB
+**Damage Resistances**   ::  fire, poison
+**Senses** :: darkvision 120 ft.
+**Languages**            :: Infernal, and any languages you know
+___
+***Frenzy.*** When the Archon takes the Attack action, it can choose enter a Frenzy which lasts until the start of your next turn. For the duration, all of its attacks, and all attacks against the Archon have advantage.
+:
+***Infernal Drain.*** Once per turn when the Archon deals fire damage with an Iridescent Strike, its temporary hit points increase by CHA. Your total temporary hit points cannot exceed twice your Vessel level.
+}}
+
+
+\column
+#### Malignant Aura
+At 3rd level, the aura of the Cursed Spirit sealed within your soul bleeds into your personality. You gain the Striking Presence Aspect. It does not count against your number of Unsealed Aspects and it cannot be replaced with another Aspect.
+
+If you already have the Striking Presence Aspect, you gain another Unsealed Aspect of your choice.
+
+#### Hellfire
+
+At 6th level, you can access the true power of the dark Spirit imprisoned within, conjuring cursed infernal flames. Whenever you deal fire damage to a target, you ignore resistance to fire damage and treat immunity to fire as resistance.
+
+Also, if you deal fire damage to a creature it cannot regain hit points until the start of your next turn.
+
+#### Dark Sacrifice
+
+At 14th level, you can sacrifice your vitality to your Spirit in return for its power. As a bonus action, you can reduce both your current and maximum hit points by 10 to regain one of your Vessel Magic slots. This reduction cannot be lessened in any way.
+
+At the end of your next long rest any reduction to your hit point maximum from this feature returns to normal.
+#### Lord of Darkness
+
+At 18th level, your power allows your Spirit to walk in the material world once again. Your Archon Form gains the following benefits:
+
+- You assume the true appearance of your Cursed Spirit.
+- You are immune to the charmed, frightened, and poisoned conditions, and to both poison and fire damage.
+- When you take the Attack action on your turn you can make one bonus Iridescent Strike as part of your action.
+- Once per turn when you deal fire damage to a creature with an Iridescent Strike you can cause it to be frightened of you until the beginning of your next turn.
+{{pageNumber,auto}}
+\page
+
+### The Ego
+While most Vessels bind an external, otherworldly entity to their soul, you have looked inward and awakened the idealized, ultimate version of yourself. Your Spirit is the concept of the Ego. You channel this sheer force of will and self-actualization to push your physical body far beyond the limits of mortal capabilities.
+
+#### Ego Essence
+At 1st level, your willpower manifests as raw kinetic force. Your Iridescent Strikes deal force damage on hit.
+
+
+
+#### Ego Spells
+ 
+At 2nd level, you learn the spells at the Vessel levels noted in the table below. These don't count against your total number of Spells Known and cannot be switched out when you gain a level.
+
+Vessel Level|	Spells
+:-:|:-:
+2nd|heroism, jump
+5th|blur, enhance ability
+9th|haste, thunder step
+13th|freedom of movement, staggering smite
+17th|skill empowerment, steel wind strike
+
+
+#### Awakened Physique
+At 3rd level, your body begins to obey the idealized self awakened within your soul. The damage die for your Iridescent Strikes increases from a d6 to a d8.
+
+Also, while your Spirit Mantle is active, you can add your Charisma modifier when you make Strength checks or calculate the distance of your long and high jumps.
+
+
+
+#### Ego Archon
+Starting 3rd level, when you transform into your Archon Form, you use the Ego Archon stat block below:
+
+{{monster,frame
+## Ego Archon
+*Medium Humanoid (Shapechanger)*
+___
+**Armor Class Bonus** :: +0
+**Speed**       :: 40 ft.
+___
+**Skills** ::  Athletics +PB, Acrobatics +PB
+**Damage Resistances**   ::  force, psychic
+**Senses** :: darkvision 120 ft.
+**Languages**            :: Any languages you know
+___
+***Unshaken Ideal.*** The Archon has advantage on ability checks and saving throws it makes to avoid being knocked prone or moved against its will.
+:
+***Overwhelming Strike.*** Once per turn, when the Archon hits a creature with an Iridescent Strike, it can force the target to make a Strength saving throw against your Vessel Spell Save DC. On a failure, the target is pushed up to 15 feet away.
+}}
+
+#### Peerless Vigor
+At 6th level, your perfected self rejects weakness of body and spirit. You gain advantage on saving throws against being charmed, frightened or paralyzed.
+
+Additionally, whenever you expend a Vessel Magic spell slot, you can choose to cure yourself of one level of exhaustion or end one disease or poison currently affecting you.
+
+#### Sovereign Ego
+
+At 14th level, your will can crush the certainty of others. As a bonus action, you can expend a Vessel Magic spell slot to radiate overwhelming selfhood for 1 minute. For the duration, hostile creatures of your choice within 10 feet of you have disadvantage on saving throws against your Vessel spells.
+
+Once on each of your turns while this manifestation is active, when you hit a creature with an Iridescent Strike or force a creature to make a saving throw against a Vessel spell, you can force that creature to make a Charisma saving throw against your Vessel spell save DC. On a failed save, the creature is overwhelmed by your presence until the start of your next turn. While overwhelmed in this way, its speed is halved, and it cannot have advantage on attack rolls against you.
+
+#### The Reborn
+At 18th level, you fully synchronize with your ultimate self. Your Archon Form gains the following benefits:
+
+- You assume the true, flawless appearance of your Ego, glowing with an aura of pure kinetic energy.
+
+- The damage die for your Iridescent Strikes increases to a d10.
+
+- You gain resistance to all bludgeoning, piercing, and slashing damage.
+
+- Whenever you make a Strength or Dexterity ability check, you can treat a d20 roll of 9 or lower as a 10.
+{{pageNumber,auto}}
+\page
+### The Empty 
+Some Vessels are chosen by gods, fiends, dragons, dead heroes, or things that crawled from the dark between planes. You were chosen by absence. Within your soul there is not a roaring Spirit, but a wound where one should have been. A celestial law, ancient curse, or cosmic bargain severed you from the overflowing spiritual power that defines other Vessels. In exchange, your mortal body became something frighteningly perfect: silent to supernatural senses, violently precise, and capable of feats that look impossible even to warriors blessed by magic.
+Vessels of the Empty are often mistaken for failures. They cannot rely on radiant displays, overwhelming auras, or the obvious majesty of an Archon. Their power is more humiliating than that. They walk through sorcery, read the breath before a strike, and kill monsters with steel, bone, and instinct.
+#### Empty Essence
+
+At 1st level, your Iridescent Strikes deal your choice of bludgeoning, piercing, or slashing damage.
+
+Your restriction also changes the way your Vessel power manifests. Whenever a Vessel class feature, an Unsealed Aspect, or your Archon Form uses your Charisma modifier, you can use your Strength modifier instead.
+
+#### Empty Spells
+
+Starting at 2nd level, you lose the ability to cast spells through your Vessel Magic feature. You no longer learn Vessel cantrips or Vessel spells, and you cannot cast spells using Vessel Magic spell slots.
+
+Furthermore, while your Spirit Mantle is active, your walking speed increases by 10 feet. When you gain the Unchained Power feature at 11th level, you cannot use it to cast a Vessel spell. Instead, when you transform into Archon Form, you can move up to your speed and make one weapon attack or Iridescent Strike as part of the same bonus action.
+#### Heavenly Restriction
+
+At 3rd level, your body has fully adapted to the absence inside your soul. You gain proficiency with martial weapons.
+
+Finally, you do not need to visibly cloak yourself in spiritual power when you activate your Spirit Mantle. Your Mantle can manifest as total spiritual silence, causing your presence to become unnervingly difficult to read.
+
+#### Empty Archon
+
+At 3rd level, when you transform into your Archon Form, you do not become more spiritual. You become less detectable, less readable, and more terrifyingly physical. You use the Empty Archon stat block below.
+
+{{monster,frame
+
+## Empty Archon
+
+*Medium Humanoid (Shapechanger)*::
+___
+**Armor Class Bonus** :: +1
+**Speed** :: 45 ft., climb 45 ft.
+___
+**Skills** :: Acrobatics +PB, Athletics +PB, Perception +PB
+**Damage Resistances** :: bludgeoning, piercing, and slashing damage
+**Senses** :: blindsight 10 ft.
+**Languages** :: any languages you know
+___
+**Absent Soul.** The Archon cannot be detected by spells or magical effects that sense alignment, creature type, thoughts, emotions, souls, divine presence, fiendish presence, undead presence, or magical auras, unless the Archon chooses to be detected.
+:
+**Killing Step.** When the Archon takes the Attack action, it can move up to 10 feet before or after one attack it makes. This movement does not provoke opportunity attacks from the target of that attack.
+}}
+
+#### Inverted Body
+At 6th level, your restriction sharpens your body beyond mortal limits. Your speed increases by 10 feet.
+
+In addition, your attacks with weapons and Iridescent Strikes ignore resistance to bludgeoning, piercing, and slashing damage.
+
+#### Heaven-Defying Instinct
+
+At 14th level, your senses become so refined that supernatural speed and magical misdirection struggle to deceive you. You gain blindsight out to 30 feet. If you already have blindsight from your Empty Archon form, that blindsight also increases to 30 feet while transformed.
+
+You also gain proficiency in Dexterity saving throws. While your Spirit Mantle is active, magical darkness, invisibility, illusions, and other magical effects cannot impose disadvantage on your attack rolls against creatures within your blindsight.
+
+#### Perfected Restriction
+
+At 18th level, your Empty Archon form becomes the perfected expression of the covenant placed upon you. While in Archon Form, you gain the following benefits:
+
+- You assume the appearance of your ideal mortal body.
+
+- Your walking and climbing speeds increase by 20 feet.
+
+- You gain resistance to force, necrotic, psychic, and radiant damage.
+
+- Your blindsight increases to 60 feet.
+
+- When you hit a creature with a weapon attack or Iridescent Strike, the attack deals an extra 1d10 damage of the damage type.
+
+
+
+{{pageNumber,auto}}
+\page
+
+{{imageMaskEdge2,--offset:30%,--rotation:180
+  ![](https://www.gmbinder.com/images/0QHTnVd.jpg){height:60%,top:-60px}
+}}
+
+::::::::::::::::::::::::::
+### The Fallen
+Not all denizens of the upper planes serve the will of the gods that created them. Those who stray too far from the ordained purpose invoke divine wrath. These wayward celestial beings are branded as Fallen Spirits and hurled from the heavens to be imprisoned in mortals to atone for their sins. Some swear revenge upon the heavens while others seek reconciliation.
+
+#### Fallen Essence
+
+Your Fallen Spirit imbues you. At 1st level, your Iridescent Strikes attacks deal radiant damage.
+
+#### Fallen Spells
+ 
+At 2nd level, you learn the spells at the Vessel levels noted in the table below. These don't count against your total number of Spells Known and cannot be switched out when you gain a level.
+
+Vessel Level|	Spells
+:-:|:-:
+2nd|	guiding bolt, shield of faith
+5th|	branding smite, spiritual weapon
+9th| revivify, spirit shroud
+13th|	banishment, guardian of faith
+17th|	flame strike, summon celestial 
+
+#### Celestial Warrior
+At 3rd level, your Spirit imbues you with the martial skill of the heavenly hosts. You gain proficiency with all martial weapons.
+
+If you make a weapon attack while your Spirit Mantle is active, you can empower the attack so it counts as an Iridescent Strike. On hit, gain a bonus to it’s damage equal to your Charisma modifier, but you use the weapon’s normal damage dice.
+ 
+Finally, you gain proficiency in Insight, and if you make a Wisdom (Insight) check while your Spirit Mantle is active you add your Charisma modifier (minimum of +1) to your roll.
+
+\column
+:::::::::::::::::::::::::::
+
+
+#### Fallen Archon
+
+You take on a form wreathed in rings of fire or a humanoid that radiates golden light. Starting 3rd level, when you transform into your Archon Form, you use the Fallen Archon stat block below:
+
+{{monster,frame
+## Fallen Archon
+*Medium Celestial (Shapechanger)*
+___
+**Armor Class Bonus** :: +2
+**Speed**       :: 30 ft.
+___
+**Skills** ::  Intimidation +PB, Religion +PB
+**Damage Resistances**   ::  necrotic, radiant
+**Senses** :: darkvision 120 ft.
+**Languages**            :: Celestial, and any languages you know
+___
+***Celestial Ward.*** As a bonus action, the Archon grants one target it can see within 30 feet CHA temporary hit points. It cannot target itself with this feature.
+:
+***Divine Challenge.*** If the Archon deals radiant damage to a creature with an Iridescent Strike, that creature has disadvantage on attack rolls against targets other than the Archon until the start of your next turn.
+}}
+{{pageNumber,auto}}
+\page
+#### Holy Zeal
+
+At 6th level, divine power infuses your weapons with a desire for justice. When you use a melee weapon to make an Iridescent Strike it gains the Thrown (30/90) property, and after you make a ranged attack with it, it instantly returns to your hand.
+
+Also, your attacks against any creature marked by Divine Challenge score a critical hit on a roll of 19-20 on the d20. This increases at 14th level (18-20) and 18th level (17-20).
+
+#### Celestial Wings
+
+At 14th level, your zeal has regained some of your Spirit's lost power. Your Archon Form gains a flying speed equal to its walking speed.
+
+#### Divine Avenger
+
+At 18th level, you can fully channel the divinity of the Spirit bound to your mortal flesh. Your Archon Form gains the following benefits:
+
+- You assume the true appearance of your Fallen Spirit.
+- When you miss a target with a weapon attack, the next attack you make against that creature has advantage.
+- Whenever you score a critical hit against a creature, it is blinded, deafened, and cannot speak for 1 minute. At the end of each of its turns, it can make a Constitution saving throw, ending one condition on each successful save.
+
+
+{{pageNumber,auto}}
+\page
+### The Formless
+Before the world was shaped, horrible things slithered about the darkness. Formless monsters with only one desire, to eat and consume anything they could. These shapeless creatures of hunger are known as Formless, and even now, they gnaw the roots of the world, trapped deep below the material plane.
+
+#### Formless Essence
+
+The oozing Spirit bound to your soul. At 1st level, your Iridescent Strikes deal acid damage on hit.
+
+#### Formless Spells
+
+At 2nd level, you learn the spells at the Vessel levels noted in the table below. These don't count against your total number of Spells Known and cannot be switched out when you gain a level.
+
+Vessel Level|	Spells
+:-:|:-:
+2nd|	caustic brew, entangle
+5th|	hold person, web
+9th|	life transference, slow
+13th|	grasping vine, vitriolic sphere
+17th|	contagion, hold monster
+
+
+
+
+#### Formless Archon
+You morph into a shapeless form of slime or an unspeakable flowing mass of opaque ooze. At 3rd level, when you transform into your Archon Form you use the Formless Archon stat block below:
+{{monster,frame
+## Formless Archon
+*Medium Ooze (Shapechanger)*
+___
+**Armor Class Bonus** :: +1
+**Speed**       :: 30 ft., climb 30 ft.
+___
+**Skills** ::  Deception +PB, Stealth +PB
+**Damage Resistances**   ::  acid, cold
+**Senses** :: blindsight 60 ft. (blind beyond this radius)
+**Languages**            :: Primordial, and any languages you know
+___
+***Pseudopod.*** The Archon has a number of additional pseudopods equal to your CHA. These pseudopods can only be used for unarmed Iridescent Strikes, and have a reach of 10 feet. Creatures can attack these pseudopod limbs to damage the Archon directly.
+:
+***Sticky Slime.*** When the Archon hits a creature equal to its size or smaller with a melee Iridescent Strike, the target must succeed on a Dexterity saving throw or be grappled. As an action, a grappled creature can make a Strength saving throw, escaping on a success.
+}}
+
+\column
+
+#### Amorphous Shape
+At 3rd level, yhe oozing Spirit bound to your soul allows you to
+reshape yourself in unnatural ways. You can move through gaps as narrow as 1-inch without having to squeeze. However, this ability has no effect
+on anything you are wearing or carrying.
+
+You also gain the Ethereal Tendril Aspect. It does not count against your number of Unsealed Aspects and it cannot be replaced with another Unsealed Aspect.
+
+If you already know Ethereal Tendril, you gain another Unsealed Aspect of your choice.
+
+#### Consume Vitality
+Stating 6th level, while in Archon Form, you can use a bonus action to force any creatures under the effect of a Formless Magic spell or grappled by you to make a Constitution saving throw. On a failed save, they take 2d8 acid damage and your temporary hit points increase by half the total acid damage dealt. Your temporary hit points cannot exceed twice your level.
+
+This acid damage increases at certain Vessel levels: at 9th (3d8), 13th (4d8), 17th (5d8), and 20th level (6d8).
+
+
+
+#### Consume Strike
+At 14th level, your Spirit hungers for the power of others. Whenever your Archon Form is hit by an attack, you can use your reaction to temporarily consume the memory of that attack.
+
+The first Iridescent Strike you make before the end of your next turn morphs into a gelatinous mockery of the attack you consumed. On hit, it applies the damage and effects from the attack you consumed instead of a normal Iridescent Strike.
+
+#### Primordial Hunger
+At 18th level, you and the Formless Spirit bound to you have become one hunger. Your Archon Form gains the following benefits:
+
+- You assume the true appearance of your Formless Spirit.
+- You gain immunity to acid damage, and whenever you deal acid damage, you ignore resistance to acid damage and you treat immunity to acid damage as resistance.
+- As an action on your turn, you can make one Iridescent Strike with each one of your Archon's Pseudopods.
+
+{{pageNumber,auto}}
+\page
+
+### The Mercurial
+
+Within your soul is bound a being of the primordial chaos, an entity of ever-shifting form that desires all to be fluid. While it is with your soul, you can draw on its abilities to change your appearance, and even modify your abilities as a Vessel.
+
+#### Mercurial Essence
+At 1st level, your Iridescent Strikes deal your choice of either bludgeoning, piercing, or slashing damage on hit, as you can change the shape of your limbs as you strike
+
+#### Mercurial Spells
+At 2nd level, you learn the spells at the Vessel levels noted in the table below. These don't count against your total number of Spells Known and cannot be switched out when you gain a level.
+
+Vessel Level| Spells
+:-:|:-:
+2nd|	Expeditious Retreat, Jump
+5th|	alter self, spider climb
+9th|	haste, water breathing
+13th|	death ward, polymorph
+17th|	reincarnate, skill empowerment
+
+#### Fluid Form
+
+At 3rd level, the chaotic entity bound to your soul makes your form fluid.
+
+As an action, you can change your physical appearance and voice to match that of any creature you have seen before, so long as your new appearance has the same arrangement of limbs as you do. 
+
+You determine the specifics, including your race, coloration, sex, height, weight, and hair length, but you cannot change sizes.
+
+This does not affect your clothing or your game statistics.
+
+
+
+#### Mercurial Archon 
+At 3rd level, when you transform into your Archon Form you use the Mushroom Archon stat block above:
+{{monster,frame
+## Mercurial Archon 
+*Medium Aberration (Shapechanger)*
+___
+**Armor Class Bonus** :: +1
+**Speed**       :: 30 ft.
+___
+**Skills** :: Deception +PB, Stealth +PB
+**Damage Resistances** :: cold, poison
+**Languages** :: Primordial, and any languages you know
+___
+***Disruptive Presence.*** Creatures within 15 feet of the
+Archon have disadvantage on saving throws to keep
+concentration on spells and other effects
+:
+***Fluid Form.*** The Archon can use Fluid Form to change its appearance as a bonus action on its turn.
+
+}}
+
+\column
+
+#### Ever--Changing Spirit
+At 6th level, due to its very nature, your Sealed Spirits abilities shift and change. 
+
+At the end of each long rest, you can replace one of the Vessel Spells you know with another Vessel Spell of the same level, or you can replace one of your Unsealed Aspects with another Aspect of the same prerequisite level.
+
+#### Mercurial Mastery
+
+At 14th level, you can manifest the abilities of your Spirit even when not in your Archon Form. When you use Fluid Form, you also gain
+one Unsealed Aspects of your choice. 
+
+It remains until you use an action to return to normal, or you manifest another Trait
+
+#### Paendemonium Incarnate
+
+At 18th level, your power allows your Spirit to walk in the material world
+once again. Your Archon Form gains the following benefits:
+
+- You assume the true appearance of your Mercurial Spirit.
+- At the start of each of its turns, your Archon can replace one of its Vessel Spells or Unsealed Aspects with another of your choice.
+- Whenever you use Fluid Form, you can repeat a saving throw to end one condition currently affecting you, with advantage on your roll.
+
+{{pageNumber,auto}}
+\page
+### The Mushroom Prince
+Within the verdant depths of ancient forests and the shadowed corners of forgotten caves, there exists a lineage of warriors and mystics known as the Mycotic Princes. These individuals have forged a deep connection with the fungal realms, drawing power from the ethereal glow of iridescent mushrooms and the silent wisdom of the mycelial network.
+
+#### Mushroom Essence
+At 1st level, your Iridescent Strikes deal poison damage on hit.
+
+#### Mushroom Spells
+At 2nd level, you learn the spells at the Vessel levels noted in the table below. These don't count against your total number of Spells Known and cannot be switched out when you gain a level.
+
+Vessel Level| Spells
+:-:|:-:
+2nd|	Fog Cloud,Ray of Sickness
+5th|	Barkskin, Bloom
+9th|	Gaseous Form, Plant Growth
+13th|	Hallucinatory Terrain, Hunger Of The Earth
+17th|	Cloudkill, Commune with Nature
+
+#### Fungal Spore Veil
+At 3rd level, you gain the ability to envelop yourself in a swirling veil of fungal spores you become partially incorporeal, you can move through spaces as if they were difficult terrain, passing through small cracks and openings with ease. 
+
+Also, you gain resistance to both acid and poison damage.
+
+
+
+#### Mushroom Archon 
+At 3rd level, when you transform into your Archon Form you use the Mushroom Archon stat block above:
+{{monster,frame
+## Mushroom Archon 
+*Medium Plant (Shapechanger)*
+___
+**Armor Class Bonus** :: +1
+**Speed**       :: 30 ft.
+___
+**Skills** :: Nature +PB, Stealth +PB
+**Damage Resistances** :: necrotic, psychic
+**Languages** :: Sylvan, and any languages you know
+___
+***Natural Camouflage.*** 
+The Archon has advantage on Dexterity (Stealth) checks to hide in forested or arborous areas.
+:
+***Spore Burst.*** When the Archon hits a target with an Iridescent Strike, it can force it to make a Constitution saving throw. On a failed save, the target takes poison damage equal to 1d8. If the target succeeds on the saving throw, it takes no additional damage.
+
+This poison damage increases at certain Vessel levels: at 6th (2d8), 9th(3d8), 13th (4d8), 17th (5d8), and 20th level (6d8).
+
+}}
+
+\column
+
+####  Fungal Infusion
+At 6th level, you unlock the latent power of the fungal essence within you, infusing your attacks with toxic spores. 
+
+When you deal poison damage to a creature, you ignore the target's poison resistance, and you treat the target's immunity to poison damage as resistance.
+
+
+#### Fungal Spore Nova
+
+At 14th level, you reach the pinnacle of your mastery over fungal magic, unleashing a devastating nova of toxic spores. As an action, you can release a burst of spores in a 20-foot radius centered on yourself. Each creature of your choice within this area must make a Constitution saving throw or suffer poison damage equal to 8d8, and become poisoned for 1 minute. On a successful save, they take half damage and are not poisoned.
+
+Additionally, each creature of your choice that starts its turn within the area of the Fungal Spore Nova take poison damage equal to your Charisma modifier. This effect lasts for 1 minute or until the spores dissipate.
+
+This counts as having cast a spell of your Vessel magic spell slot level for any features you could benefit from.
+
+Once you use this feature, you can't use it again until you finish a long rest.
+
+
+
+
+
+#### Ascendancy of the Fungal Sovereign
+At 18th level, you achieve the ultimate manifestation of your connection with the fungal realm, becoming the true Mushroom Prince. Your Archon Form gains the following benefits:
+- You assume the true appearance of Mushroom Prince.
+- You gain temporary hit points equal to three times your Vessel level.
+-  You emit an aura of poisonous spores in a 30-foot radius, causing each creature of your choice that start their turn in the area take poison damage equal to 1d8 + your Charisma modifier.
+- You are immune to poison damage and the poisoned condition.
+{{pageNumber,auto}}
+\page
+### The Mythic Hero
+When the order of existence is threatened, it is inevitable that a mortal hero will rise up in defense of the realm. Once they vanquish the threat, these heroes often return to a mundane life and live out their remaining days in bucolic happiness.
+
+#### Heroic Essence
+At 1st level, your Iridescent Strikes deal magical slashing, piercing or bludgeoning damage (your choice) on hit.
+
+#### Heroic Remenence
+At 2nd level, you gain proficiency with medium armor, heavy armor and shields.
+
+
+#### Heroic Regalia
+The Mythic Hero bound to your soul grants you its knowledge of war. At 3rd level, you gain proficiency in one weapon of your choice.
+
+When you make a weapon attack, you can empower the attack so it counts as an Iridescent Strike. On hit, gain a bonus to it’s damage equal to your Charisma modifier, but you use the weapon’s normal damage dice.
+
+If the damage die of the weapon is smaller than your Iridescent Strike damage die, you use the damage die of your Iridescent Strike instead.
+
+
+\column
+
+#### Mythic Exploits
+In place of granting you Spirit Spells, your Spirit imbues you
+with some of the skills that made them into a legendary hero,
+allowing you to use Exploits. At 3rd level, you gain the following features:
+
+**Exploit Dice.** The Mythic Exploits table shows how many
+Exploit Dice you have to use Exploits. To use an Exploit, you
+expend an Exploit Die, and you regain all of your expended
+Exploit Dice each time you finish a short or long rest.
+
+**High Degree.** Your Vessel level limits the technicality of
+the Exploits you are able to perform. This limit is reflected in the High Degree column of the Mythic Exploits table.
+
+**Exploits.** You learn two Martial Exploits of your choice
+from those available to the Fighter. You can only use one Exploit per ability check, attack, or saving throw.
+
+When you gain a Vessel level, you can replace one Exploit
+you know with another Martial Exploit of your choice.
+
+**Saving Throws.** If an Exploit requires a creature to make
+a saving throw, the saving throw DC is calculated as follows:
+
+**Exploit save DC** = 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice).
+{{classTable
+##### Mythic Exploits
+| Class  | Exploits | Exploit | Exploit |   High  |
+| Level  | Known    | Die     |   Dice  |  Degree |
+|:------:|:--------:|:-------:|:-------:|:-------:|
+|  3rd   |    2     |   d4    |    2    |   1st   |
+|  4th   |    2     |   d4    |    2    |   1st   |
+|  5th   |    3     |   d4    |    2    |   1st   |
+|  6th   |    3     |   d4    |    2    |   1st   |
+|  7th   |    4     |   d6    |    3    |   2nd   |
+|  8th   |    4     |   d6    |    3    |   2nd   |
+|  9th   |    4     |   d6    |    3    |   2nd   |
+|  10th  |    4     |   d6    |    3    |   2nd   |
+|  11th  |    5     |   d6    |    3    |   2nd   |
+|  12th  |    5     |   d6    |    3    |   2nd   |
+|  13th  |    5     |   d6    |    3    |   2nd   |
+|  14th  |    5     |   d6    |    3    |   2nd   |
+|  15th  |    6     |   d8    |    4    |   3rd   |
+|  16th  |    6     |   d8    |    4    |   3rd   |
+|  17th  |    6     |   d8    |    4    |   3rd   |
+|  18th  |    6     |   d8    |    4    |   3rd   |
+|  19th  |    7     |   d8    |    4    |   3rd   |
+|  20th  |    7     |   d8    |    4    |   3rd   |
+
+}}
+
+{{imageMaskCorner35,--offsetX:56%,--offsetY:-73%,--rotation:5
+  ![](https://i.imgur.com/uEEe8dN.jpg){height:35%,left:400px,top:820px}
+}}
+
+{{pageNumber,auto}}
+\page
+
+
+#### Heroic Archon
+Starting 3rd level, you take the form of a legendary hero. When you transform into Archon Form, you use the Heroic Archon stat block:
+{{monster,frame
+## Heroic Archon
+*Medium Humanoid (Shapechanger)*
+___
+**Armor Class Bonus** :: +1
+**Speed**       :: 40 ft.
+___
+**Skills** ::  Athletics +PB, History +PB
+**Condition Immunities**   ::   frightened, stunned
+**Languages**            :: any languages you know
+___
+***Legendary Resilience.*** When the Archon fails an ability check or saving throw that uses Strength, Dexterity, or Constitution, it can expend a Vessel Magic spell slot or an Exploit Die to change its d20 roll to a 20.
+:
+***Mythic Warrior.*** The Archon can use a bonus action to take the Dash action, or attempt a shove or grapple
+}}
+
+#### Mythic Skill
+By 6th level, you learn one Fighting Style of your choice from those available to the Fighter class.
+
+Also, at the end of each long rest, you can commune with the Spirit bound within you and replace your Fighting Style with another Fighting Style available to the Fighter.
+
+In place of replacing your Fighting Style, you can replace one Exploit you know with another Exploit of the same Degree.
+
+#### Goading attack
+
+Starting 6th level, when you deal bludgeoning, piercing, or slashing
+damage to a creature it has disadvantage on the first attack roll it makes before the start of your next turn, unless that attack targets you. This feature has no effect on creatures that are immune to the charmed condition.
+
+
+#### Improved Extra Attack
+Begining 14th level,  you can attack three times, instead of twice, when you take the Attack action while you are in your Archon Form.
+
+#### Legend Reborn
+The Hero of legend bound within your soul walks the world again in your flesh, if only temporarily. At 18th level, when you are in your Archon Form you gain the following additional benefits:
+
+- You assume the appearance The Mythic Hero had in life.
+- You gain resistance to all damage.
+- Once per turn, you can use one Exploit you know without expending an Exploit Die, rolling a d6 for the Exploit Die.
+- You gain the benefits of the freedom of movement spell.
+
+{{imageMaskEdge6,--offset:10%,--rotation:270
+  ![](https://i.imgur.com/i5Qjki1.png){height:101%,left:70px,bottom:-1px}
+}}
+{{pageNumber,auto}}
+\page
+### The Nihilist
+Within you dwells an ancient entity of destruction. It desires nothing more than the unmaking of the material worlds, and you are a tool in its quest. Drawing upon this terrible power, you can manifest a deadly Entropic Blade, but the more you turn to the power of the Spirit, the more of yourself you lose.
+
+#### Nihilist Essence
+At 1st level, your Iridescent Strikes necrotic damage on hit.
+
+#### Nihilist Spells
+You learn the spells at the Vessel levels noted in the table below. These don't count against your total number of Spells Known and cannot be switched out when you gain a level.
+
+Vessel Level| Spells
+:-:|:-:
+2nd| bane, inflict wounds
+5th| blindness/deafness, darkness
+9th| hunger of hadar, slow
+13th| accursed touch, blight
+17th| spiritual sundering, vorpal blade
+
+#### Entropic Blade
+At 3rd level, the unavoidable presence of your Spirit manifests itself in the form of your Entropic Blade, an ancient weapon which unmakes reality itself. It uses the statistics of a greatsword. You can add your Charisma modifier to damage rolls. 
+
+On hit, it deals necrotic damage in place of slashing damage. 
+
+You are proficient with this weapon.
+
+As a bonus action, you can summon (or shunt) this Blade
+from your soul, where it is bound with your Sealed Spirit.
+
+When you damage a creature with your Entropic Blade, it cannot regain hit points, or gain temporary hit points, until
+the beginning of your next turn as it reels from its touch.
+
+\column
+
+#### Entropic Archon
+At 3rd level, when you transform into your Archon Form you use the Entropic Archon stat block above:
+{{monster,frame
+## Entropic Archon
+*Medium Aberration (Shapechanger)*
+___
+**Armor Class Bonus** :: +2
+**Speed**       :: 40 ft.
+___
+**Skills** :: Intimidation +PB, Stealth +PB
+**Damage Resistances** :: acid, poison
+**Languages** :: Primordial, and any languages you know
+___
+***Entropic Warrior.*** The Entropic Archon wields the true power of your Entropic Blade. Whenever it damages a creature with the Entropic Blade, a inky-black Mote of Entropy begins to orbit the creature, which reduces its speed by 5 feet. A creature can have a number of
+these motes equal to your Charisma modifier.
+
+They are dispelled if your Archon transformation ends.
+
+***Void Crush.*** As an action, you can destroy all Motes of Entropy that orbit a creature within 30 feet, forcing it to make a Charisma saving throw.  The target takes 1d4 necrotic damage per mote on a failed save, and half as much necrotic damage on a successful save.
+The creature's maximum hit points are reduced by the same amount. 
+
+Any reductions to its maximum hit points are restored after it completes a long rest.
+
+}}
+#### Reduce to Nothing
+At 6th level, your Spirit longs to reduce all to nothing, and it will start with your foes. While you are in Archon Form, all attacks with the Entropic Blade score a critical hit on a roll of 19 or 20 on the d20 against creatures with at least one Mote of Entropy.
+
+ Also, the damage dice of Void Crush become d6s. The dice increase again at 14th level (d8s) and at 18th level (d10s).
+
+
+#### Cull Life
+
+At 14th level, your Sealed Spirit draws power from the life you destroy. Whenever you damage a creature with your Entropic Blade, you gain temporary hit points equal to half the damage dealt. If you are in Archon Form, the temporary hit points are added to those of your Archon Form, but the total can't exceed twice your Vessel level 
+
+
+
+#### Ancient Unmaking
+
+At 18th level, your power allows your Spirit to walk in the material world once again. Your Archon Form gains the following benefits:
+- You assume the true appearance of your Nihilist Spirit.
+- You resist all bludgeoning, piercing, and slashing damage.
+- When a creature forces you to make a saving throw, you gain a 1d4 bonus to your roll for each Mote of Entropy that is orbiting that creature.
+
+
+{{pageNumber,auto}}
+\page
+### The Parasite
+You have learned to draw on this power to absorb the very life, magic, and power of creatures around you, and channel their power as if it were your own.
+#### Parasite Essence
+At 1st level, your Iridescent Strikes necrotic damage on hit.
+
+
+
+#### Parasitic Spells
+You learn the spells at the Vessel levels noted in the table below. These don't count against your total number of Spells Known and cannot be switched out when you gain a level.
+
+Vessel Level| Spells
+:-:|:-:
+2nd| absorb elements , ensnaring strike
+5th| detect thoughts, ray of enfeeblement
+9th| fear, vampiric touch
+13th| black tentacles, blight
+17th| contact other plane, enervation
+
+#### Life Drain
+At 3rd level, the ancient power of the entity bound to your soul allows you to drain the life force of others for your own.
+
+Once per turn when you hit a creature with an Iridescent Strike, you can choose to gain temporary hit points equal to half the necrotic damage dealt.
+
+When you drain the life of a creature in this way, you learn of any resistances, immunities, or vulnerabilities that it has.
+
+#### Parasitic Archon 
+At 3rd level, when you transform into your Archon Form you use the Parasitic Archon stat block above:
+{{monster,frame
+## Parasitic Archon 
+*Medium Aberration (Shapechanger)*
+___
+**Armor Class Bonus** :: +0
+**Speed**       :: 30 ft.
+___
+**Skills** :: Perception +PB, Medicine+PB
+**Damage Resistances** :: necrotic, poison
+**Languages** :: Primordial, and any languages you know
+___
+***Consume Potential.*** When a non-humanoid creature
+damages the Archon or forces the Archon to make
+a saving throw against an ability, attack, or feature, it
+can use its reaction to store the knowledge of that
+ability, attack, or feature within the Archon Form for
+later use. This ability can't be used to copy or store
+spells or the effects of spellcasting. Stored abilities,
+attacks, and features use your Vessel Spell save DC.
+The Archon can only store one such ability at once.
+
+As an action, the Archon can unleash a stored ability,
+attack, or feature from itself, using it as the original
+creature would have. Once used, that ability, attack,
+or feature is instantly expended. If unused, stored
+abilities carry over between Archon transformations.
+
+}}
+
+
+\column
+
+#### Primordial Memory
+At 6th level, the abilities of your Archon form have grown. Your Archon can use Consume Potential to store a number of abilities, attacks, or features equal to your Constitution modifier.
+
+If you consume a new ability while your Archon Form is
+at its maximum, you can choose which ability to replace.
+
+Finally, when you use an ability you gained from Consume
+Potential, you can expend a Vessel Magic spell slot to use the
+ability without losing the knowledge of how to use it.
+
+Also, When the Archon gains temporary hit points from an Iridescent Strike, it can add them to any temporary hit points it has instead of replacing
+
+
+#### Complete Absorption
+At 14th level, your ability to absorb the power of others shields you from harm. When you use Consume Potential, you can expend a Vessel Magic spell slot as part of the reaction to succeed on the saving throw and gain resistance to any damage. This benefit only applies to the triggering ability or attack.
+
+#### Ascendant Mimicry
+
+At 18th level, your power allows your Spirit to walk in the material world once again. Your Archon Form gains the following benefits:
+- You assume the true appearance of your Parasite Spirit.
+- You can use your Primordial Memory feature to retain the knowledge of an ability without expending a spell slot a number times equal to your Constitution modifier, and you regain all expended uses when you finish a long rest. Also, you can expend a use of this feature to use your Complete Absorption feature without expending a spell slot.
+
+{{pageNumber,auto}}
+\page
+### The Overgrown
+Nature in the world of Faerun and other realms is a terrifying place. With all of the wondrous forces going on around, it’s hard to sustain growth. However, with age comes power, and nothing is a true representation than the Overgrown. Eventually, they had to be sealed to protect against their immense and intense power, but it’s only a matter of time until they grow back.
+
+#### Nature Essence
+At 1st level, your Iridescent Strikes deal poison damage on hit.
+
+#### Overgrown Spells
+You learn the spells at the Vessel levels noted in the table
+below. These don't count against your total number of Spells
+Known and cannot be switched out when you gain a level.
+
+Vessel Level| Spells
+:-:|:-:
+2nd| Absorb elements, Entangle
+5th| Pass Without Trace, spike growth
+9th| Aura of Vitality, Plant Growth
+13th| guardian of nature, Aura of Purity
+17th| Reincarnate, Tree Stride
+
+#### Primeval Being
+
+At 3rd level, your spirit is in tune with the very concept of life itself, keeping you in touch with its most basic form. You gain proficiency in nature, and when you make a wisdom (nature) check, you can add your Charisma modifier to the roll.
+
+In addition, you have a pool of d8s, and you have an amount equal to your vessel level. As an action, you can touch a creature, and spend a die from this pool to restore hit points equal to the roll plus your Charisma modifier. You regain all spent dice from this feature when you finish a long rest.
+
+\column
+
+#### Overgrown Archon
+At 3rd level, when you transform into your Archon Form you use the Overgrown Archon stat block listed here:
+{{monster,frame
+## Overgrown Archon
+*Medium Plant (Shapechanger)*
+___
+**Armor Class Bonus** :: +1 
+**Speed**       :: 30ft.
+___ 
+**Skills** :: Animal Handling +PB, Perception +PB
+**Damage Resistances** :: Necrotic, Poison
+**Senses**:: 30ft Tremorsense
+___
+***Ingrain.*** As a bonus action, you can set your feet and plant roots into the ground. Your movement speed becomes 0, but when you or a creature within 10 feet of you starts their turn, you can grant them temporary hit points equal to your Charisma modifier. A creature's temporary hit points from this feature cannot exceed twice your vessel level. Any temporary hit points gained from this feature vanish when your archon form ends. As a bonus action, you can retract your roots, ending this feature.
+:
+***Roots of the World.*** During your turn, your melee reach with iridescent strikes increases by 10ft.
+}}
+
+#### Land’s Gift
+At 6th level, your vessel has granted you protection from some of the nastier parts of nature, letting you get around easier. You ignore non magical difficult terrain, and do not take damage from such hazards, such as thorns, spines, or similar hazards. 
+
+Additionally, you are not affected by difficult terrain caused by your own spells.
+
+#### Wild Growth
+At 14th level, your Archon constantly regrows, replenishing itself. While in archon form, at the start of each of your turns, you regain hit points equal to your Charisma modifier.
+
+You cannot regenerate hit points if you are incapacitated, or are above half your hit points.
+
+#### Primordial Life
+At 18th level, your body is ever growing, bringing your Spirit’s full power to the realm once more. You gain the following benefits in archon form:
+
+- You assume the true form of your Overgrown Spirit.
+- Your Ingrain and Roots of the World feature now has a range of 30ft.
+- When you heal someone using Primeval Being, you can choose to end an effect on the target as if by the *Restoration* spell, cast at 2nd level.
+
+{{imageMaskCorner21,--offsetX:-51%,--offsetY:-62%,--rotation:0
+  ![](https://i.imgur.com/NIwAiaJ.jpeg){height:54%,top:690px}
+}}
+
+
+{{pageNumber,auto}}
+\page
+### The Repercussion
+Some Spirits are not born from flame, storm, or divine wrath, but from the violent law of consequence. These beings are living principles of retaliation: every blow must return, every force must be answered, every wound must become power. Known as Repercussions, these Spirits are often sealed away after turning battlefields into furnaces of reflected violence.
+
+A Vessel bound to a Repercussion does not merely endure punishment. They receive it, compress it, ignite it, and send it back.
+
+#### Repercussion Essence
+At 1st level, your Iridescent Strikes deal fire damage on hit.
+
+#### Repercussion Spells
+At 2nd level, you learn the spells at the Vessel levels noted in the table below. These spells count as Vessel spells for you, but they don’t count against your total number of Spells Known, and they can’t be switched out when you gain a level.
+
+Vessel Level|Spells
+:-:|:-:
+2nd|absorb elements, hellish rebuke
+5th|heat metal, warding bond
+9th|fireball, protection from energy
+13th|fire shield, resilient sphere
+17th|flame strike, wall of force
+
+#### Impact Furnace
+At 3rd level, your Spirit teaches you to convert punishment into stored thermal force
+.
+While your Spirit Mantle is active, when you take bludgeoning, piercing, slashing, fire, force, lightning or thunder damage, you can use your reaction to reduce the damage by 1d10 + your Charisma modifier + your Vessel level.
+
+If this reduces the damage from the triggering attack or effect to 0, you gain one Repercussion Charge. You can have a number of Repercussion Charges equal to your Charisma modifier, minimum of one. You lose all unused Repercussion Charges when your Spirit Mantle ends.
+
+Once per turn when you hit a creature with an Iridescent Strike, you can expend one Repercussion Charge to deal extra fire damage equal to one roll of your Iridescent Strike die + your Charisma modifier.
+
+\column
+
+#### Repercussion Archon
+At 3rd level, when you transform into your Archon Form, you use the Repercussion Archon stat block below.
+
+{{monster,frame
+## Repercussion Archon 
+*Medium Elemental(Shapechanger)*
+___
+**Armor Class Bonus** :: +2
+**Speed**       :: 30 ft.
+___
+**Skills** :: Athletics +PB, Intimidation +PB
+**Damage Resistances** :: fire, force
+**Languages** :: Ignan, and any languages you know
+___
+***Thermal Battery.*** Whenever the Archon reduces damage with Impact Furnace, it gains one Repercussion Charge even if the damage is not reduced to 0.
+:
+***Kinetic Retort.*** Once per turn when the Archon hits a creature with an Iridescent Strike, it can push the target up to 10 feet away from it. If the Archon expends a Repercussion Charge as part of that hit, the target must also succeed on a Strength saving throw against your Vessel spell save DC or be knocked prone.
+:
+***Immovable Guard.*** The Archon has advantage on ability checks and saving throws made to resist being pushed, pulled, knocked prone, or moved against its will.
+}}
+
+
+
+#### Violent Conversion
+At 6th level, your Spirit refines your body into a living engine of retaliation. Whenever you deal fire damage to a target, you ignore resistance to fire damage and treat immunity to fire damage as resistance. 
+
+Additionally, when you use Impact Furnace and reduce damage, you can choose one creature you can see within 30 feet of you.
+
+That creature takes fire damage equal to your Charisma modifier, minimum of 1. If the damage was reduced to 0, this fire damage instead equals your Vessel level.
+
+{{pageNumber,auto}}
+\page
+
+#### Solar Rebound
+
+At 14th level, you can release stored force as a devastating counterblast.
+
+As an action while your Spirit Mantle is active, choose a point you can see within 90 feet of you. 
+
+Stored heat and compressed impact erupt from that point in a 20-foot-radius sphere. Each creature of your choice in that area must make a Dexterity saving throw against your Vessel spell save DC. On a failed save, a creature takes 6d8 fire or radiant damage and is pushed up to 20 feet directly away from the center of the sphere. On a successful save, it takes half as much damage and isn’t pushed.
+
+You can expend one Repercussion Charge when you use this feature to increase the damage by 2d8.
+
+You can use Solar Rebound a number of times equal to your Charisma modifier, minimum of once, and you regain all expended uses when you finish a long rest. 
+
+Also, while your Spirit Mantle is active, you gain fire resistance.
+
+#### Avatar of Recoil
+At 18th level, your Archon Form becomes the perfect embodiment of retaliation. While in Archon Form, you gain the following benefits:
+
+- You assume the true appearance of your Repercussion Spirit, a humanoid furnace of compressed heat, violent light, and invisible pressure.
+
+- You are immune to fire damage and radiant damage.
+
+- Whenever you use Impact Furnace, you reduce the triggering damage by an additional amount equal to your Charisma modifier + your proficiency bonus.
+
+- When a creature within 5 feet of you hits you with a melee attack, it takes fire damage equal to your Charisma modifier, minimum of 1.
+
+- When you expend a Repercussion Charge on an Iridescent Strike, the extra fire damage increases to two rolls of your Iridescent Strike die + your Charisma modifier, and the target has disadvantage on the saving throw against your Kinetic Retort.
+
+  
+{{pageNumber,auto}}
+\page
+
+### The Savage
+Sealed away due to their lust for violence, Savage Spirits are most often demonic in nature, and desire nothing more than bloodshed for its own sake. The Vessels of these evil spirits can draw on their power to increase their own marital ability, but risk losing themselves to a supernatural lust of violence.
+
+#### Savage Essence
+At 1st level, your Iridescent Strikes deal slashing damage on hit.
+
+#### Savage Spells
+You learn the spells at the Vessel levels noted in the table
+below. These don't count against your total number of Spells
+Known and cannot be switched out when you gain a level.
+
+Vessel Level| Spells
+:-:|:-:
+2nd| cause fear, caustic brew
+5th| ray of enfeeblement, scorching ray
+9th| fireball, vampiric touch
+13th| vitriolic sphere, wall of fire
+17th| flame strike, insect plague
+
+#### Violent Strikes
+At 3rd level, within you is sealed a being of violence and hatred. You gain proficiency in Intimidation, and the reach of your Iridescent
+Strikes increases to 10 feet.
+
+The reach of your Iridescent Strikes increases again when you reach certain levels in this class: at 6th level (15 feet), at 14th level (20 feet), and finally at 18th level (30 feet).
+
+
+\column
+
+#### Savage Archon
+At 3rd level, when you transform into your Archon Form you use the Savage Archon stat block listed here:
+{{monster,frame
+## Savage Archon
+*Medium Fiend (Shapechanger)*
+___
+**Armor Class Bonus** :: +1 
+**Speed**       :: 30ft., climb 20 ft.
+___
+**Skills** :: Athletics +PB, Intimidation +PB
+**Damage Resistances** :: fire, poison
+**Languages** :: Abyssal, and any languages you know
+___
+### Actions
+***Four-Armed.*** Your Archon manifests four arms, each of which can be used to make unarmed strikes and grapple. When the Archon hits a creature with an Iridescent Strike, it can use a bonus action on that same turn to attempt to grapple it with another arm.
+
+Creatures that begin their turn grappled by the Archon take 1d4 slashing damage.
+:
+***Dual-Mouthed.*** Your Archon manifests two mouths, which can be used to cast spells. When the Archon casts a spell that requires an attack roll, it gains a +2 bonus to its roll if it cast the spell from its mouth.
+}}
+
+#### Sinister Vigor
+At 6th level, the savagery of battle drives you into a frenzy. Whenever you score a critical hit with an Iridescent Strike or you reduce a
+creature to 0 hit points you have resistance to all damage until the start of your next turn.
+
+Moreover, while you are in your Archon Form, you have advantage on Iridescent Strike attacks against any creature that is grappled by you.
+{{pageNumber,auto}}
+\page
+#### Savage Domain
+At 14th level, you can unleash the cursed power within your soul, bending your environment to your will. As an action on your turn, you can exude cursed magic in a 30-foot radius. 
+
+Creatures of your choice within that radius treat the area as difficult terrain and take 1d6 necrotic damage if they begin their turn there.
+
+For every consecutive turn a creature starts its turn within  this radius, this necrotic damage increases by 1d6.
+
+This feature lasts for up to 1 minute, until you lose your concentration (as if you were concentrating on a spell), you are incapacitated, or you end it as a bonus action.
+
+Once you use this feature you must finish a long rest before you can use it again. If you have no uses remaining, you can
+expend a Vessel Magic spell slot to use this feature again.
+
+
+#### Cursed Savage
+At 18th level, your power allows your Spirit to walk in the material world once again. Your Archon Form gains the following benefits:
+- You assume the true appearance of your Savage Spirit.
+- You can make two additional Iridescent Strikes each time you take the attack action on your turn.
+- The damage from your Four-Armed feature becomes 2d4.
+- The damage dealt by your Savage Domain becomes d10s if you use it while you are in your Archon Form.
+
+{{pageNumber,auto}}
+\page
+### The Sovereign
+In ages long past, mortals were dominated by ruthless godkings capable of dreadful magic. Often, the only way to stop
+such a powerful entity was to seal it away. You are the result of such a ritual, within you is a Sovereign Spirit passed down from Vessel to Vessel since the fall of its great empire.
+
+#### Sovereign Essence
+At 1st level, your Iridescent Strikes deal piercing damage on hit.
+
+#### Sovereign Spells
+You learn the spells at the Vessel levels noted in the table
+below. These don't count against your total number of Spells
+Known and cannot be switched out when you gain a level.
+
+Vessel Level| Spells
+:-:|:-:
+2nd| command, divine favor
+5th| aid, find steed
+9th| crusader's mantle, spirit shroud
+13th| aura of life, guardian of faith
+17th| circle of power, summon celestial
+
+
+
+
+#### Sovereign Archon
+ At 3rd level, when you transform into your Archon Form you use the Trickster Archon stat block below:
+
+{{monster,frame
+## Sovereign Archon
+*Medium Celestial (Shapechanger)*
+___
+**Armor Class Bonus** :: +0
+**Speed**       :: 30 ft. fly 30 ft (hover)
+___
+**Skills** ::  Intimidation +PB, Persuasion +PB
+**Damage Resistances**   ::  bludgeoning, piercing, and slashing from non-magical attacks
+**Languages**            :: Celestial, and any languages you know
+___
+***Glide.*** Even though the Archon has a fly speed, it can only fly a maximum of 10 feet above a surface.
+:
+***Sovereign Soldiers.*** When the Archon uses Sovereign Command, the Spectral Soldier does not disappear after its attack. Its Armor Class is equal to your Spell save DC and it has hit points equal to your level. If it is forced to make a saving throw, it uses your saves.
+It cannot move, act, or use reactions on its own.
+
+The Archon can have up to three Spirit Soldiers at once.
+
+If it conjures another, the oldest is destroyed.
+
+As an action, the Archon can command all of its Spirit Soldiers to make a single Iridescent Strike as if
+it was in its space, using your game statistics.
+
+The Spectral Soldiers remain for 1 minute, but they are destroyed early if you revert to your normal form.
+}}
+
+\column
+
+#### Sovereign Command
+At 3rd level, bound within your soul is bound the near-divine ruler of an ancient empire, and you can call on the spirits of the soldiers bound to its service. Whenever you would make an attack on your turn, you can momentarily conjure a Spectral Solider in an unoccupied space that you can see within 15 feet of you.
+
+The Spectral Soldier appears, makes one melee Iridescent Strike as if you were in its space, then it disappears.
+
+The range of this feature increases at 6th level (30 feet), at 14th level (60 feet), and finally at 18th level (120 feet).
+
+#### Loyal Retinue
+
+At 6th level, your Spirit Soldiers follow you as unflinchingly in death as
+they did in life. When you transform into your Archon Form
+you conjure your maximum number of Spectral Soldiers.
+
+In addition, when you command your Spectral Soldiers to
+attack while in Archon Form, you can have them move up to
+20 feet before they make their Iridescent Strike.
+
+#### Immortal Legion
+At 14th level, as your connection to the Sovereign Spirit grows in strength, more of its former glory flows into the Spectral Soldiers that
+you command. You gain the benefits of the Archon Sovereign Soldiers feature, even when you are not in Archon form.
+
+When you are in Archon Form, your Spectral Soldiers are resistant to all bludgeoning, piercing, and slashing damage.
+
+Finally, you can have up to four Spectral Soldiers at once.
+
+#### God-King Reborn
+At 18th level, y our power allows your Spirit to walk in the material world
+once again. Your Archon Form gains the following benefits:
+- You assume the true appearance of your Sovereign Spirit.
+- You can have up to five Spectral Soldiers at one time.
+- You gain a +1 bonus to saving throws and to your Armor Class for each Spectral Soldier within 10 feet of you.
+- As a bonus action, you can instantly switch places with any Spectral Soldier that is within 120 feet of you.
+
+
+{{pageNumber,auto}}
+\page
+### The Titan
+ Sealed within you is a Titanic Spirit of ancient power. It may be the soul of a long dead giant of royal blood, the powerful remnant of a titan that once walked the material plane, or a portion of the legendary power of the Tarrasque. Wherever this colossal power comes from, it has infused your mortal form with a legendary resilience of titanic proportions.
+ 
+
+#### Titan Essence
+At 1st level, your Iridescent Strikes deal thunder damage on hit.
+
+
+#### Titan Spells
+You learn the spells at the Vessel levels noted in the table
+below. These don't count against your total number of Spells
+Known and cannot be switched out when you gain a level.
+
+Vessel Level| Spells
+:-:|:-:
+2nd| catapult, earth tremor
+5th| enlarge/reduce (enlarge only), spike growth
+9th| erupting earth , protection from energy
+13th| guardian of nature , stone shape
+17th| transmute rock , wall of stone
+
+#### Elder Fortitude
+At 3rd level, your hit point maximum increases by 3, and increases by 1 again whenever you gain a Vessel level.
+
+You also learn to speak, read, and write Giant. Whenever
+you make a Charisma check to interact with giants, you can
+add double your proficiency bonus to your roll.
+
+\column
+
+#### Titanic Archon
+At 3rd level, you draw on the elder might sealed within you to transform
+into a colossal form. When you transform into your Archon
+Form you use the Titanic Archon stat block listed here:
+{{monster,frame
+## Titanic Archon
+*Medium Giant (Shapechanger)*
+___
+**Armor Class Bonus** :: +1 
+**Speed**       :: 30ft.
+___
+**Skills** :: Intimidation +PB, Strength +PB
+**Damage Resistances** :: bludgeoning, poison
+**Languages** :: Primordial, and any languages you know
+
+___
+***Titanic Rejuvenation.*** At the start of each of its turns, the Archon regains a number of temporary hit points
+equal to your Charisma modifier (minimum of 1), as
+long as you have at least 1 hit point remaining.
+### Actions
+***Elder Growth.*** As a bonus action, the Archon can
+expend a Vessel Magic spell slot to grow in size by
+one size category, for example, from Medium to
+Large. When it does so, its Iridescent Strikes deal
+1d8 additional thunder damage on hit, and it has
+advantage on Athletics checks to grapple or shove.
+:
+***Hurl.*** In place of an attack, the Archon can throw an
+object at a creature within 60 feet, forcing it to make
+a Dexterity saving throw. On a failed save, the target
+takes bludgeoning damage equal to 1d8 + your CHA.
+}}
+
+
+#### Titanic Endurance
+At 6th level, as a reaction when you take damage, you can expend 1d10 and reduce the damage by an amount equal to the dice roll + your Charisma modifier.
+
+When you are in Archon Form, these dice become d12 
+#### Towering Form
+At 14th level, when you transform, you can choose for your Archon Form to become Large sized. When you do so, it gains resistance to piercing and slashing damage along with its normal damage resistances. If your Archon Form is Large, you can use Elder Growth to become Huge in size.
+
+If there is not room for you to grow when you transform
+into Archon Form you gain the above benefits regardless.
+
+#### Lord of the Ordning
+At 18th level, you are able to draw out the full power of the Titanic Spirit within you. While you are in your Archon Form, you can use an action on your turn to cast the earthquake spell, centered on you, without expending a spell slot. 
+
+Though, when you do so, you are immune to the effects of the spell.
+
+{{imageMaskCorner33,--offsetX:-55%,--offsetY:-50%,--rotation:0
+  ![](https://64.media.tumblr.com/b28d241dff19067e8b28616da86f4c6e/b38f552a22eb2783-a3/s1280x1920/fd0623c96f54f6ea7ee2f6e91c41899af5178e35.png){height:75%,top:550px,left:-150px}
+}}
+
+
+
+{{pageNumber,auto}}
+\page
+### The Trickster
+The beings of the Feywild are known for their whimsical and ephemeral ways, often unpredictable to mortals. Most of the faerie are content to follow these self-imposed rules and only interfere with mortals when they are approached.
+#### Trickster Essence
+At 1st level, your Iridescent Strikes deal psychic damage on hit.
+
+
+#### Trickster Spells
+At 2nd level, you learn the spells at the Vessel levels noted in the table below. These don't count against your total number of Spells Known and cannot be switched out when you gain a level.
+
+Vessel Level|	Spells
+:-:|:-:
+2nd|	charm person, disguise self
+5th|	invisibility, misty step
+9th|	hypnotic pattern, summon fey
+13th|	charm monster, dimension door
+17th|	dream, mislead
+
+#### Seeds of Chaos
+The Trickster bound to your soul infuses you with its chaotic presence. At 3rd level, you can change your appearance to better sow chaos. When your Spirit Mantle is active, you can cast disguise self at will, without spending a spell slot, and you can unerringly mimic any sounds or voices you have heard before.
+
+#### Trickster Archon
+You take on a form that is elegant, whimsical, and terrifying, much like the powerful faerie. At 3rd level, when you transform into your Archon Form you use the Trickster Archon stat block below:
+
+{{monster,frame
+## Trickster Archon
+*Medium Fey (Shapechanger)*
+___
+**Armor Class Bonus** :: +0
+**Speed**       :: 30 ft.
+___
+**Skills** ::  Deception +PB, Sleight of Hand +PB
+**Condition Immunities**   ::  charmed, frightened
+**Senses** :: darkvision 60 ft.
+**Languages**            :: Sylvan, and any languages you know
+___
+***Stolen Memory.*** Once per turn when the Archon deals psychic damage with an Iridescent Strike, it can force the target to make an Intelligence saving throw. On a failure, it cannot see, hear, smell, sense, or target the Archon in any way until the start of your next turn.
+:
+***Juxtapose.*** As a bonus action, the Archon can force a creature it can see within 60 feet to make a Charisma saving throw. On a failure, it instantly switches places with the Archon. A creature can willingly fail the save.
+}}
+
+
+\column
+
+
+#### Illusory Strikes
+
+At 6th level, your Spirit projects potent illusions to attack your enemies.
+Whenever you use your bonus action to make an Iridescent Strike, you can forgo that attack to conjure one illusory copy of yourself in an unoccupied space you can see within 30 feet of you. This illusory copy of you makes one Iridescent Strike against a target within range and disappears.
+
+#### Fey Retribution
+
+The power of the Trickster can reflect magic back on your foes.
+Starting 14th level, if you succeed on a saving throw against a spell, you can use your reaction to force the caster to make a Wisdom saving throw.
+
+On a failure, it suffers the effects of either charm person or charm monster.
+
+Once a creature is charmed by you in this way, it can't be charmed by this feature again until the next dawn.
+
+
+#### Lord of Mischief
+At 18th level, you can channel the whimsical and terrifying power of The Trickster. Your Archon Form gains the following benefits:
+
+- You assume the true appearance of your Trickster Spirit.
+- When you use Illusory Strikes the range becomes 60 feet, you can create up to two illusory copies of yourself within range, then each copy makes a single Iridescent Strike.
+- When you hit a creature with an Iridescent Strike it has disadvantage on its next Wisdom saving throw.
+{{pageNumber,auto}}
+\page
+### The Undying
+
+When they reach the end of their mortal lives, evil mages will extend their lives by undergoing the dark ritual of becoming a Lich.
+
+#### Undying Essence
+At 1st level, your Iridescent Strikes deal necrotic damage on hit.
+
+#### Undying Spells
+At 2nd level, you learn the spells at the Vessel levels noted in the table below. These don't count against your total number of Spells Known and cannot be switched out when you gain a level.
+
+Vessel Level| Spells
+:-:|:-:
+2nd| inflict wounds, ray of sickness
+5th| acid arrow, blindness/deafness
+9th| hunger of hadar, speak with dead
+13th| blight, death ward
+17th| contagion, legend lore
+
+#### Living Phylactery
+At 3rd level, your body serves as the mortal phylactery for an ancient Lich, and you gain a fraction of its power.
+
+Moreover, you don't require food, water, or sleep, although you still require rest to reduce exhaustion and to benefit from finishing short and long rests. You also age at a slower rate.
+
+For every 10 years that pass, your body ages only 1 year.
+
+#### Undying Archon
+At 3rd level, when you transform into your Archon Form you use the Undying Archon stat block:
+
+{{monster,frame
+## Undying Archon
+*Medium Undead (Shapechanger)*
+___
+**Armor Class Bonus** :: -1
+**Speed**       :: 30 ft
+___
+**Skills** :: Arcana +PB, History +PB, Insight +PB
+**Damage Resistances** ::cold, necrotic
+**Languages** ::Abyssal, and any languages you know
+___
+***Undead Rejuvenation.*** At the start of each of its turns, the Archon regains a number of temporary hit points
+equal to your Charisma modifier (minimum of 1), as
+long as you have at least 1 hit point remaining.
+:
+***Withering Touch.*** Once per turn, when the Archon
+hits a creature with an Iridescent Strike it can force
+it to make a Constitution saving throw or have its
+speed reduced to 0 until the start of your next turn
+:
+***Eldritch Gaze.*** As a bonus action, the Archon can
+force one creature that can see it within 30 feet to
+make a Wisdom saving throw. On a failed save, it is
+frightened of the Archon until the start of your next
+turn. If a creature succeeds on this saving throw it is
+immune to this effect until the next dawn.
+}}
+
+
+#### Undying Thrall
+At 6th level, you can cast animate dead at 3rd-level, or the level of your Vessel Magic spell slots (whichever is higher), without expending a spell slot.
+You regain the ability to cast this spell again when you have finished at least one long rest and all of the undead that you have created from this spell have been destroyed.
+
+#### Eldritch Arcanum
+At 14th level, You wrest even greater magics from the Undying
+ within you. You learn a single 6th-level Necromacer spell of your choice, which you can cast once per long rest without spending a spell slot.
+
+At 18th level, you learn a 7th-level Necromacer spell that you can also cast once per long rest without expending a spell slot.
+
+#### Lord of Undeath
+
+At 18th level, when you are in your Archon Form you gain the following additional benefits:
+
+- You assume the true appearance of your Undying Master.
+- When a creature fails its saving throw against Withering Touch or Eldritch Gaze, the effects last for 1 minute. An affected creature can repeat the saving throw at the start of each of its turn, ending the effect on a successful save.
+- As a bonus action, you can force non-undead creatures of your choice within 30 feet to make a Constitution saving throw. Creatures take 6d6 necrotic damage on a failure, and half as much damage on a successful save.
+
+{{pageNumber,auto}}
+\page
+### The Zenith
+
+Some Spirits are not born from heaven, hell, or the primordial chaos, but from the unbearable majesty of the sun itself. These beings are fragments of divine daylight, incarnations of pride, conquest, and absolute radiance. Known as Zenith Spirits, they burn brightest when the sun stands high above the world, filling their Vessel with overwhelming strength and terrible confidence.
+
+#### Zenith Essence
+
+At 1st level, the solar Spirit bound within your soul fills your body with sacred flame. Your Iridescent Strikes deal radiant damage on a hit.
+
+
+#### Zenith Spells
+
+At 2nd level, you learn the spells at the Vessel levels noted in the table below. These spells count as Vessel spells for you, but they do not count against your total number of spells known and cannot be replaced when you gain a level.
+| Vessel Level | Spells                      |
+| :----------: | :-------------------------: |
+|          2nd | *burning hands, heroism*        |
+|          5th | *branding smite, scorching ray* |
+|          9th | *daylight, fireball*            |
+|         13th | *aura of purity, fire shield*   |
+|         17th | *dawn, flame strike*            |
+
+#### Pride Before the Sun
+
+At 3rd level, the Zenith Spirit within you swells with the turning of the day. After you finish a long rest, choose whether you are under the influence of Dawn, Noon, or Dusk. This choice lasts until you finish your next long rest.
+
+While your Spirit Mantle is active, you gain the benefit of your chosen solar aspect:
+
+**Dawn.** You gain temporary hit points equal to your Charisma modifier at the start of each of your turns, provided you have at least 1 hit point. These temporary hit points vanish when your Spirit Mantle ends.
+
+**Noon.** Once on each of your turns when you hit a creature with an Iridescent Strike, you can deal extra radiant damage equal to your Charisma modifier.
+
+**Dusk.** You have advantage on saving throws against being charmed or frightened.
+
+{{note 
+##### Pride Before the Sun feature
+When your DM uses a campaign with a clear time of day, they may allow your solar aspect to change naturally: Dawn before midday, Noon during the brightest hours of the day, and Dusk after midday. For cleaner gameplay, the long-rest choice above is recommended.
+}}
+
+\column
+
+#### Zenith Archon
+
+At 3rd level, when you transform into your Archon Form, you use the Zenith Archon stat block below.
+
+{{monster,frame
+## Zenith  Archon
+*Medium Celestial (Shapechanger)*
+___
+**Armor Class Bonus** :: +1
+**Speed**       :: 30 ft
+___
+**Skills** :: Athletics +PB, Intimidation +PB
+**Damage Resistances** :: radiant, fire
+**Condition Immunities**:: frightened
+**Languages** ::Celestial, and any languages you know
+___
+***Solar Radiance.*** The Archon sheds bright light in a 20-foot radius and dim light for an additional 20 feet.
+:
+***Insolation.*** Once per turn when the Archon hits a creature with an Iridescent Strike, it can force the target to make a Strength saving throw against your Vessel spell save DC. On a failed save, the target is pushed up to 10 feet away and knocked prone.
+:
+***Great Sun.*** As a bonus action, the Archon can create a miniature sun in an unoccupied space it can see within 30 feet. The sun lasts until the start of your next turn. When a creature enters a space within 5 feet of the sun for the first time on a turn or starts its turn there, it must make a Dexterity saving throw against your Vessel spell save DC, taking radiant damage equal to one roll of your Iridescent Strike die + your Charisma modifier on a failed save, or half as much damage on a successful one. Once the Archon uses this feature, it cannot use it again until you expend a Vessel Magic spell slot or transform into Archon Form again.
+}}
+
+#### Unbearable Majesty
+
+At 6th level, your pride becomes a force that lesser wills struggle to withstand. You gain proficiency in Intimidation. If you already have proficiency in Intimidation, you gain proficiency in Persuasion instead.
+
+Also, when you deal radiant damage with an Iridescent Strike or a Vessel spell, you ignore resistance to radiant damage.
+{{pageNumber,auto}}
+\page
+#### The One Above All
+
+At 14th level, you can draw upon the Zenith Spirit at its highest point. As a bonus action while your Spirit Mantle is active, you can enter your Zenith State for 1 minute.
+
+For the duration, you gain the following benefits:
+
+- Your size becomes Large if there is enough room for you to grow.
+
+- Your Iridescent Strikes deal an extra 1d8 radiant damage on a hit.
+
+- You have advantage on Strength checks and Strength saving throws.
+
+- You are immune to the frightened condition.
+
+- When a creature within 10 feet of you hits you with a melee attack, you can use your reaction to deal radiant damage to that creature equal to your Charisma modifier.
+
+Once you use this feature, you cannot use it again until you finish a long rest, unless you expend a Vessel Magic spell slot to use it again.
+
+#### Incarnation of the Sun
+
+At 18th level, your Archon Form becomes the perfect vessel for the Zenith Spirit’s overwhelming radiance. While in Archon Form, you gain the following benefits:
+
+- You assume the true appearance of your Zenith Spirit, a towering figure of burning radiance.
+
+- You are immune to radiant and fire damage.
+
+- Your Zenith Archon’s Solar Radiance increases to bright light in a 60-foot radius and dim light for an additional 60 feet.
+
+- Your Great Sun no longer requires you to expend a Vessel Magic spell slot to use it again.
+
+- Once on each of your turns when you deal radiant damage to a creature, you can force that creature to make a Constitution saving throw against your Vessel spell save DC. On a failed save, the creature is blinded until the start of your next turn.
+
+{{pageNumber,auto}}
+\page
+
+
+## Unsealed Aspects
+
+Below are the Unsealed Aspects available to a Vessel. If an Aspect has a prerequisite you can learn it at the same time that you meet its prerequisites. Unsealed Aspects use your Vessel spellcasting ability, attack modifier, and save DC.
+
+#### Ethereal Tendril
+As a bonus action, you can manifest (or dismiss) an Ethereal Tendril from any point on your body. It has a reach of 10 feet and its Strength score is equal to your Charisma score. You can only have one Ethereal Tendril manifested at a time, and this Tendril can be attacked as part of you. While your Spirit Mantle is active, your Etheral Tendril's reach is doubled.
+
+The Ethereal Tendril cannot use fine tools, weapons, or shields, but it can be used to manipulate simple objects. Your Tendril can also make Iridescent Strikes, shove, and grapple.
+
+#### Iridescent Shield
+You can conjure raw spiritual power to deflect attacks. When a creature you can see hits you, or a target you can see within 5 feet of you with an attack, you can use your reaction to add your Charisma modifier (minimum of +1) to its Armor Class.
+
+#### Opalescent Armor
+You draw on your Spirit's fortitude to protect you. While your Spirit Mantle is active you can use your bonus action to gain resistance to all bludgeoning, piercing, and slashing damage from non-magical attacks until the start of your next turn.
+
+Attacks with silvered weapons also bypass this resistance.
+
+#### Shimmering Lance
+You learn to project your spiritual power across far distances. Any time you make an Iridescent Strike, you can choose for it to become a ranged spell attack with a range of (30/90).
+
+#### Iridescent Shield
+You can draw out spiritual power to deflect attacks. When a creature you can see targets you, or a creature within 5 feet of you with an attack, you can use your reaction to project a shield of spirit from an empty hand and add your Charisma modifier to the target's Armor Class against that attack.
+You can use this feature a number of times equal your proficiency bonus.
+
+#### Mantle-Fed Magic
+
+Your Spirit Mantle feeds power into your spells. Once per turn, when you deal damage with a Vessel spell while your Spirit Mantle is active, you can deal additional damage equal to your Charisma modifier to one target damaged by the spell.
+
+This additional damage is the same type as your Iridescent Strike.
+
+\column
+
+#### Otherworldly Step
+
+Your bound Spirit pulls you briefly through the space between worlds. While your Spirit Mantle is active, your walking speed increases by 10 feet.
+
+In addition, when you hit a creature with an Iridescent Strike, you can teleport up to 10 feet to an unoccupied space you can see. You can use this teleportation only once on each of your turns.
+
+
+
+#### Spectral Grasp
+
+When you hit a creature with an Iridescent Strike, you can force it to make a Strength saving throw against your Vessel spell save DC. On a failed save, the target is pulled up to 10 feet toward you or pushed up to 10 feet away from you.
+
+You can use this Aspect a number of times equal to your Charisma modifier, minimum of once, and you regain all expended uses when you finish a long rest.
+
+#### Spirit Sense
+The Spirit bound to you allows you to sense similar beings. When you see a Celestial, Elemental, Fey, or Fiend with a CR equal to your Vessel level or lower, you learn its creature type, its spellcasting ability, and the level of its highest spell.
+
+Also, while your Spirit Mantle is active, you can see magic as if by detect magic, but you must concentrate on this effect.
+
+
+#### Striking Presence
+Your bearing is enhanced by your Spirit. You gain proficiency in Deception, Intimidation, or Persuasion. While your Spirit Mantle is on, you have advantage on Charisma (Deception), Charisma (Intimidation), and Charisma (Persuasion) checks.
+
+#### Uncanny Strength
+The spiritual power you harbor within your body grants you inordinate bodily strength. You gain proficiency in Athletics.
+
+While your Spirit Mantle is active, you add your Charisma modifier (minimum of +1) to all Strength (Athletics) checks.
+
+
+#### Vessel’s Instinct
+
+The Spirit sealed within you sharpens your reactions. You gain proficiency in Perception. If you already have proficiency in Perception, you gain proficiency in Insight or Survival.
+
+In addition, while your Spirit Mantle is active, you cannot be surprised while you are conscious.
+
+#### Vexing Strike
+The overwhelming spiritual magnetism of your Spirit draws in your foes. When you hit a creature with a melee Iridescent Strike, it has disadvantage on all attack rolls against targets other than you until the beginning of your next turn.
+
+This feature has no effect on creatures that are immune to the charmed condition.
+{{pageNumber,auto}}
+\page
+#### Dire Stature
+
+*Prerequisites: 6th level Vessel*::
+You can tap into the primordial stature of your Spirit. When you transform into Archon Form, you can choose for this new Form to grow by one size category, so long as there is room for you to do so. For example, your Archon Form may grow
+from Medium to Large.
+
+For each size category the Archon grows above Medium, the reach of its melee attacks grows by 5 feet, its melee attacks deal a bonus 1d4 damage on hit, and its Armor Class Bonus increases by 1.
+
+#### Ethereal Grasp
+*Prerequisite: 6th-level Vessel*::
+You can seize the spirits of others with your own enhanced spiritual power. Instead of making an melee Iridiscent Strike you can force a creature within your reach to make a Wisdom saving throw against your spell DC, on a failure the creature’s speed is reduces to 0 until the creature is no longer within your reach. The creature can repeat the saving throw at the end of each of it’s turn, ending the effect on a success.
+
+
+\column
+
+#### Evoke Spirit
+*Prerequisite: 6th level Vessel*::
+You can release a minor form of the Spirit sealed within you. You learn the find familiar spell, it counts as a Vessel spell for you, you can cast it as a ritual without providing the material component, and it doesn't count against your Spells Known.
+
+When you cast find familiar, it resembles a tiny version of your Sealed Spirit, shares the creature type of your Archon, can attack on its turn, and uses the Spirit Familiar stat block
+{{monster,frame
+## Spirit Familiar
+*Tiny Creature (type of your Archon Form)*
+___
+**Armor Class** :: 8 + your Charisma modifier
+**Hit Points**  :: 5 + your Vessel level
+**Speed**       :: 20 ft., fly 40 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|3 (-4) |14 (+2)|7 (-2) |8 (-1) |10 (+0)|16 (+3)|
+___
+**Senses**               ::  darkvision 60 ft., passive Perception 10
+**Languages**            :: any spoken by your Archon Form
+___
+***Hit Dice.*** The Spirit Familiar has a number of d4 Hit Dice equal to your Vessel level. It also gains all the normal benefits of both short and long rests.
+:
+***Vessel Bond.*** You add your PB to any ability checks or saving throws that your Spirit Familiar makes.
+:
+***Magic Resistance.*** The Spirit Familiar has advantage on saving throws against spells and magical effects.
+### Actions
+***Invisibility.*** The Spirit Familiar magically turns invisible until it attacks, or until its concentration ends (as if concentrating on a spell). Any equipment the Spirit Familiar is wearing or carrying is invisible with it.
+:
+***Spirit Strike.*** *Melee Spell Attack:* Your Spell Attack Modifier to hit, reach 5 ft., one target. *Hit:* 1d4 +3 damage of the same type as your Iridescent Strike.
+}}
+
+
+#### Iridescent Reprisal
+
+*Prerequisite: 6th-level Vessel*::
+
+When a creature you can see hits you with a melee attack while your Spirit Mantle is active, you can use your reaction to make one Iridescent Strike against that creature.
+
+You can use this Aspect a number of times equal to your Charisma modifier, minimum of once, and you regain all expended uses when you finish a long rest.
+{{pageNumber,auto}}
+\page
+#### Mantle of the Colossus
+
+*Prerequisite: 6th-level Vessel*::
+
+While your Spirit Mantle is active, you count as one size larger when determining the size of creatures you can grapple or shove.
+
+In addition, when you successfully shove a creature, you can deal damage to it equal to your Charisma modifier. This damage is the same type as your Iridescent Strike.
+
+
+#### Minor Magick
+*Prerequisite: 6th-level Vessel*::
+You gain greater control over the power of your Spirit. Once per long rest, you can cast one of your Spirit Magic spells at its lowest level, without expending a Vessel Magic slot.
+
+You can gain this Aspect more than once, but it cannot be used to cast the same Sealed Magic spell more than once.
+
+#### Otherworldly Maw
+*Prerequisite: 6th-level Vessel*::
+The hunger of your Spirit also fuels your life force. Once per turn while you are in Archon Form, you can forgo one of your attacks to instead force a creature within your reach to make a Charisma saving throw. On a failure, it takes 2d6 necrotic damage and your current temporary hit points increase by half the necrotic damage dealt.
+
+Your temporary hit points cannot exceed twice your level.
+
+#### Piercing Gaze
+*Prerequisite: 6th level Vessel, Spirit Sense*::
+Your sight has been enhanced further by the power of your Sealed Spirit. You gain proficiency in Perception, and when you make a Wisdom (Perception) check you gain a bonus to your roll equal to your Charisma modifier (minimum of +1).
+
+Also, if your Spirit Mantle is active can also see through magical dim light and darkness, and you can instantly detect the presence of illusion magic and other shapeshifters.
+
+#### Vengeful Strike
+*Prerequisite: 6th level Vessel, Iridescent Shield*::
+Your Spirit calls for vengeance. Whenever you use Iridescent Shield and the attack misses, you can make one Iridescent Strike against the attacker as part of the same reaction.
+
+\column
+
+#### Crowned Archon
+
+*Prerequisite: 12th level Vessel*::
+
+When you transform into Archon Form, you can choose to radiate overwhelming spiritual authority for 1 minute. For the duration, when a creature starts its turn within 10 feet of you, you can force it to make a Wisdom saving throw against your Vessel spell save DC.
+
+On a failed save, the creature cannot willingly move farther away from you until the start of its next turn.
+
+Once you use this Aspect, you cannot do so again until you finish a long rest.
+
+#### Dazzling Burst
+*Prerequisite: 12th level Vessel, Shimmering Lance*::
+You can project immense power. When you turn an Iridescent Strike into a ranged spell attack its range becomes (100/300), it ignores half-cover, and treats three-quarters cover as half.
+
+In addition, when you hit with a ranged Iridescent Strike, you can expend a Vessel Magic spell slot to create a spiritual eruption. Creatures within 30 feet of your target must make a Dexterity saving throw. They take 6d8 damage of the type of your Iridescent Strike on a failure, and half on a success.
+
+As you gain Vessel levels the damage of this eruption on impact increases: at 13th level (7d8) and 17th level (8d8)
+
+#### Hungering Mantle
+
+*Prerequisite: 12th level Vessel*::
+
+When you reduce a hostile creature to 0 hit points while your Spirit Mantle is active, your temporary hit points increase by an amount equal to your Vessel level.
+
+If you are in Archon Form when this happens, you can also immediately move up to half your speed without provoking opportunity attacks.
+
+
+#### Perilous Visage
+*Prerequisite: 12th level Vessel*::
+You reveal a fraction of your Spirit's true power, horrifying all who behold you. When you transform into Archon Form, you can force creatures of your choice that can see you within 60 feet to make a Wisdom saving throw. On a failure, creatures are frightened of you for 1 minute.
+
+A creature can repeat this saving throw at the end of each of its turns, ending the effect on a success. If the creature is still able to see you it has disadvantage on its saving throw.
+{{pageNumber,auto}}
+\page
+#### Primeval Thirst
+*Prerequisite: 12th level Vessel, Otherworldly Maw*::
+The ancient Spirit within you can absorb spells to restore its power. When your Archon sees a creature within 30 feet cast a spell, it can use its reaction to force the spellcaster to make a saving throw with its Spellcasting ability. On a failed save, its spell fails. If the failed spell was a level equal to or higher than your Slot Level, you regain one expended spell slot.
+
+You can use this reaction a number of times equal to your Charisma modifier (a minimum of once), and you regain all expended uses when you finish a long rest.
+
+#### Rift-Walking Form
+
+*Prerequisite: 12th level Vessel*::
+
+When you transform into your Archon Form, you can immediately teleport up to 30 feet to an unoccupied space you can see.
+
+In addition, while in Archon Form, you can move through the space of hostile creatures. The first time on each of your turns that you move through a hostile creature’s space, that creature takes damage equal to your Charisma modifier. This damage is the same type as your Iridescent Strike.
+
+
+#### Sealed Magic Surge
+
+*Prerequisite: 12th level Vessel*::
+
+When you expend a Vessel Magic spell slot, you can empower your next Iridescent Strike before the end of your next turn. On a hit, the strike deals an additional 2d8 damage of its normal damage type.
+
+If the strike hits while you are in Archon Form, the target must also succeed on a Constitution saving throw against your Vessel spell save DC or have disadvantage on the next saving throw it makes before the end of your next turn.
+
+
+#### Sundering Strike
+*Prerequisite: 12th level Vessel*::
+Your strikes assault both body and spirit. Whenever you hit a creature with an Iridescent Strike, you can force it to make a Charisma saving throw. On a failed save, it cannot cast spells until the beginning of your next turn. You can only force each creature to make this saving throw once per turn.
+
+#### Twilight Steps
+*Prerequisites: 12th-level Vessel*::
+You can draw on your Spirit's power to phase your physical body into the spirit world. You learn the *spectral passage* spell, but it does not count against your Spells Known.
+
+As a bonus action, you can cast spectral passage without expending a spell slot. However, when you do so, it only lasts until the end of your turn, but does not require concentration.
+
+
+\column
+
+#### Unstable Overflow
+
+*Prerequisites: 12th-level Vessel*::
+
+When you cast a Vessel spell of 1st level or higher, spiritual power erupts from your body. One creature of your choice within 10 feet of you must succeed on a Dexterity saving throw against your Vessel spell save DC or take damage equal to one roll of your Iridescent Strike die + your Charisma modifier. The damage type is the same as your Iridescent Strike.
+
+You can trigger this Aspect only once per turn.
+
+#### Colossal Archon
+*Prerequisites: 18th-level Vessel, Dire Stature*::
+The appearance of your Archon Form inspires legends and myths. When you use Dire Stature, you can grow by an additional size category if there is room for you to do so. You gain all the benefits of Dire Stature for your increased size.
+
+
+#### Lord of Spirits
+*Prerequisite: 18th-level Vessel*::
+You can channel the elder authority of your Sealed Spirit to compel powerful entities into your service. As an action, you can conjure one creature of your choice of the same creature type as your Archon Form with a CR of 6 or lower.
+
+This creature appears in an unoccupied space you choose within 30 feet, and remains for 1 hour or until it is destroyed.
+
+It obeys your commands completely and will not harm you or your allies. In combat is shares your turn, and will do all it can to obey your commands that don't violate its nature.
+
+Once you use this feature you must finish a long rest before you can call another such creature to your aid.
+
+#### Primordial Bulwark
+*Prerequisites: 18th-level Vessel, Opalescent Armor*::
+You draw out the true primordial fortitude of the Spirit bound within you. Your Archon Form gains resistance to all damage except for force, psychic, and radiant damage.
+
+As a bonus action, you can harden your Archon Form, and until the start of your next turn, whenever you take damage you reduce it by your Charisma modifier (minimum of 1).

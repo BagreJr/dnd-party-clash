@@ -1,0 +1,1426 @@
+```metadata
+title: Investigator
+description: ''
+tags: []
+systems: []
+renderer: V3
+theme: 5ePHB
+
+```
+
+```css
+.page{
+	width  : 210mm;
+	height : 296.3mm;
+}
+
+css
+
+.page .columnWrapper {
+	height: 100%
+}
+
+.page .toc.wide {
+	columns: 1;
+	height: 100%;
+}
+
+.page .toc > ul > li {
+	font-weight:100;
+	margin-bottom:-2.1px;
+
+}
+
+.page .toc ul ul {
+	margin-left: 0;
+	font-weight: 50;
+	color: black;
+}
+
+
+
+
+```
+
+{{frontCover}}
+
+{{logo ![](/assets/naturalCritLogoRed.svg)}}
+
+# Investigator
+
+
+![background image](https://i.imgur.com/HIBW0Dn.jpg){position:absolute,bottom:-40px,left:0,height:110%}
+
+
+\page
+{{toc,wide
+- #### [{{ Investigator}}{{ 3}}](#p3)
+    -  [{{ Paranormal Investigators}}{{ 3}}](#p3)
+    -  [{{ Exorcists and Occultists}}{{ 3}}](#p3)
+    -  [{{ Creating an Investigator}}{{ 3}}](#p3)
+  - #### [{{ Class Features}}{{ 4}}](#p4)
+    -  [{{ Expertise}}{{ 5}}](#p5)
+    -  [{{ Ritualist}}{{ 5}}](#p5)
+    -  [{{ Myths and Legends}}{{ 5}}](#p5)
+    -  [{{ Rushed Incantation}}{{ 5}}](#p5)
+    -  [{{ Occult Specialization}}{{ 5}}](#p5)
+    -  [{{ Ability Score Improvement}}{{ 5}}](#p5)
+    -  [{{ Exploit Weakness}}{{ 5}}](#p5)
+    -  [{{ Opportunistic Piety}}{{ 6}}](#p6)
+    -  [{{ Supernatural Resolve}}{{ 6}}](#p6)
+    -  [{{ Finisher}}{{ 6}}](#p6)
+    -  [{{ Enigma Arcane}}{{ 6}}](#p6)
+    -  [{{ Exorcist}}{{ 6}}](#p6)
+    -  [{{ Spellbinder}}{{ 6}}](#p6)
+  - #### [{{ Occult Specializations}}{{ 7}}](#p7)
+  -  [{{ Antiquarian}}{{ 7}}](#p7)
+  -  [{{ Archivist}}{{ 8}}](#p8)
+  -  [{{ Conspiracy Theorist}}{{ 9}}](#p9)
+  -  [{{ Containment Specialist}}{{ 10}}](#p10)
+  -  [{{ Contractualist}}{{ 11}}](#p11)
+  -  [{{ Cursed Energy Specialist}}{{ 12}}](#p12)
+  -  [{{ Decommissioner}}{{ 13}}](#p13)
+  -  [{{ Detective}}{{ 14}}](#p14)
+  -  [{{ Exterminator}}{{ 15}}](#p15)
+  -  [{{ Infernal Agent}}{{ 15}}](#p15)
+  -  [{{ Inquisitor}}{{ 16}}](#p16)
+  -  [{{ Kid Sleuth}}{{ 17}}](#p17)
+  -  [{{ King of Curses}}{{ 18}}](#p18)
+  -  [{{ Medium}}{{ 19}}](#p19)
+  -  [{{ Occultist}}{{ 20}}](#p20)
+  -  [{{ Spy}}{{ 21}}](#p21)
+  -  [{{ Time Operative}}{{ 21}}](#p21)
+  -  [{{ Witch Hunter}}{{ 22}}](#p22)
+}}
+
+
+
+
+
+\page
+
+## Investigator
+A collage of diagrams, maps, and small items litters
+the wall, pinned with nails and connected by a
+spiderweb of colorful strings. An elf stands nearby,
+contemplating the mystery splayed out in front of her
+and readying her crossbow for work.
+A half-orc wearing a wide-brimmed hat
+leafs through a thick tome, double-checking the
+preparations: a sturdy net trap, holy symbols on the
+doors, cloves of garlic, and several dozen wooden
+stakes. The preparations made, the half-orc slinks
+into the shadows and readies himself for the
+bloodshed.
+Hastily tracing symbols in chalk, a human
+wearing a long coat whirls about in a wide arc,
+completing a rough magic circle in mere seconds.
+A monstrously fat demon, blood dripping with its
+drool, lunges at him, but instead impacts off an
+invisible magical barrier, a cylinder raised from
+the circle’s edge. The fiend howls with rage, and the
+inquisitor breathes a sigh of relief.
+Supernatural detectives and monster slayers,
+investigators are always on the hunt for malevolent
+outsiders. Whenever evil seeps into the world—be
+it fiends, undead, or strange abominations from
+beyond the stars—investigators will be the first to
+locate them and banish their foul corruption from
+the mortal plane.
+
+### Paranormal Investigators
+There are forces more ancient than time, foes more
+sinister than the foulest men, and beings more titanic
+than gods. The world stands at a precipice of woe and
+terror, being threatened nightly by dark agents and
+hordes of monsters. At risk to their own lives and
+sanities, investigators penetrate the evil that creeps
+in the shadows and banish it from the world. Their
+battles are never-ending, for victory only delays
+doomsday another night.
+Investigators track supernatural threats ranging
+from incorporeal spirits, to nefarious vampires and
+lycanthropes, to incursions of demons and devils.
+Often in their investigations, they often uncover
+secret cults and maligned individuals who bring
+these supernatural threats to bear. It is always
+their goal to impede these evildoers by any means
+necessary, resorting to trickery, guile, magic, and bloodshed when necessary. To an investigator, no tactic is unthinkable when the world is at stake.
+
+### Exorcists and Occultists
+Even as they strive to contain its influence
+from the world at large, investigators dabble in
+forbidden magic to give themselves an edge against
+supernatural threats. Prepared investigators keep a
+well-stocked grimoire of magical secrets, containing
+rituals, incantations, notes on monsters’ powers
+and weaknesses, recipes for poisons, and arcane
+diagrams—everything needed to confront their
+foes on an even footing. Even so, an investigator’s
+occupation is perilous. A grimoire might spell out a
+vampire’s fear of sunlight and aversion to silver, but it
+does little to hinder their fangs.
+### Creating an Investigator
+As you build your investigator, consider what sort of
+supernatural threat first drove you to investigating
+and combating the occult. Did one of your family
+members strike a bargain with a fiend? Were you
+kidnapped by a cabal of vampires or a pack of
+lycanthropes? Did you stumble across evidence of an
+eldritch abomination, such as a Great Old One? The
+type of creature you first did battle with likely shaped
+your tools and methods later on.
+Did you apprentice under a seasoned monster
+hunter, learning the ropes of tracking a threat,
+uncovering its weaknesses, and setting a trap for it?
+Or did you strike out on your own, compiling your
+own grimoire from hard-earned research? Perhaps
+you learned everything about monster hunting from
+someone else’s grimoire, a masterwork containing
+an abridged library of occult knowledge and a
+lifetime of experience. It’s even possible that you
+signed a contract with a minor fiend and turned to
+supernatural investigation in a last-ditch effort to
+save your soul.
+#### Quick Build
+Follow these suggestions to build an investigator
+quickly: Intelligence should be your highest ability
+score, followed by Dexterity or Strength. Choose any
+background. Then, select the rituals clue, comprehend
+languages, detect magic, and transient bulwark to add
+to your grimoire.
+
+{{imageMaskCorner10,--offsetX:50%,--offsetY:-30%,--rotation:0
+  ![](https://i.imgur.com/SqlSLWW.png){height:55%,left:350px,bottom:-1px}
+}}
+
+
+
+
+{{pageNumber,auto}}
+\page
+
+
+{{classTable,frame
+##### The Investigator
+|       |   |                                  |Ritual       | 
+| Level |PB | Features                         | Level |
+|:-----:|:-:|:---------------------------------|:-----|
+| 1st  | +2 | Expertise, Ritualist          | 1st   |
+| 2nd  | +2 | Myths and Legends, Rushed Incantation    | 1st   | 
+| 3rd  | +2 | Occult Specialization                      | 2nd   | 
+| 4th  | +2 | Ability Score Improvement        | 2nd   |
+| 5th  | +3 | Exploit Vulnerability    | 3rd   |
+| 6th  | +3 | Expertise, Occult Specialization feature             | 3rd   |
+| 7th  | +3 | Opportunistic Piety                 | 4th   |
+| 8th  | +3 | Ability Score Improvement        | 4th   |
+| 9th  | +4 | Supernatural Resolve           | 5th   |
+| 10th | +4 | Occult Specialization feature              | 5th   |
+| 11th | +4 | Finisher | 6th   |
+| 12th | +4 | Ability Score Improvement        | 6th   |
+| 13th | +5 | Enigma Arcane           | 6th   |
+| 14th | +5 | Occult Specialization feature              | 6th   |
+| 15th | +5 | Enigma Arcane improvement                 | 6th   |
+| 16th | +5 | Ability Score Improvement        | 6th   |
+| 17th | +6 | Enigma Arcane improvement           | 6th   |
+| 18th | +6 | Exorcist                | 6th   |
+| 19th | +6 | Ability Score Improvement        | 6th   |
+| 20th | +6 | Spellbinder                  | 6th   |
+}}
+
+## Class Features
+As a investigator, you gain the following class features
+#### Hit Points
+
+- **Hit Dice:** 1d8 per investigator level
+- **Hit Points at 1st Level:** 8 + your Constitution modifier
+- **Hit Points at Higher Levels:** 1d8 (or 5) + your Constitution modifier per investigator level after 1st
+
+#### Proficiencies
+
+- **Armor:** Light armor
+- **Weapons:** Simple weapons, hand crossbows, heavy crossbows, longswords, rapiers, shortswords
+- **Tools:** One gaming set
+
+
+- **Saving Throws:** Dexterity, Intelligence
+- **Skills:** Choose three from Arcana, Athletics, Deception, History, Insight, Intimidation, Investigation, Medicine, Nature, Perception, Persuasion, Stealth, Sleight of Hand, and Religion
+
+
+{{imageMaskEdge1,--offset:10%,--rotation:270
+  ![](https://i.imgur.com/xhNhUpi.png){height:100%,left:200px,transform:scaleX(-1)}
+}}
+<!-- Use --offset to shift the mask away from page center (can use cm instead of %)
+     Use --rotation to set rotation angle in degrees. -->
+
+
+#### Equipment
+You start with the following equipment, in addition to the equipment granted by your background:
+- Leather armor
+- A dagger and *(a)* a longsword or *(b)* rapier
+- *(a)* a heavy crossbow and 20 bolts or *(b)* a hand crossbow and 20 bolts
+- *(a)* dungeoneer’s pack or *(b)* one kit you’re proficient with
+- A grimoire and a material component pouch
+
+ <img src='https://i.imgur.com/ADH71yD.png'
+style='position:absolute;bottom:0px;left:320px;transform: scaleX(-1);
+width:700px;'/> 
+
+{{artist,position:absolute,top:660px,left:430px,margin-bottom:-30px
+##### John
+}}
+{{pageNumber,auto}}
+\page
+
+### Expertise
+At 1st level, choose two of your skill proficiencies; your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.
+
+At 6th level, you can choose two more of your proficiencies to gain this benefit.
+
+### Ritualist
+You maintain a grimoire brimming with magical rituals, your most potent tools to defeat supernatural threats.
+
+#### Grimoire
+At 1st level, you have a grimoire containing four 1st-level spells of your choice that have the ritual tag from any class’s spell list (the spells needn’t be from the same list). You can’t cast spells in your grimoire except as rituals, unless you’ve learned them by some other means.
+Whenever you gain a level in this class, you can add an additional ritual spell from the Investigator Rituals list to your grimoire at no cost. The Ritual Level column on the Investigator table shows the maximum spell level you can add to your grimoire.
+
+Additionally, whenever you find a ritual spell on your adventures, you can add it to your grimoire if it is on the Investigator Rituals list of a level you can add to your grimoire. For each level of the spell, the transcription process takes 2 hours and costs 50 gp for the rare inks needed to inscribe it.
+
+#### Bonus rituals 
+As an investigator, you can treat specific spells as if they had the ritual tag, allowing you to add them to your grimoire and cast them as rituals. These spells are listed on the Investigator Rituals table to the right
+.
+#### Spellcasting ability
+Intelligence is your spellcasting ability for your ritual spells, since you master your spells through deduction and cunning. You use your Intelligence whenever a spell refers to your spellcasting ability.
+
+In addition, when you cast an investigator ritual or a spell offered to you by a feature in this class, you use your Intelligence modifier when setting the saving throw DC and making an attack roll.
+**Spell save DC** = 8 + your proficiency bonus + your Intelligence modifier
+
+**Spell attack modifier** = your proficiency bonus + your Intelligence modifier
+
+
+### Myths and Legends
+At 2nd level, you are extremely adept at uncovering knowledge which pertains to eldritch threats
+and forgotten legends. You have advantage on Intelligence checks related to researching creatures, spells, and other ancient or secret lore.
+
+\column
+
+### Rushed Incantation
+Beginning at 2nd level, you can hastily perform any ritual spell in your grimoire that has a casting time of 1 action, completing the ritual as a bonus action. If the ritual requires spell components worth 100 gp or less, you cast it without using spell components. You can use this feature a number of times equal to your Intelligence modifier (minimum once), and regain the ability to do so when you finish a long rest. 
+
+As you gain higher levels in this class, you can use this feature additional times. You can use it once more at 5th level (Intelligence modifier + 1), 9th level (Intelligence modifier + 2), 13th level (Intelligence modifier + 3), and 17th level (Intelligence modifier + 4).
+
+### Occult Specialization
+At 3rd level, you choose a specialization, an area of expertise in handling eldritch threats. Your specialization choices are detailed at the end of the class description. Your specialization choice grants you features at 3rd level and then again at 6th, 10th, and 14th level.
+
+#### Trinkets
+Investigators of each specialization also collect a number of supernatural trinkets. Once you use one of your trinkets, you can’t this feature again until you finish a short or long rest. As you gain higher levels in this class, you can use your trinkets additional times: You can use them once more at 5th level (2 uses), 11th level (3 uses), and 17th level (4 uses).
+
+### Ability Score Improvement
+When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.
+
+### Exploit Weakness
+Most supernatural creatures have some form of weakness, a gap in their armor that allows them to be defeated. Starting at 5th level, once on each of your turns when you hit a creature with a weapon attack, it is treated as if it has vulnerability to the weapon’s damage. Vulnerability from this feature only doubles your weapon damage dice and your ability modifier; do not double additional sources of damage, such as spells and other class features.
+
+Additionally, the attack, as well as all other attacks made against the creature until the start
+of your next turn, are considered magical for the purposes of bypassing damage resistance and immunity.
+
+{{pageNumber,auto}}
+\page
+### Opportunistic Piety
+By 7th level, you always keep a wide array of holy symbols and blessed items on your person, even if you aren’t particularly pious. When you use your Opportunistic Piety, you choose which effect to create from the list below. You must then finish a short or long rest to use your Opportunistic Piety again.
+
+**Banish.** You cast the spell banishment without using a spell slot. If the target is a fey, fiend, or undead and fails its saving throw against this spell, it also takes radiant damage equal to your level.
+
+**Miracle Healing.** As an action, divine light from your hands knit the wounds of a willing
+creature you touch. That creature regains a number of hit points equal to twice your investigator level. This ability has no effect on undead or constructs.
+
+**Warding.** As an action, you trace a holy symbol on a creature within 5 feet of you, warding
+it from harm. For the next minute, aberrations, celestials, fey, fiends, and undead which touch the target creature or hit it with a melee attack take 1d12 radiant damage.
+
+
+### Supernatural Resolve
+At 9th level, you gain an extreme resilience to the attacks and effects of the creatures you regularly investigate. You can’t be possessed or charmed, and you gain resistance to both psychic and necrotic damage.
+
+### Finisher
+Beginning at 11th level, you know exactly how to bring a monster down. When you take the Attack
+action and hit a creature with a weapon attack, you can deal an extra 2d8 damage to the creature. If the creature has less than half its hit points remaining, you can instead deal an extra 4d8 damage to the creature.
+
+### Enigma Arcane
+At 13th level, you uncover a magical secret connected to a wellspring of potent magic. You
+can cast one of the following spells once without expending a spell slot: *mirage arcane, plane shift, reverse gravity, sequester, or teleport*. You must finish a long rest before you can do so again. 
+
+At 15th level, you can also cast one of the following spells without expending a spell slot: *antimagic field, glibness, maze, or mind blank*. You must finish a long rest before you can do so again.
+
+At 17th level, you can also cast one of the following spells without expending a spell slot: *astral projection, gate, or weird*. You must finish a long rest
+before you can do so again.
+
+### Exorcist
+Starting at 18th level, you are under the constant effect of the *protection from evil and good* spell.
+
+\column
+
+### Spellbinder
+By 20th level, many rituals you perform have become second nature to you. Select five ritual spells in your grimoire with a casting time of 1 action. You can cast these spells as a bonus action without using a use of Rushed Incantation, and you can do so without your grimoire on hand. If the ritual requires spell components worth 100 gp or less, you cast it without using spell components.
+
+{{artist,position:absolute,top:780px,left:450px,margin-bottom:-70px
+##### Alasturuk
+}}
+![Alasturuk](https://i.imgur.com/DwG7Hub.png) {width:625px,position:absolute,left:400px,bottom:0px,transform:scaleX(-1)}
+
+
+{{pageNumber,auto}}
+\page
+## Occult Specializations
+
+
+### Antiquarian
+Festooned with magical trinkets from every corner of the globe, antiquarians have a tool for every occasion: silver arrowheads for lycanthropes, heartwood stakes for vampires, blessed relics for fiends, and so on.
+
+#### Artifact historian
+Starting when you choose this specialty at 3rd level, you add the spell *identify* to your grimoire and never require material components to cast it.
+
+#### Trinkets
+By 3rd level, you can use the following trinkets:
+
+**Hateful Arrowhead.** You can cast the spell scorching ray or ray of enfeeblement once without using a spell slot or spell components.
+
+**Mirrored Prism.** You can cast the spell blur or mirror image, targeting yourself only, once without using a spell slot or spell components. 
+
+**Razortooth Bandages.** You can cast the spell cure wounds or inflict wounds once without using a spell slot or spell components. This spell is cast as if using a spell slot of the level shown in the Ritual Level column of the Investigator table.
+
+#### Relics
+By 6th level, you can use one of the following relics, and regain the ability to use this feature when you finish a short or long rest.
+
+**Antediluvian Dynamo.** You can cast the spell fireball or lightning bolt once without using a spell slot or spell components.
+
+**Lich’s Deathmask.** You can cast the spell counterspell or dispel magic once without using a spell slot or spell components.
+
+**Mortal Coil.** You can cast the spell animate dead or revivify once without using a spell slot or spell components. Casting animate dead using
+
+this trinket causes all undead servants created by previous castings of the spell to revert to lifeless corpses.
+
+#### Magic item collection
+Starting at 10th level, you can produce one of these items, and change your selection each day when you finish a long rest. The item is your choice of the following: 
+*a carpet of flying, a cloak of the bat, a flame tongue, gauntlets of ogre power, an instant fortress, a ring of regeneration, a ring of telekinesis, a sun blade, or a wand of wonder.*
+
+\column
+
+#### Phylactery
+By 14th level, you’ve secured the crown jewel of your collection: a *lich’s phylactery*. Though the original owner’s soul has been expelled from this accursed artifact, it retains many of its unique properties.
+This magic item is always attuned to you and doesn’t count against your total number of attuned magic items. 
+
+It has 5 charges, and regains 1d4 + 1 expended charges daily at dawn. You can expend one or more of these charges to use the following abilities:
+
+**1 Charge:** You can cast the spell false life as a second level spell without expending spell slots or spell components.
+
+**1 Charge:** You can use your bonus action to regain an expended use of your Trinkets.
+
+**2 Charges:** As a reaction when you drop to 0 hit points, you can drop to 1 hit point instead.
+
+**3 Charges:** Make a melee spell attack against creature within your reach. On a hit, the target takes 5d6 necrotic damage and you regain hit points equal to the total amount of necrotic damage dealt.
+
+
+{{pageNumber,auto}}
+\page
+
+### Archivist
+Though most investigators fill their grimoires with hard-won knowledge borne from encounters with the supernatural threats, some prefer to do bookkeeping instead. 
+
+#### Trinkets
+Starting when you choose this specialization at 3rd level, you’ve a trinket  your ritual magic:
+
+**Archaic Scroll.** You can perform a ritual spell with your Rushed Incantation feature without expending one of the feature’s uses.
+#### Thesis
+Also at 3rd level, you gain access to certain spells associated with your thesis. Pick one area for your thesis: Corpus, Ignis, Mortis, or Regis. You gain a list of associated thesis spells.
+
+Once you gain access to a thesis spell, it is added to your grimoire. If you gain access to a spell that doesn’t appear on the investigator ritual list, the spell is nonetheless an investigator spell for you. You can use your action and expend a use of your Rushed Incantation feature to cast one of your thesis spells.
+##### Corpus
+Investigator Level | Spells
+|:-:|:-:|
+1st| *jump, longstrider*
+2nd| *alter self, heat metal*
+3rd| *gaseous form, meld into stone Ignis*
+##### Ignis 
+Investigator Level | Spells
+|:-:|:-:|
+1st| *burning hands, shatter*
+2nd| *gust of wind, scorching ray*
+3rd| *call lightning, wind wall*
+##### Mortis
+Investigator Level | Spells
+|:-:|:-:|
+1st| *bane, false life*
+2nd| *blindness/deafness, darkness*
+3rd| *revivify, vampiric touch*
+
+##### Regis
+Investigator Level | Spells
+|:-:|:-:|
+1st| *charm person, hideous laughter*
+2nd| *enthrall, suggestion*
+3rd| *dispel magic, hypnotic pattern*
+#### Erudite spell
+By 6th level, when you cast a spell which forces a creature to make a saving throw to resist its effects, you can give one target of the spell disadvantage on its first saving throw against the spell.
+
+Once you use this ability, you can’t use it again until you finish a short or long rest.
+
+\column
+
+#### Encyclepedic Expertise 
+Starting at 10th level, whenever you witness a spell being cast or investigate a magical effect, you can always identify the spell that was cast, the magic item responsible, or the monster which produced the effect. However, this ability fails to identify spells, magic items, and monsters which are utterly unique or are otherwise not recorded in arcane texts.
+
+
+#### Eidetic memory
+At 14th level, you can copy any ritual spell you see being cast into your grimoire. Moreover, you can precisely copy the exact motions of a spell’s casting to duplicate its effect.
+When you see a spell of 5th level or lower being cast, you can use your action and spend 1 use of your Rushed Incantation feature as an action to cast the spell yourself without spending a spell slot. The spell must have a casting time of 1 action, must not have expensive spell components, and must have taken place within the last minute to use this ability.
+
+Once you duplicate a spell in this way, you can’t duplicate it again until you finish a long rest.
+
+
+{{pageNumber,auto}}
+\page
+### Conspiracy Theorist
+The world is full of stuff that doesn’t add up. A
+natural disaster strikes and they talk about theoretical
+weather patterns. People forget days at a time and
+they say some medical jargon about their brains. And
+nobody seems to notice the folks dressed in black who
+seem to be lurking behind every corner. It’s one big
+coincidence after another. But when you ask the right
+questions and pull on the most innocuous threads,
+you start uncovering the biggest mysteries: the ones
+They don’t want you knowing about.
+ It’s hard to tell who They even are, apart from the
+fact they They’re massively influential and have deep
+pockets. They have agents everywhere, watching and
+waiting. What are their goals? What are they working
+so hard to keep secret? You can’t be totally sure, but
+you have a few good theories. 
+
+#### Paranoid Insight
+Starting when you choose this specialization at 3rd
+level, you have advantage on initiative rolls.
+
+#### Trinkets
+By 3rd level, you’ve collected a number of magical
+trinkets to help you uncover mysteries that They don’t
+want you to oust. You can use the following trinkets:
+
+ **Masonic Charm.** As a bonus action, you can attach
+this charm to a weapon you are holding. When you do
+so, pick a number from 2 to 19. For the next minute,
+the weapon scores a critical hit on attack rolls when
+you roll that number on a d20, in addition to a 20.
+
+ **Three-Headed Coin.** As a bonus action, you can
+reroll one of your attack rolls or ability checks, or as a
+reaction you can reroll a saving throw you make. You
+choose which of the d20s is used for the roll.
+
+ **Unfathomable Metal.** As a bonus action, you
+reveal the metal to a creature within 5 feet of you. The
+target creature takes 1d6 radiant damage and must
+succeed a Constitution saving throw. On a failed save,
+it takes 1d6 radiant damage at the start of each of its
+turns for up to 1 minute. The creature can reattempt
+the saving throw at the end of each of its turns, ending
+the effect on a success.
+
+#### Prepper
+Starting at 6th level, your manic predictions
+of the future pay off in conventionally dangerous
+situations. Whenever you ready an attack, you have
+advantage on the attack roll.
+#### Probably Aliens
+Beginning at 10th level, you can predict neverbefore-witnessed phenomena. Any time the
+GM would disallow other characters to make an
+Intelligence check to understand something because
+the knowledge in question has no precedent, is too
+obscure, or is simply unsupported by the available
+information, they can allow you to make an
+Intelligence check to understand it anyway.
+
+\column
+
+#### Off the Grid
+By 14th level, you’re so adept at avoiding people that
+you can always keep them at arm’s length. Whenever
+a hostile creature enters your reach, you can use your
+reaction to move up to half your movement speed
+without provoking opportunity attacks. Additionally,
+you are always under the effects of the *nondetection*
+spell.
+
+{{pageNumber,auto}}
+\page
+
+### Containment Specialist
+Though the study of magic is diverse and wonderous,
+it contains innumerable mysteries better left
+unexplored. Such topics in magic are seldom studied,
+for their very existence poses an existential threat to
+the multiverse itself: chronomancy, protomancy, and
+quantumancy are among the few graced with names
+at all. When a sinister (or merely curious) arcanists
+pulls on one of these volatile threads of knowledge,
+they open a Pandora’s box of unpredictable effects; the
+results are usually catastrophic. Using such dangerous
+arcana leaves lasting scars on people and objects,
+metaphysical reverberations from the terrible secrets
+at their source.
+
+ As their title implies, containment specialists
+are tasked with tracking, isolating, and containing
+exotic magic and its artifacts. Their job is hazardous
+and challenging, but is of critical importance to the
+multiverse at large. Containment specialists usually
+coordinate in clandestine groups to triangulate
+new threats and ensure isolated ones are contained
+indefinitely. With some luck, these organizations can
+remain obscure footnotes for generations, further
+sheltering their secrets from curious eyes.
+
+#### Black Suit
+Starting when you choose this specialization at 3rd
+level, you can invoke a certian unspoken authority
+invested in your black suit. You gain proficiency in
+the Persuasion skill and add double your proficiency
+bonus to checks you make with it.
+
+#### Trinkets
+By 3rd level, you’ve collected a handful of safe
+magical items which aide in your search and
+containment of far more dangerous artifacts. You can
+use the following trinkets:
+
+ **Antibell.** As a bonus action, you can cast the
+spell silence once without using a spell slot or spell
+components.
+
+ **Black Bag.** As a bonus action, you can speak a
+secret command word to open your black bag, an
+item linked to numerous extradimensional spaces.
+Once the command word is spoken, you can place
+items in the bag or retrieve them for up to 1 minute.
+
+ Any item placed within the bag is stored in its
+own extradimensional space, which is suffused by an
+antimagic field. The bag’s mouth is 2 feet in diameter.
+It can hold up to 12 items, each weighing no more
+than 50 pounds, and weighs as much as the heaviest
+object stored within it.
+
+ When you retrieve an item from the bag, you
+always grab the item you intended.
+
+ **Cinnabar Compass.** As a bonus action, you can
+cast the spell locate object once without using a spell
+slot or spell components.
+
+#### Concussive Strike
+Starting at 6th level, whenever you score a critical
+hit on a melee attack against a creature, the target is
+stunned until the beginning of your next turn.
+
+#### Nothing to See Here
+At 10th level, with a blinding flash, you can overwrite
+the memories of those around you. You can cast the
+spell modify memory once as an action, targeting 3
+creatures within range, without using a spell slot or
+spell components. You must modify the memories of
+each creature affected by the spell in the same way.
+
+ Once you use this ability, you can’t use it again
+until you finish a long rest.
+#### Containment Dimension
+By 14th level, you can leverage a powerful
+quarantine procedure to keep others safe from
+dangerous artifacts. As an action, you can create a
+pocket dimension that is an exact duplicate of your
+surroundings at the moment of using this ability—
+complete with duplicates of all the structures and
+items therein—and transport creatures you choose
+within its area to the dimension. You decide the exact
+area of the duplicate dimension, as long as its total
+space fits within a 150-foot cube.
+
+ While in the pocket dimension, you can only affect
+and be affected by other creatures in that dimension.
+You can’t see creatures and objects outside the pocket
+dimension. Objects taken from the pocket dimension
+vanish upon leaving it.
+
+ The pocket dimension lasts for 10 minutes, and
+ends early if it no longer contains living creatures or you use your action to end it. All creatures and objects
+inside the pocket dimension are deposited as near as
+possible to their corresponding locations in the real
+world when this effect ends.
+
+ Once you use this ability, you can’t use it again
+until you finish a long rest.
+{{pageNumber,auto}}
+\page
+### Contractualist
+Some Investigators prefer not to disregard the options they have when dealing with otherworldly entities. In fact, the Contractualists specialize in the written bargain, hiring extraplanar souls to fight their own kind as their minions.
+
+Of course, some clients have a taste for fingernails, demand compulsive cuddles and praise, or won’t ever stop screaming for no reason. That is, however, just the cost of doing business.
+#### Standard Pact
+Starting when you choose this specialization at the 3rd level, you learned a forbidden ritual that allows you to request otherworldly beings to your service.
+
+**Soul Contracts.** During a Long Rest, you can compose a Soul Contract: a magical treaty that binds one Aberration, Celestial, Elemental, Fiend, Fey, Ooze or Undead of your choice to your service.
+
+**Invoking Contracts.** If you have a Soul Contract on your Grimoire, you can summon the creature it binds after spending 10 minutes in a ritual, or as a Bonus Action if you spend a use of your Rushed Incantation feature. The creature appears an unocupied space within 30 feet of you, and remains within your command for up to 1 hour, until it falls to 0 Hit Points or until you Invoke another Soul Contract. When the duration ends, the creature vanishes along with its Soul Contract.
+
+**Legal Limits.** You can have up to 3 Soul Contracts on your Grimoire at a time, and you can replace them or write new ones when you finish a Long Rest. You can not invoke a Soul Contract for a creature whose CR exceeds 1/4.
+
+**Contract Counterpart.** In exchanges for their services, a creature might require the realization of a specific wish afterwards, consisting of a simple favour or treat that reflects its alignment and intelligence.
+
+**Commanding Souls.** A summoned creature understands your verbal commands even if it doesn't share a language with you, and must follow those the best of its ability until its completion. If the creature is Hostile, it strives to twist your commands to achieve its own objectives.
+
+In combat, it acts on your turn and takes any action you command from its statblock (no action required).
+
+**At Higher Levels.** As you gain levels in this class, the number of Soul Contracts you can have and the maximum CR of creatures you can summon increases, as described in the Soul Contract Table.
+
+Level|	Contracts|	Creature CR
+:-:|:-:|:-
+3|	3|	1/4
+6|	4|	1/2
+10|	5|	1
+14|	7|	2
+
+\column
+
+#### Trinkets
+By 3rd level, you acquired magical object that is capable of altering the nature of a contract inconspicuously. You can use the following trinket:
+
+**Fraudulent Pen.** As a Bonus Action, you can use this pen to magically overwrite up to one page of writting, copying the visuals of the original content in a imperceptive way.
+
+**Beguiling Badge.** When you make a Charisma check to influence another creature, you can display this magical badge to gain advantage on the roll.
+
+**Single Paragraph.** you can cast *Comprehend Languages* at will, without a spell slot or components.
+#### Conjuration Tracker
+
+When you reach the 6th level, when you invoke a Soul Contract from your Standard Pact, it summons two identical creatures instead of one. 
+
+Once you use this feature, you can't use it again until you finish a Long Rest.
+
+Additionally, you can sense the presence and position of any source of Conjuration Magic 60ft of you.
+
+
+
+#### Privileged Pact
+At 10th level, whenever you see a creature within 30 feet of you drop to 0 hit points, you can use your Reaction give them a vision of a soul contract, and offer them a wish in exchange for their binding. If the creature accepts the deal, it is sealed in a Soul Contract, written on a blank page of your Grimoire. The creature must understand at least one language to accept the deal.
+
+**Privileged Invocation.** You can Invoke this Soul Contract only as an Action, and only if the creature of CR is not greater than half your Level.
+
+**Exceptional Clauses.** To make the contract, you and the DM must agree on the conditions it offers. This includes, but is not limited to:
+
+- The Duration of the summoning, ranging between 1 round to 8 hours
+- For what purpose can the creature be summoned
+- Any restrictions to the creature's behavior or conscience while summoned.
+- In combat, it takes its turn immediatelly after yours and acts as it wishes, but is not able to willingly disrespect its Soul Contract's clauses.
+
+Once you create a Soul Contract with this feature, you can not do so again until you finish a Long Rest.
+
+#### Fine Print Fraud
+Finally, at 14th level, if you drop to 0 Hit Points, the summoned creature dies in your place, and you regain a number of Hit Points equal to their current Hit Points.
+
+Additionally, when you create a Soul Contract, you can halve the CR of the bound creature.
+
+Once you invoke a contract altered in this way, you can't do so until you finish a Long Rest.
+
+{{pageNumber,auto}}
+\page
+### Cursed Energy Specialist
+
+Cursed energy specialist are investigators who have delved into the mysteries of cursed energy, mastering the ability to manipulate the very fabric of reality. These specialists harness the power of the void, using it to protect the innocent and obliterate evil sorcerers and malevolent spirits. With their unparalleled control over cursed energy, they can create impenetrable barriers, unleash devastating attacks, and bend space to their will. 
+
+Cursed energy specialist are relentless hunters of those who misuse their arcane powers, bringing justice to those who threaten the balance of the world.
+
+#### Infinity Barrier
+Starting 3rd level, you learn to create barriers that manipulate space to defend against attacks. You reduce all non-magical bludgeoning, piercing, and slashing damage you take by an amount equal to your proficiency bonus.
+####  Trinkets 
+By 3rd level,  you’ve collected a handful of witchs artifacts and tokens that aide in your search and destroy of wicked and unholy witchs. You can use the following trinkets:
+
+**Cursed Technique: Blue.** you gain the ability to manipulate cursed energy to create a pulling force. As an action, you can make a ranged spell attack against a creature or object within 30 feet of you. 
+
+On a hit, the target takes 1d8 force damage and is pulled 15 feet toward you.
+
+This damage increases to 2d8 at 5th level, 3d8 at 11th level, and 4d8 at 17th level.
+
+**Cursed Technique: Red.** You gain the ability to manipulate cursed energy to create an explosive repelling force. As an action, you can make a ranged spell attack against a creature or object within 30 feet of you. On a hit, the target takes 1d8 force damage and is pushed 15 feet away from you.
+
+This damage increases to 2d8 at 5th level, 3d8 at 11th level, and 4d8 at 17th level.
+
+
+#### Enhanced Perception
+At 6th level, your perception of the world around you is heightened. You gain advantage on Wisdom (Perception) checks and Intelligence (Investigation) checks that rely on sight 
+
+Additionally, you can see invisible creatures and objects within 30 feet of you.
+
+\column
+
+
+#### Cursed Technique: Purple
+At 10th level, you unlock the ultimate combination of repulsive and attractive forces, unleashing a devastating wave of destruction. As an action, you can create a 60-foot line that is 5 feet wide, extending from you in a direction you choose. Creatures in the area must make a Dexterity saving throw against your spell save DC. 
+
+On a failed save, a creature takes 6d8 force damage and is pushed 30 feet away. On a successful save, a creature takes half as much damage and isn't pushed.
+
+Once you use this ability, you can’t use it again until you finish a long rest.
+
+
+
+
+
+
+#### Domain Expansion:Infinite Void
+At 14th level, you can create a domain that overwhelms your enemies with infinite information. As an action, you can create a 30-foot radius sphere centered on you that lasts for 1 minute or until you lose your concentration (as if you were concentrating on a spell).
+
+Creatures of your choice within the sphere must make a Wisdom saving throw against your spell save DC at the start of each of their turns. On a failed save, they are stunned until the start of their next turn. 
+
+On a successful save, they are not stunned but have disadvantage on saving throws against your Trinkets while in the sphere. 
+
+Once you use this ability, you can’t use it again until you finish a long rest.
+
+Additionally, you can apply your Finisher feature to your Trinkets.
+
+{{pageNumber,auto}}
+\page
+### Decommissioner
+Blaster in hand and badge in pocket, your job is to hunt down renegade androids that prowl through human megacities wearing perfect human facades.
+
+#### Bonus Proficiencies
+At 3rd level, you gain proficiency in Arcana and one of the following skills of your choice: Insight or Investigation.
+#### Trinkets
+By 3rd level, you can use the following trinkets:
+
+**Biodynamic Quadcorder.** As a bonus action, you can direct this device at a creature you can see within 30 feet of you. You learn the creature’s type and the damage resistances it possesses, if any.
+
+**Order generator.** As a bonus action, you can cast the spell *Command* once without expending a spell slot or spell components. 
+
+**Interrogation Field.** You can cast the spell zone of truth once without expending a spell slot. When you cast the spell using this trinket, each creature in the area makes its saving throw with disadvantage.
+
+
+#### Non-Regulation
+Starting at 6th level, you can spend 10 minutes modifying a weapon with aftermarket components to improve its stopping power. This weapon remains improved until you use this ability to modify a different weapon.
+
+Whenever you roll the highest number possible on one of the weapon’s damage dice, you can roll that die again and add its damage to the total, rolling again if this number is also the highest, and so on. You can roll a total of 6 damage dice for the damage roll, or 12 on a critical hit.
+
+\column
+
+#### Arcane Manipulation
+By 10th level, as an action, you can attempt to manipulate the mind of a creature within 5 feet of you. The target must make a Wisdom saving throw contested by your Intelligence (Arcana) check. If the creature's challenge rating exceeds your investigator level, it automatically succeeds on this saving throw. On a failure, you can choose one of the following effects:
+
+**Mind Probe.** You delve into the thoughts and memories of the target, gaining insight into its motivations, fears, or recent experiences.
+
+**Command.** You can modify the target creature's current orders or motivations, causing it to abandon its current objective, become indifferent to certain creatures, or pursue a simple task of your choosing. The GM determines if a creature is too sophisticated to override or if a directive is too complex for it to comprehend.
+
+**Subdue.** You send a wave of arcane energy through the target's mind, inducing a state of deep slumber. The creature falls unconscious for 1 minute, during which time it is incapacitated and unaware of its surroundings. This effect ends if the creature takes damage or if the duration expires. 
+
+Once you use this ability, you can't use it again until you finish a short or long rest.
+
+#### Antimagic Exploit 
+At 14th level, whenever you use your Exploit Weakness with your modified weapon and hit a target, you can create a temporary 5-foot diameter sphere of antimagic, centered on the target, as per the spell antimagic field. This field also disrupts magical technology, such as blasters.
+
+When a hostile creature enters the affected area for the first time on a turn or starts its turn there, it must make a Wisdom saving throw against your spell save DC or be stunned until the start of your next turn, even if it would otherwise be immune to being stunned. The field lasts until the start of your next turn.
+
+Once you use this ability, you can’t use it again until you finish a short or long rest.
+
+
+{{pageNumber,auto}}
+\page
+### Detective
+Prowling at the edge of darkness, detectives chase down clues and pull on threads to unravel
+conspiracies which bring darkness into the world. Sometimes, this requires that you infiltrate a cult’s secret meetings, other times it calls on you to reconstruct a man’s last moments at a murder scene, but no matter what the mystery, you know that there is always an explanation.
+
+#### Investigator's hunch
+Starting when you choose this specialization at 3rd level, you can unravel even the toughest of mysteries. If you spend at least 10 minutes combing through documents and arranging clues, you can make an Intelligence check with advantage.
+
+#### Trinkets
+By 3rd level, you’ve collected a number of magical trinkets to aid you in tracking supernatural creatures and unraveling mysteries. You can use the following trinkets:
+
+**Glass Medallion.** As a bonus action, you can cast the spell invisibility, targeting yourself only, once without using a spell slot or spell components.
+
+**Fogstone Periapt.** As a bonus action, you can cast the spell misty step once without using a spell slot or spell components.
+
+**Skeleton’s Key.** As a bonus action, you can cast the spell knock once without using a spell slot or spell components.
+
+#### Predictive intuition
+By 6th level, you can turn your skills at reconstructing events towards anticipating the next
+likely moment of a fight. As a bonus action, you can examine the movements of a creature you can see within 30 feet. You can choose to add 1d4 to your next attack roll targeting that creature before the start of your next turn, or you can choose to subtract 1d4 from the creature’s next attack roll against you before the start of your next turn.
+#### Interrogator's instinct
+At 10th level, you are so accustomed to uncovering the truth that you can sense the intents behind
+someone’s voice. You can tell if a creature that you can hear speaking is charmed, possessed, or
+otherwise enchanted to speak against their will, and you have advantage on any ability check you make to determine if you hear a lie.
+
+#### Power of deduction
+Starting at 14th level, you can use your action to examine a creature you can see within 30 feet, taking note of innumerable details and making a lengthy string of logical deductions. For the next minute, you have advantage on Intelligence and Charisma checks you make to interact with this creature, and you have  advantage on attack rolls against them.
+
+Once you use this ability, you can’t use it again until you finish a short or long rest.
+{{pageNumber,auto}}
+\page
+### Exterminator
+An exterminator suffers no monster to live. Trained in the art of slaying aberrations, fiends, and undead, you stand against evil where others falter, and draw your blade before others recognize a threat. Grand schemes and plots are less important than retribution against those monsters which stalk the night, and your thirst for such retribution is unquenchable. There is always another werewolf to be slain, another vampire to be staked, another demon to be banished; people rarely thank you, but you find satisfaction enough in your work.
+
+#### Bonus Proficiencies
+Starting when you choose this specialization at 3rd level, you gain proficiency with martial weapons and medium armor.
+
+#### Trinkets
+By 3rd level, you’ve collected a number of magical trinkets to aid you in the elimination of monsters and other fiendish threats. You can use the following trinkets:
+
+**Consecrated Whetstone.** As a bonus action, you can cast the spell magic weapon once without using a spell slot or spell components.
+
+**Gilded Dragon Scale.** As a bonus action, you gain resistance to one damage type of your choice for a minute.
+
+**Wyverntooth Necklace.** When you hit a creature with a melee weapon attack, you can use
+your bonus action to activate this trinket, dealing an additional 2d6 acid damage to the creature.
+
+#### Monster slayer
+Beginning at 6th level, when you use the Attack action, you can make one weapon attack as a bonus
+action. You can use this feature a number of times equal to your Intelligence modifier (a minimum of once) and regain all expended uses when you finish a short or long rest.
+
+#### Silvered edge
+Starting at 10th level, whenever you deal damage to a creature with a weapon attack, it can’t regain hit points until the start of your next turn. Additionally, when you reduce a creature to 0 hit points, it can’t be raised as an undead creature nor be returned to life for 7 days.
+
+#### Killer instinct
+Starting at 14th level, you can use your Exploit Weakness feature twice on your turn, but can’t use it against the same target more than once.
+\column
+### Infernal Agent
+Just as noble investigators shield the world from
+sinister supernatural forces, infernal agents prowl the
+darkness enacting schemes to further supernatural
+goals. Though actual devils oversee many infernal
+agents, just as many count themselves as operatives of
+vampires, lycanthropes, ominous eldritch forces, and
+chaos itself. Their rationale and motives might vary,
+but all infernal agents seek to disrupt the status quo
+that other investigators protect, casting them in stark
+contrast and as bitter enemies.
+
+#### Sinister Emblem
+Starting when you choose this specialty at 3rd level,
+you manifest a sign of your benefactors, marking you
+as one of their number. Choose the Fist, Horns, or
+Shadow. Your mark’s appearance reflects the nature of
+your benefactors: your Horns might be the devilish
+horns of a ram, or appear as vampire’s fangs, or even
+eldritch, unblinking eyes. 
+
+**Fist.** One of your arms grows weighty
+with stone or scales, becoming a natural melee
+weapon with which you can make slam attacks.
+You have proficiency in your slam attack. On a hit,
+it deals 1d10 + your Strength modifier bludgeoning
+damage, and counts as magical for the purpose of
+overcoming resistance and immunity to nonmagical
+attacks and damage.
+
+ Additionally, incoming attacks simply bounce off
+your arm. As a result, bludgeoning, piercing, and
+slashing damage that you take from nonmagical
+weapons is reduced by 3.
+
+ **Horns.** You grow a pair of horns, a direct
+connection to your benefactor’s malevolent power.
+You can cast the following spells without using a
+spell slot or spell components: burning hands, charm
+person, hellish rebuke, inflict wounds. This spell is
+cast at the level shown in the Ritual Level column of
+the Investigator table for your level. You can use this
+ability to cast a spell twice, and regain all expended
+uses when you finish a long rest.
+
+ **Shadow.** Your benefactors snip your shadow
+from your body, allowing it to move independently.
+Your shadow is a flat creature with 1 HP and 10
+AC occupying a 5-foot square. On your turn, you
+can command your shadow to move up to your
+movement speed (no action required). You can use
+your bonus action to command your shadow to make
+a melee spell attack. This attack uses your spell attack
+bonus to hit and deals 1d6 necrotic damage on a hit.
+ Additionally, you can use your bonus action to
+command your shadow to take the Help action. It can
+take this action three times, and regain all expended
+uses when you finish a long rest.
+
+ Your shadow vanishes if it enters an area of light
+created by a spell of 3rd level or higher or if it takes
+any damage. Once your shadow vanishes, you can
+resummon it at your heels as a bonus action.
+{{pageNumber,auto}}
+\page
+#### Trinkets
+By 3rd level, you’ve assembled a collection of cursed
+and baneful trinkets to help you achieve your
+malevolent goals. You can use the following trinkets:
+
+ **Broken Ankh.** When you hit a celestial, elemental,
+or fiend with a melee weapon attack, you can use
+your bonus action to activate this trinket, dealing an
+additional 2d10 necrotic or radiant damage (your
+choice) to the creature.
+
+ **Diabolical Bubble Gum.** As a bonus action, you
+can chew on this fiendish treat. Until the beginning
+of your next turn, whenever you take damage from
+a creature within 5 feet of you, you can deal 2d6 fire
+damage to that creature.
+
+ **Glass Demon’s Eye.** You canuse your bonus action
+to activate this trinket, allowing you to see normally
+in darkness, both magical and nonmagical, to a
+distance of 120 feet for the next minute.
+
+#### Kick ‘em While They’re Down
+Starting at 6th level, you can capitalize on your foes’
+setbacks. Once per turn, you can deal an extra 2d6
+damage to one creature you hit with an attack if you
+have advantage on the attack roll.
+#### Hide the Body
+By 10th level, you can flawlessly conceal the evidence
+of your misdeeds. Whenever you commit a murder,
+robbery, vandalism, or similar crime, you can spend
+10 minutes hiding evidence at the scene. You can
+choose to remove all evidence connecting you to the
+crime, attempt to conceal the crime itself, or compose
+the crime scene to imply a specific conclusion.
+#### Master Plan
+By 14th level, you can set up the perfect crime by
+planning out its every detail. On your turn, you
+can choose a creature or object you can see within
+60 feet and use your action to plan. The next attack
+roll or ability check you make to enact this plan has
+advantage. If you spend 1 minute planning a course
+of action, you have advantage on the next three attack
+rolls or ability checks you make enacting your plan
+
+
+### Inquisitor
+The church has long been the first line of defense against the tide of impending darkness. Yet, the
+clergy’s stubborn devotion to righteousness impedes them where it counts: you must sometimes be willing to do evil to counter evil. That’s where the inquisition comes in.
+As a righteous inquisitor of the faith, you are tasked with rooting out heresy, exorcising demons,
+and stamping out any sign of the occult, and are offered clemency for any action you take in the
+defense of the greater good. You may investigate anyone or anything you deem to be in line with the
+forces of evil, for you alone are a holy blade in the dark, the arbiter of your church.
+
+
+#### Bonus Proficiencies
+Starting when you choose this specialization at 3rd level, you gain proficiency with medium armor.
+:
+#### Exorcist's doctrines
+Also at 3rd level, you gain proficiency in the Religion skill and add double your proficiency bonus to checks you make with it.
+
+#### Trinkets
+By 3rd level, you’ve collected a number of magical trinkets to help you banish restless spirits and foul demonic forces. You can use the following trinkets:
+
+**Alabaster Balm.** As a bonus action, you can cast the spell lesser restoration once without using a spell slot or spell components.
+
+**Hallowed Chalice.** As a bonus action, you can utter a prayer and produce a volume of holy water from this cup sufficient to fill one flask. After 24 hours, this holy water becomes ordinary water. You can use this trinket 5 times before its power is expended.
+
+**Reliquary of Doubt.** As a bonus action, you can cast the spell detect thoughts once without using a spell slot or spell components. 
+
+When casting the spell in this way, it can only detect thoughts which are associated with negative emotions, such as guilt, apprehension, regret, or melancholy.
+
+#### Divine Strike 
+At 6th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d6 radiant damage to the target.
+
+#### Rote piety
+Starting at 10th level, you command a mastery of divine magic seldom seen among the clergy. You can
+use your Opportunistic Piety feature three times, and regain all expended uses when you finish a short or long rest.
+
+#### Excommunication
+By 14th level, as an action, you can emblazon a creature you can see within 60 feet with a mark of
+religious condemnation. The target must succeed on your choice of a Constitution or Wisdom saving
+throw or be marked for the next minute. While marked, the creature can’t regain hit points or have advantage on any attack roll or ability check.
+
+Additionally, whenever the creature takes an action, it takes 2d6 radiant damage as the mark burns with radiant light.
+Once you use this feature, you can’t use it again until you finish a long rest.
+{{pageNumber,auto}}
+\page
+### Kid Sleuth
+Though not all kid sleuths are literally juvenile, they
+are all ameteur detectives with a knack for solving
+tricky crimes. Assisted by their ubiquitous talking
+animal sidekicks, kid sleuths will happily dive into the
+details of a grim crime scene to emerge with a handful
+of clues and a lead on the bad guy. These sleuths
+generally prefer to run away from trouble, rather than
+engage it head-on, since mysteries only get harder
+to solve with more dead bodies, but they are more
+than capable of defending themselves if backed into a
+corner.
+#### Trinkets
+By 3rd level, you’ve gotten your hands on a number of
+useful detective items for solving crimes, mysteries,
+and other hijinks.
+
+**Dooby Snack.** You produce a tasty meatcracker snack as a bonus action. A creature which eats it on their turn (no action required) is bolstered for an hour. For this duration, the creature’s hit point maximum and current hit points increase by 5.
+
+ **Magnifying Glass.** As a bonus action, you can cast
+the spell clue once without using a spell slot or spell
+components. Additionally, when you cast this spell,
+you can determine the type of each creature that
+leaves footprints or fingerprints.
+
+ **Monster Mask.** You can use your bonus action to
+activate this item, which reveals the true face of each
+creature you can see within 60 feet. A creature which
+is concealing its identity using a physical disguise or
+mask has this disguise magically tossed away, while
+a creature that is magically transformed or disguised
+has this magical effect suppressed until the end of
+your next turn.
+
+#### Talking Animal Sidekick
+Also at 3rd level, you gain a kid sleuth’s constant
+companion: a talking animal sidekick. Your animal
+sidekick can be any of the following animals: cat, crab,
+deer, goat, lizard, mastiff, owl, rat, raven, or weasel.
+This animal can speak Common and has Intelligence,
+Wisdom, and Charisma 10.
+
+ Your animal sidekick acts independently of you,
+but it always obeys your commands. In combat, it
+rolls its own initiative and acts on its own turn. An
+animal sidekick can’t attack, but it can take other
+actions as normal. It can also use its action to sniff out
+clues, making an Investigation check with advantage
+to find any relevant information you missed.
+ If you animal sidekick drops to 0 hit points, it is
+knocked out instead of being killed. Your animal
+sidekick regains all its hit points when you finish a
+long rest, and makes its way back to you if it is ever
+separated from you.
+
+ If you drop to 0 hit points, your animal sidekick
+will do its best to protect you from harm.
+
+#### Run Away
+Starting at 6th level, you prefer to flee from monsters
+and bad guys until you can pin down their methods,
+identities, and motives. Attacks of opportunity against
+you have disadvantage.
+#### Split Up, Gang
+By 10th level, you’ve discovered that you can cover
+a lot more ground if you split up. If you are further
+than 60 feet from your allies (excluding your animal
+sidekick), you can’t be surprised. Furthermore, if
+you drop to 0 hit points while further than 60 feet
+from your allies, you drop to 1 hit point instead and
+can use your reaction to move up to your movement
+speed. Once you use this feature to avoid dropping to
+0 hit points, you can’t use it again until you finish a
+long rest.
+#### Meddling Kids
+At 14th level, as a reaction when you see a hostile
+creature within 15 feet attack one of your allies, you
+can impose disadvantage on the attack roll.
+{{pageNumber,auto}}
+\page
+### King of Curses
+
+Those who follow the path of the King of Curses wield the purest, most destructive form of cursed energy — a force of wrathful precision and unrelenting might. Their bodies become vessels of malevolence, their strikes a perfect union of art and massacre. The King of Curses carves through both flesh and spirit, blending technique and bloodlust into a symphony of annihilation.
+
+Feared and revered in equal measure, these investigators don’t merely hunt curses — they become one.
+
+#### Malevolent Techniques
+
+Starting when you choose this specialization at 3rd level, you channel cursed energy through your strikes, cutting through body, soul, and even space itself. 
+
+Once on each of your turns when you hit a creature with a melee weapon attack, you can cause the attack to deal an extra 1d6 slashing damage as cursed energy bursts from your strike. 
+
+#### Trinkets
+
+By 3rd level, you’ve learned to shape cursed energy into weapons of pure slaughter. You can use the following trinkets:
+
+**Cursed Technique: Cleave.** As a bonus action, you can release a compressed blade of cursed energy in a 30-foot line that is 5 feet wide. Each creature in the line must make a Dexterity saving throw against your spell save DC. On a failed save, a creature takes 1d6 slashing damage; on a success, half as much.
+
+This damage increases to 1d8 at 5th level, 1d10 at 11th level, and 1d12 at 17th level.
+
+**Cursed Technique: Dismantle.** As an action, you make a melee weapon attack empowered by precise cursed energy. On a hit, the attack deals an additional 1d8 slashing damage and ignores resistance to slashing damage.
+
+This damage increases to 2d8 at 5th level, 3d8 at 11th level, and 4d8 at 17th level.
+
+#### Technique Refinement
+At 6th level, your mastery of cursed energy deepens, allowing your strikes to tear through even the most resilient foes.
+
+When you hit a creature with a weapon attack, you can force it to make a Constitution saving throw against your spell save DC. On a failed save, the creature takes 3d8 slashing damage that ignores resistance and immunity to nonmagical damage, and you gain temporary hit points equal to half the damage dealt.
+
+Once you use this feature, you can’t use it again until you finish a short or long rest.
+
+\column
+
+#### Domain Expansion: Malevolent Shrine
+
+At 10th level, you can unleash your full cursed technique in the form of a devastating domain.
+
+As an action, you create a 30-foot radius area centered on yourself that becomes infused with your cursed energy for 1 minute, or until you lose concentration (as if concentrating on a spell).
+
+- All terrain within the domain becomes difficult terrain for creatures of your choice.
+
+- Whenever you hit a creature with a weapon attack, it takes an additional 1d8 slashing damage.
+
+- Enemies that start their turn within the domain must make a Constitution saving throw against your spell save DC. On a failed save, they take 2d6 slashing damage as spectral cuts tear through them.
+
+Once you use this feature, you can’t use it again until you finish a long rest.
+
+#### Divine Dismantler
+
+By 14th level, your cursed energy reaches divine levels of precision and malice. You can use your Exploit Weakness feature twice per turn, but not against the same target more than once.
+
+Additionally, your weapon attacks, Features and Trinket effects ignore resistance and immunity to slashing damage.
+
+{{pageNumber,auto}}
+\page
+### Medium
+As conduits between the living and dead, mediums offer an essential glimpse past the veil of mortality. Using their auguries, seances, and divinations, mediums can retrieve morsels of information from the afterlife to settle debts with the living or and assist ongoing investigations. This information, however cryptic, can point an interested party toward clues or evidence which only the deceased might be able to provide.
+
+
+#### Fortelling
+Starting when you choose this specialization at 3rd level, you can receive glimpses of the future. When you finish a long rest, roll two d20s and record the number rolled. You can replace any attack roll, saving throw, or ability check made by you or a creature that you can see with this foretold roll. You must choose to do so before the roll, and you can replace a roll in this way only once per turn.
+As an action, you can use a use of your Rushed Incantation ability to make an additional fortelling
+roll. You can have up to 3 foretold rolls at one time. Each foretelling roll can be used only once.When you finish a long rest, you lose any unused foretelling rolls.
+
+
+
+
+
+#### Trinkets
+By 3rd level, you’ve collected a number of objects which help you attune to the afterlife. You can use the following trinkets:
+
+**Dead Ringer.** As an action, you can ring this bell to cast the spell speak with dead once without using a spell slot or spell components. When you cast this spell using this trinket, you can ask only one question of the corpse.
+
+**Heptagonal Spectacles.** As a bonus action, you can cast the spell see invisibility once without
+using a spell slot or spell components.
+
+**Lucent Mirror.** You can use your bonus action to activate this trinket, causing you to phase partially into the Ethereal Plane for up to 1 minute. For the duration, you can move through other creatures and objects as if they were difficult terrain, but you take 1d10 force damage if you end your movement inside a creature or object. 
+
+Additionally, you have resistance to all damage. This effect ends early after you take damage.
+
+
+#### Forewarning presence
+By 6th level, the spirits of the dead guide your hand when you would falter. You can reroll an attack roll or ability check you make, and must use the new roll.
+Once you use this ability, you can’t use it again until you finish a short or long rest.
+
+#### Whispers from beyond
+Starting at 10th level, you can open your perceptions to receive a hint from beyond the pale. The GM answers with a one-word hint pertaining to your best course of action, a fruitful line of inquiry, or some other useful direction.
+Once you use this ability, you can’t use it again until you finish a long rest.
+
+#### Third eye
+By 14th level, your connection to the afterlife allows you to see all. You can use your bonus action to cast the spell true seeing without using a spell slot or spell components.
+
+Once you use this ability, you can’t use it again until you finish a long rest.
+{{pageNumber,auto}}
+\page
+### Occultist
+Vampires, demons, lycanthropes, and aberrations all have one thing in common: they are all magical
+threats, best combated through magical means. To meet these foes on a level playing field, occultists indulge in arcana, filling their grimoires with magical secrets and mastering a handful of spells. Occultists are the most likely investigators to cavort with warlocks, borrow tricks from wizards and magicians, and dabble in dark magic to defeat their foes.
+
+#### Trinkets
+Starting when you choose this specialization at 3rd level, you’ve acquired a trinket to assist in your collection of eldritch lore:
+
+**Rune Keeper Eyeglass.** As a bonus action, for the next hour, you can read all writing.
+
+#### Pact magic
+Starting when you choose this specialization at 3rd level, you augment your investigative skills with complex magicks.
+
+**Cantrips.** You learn two cantrips of your choice from the warlock spell list. You learn an additional warlock cantrip of your choice at 10th level. 
+
+**Spell Slots.** The Occultist Spellcasting table shows how many spell slots you have. The table also shows what the level of those slots is; all of your spell slots are the same level. To cast one of your warlock spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.
+
+**Spells Known of 1st Level and Higher.**
+At 3rd level, you know two 1st-level spells of your choice from the warlock spell list. The Spells Known column of the Occultist table shows when you learn more warlock spells of your choice of 1st level and higher. A spell you choose must be of a level no higher than what’s shown in the table’s Slot Level column for your level.
+Additionally, when you gain a level in this class and order, you can choose one of the warlock spells you know and replace is with another spell from the warlock spell list, which also must be of a level for which you have spell slots.
+
+**Spellcasting Ability.** Intelligence is your spellcasting ability for your warlock spells, so you
+use your Intelligence whenever a spell refers to your spellcasting ability. Use your investigator spell save DC and spell attack bonus for your warlock spells.
+
+{{note
+##### Alternative Spellcasting List
+**Ask your DM**  
+The Warlock Spell List can be replaced by the Arcane Spell List
+}}
+
+
+{{classTable,frame
+##### Occultist Spellcasting
+|Investigator|Cantrips  | Spells   |  Spells |  Level  |
+| Level ^|  Known   | Known   ^|  Slots  |  Slots  |
+|:------:|:--------:|:--------:|:-------:|:-------:|
+|  3rd   |    2      |    1    |  2|  1st  |
+|  4th   |    2      |    2    |  2|  1st  |
+|  5th   |    2      |    2    |  3|   1st  |
+|  6th   |    2      |    2    |  3|   1st  |
+|  7th   |    2      |    2    |  4|   2nd  |
+|  8th   |    2      |    2    |  4|   2nd  |
+|  9th   |    2      |    2    |  5|   2nd  |
+|  10th  |    3      |    2    |  5|   2nd  |
+|  11th  |    3      |    2    |  6|   2nd  |
+|  12th  |    3      |    2    |  6|   2nd  |
+|  13th  |    3      |    2    |  7|   3rd  |
+|  14th  |    3      |    2    |  7|   3rd  |
+|  15th  |    3      |    2    |  8|   3rd  |
+|  16th  |    3      |   2     |  8|   3rd  |
+|  17th  |    3      |   2     |  9|   3rd  |
+|  18th  |    3      |    2    |  9|   3rd  |
+|  19th  |    3      |    2    | 10 |   4th  |
+|  20th  |    3      |    2    | 11 |   4th  |
+}}
+
+
+
+
+#### Eldritch ruin
+Starting at 6th level, you can use your magical cunning to rip your foes asunder. You can cast a
+cantrip as a bonus action instead of dealing additional damage with your Exploit Vulnerability feature.
+
+#### Eyes of another world
+Starting at 10th level, supernatural creatures can no longer escape your detection. You can see creatures and objects that are invisible or ethereal, and you can see the original form of shapechangers or creatures whose form has been altered by magic. Additionally, you can immediately detect if a creature you can see is possessed.
+
+#### Maleficium
+Starting at 14th level, when you use your Exploit Weakness feature against a creature, you can cast the spell bestow curse on that creature as a bonus action,
+without using a spell slot or spell components; the targeted creature has disadvantage on its saving throw against this spell.
+
+Once you use this ability, you can’t use it again until you finish a short or long rest.
+{{pageNumber,auto}}
+\page
+### Spy
+Infiltration, disguise, and lying through their teeth: these are the principle skills of a spy. A talented spy rarely ever needs to draw a dagger to silence someone, for their honeyed words and agreeable disposition are all that is needed to draw out someone’s secrets. Of course, when they do strike, it is decisively and without warning. Such skills are invaluable for governments and organizations of all varieties, for stealing confidential information, sabotage, monitoring persons of interest, and everything in between.
+
+#### Bravado
+Starting when you choose this specialization at 3rd level, your knowing smile and infectious confidence inspires trust in most people you meet, even when you’re not telling the truth. You gain proficiency in the Deception skill and add double your proficiency bonus to checks you make with it.
+
+#### Trinkets
+By 3rd level, you have a collection of trinkets which
+aid your espionage. You can use the following
+trinkets:
+
+**Glass Dust.** As a bonus action, you can throw this dust in the air, becoming invisible until the
+beginning of your next turn. This effect ends early if you take damage.
+
+**Horn-Rimmed Glasses.** As a bonus action, you can cast the spell *disguise self* once without using a spell slot or spell components.
+
+**Martini Glass.** As a bonus action, you can cast the spell *charm person* once without using a spell slot or spell components.
+
+\column
+
+#### Cloak and Dagger
+By 6th level, you always endeavor to kill your target in one strike. When you make an attack roll against a creature that is surprised or hasn’t taken a turn in combat yet, you can maximize your weapon’s damage die.
+
+#### Shaken not stirred
+Starting at 10th level, your roguish smile grants you  incredible leeway. Whenever you fail a Charisma (Deception) or Charisma (Persuasion) check, you can reroll the check, and must use the results of the new roll.
+
+Once you use this ability, you can’t use it again until you finish a long rest.
+
+#### Body Double
+By 14th level, you can rapidly exchange identities with a corpse. When you reduce a humanoid
+creature to 0 hit points, you can assume the creature’s appearance, as per the disguise self spell.
+The creature’s body, as well as its blood, clothing, and other physical evidence of its death, become invisible for 8 hours. You can also use this ability as an action to touch the corpse of a humanoid creature which has been dead no longer than 1 day, assuming its appearance and causing the body to become invisible.
+
+Once you use this ability, you can’t use it again until you finish a long rest.
+
+### Time Operative
+The end of all things has been foretold: soon, a
+horrific event will claim millions of lives. When such
+a disaster looms, a special pocketwatch is delivered
+from the future, promoting whoever receives it to
+an operative, one dedicated to preventing it. The pocketwatch is suffused with chronomantic energies,
+empowering anyone who holds it.
+
+ To avoid paradoxes, no clues can be sent
+backwards in time with the pocketwatch. Only a
+short message detailing the gravity of the situation
+can be sent. Therefore, it is inherent upon the time
+operative to solve the mystery and save the future
+from certain doom.
+
+#### Trinket
+Starting when you choose this specialization at 3rd
+level, you gain a powerful trinket which allows you
+to walk through time. Unlike other trinkets, you only
+regain uses of this ability once you take a long rest.
+
+ **Chronomancer’s Pocketwatch.** As a bonus action
+on your turn, you activate the watch and magically
+return to the beginning of your turn. Any events
+which have happened over the course of your turn are
+undone, and you recover any actions and resources
+you expended over the course of your turn, except for
+your bonus action and the use of this feature.
+{{pageNumber,auto}}
+\page
+
+
+
+#### Temporal Reverb
+By 6th level, you can use other timelines as a backup
+when yours isn’t optimal. Whenever roll damage for a
+weapon attack, you can choose to reroll the damage,
+replacing the damage die with a die one step smaller
+(a d10 becomes a d8, a d8 becomes a d6, etc.) You
+can’t use this ability to reroll a weapon with a d4
+damage die.
+
+#### Echo of Yesterday
+Starting at 10th level, you can use your action to cast
+your senses backward in time, viewing your location
+as it was 24 hours prior. While viewing the past, you
+are blind and deaf with regard to your own senses.
+The past appears dreamlike and shadowy, but you
+are able to discern detail and hear conversation as
+normal, and any special senses you possess (such as
+darkvision) also work as normal. While perceiving the
+past, you can look in any direction, but you cannot
+move or speak and are unable to sense your present
+surroundings. You can end this effect on your turn
+(no action required.)
+
+#### Steal Time
+Beginning at 14th level, when you use your Exploit
+Weakness feature against a creature, you can use your
+pocketwatch to steal moments from the target, which
+must make a Constitution saving throw against your
+spell save DC. On a failed save, the creature freezes in
+place until the end of its next turn. For the duration,
+time doesn’t pass for the creature: it is stunned and
+can’t speak.
+
+ Once you use this ability, you can’t use it again
+until you finish a long rest. 
+
+### Witch Hunter
+Investigators who walk the path of the Witch Hunter blend their keen intellect with dark magic, turning the arcane arts of witches against them. These investigators master hexes and curses, using their knowledge to root out and destroy evil.
+
+#### Occult Insight
+Starting at 3rd level, you gain the ability to sense and understand the workings of dark magic. You have advantage on Intelligence (Arcana) and Wisdom (Insight) checks to identify or understand curses, hexes, or other forms of dark magic. 
+
+Additionally, you can use an action to detect the presence of magic within 30 feet of you, as if you had cast detect magic, but without expending a spell slot. You can use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses after a short or long rest.
+
+\column
+
+####  Trinkets 
+By 3rd level,  you’ve collected a handful of witchs artifacts and tokens that aide in your search and destroy of wicked and unholy witchs. You can use the following trinkets:
+
+ **Witch’s Hexes.** you gain two hexes of your choice from the witch hex list; one of these can be a hex exclusive to a witch's craft. You gain additional hexes at 5th, 11th, and 17th levels. 
+ 
+You can use these hexes as described in the witch class, using your spell save DC. 
+ 
+As a bonus action, you can extend the duration of your Hex by 1 round for each creature affected within 60 feet of you. When you do this, you expend a use of your Rushed Incarnation feature.
+ 
+ Additionally, whenever you gain a level in this class, you can choose to replace one of your hexes with another hex from the witch hex list.
+
+
+#### Witch’s Curse
+At 6th level, you have learned to use your knowledge of curses and hexes in combat. As a bonus action, you can place a hex on a creature you can see within 60 feet of you. The creature must make a Wisdom saving throw against your spell save DC. On a failed save, the creature is cursed for 1 minute. While cursed, the creature has disadvantage on ability checks and saving throws using one ability score of your choice (Strength, Dexterity, Constitution, Intelligence, Wisdom, or Charisma). A creature can only be affected by one curse from this feature at a time. You can use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses after a long rest.
+
+#### Eldritch Resistance
+By 10th level, your exposure to dark magic has given you resistance to its effects. You gain advantage on saving throws against being frightened. 
+
+Additionally, as a reaction whenever a creature tries and fails to charm, possess, or frighten you, you can deflect the effect back to the original creature. The creature must make the same type of saving throw that the original effect required, using your spell save DC.
+
+
+#### Witch Hunter’s Curse
+Starting at 14th level, you can use your action to place a powerful curse on a creature you can see within 60 feet. The creature must make a Wisdom saving throw against your spell save DC. On a failed save, the creature is cursed for 1 hour. 
+
+While cursed, the creature has disadvantage on attack rolls and saving throws, and it takes an extra 1d8 necrotic damage from any attack that hits it. You can use this feature once, and you regain the ability to do so after a short or long rest.

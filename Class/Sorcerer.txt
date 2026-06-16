@@ -1,0 +1,2827 @@
+```metadata
+title: Sorcerer
+description: ''
+tags: []
+systems: []
+renderer: V3
+theme: 5ePHB
+
+```
+
+```css
+.page{
+	width  : 210mm;
+	height : 296.3mm;
+}
+
+css
+
+.page .columnWrapper {
+	height: 100%
+}
+
+.page .toc.wide {
+	columns:1;
+	height: 100%;
+}
+
+.page .toc > ul > li {
+	font-weight:100;
+	margin-bottom:-2.1px;
+
+}
+
+.page .toc ul ul {
+	margin-left: 0;
+	font-weight: 5;
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
+```
+
+{{frontCover}}
+
+::::::::::::::::::::::::::
+::::::::::::::::::::::::::
+# Sorcerer
+
+![background image](https://i.imgur.com/oNsiM4q.jpeg){position:absolute,bottom:-150px,left:0,height:126%}
+
+\page
+{{toc,wide
+- ### [{{ Sorcerer}}{{ 3}}](#p3)
+  -  [{{ Raw Magic}}{{ 3}}](#p3)
+  -  [{{ Unexplained Powers}}{{ 3}}](#p3)
+  -  [{{ Creating a Sorcerer}}{{ 3}}](#p3)
+  -  [{{ Class Features}}{{ 4}}](#p4)
+  -  [{{ Spellcasting}}{{ 4}}](#p4)
+  -  [{{ Sorcerous Origin}}{{ 5}}](#p5)
+  -  [{{ Font of Magic}}{{ 5}}](#p5)
+  -  [{{ Metamagic}}{{ 6}}](#p6)
+  -  [{{ Ability Score Improvement}}{{ 8}}](#p8)
+  -  [{{ Sorcerous Restoration}}{{ 8}}](#p8)
+- ### [{{ Sorcererous Origins}}{{ 9}}](#p9)
+  -  [{{ Aberrant Mind}}{{ 9}}](#p9)
+  -  [{{ Aether Heart Origin}}{{ 10}}](#p10)
+  -  [{{ Astral Sorcerery}}{{ 11}}](#p11)
+  -  [{{ Bloodrazor}}{{ 12}}](#p12)
+  -  [{{ The Chained}}{{ 13}}](#p13)
+  -  [{{ Clockwork Soul}}{{ 14}}](#p14)
+  -  [{{ Cosmic Magic}}{{ 15}}](#p15)
+  -  [{{ Dark Wild Magic}}{{ 16}}](#p16)
+- ###### [{{ Weird Arcana}}{{ 17}}](#p17)
+  -  [{{ Divine Soul}}{{ 20}}](#p20)
+  -  [{{ Divine Right}}{{ 21}}](#p21)
+  -  [{{ Draconic Bloodline}}{{ 22}}](#p22)
+  -  [{{ Emberheart}}{{ 23}}](#p23)
+  -  [{{ Emotion Lord}}{{ 24}}](#p24)
+  -  [{{ Faeblood}}{{ 25}}](#p25)
+  -  [{{ Frost Sorcery}}{{ 26}}](#p26)
+  -  [{{ Gifted One}}{{ 27}}](#p27)
+  -  [{{ Greensinger}}{{ 28}}](#p28)
+  -  [{{ Hellspawn}}{{ 29}}](#p29)
+  -  [{{ Iron Sorcery}}{{ 30}}](#p30)
+  -  [{{ Jinx}}{{ 31}}](#p31)
+  -  [{{ Lunar Sorcery}}{{ 32}}](#p32)
+  -  [{{ Magnetism Sorcery}}{{ 33}}](#p33)
+  -  [{{ Mirrorkin}}{{ 34}}](#p34)
+  -  [{{ Mutagenic Bloodline}}{{ 35}}](#p35)
+  -  [{{ Nanite Host}}{{ 37}}](#p37)
+  -  [{{ Oozemaster}}{{ 38}}](#p38)
+  -  [{{ Radiation Freak}}{{ 39}}](#p39)
+  -  [{{ Reincarnated Hero}}{{ 40}}](#p40)
+  -  [{{ Shadow}}{{ 40}}](#p40)
+  -  [{{ Spiritborn}}{{ 41}}](#p41)
+  -  [{{ Spirit Caller}}{{ 42}}](#p42)
+  -  [{{ Starlight Sorcery}}{{ 44}}](#p44)
+  -  [{{ Stoneblood}}{{ 45}}](#p45)
+  -  [{{ Storm Sorcery}}{{ 46}}](#p46)
+  -  [{{ Toon Magic}}{{ 47}}](#p47)
+  -  [{{ Vampiric Soul}}{{ 48}}](#p48)
+  -  [{{ Voidwielder}}{{ 49}}](#p49)
+  -  [{{ Waveborn}}{{ 50}}](#p50)
+  -  [{{ Wild Magic}}{{ 51}}](#p51)
+}}
+
+
+
+\page
+## Sorcerer
+:
+Golden eyes flashing, a human stretches out her hand and unleashes the dragonfire that burns in her veins. As an inferno rages around her foes, leathery wings spread from her back and she takes to the air.
+
+Long hair whipped by a conjured wind, a half-elf spreads his arms wide and throws his head back. Lifting him momentarily off the ground, a wave of magic surges up in him, through him, and out from him in a mighty blast of lightning.
+
+Crouching behind a stalagmite, a halfling points a finger at a charging troglodyte. A blast of fire springs from her finger to strike the creature. She ducks back behind the rock formation with a grin, unaware that her wild magic has turned her skin bright blue.
+
+Sorcerers carry a magical birthright conferred upon them by an exotic bloodline, some otherworldly influence, or exposure to unknown cosmic forces. One can’t study sorcery as one learns a language, any more than one can learn to live a legendary life. No one chooses sorcery; the power chooses the sorcerer.
+
+### Raw Magic
+Magic is a part of every sorcerer, suffusing body, mind, and spirit with a latent power that waits to be tapped. Some sorcerers wield magic that springs from an ancient bloodline infused with the magic of dragons. Others carry a raw, uncontrolled magic within them, a chaotic storm that manifests in unexpected ways.
+
+The appearance of sorcerous powers is wildly unpredictable. Some draconic bloodlines produce exactly one sorcerer in every generation, but in other lines of descent every individual is a sorcerer. Most of the time, the talents of sorcery appear as apparent flukes. Some sorcerers can’t name the origin of their power, while others trace it to strange events in their own lives. The touch of a demon, the blessing of a dryad at a baby’s birth, or a taste of the water from a mysterious spring might spark the gift of sorcery. So too might the gift of a deity of magic, exposure to the elemental forces of the Inner Planes or the maddening chaos of Limbo, or a glimpse into the inner workings of reality.
+
+Sorcerers have no use for the spellbooks and ancient tomes of magic lore that wizards rely on, nor do they rely on a patron to grant their spells as warlocks do. By learning to harness and channel their own inborn magic, they can discover new and staggering ways to unleash that power.
+
+\column
+
+### Unexplained Powers
+Sorcerers are rare in the world, and it’s unusual to find a sorcerer who is not involved in the adventuring life in some way. People with magical power seething in their veins soon discover that the power doesn’t like to stay quiet. A sorcerer’s magic wants to be wielded, and it has a tendency to spill out in unpredictable ways if it isn’t called on.
+
+Sorcerers often have obscure or quixotic motivations driving them to adventure. Some seek a greater understanding of the magical force that infuses them, or the answer to the mystery of its origin. Others hope to find a way to get rid of it, or to unleash its full potential. Whatever their goals, sorcerers are every bit as useful to an adventuring party as wizards, making up for a comparative lack of breadth in their magical knowledge with enormous flexibility in using the spells they know.
+
+### Creating a Sorcerer
+The most important question to consider when creating your sorcerer is the origin of your power. As a starting character, you’ll choose an origin that ties to a draconic bloodline or the influence of wild magic, but the exact source of your power is up to you to decide. Is it a family curse, passed down to you from distant ancestors? Or did some extraordinary event leave you blessed with inherent magic but perhaps scarred as well?
+
+How do you feel about the magical power coursing through you? Do you embrace it, try to master it, or revel in its unpredictable nature? Is it a blessing or a curse? Did you seek it out, or did it find you? Did you have the option to refuse it, and do you wish you had? What do you intend to do with it? Perhaps you feel like you’ve been given this power for some lofty purpose. Or you might decide that the power gives you the right to do what you want, to take what you want from those who lack such power. Perhaps your power links you to a powerful individual in the world—the fey creature that blessed you at birth, the dragon who put a drop of its blood into your veins, the lich who created you as an experiment, or the deity who chose you to carry this power.
+
+#### Quick build
+
+You can make a sorcerer quickly by following these suggestions. First, Charisma should be your highest ability score, followed by Constitution. Second, choose the hermit background. Third, choose the light, prestidigitation, ray of frost, and shocking grasp cantrips, along with the 1st-level spells shield and magic missile.
+{{pageNumber,auto}}
+\page
+
+  
+{{imageMaskEdge5,--offset:0%,--rotation:270
+  ![](https://media.istockphoto.com/id/476416307/photo/bright-sun-blue-sky.jpg?s=612x612&w=0&k=20&c=gbi4b-tQ7qiCA0dmMdJFMJWngHP3jGaU89Rl0pMHMrU=){height:100%}
+}}
+
+
+<img src='https://i.imgur.com/Y3NPcUb.png'
+style='position:absolute;bottom:-10px;right:-370px;transform: scaleX(-1);
+width:900px;'/> 
+
+{{artist,position:absolute,left:550px,bottom:220px
+##### Gael
+}}
+
+
+### Class Features
+As a sorcerer, you gain the following class features
+#### Hit Points
+___
+- **Hit Dice:** 1d6 per sorcerer level
+- **Hit Points at 1st Level:** 6 + your Constitution modifier
+- **Hit Points at Higher Levels:** 1d6 (or 4) + your Constitution modifier per sorcerer level after 1st
+
+#### Proficiencies
+___
+- **Armor:** None
+- **Weapons:** Daggers, darts, slings, quarterstaffs, light crossbows
+- **Tools:** None
+
+___
+- **Saving Throws:** Constitution, Charisma
+- **Skills:** Choose two from Arcana, Deception, Insight, Intimidation, Persuasion, and Religion
+
+#### Equipment
+You start with the following equipment, in addition to the equipment granted by your background:
+- *(a)* a light crossbow and 20 bolts or 
+
+*(b)* any simple weapon
+- *(a)* a component pouch or 
+
+*(b)* an arcane focus
+
+- *(a)* a dungeoneer's pack or 
+
+*(b)* an explorer's pack Two daggers
+
+
+### Spellcasting
+An event in your past, or in the life of a parent or ancestor, left an indelible mark on you, infusing you with arcane magic. This font of magic, whatever its origin, fuels your spells.
+
+#### Cantrips
+At 1st level, you know four cantrips of your choice from the sorcerer spell list. You learn additional sorcerer cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Sorcerer table.
+
+#### Spell Slots
+The Sorcerer table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these sorcerer spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
+
+For example, if you know the 1st-level spell Burning Hands and have a 1st-level and a 2nd-level spell slot available, you can cast Burning Hands using either slot.
+
+
+::::
+
+::::
+
+::::
+
+::::
+
+::::
+
+::::
+
+::::
+
+::::
+
+::::
+
+::::
+
+::::
+
+::::
+
+::::
+
+::::
+
+::::
+
+::::
+
+::::
+
+::::
+
+::
+{{note
+##### Alternative Spellcasting List
+**Ask your DM**  
+Instead of chosing from the Sorcerer Spell List, you may choose your spells from the Arcane Spell List. If you do so, you can also picks spell from the Primal List if they are from the conjuration or evocation school and dont heal
+}}
+{{pageNumber,auto}}
+\page
+
+
+{{classTable,frame,decoration,wide
+##### The Sorcerer
+| Level | Proficiency Bonus | Sorcery Points | Features | Cantrips Known | Spells Known | 1st | 2nd | 3rd | 4th | 5th | 6th | 7th | 8th | 9th |
+|:---:|:---:|:---:|:-------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1st | +2 |—| Spellcasting, Sorcerous Origin | 4 | 2 | 2 | — | — | — | — | — | — | — | — |
+| 2nd | +2 |2| Font of Magic                  | 4 | 3 | 3 | — | — | — | — | — | — | — | — |
+| 3rd | +2 |3| Metamagic                      | 4 | 4 | 4 | 2 | — | — | — | — | — | — | — |
+| 4th | +2 |4| Ability Score Improvement      | 5 | 5 | 4 | 3 | — | — | — | — | — | — | — |
+| 5th | +3 |5| —                              | 5 | 6 | 4 | 3 | 2 | — | — | — | — | — | — |
+| 6th | +3 |6| Sorcerous Origin feature       | 5 | 7 | 4 | 3 | 3 | — | — | — | — | — | — |
+| 7th | +3 |7| —                              | 5 | 8 | 4 | 3 | 3 | 1 | — | — | — | — | — |
+| 8th | +3 |8| Ability Score Improvement      | 5 | 9 | 4 | 3 | 3 | 2 | — | — | — | — | — |
+| 9th | +4 |9| —                              | 5 | 10 | 4 | 3 | 3 | 3 | 1 | — | — | — | — |
+| 10th | +4 |10| Metamagic                    | 6 | 11 | 4 | 3 | 3 | 3 | 2 | — | — | — | — |
+| 11th | +4 |11| —                            | 6 | 12 | 4 | 3 | 3 | 3 | 2 | 1 | — | — | — |
+| 12th | +4 |12| Ability Score Improvement    | 6 | 12 | 4 | 3 | 3 | 3 | 2 | 1 | — | — | — |
+| 13th | +5 |13| —                            | 6 | 13 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | — | — |
+| 14th | +5 |14| Sorcerous Origin feature     | 6 | 13 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | — | — |
+| 15th | +5 |15| —                            | 6 | 14 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 | — |
+| 16th | +5 |16| Ability Score Improvement    | 6 | 14 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 | — |
+| 17th | +6 |17| Metamagic                    | 6 | 15 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 | 1 |
+| 18th | +6 |18| Sorcerous Origin feature     | 6 | 15 | 4 | 3 | 3 | 3 | 3 | 1 | 1 | 1 | 1 |
+| 19th | +6 |19| Ability Score Improvement    | 6 | 15 | 4 | 3 | 3 | 3 | 3 | 2 | 1 | 1 | 1 |
+| 20th | +6 |20| Sorcerous Restoration        | 6 | 15 | 4 | 3 | 3 | 3 | 3 | 2 | 2 | 1 | 1 |
+}}
+
+#### Spells Known of 1st Level and Higher
+You know two 1st-level spells of your choice from the sorcerer spell list.
+
+The Spells Known column of the Sorcerer table shows when you learn more sorcerer spells of your choice. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 3rd level in this class, you can learn one new spell of 1st or 2nd level.
+
+Additionally, when you gain a level in this class, you can choose one of the sorcerer spells you know and replace it with another spell from the sorcerer spell list, which also must be of a level for which you have spell slots.
+
+Whenever you finish a long rest, you can replace one spell you learned from this Spellcasting feature with another spell from the sorcerer spell list. The new spell must be the same level as the spell you replace.
+
+#### Spellcasting Ability
+Charisma is your spellcasting ability for your sorcerer spells, since the power of your magic relies on your ability to project your will into the world. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a sorcerer spell you cast and when making an attack roll with one.
+
+**Spell save DC** = 8 + your proficiency bonus + your Charisma modifier
+
+**Spell attack modifier** = your proficiency bonus + your Charisma modifier
+
+\column
+
+#### Spellcasting Focus
+You can use an arcane focus as a spellcasting focus for your sorcerer spells.
+
+### Sorcerous Origin
+Choose a sorcerous origin, which describes the source of your innate magical power.
+
+Your choice grants you features when you choose it at 1st level and again at 6th, 14th, and 18th level.
+
+### Font of Magic
+At 2nd level, you tap into a deep wellspring of magic within yourself. This wellspring is represented by sorcery points, which allow you to create a variety of magical effects.
+
+#### Sorcery Points
+You have 2 sorcery points, and you gain more as you reach higher levels, as shown in the Sorcery Points column of the Sorcerer table. You can never have more sorcery points than shown on the table for your level. You regain all spent sorcery points when you finish a long rest.
+
+#### Flexible Casting
+You can use your sorcery points to gain additional spell slots, or sacrifice spell slots to gain additional sorcery points. You learn other ways to use your sorcery points as you reach higher levels.
+{{pageNumber,auto}}
+\page
+**Creating Spell Slots.** You can transform unexpended sorcery points into one spell slot as a bonus action on your turn. The Creating Spell Slots table shows the cost of creating a spell slot of a given level. You can create spell slots no higher in level than 5th. The created spell slots vanish at the end of a long rest.
+
+##### Creating Spell Slots
+| Spell Slot Level | Sorcery Points Cost |
+|:----:|:----:|
+| 1st  | 2 |
+| 2nd  | 3 |
+| 3rd | 5 |
+| 4th | 6 |
+| 5th | 7 |
+
+**Converting a Spell Slot to Sorcery Points.** As a bonus action on your turn, you can expend one spell slot and gain a number of sorcery points equal to the slot's level.
+
+#### Empowering Reserves
+When you make an ability check on your turn, you can spend 2 sorcery points to gain advantage on the check.
+
+#### Imbuing Touch
+As an action, you can touch one nonmagical weapon and spend 2 sorcery points to imbue it with magic for 1 minute. For the duration, the weapon is considered magical for the purpose of overcoming immunity and resistance to nonmagical attacks.
+#### Sorcerous Fortitude
+As an action, you can spend any number of sorcery points to roll a d4 for each point expended. You gain a number of temporary hit points equal to the total rolled.
+
+### Metamagic
+At 3rd level, you gain the ability to twist your spells to suit your needs. You gain two of the following Metamagic options of your choice. You gain another one at 10th and 17th level.
+
+You can use only one Metamagic option on a spell when you cast it, unless otherwise noted.
+
+#### Adamant Spell
+When you cast a spell, you can spend Sorcery Points equal to 1 + the level of the spell to make it immune to anti-magic spells like counterspell, dispel magic, or anti-magic field.
+
+#### Adjacent Spell
+When you cast a spell that requires you to make a ranged spell attack while there is an enemy creature within 5 feet
+of you, you can spend 1 Sorcery Point to make your ranged spell attack without disadvantage.
+
+\column
+
+#### Blinding Spell
+When you cast a spell that deals fire or radiant damage, you can spend 1 Sorcery Point to force one target of the spell to make a Constitution saving throw. On a failed save, the target blinded for one minute. The creature can repeat their saving throw at the start of each turn, ending the effect on a success.
+
+#### Brutal Spell
+When you cast a spell that deals damage, you can spend 2 Sorcery Points to empower the casting. If you roll the highest number of any of the spell's damage dice you can roll that die again and add it to the total damage. However, if you roll the lowest number on any of the spell's damage dice, you remove that die, and its damage, from the total damage of the spell.
+
+####  Careful Spell
+When you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell's full force. To do so, you spend 1 sorcery point and choose a number of those creatures up to your Charisma modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw against the spell.
+
+#### Cerebral Spell
+When you cast a spell that forces an Intelligence or Charisma saving throw, you can spend 3 Sorcery Points and change the spell's saving throw to target the other ability score instead.
+
+This Metamagic only changes the initial saving throw. Any subsequent saving throws target the original ability score.
+
+#### Concussive Spell
+When you cast a spell that deals bludgeoning or thunder damage, you can spend 1 Sorcery Point to force one target
+of the spell to make a Strength saving throw. On a failed save, the target is knocked prone. Large or larger creatures have advantage on their Strength saving throw.
+
+
+
+####  Distant Spell
+When you cast a spell that has a range of 5 feet or greater, you can spend 1 sorcery point to double the range of the spell.
+
+When you cast a spell that has a range of touch, you can spend 1 sorcery point to make the range of the spell 30 feet.
+#### Elemental Spell
+When you cast a spell that deals a type of damage from the following list, you can spend 1 sorcery point to change that damage type to one of the other listed types: acid, cold, fire, lightning, thunder.
+
+
+
+
+
+{{pageNumber,auto}}
+\page
+####  Empowered Spell
+When you roll damage for a spell, you can spend 1 sorcery point to reroll a number of the damage dice up to your Charisma modifier (minimum of one). You must use the new rolls.
+
+You can use Empowered Spell even if you have already used a different Metamagic option during the casting of the spell.
+
+#### Esoteric Spell
+When you cast a spell that deals force, necrotic, psychic, or radiant damage, you can spend 1 Sorcery Point to change the damage type of the spell to another from the list above.
+
+#### Extended Spell
+When you cast a spell that has a duration of 1 minute or longer, you can spend 1 sorcery point to double its duration, to a maximum duration of 24 hours.
+
+#### Heightened Spell
+When you cast a spell that forces a creature to make a saving throw to resist its effects, you can spend 3 sorcery points to give one target of the spell disadvantage on its first saving throw made against the spell.
+
+#### Imbued Spell
+When you cast a spell that has a range of self, you can spend Sorcery Points equal to 1 + the level of the spell to instead cast it with a range of touch, targeting a willing creature.
+
+If the spell requires concentration, the creature you cast the spell on must concentrate on the spell.
+
+#### Kinetic Spell
+When you cast a spell that forces a Strength or a Dexterity saving throw, you can spend 2 Sorcery Points and change the spell's saving throw target the other ability score instead.
+
+This Metamagic only changes the initial saving throw. Any subsequent saving throws target the original ability score.
+
+#### Linked Spell
+When you cast a spell, you can spend 2 Sorcery Points and touch a willing creature within 5 feet, expending one of their spell slots to cast the spell in place of one of your spell slots.
+
+#### Misdirecting Spell
+When you cast a spell that originates from you, you can spend 3 Sorcery Points to cause the spell to appear as if it had originated from a point you can see within 30 feet.
+
+#### Overcharged Spell
+When you cast a spell has only one target, and requires you to make a ranged spell attack roll, you can spend 2 Sorcery Points to increase the critical hit range of that spell, allowing you to score a critical hit on a roll of 19 or 20 on the d20.
+
+\column
+
+#### Potent Spell
+When you cast a spell that deals damage, you can spend 1 Sorcery Point to have the spell to ignore a single target's resistances to the damage of the spell.
+
+#### Quickened Spell
+When you cast a spell that has a casting time of 1 action, you can spend 2 sorcery points to change the casting time to 1 bonus action for this casting.
+
+
+#### Recycled Spell
+When you cast a spell, you can spend 1 Sorcery Point to possibly conserve your arcane energy. If the spell misses or fails to take effect, you can use your reaction to regain an expended spell slot of at least one level lower then the spell slot you use to cast the spell.
+
+#### Resolute Spell
+When you cast a spell that forces a Wisdom or a Constitution saving throw, you can spend 2 Sorcery Points and change the spell's saving throw target the other ability score instead.
+
+This Metamagic only changes the initial saving throw. Any subsequent saving throws target the original ability score.
+
+#### Savage Spell
+When you cast a spell that deals bludgeoning, piercing, or slashing damage, you can spend 1 Sorcery Point to change the spell's damage type to another from the list above.
+
+#### Seeking Spell
+When you make an attack roll for a spell and miss, you can spend 2 Sorcery Points to re-roll the d20. You must use the new d20 roll, potentially turning a missed attack into a hit.
+
+You can use Seeking Spell if you have already used a different Metamagic ability during the casting of the spell.
+#### Shielded Spell
+When you cast a spell you can spend 2 Sorcery Points to ignore the effects of that spell for its entire duration.
+
+#### Silent Spell
+When you cast a spell, you can spend 1 Sorcery Point to cast a version of that spell that produces no sound. However, you must still speak the verbal components of the spell aloud as this Metamagic only removes the sound of the spell itself.
+
+#### Sturdy Spell
+When you cast a spell that requires your concentration, you can spend Sorcery Points, up to your Charisma modifier (minimum of 1), to empower your focus. For each Sorcery Point you spend, you gain a +1 bonus to the first saving throw you make to maintain your concentration on that spell.
+
+{{pageNumber,auto}}
+\page
+#### Subtle Spell
+When you cast a spell, you can spend 1 sorcery point to cast it without any somatic or verbal components.
+
+#### Twinned Spell
+When you cast a spell that targets only one creature and doesn't have a range of self, you can spend a number of sorcery points equal to the spell's level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip). To be eligible for Twinned Spell, a spell must be incapable of targeting more than one creature at the spell's current level.
+
+#### Unerring Spell
+When you cast a spell that requires an attack roll or a Dexterity saving throw, you can spend 1 Sorcery Point to ignore the effects of half and three-quarters cover.
+
+#### Unstable Spell
+When you cast a spell that forces a target to make a saving throw, you can spend 2 Sorcery Points to have the initial saving throw target an ability score determined by random chance. Roll a d12, and the spell's initial saving throw is changed to target the ability score from the list below.
+
+If you roll a 1, your spell immediately fails. However, only the 2 Sorcery Points you spent to use this ability are wasted, and you regain the spell slot you used to cast the spell.
+d12|saving throw
+:-:|:-:
+1|	Spell Failure
+2-3|	Strength
+4-5|	Dexterity
+6-7|	Constitution
+8-9|	Wisdom
+10|	Intelligence
+11|	Charisma
+12|	Your Choice
+
+### Ability Score Improvement
+When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
+
+### Sorcerous Restoration
+At 20th level, you regain 4 expended sorcery points whenever you finish a short rest.
+
+{{imageMaskEdge1,--offset:5%,--rotation:270
+  ![](https://www.gmbinder.com/images/iXbvhT7.jpg){height:101%,left:-250px}
+}}
+<!-- Use --offset to shift the mask away from page center (can use cm instead of %)
+     Use --rotation to set rotation angle in degrees. -->
+
+
+{{pageNumber,auto}}
+\page
+
+
+
+## Sorcererous Origins
+
+### Aberrant Mind
+
+An alien influence has wrapped its tendrils around your mind, giving you psionic power. You can now touch other minds with that power and alter the world around you by using it to control the magical energy of the multiverse.
+
+
+#### Aberrant spells
+Starting at 1st level, you learn additional spells when you reach certain levels in this class, as shown on the Psionic Spells table. Each of these spells counts as a sorcerer spell for you, but it doesn't count against the number of sorcerer spells you know.
+
+
+##### Aberrant spells
+|Sorcerer Level	|Spells|
+|:---|:---|
+|1st|	Arms of Hadar, Dissonant Whispers, Mind Sliver
+|3rd|	Calm Emotions, Detect Thoughts
+|5th|	Hunger of Hadar, Sending
+|7th|	Evard's Black Tentacles, Summon Aberration
+|9th|	Rary's Telepathic Bond, Telekinesis
+
+
+
+#### Telepathic Speech
+Starting at 1st level, you can form a telepathic connection between your mind and the mind of another. As a bonus action, choose one creature you can see within 30 feet of you. You and the chosen creature can speak telepathically with each other while the two of you are within a number of miles of each other equal to your Charisma modifier (minimum of 1 mile). To understand each other, you each must speak mentally in a language the other knows.
+
+The telepathic connection lasts for a number of minutes equal to your sorcerer level. It ends early if you are incapacitated or die or if you use this ability to form a connection with a different creature.
+
+#### Psionic Sorcery
+Beginning at 6th level, when you cast any spell of 1st level or higher from your Psionic Spells feature, you can cast it by expending a spell slot as normal or by spending a number of sorcery points equal to the spell's level. If you cast the spell using sorcery points, it requires no verbal or somatic components, and it requires no material components, unless they are consumed by the spell.
+
+#### Psychic Defenses
+At 6th level, you gain resistance to psychic damage, and you have advantage on saving throws against being charmed or frightened.
+
+\column
+
+
+#### Revelation in Flesh
+Beginning at 14th level, you can unleash the aberrant truth hidden within yourself. As a bonus action, you can spend 1 or more sorcery points to magically transform your body for 10 minutes. For each sorcery point you spend, you can gain one of the following benefits of your choice, the effects of which last until the transformation ends:
+
+- You can see any invisible creature within 60 feet of you, provided it isn't behind total cover. Your eyes also turn black or become writhing sensory tendrils.
+- You gain a flying speed equal to your walking speed and can hover. As you fly, your skin glistens with mucus or shines with an otherworldly light.
+- You gain a swimming speed equal to twice your walking speed, and you can breathe underwater. Moreover, gills grow from your neck or fan out from behind your ears, your fingers become webbed, or you grow writhing cilia that extend through your clothing.
+- Your body, along with any equipment you are wearing or carrying, becomes slimy and pliable. You can move through any space as narrow as 1 inch without squeezing, and you can spend 5 feet of movement to escape from nonmagical restraints or being grappled.
+
+#### Warping Implosion
+At 18th level, You can unleash your aberrant power as a space-warping anomaly. As an action, you can teleport to an unoccupied space you can see within 120 feet of you. Immediately after you disappear, each creature within 30 feet of the space you left must make a Strength saving throw. On a failed save, a creature takes 3d10 force damage and is pulled straight toward the space you left, ending in an unoccupied space as close to your former space as possible. On a successful save, the creature takes half as much damage and isn't pulled.
+
+Once you use this feature, you can't do so again until you finish a long rest, unless you spend 5 sorcery points to use it again.
+
+{{pageNumber,auto}}
+\page
+
+### Aether Heart Origin
+Sorcerers of this origin are fueled by a deep connection to raw
+arcane energy, their soul touched by the raw stuff of the weave
+itself. Most of them don't understand their connection to this
+power, but they can wield it with innate ease, manipulating
+magic by force of will alone.
+
+Sometimes this is artificial in nature - a warforged drawing
+power from the arcane heart, for example - while other times
+this marks an individual that was exposed to the raw essence
+of aether, becoming infused and intrinsically linked to it. They
+are characterized by an easy affinity of warping magic and
+ease of manipulating it in its raw and purest forms.
+
+#### Aether Magic
+You learn certain spells at the Sorcerer levels shown below.
+They are Sorcerer spells for you, they do not count against
+your number of Spells Known, and they cannot be replaced:
+Sorcerer Level| Spell
+:-:|:-:
+1st| *magic missile, Arcane Lance*
+3rd| *misty step, Spiritual Weapon*
+5th| *counterspell, dispel magic*
+7th| *dimension door, Awareness*
+9th| *Aether Waves, wall of force*
+
+#### Aetherborn
+When you choose this origin at 1st level, your aether heart gives you several advantages. You have resistance to Force damage, and can serve as your own arcane focus.
+
+When you reach 3rd level, you automatically gain the *Empowered Spell* metamagic option, and can use it without spending Socerery Points a number of times equal to your proficiency bonus, regaining all uses on a long rest.
+
+#### Overcharged Metamagic
+Starting at 6th level, you can unleash the power that rages within your heart. 
+
+When you modify a spell that deals damage with your Metamagic options, you can add your Charisma modifier to one damage roll of that spell.
+
+#### Arcane Fuel
+At 14th level, you gain immunity to force damage. When you would take force damage, you regain health equal to half the damage you would have taken. You can gain a maximum amount of hit points this way equal to your Sorcerer level, after which you no longer gain additional hit points until you complete a short or long rest.
+
+When you successfully cast *dispel magic* or *counterspell*, you regain an expanded Sorcerery Point (if you are not currently at your maximum) as you draw in the remnants of the broken magic.
+
+\column
+
+#### Tap Power
+At 18th level, you can tap the power that surges through to replenish your magic. As a bonus action, you can expend one hit die and regain Sorcery Points equal to the number rolled + your Charisma modifier. Once you do this, 
+
+you cannot do so again until you complete a short or long rest.
+
+{{pageNumber,auto}}
+\page
+### Astral Sorcerery
+Some of the eldest beings left in the multiverse reside in the
+Astral Plane, the ethereal space between the great planes.
+Sometimes, if a mortal being is exposed to the luminescent
+and primordial power of this space between spaces, or one of
+the ancient creatures that dwells there, they are infected by
+this magic and transformed into an Astral Soul Sorcerer
+
+#### Astral Magic
+You learn certain spells at the Sorcerer levels shown below.
+They are Sorcerer spells for you, they do not count against
+your number of Spells Known, and they cannot be replaced:
+Sorcerer Level| Spell
+:-:|:-:
+1st| armor of agathys, longstrider
+3rd| misty step, rope trick
+5th| magic circle, protection from energy
+7th| dimension door, freedom of movement
+9th| antilife shell, teleportation circle
+
+#### Astral Ward
+At 1st level, the primordial power of your bloodline offers you increased
+protection. At the end of each long rest, you become covered in a faint shimmering Astral Ward which has a number of hit points equal to your Charisma modifier + your Sorcerer level. 
+
+Whenever you take damage, your Astral Ward takes the damage in your place. If this damage reduces your Astral Ward to 0 hit points, you take any remaining damage.
+
+Your Astral Ward lasts until the end of your next long rest,
+at which point is is restored to its full hit points. It is dispelled
+early if it is reduced to 0 hit points.
+
+Finally, you can use your action to expend Sorcery Points
+to restore the hit points of your Astral Ward by 1d4 for each
+Sorcery Point you expend.
+
+#### Pocket Dimension
+At 6th level, you can draw upon your power to shelter allies in your own
+portion of the Astral Plane. As an action, you can expend 3 Sorcery Points to cast *rope trick* with the changes below:
+- The extradimensional space is on the Astral Plane.
+- The portal to your extradimensional space appears on a flat surface of your choice within 5 feet.
+- As an action, you can touch the portal to close (or open) it.
+- While the portal is closed, it is hidden from view, and no attacks or spells can pass through the portal. No sound passes through, and creatures cannot see in or out of it.
+
+At the end of the hour, you can expend 3 Sorcery Points to extend the duration of this effect by 1 additional hour.
+
+\column
+
+#### Primordial Ward
+At 14th level, the power you are able to draw from your blood rivals that of the titans of the Astral Plane. So long as your Astral Ward has at least 1 hit point, you gain a bonus to your Armor Class equal to your Charisma modifier (minimum of +1), and you are resistant to bludgeoning, piercing, and slashing damage.
+
+#### Astral Regeneration
+At 18th level, your magic is restored by time spent in the Astral Plane.
+The first time you enter your Pocket Dimension created by *rope
+trick*, your Astral Ward regains a number of hit points equal to your Sorcerer level + your Charisma modifier.
+
+Moreover, whenever you cast a Sorcerer spell that lets you teleport, such as misty step, you can move through the Astral Plane and your Astral Ward regains a number of hit points equal to the level of that spell + your Charisma modifier.
+{{pageNumber,auto}}
+\page
+
+###  Bloodrazor
+
+You are no mere wielder of magic—you are a living weapon, forged not in a cradle but on an altar. Bhaal, the Lord of Murder, has etched his mark into your soul, inscribing power into your blood with every death you witness, every wound you carve, and every scream you silence. You are both blade and butcher—your arcane talents are not shaped by destiny, but by sacrifice and slaughter.
+
+Bhaal’s chosen rarely survive childhood without drawing blood. Whether you were born during a ritual massacre, marked by a cultist mid-slaughter, or struck by divine madness after your first kill, your arcane essence has twisted into something unnatural. Magic flows through you like a serrated edge, rending flesh as easily as it tears reality.
+
+#### Bloodrazor Magic
+You learn additional spells when you reach certain levels in this class, as shown on the Bloodrazor Spells table. Each of these spells counts as a sorcerer spell for you, but they don’t count against your number of sorcerer spells known.
+Sorcerer Level | Spells
+:-:|:-:
+1st | *Inflict Wounds, Sandblaster*
+3rd | *Cloud of Daggers,Petal Storm*
+5th | *Frost Razors, Vampiric Touch*
+7th | *Blight, Soulfire*
+9th | *Cloudkill, Steel Wind Strike*
+
+#### Rend the Weave
+At 1st level, your magic cleaves as much as it burns. Whenever you deal cold, fire, lightning, poison or thunder damage with a spell, you can choose to replace the damage type with slashing or piercing.
+
+In addition, you can use a dagger as your spellcasting focus.
+
+\column
+
+#### Woundcraft Ritual
+Starting at 1st level, once per turn, when you deal slashing, piercing, or necrotic damage to a creature with a spell or cantrip, you can cause it to begin bleeding . 
+
+A bleeding creature takes extra damage equal to your Bloodletting Die the next time it takes slashing, piercing, or necrotic damage from a spell of 1st level or higher, after which the bleeding ends. 
+
+Your Bloodletting Die starts as a d4 and increases to a d6 at 6th level, a d8 at 14th level, and a d10 at 18th level.
+
+
+#### Sanguine Casting
+At 6th level, when you cast a spell that targets at least one bleeding creature, any Metamagic option you apply to that spell costs only 1 sorcery point, regardless of its normal cost.
+
+#### Crimson Covenant
+Upon reaching 14th level, you’ve learned to bargain with death itself. Once per turn, when a bleeding creature dies within 60 feet of you can use your reaction to absorb the essence of its final breath. 
+
+You regain sorcery points equal to half your Charisma modifier (rounded up).
+
+#### Avatar of the Butcher-God
+At 18th level, when a bleeding creature attacks you, they must make a
+Charisma saving throw against your spell save DC. On a failure
+they may not target you with that attack, but are free to target
+another creature with an attack instead.
+
+{{imageMaskEdge7,--offset:20%,--rotation:0
+  ![](https://s.yimg.com/ny/api/res/1.2/rI3bwQB941hJuhre2ClymA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xMzUw/https://media.zenfs.com/en/pc_gamer_708/00134d40ebd69721daae0d477b56b316){height:41%,top:662px}
+}}
+
+{{pageNumber,auto}}
+\page
+
+### The Chained
+Once you were an unknowable, all powerful, and far reaching otherworldly entity, but now... now you are but shade of your former self, bound in mortal flesh. The eldritch essence from which you draw your magic is all that remains of your former terrible power. Maybe one day you will be able to regain your true power and punish those who did this to you...
+
+
+#### Eldritch Spells
+The fragment of your former power grants you dark magic. When your Spellcasting feature lets you learn or replace a sorcerer cantrip or a sorcerer spell of 1st level or higher, you can choose the new spell from the warlock spell list or the sorcerer spell list. You must otherwise obey all the restrictions for selecting the spell, and it becomes a sorcerer spell for you.
+
+Additionally, you gain another sorcerer spell on level 1st, 3rd, 5th, 7th, 9th.
+
+#### Knowledge of Ancient Days
+You are able to tap into lost knowledge from eons long dead. At 1st level, you gain proficiency in History and you learn to speak, read, and write, two exotic languages of your choice.
+
+Also, while you sleep during a long rest, your inner self can commune with the ancient knowledge you once had, focusing on a person, place, or object you interacted with in the past day and making a Charisma (History) check. You learn a fact about the subject, often one forgotten to modern scholars.
+
+\column
+
+#### Unknowable Mind
+Starting at 6th level, you have advantage on saving throws to resist being charmed, frightened, or have your thoughts read.
+
+Additionally, when you are forced to make an Intelligence, Wisdom, or Charisma saving throw to resist the effects of a spell, you can use your reaction to force a creature within 30 feet to become the target of the spell instead of you.
+
+Once you use this reaction you must complete a long rest before you can use it again. If you have no uses left, you can spend a spell slot of 3rd-level or higher to use it again.
+
+
+#### Otherworldly Step
+Beginning at 14th level, using your eldritch power allows you to move through cracks in reality itself. Whenever you expend a spell slot, you can instantly teleport a number of feet equal to 5 times the level of the spell slot you spent, appearing in an unoccupied space of your choice within range.
+
+#### Eldritch Revelation
+Upon reaching 18th level, you can use your action to briefly assume a form that resembles your terrible former power. For the next minute, you gain the following benefits:
+
+You can cast hideous laughter at 1st-level spell as a bonus action on each turn, without expending Sorcery Points.
+You gain a flying speed equal to your movement speed.
+You can move through other creatures and objects. If you end your movement inside an object or creature, you are shunted to the nearest unoccupied space, and take 1d10 force damage for every 5 feet you were forced to travel.
+Once you use this feature to transform, you can’t use it again until you finish a long rest, unless you spend 7 Sorcery Points to use it again.
+
+
+
+{{imageMaskEdge4,--offset:20%,--rotation:0
+  ![](https://www.gmbinder.com/images/uD0zGGt.jpeg){height:60%,top:660px}
+}}
+
+{{pageNumber,auto}}
+\page
+### Clockwork Soul
+
+The cosmic force of order has suffused you with magic. That power arises from Mechanus or a realm like it-a plane of existence shaped entirely by clockwork efficiency. You, or someone from your lineage, might have become entangled in the machinations of the modrons, the orderly beings who inhabit Mechanus. Perhaps your ancestor even took part in the Great Modron March. Whatever its origin within you, the power of order can seem strange to others, but for you, it is part of a vast and glorious system.
+
+
+#### Clockwork Magic
+You learn additional spells when you reach certain levels in this class, as shown on the Clockwork Spells table. Each spell counts as a sorcerer spell for you, but it doesn’t count against the number of sorcerer spells you know. These spells can’t be replaced when you gain a level in this class.
+
+
+##### Clockwork Spells	
+|Sorcerer Level	|Spells|
+|:--|:---|
+|1st|	Alarm, Protection from Evil and Good
+|3rd|	Aid, Lesser Restoration
+|5th|	Dispel Magic, Protection from Energy
+|7th|	Freedom of Movement, Summon Construct
+|9th|	Greater Restoration, Wall of Force
+
+
+In addition, consult the Manifestations of Order table and choose or randomly determine a way your connection to order manifests while you are casting any of your sorcerer spells.
+
+##### Manifestations of Order	
+|d6|	Manifestation|
+|:---|:---
+|1|	Spectral cogwheels hover behind you.
+|2|	The hands of a clock spin in your eyes.
+|3|	Your skin glows with a brassy sheen.
+|4|	Floating equations and geometric objects overlay your body.
+|5|	Your spellcasting focus temporarily takes the form of a Tiny clockwork mechanism.
+|6|	The ticking of gears or ringing of a clock can be heard by you and those affected by your magic.
+
+#### Restore Balance
+Starting at 1st level, your connection to the plane of absolute order allows you to equalize chaotic moments. When a creature you can see within 60 feet of you is about to roll a d20 with advantage or disadvantage, you can use your reaction to prevent the roll from being affected by advantage and disadvantage.
+
+You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.
+
+\column
+
+#### Bastion of Law
+Starting at 6th level, you can tap into the grand equation of existence to imbue a creature with a shimmering shield of order. As an action, you can expend 1 to 5 sorcery points to create a magical ward around yourself or another creature you can see within 30 feet of you. The ward lasts until you finish a long rest or until you use this feature again.
+
+The ward is represented by a number of d8s equal to the number of sorcery points spent to create it. When the warded creature takes damage, it can expend a number of those dice, roll them, and reduce the damage taken by the total rolled on those dice.
+
+#### Trance of Order
+Starting at 14th level, you gain the ability to align your consciousness to the endless calculations of Mechanus. As a bonus action, you can enter this state for 1 minute. For the duration, attack rolls against you can't benefit from advantage, and whenever you make an attack roll, an ability check, or a saving throw, you can treat a roll of 9 or lower on the d20 as a 10.
+
+Once you use this bonus action, you can't use it again until you finish a long rest, unless you spend 5 sorcery points to use it again.
+
+#### Clockwork Cavalcade
+At 18th level, you summon spirits of order to expunge disorder around you. As an action, you summon the spirits in a 30-foot cube originating from you. The spirits look like modrons or other constructs of your choice. The spirits are intangible and invulnerable, and they create the following effects within the cube before vanishing:
+
+The spirits restore up to 100 hit points, divided as you choose among any number of creatures of your choice in the cube.
+Any damaged objects entirely in the cube are repaired instantly.
+Every spell of 6th level or lower ends on creatures and objects of your choice in the cube.
+
+Once you use this action, you can’t use it again until you finish a long rest, unless you spend 7 sorcery points to use it again.
+
+{{pageNumber,auto}}
+\page
+### Cosmic Magic
+Your innate magic originates in the movements of galactic bodies: in the heat of a star, the radiance
+of cosmic rays, or the gravitational abyss of a black hole. You might have been exposed to strange
+cosmic forces in the midst of a void jump or during
+a spacewalk gone terribly wrong. Perhaps you even
+acquired your power deliberately through a highenergy radiation experiment. Now you can breathe
+freely in the vacuum of space and release cosmic
+rays at your fingertips, your power growing as your
+connection to the cosmos strengthens.
+
+
+#### Cosmic Magic
+You learn certain spells at the Sorcerer levels shown below. They are Sorcerer spells for you, they do not count against your number of Spells Known, and they cannot be replaced:
+Sorcerer Level| Spell
+:-:|:-:
+1st|  Burning Hands, Jump  
+3rd|	Locate object, Levitate
+5th|	Protection from Energy, Pulse Wave
+7th|	Distort Gravity, Intensify Gravity
+9th|	Telekinesis, Teleportation Circle
+
+
+#### Starborn
+Starting at 1st level, you can breathe underwater or in the vacuum of space and you are unaffected by Extreme Temperatures and Vacuums. 
+
+Additionally, in ZeroGravity environments, you have a Fly Speed equal to your Speed.
+
+#### Cosmic Rays
+Also at 1st level, immediately after you cast a damaging Sorcerer spell with a spell slot, you can take a Bonus Action to channel the residual magic into cosmic rays. 
+
+Make a ranged spell attack against a creature you can see within 60 feet of yourself. On a hit, the target takes 1d4 Radiant damage for each level of the spell slot
+expended.
+
+#### Radiation Burst
+Beginning at 6th level, when you take damage from a creature within 5 feet of yourself, you can take a Reaction to emit a burst of harmful radiation in a 5-foot Emanation. 
+
+Each creature you choose within the Emanation must succeed on a Constitution saving throw against your spell save DC or have the Poisoned condition until
+the end of your next turn.
+
+#### Gravimancer
+At 14th level, you always have the *Reverse Gravity* spell prepared and you can cast it once without a spell slot. 
+
+You regain the ability to cast it in this way when you finish a Short Rest. 
+
+As a action, you can change the effect of the spell to that of the *Intensify Gravity* or *Distort Gravity* spell, or back to *Reverse Gravity*. 
+
+#### Stardust
+At 18th level, when you cast a spell using a spell slot, you can create a number of motes of stardust equal to half the level of the spell slot expended (round down),
+
+which orbit around you for 1 minute. You can have a maximum of 10 motes orbiting you at one time. 
+
+You can expend orbiting motes instead of Sorcery Points to use your Metamagic options.
+
+
+{{pageNumber,auto}}
+\page
+###  Dark Wild Magic
+Wild magic permeates the Feywild, infusing everything in
+that realm with unpredictable power. Thus, it is no surprise
+that sorcery is unnaturally common among denizens of the
+faerie realm―after all, magic lives in the water they drink,
+the food they eat, and the air they breathe. 
+
+Not all sources
+of wild magic are equal, however. The Feywild is a land of
+ambiguity and constant change, which means that a given
+pocket of wild magic could glitter with daylight one day  and ooze with shadows the next.
+
+Sorcerers influenced by
+dark wild magic are just as chaotic as their lighter cousins,
+but significantly more destructive.
+#### Weird Arcana
+Starting when you choose this origin at 1st level, your spellcasting can unleash surges of untamed magic.
+
+Immediately after you cast a sorcerer spell of 1st level or higher, the GM can have you roll a d20. If you roll a number equal or lower than the spell's level, roll on the Weird Arcana table to create a random magical effect.
+
+
+#### Channel Chaos
+Also at 1st level, you can draw on the power of chaos to add your Charisma modifier to the damage dealt by a spell that you cast on your turn. 
+
+Once you do so, you must finish a long rest before you can use this feature again.
+
+Any time before you regain the use of this feature, the GM can have you roll on the Weird Arcana table immediately after you cast a sorcerer spell of 1st level or higher. You then regain the use of this feature.
+
+#### Unstable Power
+At 6th level, whenever you cast a spell that has an ‘At Higher Levels’ clause, roll 1d6 - 2 and add the result to the slot level you used. Then you treat the spell as if it was cast using a slot of this level, unless the result would be below the minimum slot level that would normally be needed to cast the spell, in which case the spell fails and the spell slot wasted.
+
+#### Wild Counter
+Starting at 14th level, when a creature you can see within 60 feet of you casts a spell, you can use your reaction to replace their spell with a Weird Arcana effect.
+
+ Once you use this feature, you must finish a long or short rest before you can use it again.
+ 
+\column
+
+#### Alluring Presence
+At 18th level, you can flaunt the seductive power of your dark magic, causing those around you to become ensorcelled. 
+
+As an action, you can spend 5 sorcery points to draw on this power and exude an aura of allure to a distance of 60 feet. For 1 minute or until you lose your concentration (as if you were concentrating on a spell), each hostile creature that starts its turn in this aura must succeed on a Wisdom saving throw or be incapacitated until the aura ends. 
+
+A creature that succeeds on this saving
+throw is immune to your aura for 24 hours.
+{{pageNumber,auto}}
+\page
+## Weird Arcana
+{{wide
+Sometimes the turbulent magics of the Feywild will manifest as random effect. When that happens, you must roll on this table and apply the result. If the table requires you to cast a spell, it always uses Charisma as the spellcasting ability; any saving throw required by this table will be equal to 8 + the caster’s Charisma modifier + the caster’s proficiency bonus. 
+
+You never need any spell
+components to cast these spells, you do not need to concentrate on them, and you cannot choose to end them before the end of their duration
+}}
+{{classTable,frame,decoration,wide
+##### The Weirkeeper
+| d100 | Effect |
+|:-10%---|:-----------|
+1| You shrink to Tiny size for the next minute.
+2| You can take two reactions instead of one between now and the start of your next turn.
+3| A random item of clothing you are wearing becomes unbearably itchy. You have disadvantage on ability checks until you take the item off and wash it.
+4| Your arms stretch out to double their normal length, increasing your reach by 5 feet until the end of your next turn.
+5| A jaunty hat appears on your head. It disappears after 1 minute.
+6| Your ears expand to enormous size for the next minute. You have advantage on Wisdom (Perception) checks that rely on hearing during that time.
+7| 10 gold pieces appear in your pocket.
+8| If you have spell slots, you lose one of the highest level you have available.
+9| You grow a tail and cat ears, which can only be undone by a remove curse spell.
+10| You are instantly cured of any diseases, poisons or curses that are currently affecting you.
+11| The next time you are forced to make a saving throw, it is an automatic success.
+12| You cast the spell lightning bolt in a random direction.
+13| You cast the spell slow centered on yourself.
+14| You can understand all spoken and written languages for the next hour.
+15| If you don't have all your hit points, you gain temporary hit points, which last for 1 minute, equal to the number of hit points you have lost.
+16| For the next 24 hours, you gain darkvision out to a range of 120 feet.
+17| You cast the spell blur on a random creature within 60 feet.
+18| You cast the spell polymorph on yourself, transforming into a hamster.
+19| All of your ability scores become 7 for 1 hour.
+20| Your hair turns to pink-and-blue stripes for 10 days.
+21| Your weight increases by 2d6 pounds.
+22| One creature of your choice within 30 feet falls prone in comical fashion.
+23| If you are a spellcaster who prepares spells, you can immediately change which spells you have prepared.
+24| If you are wearing armor, it starts to fall apart. Your AC while wearing that armor is reduced by 1 point until you have a chance to repair it during a short or long rest.
+25| Your skin turns to diamond until the start of your next turn. Whenever you would take damage during that time, you take no damage but instead regain hit points equal to the damage that would be dealt.
+26| You feel extremely lucky. The next time you roll a 1 on an attack roll, ability check or saving throw within the next 24 hours, you can re-roll the result. You must accept the second roll.
+27| You forget everything that has happened to you in the last 10 days. Your memories can be restored by a remove curse spell.
+28| Your eyesight becomes as sharp as an eagle’s. For 24 hours, you can see clearly and in detail over distances up to 10 miles. 
+29| For the next 10 minutes, you (and only you) can hear the sound of distant windchimes.
+30| You cast the spell stinking cloud centered upon yourself.
+31| Your legs start dancing a jig of their own accord. Your base movement speed is halved for the next minute.
+32| For the next minute, every time you attack with a weapon, it makes strange noises like zworp and woup.
+33| If you are a spellcaster, you can immediately cast one spell of your choice, without spending a spell slot or using an action.
+34| Each creature within 90 feet of you is pushed 5 feet in a random direction. If a creature would be pushed into a creature, wall, or immovable object, it takes 1d6 bludgeoning damage.
+35| Your senses become incredibly alert for 1 minute. No creature within 120 feet of you can hide from you for that duration.
+36| One random item in your inventory turns into a flute.
+37| Your head doubles in size, but halves in weight until the beginning of your next turn.
+38| If you are carrying a quiver, bolt case, or bullet pouch that is not full of ammunition, it is magically refilled with ordinary arrows, bolts, or sling bullets as appropriate. If you have multiple containers, you can choose which one is refilled.
+39| You are able to hear the surface thoughts of every intelligent creature within 60 feet of you for the next minute. If there is more than one creature in this radius, you must use your action if you want to focus in on any one creature’s thoughts.
+
+}}
+{{pageNumber,auto}}
+\page
+{{classTable,frame,decoration,wide
+| d100 | Effect |
+|:-10%---|:-----------|
+40| You are charmed by the nearest creature until the end of your next turn, regarding them as a trusted friend.
+41| Your voice becomes a deep and sonorous baritone for the next 10 minutes. You have advantage on Charisma (Performance) checks involving singing for that duration.
+42| A rainbow-colored circle of force surrounds you. Until the end of your next turn, you have advantage on Dexterity saving throws.
+43| Your Strength score is reduced by 6 (to a minimum of 1) until the end of your next turn.
+44| A seagull swoops down and attempts to steal a weapon from the nearest hostile creature (they can keep hold of it with a Strength or Dexterity saving throw). If they are unarmed, they instead get pecked for 1d4 piercing damage. If no hostile creatures are nearby, the seagull lurks menacingly, but otherwise does not cause any trouble.
+45| For the next 24 hours, any domestic cats you encounter are inexplicably friendly towards you.
+46| For the next hour, whenever you see natural rocks or stone, you hear the voice of a dwarf inside your head, describing to you in excruciating detail what sort of rock you are seeing, what it can be used for, where it is usually found, how it is formed and various other mundane geological lore. For the duration, you have advantage on Intelligence checks relating to stonework.
+47| An entire egg appears in your mouth.
+48| You and each creature within 30 feet of you becomes invisible until the beginning of your next turn.
+49| You feel cool and well-hydrated. For the next 8 hours, you have resistance to fire damage and are considered to be adapted to hot climates. You do not become thirsty or need to drink for the duration.
+50| If you are attuned to a magic item that has charges, all of its remaining charges are immediately drained.
+51| For the next hour, anyone who presses their ear up against you will hear whooshing ocean waves.
+52| You experience a flash of creativity and inspiration. If you are proficient in one or more types of artisan’s tools, you immediately learn the recipe/design for one magic item (determined by the GM) that you did not previously know.
+53| Your movements become supernaturally light and graceful for one minute. You can ignore difficult terrain and leave no footprints in soft ground for that duration.
+54| A swarm of shimmerlings appears in a random space within 30 feet of you. Its behavior is determined by the GM and it disappears after 1 minute.
+55| You cast the spell water breathing on yourself and up to 9 other creatures.
+56| If you are in initiative order, everyone rerolls their initiative. A new round starts using the rerolled values
+57|  Your hair turns into snakes for one minute. The snakes are under your control, but are not strong enough to lift objects on their own, nor can they cause any damage with their bites.
+58| For the next 24 hours, you develop an intense phobia of animals. For the duration, whenever you come within 60 feet of a Small or larger beast, you become frightened by it.
+59| A hazy mist surrounds you for the next minute. You are considered to be lightly obscured from the point of view of any creature more than 30 feet away from you.
+60| You have advantage on death saving throws you make for the next 24 hours.
+61| 1d6 ravens appear in random unoccupied spaces within 30 feet of you. The GM determines their behavior.
+62| Your Intelligence score becomes 21 for 10 minutes.
+63| You are rotated 180 degrees in your clothes. If you are wearing light or medium armor, your speed is halved until your armor is removed. If you are wearing heavy armor, you are incapable of moving and have disadvantage on ability checks, attack rolls, and saving throws until the armor is removed.
+64| You become proficient in all skills for 1 hour.
+65| You smell like summer flowers for the next 8 hours.
+66| You cast the spell haste on a random creature within 30 feet.
+67| A powerful archfey takes an interest in your struggles. The first time you are reduced to 0 hit points in the next hour, they immediately teleport to your location and stabilize you. The GM then determines their behavior further.
+68| A cow falls from the sky at a random point within 60 feet of you. Any creature underneath it must make a Dexterity saving throw or take 16 (3d10) bludgeoning damage. If you are indoors, the cow smashes through roofs and ceilings until it hits the ground. If you are underground, re-roll this result.
+69| If there are any undead within 120 feet of you, you feel a tingling sensation. You can tell how many undead there are, but not what types or precisely where they are located.
+70| For the next hour, if you begin your turn with fewer than half your hit points, you regain 1d6 hit points.
+71| You burst into flames, taking 1d4 fire damage. You continue to take 1d4 fire damage at the start of each of your turns until you or another creature uses an action to extinguish the flames.
+72|  You have resistance to cold and fire damage for the next minute.
+73| If you have a familiar or animal companion, it gains the ability to speak Common for the next 10 minutes.
+74| One random creature within 120 feet of you that has an Intelligence score of 5 or more must make a Charisma saving throw or immediately roll on the Short-Term madness table.
+75| Your body begins to hum with stored magical energy. The next time you make an ability check, you instead make a Charisma check with advantage to channel the stored magic into whatever it was you were trying to accomplish.
+76| A dose of heartfreeze poison (see the poison section) slides down your throat.
+77| Roll on this table twice and apply both results. If you get this result on one or both of the secondary rolls, ignore it.
+78| You are clear of thought and have advantage on Wisdom saving throws you make for the next hour.
+79| All locks within 60 feet of you are instantaneously opened.
+
+}}
+{{pageNumber,auto}}
+\page
+{{classTable,frame,decoration,wide
+| d100 | Effect |
+|:-10%---|:-----------|
+80| You become ghostlike, as per the spell etherealness, for the next minute.
+81| A cold rider upon a warhorse skeleton with plate barding appears in a random location within 300 feet of you. The rider is hostile towards you.
+82| For the next week, whenever you need to make a choice, a Tiny angel and devil appear on your shoulders to debate the morality of the situation.
+83| The next spell you cast counts as being cast from a slot level one higher than whatever slot you expend.
+84| Beams of furious arcane energy erupt from your eyes. Choose a creature that you can see to take 2d8 fire damage.
+85| You regain all of your expended hit dice.
+86| A banana peel appears under your foot when you next move, causing you to fall prone and lose the rest of your movement.
+87| You say all your thoughts aloud for the next hour.
+88| All of your ability scores become 18 for 1 hour.
+89| For the next 24 hours, your hair and fingernails grow at 100 times the normal rate.
+90| If you are outside, heavy snow falls in a 1-mile radius of you for the next 24 hours. If you are inside or underground, re-roll this result.
+91| Your bones liquefy, collapsing your body into a meaty pile until the beginning of your next turn. While liquefied, you are paralyzed. When this effect ends, you re-solidify instantly, but are no longer wearing or holding anything.
+92| You cast the spell detect magic.
+93| All of the possessions you are holding, carrying, or wearing (including your clothing), are teleported to random locations within 30 feet of you.
+94| The next attack roll that you make that does not have disadvantage automatically hits.
+95| Disembodied dramatic music cues accompany all of your actions for the next 24 hours.
+96| All your currency is transformed into chocolate coins for 1 hour. After this time, all uneaten coins return to their original material.
+97| A knight appears in a random space within 30 feet of you. It is under your control but disappears after 1 minute.
+98| You are struck with the sudden sensation that you’re not real―none of this is real. Thankfully, after a moment, the feeling passes.
+99| You feel refreshed and restored. You instantaneously gain the benefits of a short rest, including the opportunity to spend hit dice.
+100| Every attack roll you make on your next turn is a critical hit
+}}
+{{imageMaskEdge4,--offset:5%,--rotation:0
+  ![](https://i.imgur.com/w1ZPcpk.png){height:55%,left:-200px}
+}}
+
+
+{{pageNumber,auto}}
+\page
+### Divine Soul
+Sometimes the spark of magic that fuels a sorcerer comes from a divine source that glimmers within the soul. Having such a blessed soul is a sign that your innate magic might come from a distant but powerful familial connection to a divine being. Perhaps your ancestor was an angel, transformed into a mortal and sent to fight in a god’s name. Or your birth might align with an ancient prophecy, marking you as a servant of the gods or a chosen vessel of divine magic.
+
+A Divine Soul, with natural magnetism, is seen as a threat by some religious hierarchies. As an outsider who commands celestial power, these sorcerers can undermine the existing order by claiming a direct tie to the divine.
+
+
+#### Divine Magic
+Your link to the divine allows you to learn spells normally associated with the cleric class. When your Spellcasting feature lets you learn a sorcerer cantrip or a sorcerer spell of 1st level or higher, you can choose the new spell from the cleric spell list or the sorcerer spell list. You must otherwise obey all the restrictions for selecting the spell, and it becomes a sorcerer spell for you.
+
+In addition, choose an affinity for the source of your divine power: good, evil, law, chaos, or neutrality. You learn an additional spell based on that affinity, as shown below. It is a sorcerer spell for you, but it doesn't count against your number of sorcerer spells known. If you later replace this spell, you must replace it with a spell from the cleric spell list.
+
+Additionally, you gain another sorcerer spell on level 1st, 3rd, 5th, 7th, 9th.
+##### Divine Magic
+| Affinity | Spell | 
+|:----:|:------------:|
+|Good   |*cure wounds* |
+|Evil   |*inflict wounds*|
+|Law   | *bless* |
+|Chaos   | *bane*  |
+|Neutrality   |*protection from evil and good*|
+
+\column
+
+
+
+#### Favored by the Gods
+Starting at 1st level, divine power guards your destiny. If you fail a saving throw or miss with an attack roll, you can roll 2d4 and add it to the total, possibly changing the outcome.
+
+Once you use this feature, you can’t use it again until you finish a short or long rest.
+
+#### Empowered Healing
+Starting at 6th level, the divine energy coursing through you can empower healing spells. Whenever you or an ally within 5 feet of you rolls dice to determine the number of hit points a spell restores, you can spend 1 sorcery point to reroll any number of those dice once, provided you aren't incapacitated. You can use this feature only once per turn.
+
+#### Angelic Form
+Starting at 14th level, you can use a bonus action to manifest a pair of spectral wings from your back. While the wings are present, you have a flying speed of 30 feet. The wings last until you're incapacitated, you die, or you dismiss them as a bonus action.
+
+The affinity you chose for your Divine Magic feature determines the appearance of the spectral wings: eagle wings for good or law, bat wings for evil or chaos, and dragonfly wings for neutrality.
+
+#### Unearthly Recovery
+At 18th level, you gain the ability to overcome grievous injuries. As a bonus action when you have fewer than half of your hit points remaining, you can regain a number of hit points equal to half your hit point maximum.
+
+Once you use this feature, you can’t use it again until you finish a long rest.
+
+{{imageMaskEdge1,--offset:30%,--rotation:0
+  ![](https://www.gmbinder.com/images/6Eneawi.jpg){height:60%,top:760px}
+}}
+
+
+
+{{pageNumber,auto}}
+\page
+### Divine Right
+Once in a generation, a divinely chosen ruler is born amongst the people. Some cults and countries seek out these blessed rulers, trusting the gods to select their leader. However, the existence of these chosen sorcerers poses a significant threat to those who currently hold power. While some will willingly step aside to let the will of the gods rule, other less honorable leaders will hunt down these challengers to their power.
+
+#### Royal Spells
+You learn certain spells at the sorcerer levels noted in the table below. They count as sorcerer spells for you, but they don't count against your number of Spells Known.
+
+Sorcerer Level|	Spell
+:-:|:-:
+1st|	command, heroism
+3rd|	find steed, zone of truth
+5th|	conjure barrage, tiny servant
+7th|	compulsion, find greater steed 
+9th|	dominate person, geas
+
+#### Divine Mark
+At 1st level, a Divine Mark appears somewhere on your body signifying the type of ruler you are to become. Select one of the Divine Marks below. Once chosen, your Mark cannot be changed short of the wish spell or direct divine intervention.
+
+**Mark of Elegance.** Your rule will be marked by diplomacy. You gain proficiency in Persuasion, and you can add double your proficiency bonus to all Charisma (Persuasion) checks.
+
+**Mark of Guile.** Your rule will be marked by cunning. You gain proficiency in Deception, and you add double your proficiency bonus to all Charisma (Deception) checks.
+
+**Mark of Might.** Your rule will be marked by strength. You gain proficiency in Intimidation, and you add double your proficiency bonus to all Charisma (Intimidation) checks.
+
+#### Words of Authority
+Beginning at 1st level, your voice has been imbued with sorcerous authority, and it is difficult for the weak to resist your commands. You learn the Heightened Spell Metamagic. It does not count against your Metamagics Known, and it cannot be replaced.
+
+When you cast an enchantment spell targeting a creature within 10 feet of you, you can apply Heightened Spell at no extra cost.
+\column
+
+#### Words of Vigor
+Starting at 6th level, you can lace your words with sorcerous power to uplift your allies. As a bonus action, you can expend Sorcery Points and choose a number of creatures who can see or hear you within 30 feet equal to the Sorcery Points expended.
+
+Creatures gain temporary hit points equal to 1d8 + your Charisma modifier.
+#### Regal Presence
+Upon reaching 14th level, your presence inspires heroic confidence in your followers. Creatures of your choice that can see or hear you within 30 feet are considered to be proficient in all saving throws.
+
+Also, the range of Words of Authority becomes 30 feet.
+
+#### Divine Command
+Upon reaching 18th level, you have become a legendary figure, and have been infused with increased divine power. You learn *divine word*. It counts as a Sorcerer spell for you, but it does not count against your total Spells Known, and you cannot replace it.
+
+Once between each long rest, you can cast *divine word* once without expending a spell slot.
+
+{{imageMaskCenter1,--offsetX:40%,--offsetY:-30%,--rotation:0
+  ![](https://www.gmbinder.com/images/vw2o5bx.jpg){height:50%,left:70px,top:610px}
+}}
+
+
+
+
+
+{{pageNumber,auto}}
+\page
+### Draconic Bloodline
+Your innate magic comes from draconic magic that was mingled with your blood or that of your ancestors. Most often, sorcerers with this origin trace their descent back to a mighty sorcerer of ancient times who made a bargain with a dragon or who might even have claimed a dragon parent. Some of these bloodlines are well established in the world, but most are obscure. 
+#### Dragon Ancestor
+At 1st level, you choose one type of dragon as your ancestor. The damage type associated with each dragon is used by features you gain later.
+##### Draconic Ancestry
+| Dragon | Damage Type | 
+|:----:|:------------:|
+|Black   |Acid |
+|Blue    |Lightning|
+|Brass   | Fire |
+|Bronze  |Lightning|
+|Copper  |Acid|
+|Gold    |Fire |
+|Green   |Poison|
+|Red     |Fire |
+|Silver  |Cold |
+|White   |Cold |
+
+You can speak, read, and write Draconic. Additionally, whenever you make a Charisma check when interacting with dragons, your proficiency bonus is doubled if it applies to the check.
+
+#### Draconic Resilience
+ At 1st level, your hit point maximum increases by 1 and increases by 1 again whenever you gain a level in this class.
+
+Additionally, parts of your skin are covered by a thin sheen of dragon-like scales. When you aren't wearing armor, your AC equals 13 + your Dexterity modifier.
+
+#### Elemental Affinity
+Starting at 6th level, when you cast a spell that deals damage of the type associated with your draconic ancestry, add your Charisma modifier to that damage. At the same time, you can spend 1 sorcery point to gain resistance to that damage type for 1 hour.
+
+#### Dragon Wings
+At 14th level, you gain the ability to sprout a pair of dragon wings from your back, gaining a flying speed equal to your current speed. You can create these wings as a bonus action on your turn. They last until you dismiss them as a bonus action on your turn.
+
+You can't manifest your wings while wearing armor unless the armor is made to accommodate them, and clothing not made to accommodate your wings might be destroyed when you manifest them.
+
+
+#### Draconic magic
+At 1st level, you learn additional spells when you reach certain levels in this class, as shown on the Draconic Spells table. The list of spells you know from this table changes with your draconic ancestry.  These spells can’t be replaced when you gain a level in this class.
+
+#### Draconic Presence
+Beginning at 18th level, you can channel the dread presence of your dragon ancestor, causing those around you to become awestruck or frightened. As an action, you can spend 5 sorcery points to draw on this power and exude an aura of awe or fear (your choice) to a distance of 60 feet. For 1 minute or until you lose your concentration (as if you were casting a concentration spell), each hostile creature that starts its turn in this aura must succeed on a Wisdom saving throw or be charmed (if you chose awe) or frightened (if you chose fear) until the aura ends. A creature that succeeds on this saving throw is immune to your aura for 24 hours.
+
+
+
+
+{{classTable,frame,wide,column-count8
+##### Draconic Spells
+| Sorcerer level |Draconic Spells| Black spells| Blue spells|Brass spells|Bronze spells |Copper spells|Gold spells|Green spells|Red spells|Silver spells |White spells|
+|:---------------|:---:|:-----------:|:----------:|:--------:|:----------:|:----------:|:-----:|:----:|:--------:|:-----------:|:----------:|
+|1st| *Cause Fear*| *Tasha's Caustic Brew*| *Witch Bolt*| *Sleep*| *fog cloud*|*Tasha's Hideous Laughter*|*Disguise Self*|*Ray of Sickness*|*Burning Hands*|*Armor of Agathys*|*Ice Knife*|
+|3rd| *Dragon’s Breath*| *Melf's Acid Arrow*| *Gust of Wind*| *Aganazzar's Scorcher*| *Arc of Lightning*|*Ray of Enfeeblement*|*Flaming Sphere*|*Protection from Poison*|*Scorching Ray*|*Hold Person*|*Icy Rays*|
+|5th| *fear*| *Acid Breath*| *Lightning Bolt*| *Ashardalon's Stride*| *Pulse Wave*|*Slow*|*Incinerate*|*Stinking Cloud*|*Fireball*|*Hypnotic Pattern*|*Sleet Storm*|
+|7th| *Elemental Bane*| *Vitriolic Sphere*| *Scintillating Spheret*| *Fire Shield*| *Storm Sphere*|*Acid Orbs*|*Soulfire*|*Dominate Beast*|*Wall of Fire*|*Polymorph*|*Ice Storm*|
+|9th| *Summon Draconic Spirit*| *Commune with Nature*| *Thunderbolt*| *Mind Fog*| *Control Winds*|*Seeming*|*Flame Strike*|*Cloudkill*|*Immolation*|*Hold Monster*|*Cone of Cold*|
+}}
+{{pageNumber,auto}}
+\page
+
+### Emberheart
+Whether you stole your power from a noble Efreeti lord, were gifted it by an ancient fire drake, or you were born near a gate to the elemental Plane of Fire, you now carry within you an ember of pure elemental flame. This ember of arcane fire fuels your burning soul, inflames your passions, and allows you to perform wondrous and terrible feats of fire magic.
+
+#### Emberheart Spells
+You learn certain spells at the sorcerer levels noted in the table below. They count as sorcerer spells for you, but they don't count against your number of Spells Known.
+
+Sorcerer Level|	Spell
+:-:|:-:
+1st|	*burning hands, hellish rebuke*
+3rd|	*flaming sphere, scorching ray*
+5th|	*fireball, minute meteors*
+7th|	*summon elemental (fire), wall of fire*
+9th|	*flame strike, immolation* 
+
+#### Heart of Flame
+The primordial flame empowers your spirit. Beginning at 1st level, you are resistant to fire damage and you have advantage on saving throws to resist being charmed or frightened.
+
+You can also speak, read, and write Ignan, the language of the Elemental Plane of Fire. By understanding Ignan you can communicate with any creature that speaks Primordial, or one of its four dialects; Aquan, Auran, Ignan, and Terran.
+
+#### Wild Fire
+Starting at 6th level, you can cause fire to erupt from the ruin of your foes. When you reduce a Small or larger creature to 0 hit points with a spell that deals fire damage, you can use your reaction to force creatures of your choice within 10 feet of that creature to make Dexterity saving throw. They take fire damage based on the size of the creature, as indicated in the table below, on a failure, and half as much on a success.
+|||
+:-|:-
+Tiny|	0
+Small|	1d6
+Medium|	2d6
+Large|	3d6
+Huge|	4d6
+Gargantuan|	5d6
+
+You can use this reaction a number of times equal to your Charisma modifier (minimum of once), and you regain all of your expended uses when you finish a long rest.
+
+\column
+
+#### Kindle the Flame
+Your body is restored when you draw on the elemental flame. Beginning at 14th level, when you cast a fire spell of 1st-level or higher, you can choose to gain temporary hit points equal to the level of the fire spell + your Charisma modifier.
+
+#### Primordial Inferno
+Your flaming soul has become an inferno, making you more elemental then mortal. Starting at 18th level, you don't need to eat, drink, or sleep, and you are immune to fire damage.
+
+When you take damage from a creature within 60 feet, you can use your reaction to force it to make Dexterity saving throw. On a failure, they take fire damage equal to your level.
+
+{{note
+##### Elemental Sorcerers
+Switch the damage type of the Emberheart Spells and subclass features her from Fire to Acid, Cold, Lighting, or Poison to make any Elemental Origin!
+}}
+{{imageMaskCenter10,--offsetX:50%,--offsetY:-10%,--rotation:0
+  ![](https://www.gmbinder.com/images/zgSjptN.jpg){height:50%,left:250px,top:450px}
+}}
+<!-- Use --offsetX to shift the mask left or right (can use cm instead of %)
+     Use --offsetY to shift the mask up or down
+     Use --rotation to set rotation angle in degrees. -->
+
+
+
+{{pageNumber,auto}}
+\page
+
+### Emotion Lord
+Whenever you are filled with heartbreak, terror, or
+the depths of sorrow, waves of arcane energy spill
+forth from you. You might have found the spark
+of magic when great tragedy struck or while you
+shook with rage, or it may have always lingered in
+the back of your soul, only erupting forth when
+you lost control. However it originated, controlling
+your emotions and knowing yourself is key to
+manipulating your deep well of arcane energy. To
+lose focus, to be governed by your emotions, allows
+all your magic to flow through you in spectacular
+and uncontrollable fashion. But to have control of
+yourself, and true understanding of your soul, grants
+you a breadth of magic few can hope to equal.
+
+##### “I first discovered my magic while I was...”
+|d10   |Event     |
+|:-:|:---:|
+|1–2| Wracked by grief|
+|3–4| In the throes of passion|
+|5–6| Shaking with rage|
+|7–8| Bursting with joy|
+|9–0| Terrified to my core|
+
+
+
+
+#### Emotional magic
+At 1st level, you learn additional spells when you reach certain levels in this class, as shown on the
+Emotional Spells table. The list of spells you know from this table changes with your predominant emotional state. These emotions should be informed by your character’s history as much as the current
+situation, however, the GM decides whether or not a situation is inappropriate to inspire a specific emotional state. For example, a pitched life-or-death battle is unlikely to inspire love. If your emotions would be uncertain, choose this state randomly. Each spell counts as a sorcerer spell for you, but it doesn’t count against the number of sorcerer spells you know. These spells can’t be replaced when you gain a level in this class.
+
+
+\column
+
+#### Empathy
+Also at 1st level, you can use your action to probe the surface level of a creature's emotions. You must
+be able to see the creature and it must be within 30 feet and have an Intelligence of 3 or higher. You
+learn the creature's emotional state and, at the GM's discretion, one of the creature's Bonds.
+
+#### Mood Swing
+Starting at 6th level, you can channel great swings of emotional energy at a whim. You can use the
+following abilities, regardless of your emotional state:
+
+**Burning Rage.** As a bonus action on your turn, you can spend 1 sorcery point to ignite in
+arcane fury. Until the beginning of your next turn, when a creature comes within 5 feet of you or starts
+its turn there, it must make a Dexterity saving throw against your spell save DC. On a failed save, it takes 2d6 fire damage.
+
+**Crestfallen.** Beset by sorrow, you can spend 2 sorcery points as a bonus action on your turn to fade
+out the world. Until the beginning of your next turn, you are visibly transparent and attack rolls against you have disadvantage. This effect ends early if you are hit by an attack.
+
+
+**Flight of Terror.** You can spend 1 sorcery point to take the Disengage action as a bonus action
+on your turn. Heartsick. Overcome by lovesickness, you can use your bonus action and spend 1 sorcery point to end one effect on yourself that is causing you to be charmed or frightened.
+
+**Moment of Bliss.** As a bonus action, you can spend 1 sorcery point to gain a flying speed equal
+to your movement speed until the end of your turn. If you end your turn in the air without anything
+holding you aloft and you are within 30 feet of the ground, you float gently to the ground. Otherwise, you fall.
+
+{{
+##### Emotional Spells
+| Sorcerer level          | Anger spells| Fear spells|Joy spells|Love spells |Sorrow spells|
+|:------------------------|:-----:|:----------------:|:--------:|:-----------:|:----------:|
+|1st| *thunderwave*| *expeditious retreat*| *heroism*| *charm person*| *sleep*
+|3rd| *scorching ray*| *invisibility*| *lesser restoration*| *enthrall*| *silence*
+|5th| *lightning bolt*| *fear*| *fly*| *sending*| *slow*
+|7th| *fire shield*| *phantasmal killer*| *freedom of movement*| *compulsion*| *banishment*
+|9th| *cloudkill*| *mislead*| *greater restoration*| *geas*| *antilife shell*
+}}
+{{pageNumber,auto}}
+\page
+
+#### Shift Temperament
+At 14th level, you can use your action to bend the emotions of a creature you can see within 60 feet,
+which must make a Charisma saving throw against your spell save DC. If the creature fails its saving throw, you can use one of the following abilities on it:
+
+**Charmed.** You spend 1 sorcery point, and the creature is charmed by you for 1 minute. This effect
+ends early if you or your companions do anything harmful to the creature.
+
+**Frenzied.** You spend 3 sorcery points to cause the creature to become frenzied for up to 1 minute. The creature can repeat this saving throw whenever it takes damage, ending the effect on itself on a success. A frenzied creature loses the ability to distinguish between friend and foe, regarding all
+creatures it can see as enemies. While frenzied, the creature chooses the targets for its attacks, spells, and ability randomly from among the creatures it can see within range, and it must make an opportunity attack if any creature provokes one.
+
+**Frightened.** You spend 1 sorcery point and the creature is frightened by you for up to 1 minute.
+The creature can repeat this saving throw at the end of each of its turns, ending the effect on itself on a success.
+
+**Indifferent.** If the creature is hostile towards you, you can spend 2 sorcery points to render it indifferent toward you for up to a minute. This indifference ends if the target is attacked or harmed by a spell or if it witnesses any of its friends being harmed.
+
+
+#### Vibrant soul
+By 18th level, you have mastery over your mercurial feelings. You know all of the spells on your
+Emotional Spells list at all times. Additionally, you learn the spell antipathy/sympathy, which counts as a sorcerer spell for you and doesn’t count against your total number of spells known. You can cast this spell by spending 10 sorcery points, instead of using a spell slot.
+
+### Faeblood
+Every so often, a mortal catches the attention of a lord or lady of the Fey. Often, the object of affection or offspring of this relationship is gifted wondrous arcane ability beyond that of other mortals. However, these mortal infatuations are usually brief, and the mortals are left to learn to use their power with little supervision or instruction. Weather you were chosen by a powerful Fey, or were the child of such a relationship or you have been blessed with the whimsical power of the Feywild.
+
+\column
+
+#### Fey Spells
+Your link to the Feywild grants you an affinity with charms. When your Spellcasting feature lets you learn or replace a sorcerer cantrip or a sorcerer spell of 1st level or higher, you can choose the new spell from the bard spell list or the sorcerer spell list. You must otherwise obey all the restrictions for selecting the spell, and it becomes a sorcerer spell for you.
+
+Additionally, you gain another sorcerer spell on level 1st, 3rd, 5th, 7th, 9th.
+
+#### Heartsight
+At 1st level, your Fey magic grants you heightened empathic abilities. You gain proficiency in Insight, and you add double your proficiency bonus to any Insight checks you make.
+
+As an action, you can touch a creature to read their heart. Make a Charisma (Insight) check, contested by the creature's Charisma (Deception) check. If you succeed, you learn its alignment. Celestials, fiends, and undead automatically fail. Creatures are unaware you attempted to read their heart.
+
+#### Seasonal Attunement
+Beginning at 6th level, you can align yourself with one of the seasons like a true Fey. At the end of each long rest, choose
+a season and gain the benefits listed below. Each season grants you a resistance and advantage on certain rolls.
+
+Season|	Damage Type|	Roll With Advantage
+:-:|:-:|:-:
+Spring|	Lightning|	Hit Die Rolls
+Summer|	Fire|	Initiative Rolls
+Autumn|	Poison|	Concentration Checks
+Winter|	Cold|	Death Saving Throws
+
+#### Gateway Magic
+Your magic allows you to slip between the Feywild and the material plane. Starting at 14th level, after you cast a spell of 1st-level or higher, can choose to teleport to an unoccupied space of your choice within 30 feet that you can see.
+
+When you use this feature, you can spend Sorcery Points to increase its range by 10 feet for each Sorcery Point.
+
+#### Intoxicating Presence
+You exude the intoxicating presence of an Archfey. Starting at 18th level, creatures of your choice within 15 feet of you have disadvantage on saving throws to resist enchantment spells.
+{{pageNumber,auto}}
+\page
+### Frost Sorcery
+Within your soul is a drop of purest elemental ice, connecting
+you to the snows, frigid mountain peaks, and ancient glaciers.
+Your sorcery is that of cold and chill, and you use it to freeze
+enemies in their tracks, and defend yourself from harm with
+glacial shields of ice.
+
+#### Frost Magic
+You learn certain spells at the Sorcerer levels shown below.
+They are Sorcerer spells for you, they do not count against
+your number of Spells Known, and they cannot be replaced:
+Sorcerer Level| Spell
+:-:|:-:
+1st| armor of agathys, ice knife 
+3rd| hold person, snowball swarm
+5th| sleet storm, slow
+7th| ice storm, resilient sphere
+9th| cone of cold, hold monster
+11th| Otiluke's Freezing Sphere
+
+#### Frostborn
+At 1st level, you gain resistance to cold damage, and you learn the *shape water* Cantrip, but it does
+not count against your number of Cantrips Known.
+
+Whenever you deal damage to a creature with *shape water*
+or one of your Frost Sorcery Spells, you reduce its speed by 5
+feet per Sorcery Point you expended when you cast this spell
+(minimum of 5 feet), including Metamagic. This reduction to
+speed lasts until the start of your next turn.
+
+#### Arcane Ice
+At 6th level, the frigid power within your icy magic has grown. When you
+reduce a target's speed to 0 with your Frostborn feature, it is
+restrained until the start of your next turn. 
+
+As an action, the restrained creature (or another creature that touches it) can make a Strength check against your Sorcerer Spell save DC,
+ending the restrained condition on a success.
+
+#### Titan of Frost
+At 14th level, you can unleash the icy magic within your soul. As a bonus
+action, you can exude an Aura of frigid wind out to a 30-foot
+radius for 1 minute. 
+
+Creatures of your choice in that area treat it as difficult terrain, and have disadvantage on saving throws to resist your Frost Sorcery Spells.
+
+Once you use this feature you must finish a long rest before you can use it again. If you have no uses left, you can expend 5 Sorcery Points to use this feature again.
+
+
+#### Primordial Glacier
+
+At 18th level, your frozen soul has become an otherworldly glacier of cold.
+
+You gain immunity to cold damage, resistance to fire damage, and you can cast armor of agathys without spending Sorcery Points, at a level equal to your Spell Limit, at will.
+{{imageMaskEdge1,--offset:10%,--rotation:270
+  ![](https://d1vzi28wh99zvq.cloudfront.net/images/8957/182163.jpg){height:100%,left:250px}
+}}
+
+
+{{pageNumber,auto}}
+\page
+### Gifted One
+A gifted one's sorcerous origin is not really what sets them
+appart. A gifted one's magical abilities, whatever their
+nature may be, are honed and molded by intense study and
+training in the twilight college. By the time these sorcerers
+finish their studies, they are able to control magical
+energies like no other.
+
+#### Magic Touched
+Starting when you choose this origin at 1st level, and again every 2 levels gained in this class, you learn one aditional spell. You can choose this spells from the sorcerer or  wizard spell lists. A spell you choose must be of a level you can cast, as shown on the Sorcerer table, or a cantrip. The chosen spells count as sorcerer spells for you, but don't count against the number of sorcerer spells you know.
+
+Additionally, when you gain a level in this class, you can choose any number of the spells learned by this feature and replace them with spells from the sorcerer or wizard spell lists, wich also must be of a level for wich you have spell slots.
+
+#### Arcane Senses
+Starting at 1st level, your study of magic grants you the ability to detect and identify spells being cast near you. Whenever a creature you can see within 60 feet of you casts a spell of a level for wich you have spell slots, you know the name of the spell and the level it is being cast at.
+
+#### Metamagic Expert
+By 6th level, yout superior capabilities for magic and your mental training allow you to adapt your spells in more ways than others. You gain two additional metamagic options.
+
+#### Superior adaptability
+At 14th level, your magical aptitude has far surpased most other spellcasters', making you able to able to create and convert spell slots as a free action instead of a bonus action.
+
+Additionally you gain the following metamagic option:
+##### Delayed Spell
+When you cast a spell you can spend 3 sorcery points to delay it's activation. As a bonus action during the next minute you can produce the delayed spell's effect. You choose targets for the spell when you produce the effect and only begin concentrating on it when you do so.
+
+You can only have one spell delayed at a time.
+
+\column
+
+#### Spell Mastery
+By 18th level, you have achieved such mastery over certain spells that you can cast them at will. Choose a 1st-level sorcerer spell and a 2nd-level sorcerer spell that you know. You can cast those spells at their lowest level without expending a spell slot. If you want to cast either spell at a higher level, you must expend a spell slot as normal.
+
+By spending 8 hours in meditation, you can exchange one or both of the spells you chose for different spells of the same levels.
+{{imageMaskCorner21,--offsetX:55%,--offsetY:-30%,--rotation:0
+  ![](https://i.imgur.com/29EHIQy.jpeg){height:70%,bottom:0px,left:-420px}
+}}
+{{pageNumber,auto}}
+\page
+### Greensinger
+There are many reclusive sages who learn to wield the magic of nature, but a rare few are born with an innate connection to that magic. Known as Greensingers, these wild sorcerers are able to magically manipulate plants, and can even sprout vines from their flesh in order to move about the world.
+
+#### Verdant Spells
+Your link with nature allows you to wield primal magic. 
+You learn certain spells at the sorcerer levels noted in the table below. They count as sorcerer spells for you, but they don't count against your number of Spells Known.
+
+
+Sorcerer Level|	Spell
+:-:|:-:
+1st|	*earth tremor, entangle*
+3rd|	*earthbind, spike growth*
+5th|	*plant growth, speak with plants*
+7th|	*grasping vine, guardian of nature* 
+9th|	*tree stride, wrath of nature* 
+
+#### Vigorous Vines
+Beginning at 1st level, you can use a bonus action to extrude (or retract) a thin, yet vigorous, vine from your body up to 10 feet in length. You can use this vine to perform simple tasks, but it can't be used to attack, manipulate tools, or activate items, and it cannot carry more than 10 pounds.
+
+You can extrude a total number of vines at one time equal to your proficiency bonus. The vines share your Armor Class and they each have hit points equal to your sorcerer level.
+
+#### Grasping Growth
+Starting at 6th level, your vines can grow up to 15 feet in length. While your vines are extruded, you can use a bonus action to attempt to grapple a creature within reach of one of your vines by making a Charisma (Athletics) check.
+
+Also, while you have at least two vines extruded, you gain a climbing speed equal to your movement speed, and you can climb on difficult surfaces including upside down on ceilings, without needing to make an ability check. Your vines must be able to reach the surface you wish to climb.
+
+#### Creeping Defense
+Upon reaching 14th level, your vines can grow up to 20 feet in length. Also, when you are hit by an attack, you can use your reaction to block the incoming blow with one of your vines. If the incoming damage destroys your vine, you take any additional damage that exceeds your vine's hit points.
+
+\column
+
+#### Crushing Grip
+At 14th level, your vines are able to drain the vitality of your foes. At the start of your turn, each creature grappled by your vines takes necrotic damage equal to your Charisma modifier (minimum of 1), and you gain temporary hit points equal to the total necrotic damage dealt to all grappled creatures.
+
+#### Greensong
+You and the natural world have become one. Starting at 18th level, you can use an action to enter the Greensong, a state of pure harmony with nature. For the next minute, or until you are incapacitated, you gain the benefits listed below:
+
+You immediately extrude the maximum number of vines.
+The reach of your vines temporarily becomes 30 feet.
+When you take the Attack action, you can make an attack, or grapple, with each vine. You use your Charisma for the attack rolls, and your vines deal magical bludgeoning damage equal to 1d8 + your Charisma modifier on hit.
+
+{{note
+##### Grappling from a Distance
+Remember, a creature grappled by you, no matter how far from your body, is able to attack whatever limb, or vine, you are using to grapple them.
+}}
+
+{{imageMaskCorner28,--offsetX:55%,--offsetY:-50%,--rotation:0
+  ![](https://www.gmbinder.com/images/pBfFwEW.jpg){height:60%,bottom:-1px}
+}}
+
+{{pageNumber,auto}}
+\page
+### Hellspawn
+Most mortals who wield the fiendish power of the hells do so through strict contracts with devils and Archdevils. However, some cultists and other mortals connect with more chaotic demonic powers and become Hellspawn. Though not always evil, Hellspawn are fueled by the chaotic magic of the Abyss.
+
+#### Abyssal Spells
+You learn certain spells at the sorcerer levels noted in the table below. They count as sorcerer spells for you, but they don't count against your number of Spells Known.
+
+
+Sorcerer Level|	Spell
+:-:|:-:
+1st|	hellish rebuke, wrathful smite
+3rd|	crown of madness, scorching ray
+5th|	bestow curse, blinding smite
+7th|	shadow of moil, staggering smite
+9th|	cloudkill, insect plague
+
+#### Demonic Form
+At 1st level, you gain the ability to undergo a wild abyssal transformation, unleashing the demonic power bound
+within your soul. As a bonus action, you can take on your Demonic Form. While transformed, you retain your game statistics, your body becomes demonic in appearance, and you gain the following benefits for one minute:
+
+- Your hands become wicked natural weapons that deal 1d8 slashing damage on hit, and you can use your Charisma, in place of Strength, for their attack and damage rolls.
+- When not wearing armor, you gain a bonus to your Armor Class equal to your Charisma modifier (minimum of +1).
+- As a bonus action, you can grant yourself temporary hit points equal to your Charisma modifier (minimum of 1).
+
+Your transformation ends early if you are incapacitated, or you end it as a bonus action. You can transform a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a long rest.
+
+Additionally, you learn to speak, read, and write Abyssal, the language of demons and all creatures of the Abyss.
+
+\column
+
+#### Infernal Strikes
+Starting at 6th level, you can attack twice, instead of once, when you take the Attack action on your turn. Moreover, you can cast one of your cantrips in place of one of those attacks.
+
+Also, your natural weapon attacks in your demonic form count as magical for the purposes of overcoming resistances and immunities to non-magical attacks.
+
+
+#### Fiendish Resistance
+Beginning at 14th level, your hellish power can shield you from harm. As a reaction, when you take damage while in your demonic form, you can expend a spell slot to reduce the incoming damage by an amount equal to five times the level of the spell slot you expend.
+
+#### Archdemonic Form
+You have mastered the fiendish power that dwells within you. Beginning at 18th level, your Demonic Form lasts until you choose to end it. Also, while you are in your Demonic Form, you gain the following additional benefits:
+
+You can take the Dash action as a bonus action.
+You are immune to bludgeoning, piercing, and slashing damage from non-magical attacks.
+When you hit a creature with a natural weapon attack it takes an additional 1d8 magical slashing damage.
+
+{{imageMaskCorner21,--offsetX:55%,--offsetY:-45%,--rotation:0
+  ![](https://www.gmbinder.com/images/suqumsl.jpg){height:55%,left:250px,bottom:-1px}
+}}
+
+{{pageNumber,auto}}
+\page
+### Iron Sorcery
+Born during times of war and strife, the Sorcerers known
+as Ironmongers have an affinity for things forged for use in battle. They thrive in the midst of combat, channeling their
+war magic on the front lines. They are formidable foes, and are sought after by captains and conquerers for their ability to turn the tide of any battle, no matter how hopeless.
+
+#### Blade of Strife
+Starting at 1st level, you can conjure up the signature weapon of an Ironmonger Sorcerer, the Blade of Strife. As a bonus action, you conjure this mystical Blade at a point you can see within 60 feet. It lasts for 1 minute or until you conjure another Blade.
+
+When you conjure this Blade, you can make a melee spell attack against a target within 10 feet of it. On hit, it takes 1d8 force damage.
+
+You can conjure this Blade a number of times equal to your Charisma modifier (a minimum of once), and you regain all of your expended uses when you finish a long rest.
+
+Finally, when you have no uses of this feature left, you can expend 3 Sorcery Points to conjure the Blade again.
+
+#### Ironmonger
+Beginning at 1st level, your sorcery grants you an affinity for the armaments of war. You gain proficiency with light armor, medium armor, shields, and all simple and martial weapons without the heavy or two-handed properties.
+
+Your unique Sorcery also allows you to cast Sorcerer spells while you are wearing light or medium armor, or using shield.
+
+#### Extra Attack
+Starting at 6th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.
+
+Additionally, if you have a Blade of Strife when you take the Attack action on your turn, you can cast a cantrip in place of one of your attacks.
+
+#### Iron Smite
+At 6th level, the sorcerous power of your Blade of Strife has grown. You add your Charisma modifier (minimum of +1) to the damage of your Blade of Strife spell attacks.
+
+Also, once per turn when you hit a Large or smaller target with your Blade of Strife, you can force it to make a Strength saving throw against your Spell save DC or fall prone.
+
+\column
+#### Iron Aegis
+Upon reaching 14th level, when a creature within 10 feet of your Blade of Strife is hit by an attack, you can use your reaction to add your Charisma modifier (minimum of +1) to the target's Armor Class against that attack, potentially turning a hit into a miss.
+
+Your Blade of Strife also deals a bonus 1d8 damage on hit.
+
+#### Storm of Blades
+At 18th level, you have become a god of warfare and lay waste to your foes. You learn *steel wind strike*. It counts as a Sorcerer spell for you, but it does not count against your total Spells Known, and you cannot replace it.
+
+When you cast *steel wind strike*, you can use a Blade of Strife as the material component. When you do, your Blade makes all the attacks independent of you, and you make melee spell attacks in place of melee weapon attacks.
+
+You can cast *steel wind strike* this way without expending Sorcery Points a number of times equal to 1 + your Charisma modifier, and you regain all uses when you finish a long rest.
+
+{{imageMaskCorner21,--offsetX:55%,--offsetY:-40%,--rotation:0
+  ![](https://i.pinimg.com/736x/e2/5f/da/e25fda45c2f8cb5d1a8a9899e0782259.jpg){height:65%,left:350px,bottom:px}
+}}
+
+
+
+{{pageNumber,auto}}
+\page
+### Jinx
+
+Some people are cursed with bad luck from the day they were born. Known as “jinxes,” they are shunned everywhere they go, for fear that their misfortune will plague anyone who gets too close. In fact, this fear is well-founded, for a jinx really can inflict their curse on other people and, with training, can even harness it into a potent source of magic.
+
+#### Misfortune Magic
+You learn additional spells when you reach certain levels in this class, as shown on the Misfortune Spells table. Each of these spells counts as a sorcerer spell for you but doesn’t count against the number of sorcerer spells you know.
+
+| Sorcerer Level | Spells |
+|:---:|:---:|
+| 1st  | bane, unseen servant |
+| 3rd  | augury, ray of enfeeblement |
+| 5th  | bestow curse, remove curse |
+| 7th  | confusion, divination |
+| 9th  | dream, telekinesis |
+
+#### Fumble
+Starting at 1st level, you radiate an aura of bad luck. Whenever a creature within 30 feet of you rolls a 1 on the d20 for an attack roll, ability check, or saving throw, you can choose to amplify its bad luck. Choose one of the following effects:
+- The creature falls prone.
+- The creature drops everything it is holding.
+- The creature can’t take reactions until the start of its next turn.
+- The creature takes 1d6 damage. The damage is bludgeoning, piercing, or slashing damage, as appropriate to the accident that occurs. This damage increases by 1d6 at 5th level (2d6), 11th level (3d6), and 17th level (4d6).
+- The creature suffers a harmless, but extremely embarrassing accident of the GM’s choice.
+
+#### Unlucky Numbers
+When you reach 2nd level in this class, you enhance your aura of bad luck by spending 2 sorcery points as an action. Roll a d20 and record the number rolled; this is an unlucky number. Whenever a creature within 30 feet of you rolls an unlucky number on an attack roll, ability check, or saving throw, you can treat the d20 roll as a 1.
+
+Unlucky numbers last until you finish a long rest. You can have a total number of unlucky numbers equal to your proficiency bonus at one time.
+
+\column
+
+#### Abate Disaster
+Beginning at 6th level, you can delay the tides of misfortune. When a willing creature you can see within 60 feet is hit by an attack or fails a saving throw, you can use your reaction to cause the attack to miss or saving throw to succeed. Roll damage as normal and record the amount.
+
+Disaster can’t be avoided, however, only delayed. After three rounds, at the start of the willing creature’s turn, a string of improbable events conspires to create an unavoidable accident, dealing the same amount of damage as recorded to the creature. The GM decides the nature of the accident and the damage type it deals.
+
+Once you use this feature, you can’t use it again until you finish a short or long rest.
+
+#### Bad Omen
+At 14th level, your magic is infused with portents of doom. Whenever a creature fails a saving throw against a spell of 1st level or higher that you cast, it has disadvantage on attack rolls it makes against you until the start of your next turn.
+
+#### Black Spot
+When you reach 18th level, you learn to channel the tides of misfortune into an infamous curse: the black spot. As an action, you can choose a creature you can see within 60 feet of you to gain the black spot, a permanent mark that appears on the back of one of the creature’s hands, or somewhere upon its body.
+
+You can use your reaction at any time to evoke the mark, causing the creature to die if it has 100 hit points or fewer and is on the same plane of existence. Once you do so, the mark fades. 
+
+You can also cause the mark to fade harmlessly as an action.
+
+You can have only one creature marked at a time. Once you use this feature to place a mark upon a creature, you can’t use it to do so again until you finish a long rest and the previous mark has faded.
+{{pageNumber,auto}}
+\page
+
+### Lunar Sorcery
+On many worlds, the moon is a revered celestial body with magical properties. On Krynn, the gods of magic are associated with the world's three moons. On the world of Toril, the god Selûne uses the light of the moon to battle darkness. On Eberron, scholars of the Draconic Prophecy decipher ancient secrets from the waxing and waning of that world's twelve moons.
+
+You or someone from your lineage has been exposed to the concentrated magic of the moon (or moons) of your world, imbuing you with lunar magic. Perhaps your ancestor was involved in a druidic ritual involving an eclipse, or maybe a mystical fragment of a moon crashed near you. However you came to have your magic, your connection to the moon is obvious when you cast sorcerer spells-perhaps making your pupils glow with the color of a moon from your world, causing spectral manifestations of lunar phases to orbit you, or some other effect.
+
+#### Lunar Embodiment
+You learn additional spells when you reach certain levels in this class, as shown on the Lunar Spells table. Each of these spells counts as a sorcerer spell for you, but it doesn’t count against the number of sorcerer spells you know.
+
+##### Lunar Spells
+Sorcerer Level|	Full Moon Spells|	New Moon Spells|	Crescent Moon Spells
+:-:|:-:|:-:|:-:|
+1st|	Shield|	Ray of Sickness|	Color Spray|
+3rd|	Lesser Restoration|	Blindness/Deafness|	Alter Self
+5th|	Dispel Magic|	Vampiric Touch|	Phantom Steed
+7th|	Freedom of Death Ward|	Confusion|	Hallucinatory Terrain
+9th|	Rary's Telepathic Bond|	Hold Monster|	Mislead
+
+Whenever you finish a long rest, you can choose what lunar phase manifests its power through your magic: Full Moon, New Moon, or Crescent Moon. While in the chosen phase, you can cast one 1st-level spell of the associated phase in the Lunar Spells table once without expending a spell slot. Once you cast a spell in this way, you can’t do so again until you finish a long rest.
+
+#### Moon Fire
+Starting at 1st level, you can call down the radiant light of the moon on command. You learn the Sacred Flame spell, which doesn’t count against the number of sorcerer cantrips you know. When you cast the spell, you can target one creature as normal or target two creatures within range that are within 5 feet of each other.
+
+\column
+
+#### Lunar Boons
+Starting at 6th level, the current phase of your Lunar Embodiment can affect your Metamagic feature. Each Lunar Embodiment phase is associated with certain schools of magic, as shown here:
+
+- **Full Moon.** Abjuration and Divination spells
+
+- **New Moon.** Evocation and Necromancy spells
+
+- **Crescent Moon.** Divination and Transmutation spells
+
+Whenever you use Metamagic on a spell of a school of magic associated with your current Lunar Embodiment phase, you can reduce the sorcery points spent by 1 (minimum 0). You can reduce the sorcery points spent for your Metamagic a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest
+
+#### Waxing and Waning
+Starting at 6th level, you gain greater control over the phases of your lunar magic. As a bonus action, you can spend 1 sorcery point to change your current Lunar Embodiment phase for a different one.
+
+You can now cast one 1st-level spell from each lunar phase of the Lunar Spells table once without expending a spell slot, provided your current phase is the same as the lunar phase spell. Once you cast a lunar phase spell in this way, you can't do so again until you finish a long rest.
+
+#### Lunar Empowerment
+Starting at 14th level, the power of a lunar phase saturates your being. While you are in a Lunar Embodiment phase, you also gain the following benefit associated with that phase:
+
+- **Full Moon:** You can use a bonus action to shed bright light in a 10-foot radius and dim light for an additional 10 feet or to douse the light. In addition, you and creatures of your choice have advantage on Intelligence (Investigation) and Wisdom (Perception) checks while within the bright light you shed.
+- **New Moon:** You have advantage on Dexterity (Stealth) checks. In addition, while you are entirely in darkness, attack rolls have disadvantage against you.
+- **Crescent Moon:** You have resistance to necrotic and radiant damage.
+{{pageNumber,auto}}
+\page
+
+#### Lunar Phenomenon
+At 18th level, as a bonus action, you can tap into a special power of your current Lunar Embodiment phase. Alternatively, as part of the bonus action you take to change your lunar phase using the Waxing and Waning feature, you can immediately use the power of the lunar phase you are entering:
+
+- **Full Moon:** You radiate moonlight for a moment. Each creature of your choice within 30 feet of you must succeed on a Constitution saving throw against your spell save DC or be blinded until the end of its next turn. In addition, one creature of your choice in that area regains 3d8 hit points.
+
+- **New Moon:** You momentarily emanate gloom. Each creature of your choice within 30 feet of you must succeed on a Dexterity saving throw against your spell save DC or take 3d10 necrotic damage and have its speed reduced to 0 until the end of its next turn. In addition, you become invisible until the end of your next turn, or until immediately after you make an attack or cast a spell.
+
+- **Crescent Moon:** You can magically teleport to an unoccupied space you can see within 60 feet of yourself. You can bring along one willing creature you can see within 5 feet of yourself. That creature teleports to an unoccupied space of your choice that you can see within 5 feet of your destination space. In addition, you and that creature gain resistance to all damage until the start of your next turn.
+
+Once you use one of these bonus action benefits, you can’t use that benefit again until you finish a long rest, unless you spend 5 sorcery points to use it again.
+
+
+### Magnetism Sorcery
+
+Your innate magic comes from a rare and powerful attunement to the invisible forces that bind reality: gravity, magnetism, and inertia. You channel these primal forces to bend space and motion to your will, warping the battlefield and dominating the space around you.
+
+
+#### Magnetism Spells
+
+You learn additional spells at the sorcerer levels listed below. These spells count as sorcerer spells for you and are always prepared, but they do not count against your number of spells known.
+
+| Sorcerer Level | Spells                |
+| -------------- | --------------------- |
+| 1st            | *catapult*            |
+| 3rd            | *hold person*         |
+| 5th            | *slow*                |
+| 7th            | *freedom of movement* |
+| 9th            | *hold monster*        |
+
+\column
+
+#### Gravitic Pull
+
+At 1st level, as an action, you can manipulate gravity around a creature or object. Choose one creature or object within 60 feet that you can see. The target must be Medium or smaller and must make a Strength saving throw against your spell save DC. On a failure, it is pulled toward or pushed away from you (your choice) in a straight line up to 20 feet.
+
+* If the target hits a solid object, it takes 2d8 bludgeoning damage and stops.
+* Objects automatically fail this saving throw.
+
+You can use this feature a number of times equal to your proficiency bonus, and you regain all uses after a long rest. 
+
+At higher levels, you can affect larger creatures, Large at 6th level, Huge at 14th level, and Gargantuan at 18th level.
+
+
+
+#### Gravity Well
+
+Starting at 6th level, you can cause a surge of magnetic energy to alter gravity in a wide area. As an action, you can expend a spell slot of 2nd level or higher to create either an *attraction* or *repulsion* field centered on a point you can see within 60 feet.
+The field has a **10-foot radius**, increasing by 5 feet for each slot level above 2nd. Each creature within the radius must make a Strength saving throw against your spell save DC. Huge and larger creatures have advantage on this saving throw.
+
+**Attract**: Creatures are pulled toward the center. If they collide with each other, they each take 1d8 bludgeoning damage. If they strike a solid object, they take 1d8 more and stop.
+
+**Repel**: Creatures are pushed 10 feet directly away from the center and fall prone. If they hit a solid object, they take 1d8 bludgeoning damage and fall prone.
+
+
+#### Greater Magnetism
+
+
+At 14th level, your mastery of gravity lets you move freely through the air. You gain a flying speed of 60 feet and can hover.
+
+In addition, Huge creatures no longer have advantage on saving throws against your *Gravity Well* feature.
+
+
+
+#### **Fundamental Mastery**
+
+At 18th level, you unlock the pinnacle of gravitational control. You learn the *reverse gravity* spell. It counts as a sorcerer spell for you and doesn't count against your number of spells known.
+
+You can cast *reverse gravity* once without expending a spell slot, regaining the ability after a long rest.
+
+You can also cast it again by expending 7 Sorcery Points.
+
+
+
+
+
+{{pageNumber,auto}}
+\page
+### Mirrorkin
+One of your ancestors came from beyond the looking glass; a strange world where everything is a twisted reflection of the true reality. As such, you have inherited amazing powers of mimicry and illusion that allow you to copy other people's abilities. To fight against you is almost akin to fighting one's own mirror image, something few warriors would relish.
+
+#### Mirror magic
+When you choose this origin at 1st level, you can duplicate the magic that affects you. When a spell is cast targeting you or you are in the area of a spell’s effect, you can use your reaction to learn that spell. If the spell forces you to make a saving throw, you succeed, and the spell has no effect on you, you can’t learn that spell. You can only learn a spell if it is of a level for which you have spell slots. You can learn 2 first-level spells using this ability, which don’t count against the total number of sorcerer spells you know.
+
+When you gain 2nd, 3rd, 4th, and 5th level spells, you can learn 2 spells for each of those levels, for a total of 10 additional spells known. The spells learned need not be from the sorcerer spell list, but count as sorcerer spells for you. You can use your action to forget a spell you have learned using this ability.
+
+#### Mimic trait
+Also at 1st level, you gain an uncanny ability to mimic other people. As an action, you can choose a humanoid you can see within 60 feet and gain one item of your choice that they possess from the following list (even if they only possess it temporarily):
+- One special sense, such as darkvision or tremorsense.
+- One movement speed, such as a swim or climb speed.
+- One skill, tool, or instrument proficiency.
+- One damage resistance.
+- Their accent, verbal tics, and mannerisms.
+
+You can keep this trait as long as you are within 60 feet of the target, or until you use this ability again.
+
+#### Reflect magic
+At 6th level, you can turn your skin into a shimmering mirror that reflects magic. When a creature casts a spell calls that for a saving throw to resist its effects and targets you or includes you in its area of effect, you can attempt to reflect the spell's energy back against its caster. Spend a number of sorcery points equal to the spell's level (1 sorcery point for cantrips). 
+
+If you succeed on your saving throw against the spell, the caster must also make a saving throw against the spell, using their own spell save DC.
+
+On a failed save, the caster suffers the effects of the spell as if you had cast it and they had been the original target or been within the area of the spell.
+
+\column
+
+#### Copycat
+By 14th level, you have developed your mimicry to the point where you can mirror the unique and powerful abilities of those around you. As an action on your turn, you can perform any action that has been performed by a humanoid (other than yourself) you can see within 60 feet within the last minute. 
+
+Any prerequisites that would normally be required for the action (such as brandishing of holy symbols, spending of ki points, or consumption of items) are waived when you use this feature, unless it is a spell or required the use of a spell slot, in which case you must still expend the relevant spell slot and expensive material components, if any are required. If the ability forces targets to make a saving throw, you can use your sorcerer spell save DC.
+
+Once you use this ability, you must finish a long rest before you can use it again.
+
+#### Perfect duplicate
+At 18th level, you can duplicate yourself and others with ease. You learn the spells disguise self and mirror image if you do not know them already, and you can cast them at will without expending a spell slot.
+{{pageNumber,auto}}
+\page
+### Mutagenic Bloodline
+Your innate magic comes from a blood-born
+mutagenic curse that has untethered your biology
+and unlocked your potential for change. Much like
+lycanthropes, your mutagenic blood allows you
+to transform into an amalgamation of animals—a
+fearsome thing of teeth, pincers, claws, or talons.
+Mastering your mutagens places the full force of the
+animal kingdom at your call, resulting in a chimera
+of magical wrath.
+
+You can pick from or roll on the Mutagenic Sorcerer Traits table to create a trait for your sorcerer:
+
+##### Mutagenic Sorcerer Traits
+d6| Trait
+:-:|:-:
+1| Your teeth are sharpened to razor points and your voice rumbles to a growl whenever you whisper.
+2| Resplendent feathers grow among your hair.
+3| Your spine hunches forward, placing your posture somewhere between standing upright and running on all fours.
+4 |You can't control the impulse to bark or snarl at unfamiliar animals.
+5| You're always awake when the moon is out. When possible, you're also running barefoot through the woods.
+6 |Your hair is long, coarse, and warm, bearing distinctive stripes or dots. 
+
+#### Mutagenic Magic
+You learn additional spells when you reach certain
+levels in this class, as shown on the Mutagenic
+Spells table. Each of these spells counts as a
+sorcerer spell for you but doesn’t count against the
+number of sorcerer spells you know.
+
+Sorcerer Level|	Spell
+:-:|:-:
+1st|	longstrider, shield
+3rd|	alter self, enlarge/reduce
+5th|	gaseous form, haste
+7th|	death ward, stoneskin
+9th|	antilife shell, passwall
+
+\column
+
+
+#### Mutagenic Form
+Starting at 1st level, you can use your bonus action
+to activate the mutagen in your blood, causing you to
+transform. Your transformation lasts for one hour or
+until you end it on your turn as a bonus action.
+While transformed, you gain the following
+benefits:
+
+**Natural Armor.** Your Armor Class equals 10 +
+your Dexterity modifier + your Charisma modifier.
+Temporary Hit Points. You gain temporary hit
+points equal to your sorcerer level + your Charisma
+modifier, which last until your transformation ends.
+
+**Natural Weapon.** You gain a natural weapon
+which you can use to make unarmed strikes. You can
+use your Charisma modifier, instead of Strength, for
+the attack and damage rolls of your natural weapon.
+When you hit with it, the weapon deals damage
+equal to 1d8 + your Charisma modifier, instead
+of the damage normal for an unarmed strike. The
+form and damage type of your natural weapon is
+determined by your mutagen below.
+
+**Mutagen.** Roll on the Mutagen table to
+determine the form of your natural weapon and gain
+an additional benefit.
+
+Once you use this feature to transform, you can’t use it again until you finish a long rest.
+
+Beginning at 2nd level, you can spend 2 sorcery points to regain a use of this feature.
+
+##### Mutagen
+d6 |Mutagen
+:-:|:-:
+1 |**Aquatic.** Your natural weapon is a muscular tail that deals bludgeoning damage. You also grow gills and are able to breathe air and water.
+2 |**Caprine.** Your natural weapon is a pair of curved ram’s horns which deal bludgeoning damage. Once on each of your turns, when you hit a creature with the horns attack, you can force the target to make a Strength saving throw against your spell save DC. On a failed save, the creature is pushed 10 feet away from you or knocked prone (your choice).
+3 |**Carnivorous.** Your natural weapon is a bite with razor-sharp teeth that deals piercing damage. Once on each of your turns, when you hit a creature with the bite attack, you can regain hit points equal to half of the piercing damage dealt by the bite.
+4 |**Fossorial.** Your natural weapon is a set of thick, powerful claws that deal slashing damage. You gain a burrow speed equal to your walking speed.
+5 |**Spiny.** Your natural weapon is a set of spines which deal piercing damage on a hit. You can use your reaction when a creature you can see within 5 feet of you hits you with a melee weapon attack to deal piercing damage equal to 1d4 + your Charisma modifier.
+6 |**Taloned.** Your natural weapon is a set of hooked talons which deal slashing damage. You gain a climb speed equal to your walking speed.
+
+{{pageNumber,auto}}
+\page
+#### Continuous Adaptation
+At 6th level, when you use your Mutagenic Form, you can spend 1 sorcery point to roll twice on the Mutagen table and use either number. Additionally, your Mutagenic Form improves in the following ways:
+
+**Aberrate.** While transformed, you gain the benefits of the spell aberrate.
+
+**Extra Attack.** While transformed, you can attack twice, instead of once, whenever you take the Attack action on your turn.
+
+**Magic Fang.** Your unarmed strikes count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.
+
+#### Greater Mutation
+Starting at 14th level, whenever you use your
+Mutagenic form, you can also roll on the Greater
+Mutagen table, gaining the benefit rolled while
+transformed.
+
+##### Greater Mutagen
+d6| Greater Mutagen
+:-:|:-:
+1-2 |**Aerial.** You sprout a pair of wings from your back and gain a flying speed equal to your walking speed. You can’t manifest your wings while wearing armor unless the armor is made to accommodate them, and clothing not made to accommodate your wings might be destroyed when you manifest them.
+3-4| **Arcanoform.** You have advantage on saving throws against spells and other magical effects
+5-6| **Echolocation.** You gain blindsight with a range of 60 feet. Within that range, you can effectively see anything that isn’t behind total cover, even if you’re blinded or in darkness. Moreover, you can see an invisible creature within that range, unless the creature successfully hides from you. You can’t use your blindsight while deafened.
+
+#### Chimeric Mastery
+By 18th level, when you use your Mutagenic Form,
+you can spend 6 sorcery points to transform into an
+amalgamation of various beasts, a powerful chimera.
+You gain all the benefits of your Mutagen and Greater
+Mutagen, and can choose bludgeoning, piercing, or
+slashing damage for your natural weapons whenever
+you deal damage. 
+
+Additionally, you gain the following
+benefits while you are transformed:
+- Your size increases by one category—from Medium to Large.
+- Your natural weapons deal 2d8 damage on a hit.
+- You have resistance to nonmagical bludgeoning, piercing, and slashing damage.
+
+
+
+{{pageNumber,auto}}
+\page
+### Nanite Host
+Whether by accident or design, your body is host to a colony of magical nanobots, called nanites. By drawing on their energy, you can command sorcerous power and compel the nanite swarm to do your bidding. Your relationship to the nanites is symbiotic: as you grow in strength, your connection to the nanites grows, until they become part of you on a fundamental level, influencing not only your body, but also your mind.
+
+#### Bonus Proficiency
+Starting when you choose this origin at 1st level, you gain proficiency in the Arcana skill.
+
+#### Arcane-repair
+At 1st level, you learn the mending cantrip if you don't already know it, and can cast it as an action. This spell doesn't count against your number of cantrips known. In addition, as long as you are conscious, you can use a bonus action on your turn to expend one of your hit dice, roll it, and immediately recover hit points equal to the number rolled + your Constitution modifier.
+
+
+{{imageMaskCorner10,--offsetX:-50%,--offsetY:-21%,--rotation:0
+  ![](https://i.imgur.com/QHWxtzu.png){height:60%,left:-150px}
+}}
+
+
+\column
+
+#### Nanite Spells
+You learn certain spells at the sorcerer levels noted in the table below. They count as sorcerer spells for you, but they don’t count against your number of Spells Known.
+
+Sorcerer Level|	Spell
+:-:|:-:
+1st|	Absorb elements, thunderwave
+3rd|	Enhance ability, see Invisibility
+5th|	Counterspell, pulse wave
+7th|	Fabricate, Vitriolic Sphere
+9th|	Creation, wall of Force
+
+#### Improved Mending
+At 6th level you can cast the mending cantrip as a bonus action,
+or you can cast it as an action for one of the following
+effects: 
+- You can restore a single object, such as a door, cart, wall, or window to pristine condition, if at least half of its parts are present. This object can be no larger than 10 cubic feet, or 1 cubic foot if it is an exceptionally complex object (such as a clock).
+- You can create simple fortifications, such as sealing a door shut, adding wooden planks to a window, or building a short stone wall (no larger than 10 cubic feet).
+
+
+#### Mind-Machine Interface
+At 14th level, you develop a neural interface through which you can communicate with, and, to some extent, control your nanite symbiotes. You can speak Terran, which you can use to interact with simples structures like doors and windows from up to 60 feet away and to communicate with constructs, even if you don't share a language. 
+
+Additionally, you learn *Arcane lock*. you can cast this spell a number of times equal to Charisma modifier (minimum of 1).
+When you cast Arcane lock, you can target any moving mechanics to lock it in place. A creature can use an action to attempt to remove this lock. It must succeed on a strength check against your spell save DC.
+
+
+#### Reboot
+When you reach 18th level, your nanites enable you to reset yourself quickly after being knocked unconscious, and help you to store your memories so they can't be tampered with. When you regain consciousness after dropping to 0 hit points, you immediately regain an additional 4d6 + 4 hit points. Once you use this ability, you can’t use it again until you finish a short or long rest.
+
+Furthermore, you are immune to any spell or ability that would alter your memory or personality.
+
+
+
+{{pageNumber,auto}}
+\page
+
+
+
+### Oozemaster
+Your innate magic stems from a long family line of ooze-infused blood. For generations, the strange traits of oozes have run in your family line, afflicting some at birth and sparing others, stemming from a well-documented but shadowy ancestor. It's unclear what horrific experiment infused a monstrous ooze or slime into their body so long ago, but some of their scattered descendants are born to this day with innate magic and bizarre physical characteristics.
+
+
+
+#### Slime magic
+You learn additional spells when you reach certain levels in this class, as shown on the Slime Spells table. Each of these spells counts as a sorcerer spell for you, but it doesn’t count against the number of sorcerer spells you know.
+
+##### Slime Spells
+
+Sorcerer Level| Spells
+|:---:|:---:
+1st| *disguise self, grease*
+3rd| *aberrate*, *acid arrow*
+5th| *benign dismemberment, rusting grasp*
+7th| *freedom of movement, stoneskin*
+9th| *evasiveness*, *seeming*
+
+#### Reform
+Starting when you choose this origin at 1st level, your vaguely gelatinous flesh can mend itself when wounded. Whenever you take bludgeoning, piercing, or slashing damage from a nonmagical weapon and don't drop to 0 hit points, you can use your reaction to immediately regain 1d4 hit points, up to a maximum of the amount of damage taken.
+The healing increases by 1d4 when you reach 5th level (2d4), 11th level (3d4), and 17th level (4d4).
+
+#### Goopy clone
+By 6th level, you can expend 2 sorcery points as an action to create a duplicate of yourself made from a translucent ooze. If you spend an additional 3 sorcery points, you imbue this ooze duplicate with illusory magic, causing it to be indistinguishable from any humanoid you choose. The duplicate has the statistics of a commoner, but is an ooze instead of a humanoid. Additionally, it is formed with simulated clothing and equipment; this equipment is nonfunctional and melts into ooze if it is not worn or carried by the duplicate.
+
+The duplicate is friendly to you and creatures you designate. It obeys your spoken commands, moving and acting in accordance with your wishes and acting on your turn in combat.
+The duplicate lasts for 24 hours or until it drops to 0 hit points, at which point it collapses into a large puddle of ooze.
+
+\column
+
+#### Bouncy body
+Beginning at 14th level, when a creature you can see misses you with a melee weapon attack, you can use your reaction to bounce the attack back at the attacker with your goopy body. The attacker repeats its attack against its own AC, dealing damage to itself as normal on a hit.itself from hostile creatures, but otherwise takes no actions. The GM has the gelatinous cube’s statistics.
+The cube dissolves into a sticky liquid when it drops to 0 hit points or when you dismiss it as an action on your turn. You can only have one summoned gelatinous cube at a time.
+
+#### Gelatinous ally
+Starting at 18th level, you can expend 6 sorcery points as an action to summon a gelatinous cube to envelop your enemies. Choose a space you can see within 120 feet for the cube to appear. If you summon the cube into a creature's space, the creature is immediately subject to the cube's Engulf. The cube uses your spell attack bonus and spell save DC in place of its own attack bonus and save DCs. You are immune to the cube’s acid damage and you are not subject to the cube’s Engulf. The cube is friendly to you and your companions. In combat, it rolls its own initiative and acts on its own turn. The cube obeys any verbal commands you issue to it (no action required). If you don't issue any commands to it, the cube defends
+{{pageNumber,auto}}
+\page
+
+
+
+### Radiation Freak
+The depths of space hold terrible forces that can warp and twist a man irreparably. For example, the hideous lights emanating from the Void, typically called radiation, normally offer a cruel, agonizing death to those who see them, but can sometimes fundamentally alter those subjected to its strange energies. This process is called "the warp", and those who survive it are deemed “radiation freaks” or “warped ones” for the horrible physical deformities that accompany their transformation. However, some are changed in even stranger ways. Radiation has the potential to alter a creature at the magical level as well, resulting in mutated sorcerers wielding horrific power.
+
+
+#### Radiation magic
+You learn additional spells when you reach certain levels in this class, as shown on the Radiation Spells table. Each of these spells counts as a sorcerer spell for you, but it doesn’t count against the number of sorcerer spells you know.
+
+##### Radiation Spells
+
+Sorcerer Level| Spells
+|:---:|:---:
+1st| *Searing Light, Ray of Sickness*
+3rd| *Arrow of Light*, *Moonbeam*
+5th| *Daylight, Protection from Energy*
+7th| *Hammer of the Gods, Sickening Radiance*
+9th| *Flame Strike*, *Immolation*
+
+{{imageMaskCorner23,--offsetX:-50%,--offsetY:-50%,--rotation:0
+  ![](https://i.imgur.com/RY2LreE.png){height:55%,left:-130px,top:540px}
+}}
+
+
+
+
+\column
+#### Radioactive
+Starting at 1st level, your body is saturated with harmful residual radiation. You can use your action to activate or suppress a radioactive aura. While active, your body glows with a bright light in a 10-foot radius and dim light for an additional 10 feet. 
+
+Additionally, each creature which comes within 5 feet of you or starts its turn in that area takes 1d6 radiant damage. At 6th level, this damage increases to 1d8, and at 14th level, this damage increases to 1d10.
+
+####  High Power
+At 1st level, whenever you deal cold, fire, lightning, or poison damage, you can replace the damage type with radiant damage. 
+
+#### Adaptive Resistance
+By 6th level, the tumors within your body can rapidly shift your magical metabolism. After you take damage, you can use your reaction and spend 1 sorcery point to gain resistance to that damage type until you take a short
+or long rest, or until you use this ability again. You do not gain resistance against the damage that triggers this ability.
+
+
+
+#### Glow Cloud
+Starting at 14th level, you can use your action to transform
+your entire body, along with everything you’re wearing
+and carrying, into a cloud of dangerous radioactive
+material. This effect acts as the gaseous form spell, with
+the following differences:
+- Your flying speed is equal to half your movement speed.
+- If another creature enters your space or starts its turn there, it takes 4d10 radiant damage.
+- You can cast cantrips while you’re in this form. Once you use this ability, you can’t use it again until you finish a long rest.
+
+#### Isotope Poisoning
+At 18th level, as an action, you can spend 3 sorcery points to bombard a creature you touch with a near lethal amount of radioactivity. At the beginning of each of the target’s turns, it must make a Constitution saving throw. On a failed save, the target is poisoned until the beginning of its next turn and takes 4d10 radiant damage. If a target fails three times, it remains poisoned for one hour, and takes 1d10 radiant damage at the beginning of each of its turns. 
+
+If it succeeds three times, this effect ends.
+{{pageNumber,auto}}
+\page
+
+### Reincarnated Hero
+Sorcerers gain their powers in mysterious ways that they seldom have control over. You are the reincarnation of a legendary hero, known to have slain many terrible foes. Being called back to life, whether by the gods, a very powerful mage, or a persistent curse on your soul, has left the indelible mark of sorcery upon you and awakened your ancient instincts for battle.
+
+#### Heroic Magic
+The power of your previous life grants you the ability to learn spells that other sorcerers might never manifest. You learn two cantrips of your choice from the following, which don’t count against your total number of spells known: arc blade, burning blade, caustic blade, force weapon, and frigid blade.
+You also learn additional spells when you reach certain levels in this class, as shown on the Heroic Spells table. Each of these spells counts as a sorcerer spell for you, but it doesn’t count against the number of sorcerer spells you know.
+
+##### Heroic Spells
+Sorcerer Level| Spells
+|:---:|:---:
+1st| *heroism, shield*
+3rd| *blur, magic weapon*
+5th| *after image, haste*
+7th| *death ward, stoneskin*
+9th| *evasiveness, legend lore*
+
+#### Armored sorcery
+At 1st level, you gain proficiency with light armor, medium armor, shields, and four martial weapons of your choice.
+
+#### Mystical maneuvers
+Beginning at 6th level, your instincts from your previous life kick in and enable you to perform a handful of special combat maneuvers. Once on each of your turns, you can spend 1 sorcery point as a bonus action to use one of the following maneuvers:
+
+**Aegis Stance.** Make one melee weapon attack against a creature you can see. Whether or not you hit, your AC increases by 2 and your speed is reduced to 0 until the beginning of your next turn.
+
+**Overhead Throw.** Make one ranged weapon attack with a melee weapon you are holding, as if it had the Thrown (30/90) weapon property. After the attack, the weapon teleports back to your hand.
+
+**Parting Flourish.** Make one melee weapon attack against a creature you can see. You don't provoke opportunity attacks from that creature for the rest of the turn, whether you hit or not.
+
+\column
+
+#### Sorceroud kindling
+Starting at 14th level, the ebb and flow of battle hones your sorcery and fuels your magic. Once per turn, when you score a critical hit with a weapon attack against a hostile creature or reduce a hostile creature to 0 hit points with a weapon attack, you regain 2 sorcery points.
+
+#### Heroic legacy
+Starting at 18th level, you can shrug off death in ways few of your previous lives could equal. Whenever you take more than 20 damage, you can use your reaction to reduce the damage taken to 20. When you do so, you have advantage on attack rolls, ability checks, and saving throws until the end of your next turn.
+
+
+### Shadow
+You are a creature of shadow, for your innate magic comes from the Shadowfell itself. You might trace your lineage to an entity from that place, or perhaps you were exposed to its fell energy and transformed by it.
+
+The power of shadow magic casts a strange pall over your physical presence. The spark of life that sustains you is muffled, as if it struggles to remain viable against the dark energy that imbues your soul.
+
+#### Eyes of the Dark
+From 1st level, you have darkvision with a range of 120 feet.
+
+When you reach 3rd level in this class, you learn the Darkness spell, which doesn't count against your number of sorcerer spells known. In addition, you can cast it by spending 2 sorcery points or by expending a spell slot. If you cast it with sorcery points, you can see through the darkness created by the spell.
+
+#### Shadow magic
+You learn additional spells when you reach certain levels in this class, as shown on the Radiation Spells table. Each of these spells counts as a sorcerer spell for you, but it doesn’t count against the number of sorcerer spells you know.
+
+##### Shadow Spells
+
+Sorcerer Level| Spells
+|:---:|:---:
+1st| *Disguise Self, Silent Image*
+3rd| *Misty Step*, *Mirror Image*
+5th| *Fear, Summon Shadowspawn*
+7th| *Evard’s Black Tentacles, Shadow of Moil*
+9th| *Conjure Shadow Demon*, *Shadow-ward*
+
+{{pageNumber,auto}}
+\page
+#### Strength of the Grave
+Starting at 1st level, your existence in a twilight state between life and death makes you difficult to defeat. When damage reduces you to 0 hit points, you can make a Charisma saving throw (DC 5 + the damage taken). On a success, you instead drop to 1 hit point. You can't use this feature if you are reduced to 0 hit points by radiant damage or by a critical hit.
+
+After the saving throw succeeds, you can't use this feature again until you finish a long rest.
+
+
+
+#### Hound of Ill Omen
+At 6th level, you gain the ability to call forth a howling creature of darkness to harass your foes. As a bonus action, you can spend 3 sorcery points to summon a hound of ill omen to target one creature you can see within 120 feet of you. The hound uses the dire wolf’s statistics, with the following changes:
+
+- The hound is size Medium, not Large, and it counts as a monstrosity, not a beast.
+- It appears with a number of temporary hit points equal to half your sorcerer level.
+- It can move through other creatures and objects as if they were difficult terrain. The hound takes 5 force damage if it ends its turn inside an object.
+- At the start of its turn, the hound automatically knows its target’s location. If the target was hidden, it is no longer hidden from the hound.
+
+The hound appears in an unoccupied space of your choice within 30 feet of the target. Roll initiative for the hound. On its turn, it can move only toward its target by the most direct route, and it can use its action only to attack its target. The hound can make opportunity attacks, but only against its target. Additionally, while the hound is within 5 feet of the target, the target has disadvantage on saving throws against any spell you cast. The hound disappears if it is reduced to 0 hit points, if its target is reduced to 0 hit points, or after 5 minutes.
+
+#### Shadow Walk
+At 14th level, you gain the ability to step from one shadow into another. When you are in dim light or darkness, as a bonus action, you can teleport up to 120 feet to an unoccupied space you can see that is also in dim light or darkness.
+
+#### Umbral Form
+Starting at 18th level, you can spend 6 sorcery points as a bonus action to transform yourself into a shadowy form. In this form, you have resistance to all damage except force and radiant damage, and you can move through other creatures and objects as if they were difficult terrain. You take 5 force damage if you end your turn inside an object.
+You remain in this form for 1 minute. It ends early if you are incapacitated, if you die, or if you dismiss it as a bonus action.
+
+
+\column
+
+### Spiritborn
+Your magic comes not from your blood, but from the conditions of your birth. Born during a specific time, or in accordance with a specific prophecy, your birth was heralded by the birth of an albino animal closely tied to your family. This animal, a powerful spirit in physical form, is bound to your very soul, allowing you to work powerful magic. Much like your bonded spirit, your skin and hair took on a color unusual for your race, with both usually becoming stark white, but sometimes a deep amber or golden hue.
+
+#### Natural Magic 
+The bond with your spirit animal grants you access to the magic of nature. When your Spellcasting feature lets you learn or replace a sorcerer cantrip or a sorcerer spell of 1st level or higher, you can choose the new spell from the druid spell list or the sorcerer spell list. You must otherwise obey all the restrictions for selecting the spell, and it becomes a sorcerer spell for you.
+
+Additionally, you gain another sorcerer spell on level 1st, 3rd, 5th, 7th, 9th.
+
+
+#### Spirit animal
+Starting at 1st level, you learn the find familiar spell and can cast it as a ritual without material components to summon a spirit animal. The spell doesn’t count against your number of spells known.The spell is improved in the following ways:
+- A spirit animal summoned with this ability is always a beast with albino features instead of its normal type.
+- Unlike a normal familiar, your spirit animal canattack on its turn, using your spell attack bonus for its attack rolls.
+- Your familiar adds your proficiency bonus to its Armor Class, saving throws, and damage rolls.
+- You add twice your sorcerer level to your familiar’s maximum hit points.
+- As you gain levels in the sorcerer class, your spirit animal can take on alternate beast forms, as shown on the Spirit Forms table below. If your Spirit Animal takes a form that has Multiattack, it loses that ability.
+
+
+Sorcerer Level| Beast Forms
+:-:|:-:
+1st| Boar, elk, giant lizard, giant owl, giant poisonous snake, panther, wolf
+6th| Ape, black bear, crocodile, reef shark
+10th| Brown bear, dire wolf, giant eagle, giant hyena, giant octopus, lion, tiger
+14th| Giant boar, giant constrictor snake, giant elk, hunter shark, polar bear
+
+{{pageNumber,auto}}
+\page
+#### Power bond
+Starting at 6th level, your spirit animal’s attacks are treated as magical for the purposes of overcoming damage resistance and immunity.
+
+Additionally, you can spend 1 sorcery point as a bonus action to give your spirit animal advantage on attack rolls, ability checks, and saving throws until the start of your next turn.
+
+
+#### Healing bond
+At 14th level, you use your bonus action and spend 1 or more sorcery points to heal your spirit animal's wounds. Your spirit animal regains hit points equal to your Charisma modifier + 1d12 hit points for each sorcery point spent.
+
+#### Spirit guardian
+At 18th level, your spirit’s bond with you is powerful enough to shield you from harm. Whenever you take damage, your spirit can use its reaction to prevent half of that damage, taking the other half itself.
+
+### Spirit Caller
+
+Spirit Callers are Yokai-human hybrids born from soul convergence in a mystical void. They manifest willpower as spectral beings, striking foes. Their bond enables potent emotional responses, embodying self-reliance and strength in physical form.
+
+{{monster,frame
+## Manifested Spirit
+*Small or Tiny Fey, shares your alignment*
+___
+**Armor Class** :: 13 + PB (natural armour)
+**Hit Points**  :: 5 + five times your sorcerer level
+**Speed**       :: 30 ft., fly 20 ft. (hover)
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|14 (+2)|16 (+3)|16 (+3)| 9 (-1)|15 (+2)|12 (+1)|
+___
+**Skills:** :: Intimidation +1 plus PB, Perception +2 plus PB, Stealth +3 plus PB
+**Senses**               :: darkvision 30 ft., passive Perception 12 plus PB
+**Languages**            :: understands the languages you speak
+**Challenge:**            :: equal to your PB
+
+### Actions
+
+***Multiattack.*** The spirit makes a number of attacks equal to
+half your proficiency bonus (rounded down).
+:
+***Spirit Grasp.*** *Melee Spell Attack:* your spell attack modifier to hit, reach 5 ft., one target. *Hit:* 1d8 + PB necrotic or radiant damage (your choice).
+:
+.***Spirit Rend..*** *Ranged Spell Attack:* your spell attack modifier to to hit, range 60 ft., one target. *Hit:* 1d6 + PB necrotic or radiant damage (your choice).
+### Bonus Actions
+
+***Detect.*** Your spirit makes a Wisdom (Perception) check
+}}
+
+
+\column
+
+#### Spirit Caller Spells
+At level 1, you learn additional spells when you reach certain levels in
+this class, as shown on the Spirit Caller Spellcasting table.
+Each of these spells counts as a sorcerer spell for you, but
+it doesn’t count against the number of sorcerer spells you
+know.
+Spirit Caller Spellcasting
+Sorcerer Level| Spell
+:-:|:-:
+1st| command, mage armor, minor illusion
+3rd| aid, mirror image
+5th| plant growth, phantom steed
+7th| banishment, guardian of faith
+9th| reincarnate, seeming
+17th| astral projection
+
+#### Conduit of the Soul
+At level 1, You can use an action to manifest your spirit, which appears
+in an unoccupied space within 30 feet of you. It uses the
+Manifested Spirit stat block, which uses your proficiency
+bonus (PB) in several places. You decide the appearance your
+manifested spirit takes. For example, your spirit might appear
+as a shadowy clone of you, a vicious dragon, or a mighty,
+sword-wielding specter that crackles with fiery energy. No
+matter the form your spirit takes, its statistics remain the same.
+
+While manifested, your spirit shares your initiative
+count, but it takes its turn immediately after yours. As a
+bonus action, you can command it to take the Attack action
+on its next turn; otherwise, it takes the Dodge or Help
+action (your choice). 
+
+Your spirit remains manifested for **10** minutes, until it is reduced to 0 hit points, or until you lose your concentration, as if concentrating on a spell. After this time, your spirit retreats back into you and disappears.
+
+You can use this feature twice. You regain expended uses
+when you finish a short or long rest.
+
+#### Spirit Synchronicity
+At level 6, when you use a Metamagic option on a spell with a range other than self, you can cause the spell to originate from
+your manifested spirit, instead of you, if your manifested
+spirit is within 120 feet of you.
+
+#### Spirit Empowerment
+Starting level 6 when you manifest your spirit using your Conduit of the Soul feature, you can expend any number of sorcery points.
+
+When you do, choose one boon from the following list for
+each point you expend. Your manifested spirit gains these
+boons until it disappears. You can’t select the same boon
+more than once at the same time, unless stated otherwise.
+{{pageNumber,auto}}
+\page
+{{imageMaskEdge7,--offset:10%,--rotation:90
+  ![](https://i.imgur.com/MUz1kJO.png){height:100%,left:-400px}
+}}
+
+
+\column
+
+
+#### Spirit Boons
+Spirit Boon| Effect
+:-:|:-:
+**Resistance**| Your spirit gains resistance to one damage type of your choice. (You can select this boon up to a number of times equal to your proficiency bonus.)
+**Extended Stay**| The maximum amount of time your spirit can remain manifested increases by 10 minutes. (You can select this boon up to a number of times equal to your proficiency bonus.)
+**Enlarge**| Your spirit’s size increases by one category. Its reach increases by 5 feet and its melee weapon attacks deal an additional 1d8 damage of the attack’s type on a hit.
+**Teleporter**| Your spirit can use its bonus action to teleport up to 30 feet to an unoccupied space it can see.
+**Frenzy**| Your spirit has advantage on all melee attack rolls, but attack rolls made against it have advantage.
+**Detonator**| When your spirit is reduced to 0 hit points, each creature of your choice within 20 feet of it must succeed on a Dexterity saving throw against your spell save DC or take necrotic damage equal to 2d10 + your sorcerer level.
+**Of One Mind**| You can use a bonus action to see through your spirit’s eyes and hear what it hears until the start of your next turn. During this time, you are deaf and blind with regard to your own senses.
+**Devil’s Sight**| Your spirit can see in dim light and darkness, both magical and nonmagical, to a distance of 120 feet.
+**Enhanced Agility**| Your spirit’s speed is doubled.
+**Battlefield Squire**| After your spirit takes the Help action, it can use a bonus action that turn to take the Disengage or Dodge action.
+
+#### Durable Connection
+At level 14, you have advantage on Constitution saving throws made to maintain concentration on your manifested spirit and on
+conjuration spells.
+
+In addition, you share any damage resistances that your manifested spirit has.
+
+#### Final Form Manifestation
+At level 18, you no longer need to maintain your concentration on your manifested spirit. You can cause it to disappear at any time (no action required).
+
+In addition, you can now select the “Enlarge” boon to increase your spirit’s size with your Spirit Empowerment feature up to a number of times equal to your proficiency bonus.
+
+{{pageNumber,auto}}
+\page
+### Starlight Sorcery
+Infused with the radiant power of the Sun, Starlight Sorcerers are light to their allies and searing radiance to their enemies. Whether your Sorcery was bestowed upon you by an ancient ritual or you asked the stars for guidance at a fateful moment, you are now a living avatar of their celestial radiance. How do you channel your power? Will you bring hope or vengeance?
+
+
+#### Starlight Magic
+You learn certain spells at the Sorcerer levels shown below. They are Sorcerer spells for you, they do not count against your number of Spells Known, and they cannot be replaced:
+
+Sorcerer Level| Spell
+:-:|:-:
+1st|	Guiding bolt, Jump 
+3rd|	Hold person, Moonbeam
+5th|	Daylight, Melf's Minute Meteors
+7th|	Fire shield, Sickening radiance
+9th|	Dawn, Wall of light
+
+
+#### Radiant Soul
+Starting at 1st level, your very soul has been infused with starlight. You learn the *glitterbeam* Cantrip, it is a Sorcerer Cantrip for you, but it does not count against your Cantrips Known.
+
+Moreover, you add your Charisma modifier to glitterbeam damage rolls.
+
+As a bonus action, you can emit (or extinguish) bright light, which emanates out from your body to a 30-foot radius, and dim light another 30 feet beyond that. While you emit light in this way, shimmering stars and constellations appear on you.
+
+#### Blinding Defense
+Beginning at 6th level, you can emit bursts of radiant light to distract foes. When you are hit by an attack and the attacker is within 30 feet, you can use your reaction to spend 2 Sorcery Points and emit a burst of light, forcing your attacker to make a Constitution saving throw against your Sorcerer Spell save DC.
+
+On a failed save, it is blinded until the start of your next turn, and the triggering attack automatically misses you.
+
+#### Searing Light
+At 6th level, your sorcery carries the searing light of the stars. You learn the Blinding Spell Metamagic. It does not count against your total Metamagics Known, and it cannot be replaced.
+
+You have a number of free uses of Blinding Spell equal to your Charisma modifier (a minimum of 1), and you regain all expended uses when you finish a long rest.
+
+\column
+
+#### Celestial Ascension
+At 14th level, the stars in the sky above call to you. While you are emitting light from Radiant Soul, you have a flying speed equal to your walking speed and you can hover.
+
+In addition, creatures within the radius of bright light that you emit with Radiant Soul have disadvantage on all saving throws to resist the blinded condition.
+
+#### Luminous Mastery
+At 18th level, your soul burns with the intensity of a true star, creating new stars around you. You gain resistance to radiant damage, and you learn the *crown of stars* spell. It doesn't count against your total Spells Known, and you cannot replace it.
+
+At the end of each long rest, you gain the effect of crown of stars. This effect lasts until the end of your next long rest, and it only ends if you expend every mote or cast the spell again.
+
+{{imageMaskCorner21,--offsetX:52%,--offsetY:-35%,--rotation:0
+  ![](https://www.gmbinder.com/images/wKwxN6u.jpeg){height:80%}
+}}
+
+
+{{pageNumber,auto}}
+\page
+### Stoneblood
+You are a Stoneblood sorcerer, a mortal imbued with a shard of pure elemental earth who can access the powerful magics of rock and stone. Whether this power was given to you by a Dao, an elder earth elemental, or one of the ancient Dwarven fathers, you now wield the unyielding power of stone. Your magic makes you as unyielding as the mountains, and subtly drives you to hoard precious gems and metals.
+
+#### Stoneblood Spells
+You learn certain spells at the sorcerer levels noted in the table below. They count as sorcerer spells for you, but they don't count against your number of Spells Known.
+
+Sorcerer Level|	Spell
+:-:|:-:
+1st|	earth tremor, sanctuary
+3rd|	earthen grasp, spike growth
+5th|	erupting earth, meld into stone
+7th|	stone shape, summon elemental (earth)
+9th|	steel wind strike, wall of stone
+
+#### Heart of Earth
+Beginning at 1st level, you can use a bonus action to take on an earthen Elemental Form, encasing your body in elemental stone and granting you the following benefits for 1 minute:
+
+- You gain temporary hit points equal to your sorcerer level.
+- If you are not wearing any armor or wielding a shield, your Armor Class becomes 13 + your Constitution modifier.
+- Your unarmed strikes deal 1d6 bludgeoning damage. If you strike with two free hands, the d6 becomes a d8.
+- You use your Constitution modifier, in place of Strength, for the attack and damage rolls of your unarmed strikes.
+- You can transform in this way a number of times equal to your Charisma modifier (minimum of once), and you regain all of your expended uses when you finish a long rest.
+
+You can also speak, read, and write Terran, the language of the Elemental Plane of Earth. By understanding Terran you can communicate with any creature that speaks Primordial, or one of its four dialects; Aquan, Auran, Ignan, and Terran.
+
+\column
+
+#### Crushing Blow
+Upon reaching 6th level, you can empower your strikes with crushing force. When you hit a target with an unarmed strike or melee weapon attack, you can expend a spell slot to deal extra magical bludgeoning damage to the target.
+
+This damage is 2d6 for a 1st-level slot, plus 1d6 for each higher level of the slot you expend, up to a maximum of 6d6.
+
+#### Extra Attack
+Starting at 6th level, you can attack twice, instead of once, whenever you take the Attack action. Moreover, you can cast one of your sorcerer cantrips in place of one of those attacks.
+
+Also, while you are in your earthen Elemental Form, your unarmed strikes count as magical for the sake of overcoming resistances and immunities to non-magical attacks.
+
+#### Aegis of Stone
+You can ward yourself and others with the magic of elemental earth. Starting at 14th level, you can use your bonus action to expend 2 Sorcery Points and ward a creature you touch, with an Aegis of Stone. The target gains resistance to non-magical bludgeoning, piercing, and slashing damage for 1 minute.
+
+As a reaction when a creature, other then you, that is warded by your Aegis is hit by an attack, you can teleport to an unoccupied space within 5 feet of the attacker and make one melee attack against it. You can only teleport in this way if both you and the attacker are on the same surface.
+
+Only one creature can be under the effect your Aegis, and warding another causes the previous Aegis to dispel.
+
+#### Primordial Bulwark
+Your stalwart soul has become an unbreakable diamond, making you more elemental than mortal. Starting at 18th level, you gain the following benefits:
+
+- you no longer need to eat, drink, or sleep.
+- you gain resistance to all bludgeoning, piercing, and slashing damage.
+- Your unarmed strikes deal 1d10 bludgeoning damage.
+
+In addition, you can have up to three creatures of your choice under the effects of your Aegis of Stone at one time.
+
+
+{{imageMaskEdge3,--offset:45%,--rotation:0
+  ![](https://www.gmbinder.com/images/ZLQz3Xo.jpg){height:50%,top:900px}
+}}
+<!-- Use --offset to shift the mask away from page center (can use cm instead of %)
+     Use --rotation to set rotation angle in degrees. -->
+
+
+
+{{pageNumber,auto}}
+\page
+### Storm Sorcery
+Your innate magic comes from the power of elemental air. Many with this power can trace their magic back to a near-death experience caused by the Great Rain, but perhaps you were born during a howling gale so powerful that folk still tell stories of it, or your lineage might include the influence of potent air creatures such as vaati or djinn. Whatever the case, the magic of the storm permeates your being.
+
+Storm sorcerers are invaluable members of a ship's crew. Their magic allows them to exert control over wind and weather in their immediate area. Their abilities also prove useful in repelling attacks by sahuagin, pirates, and other waterborne threats.
+
+#### Wind Speaker
+The arcane magic you command is infused with elemental air. You can speak, read, and write Primordial. Knowing this language allows you to understand and be understood by those who speak its dialects: Aquan, Auran, Ignan, and Terran.
+
+#### Storm magic
+You learn additional spells when you reach certain levels in this class, as shown on the Radiation Spells table. Each of these spells counts as a sorcerer spell for you, but it doesn’t count against the number of sorcerer spells you know.
+
+##### Storm Spells
+
+Sorcerer Level| Spells
+|:---:|:---:
+1st| *Fog Cloud, Thunderwave*
+3rd| *Shatter*, *Gust of Wind*
+5th| *Call Lightning, Sleet Storm*
+7th| *Storm Sphere, Vitriolic Sphere*
+9th| *Control Winds*, *Maelstrom*
+
+{{imageMaskCorner23,--offsetX:-50%,--offsetY:-60%,--rotation:0
+  ![](https://www.gmbinder.com/images/3a9aXlw.jpg){height:50%,right:150px,bottom:-80px}
+}}
+<!-- Use --offsetX to shift the mask left or right (can use cm instead of %)
+     Use --offsetY to shift the mask up or down
+     Use --rotation to set rotation angle in degrees. -->
+
+
+
+\column
+
+#### Tempestuous Magic
+Starting at 1st level, you can use a bonus action on your turn to cause whirling gusts of elemental air to briefly surround you, immediately before or after you cast a spell of 1st level or higher. Doing so allows you to fly up to 10 feet without provoking opportunity attacks.
+
+#### Heart of the Storm
+At 6th level, you gain resistance to lightning and thunder damage. In addition, whenever you start casting a spell of 1st level or higher that deals lightning or thunder damage, stormy magic erupts from you. This eruption causes creatures of your choice that you can see within 10 feet of you to take lightning or thunder damage (choose each time this ability activates) equal to half your sorcerer level.
+
+#### Storm Guide
+At 6th level, you gain the ability to subtly control the weather around you.
+
+If it is raining, you can use an action to cause the rain to stop falling in a 20-foot-radius sphere centered on you. You can end this effect as a bonus action.
+
+If it is windy, you can use a bonus action each round to choose the direction that the wind blows in a 100-foot-radius sphere centered on you. The wind blows in that direction until the end of your next turn. This feature doesn't alter the speed of the wind.
+
+#### Storm's Fury
+Starting at 14th level, when you are hit by a melee attack, you can use your reaction to deal lightning damage to the attacker. The damage equals your sorcerer level. The attacker must also make a Strength saving throw against your sorcerer spell save DC. On a failed save, the attacker is pushed in a straight line up to 20 feet away from you.
+
+#### Wind Soul
+At 18th level, you gain immunity to lightning and thunder damage.
+
+You also gain a magical flying speed of 60 feet. As an action, you can reduce your flying speed to 30 feet for 1 hour and choose a number of creatures within 30 feet of you equal to 3 + your Charisma modifier. The chosen creatures gain a magical flying speed of 30 feet for 1 hour. Once you reduce your flying speed in this way, you can't do so again until you finish a short or long rest.
+{{pageNumber,auto}}
+\page
+
+### Toon Magic
+
+The demiplane of toons, called Toontown, is an oft-overlooked nook on the far edge of the multiverse inhabited by creatures of ink and magic that defy logic. In Toontown, the laws of physics take a backseat to comic timing and various hijinks; it is a plane that despises seriousness. You are descended from a denizen of Toontown (likely a copyrighted one) or infected by the zany magic that suffuses that plane. As such, your eyes are larger than normal and your sense of humor lets you bend the rigid restrictions of space and time, provided that you leave a trail of slapstick jokes in your wake.
+
+
+
+#### Madcap magic
+Your connection to the demiplane of toons lets you cast wacky spells for comedic effect. You learn the vicious mockery cantrip, which doesn’t count against your total number of cantrips known.
+
+
+You also learn additional, randomly-generated spells. Whenever you finish a short or long rest, you
+can roll 1d6 on the 1st-level spells column of the Madcap Spells table.
+
+You learn the corresponding spell until you use this ability to roll for spells again.
+Spells rolled on this table count as sorcerer spells for you and don’t count against your total number of spells known.
+When you gain sorcerer spells of 2nd level or higher, you roll a d6 for each level of spells you know, up to a maximum of 5d6. You can assign each d6 to a level of spells on the Madcap Spells table, learning all of the corresponding spells until you use this ability to roll for spells again.
+
+Beginning at 2nd level, you can spend 1 sorcery point as an action to reroll your Madcap Spells.
+{{
+##### Madcap Spells
+
+D6 | 1st-level| 2nd-level| 3rd-level| 4th-level| 5thlevel
+:-|:--------|:--------|:--------|:----|:-
+1 |*charm person*| *defenestration*| *counterspell*|*compulsion*| *animate objects*|
+2 |*disguise self*| *enlarge/reduce*| *fly confusion*| *arcane hand*|
+3 |*expeditious retreat*| *knock*| *haste*| *distory gravity*| *mislead*|
+4 |*grease*| *levitate*| *major image*| *polymorph*| *passwall*|
+5 |*hideous laughter*| *suggestion*| *water walk*| *freedom of movement*| *seeming*|
+6 |*psychedelics*| *Tyra’s coerced karaoke*| *Benign dismemberment*| *Mandy’s marvelous dress*| *wall of force* 
+}}
+#### Zany limbs
+At 1st level, you have elastic, fantastic limbs. You can stretch your arms and legs up to 5 feet beyond their
+normal length, allowing you to interact with distant objects or creatures, and your melee weapon attacks have the Reach property. Additionally, you can ignore the Heavy property of weapons.
+
+\column
+
+#### Comic timing
+By 6th level, your wacky antics ensure your safety. When a hostile creature you can see within 5 feet of
+you makes an attack, you can use your reaction and spend 1 sorcery point to use one of the following
+abilities:
+- You prank the attacker an instant before it attacks, such as by throwing a pie in its face, imposing disadvantage on the attack.
+- If the attacker hits, the target is magically squashed flat, deflated like a balloon, momentarily chopped in half, or burned to a crisp. As a result, the target has resistance to this damage, and is knocked prone.
+
+- If the attacker misses, they slip on a well-placed banana peel and fall prone.
+
+Beginning at 14th level, you can use this ability when a hostile creature within 30 feet of you attacks. You teleport to an unoccupied space within 5 feet of the target as a part of your reaction.
+
+#### Off-screen teleportation
+By 14th level, you can exploit a well-known law of toons which states that anyone you can't see basically teleports to where they need to be. When you are in a location no other creature can see you, or when you take the Hide action on your turn, you can teleport up to 120 feet to an unoccupied space you can see as a bonus action. Your destination must be a location no other creature can see, but can include obvious and easy to access locations, such as behind another creature's back, inside a barrel, or just around a corner.
+
+#### Two-dimensional
+Starting at 18th level, as a bonus action, you can fully embrace your cartoonish influences and become
+perfectly flat. You can revert to three-dimensions as a bonus action. In your two-dimensional form, the laws of reality are even looser for you, granting you the following benefits:
+- Ranged attacks made against you have disadvantage.
+- You have advantage on Dexterity saving throws.
+- You can increase or decrease your size (as per the enlarge/reduce spell) as a bonus action.
+- When you fall, you descend at a rate of 60 feet per round and take no damage from falling, as you instead glide like a sheet of paper.
+- You can fit through passageways as narrow as 1/2-inch across.
+{{pageNumber,auto}}
+\page
+### Vampiric Soul
+The dark magic of undeath is a path to great power for those who are willing to pay the price. Many of the most powerful undead creatures will grant their followers a portion of their dark sorcery in return for their service. Evil vampires, long dead mummy lords, and sinister liches have all been known to curse their most loyal followers with sorcerous abilities.
+#### Vampiric Spells
+You learn certain spells at the sorcerer levels noted in the table below. They count as sorcerer spells for you, but they don't count against your number of Spells Known.
+
+When you gain a sorcerer level, you can replace one spell from this feature with a necromancy or enchantment spell, of the same level from the sorcerer, warlock, or wizard spell list.
+
+Sorcerer Level|	Spell
+:-:|:-:
+1st|	command, inflict wounds
+3rd|	suggestion, spider climb
+5th|	gaseous form, vampiric touch
+7th|	blight, greater invisibility
+9th|	dominate person, enervation 
+
+#### Blood Magic
+You have been gifted an affinity for sorcerous blood magic. Starting at 1st level, you can expend your hit points in place of spell slots by spending four hit points for each level of the spell slot you would have spent. Both your current hit points and maximum hit points are reduced by the number of hit points you spend. This hit point reduction cannot be lessened in any way, and the reduction to your hit point maximum lasts until the end of your next long rest.
+
+Moreover, when you slay a creature with a sorcerer spell of 1st-level or higher, you gain temporary hit points equal to twice the level of the spell slot you expended to cast the spell. Temporary hit points you gain from this feature can be used in place of your hit points for your Blood Magic spellcasting.
+
+#### Undead Resilience
+The dark magic that infests your soul has made you resilient. At 6th level, you gain resistance to both necrotic and poison damage, and you have advantage on saves to resist poisons.
+
+Also, when you have temporary hit points from your Blood Magic feature, you gain resistance to bludgeoning, piercing, and slashing damage from non-magical, non-silvered, attacks.
+
+\column
+
+#### Misty Escape
+Starting at 14th level, your sinister power allows you to cling to life when others would fall. As a reaction to when you are reduced to 0 hit points, but not killed outright, you can turn into a cloud of swirling mist, and reappear with 1 hit point in an unoccupied space within 30 feet.
+
+Once you use this reaction you must finish a short or long rest before you can use it again. When you have no uses remaining, you can spend 5 Sorcery Points to use it again.
+
+#### Vampiric Mastery
+You have mastered the sinister blood magic within your soul. Beginning at 18th level, whenever you deal necrotic damage to a creature with a sorcerer spell of 1st-level or higher, you gain temporary hit points equal to half the necrotic damage dealt. These temporary hit points can also be used in place
+of your hit points for your Blood Magic Spellcasting.
+
+{{note
+##### Optional Rule: True Vampirism
+Vampires are are one of the most iconic monsters, but their vampiric power comes at significant cost. If you'd like to play as a true vampire, you gain all of the additional abilities listed below when you take your 1st level as a Vampiric Soul sorcerer.
+
+**Deathless Nature.** You don't need to breathe.
+
+**Spider Climb.** You gain a climbing speed equal to your walking speed. Starting at 3rd level, you can move across vertical surfaces, including upside down on ceilings, while leaving your hands free.
+
+**Superior Darkvision.** you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, you can only see shades of gray.
+
+**Sunlight Sensitivity.** You have disadvantage on attack rolls and Wisdom (Perception) checks that rely on sight when you, the target of the attack, or whatever you are trying to see is in direct sunlight.
+}}
+
+{{imageMaskCorner28,--offsetX:55%,--offsetY:-59%,--rotation:0
+  ![](https://www.gmbinder.com/images/vUn0cIr.jpg){height:50%,left:300px,top:650px}
+}}
+{{pageNumber,auto}}
+\page
+### Voidwielder
+Before the primordial gods formed the world, there was only the Void. This formless, lightless, writhing chaos desires that all creation should return to it. Voidwielders are sorcerers who wield the entropic power of the Void, working to undo the very acts of creation. They are often nihilistic in their outlook on life, resigned to the fact that all will eventually dissolve into the nothingness of the great primordial Void.
+
+#### Entropic Magic
+You learn certain spells at the sorcerer levels noted in the table below. They count as sorcerer spells for you, but they don't count against your number of Spells Known.
+
+
+Sorcerer Level|	Spell
+:-:|:-:
+1st|	inflict wounds, ray of sickness
+3rd| darkness, ray of enfeeblement
+5th|	counterspell, dispel magic
+7th|	black tentacles, sickening radiance
+9th|	antilife shell, maelstrom
+
+{{imageMaskCorner23,--offsetX:-51%,--offsetY:-40%,--rotation:0
+  ![](https://www.gmbinder.com/images/U66LYxI.jpg){height:60%,left:-300px}
+}}
+
+\column
+
+#### Null Magic
+
+At 1st level, your spells begin to unmake the material fabric of your foes. Whenever you damage a creature with an Entropic Sorcery Spell, it cannot regain hit points or gain temporary hit points until the beginning of your next turn.
+
+#### Entropic Touch
+Starting at 1st level, you can channel your sorcerous power to annihilate objects with a touch. As an action, you can expend 2 Sorcery Points and touch a Small or smaller non-magical object that is not being worn or carried, instantly reducing it to a pile of dust.
+
+At certain Sorcerer levels, you are able to destroy
+objects of greater size with an Entropic Touch:
+
+at 6th level (Medium), at 14th level (Large),
+and finally at 17th level (Huge).
+
+#### Negate Spell
+Beginning at 6th level, you can draw upon your connection to the primordial Void to unmake magic. You can cast *counterspell* and *dispel magic* at 3rd-level without spending Sorcery Points a total number of times equal to your Charisma modifier (a minimum of once).
+
+You regain all uses of this feature when you finish a long rest.
+
+
+#### Ray of Annihilation
+Starting at 14th level, the overwhelming power you draw from the Void allows you to unmake creation. You learn the *disintegrate* spell. It doesn't count against your Spells Known and it cannot be replaced.
+
+You can cast *disintegrate* without expending a spell slot or material components. You can cast *disintegrate* in this way a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a long rest.
+
+#### Disciple of the Void
+At 18th level, as a bonus action, you can spend 1 Sorcery Point to partially discorporate until the end of your current turn. While you are in this state, you gain the following benefits:
+
+- You can cause any spells you cast to deal force damage.
+- You can move through solid objects and creatures as if they were difficult terrain. If you end your turn inside a solid object or creature you are instantly shunted to the nearest unoccupied space, taking 1d10 force damage for every 5 feet you were forced to travel.
+- If you pass through a creature, you can force it to make a Constitution saving throw against your Spell save DC or take 1d10 force damage. A creature can only be forced to make this Constitution saving throw once per turn.
+
+{{pageNumber,auto}}
+\page
+### Waveborn
+Within you dwells a drop of pure elemental water, connecting you to the waters of the deepest oceans, babbling brooks, and frozen lakes. The gentle lapping of waves, the spray of the sea foam on the wind, the crushing darkness of the ocean depths; all these call you. Your watery magic can be as refreshing as the rains, or as destructive as great waves and flood waters.
+
+#### Curse of the Depths
+Your magic carries a frozen curse. Starting at 1st level, when you deal cold damage to a creature with a spell, you can use your bonus action to cover a single target of that spell in frost, reducing its speed by a number of feet equal to five times your Charisma modifier (minimum of 5 feet).
+
+This reduction lasts until the start of your next turn, unless a creature uses an action to scrape the frost off the target.
+
+#### Heart of Water
+The droplet of elemental water within your soul has altered your body. At 1st level, you gain the features detailed below:
+
+- You are resistant to cold damage.
+- You gain darkvision out to radius of 60-feet.
+- You gain a swimming speed equal to your walking speed, and you can breathe both air and water.
+- You can speak, read, and write Aquan, the language of the Elemental Plane of Water. By understanding Aquan you can communicate with creatures that speak Primordial, or its four dialects; Aquan, Auran, Ignan, and Terran.
+
+#### Waveborn Magic
+You learn certain spells at the sorcerer levels noted in the table below. They count as sorcerer spells for you, but they don't count against your number of Spells Known.
+
+Whenever you gain a sorcerer level, you can replace one spell from this feature with another spell of your choice of the same level, that deals only cold damage, from any spell list.
+
+Sorcerer Level|	Spell
+:-:|:-:
+1st|	*armor of frost, fog cloud*
+3rd|	*hold person, misty step*
+5th|	*sleet storm, tidal wave* 
+7th|	*summon elemental (water), watery sphere*
+9th|	*cone of cold, maelstrom*
+
+\column
+
+#### Watery Resilience
+Beginning at 6th level, you can temporarily take on a watery form to avoid harm. As a reaction when you are hit by an attack, you can grant yourself resistance to any bludgeoning, piercing, or slashing damage from the attack and move up to your full speed without provoking opportunity attacks.
+
+You can use this reaction a number of times equal to your Charisma modifier (minimum of once), and you regain all uses when you finish a long rest. If you have no uses left, you can spend a spell slot of 1st-level or higher to use it again.
+
+#### Shifting Form
+The elemental water within your soul allows you to move as
+a flowing liquid. At 14th level, you gain the following benefits:
+
+- You are resistant to damage from opportunity attacks.
+- You can move through the space of an enemy creature but you cannot willingly end your movement there.
+- You can squeeze through gaps as narrow as 1 inch.
+- When you are underwater or using your swimming speed, you can take the Dash action as a bonus action.
+- As a bonus action, your body can extrude (or retract) a thin watery tentacle up to 10 feet long. You can use it to perform simple tasks, but it cannot attack, activate items, manipulate complex tools, or carry more than 10 pounds.
+Primordial Deluge
+
+Your watery soul has become a great sea, making you more elemental then mortal. Starting at 18th level, you don't need to eat, drink, or sleep, and you are immune to cold damage.
+
+Also, as long as you are not incapacitated, when you are hit by an attack that is a critical hit, you can absorb the blow like flowing water, turning a critical hit into a normal hit.
+
+{{imageMaskCorner28,--offsetX:50%,--offsetY:-72%,--rotation:0
+  ![](https://www.gmbinder.com/images/ybIYHOY.jpg){height:60%,left:210px,top:680px}
+}}
+
+
+{{pageNumber,auto}}
+\page
+### Wild Magic
+Your innate magic comes from the wild forces of chaos that underlie the order of creation. You might have endured exposure to some form of raw magic, perhaps through a planar portal leading to Limbo, the Elemental Planes, or the mysterious Far Realm. Perhaps you were blessed by a powerful fey creature or marked by a demon. Or your magic could be a fluke of your birth, with no apparent cause or reason. However it came to be, this chaotic magic churns within you, waiting for any outlet.
+
+#### Wild Magic Surge
+Starting when you choose this origin at 1st level, your spellcasting can unleash surges of untamed magic. Immediately after you cast a sorcerer spell of 1st level or higher, you roll a d20. If you roll a number equal or lower than the spell's level, roll on the [Wild Magic Surge table](https://homebrewery.naturalcrit.com/share/MSnJI-ylJsSZ) to create a random magical effect.
+
+
+#### Wild magic
+You learn additional spells when you reach certain levels in this class, as shown on the Wild Magic Spells table. Each of these spells counts as a sorcerer spell for you, but it doesn’t count against the number of sorcerer spells you know.
+
+##### Wild magic Spells
+
+Sorcerer Level| Spells
+|:---:|:---:
+1st| *Chaos Bolt, chromatic orb*
+3rd| *Hangover*, *Fortune's Favor*
+5th| *Blink, Fireball*
+7th| *Gravity Sinkhole, Polymorph*
+9th| *Chaos Armor*, *Creation*
+
+
+\column
+
+#### Tides of Chaos
+Starting at 1st level, you can manipulate the forces of chance and chaos to gain advantage on one attack roll, ability check, or saving throw. Once you do so, you must finish a long rest before you can use this feature again.
+
+Any time before you regain the use of this feature, the DM can have you roll on the Wild Magic Surge table immediately after you cast a sorcerer spell of 1st level or higher. You then regain the use of this feature.
+
+#### Bend Luck
+Starting at 6th level, you have the ability to twist fate using your wild magic. When another creature you can see makes an attack roll, an ability check, or a saving throw, you can use your reaction and spend 2 sorcery points to roll 1d4 and apply the number rolled as a bonus or penalty (your choice) to the creature's roll. You can do so after the creature rolls but before any effects of the roll occur.
+
+#### Controlled Chaos
+At 14th level, you gain a modicum of control over the surges of your wild magic. Whenever you roll on the Wild Magic Surge table, you can roll twice and use either number.
+
+#### Spell Bombardment
+Beginning at 18th level, the harmful energy of your spells intensifies. When you roll damage for a spell and roll the highest number possible on any of the dice, choose those dice, roll it again and add that roll to the damage. You can use the feature only once per turn.
+
+
+{{imageMaskEdge3,--offset:25%,--rotation:-15
+  ![](https://i.imgur.com/tlEy7ax.png){height:130%,top:305px}
+}}

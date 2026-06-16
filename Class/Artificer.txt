@@ -1,0 +1,2972 @@
+```metadata
+title: Artificer
+description: ''
+tags: []
+renderer: V3
+theme: 5ePHB
+
+```
+
+```css
+.page{
+	width  : 210mm;
+	height : 296.3mm;
+}
+
+css
+
+.page .columnWrapper {
+	height: 100%
+}
+
+.page .toc.wide {
+	columns: 1;
+	height: 100%;
+}
+
+.page .toc > ul > li {
+	font-weight:100;
+	margin-bottom:-2.1px;
+
+}
+
+.page .toc ul ul {
+	margin-left: 0;
+	font-weight: 50;
+	color: black;
+}
+
+
+
+
+
+
+
+```
+
+{{frontCover}}
+
+{{logo ![](/assets/naturalCritLogoRed.svg)}}
+
+# Artificer
+___
+
+
+![background image](https://i.imgur.com/t5vP7dH.jpeg){position:absolute,bottom:0,left:0,height:100%}
+
+\page
+{{toc,wide
+
+- ### [{{ Artificer}}{{ 3}}](#p3)
+  -  [{{ Masters of Innovation}}{{ 3}}](#p3)
+  -  [{{ Fierce Rivalries}}{{ 3}}](#p3)
+  -  [{{ Creating an Artificer}}{{ 3}}](#p3)
+  -  [{{ Class Features}}{{ 4}}](#p4)
+  -  [{{ Infusions}}{{ 5}}](#p5)
+  -  [{{ Specialization}}{{ 5}}](#p5)
+  -  [{{ Spellcasting}}{{ 5}}](#p5)
+  -  [{{ Ability Score Improvement}}{{ 6}}](#p6)
+  -  [{{ Adjustable Infusions}}{{ 6}}](#p6)
+  -  [{{ Tool Expertise}}{{ 6}}](#p6)
+  -  [{{ Flash of Genius}}{{ 6}}](#p6)
+  -  [{{ Magic Item Mastery}}{{ 6}}](#p6)
+  -  [{{ Arcane Breakthrough}}{{ 6}}](#p6)
+  -  [{{ Soul of Artifice}}{{ 6}}](#p6)
+- ### [{{ Specialization}}{{ 7}}](#p7)
+  -  [{{ Aeronaut}}{{ 7}}](#p7)
+  -  [{{ Agent}}{{ 8}}](#p8)
+  -  [{{ Alchemist}}{{ 9}}](#p9)
+  -  [{{ Archivist}}{{ 11}}](#p11)
+  -  [{{ Armorer}}{{ 12}}](#p12)
+  -  [{{ Augmenter}}{{ 13}}](#p13)
+  -  [{{ Battle Smith}}{{ 14}}](#p14)
+  -  [{{ Biomancer}}{{ 15}}](#p15)
+  -  [{{ Cartographer}}{{ 17}}](#p17)
+  -  [{{ Chronothief}}{{ 18}}](#p18)
+  -  [{{ Composer}}{{ 19}}](#p19)
+  -  [{{ The Cryptozoologist}}{{ 20}}](#p20)
+  -  [{{ Dungeoneer}}{{ 22}}](#p22)
+  -  [{{ Enhanced}}{{ 23}}](#p23)
+  -  [{{ Forgewright}}{{ 24}}](#p24)
+  -  [{{ Gemstone Channeler}}{{ 25}}](#p25)
+  -  [{{ Machinist}}{{ 26}}](#p26)
+  -  [{{ Mechanic}}{{ 27}}](#p27)
+  -  [{{ Miner}}{{ 29}}](#p29)
+  -  [{{ Nuclear Engineer}}{{ 31}}](#p31)
+  -  [{{ Pilot}}{{ 32}}](#p32)
+  -  [{{ Prosthetist}}{{ 34}}](#p34)
+  -  [{{ Puppeteer}}{{ 35}}](#p35)
+  -  [{{ Reanimator}}{{ 36}}](#p36)
+  -  [{{ Venomist}}{{ 37}}](#p37)
+  -  [{{ Wandslinger}}{{ 39}}](#p39)
+  - ### [{{ Artificer Infusions}}{{ 40}}](#p40)
+  - ### [{{ Prosthesis System}}{{ 45}}](#p45)
+}}
+
+
+
+
+
+
+
+
+\page
+## Artificer
+A graying gnome hunched over
+his workbench, carefully adjusting
+the clockwork mechanism that would
+power his creation. Before him laid an
+automaton of intricate iron gears within
+a suit of plate armor, built to resemble a
+large gnome. As the tiny inventor affixed
+his signature mithril mustache to the face
+plate, a jolt of electric-blue magic flashed
+from the automaton. With a sharp motion,
+the Steel Defender sat upright and awaited
+the first command of its creator.
+
+The goblin delicately made his way down
+the tunnel that he had booby-trapped with vials
+of noxious fumes and acids. This was the third time
+this year his clan had moved burrows to avoid being
+raided by adventuring parties, and the inventive goblin
+was determined to protect the newest home burrow. He
+was confident that this time he would stop the adventurers that always seemed to find their way to his home.
+
+A young human woman, wearing a leather apron over her fine clothes, flexed the steel gauntlet she had just enchanted. As she closed her fist the gauntlet let forth a blinding arc of lavender lightning, destroying the table on the opposite side of the room. As the dust settled, she affixed the gauntlet to her now complete suit of Arcane Armor. When she revealed this, her latest creation, to her father, he would have no choice but to finally show her his approval.
+
+### Masters of Innovation
+Relentless in their pursuit of innovation, artificers are defined by their insatiable curiosity and willingness to push the limits of arcane invention, even at great risk to themselves. For most artificers, they stake their personal value on the fruits of their experimentation, and they see mastering the basics of their chosen craft as the first step toward true greatness.
+
+Deep down, the goal of every artificer is the discovery of a new groundbreaking invention, magical or otherwise. Some artificers are engineers, students of science and warfare, who bring their considerable intellect to bear to construct deadly weapons augmented with magic. Others view themselves as artists, combining the rigid formulas of arcane magic with the artisanal touch of their own specialized tools and spells.
+
+\column
+
+### Fierce Rivalries
+Almost every artificer has a rival, most often another artificer who they seek to outdo at every turn. These intense rivalries are the sole motivation of some artificers, and outdoing their rival is more valuable than any fame or riches they could gain from their discoveries. Many are willing to risk everything they have to achieve a new breakthrough before their rival.
+
+By the same token, artificers with similar philosophies and aims often band together in loose artisan's guilds. They share insights and discoveries, hoping to keep ahead of rival guilds by pooling resources and working as a team. However, even when working together, most artificers are protective of any insights they think could lead to a groundbreaking discovery.
+
+
+### Creating an Artificer 
+When creating an artificer, think about their background and drive for adventure. Who is their rival and what event started their feud? What is your artificer's relationship with the artisan who taught them the basics of their craft? Are they part of a guild? What role do artificers play in the campaign world? Do artificer guilds exist in all the major cities or are you the first person to pursue the path of arcane invention?
+
+Most importantly, what does your artifice look like? Not all arcane inventors work with gears and grease. Is your artificer the student of a hag who uses weird magick to imbue totems of bone with arcane energy? Or, are you an enchanter who carves elvish runes into elaborate wooden wands and staffs?
+#### Quick Build 
+You can make an artificer quickly by using these suggestions. First, make Intelligence your highest ability score, followed by Dexterity. Second, choose the artisan background. Third, choose the enhanced defense and repeating shot Infusions.
+{{imageMaskEdge2,--offset:45%,--rotation:0
+  ![](https://i.imgur.com/7yTW5nc.png){height:80%,top:700px}
+}}
+
+
+
+{{pageNumber,auto}}
+\page
+
+{{imageMaskEdge5,--offset:5%,--rotation:90
+  ![](https://imgur.com/GuRlFSR.jpg){height:100%}
+}}
+
+
+<img src='https://i.imgur.com/Vpb7GJy.png'
+style='position:absolute;top:-10px;left:-108px;transform:scaleX(1); width:580px'/>
+
+{{artist,position:relative,top:420px,left:30px,margin-bottom:-30px
+##### Galliard
+}}
+  
+\column
+  
+
+
+### Class Features
+As an Artificer, you gain the following class features
+
+#### Hit Points
+
+::**Hit Dice:** 1d8 per Artificer level
+::**Hit Points at 1st Level:** 8 + your Constitution modifier
+::**Hit Points at Higher Levels:** 1d8 (or 5) + your Constitution modifier per Artificer level after 1st
+
+:
+#### Proficiencies
+
+**Armor:** Light armor, medium armor, shields
+<br>**Weapons:** Simple Weapons, hand crossbows
+<br>**Tools:** Tinker's tools, one type of artisan's tools.
+<br>**Saving Throws:** Constitution, Intelligence
+<br>**Skills:** Choose two from Arcana, History, Insight, Investigation, Medicine, Nature, Sleight of Hand.
+
+#### Equipment
+You start with the following equipment, in addition to the equipment granted by your background:
+
+- a simple weapon and a set of artisan's tools of your choice
+- *(a)* studded leather or *(b)* scale mail
+- A light crossbow and 20 bolts
+- Tinker's tools and a dungeoneer's pack
+::
+
+{{classTable,frame,decoration,wide
+##### The Artificer
+| Level | Proficiency | Features     |Cantrip| Spells |--- Spell Slots Per Spell Level ---|||||Infusions|
+|      ^| Bonus      ^|             ^|Known | Known |  1st  |  2nd  |  3rd  |  4th  |  5th  |Known |
+|:-----:|:-----------:|:-------------|:-:|:------:|:-----:|:-----:|:-----:|:-----:|:-----:|:-:
+|  1st  | +2 | Infusions, Specialization, Magical Tinker	    |—|   —    |   —   |   —   |   —   |   —   |   —   |2
+|  2nd  | +2 | Spellcasting   |2|   2    |   2   |   —   |   —   |   —   |   —   |3
+|  3rd  | +2 | Specialization Feature |2|   3    |   3   |   —   |   —   |   —   |   —   |3
+|  4th  | +2 | Ability Score Improvement  |3|   3    |   3   |   —   |   —   |   —   |   —   |3
+|  5th  | +3 | Specialization Feature |3|   4    |   4   |   2   |   —   |   —   |   —   |4
+|  6th  | +3 | Adjustable Infusions, Tool Expertise|3|   4    |   4   |   2   |   —   |   —   |   —   |4
+|  7th  | +3 | Flash of Genius|3|   5    |   4   |   3   |   —   |   —   |   —   |4
+|  8th  | +3 | Ability Score Improvement  |3|   5    |   4   |   3   |   —   |   —   |   —   |5
+|  9th  | +4 | Specialization Feature|3|   6    |   4   |   3   |   2   |   —   |   —   |5
+| 10th  | +4 | Magic Item Mastery (4) |4|   6    |   4   |   3   |   2   |   —   |   —   |5
+| 11th  | +4 | —  |4|   7    |   4   |   3   |   3   |   —   |   —   |6
+| 12th  | +4 | Ability Score Improvement |4|   7    |   4   |   3   |   3   |   —   |   —   |6
+| 13th  | +5 | —    |4|   8    |   4   |   3   |   3   |   1   |   —   |6
+| 14th  | +5 | Arcane Breakthrough, Magic Item Mastery (5)|4|   8    |   4   |   3   |   3   |   1   |   —   |7
+| 15th  | +5 | Specialization Feature |4|   9    |   4   |   3   |   3   |   2   |   —   |7
+| 16th  | +5 | Ability Score Improvement|4|   9    |   4   |   3   |   3   |   2   |   —   |7
+| 17th  | +6 | ─	 |4|   10   |   4   |   3   |   3   |   3   |   1   |8
+| 18th  | +6 | Magic Item Mastery (6) |4|   10   |   4   |   3   |   3   |   3   |   1   |8
+| 19th  | +6 | Ability Score Improvement|4|   11   |   4   |   3   |   3   |   3   |   2   |8
+| 20th  | +6 | Soul of Artifice   |4|   11   |   4   |   3   |   3   |   3   |   2   |8
+}}
+
+\column
+
+{{note 
+##### Optional Rule: Firearm Proficiency
+The secrets of gunpowder weapons have been discovered in various corners of the D&D multiverse. If your Dungeon Master uses the rules on firearms in the Dungeon Master's Guide and your artificer has been exposed to the operation of such weapons, your artificer is proficient with them.
+}}
+
+{{pageNumber,auto}}
+\page
+
+### Infusions
+You have learned to imbue objects with your signature brand of magic in order to produce wondrous items. At 1st level, you learn two Infusions of your choice from the list at the end of this class. The Infusions Known column of the Artificer table shows when you learn additional Infusions. You cannot learn an Infusion more then once unless specified.
+
+During each long rest, you can spend 1 hour using tinker's tools to replace one Infusion you know with another Infusion of your choice, so long as you meet all of its prerequisites.
+
+#### Infusing an Object
+At the end of a long rest, you can touch a non-magical object with tinker's tools to imbue it with one Infusion you know.
+
+If the Infusion requires attunement, you can attune to the object the instant you infuse it, or you can forgo attunement so another creature can attune to it. To attune to the infused item later, you must follow the normal attunement process.
+
+Your Infusions remain in items indefinitely. If you die, your Infusions vanish from the items after a number of days have passed equal to your Intelligence modifier (minimum 1 day). Infusions vanish immediately if you replace your knowledge of an imbued Infusion by learning another Infusion.
+
+You can infuse multiple objects at the end of each long rest, up to one for each Infusion you know. Each Infusion can be in only one object at a time, and no object can bear more than one Infusion. If you transfer an Infusion to a new object, any previous instance of that Infusion immediately ends.
+
+#### Replicate Magic Item
+You can also use your Infusions to replicate magic items you have studied. During a long rest, you can spend 1 hour using tinker's tools to examine a magic item you touch. At the end of that long rest, you can replace one Infusion you know with the knowledge of this magic item. After which, you can infuse an object with the properties of that magic item, following all the rules for your other Infusions.
+
+You cannot use this feature to replicate magic items that are consumed after one use, such as scrolls and potions.
+
+You can use this feature to replicate any item of Common rarity. As you gain Artificer levels you can use this feature to replicate items of increasing rarity: Uncommon at 5th level, Rare at 11th level, and finally Very Rare items at 17th level.
+
+
+### Specialization
+At 1st level, choose one of the following Specializations that best represents the arcane research and inventions of your artificer.
+
+Your Specialization grants features at 1st level, and again when you reach 3rd, 5th, 9th, and 15th level in this class.
+
+\column
+
+
+### Spellcasting
+At 2nd level, you can use your tools and your signature brand of magic spell effects from objects and tools that you imbue with arcane power.
+
+#### Cantrips
+At 2nd level, you learn two cantrips of your choice from the artificer spell list. You learn an additional artificer cantrip of your choice when you reach 4th level and again at 10th level.
+
+#### Spell Slots
+The Artificer table shows how many spell slots you have to cast your spells of 1st-level and higher. To cast a spell, you must expend a slot equal to the spell’s level or higher. You regain all expended spell slots when you finish a long rest.
+For example, if you know the 1st-level spell magic missile and have a 1st-level and a 2nd-level spell slot available, you can cast magic missile using either spell slot.
+
+#### Spells Known of 1st-Level and Higher
+You know two 1st-level spells of your choice from the artificer spell list. The Spells Known column of the Artificer table shows when you learn more artificer spells of your choice. Each spell must be of a level for which you have spell slots. For example, when you reach 5th level in this class, you can learn one new artificer spell of either 1st or 2nd-level.
+When you gain a level in this class, you can replace one of the artificer spells you know with another artificer spell for which you have spell slots.
+
+#### Specialization Spells
+Each Specialization has a list of Specialization Spells that you learn at the artificer levels noted in its description. These Specialization Spells count as artificer spells for you, but they don't count against your total number of Spells Known.
+
+#### Spellcasting Ability
+Intelligence is the spellcasting ability for your artificer spells, as you use your knowledge of the arcane to cast spells. You use your Intelligence when a spell refers to your spellcasting ability, when you set a saving throw DC for an artificer spell, or when you make a spell attack roll for an artificer spell.
+
+**Spell save DC** = 8 + your proficiency bonus + your Intelligence modifier
+
+**Spell attack modifier** = your proficiency bonus + your Intelligence modifier
+
+
+#### Spellcasting Focus
+You must use either your tinker's tools, a set of artisan's tools with which you are proficient, or an item bearing one of your Infusions as the spellcasting focus for your artificer spells.
+
+While you have access to your tinker's tools, you know both the mending cantrip and identify, but they don't count against your number of Spells Known. You can use your tinker's tools to cast identify by spending a spell slot, or as a ritual spell.
+{{pageNumber,auto}}
+\page
+
+
+
+### Ability Score Improvement
+When you reach 4th level, 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
+
+### Adjustable Infusions
+Beginning at 6th level, you can alter your Infusions on the fly. Over the course of a short rest, you can use tinker's tools to replace one of your Infusions Known with another Infusion of your choice or to learn to replicate one magic item you can touch. At the end of the short rest, you can imbue your new Infusion in an object you touch. If it requires attunement, you can follow the normal rules for attuning to your Infusions.
+
+Once you replace one of your Infusions Known in this way you must finish a long rest before you can do so again.
+
+### Tool Expertise
+There are few who can match an artificer's innate talent with their tools of choice. Starting at 6th level, whenever you make an ability check that uses a tool with which you are proficient, you can add double your proficiency bonus to your roll.
+
+### Flash of Genius
+Beginning at 7th level, your analytical mind can offer potent insights and suggestions at a moment's notice. As a reaction, when you, or another creature you can see within 30 feet, makes an ability check or a saving throw, you can add your Intelligence modifier (minimum of +1) to the result of the roll.
+
+You can use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a long rest.
+
+\column
+
+### Magic Item Mastery
+You have gained a deep understanding of the inner workings of magic items, allowing you greater use of them. Starting at 10th level, you can attune to up to four magic items at once.
+
+The number of magic items you can attune to at one time increases at 14th level (5 items) and at 18th level (6 items).
+
+Finally, for you, crafting a magic item with a rarity of Common or Uncommon takes a quarter of the normal time and costs half the normal gold. When you reach 20th level, this bonus also applies to Rare and Very Rare magic items.
+
+### Arcane Breakthrough
+Beginning at 14th level, your expert understanding of magic items allows you to attune to any magic item regardless of any alignment, class, race, spell, or level requirements.
+
+
+### Soul of Artifice
+You imbue a spark of your own essence in the magic items you bear. At 20th level, you gain a +1 bonus to all saving throws for each magic item you are attuned to. In addition,
+if you are reduced to 0 hit points but not killed outright, you can choose to end your attunement to one magic item or Infusion, causing you to drop to 1 hit point instead of 0.
+
+Moreover, if you are killed, any object that bears one of your Infusions counts as part of your body for the purposes of any spell that would bring you back to life.
+
+{{imageMaskEdge3,--offset:25%,--rotation:0
+  ![](https://www.gmbinder.com/images/ELSVRqN.jpeg){height:50%,top:660px}
+}}
+
+
+
+
+{{pageNumber,auto}}
+\page
+## Specialization
+
+### Aeronaut
+The most dangerous Specialization an artificer can pursue is that of the Aeronaut. Constantly carrying out dangerous trials in their pursuit of mechanical flight, these pioneering minds will risk anything to complete the perfect flying machine. No setback or injury can dampen the spirits of a true Aeronaut.
+
+#### Tools of the Trade
+At 1st level, you gain proficiency with woodcarver's tools. If you are already proficient with woodcarver's tools, you instead gain proficiency with another set of artisan's tools of your choice.
+
+#### Aeronaut's Harness
+At 1st level, when you adopt this Specialization, you craft for yourself the signature safety harness of an Aeronaut. You learn the skyfall harness Infusion, it doesn't count against your total number of Infusions Known, and you can ignore its level prerequisite.
+
+However, until you reach 5th level in this class, only you can don the skyfall harness you create with this Infusion. For all other creatures, this Infusion fails to function.
+
+#### Aeronaut Spells
+At 2nd level, you learn certain spells at the artificer levels noted in the table below. These don't count against your total number of Spells Known and can't be switched upon gaining a level.
+
+Artificer Level | Spell
+:-:|:-:
+2nd|	fog cloud, zephyr strike
+5th|	dust devil, warding wind
+9th|	fly, wind wall
+13th|	death ward, summon elemental (air)
+17th|	control winds, steel wind strike
+
+\column
+
+#### Flying Machine
+
+By 3rd level, you have constructed the signature invention of an Aeronaut, the Flying Machine. Over the course of 1 hour, which can be during a short or long rest, you can use woodcarver's tools to craft a Flying Machine. Some Flying Machines include wings made of canvas, rotating blades, or even elemental engines.
+
+Your Flying Machine can only be used by you and can be attached to your *skyfall harness*. While you wear your Flying Machine, you can use it as a spellcasting focus for spells. It also grants you a flying speed of 20 feet, and you can hover.
+
+At certain artificer levels, this flying speed increases: at 5th level (30 feet), at 9th level (40 feet), and at 15th level (60 feet).
+
+You can only maintain one Flying Machine, and creating a second one causes the magic of any others to dispel.
+
+#### Airborne Assault
+At 5th level, your Flying Machine allows you to attack foes from
+unorthodox positions and catch enemies unaware.
+When you are flying at least 5 feet off the ground,
+your weapon attacks and artificer spell attacks
+deal an additional 1d8 bonus damage on hit.
+
+At 15th level, this bonus damage becomes 2d8.
+
+#### Aerial Maneuvers
+At 9th level, you have greatly improved the maneuverability
+of your Flying Machine. While you are flying
+at least 5 feet off the ground with your Flying
+Machine, you gain the following benefits:
+
+- You can use your bonus action to Dash.
+- You gain a bonus to your Dexterity ability checks and saving throws equal to your Intelligence modifier (minimum of +1).
+
+#### Master Aeronaut
+Starting 15th level, you have become a master Aeronaut. While
+you are flying at least 5 feet off the ground in your Flying Machine, and are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed, and only half damage if you fail.
+
+{{imageMaskEdge2,--offset:39%,--rotation:0
+  ![](https://www.gmbinder.com/images/HWyMBtt.jpg){height:55%,top:750px}
+}}
+<!-- Use --offset to shift the mask away from page center (can use cm instead of %)
+     Use --rotation to set rotation angle in degrees. -->
+
+{{pageNumber,auto}}
+\page
+### Agent
+While most Artificers use their wondrous intellect to innovate and create, those known as Agents focus their considerable minds on hunting down information, objects, and most often, other creatures. Rivaling the great hunters of the wilderness, these Artificers leverage their wondrous Infusions and magic abilities in the pursuit of their current quarry.  
+
+#### Seeking Sight
+At 1st level, you have crafted a wondrous creation to aid you in pursuing your foes. Over the course of 1 hour, which can be during a short or long rest, you can use a set of tools to craft a Tiny object to aid you. You can only have one such object.  
+When wearing this object, most often over one or both eyes, you can use a bonus action to place an arcane Mark on a creature or object that you can see within 60 feet. The Mark grants you the following benefits against the Marked target:
+- Whenever you make a Wisdom (Perception) or Wisdom (Survival) check related to it you gain a bonus to the roll equal to your Intelligence modifier (minimum of +1 ).  
+- You can add your Intelligence modifier to the damage rolls of weapon attacks, so long as that weapon bears one of your Infusions.  
+- You always know the direction and distance to the target so long as you are on the same plane of existence. 
+
+This Mark lasts for 1 hour, but ends early when you Mark another target or if you use your bonus action to end it. If the Mark is slain, you can use a reaction to Mark another target of your choice that you can see within range of this feature.  
+  
+You can use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses each time you finish a long rest. If you have no uses left, you can expend a spell slot to use this feature again.  
+#### Tools of the Trade
+At 1st level, you gain proficiency with martial weapons and smith's tools. If you are already proficient in smith's tools, you instead gain proficiency with a set of artisan's tools of your choice.  
+
+#### Agent Spells  
+By 2nd level you learn certain spells at the Artificer levels noted in the table below. These don't count against your total number of Spells Known and cannot be switched upon gaining a level  
+Artificer Level| Spell 
+:-:|:-:
+2nd | ensnaring strike, grease   
+5th | locate object, web 
+9th | clairvoyance, nondetection 
+13th | arcane eye, locate creature
+17th | hold monster, legend lore  
+
+\column
+
+#### Arcane Restraints
+
+At 3rd level, you use wondrous inventions to enhance your ability to hunt, track, and capture your target. Once per turn when you hit your Mark with a weapon bearing an Infusions, you can force the target to make a Strength saving throw. On a failed save, the target is restrained, and your Mark instantly ends.  
+  
+As an action, the target, or another creature within 5 feet of it, can make a Strength check against your Spell save DC, ending the restrained condition on your target on a success. This condition also ends if the target takes any damage.
+
+#### Enhanced Sight  
+
+Starting 5th level, your Seeking Sight grants you wondrous insights into the targets that you Mark. When you Mark a target you instantly learn one of the following characteristics of your choice:  
+- Its spellcasting modifier and the level of its highest spell 
+- Its creature type, alignment, and one language it speaks.  
+- Its civilization of origin and approximate age.
+
+
+#### Extra Attack
+Begining 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn. Moreover, you can cast one of your Artificer cantrips in place of one of these attacks. 
+
+#### Defensive Maneuvers 
+At 9th level, your analysis of your chosen foe allows you to better defend yourself against them. You gain the following new reactions:  
+- When your Mark targets you with an attack that you can see, you can use your reaction to add your Intelligence modifier to your Armor Class against that attack.  
+- If you Mark misses you with a melee attack you can use your reaction to force it to make a Dexterity saving throw against your Spell save DC. On a failed save, it is knocked prone or grappled by you (your choice). You must have a free hand in order to grapple the target with this feature.  
+#### Master Agent
+ 
+By 15th level, your wondrous mind allows you to predict the actions of your enemies. Your Mark has disadvantage on any attack roll that it makes against you, and it has disadvantage on the first saving throw you force it to make on each of your turns.
+{{pageNumber,auto}}
+\page
+### Alchemist
+Alchemy is a delicate art, tip the ratio of ingredients too far out of line and the effects could be disastrous. Alchemists are experts at combining exotic reagents to produce a variety of materials and effects. From healing droughts that can heal
+a wound in moments, to sticky goo that explodes when it comes in contact with flame. With the right reagents and a bit of luck, Alchemists use their wondrous Elixirs to give
+life to their allies and leech it away from their foes.
+
+
+#### Tools of the Trade
+At 1st level, you gain proficiency with alchemist's supplies. If you are already proficient with alchemist's supplies, you instead gain proficiency with another set of artisan's tools of your choice.
+
+Moreover, while you have access to alchemist's supplies, you can use your action to cast the acid splash cantrip, using Intelligence as your spellcasting modifier. When you gain the Spellcasting feature, acid splash counts as an artificer spell for you, but doesn't count against your total Cantrips Known.
+
+#### Homunculus
+At 1st level, your alchemical experimentation has yielded for you a loyal Homunculus Servant. You determine its appearance, but its appearance has no effect on its abilities. It is friendly to you and your companions, and it obeys your commands to the best of its ability. It uses the Homunculus Servant stat block, which uses your proficiency bonus (PB) in several places.
+
+In combat, your Homunculus acts during your turn. It can move and use its reaction on its own, but the only action it takes is the Dodge action unless you use a bonus action to command it to take an action from its stat block, or another action. If you are incapacitated, your Homunculus can take any action it chooses. If you die, your Homunculus turns to ash after a number of minutes equal to your artificer level.
+
+If your Homunculus has died within the last hour, you can touch it with alchemist's supplies and expend a spell slot of 1st-level or higher to return to life at its maximum hit points.
+
+At the end of a long rest, you can make a new Homunculus Servant using your alchemist's supplies. If you already have a Homunculus from this feature, the first one turns to ash.
+
+\column
+
+#### Alchemist Spell
+Starting 2nd level, you learn certain spells at the artificer levels noted in the table below. These don't count against your total number of Spells Known and can't be switched upon gaining a level.
+
+Artificer Level|	Spells
+:-:|:-:
+2nd|	healing word, inflict wounds
+5th|	acid arrow, flaming sphere
+9th|	gaseous form, mass healing word
+13th|	blight, death ward
+17th|	cloudkill, reincarnate
+
+{{monster,frame
+## Homunculus Servant
+*Tiny construct, neutral*
+___
+**Armor Class** :: 11 + PB (natural armor)
+**Hit Points**  :: 1 + two times your artificer level. 
+(the Homunculus Servant has a number of Hit Dice [d4s] equal to your artificer level)
+**Speed**       :: 20 ft., fly 30 ft.
+
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|4 (-3)|15 (+2)|12 (+1)|10 (+0)|10 (+0)|7 (-2)|
+___
+**Senses**               :: darkvision 60ft., passive Perception 10 +PB
+**Languages**            :: understands the languages you speak
+___
+***Arcane Conduit.*** When your Homunculus Servant is within 120 feet of you, it can deliver any spell you can cast that has a range of touch.
+:
+***Evasion.*** If the Homunculus makes a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.
+:
+***Might of the Master.*** You add your PB to any ability check or saving throw your Homunculus makes.
+
+### Actions
+***Atomic Death Throw.*** *Ranged or Melee Spell Attack:* your Intelligence modifier + PB to hit, range 30 ft., one target you can see. *Hit:* 2d4 + PB acid damage.
+:
+***Administer Elixir.*** The Homunculus can administer an Elixir they are carrying to any creature within 5 feet.
+}}
+
+
+{{pageNumber,auto}}
+\page
+
+#### Alchemical Elixirs
+By 3rd level, as your knowledge of alchemy has grown, you have learned to create potent Elixirs that mimic certain spell effects:
+
+**Elixir Infusions.** Your total number of Infusions Known increases by one, but this extra Infusion must be from the list of Elixir Infusions at the end of this Specialization.
+
+Your total number of Infusions Known increases by one again 9th level and at 15th level in this class. Both of these additional Infusions must also be chosen from the list of Elixir Infusions at the end of this Specialization.
+
+**Creating an Elixir.** At the end of each long rest, you can use alchemist's supplies to create individual Tiny vials that contain a copy of each Elixir you know, without expending a spell slot. Elixirs produce the effect of their spell at its lowest level and become unusable at the end of your next long rest.
+
+As an action, you can create another vial of an Elixir you know by expending the spell slot listed in its description. An Elixir can be used as part of the same action you create it.
+
+**Using an Elixir.** As an action, any creature can drink an Elixir, administer an Elixir to a creature within its reach, or throw an Elixir at a point within 30 feet. When thrown, an Elixir produces its spell effect at the point of impact. If an Elixir spell requires concentration, the creature that drinks
+it must concentrate on the effect. Your Elixir spells use your artificer spell save DC and spellcasting modifier.
+
+For example, if you learn the create minor elixir Infusion and choose grease and sleep, at the end of each long rest you prepare an elixir of grease, and an elixir of sleep. Creatures can then use these Elixirs to produce the spell effects.
+
+#### Potent Potions
+At 5th level, whenever one of your Elixirs or an artificer spell cast by you deals acid, fire, necrotic, or poison damage, or restores hit points to a creature, you can add your Intelligence modifier (minimum of +1) to one of the damage or healing rolls.
+
+#### Restorative Reagents
+At 9th level, you include revitalizing additives in all the Elixirs you create. When a creature uses one of your Elixirs on themselves or restores a creature's hit points with one, the target of the Elixir gains temporary hit points equal to your artificer level.
+
+#### Master Alchemist
+    
+At 15th level, you have become a master among Alchemist artificers. You gain resistance to both acid and poison damage, and you are immune to the poisoned condition.
+Moreover, you can create a copy of any Elixir you know as a bonus action on your turn. You must still expend a spell slot and follow all other rules for creating an Alchemical Elixir.
+
+\column
+#### Create Minor Elixir
+*Prerequisite: 3rd-level Alchemist artificer*
+
+Each time you select this Infusion, choose two Elixir effects to learn from the table. To produce an additional minor elixir, you must expend a spell slot of 1st-level or higher.
+|||
+:-:|:-:
+armor of agathys| heroism
+Tasha's Caustic Brew| grease
+color spray| fog cloud
+cure wounds| disguise self
+jump|longstrider
+sanctuary| sleep
+
+#### Create Greater Elixir
+*Prerequisite: 5th-level Alchemist artificer*
+
+Each time you select this Infusion, choose one Elixir effect to learn from the table below. To produce an additional greater elixir, you must expend a spell slot of 2nd-level or higher.
+|||
+:-:|:-:
+barkskin| enlarge/reduce
+blindness/deafness| flame blade
+darkvision| invisibility
+dragon's breath| lesser restoration
+enhance ability| levitate
+mirror image| spider climb
+
+#### Create Advanced Elixir
+*Prerequisite: 9th-level Alchemist artificer*
+
+Each time you select this Infusion, choose one Elixir effect to learn from the table below. To produce additional advanced elixirs, you must expend a spell slot of 3rd-level or higher.
+|||
+:-:|:-:
+animate dead| haste
+blink| meld into stone
+daylight| remove curse
+fireball| stinking cloud
+gaseous| form water breathing 
+
+#### Create Expert Elixir
+*Prerequisite: 13th-level Alchemist artificer*
+
+Each time you select this Infusion, choose one Elixir effect to learn from the table below. To produce an additional expert elixir, you must expend a spell slot of 4th-level or higher.
+|||
+:-:|:-:
+banishment| greater invisibility
+blight| polymorph (self only)
+death ward| sickening radiance
+freedom of movement| vitriolic sphere
+giant insect| watery sphere
+{{pageNumber,auto}}
+\page
+#### Create Masterwork Elixir
+*Prerequisite: 17th-level Alchemist artificer*
+
+Each time you select this Infusion, choose one Elixir effect to learn from the table below. To make additional masterwork elixirs, you must expend a spell slot of 5th-level or higher.
+|||
+:-:|:-:
+antilife shell | greater restoration
+cloudkill | heal 
+dawn | immolation
+globe of invulnerability | true seeing
+
+### Archivist
+For centuries chroniclers have sought the best way to store vast amounts of information. While most were satisfied with scrolls, the Archivists looked for something greater. In their research, they learned to store libraries worth of information in objects, awakening the first Artificial Minds. Working with these wondrous Minds, Archivists wield the limitless power of these arcane intelligences to drive their research forward.
+
+#### Tools of the Trade
+
+At 1st level, you gain proficiency with calligrapher's supplies and learn to speak, read, and write two languages of your choice. If you are proficient with calligrapher's supplies, you gain proficiency with another set of artisan's tools of your choice.
+
+#### Artificial Mind
+By 1st level, you learn to awaken mundane objects. Over the course of 1 hour, which can be during a short or long rest, you can use calligrapher's supplies to awaken an Artificial Mind in a Tiny nonmagical object you touch. While the object is awakened, it is a magical item that requires your attunement and can be used as a spellcasting focus for any artificer spells you learn.
+
+Should you awaken a second Artificial Mind, any previous Artificial Minds are instantly dispelled. While attuned to the awakened Artificial Mind, you gain the following benefits:
+
+**Magical Telephony.** You can communicate telepathically with any creature carrying one of your infused items within a 1-mile radius. The creature can also respond telepathically.
+
+**Skill Proficiencies.** Depending on the material of the object you awaken, you gain proficiency in two skills of your choice from the corresponding column on the table below.
+
+Material|	Examples|	Skill Proficiencies
+:-:|:-:|:-:
+Animal|	parchment,leather, bone	|Animal Handling, Insight, Perception, Survival
+Mineral|	gems, glass, metal, stone|	Deception, Intimidation Performance, Persuasion
+Plant|	paper, wood, vegetable|	Arcana, History Nature, Religion
+
+\column
+
+#### Archivist Spells
+
+At 2nd level, you learn certain spells at the artificer levels noted in the table below. These don't count against your total number of Spells Known and can't be switched upon gaining a level.
+
+Artificer Level|	Spell
+:-:|:-:
+2nd|	comprehend languages, dissonant whispers
+5th|	detect thoughts, mind spike
+9th|	hypnotic pattern, tongues
+13th|	locate creature, phantasmal killer
+17th|	modify memory, synaptic static
+
+#### Information Overload
+By 3rd level, your Artificial Mind can bombard other minds with psychic information. As an action, you can force a creature you can see within 30 feet to make an Intelligence saving throw. On a failure, it takes 1d8 psychic damage and has disadvantage on the first attack roll it makes before the start of your next turn.
+
+As you gain artificer levels, the psychic damage increases:
+at 5th level (2d8), at 11th level (3d8), and at 17th level (4d8).
+
+#### Acute Overload
+
+Starting 5th level, the power of your Artificial Mind has increased. Whenever a creature fails its save against Information Overload you can expend an artificer spell slot to increase the psychic damage. The damage increases by 2d8 for a 1st-level spell slot, and an additional 1d8 for each spell level higher than 1st-level.
+
+Also, when you deal psychic damage using your Artificial Mind as a spellcasting focus, you gain a bonus to the damage roll equal to your Intelligence modifier (minimum of +1).
+
+#### Improved Consciousness
+At 9th level, when you are forced to make a Constitution saving throw to maintain concentration on a spell while you are attuned to your Artificial Mind, you gain a bonus to your roll equal to your Intelligence modifier (minimum of +1).
+
+Moreover, your Artificial Mind doesn't count against the total number of magical objects you can be attuned to.
+
+#### Master Archivist
+
+At 15th level, you have become a master of Archivist artifice. As an action on your turn, you can transform into pure information and teleport to an unoccupied space that you can see within 60 feet, or an unoccupied space within 5 feet of a creature or object bearing one of your artificer Infusions.
+
+{{pageNumber,auto}}
+\page
+
+### Armorer
+Of all the Specializations that an artificer can pursue, that of the Armorer is the most defensively-minded. With a focus on becoming a bastion of magics and metal, Armorers modify a set of armor to function as their second skin. They focus their signature magic through this armor to unleash potent attacks and generate formidable arcane defenses. An Armorer views their armor as an extension of their body, and as they refine their magical abilities, inventor and armor become one.
+
+
+#### Tools of the Trade
+
+By 1st level, you gain proficiency with smith's tools and heavy armor. If you are already proficient with smith's tools, you instead gain proficiency with another set of artisan's tools of your choice.
+
+#### Arcane Gauntlet
+At 1st level, you can forge for yourself a wondrous weapon of war known as an Arcane Gauntlet. At the end of a long rest, you can use smith's tools to create an Arcane Gauntlet, choosing for it to be a Lightning Cannon or Thunder Gauntlet. It is a simple weapon only usable by you, and you use your Intelligence, in place of Strength or Dexterity, for its attack and damage rolls.
+
+You can only have one Arcane Gauntlet at a time. Creating a second causes the magic of the first to immediately dispel.
+
+**Lightning Cannon.** Your Arcane Gauntlet gains the ranged (90/300) property. On hit, it deals 1d6 lightning damage, and once per turn, when you hit with a Lightning Cannon attack, you can cause it to deal an additional 1d6 lightning damage.
+
+**Thunder Gauntlet.** Your Arcane Gauntlet remains a melee weapon. On hit, it deals 1d8 thunder damage, and any target hit by this Gauntlet has disadvantage on attack rolls against targets other than you until the start of your next turn.
+#### Armorer Spells
+At 2nd level, you learn certain spells at the artificer levels noted in the table below. These don't count against your total number of Spells Known and can't be switched upon gaining a level.
+
+Artificer Level|	Spells
+:-:|:-:
+2nd|	shield, thunderwave
+5th|	mirror image, shatter
+9th|	lightning bolt, thunder step
+13th|	fire shield, storm sphere
+17th|	destructive wave, wall of force
+
+\column
+#### Arcane Armor
+
+At 3rd level, you expand the magic of your Arcane Gauntlet to encompass a full suit of armor. At the end of a long rest, you can use your smith's tools to transform a set of armor into Arcane Armor. This armor incorporates your Arcane Gauntlet, is only usable by you, and while wearing it you gain the following benefits:
+
+- If the set of armor normally has a Strength requirement, your Arcane Armor lacks this requirement for you.
+- You can use your Arcane Armor as a spellcasting focus.
+- Your Arcane Armor attaches to you and can’t be removed against your will. It expands to cover your entire body, and functionally replaces any missing limbs or body parts.
+- You can don or doff your Arcane Armor as an action, and can retract or deploy the helmet as a bonus action.
+- You can use a bonus action to grant yourself temporary hit points equal to your Intelligence modifier (minimum of 1).
+#### Armorer Adept
+
+At 5th level, you can use magical armor as Arcane Armor. Though, any innate magical bonuses to Armor Class from magic armor, Infusions, or other features don't stack. You must choose one.
+
+Finally, you can attack twice, instead of once, whenever you take the Attack action on your turn, and you can cast one of your artificer cantrips in place of one of your attacks.
+
+#### Modular Armor
+At 9th level, your Arcane Armor counts as multiple items for the purpose of your Infusions: armor (the chest piece), boots, helmet, and the gauntlets (weapon), and each item can bear one Infusion.
+
+Also, your number of Infusions Known increases by 2, but these extra Infusions must be applied to your Arcane Armor.
+
+#### Master Armorer
+Starting 15th level, you have become a master of Armorer artifice. You gain the benefits listed below while wearing your Arcane Armor:
+
+- You gain a flying speed equal to your walking speed.
+- You adjust your Arcane Armor so that you have access to both your Lightning Launcher and Thunder Gauntlet.
+- Your Lightning Launcher now deals 2d6 damage, and your Thunder Gauntlet now deals 2d8 damage.
+{{pageNumber,auto}}
+\page
+
+### Augmenter
+The Augmenter views the biological form not as a finished product, but as a blueprint awaiting improvement. While other Artificers build external automatons, the Augmenter replaces their own limbs with enchanted steel and magical conduits to achieve peak efficiency in both labor and combat.
+
+
+#### Tools of the Trade
+At 1st level, you gain proficiency with smith’s tools. If you are already proficient with them, you instead gain proficiency with another set of artisan's tools of your choice. 
+
+Additionally, you gain proficiency in the Medicine skill.
+
+#### Initial Augmentation
+Also 1st level, you have mastered the art of attaching and utilizing Magical Prostheses. You start with one Magical Prosthesis of your choice from the Adventuring Magical Prostheses table. You can attach this to yourself or a willing creature over the course of 1 minute. 
+
+You are considered proficient with any attack made using a prosthesis property such as Blast, Launch, or Melee.
+
+
+#### Augmenter Spells
+
+By 2nd level, you learn certain spells at the artificer levels noted in the table below. These don't count against your total number of Spells Known and can't be switched upon gaining a level.
+
+Artificer Level|	Spells
+:-:|:-:
+2nd|	false life, shield
+5th|	alter self, spider climb
+9th|	haste, lightning bolt
+13th|	freedom of movement, summon construct
+17th|	Bigby’s hand, steel wind strike
+
+#### Arcane Interface
+At 3rd level, you have learned to use your intellect to guide your mechanical limbs in battle. You can use your Intelligence modifier, in place of Strength or Dexterity, for the attack and damage rolls of any prosthesis property. 
+
+Additionally, when you use a prosthesis property that requires a saving throw, you can use your Artificer Spell Save DC.
+
+#### Extra Attack
+At 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn. 
+
+Moreover, you can cast one of your artificer cantrips in place of one of those attacks.
+
+
+Additionally, your magical prostheses are now perfectly aligned with your nervous system and can no longer be Jammed by external forces.
+
+\column
+#### Overclocked Infusions
+At 9th level, your magical prostheses are now perfectly compatible with your infusions. You can apply your Artificer Infusions to your Magical Prostheses, treating them as the required item (such as a weapon or gauntlet) even though they are already magic items.
+
+Your number of Infusions Known increases by 1, but this additional infusion must be applied to a prosthesis you are wearing.
+
+#### Ultimate Synthesis
+By 15th level, your mastery of the prosthetic arts allows you to unlock the full potential of your mechanical body. Every Magical Prosthesis you wear gains the Impact and Reach properties if it did not have them already.
+
+Additionally, you can now have two Magical Prostheses attached to you simultaneously.
+
+At the end of a long rest, you can use your smith's tools to swap your current Magical Prosthesis for a different one from the Adventuring Magical Prostheses table
+{{pageNumber,auto}}
+\page
+### Battle Smith
+A combination of protector and medic, Battle Smith artificers are experts at defending others and repairing both material and personnel. To aid in their work, Battle Smiths construct
+and modify their Steel Defender, a one-of-a-kind companion.
+
+#### Tools of the Trade
+
+At 1st level, you gain proficiency with smith's tools and in heavy armor. If you are proficient in smith's tools, you gain proficiency in another set of artisan's tools of your choice.
+
+#### Steel Defender
+At 1st level, you have created for yourself a faithful construct, known as a Steel Defender. It is friendly to you and your allies and obeys your orders. Your Steel Defender's game statistics are found in the Steel Defender stat block on the following page, which uses your proficiency bonus (PB) in multiple places.
+
+In combat, your Steel Defender acts during your turn. It can move and use its reaction on its own, but it only uses the Dodge action on its turn unless you use your bonus action to order it to take an action in its stat block, or another action. If you are incapacitated, your Steel Defender acts on its own.
+
+If your Steel Defender has died within the last hour, you can touch it with your smith's tools and expend an artificer spell slot to return it to life with its maximum hit points.
+
+At the end of a long rest, you can magically create a new Steel Defender with your smith's tools. When you do so, any previous Steel Defenders are immediately rendered inert.
+
+Upon its creation, you choose the shape of your Steel Defender, which can affect its abilities in and out of combat:
+
+**Humanoid.** Your Steel Defender is the size of a Medium humanoid creature. It is proficient with shields, and it has humanoid hands that it can use to perform basic tasks.
+
+**Quadruped.** Your Steel Defender resembles a Large beast of your choice. Its speed increases by 10 feet, and it can be ridden as a mount by you as if  it was a trained mount.
+
+{{monster,frame
+## Steel Defender
+*Medium or Large construct, neutral*
+___
+**Armor Class** :: 12 + PB (natural armor)
+**Hit Points**  :: 5 + five times your artificer level 
+(the Steel Defender has a number of Hit Dice [d10s] equal to your artificer level)
+**Speed**       :: 30 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|16 (+3)|12 (+1)|14 (+2)| 4 (-3)|10 (+0)| 6 (-2)|
+___
+**Damage Immunities** :: poison
+**Condition Immunities** :: charmed, exhausted, poisoned
+**Senses**               :: darkvision 60 ft., passive Perception 10 + PB
+**Languages**            :: understands the languages you speak
+___
+***Might of the Master.*** You add your PB to any ability check or saving throw the Steel Defender makes.
+:
+***Vigilant.*** The Steel Defender cannot be surprised.
+### Actions
+***Rend.*** *Melee Weapon Attack:* your Intelligence modifier + PB to hit, reach 5 ft., one target you can see.  *Hit* 1d8 + PB force damage. 
+:
+***Repair.*** The Steel Defender can expend one of its Hit Dice to restore 1d10 +PB hit points to itself or to one construct or object within 5 feet of it.
+}}
+
+#### Battle Smith Spells
+
+By 2nd level, you learn certain spells at the artificer levels noted in the table below. These don't count against your total number of Spells Known and can't be switched upon gaining a level.
+
+Artificer Level|	Spells
+:-:|:-:
+2nd|	sanctuary, shield of faith
+5th|	lesser restoration, warding bond
+9th|	aura of vitality, counterspell
+13th|	aura of purity, death ward
+17th|	circle of power, mass cure wounds
+
+{{imageMaskEdge5,--offset:30%,--rotation:0
+  ![](https://www.gmbinder.com/images/qbiZkuJ.jpg){height:55%,top:750px}
+}}
+
+
+
+
+{{pageNumber,auto}}
+\page
+#### Battle Ready
+At 3rd level, you have trained to stand alongside your Steel Defender in battle. You can use your Intelligence, in place of Strength or Dexterity for attack and damage rolls you make with magic weapons, or any weapon that bears one of your Infusions.
+
+#### Infusion Bearer
+By 5th level you have designed your Steel Defender to bear your most potent Infusions. Your Steel Defender can bear any Infusion that is meant for boots, cloaks, gauntlets, helms, or suits of armor. Though, it can only bear one Infusion at a time.
+
+#### Minor Upgrade
+Starting 5th level, you have improved the offensive capabilities of your Steel Defender. Choose one of the Minor Upgrades below:
+
+**Minor Arcanum.** You imbue your Steel Defender with a 1st-level artificer spell with a casting time of one action. As a bonus action, you can order your Steel Defender to cast the imbued spell at 1st-level, using your spellcasting modifier.
+
+Your Steel Defender has a number of charges of the spell equal to your Intelligence modifier (minimum of 1), and it regains all expended charges when you finish a long rest.
+
+**Martial Offense.** The damage of your Steel Defender's Rend becomes 1d10, and when you command it to take the Rend action it can make two Rend attacks instead of one.
+It can replace either Rend attack with a grapple or shove.
+
+#### Adjustable Upgrades
+
+At 9th level, you can adjust your Steel Defender's Upgrades to face the challenges at hand. Each time you finish a long rest, you can use your smith's tools to replace one of your Steel Defender's Upgrades with another Upgrade gained at the same level.
+
+#### Greater Upgrade
+At 9th level, you can imbue your Steel Defender with wondrous abilities and features. Choose one of the Greater Upgrades below:
+
+**Limited Sentience.** You improve the cognitive abilities of your Steel Defender. Its Intelligence score becomes a 10. It also gains proficiency with a set of tools of your choice and learns to speak, read, and write two languages of your choice.
+
+**Modular Construction.** Your Steel Defender can bear up to two Infusions, though the Infusions must be meant for different types of objects. For example, your Steel Defender could be infused with an Infusion meant for a suit of armor and an Infusion meant for a helm, but not two Infusions that are both meant to be used on suits of armor.
+
+**Reinforced Plating.** You improve the structure of your Steel Defender. It gains resistance to bludgeoning, piercing, and slashing damage from all non-magical attacks.
+
+\column
+
+#### Masterwork Upgrade
+
+Starting 15th level, you imbue your Steel Defender with wondrous abilities and powers. Choose one of the Masterwork Upgrades below:
+
+**Arcane Ward.** Creatures of your choice within 15 feet of your Steel Defender are resistant to damage from spells.
+
+**Self-Destruct.** You embed a powerful arcane explosive in your Steel Defender. As a bonus action, you can order your Steel Defender to self-destruct, destroying itself and forcing creatures within 20 feet to make a Dexterity saving throw. Creatures take force damage equal to your Steel Defenders remaining Hit Dice on a failed save, or half as much damage on a success. Once this feature is used, your Steel Defender cannot be revived until the end of your next long rest.
+
+**Major Arcanum.** You imbue your Steel Defender with a 3rd-level artificer spell with a casting time of one action. As a bonus action, you can order your Steel Defender to cast the imbued spell at 3rd-level, using your spellcasting modifier.
+
+Your Steel Defender has a number of charges of the spell equal to your Intelligence modifier (minimum of 1), and it regains all expended charges when you finish a long rest.
+
+### Biomancer
+While most artificers are content with mechanical invention, some see biology, the science of living things, as an area rife with potential. Biomancers are those who use their talents to supplement their own anatomy and create life.
+
+#### Tools of the Trade
+At 1st level, you gain proficiency with leatherworker's tools. If you are already proficient with leatherworker's tools, you instead gain proficiency with a set of artisan's tools of your choice.
+
+#### Biomancer Golem
+At 1st level, you can use the magic of your artifice to create a facsimile
+of life. You learn the find familiar spell, but until you gain the Spellcasting feature you can only cast the spell as a ritual. When you cast find familiar, your familiar is known as a Biomancer Golem, and it has the following changes:
+
+- The material component is 1 pound of organic matter.
+- It is a monstrosity (instead of a celestial, fey, or fiend).
+- It has additional hit points equal to your artificer level.
+
+In addition, your Biomancer Golem can heal others by grafting its flesh onto the creature's wounds. As an action, it can sacrifice any amount of its hit points and touch a willing creature. The target creature then regains hit points equal to the number of hit points your familiar sacrificed.
+{{pageNumber,auto}}
+\page
+#### Biomancer Spells
+By 2nd level, you learn certain spells at the artificer levels noted in the table below. These don't count against your total number of Spells Known and can't be switched upon gaining a level.
+
+Artificer Level|	Spell
+:-:|:-:
+2nd|	false life, find familiar
+5th|	alter self, spider climb
+9th|	haste, life transference
+13th|	blight, polymorph
+17th|	reincarnate, skill empowerment
+
+#### Modular Biology
+By 3rd level, you can use your knowledge of arcane biology to enhance your physical form. At the end of each long rest, you can use your leatherworker's tools to modify your body in one of the ways below, which lasts until the end of your next long rest:
+
+**Amphibious Physiology.** You develop gills and webbing between your digits. You can breathe both air and water, and you gain a swimming speed equal to your walking speed.
+
+**Bestial Senses.** You enhance your sense of hearing and smell to rival wild beasts. You are considered proficient in Perception if you were not already, and you gain a bonus to Wisdom (Perception) checks that rely on hearing, sight, or smell equal to your Intelligence modifier (minimum of +1).
+
+**Resilient Hide.** Your flesh has grown thicker and
+knotted. So long as you aren't wearing any armor,
+your Armor Class equals 10 + your Intelligence
+modifier + your Constitution modifier.
+
+**Vestigial Limb.** You grow a shrunken limb
+that resembles your other limbs. Its reach is
+5 feet, and it can lift a total number of pounds
+equal to twice your Intelligence score. It can't
+use weapons or shields nor can it do anything
+that requires precision, such as using tools.
+
+\column
+
+#### Augmented Flesh
+Starting 5th level, your own altered form can merge with that
+of your Golem to enhance your abilities. As an action, you can touch your Golem and merge with it, gaining the benefits below:
+
+- You gain temporary hit points equal to the Biomancer Golem's remaining hit points + your Intelligence modifier (minimum of 1).
+- Any movement speeds you have increase by 10 feet.
+- You can use Intelligence, in place of Strength, for Strength attack rolls, damage rolls, ability checks, or saving throws.
+- You can attack twice, rather than once, whenever you take the Attack action on your turn.
+- As a bonus action, you can expend an artificer spell slot to gain temporary hit points equal to 5 times the slot's level.
+
+You remain merged with your Golem until your temporary hit points from this feature are depleted, at which point your Golem is destroyed and you return to your normal form.
+
+#### Arcane Evolution
+
+At 9th level, your walking speed increases by 10 feet, and at the end of each long rest, you can use leatherworker's tools to modify your body with two Modular Biology features.
+
+When you reach 15th level in this class, you can modify yourself with any three Modular Biology features at once.
+
+#### Master Biomancer
+
+At 15th level, you have become a master amongst Biomancers. Whenever you target a creature with one of your Biomancer Spells, you can grant one target of that spell temporary hit points equal to your artificer level + your Intelligence modifier.
+
+In addition, when merged with your Biomancer Golem, you are resistant to bludgeoning, piercing, and slashing damage.
+
+
+{{pageNumber,auto}}
+\page
+
+### Cartographer
+
+Cartographers are the premier navigators and reconnaissance agents. Using their creations, Cartographers can highlight threats, safeguard allies, and carve portals to distant locations.
+
+#### Tools of the Trade
+At 1st level, you gain proficiency with Calligrapher’s Supplies and Cartographer’s Tools. If you already have one of these proficiencies, you gain proficiency with one other type of Artisan’s Tools of your choice (or with two other types if you have both).
+
+#### Adventurer's Atlas
+Also at 1st level, whenever you finish a Long Rest while holding Cartographer’s Tools, you can use that tool to create a set of magical maps by touching at least two creatures (one of whom can be yourself), up to a maximum number of creatures equal to 1 plus your Intelligence modifier (minimum of two creatures). Each target receives a magical map, which constantly updates to show the relative position of all the map holders but is illegible to all others.
+
+The maps last until you die or until you use this feature again, at which point any existing maps created by this feature immediately vanish.
+
+While carrying the map, the target knows the location of all other map holders that are on the same plane of existence as itself. When casting a spell or creating another effect that requires being able to see the effect’s target, a map holder can target another map holder regardless of sight or cover, so long as the other map holder is still within the effect’s range.
+
+
+#### Cartographer Spells
+By 2nd level, you learn certain spells at the artificer levels noted in the table below. These don't count against your total number of Spells Known and can't be switched upon gaining a level.
+
+Artificer Level|	Spell
+:-:|:-:
+2nd|	Guiding Bolt, Healing Word
+5th|	Locate Object, Mind Spike
+9th|	Call Lightning, Clairvoyance
+13th|	Banishment, Locate Creature
+17th|	Scrying, Teleportation Circle
+
+
+#### Mapping Magic
+At 3rd level, you learn *Faerie Fire* spell and you can cast  without expending a spell slot, outlining the affected creatures as if in ink. You can do so a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.
+
+Additionally, On your turn, you can spend an amount of movement equal to half your Speed (round down) to teleport to an unoccupied space you can see within 10 feet of yourself or within 5 feet of a creature that is within 30 feet of you and holding one of your Adventurer’s Atlas maps. You can’t use this benefit if your Speed is 0.
+
+#### Guided Precision
+Starting 5th level, once per turn, whenever you cast a spell from your Cartographer Spells list or hit a creature affected by your *Faerie Fire* with an attack roll, you can add your Intelligence modifier to one damage roll of the spell or attack.
+
+In addition, taking damage can’t cause you to lose Concentration on *Faerie Fire*.
+
+#### Ingenious Movement
+Begining 9th level, when you use your Flash of Genius, you or a willing creature of your choice that you can see within 30 feet of yourself can teleport up to 30 feet to an unoccupied space you can see as part of that same Reaction.
+
+#### Superior Atlas
+Finally 15th level, your Adventurer’s Atlas improves. When a map holder would be reduced to 0 Hit Points but not killed outright, that creature can destroy its map. The creature’s Hit Points instead change to a number equal to twice your Artificer level, and the creature is teleported to an unoccupied space within 5 feet of you or another map holder of its choice.
+
+Additionally, if you are one of the map holders for your Adventurer’s Atlas, you can cast *Find the Path* without expending a spell slot, without preparing the spell, and without needing spell components. 
+
+Once you use this benefit, you can’t use it again until you finish a Long Rest.
+{{pageNumber,auto}}
+\page
+### Chronothief
+For those that pursue the magic of artifice, no area of study is too dangerous. Perhaps against their better judgment, some artificers choose to experiment with Chronomancy, the magic of time.
+
+#### Tools of the Trade
+At 1st level, you gain proficiency with jeweler's tools. If you are already proficient with jeweler's tools, you instead gain proficiency with another set of artisan's tools of your choice.
+
+In addition, you are always aware of the exact time while you are on your home plane of existence. Once you spend a full day on another plane you gain this benefit there as well.
+#### Chronometer
+At 1st level, you have learned to construct a wondrous device that marks you as a Chronothief. Over the course of 1 hour, which can be during a short or long rest, you can use your jeweler's tools to construct a Chronometer, which appears as a Tiny object of your choice. Chronometers often resemble tiny hourglasses filled with sand, intricate contraptions, or pocket watches.
+
+When you gain the Spellcasting feature at 2nd level, your Chronometer can be used as a spellcasting focus by you.
+
+You can only have one Chronometer at a time, and creating a second causes the magic of the first to instantly dispel.
+
+Your Chronometer has a number of Charges equal to twice your Intelligence modifier and regains all expended charges when you finish a long rest. While holding your Chronometer, you can expend 1 Charge to use one of the abilities below:
+
+**Accelerate.** As a bonus action, you can increase the speed of a creature you can see within 60 feet by a total number of feet equal to 5 times your Intelligence modifier (minimum of 5 feet) until the beginning of your next turn.
+
+**Decelerate.** As a bonus action, you can force a creature you can see within 60 feet to make a Charisma saving throw (DC 8 + your proficiency bonus + your Intelligence modifier). On a failed save, its speed is reduced by a number of feet equal to 5 times your Intelligence modifier (minimum of 5 feet) until the beginning of your next turn.
+
+#### Chronothief Spells
+By 2nd level, you learn certain spells at the artificer levels noted in the table below. These don't count against your total number of Spells Known and can't be switched upon gaining a level.
+
+Artificer Level|	Spell
+:-:|:-:
+2nd|	expeditious retreat, featherfall
+5th|	hold person, misty step
+9th| haste, slow
+13th|	banishment, dimension door
+17th|	hold monster, modify memory
+
+#### Improved Chronometer
+
+Starting 3rd level, you have come to a deeper understanding of chronomancy magic, growing your Chronometer's power. You can expend 1 Charge of your Chronometer to use the following abilities:
+
+**Rush.** When you roll initiative and aren't surprised, you can replace the d20 for your initiative roll with your artificer level.
+
+**Slip.** When a creature you can see within 60 feet makes an attack roll, ability check, or saving throw, you can force them to re-roll as a reaction. You can use this reaction after the creature rolls, but before you know if it succeeded or failed.
+
+**Warp.** As a bonus action, you can switch places with a creature you can see within 60 feet, each instantly teleporting to the other's space. Unwilling creatures must succeed on a Charisma saving throw or be forced to switch places.
+
+#### Stolen Moments
+At 5th level, your Chronometer can capture time for later use. When you successfully paralyze, stun, or reduce a creature's speed to 0 with an artificer spell or one of your Chronotheif abilities, your Chronometer regains 1d4 of its expended charges.
+
+Also, you can use a bonus action to expend an artificer spell slot and cause your Chronometer to regain expended charges equal to the level of the spell slot you expend.
+
+#### Empowered Chronomancy
+At 9th level, your understanding and control over time magic has greatly increased. Your Chronometer improves in the following ways:
+
+**Accelerate.** Opportunity attacks against the target creature have disadvantage until the end of their next turn.
+
+**Decelerate.** You can spend an additional Charge to double the speed reduction. If this feature reduces a target's speed to 0, the creature is stunned until the beginning of its next turn.
+
+**Rush.** You also gain a bonus to your initiative roll equal to your Intelligence modifier (minimum of +1)
+
+#### Master Chronothief
+At 15th level, you have become a master Chronothief. While holding your Chronometer, you can use your action to overload the device, expending all of its remaining Charges, to cast time stop.
+
+Once you use this feature you must finish a short or long rest before you can cast time stop in this way again.
+{{pageNumber,auto}}
+\page
+### Composer
+Behind every great musician, every standing ovation, every sold-out concert, there is most often Composer who put quill to parchment and penned the notes. These great minds are unlike other bards and entertainers, Composers take a more cerebral approach to music. 
+
+#### Tools of the Trade
+Starting 1st level, you gain proficiency with smith's tools. If you are already proficient with smith's tools, you instead gain proficiency with another set of artisan's tools of your choice.
+
+In addition, if you spend at least 1 minute practicing with
+a musical instrument, you are considered proficient with that musical instrument until the end of your next long rest.
+
+#### Musical Apparatus
+At 1st level, you have designed a wondrous new musical instrument. Over the course of 1 hour, which can be during a short or long rest, you can use smith's tools to construct a Musical Apparatus of your own design. You are proficient with your Apparatus as a musical instrument, and whenever you make an ability check that uses your Musical Apparatus, you can add double your proficiency bonus to the result of your roll.
+
+When you gain the Spellcasting feature at 2nd level your Musical Apparatus can be used as a spellcasting focus.
+
+You can only have one Musical Apparatus at a time. If you create a second, the previous Apparatus becomes unusable.
+
+#### Composer Spells
+At 2nd level, you learn certain spells at the artificer levels noted in the table below. These don't count against your total number of Spells Known and can't be switched upon gaining a level.
+
+Artificer Level|	Spell
+:-:|:-:
+2nd|	charm person, thunderwave
+5th|	shatter, silence
+9th|	beacon of hope, fear
+13th|	charm monster*, dominate beast
+17th|	destructive wave, dominate person
+
+#### Weaponized Apparatus
+Starting 3rd level, you can modify your Musical Apparatus to be used for both entertainment and combat. When you create an Apparatus, it gains one of the following features of your choice:
+
+**Raucous Blast.** As an action, you can use your Apparatus to make a spell attack against a creature within 60 feet that can hear you. On hit, the creature takes 1d8 thunder damage and is deafened until the beginning of your next turn.
+
+This thunder damage increases by 1d8 at 5th level (2d8), and again at 11th level (3d8), and at 17th level (4d8).
+
+**Ringing Strike.** Your Apparatus is a simple weapon with the versatile property, that deals 1d8 (1d10) bludgeoning
+damage on hit. You are considered proficient with it,
+and you can use your Intelligence, in place of Strength,
+for attack and damage rolls with the Apparatus.
+
+You also learn the booming blade* cantrip.
+It counts as an artificer spell for you, but it
+doesn't count against your total number of
+Spells Known. When you cast booming
+blade, you must use your Apparatus
+as the spell's material component.
+
+#### Thunderous Note
+At 5th level, when you use your Apparatus to deal thunder damage, you can expend a spell slot to knock a Large or smaller creature back with a thunderous burst of sound. The target is knocked back 10 feet for a 1st-level spell slot, and an additional 10 feet back for each spell level higher than 1st-level.
+
+Also, whenever you deal thunder damage you can add your Intelligence modifier (minimum of +1) to the damage roll.
+
+#### Resonant Frequency
+At 9th level, as an action, you can play a note on your Apparatus to cause a creature of your choice within 10 feet to resonate with undetectable vibrations for 1 hour. The next time it is hit with a melee attack, its attacker must make a Constitution saving throw. On a failure, the attacker takes 2d8 thunder damage and cannot take reactions until the beginning of its next turn. On a successful save, the attacker takes half damage.
+
+You may use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a long rest.
+
+#### Master Composer
+At 15th level, you have mastered the theory and applications of musical artifice, becoming a master. You gain the following benefits:
+
+- You are immune to thunder damage and being deafened.
+- Your Musical Apparatus gains both Weaponized effects.
+- Your Thunderous Note feature can affect Huge or smaller creatures. Large or smaller creatures that fail the saving throw fall prone at the end of their forced movement.
+- The damage of Resonant Frequency becomes 4d8.
+{{pageNumber,auto}}
+\page
+### The Cryptozoologist 
+
+Artificers that specialize in cryptozoology—or the study of hidden animals—often live and study on the fringes of civilization. They research the fantastic, wondrous, and sometimes dangerous creatures that roam the land, learning their infusions not from arcane experiments, but by studying the magic of nature and monsters. While many cryptozoologists care deeply for the wild creatures they study, they also recognize the danger they can present to civilization.
+
+#### Tools of the Trade
+When you adopt this specialization at 1st level, you gain proficiency with the zoologist’s toolkit and your choice of Arcana, History, Nature, or Religion. If you already have this proficiency, you gain proficiency with one type of artisan’s tools of your choice.
+
+In addition, you gain proficiency with martial weapons.
+{{note
+##### Zoologist’s Kit
+Proficiency with a zoologist’s kit allows you to identify animals and safely harvest materials from them.
+
+**Components.** A zoologist’s kit includes several small handbooks on wildlife based on creature type, a magnifying glass, a small knife and leather gloves for collecting samples, and several glass jars.
+
+**Arcana.** Your knowledge of the animals and uses of their parts add insight to your magical studies that deal with various creatures and their magical abilities.
+
+**History.** Your studies in zoology gives you insight on their migration patterns, their ranges, and even cultural beliefs about animals.
+
+**Investigation.** When you inspect an area where an animal has been, your proficiency can help you pick out details and clues that others might miss.
+
+**Medicine.** Your mastery of zoology improves your ability to treat wounds done by various creatures.
+
+**Nature and Survival.** When you travel in the wild, your skill in zoology makes it easier to identify the presence of various creatures based on tracks and other physical evidence.
+
+**Identify Animal.** You can identify most animals with a quick inspection of their appearance.
+
+###### Zoologist’s Kit
+Activity|	DC
+:-|:-
+Find Beast|	10
+Identify Biological Substance|	10
+Recall Knowledge (Beast)|	10
+Identify Poison or Acid|	15
+Recall Knowledge (Monstrosity)|	15
+Neutralize Poison or Acid|	20
+}}
+
+\column
+
+#### Cryptozoologist Spells
+At 2nd level, you learn certain spells at the artificer levels noted in the table below. These don’t count against your total number of Spells Known and can’t be switched upon gaining a level.
+
+Artificer Level|	Spells
+:-|:-
+2nd|	Speak with Animals, Zephyr Strike
+5th|	Branding Smite, Locate Plants or Animals
+9th|	Conjure Animals, Thunder Step
+13th|	Charm Monster, Locate Creature
+17th|	Hold Monster, Steel Wind Strike
+
+#### Monster Lore
+Your studies have given you the ability to assess an enemy in a flash. At 3rd level, you can use your bonus action to analyze a creature you can see within 60 feet, making an Intelligence ability check using the corresponding skill (DC = 8 + Creature’s CR):
+
+Skill|	Creature Type
+:-:|:-:
+Arcana|	Aberrations, Elementals, Monstrosities
+History|	Giants, Humanoids
+Nature|	Beasts, Dragons, Oozes, Plants
+Religion|	Celestials, Fey, Fiends, Undead
+
+On a success, you learn one of the following pieces of information about the creature: the creature’s type, its highest ability score, any damage resistances or immunities it has, any damage vulnerabilities it as has, any condition immunities it has, or special ability or attack it has.
+
+In addition to the information above, on a success, you gain the following benefits:
+
+**Opportune Insight.** When the creature analyzed with the Monster Lore feature forces you to make a saving throw, add 1d6 to the saving throw. This feature’s die increases to 1d8 at 9th level and to 1d10 at 15th level.
+
+**Knowledgeable Strike.** The first time each turn that you hit the creature analyzed with Monster Lore with a weapon attack, it takes an extra 1d6 damage from the weapon. This features extra damage increases to 2d6 at 9th level and 3d6 at 15th level.
+
+These benefits lasts until you finish a short or long rest. These benefits end early if you use Monster Lore on another creature.
+
+You can use this feature a number of times equal to your Intelligence modifier (minimum of once) unless you expend a spell slot to use it again. You regain all expended uses of it when you finish a long rest.
+
+#### Extra Attack
+Starting at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn. Moreover, you can cast one of your cantrips in place of one of those attacks.
+{{pageNumber,auto}}
+\page
+#### Shared Knowledge
+At 9th level, you allies have begun to understand your ways of study. When you succeed on a Monster Lore check, each creature of your choice that is within 15 feet of you and can hear you gains the benefits of your choice of either Opportune Insight or Knowledgeable Strike.
+
+Once you use this feature, you can’t use it again until you finish a long rest.
+
+
+
+#### Lore Mastery
+You’ve become a master at studying monsters in the field:
+- You can use Monster Lore without expending a use. Once you use this feature, you can’t use it again until you finish a long rest.
+- You have advantage on Intelligence ability checks when using Monster Lore.
+- The range of your Shared Knowledge increases to 30 feet.
+
+{{pageNumber,auto}}
+\page
+### Dungeoneer
+While most artificers focus on developing a single invention, Dungeoneers use their ingenuity to weaponize the mundane. They use basic adventuring gear to construct defensive traps, puzzles, and structures that can repel all but the hardiest of adventurers and monsters.
+
+#### Tools of the Trade
+At 1st level, you gain proficiency in both carpenter's tools and mason's tools. If you are already proficient with either set of tools, you instead gain proficiency with another set of artisan's tools of your choice.
+
+In addition, you gain proficiency with improvised weapons and can use your Intelligence, in place of Strength or Dexterity, for all of your attack and damage rolls with improvised weapons. Dungeoneers are known for crafting strange weapons made from adventuring supplies.
+
+#### Dungeoneer Spells
+
+At 2nd level, you learn certain spells at the artificer levels noted in the table below. These don't count against your total number of Spells Known and can't be switched upon gaining a level.
+
+Artificer Level|	Spell
+:-:|:-:
+2nd|	alarm, unseen servant
+5th|	arcane lock, knock
+9th|	glyph of warding, tiny hut
+13th|	guardian of faith, resilient sphere
+17th|	passwall, wall of stone
+#### Dungeoncraft
+Starting 3rd level, at the end of a long rest, you craft a number of objects from the Dungeoncraft Objects table equal to your Intelligence modifier (minimum of 1). These objects appear as mundane versions of those objects but turn to ash at the end of your next long rest. You can also craft the normal versions of Dungeoncraft Objects in one-quarter of the normal time.
+
+If an object you craft with this feature forces a creature to make a saving throw, it uses your artificer Spell Save DC.
+
+#### Extra Attack
+At 5th level, you can attack twice, rather than once, when you take the Attack action on your turn. Moreover, you can cast one of your artificer cantrips in place of one of those attacks.
+
+#### Arcane Improvisation
+At 9th level, damage you deal with improvised weapon attacks and your Dungeoncraft Objects is magical for the sake of overcoming resistances and immunities to non-magical damage.
+
+In addition, you can cast each of your Dungeoneer Spells once without providing their material components. Once you do so, you must provide the material components of the spell each subsequent time you cast it, until you finish a long rest.
+
+\column
+
+#### Master Dungeoneer
+At 15th level, you have become a master of Dungeoneering artifice. Whenever a creature makes a saving throw to resist one of your Dungeoncraft Objects or the effects of your Dungeoneer Spells, it has disadvantage on its saving throw.
+
+You also learn to cast a ritual version of both passwall and wall of stone. They count as artificer spells for you, and when you cast them as a ritual you don't need to expend a spell slot, but the casting time is 1 hour. The structures you create with these spells become permanent at the end of the ritual.
+
+When you learn passwall and wall of stone as Dungeoneer Spells at 17th level, you can cast them normally or as a ritual.
+
+##### Dungeoncraft Objects
+Below is the list of Dungeoncraft Objects available for Dungeoneers to create with their Dungeoncraft feature:
+|||
+:-:|:-:
+acid (1 vial)| ladder (10 feet)
+alchemist's fire (1 flask)| lock and key
+ball bearings (1,000)| manacles and key
+block and tackle| oil (1 flask)
+caltrops (200)| pitons (10)
+chain (25 feet)| portable ram
+crowbar| rope (50 feet)
+grappling hook| sledge hammer
+hunting trap| torches (5)
+
+{{imageMaskCorner20,--offsetX:50%,--offsetY:-50%,--rotation:0
+  ![](https://www.gmbinder.com/images/mD72YIf.jpg){height:50%,left:350px}
+}}
+{{pageNumber,auto}}
+\page
+### Enhanced
+Where most artificers develop objects of wondrous power, those known as Enhanced bring their great intellect to bear by modifying their own bodies. They replace and improve their own limbs with arcane enhancements, forever striving to create a more perfect self. Enhanced artificers are known for their impressive, and deadly, combat Enhancements.
+
+#### Tools of the Trade
+At 1st level, you gain proficiency with both smith's tools and heavy armor. If you are already proficient with smith's tools, you instead gain proficiency with a set of artisan's tools of your choice.
+
+#### Blade Enhancement
+At 1st level, you modify one of your arms to bear a hidden blade. It is a simple melee weapon with the finesse property that deals 1d8 slashing damage on hit and has the following abilities:
+
+- It is completely concealed within your arm unless you use a bonus action to activate or retract your blade.
+- It can bear one Infusion meant for a melee weapon.
+- You can add your Intelligence modifier to the damage rolls of weapon attacks.
+#### Enhanced Spells
+At 2nd level, you learn certain spells at the artificer levels noted in the table below. These don't count against your total number of Spells Known and can't be switched upon gaining a level.
+
+Artificer Level|	Spell
+:-:|:-:
+2nd|	expeditious retreat, thunderous smite
+5th|	alter self, spider climb
+9th|	blinding smite, haste
+13th|	freedom of movement, greater invisibility
+17th|	banishing smite, skill empowerment
+
+#### Enhancements
+At 3rd level, you gain one Enhancement of your choice from the list below. They can be attached in place of a missing body part, or over a body part.
+
+When you gain an artificer level you can switch replace your Enhancement with another
+Enhancement of your choice.
+
+As you gain artificer levels, your body can bear additional Enhancements at one time: at 5th level (2), 9th level (3), and at 15th level (4).
+
+**Mobility Enhancement.** You modify one of your legs. You can take the Dash action as a bonus action on each of your turns.
+
+**Nimble Enhancement.** You modify one of your hands. You add your Intelligence modifier (minimum of +1) to any Dexterity checks you make that involve your modified hand.
+
+\column
+
+**Power Enhancement.** You modify one of your arms. You can add your Intelligence modifier (minimum of +1) to any Strength checks you make that involve your modified arm.
+
+**Visual Enhancement.** You modify one of your eyes. You can add your Intelligence modifier (minimum of +1) to any checks you make that rely on your sense of sight.
+
+#### Combat Enhancement
+At 5th level, you have improved your modifications to further augment your combat abilities. You gain the following benefits:
+
+- You can attack twice, rather than once, whenever you take the Attack action on your turn.
+- Each of your Enhancements can bear a single Infusion usually meant for the following objects: Mobility (boots), Nimble (gauntlets), Power (armor), Visual (helm, goggles).
+- Your Blade counts as magical for the sake of overcoming resistance and immunity to non-magical attacks.
+
+#### Improved Enhancements
+At 9th level, your number of Infusions Known increases by 1, but this additional Infusion must be applied to an Enhancement.
+
+The damage of your blade attacks also becomes 2d8.
+
+#### Master Enhanced
+At 15th level, choose one of your Enhancements to become a Masterwork Enhancement, granting you the additional benefits below.
+
+Each time you finish a long rest, you can replace your Masterwork Enhancement with another of your choice.
+
+**Blade Masterwork.** Your Blade Enhancement weapon attacks score a critical hit on a roll of 19 or 20 on the d20.
+
+**Mobile Masterwork.** When you take the Dash action you are immune to opportunity attacks and you can move along vertical surfaces and liquids without falling during the move.
+
+**Nimble Masterwork.** When you make a Dexterity saving throw to take half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.
+
+**Power Masterwork.** When you make a Strength check with your modified arm, you treat a roll of 9 or lower as a 10.
+
+**Visual Masterwork.** When you make a check that relies on your sense of sight, you treat a roll of 9 or lower as a 10.
+
+{{pageNumber,auto}}
+\page
+### Forgewright
+While most artificers are primarily inventors that take up a life of adventure to test experiments in the field, those known as Forgewrights seek out battle for its own sake. Reveling in the thrill of combat, they combine their innovation with their skill as warriors to forge their signature Arcane Armament.
+
+#### Tools of the Trade
+At 1st level, you gain proficiency with martial weapons and smith's tools. If you're already proficient with smith's tools, you instead gain proficiency with another set of artisan's tools of your choice.
+
+#### Arcane Armament
+At 1st level, over the course of 1 hour, which can be during a short or long rest, you can use smith's tools to transform one melee weapon you touch into your Arcane Armament. While you wield your Arcane Armament, you gain the benefits below.
+
+- You can only have one Arcane Armament at a time, and enchanting a second causes the magic of the first to end.
+- You can add your Intelligence modifier to the damage rolls of weapon attacks.
+- The weapon is Finesse and gains the thrown (20/60) and returning properties. After you make a thrown weapon attack with your Arcane Armament, it instantly returns to your hand.
+- It counts as a magical weapon if it was not already.
+
+#### Forgewright Spells
+Starting 2nd level, you learn certain spells at the artificer levels noted in the table below. These don't count against your total number of Spells Known and can't be switched upon gaining a level.
+
+Artificer Level|	Spell
+:-:|:-:
+2nd|	compelled duel, zephyr strike*
+5th|	cloud of daggers, misty step
+9th|	blinding smite, conjure barrage
+13th|	fire shield, staggering smite
+17th|	conjure volley, steel wind strike*
+
+\column
+
+#### Forge of War
+At 3rd level, your signature artifice enhances the power of your weapon. Any weapon attacks you make with your Arcane Armament score a critical hit on a roll of 19 or 20 on the d20.
+
+Also, your total number of Infusions Known increases by 1. However, this bonus Infusion must be applied to your Arcane Armament, and can be applied even if it was a magic weapon.
+
+#### Arcane Jolt
+At 5th level, when you hit a target with your Arcane Armament you can expend a spell slot to deal additional force damage to the target. The extra damage is 2d6 for a 1st-level spell slot, plus 1d6 for each spell level higher than 1st, to a maximum of 6d6.
+
+
+
+#### Extra Attack
+At 5th level, you can attack twice, rather than once, when you take the Attack action on your turn. Moreover, you can cast one of your artificer cantrips in place of one of those attacks.
+
+#### Improved Arcane Jolt
+At 9th level, the magic of your Arcane Armament empowers its strikes. Each time you hit a creature with a weapon attack with your Arcane Armament you deal an additional 1d6 force damage.
+
+This force damage does not count against the maximum amount of damage you can deal with your Arcane Jolt feature.
+
+#### Master Forgewright
+At 15th level, you have become a master among Forgewright artificers and can extend the power within your Arcane Armament to allies. As an action, you can hold aloft your Arcane Armament and, choose a number of weapons equal to your Intelligence modifier (minimum of 1) within 30 feet, one of which can be your Arcane Armament. For the next minute these weapons
+          deal an additional 1d6 force damage on hit.
+
+ Once you use this feature you must finish a long rest before you can use it again. If you have no uses of this feature left, you can expend an artificer spell slot of 3rd-level or higher to use this feature again.
+ 
+ {{imageMaskEdge2,--offset:35%,--rotation:0
+  ![](https://www.gmbinder.com/images/n1Yejcs.jpg){height:55%,top:750px}
+}}
+
+{{pageNumber,auto}}
+\page
+###  Gemstone Channeler
+A gemstone channeler is an artificer that studies the various ways in which a gemstone can store, transfer and mold arcane energy. These artificers use their gemstones to create diverse magical effects using the energy in the surroundings.
+
+#### Tools of the Trade
+At 1st level, you gain proficiency with jeweler’s tools. If you are already proficient in jeweler’s tools, you instead gain proficiency with another set of artisan's tools of your choice.
+
+#### Channeler's Tablet
+At 1st level, you craft a channeling tablet, a portable bronze plate carved with magical runes. The tablet is magical, and this allows you to use your channeling gemstone options. After you use one of those options, the tablet reclaims the gemstone, recharging it and allowing you to use it again.
+
+If you lose this tablet, you can create a new one over the course of three days of work (eight hours each day) by expending 100 gp worth of bronze, magical tints and other raw materials.
+
+#### Channeling Gemstones
+At 1st level, you gain three Channeling Gemstones options: Explosive Gem, Blasting Gem, and one other option of your choice. You gain an additional gem of your choice at 3rd, 5th, 9th, and 15th levels.
+
+At the end of a long rest, you can change the type of damage your explosive gem and blasting gem do. You can choose each type of damage separately, choosing between acid, cold, fire and lightning. Additionally, you add your Intelligence modifier to the damage these gems do. 
+
+To use any of these options, your Channeling Tablet must be within reach. If a Channeling Gemstone option requires a saving throw, the DC is equal to your spell save DC.
+
+**Explosive Gem.** As an action, you can use this gem to create an explosion of elemental energy at a point within 30 feet of you. Each creature within 5 feet of the explosion must succeed on a Dexterity saving throw or take 1d4 damage of the type you chose. This gem's damage increases by 1d4 when you reach certain levels in this class: 3rd level (2d4), 5th level (3d4), 7th level (4d4), 9th level (5d4), 11th level (6d4), 13th level (7d4), 15th level (8d4), 17th level (9d4), and 19th level (10d4).
+**Blasting Gem.** As an action, you can use this gem to blast a creature you can see within 30 feet. Your target must succeed on a Dexterity saving throw or take 1d6 damage of the type you chose. This gem's damage increases by 1d6 at 3rd level (2d6), 5th level (3d6), 7th level (4d6), 9th level (5d6), 11th level (6d6), 13th level (7d6), 15th level (8d6), 17th level (9d6), and 19th level (10d6).
+ **Healing Gem.** As an action, you can use this gem to create a healing ray and hurl it to a creature within 30 feet. Your target regains 1d8 hit points. Once a creature regains hit points from this channeling gem, the creature can't do so again until it finishes a long rest. This gem's healing increases by 1d8 at 3rd level (2d8), 5th level (3d8), 7th level (4d8), 9th level (5d8), 11th level (6d8), 13th level (7d8), 15th level (8d8), 17th level (9d8), and 19th level (10d8).
+  **Smoking Gem.** As an action you can use this gem to create 10-foot radius thick smoke cloud around a point within 30 feet. The smoke blocks vision, including darkvision, persists for 1 minute and then disappears. After using this gem, you can't do so again for 1 minute.
+   **Swift Gem.** As an action you can use this gem to hasten a creature's movements. Choose a creature within 30 feet, that creature's speed is increased by 20 feet for 1 minute. After using this gem, you can't do so again for 1 minute.
+  **Tanglefoot Gem.** As an action, you can use this gem to summon a sticky translucent goo at a point on the ground within 30 feet of you. The goo covers the ground in a 5-foot radius, making it difficult terrain for 1 minute, and any creature that starts its turn on the ground in that area has its speed halved for that turn. After using this gem, you can't do so again for 1 minute.
+  **Thundergem.** As an action, you can use this gem to create a concussive blast of energy on a point you can see within 30 feet of you. Each creature within 10 feet of the center of the blast must succeed on a Constitution saving throw or be knocked prone and pushed 10 feet away from that point.
+  **Stunning Gem.** As an action you can use this gem to create a wave of raw energy in front of you. Each creature within a 15-foot cone in front of you must succeed on a Constitution saving throw or become stunned until the end of your next turn. After using this gem, you can't do so again for 1 minute.
+  **Poisonous Gem.** As an action you can use this gem to create a cloud of poisonous fumes in a point within 30 feet of you. Each creature within 15 feet of that point must succeed on a Constitution saving throw or be poisoned for 1d4 rounds. After using this gem, you can't do so again for 1 minute.
+   **Blinding Gem.** As an action, you can use this gem to create an intense flashing light. Each creature within 15 feet of you must succeed on a Dexterity saving throw or become blinded until the end of your next turn.
+
+#### Gemstone Channeler Spells
+Starting at 2nd level, you learn certain spells at the artificer levels noted in the table below. These don't count against your total number of Spells Known and can't be switched upon gaining a level.
+
+| Artificer Level | Spell |
+|:---:|:---|
+| 2nd | *color spray, magic missile* |
+| 5th | *continual flame, shatter* |
+| 9th | *daylight, erupting earth* |
+| 13th | *sickening radiance, stone shape* |
+| 17th | *dawn, wall of stone* |
+
+#### Arcane Resonance
+At 3rd level, your connection to your Channeler's Tablet deepens. You can now use your tablet as a spellcasting focus for your artificer spells. 
+Additionally, you can expend a spell slot of 1st level or higher to ignore the cooldown (1 minute) of any of your utility gems, allowing you to activate it again during the same combat.
+
+#### Extra Attack
+At 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn. Moreover, you can use one of your Channeling Gemstones that requires an action in place of one of those attacks.
+
+#### Potent Channeling
+Starting at 9th level, you gain the ability to empower the effects of your gems. When you use a Channeling Gemstone that requires one or more creatures to make a saving throw against the effect, you may impose disadvantage on the saving throw.
+
+You can do this a number of times equal to your Intelligence modifier. You regain all expended uses of this feature at the end of a long rest.
+
+#### Expert Channeler
+At 15th level, whenever you use an action (or substitute an attack via your Extra Attack feature) to use a channeling gemstone, you may use a second one for free as part of the same action, as long as only one of the gemstones deals damage.
+
+{{pageNumber,auto}}
+\page
+### Machinist
+While some artificers spend their lives perfecting one solitary creation, Machinist artificer value quantity over quality. They are known for creating their signature Automatons, small clockwork men that are created for a single, but temporary purpose. Armed with their tools, and an army of strange and wondrous servants, Machinists are ready for any challenge.
+
+#### Tools of the Trade
+At 1st level, you gain proficiency with smith's tools. If you are already proficient in smith's tools, you instead gain proficiency with another set of artisan's tools of your choice.
+
+#### Automatons
+At 1st level, you learned to craft unique mechanical servants known as Automatons. At the end of each long rest, you can use your smith's tools to craft a Small Automaton in an unoccupied space within 5 feet of you. This Automaton has the abilities
+of the Agent model detailed on the following page.
+
+Automatons are magical constructs with an Armor Class equal to 12 + your Intelligence modifier and hit points equal to your artificer level + your Intelligence modifier. When they make an ability check or a saving throw, its ability scores are 10 (+0). If mending is cast on one, it regains 2d6 hit points. It disappears if it is reduced to 0 hit points or after 1 hour.
+
+In order to create an additional Automaton before the end of your next long rest, you must expend an artificer spell slot of 1st-level or higher to create one. You can only have a single operational Automaton at any one time. Creating a second Automaton causes any previous ones to instantly fall apart.
+
+Your Automatons can do nothing on their own. However, you can use a bonus action on your turn to activate one of your Automatons so long as you are within 60 feet of it. As part of this bonus action, you can also cause
+your Automation to move up to 25 feet.
+
+#### Machinist Spells
+At 2nd level, you learn certain spells at the artificer levels noted in the table below. These don't count against your total number of Spells Known and can't be switched upon gaining a level.
+
+Artificer Level|	Spell
+:-:|:-:
+2nd|	color spray, unseen servant
+5th|	cloud of daggers, cordon of arrows
+9th|	spirit guardians, tiny servant*
+13th|	faithful hound, summon construct*
+17th|	animate objects, awaken
+
+
+
+#### Innovative Models
+At 3rd level, you have improved your craft. Whenever you create an Automaton, choose one of the Automaton models below:
+
+\column
+
+##### Agent Automaton
+When activated, you see and hear through the Automaton, so long as you are within 100 feet of it. You are deaf and blind to your senses until you end this link as a bonus action.
+
+##### Anchor Automaton
+When activated, the Automaton latches onto a target within 5 feet, reducing the target's speed by a number of feet equal to 5 times your Intelligence modifier (minimum of 5 feet).
+
+##### Armor Automaton
+When activated, the Automaton attaches itself to a willing creature within 5 feet. While attached, that creature's Armor Class cannot be less than 13 + your Intelligence modifier.
+
+##### Artisan Automaton
+This Automaton is proficient with one set of tools, and when activated, it makes an ability check  with its tool set, and adds your Intelligence modifier (minimum of +1) to its roll.
+
+##### Assault Automaton
+When activated, the Automaton makes a melee spell attack against a creature within 5 feet. On hit, it deals bludgeoning damage equal to 1d6 + your Intelligence modifier
+
+#### Arcane Conduit
+At 5th level, you can channel your signature artificer magic through your Automatons. When you cast an artificer spell, you can choose for the spell to originate from an Automaton of your choice, instead of yourself, so long as you are within 60 feet of it.
+
+#### Automated Army
+At 5th level, you now create two Automatons of your choice at the end of each long rest without expending a spell slot, and you can activate up to two Automatons with the same bonus action.
+
+At 15th level, you can create and control up to three.
+
+#### Efficient Artifice
+At 9th level, whenever you expend an artificer spell slot to create an Automaton, you create a number of Automatons equal to the level of the spell slot expended. You cannot use this feature to exceed the maximum number of Automatons you can control.
+
+#### Master Machinist
+At 15th level, you have become a master of Machinist artifice. When you are forced to make a saving throw or are hit by an attack, you can use your reaction to switch places with one of your Automatons within 60 feet. The Automaton then becomes the target of the attack or saving throw.
+{{pageNumber,auto}}
+\page
+### Mechanic
+Artificers known as Mechanics develop their obsession with arcane motors to construct wondrous mechanical vehicles. Donning a signature protective Mechanic's Coat, Mechanic
+Artificers will face any challenge as they design, construct,
+and improve their wondrous motorized Autocycle.
+
+#### Mechanic's Coat
+
+At 1st level, you have crafted the signature coat of a Mechanic to protect you from the hazards of your motorized inventions. Over the course of 1-hour, you can craft a Mechanic's Coat, which is sized to fit you and can be worn over light or medium armor.
+
+While wearing your Coat you gain the following benefits:
+- Once per turn when you take bludgeoning, fire, piercing, thunder, or slashing damage, you can reduce the damage by your Intelligence modifier (minimum of 1 damage).
+
+- Your Coat can store a number of tools, weapons, and Tiny objects equal to your Intelligence modifier. You can draw and stow these objects as a free action on your turn.
+
+- If you are riding a vehicle while wearing your Coat, you cannot be knocked from the vehicle against your will.
+- Your Coat can bear one Infusion for armor or a cloak.
+
+#### Tools of the Trade
+At 1st level, you gain proficiency with smith's tools and land vehicles. If you are already proficient with smith's tools or land vehicles you gain proficiency in a set of artisan's tools of your choice.
+
+\column
+
+#### Mechanic Spells
+At 2nd level you learn certain spells at the Artificer levels noted in the table below. These don't count against your total number of Spells Known and cannot be switched upon gaining a level. 
+Artificer Level| Spell
+:-:|:-:
+2nd| grease, zephyr strike
+5th| enlarge/reduce, heat metal
+9th| haste, thunder step
+13th| freedom of movement , fire shield
+17th| creation, steel wind strike
+
+#### Autocycle
+At 3rd level, your obsession with motorized machinery has borne fruit in the construction of an Autocycle. It is a Medium vehicle with an appearance of your choosing, but its appearance has no effect on its statistics. It can be used as a mount by you, and while you are mounted on it, it shares your initiative, you can use its speed in place of your own, and you can use an action to use one of the actions from the Autocycle's stat block.
+
+Your Autocycle uses the stat block which uses your proficiency bonus (PB), Intelligence modifier (INT), and your Artificer Spell save DC in several places.
+
+Your Autocycle can be used as a spellcasting focus for your
+Artificer spells while you ride it. It can also bear one Infusion
+normally meant for boots (wheels) or armor (chasis).
+
+You can use tinker's or smith's tools to repair any damage
+to your Autocycle. For every 10 minutes you spend on repairs,
+your Autocycle regains hit points equal to your Artificer level.
+If your Autocycle is destroyed, you can construct another
+during the course of a long rest, so long as you have access to
+tinker’s or smith's tools and enough scrap materials.
+
+You can only have one Autocycle at a time, and constructing a second
+causes any previous Autocycles to fall into disrepair.
+{{monster,frame,wide
+## Autocycle
+*Medium Vehicle (200 lb.)*
+___
+**Creature Capacity**:: 1 Medium creature
+**Cargo Capacity**:: 50 lb.
+**Armor Class** :: 13 + your Intelligence modifier
+**Hit Points**  :: 5 + five times your Artificer level
+**Speed**       :: 30 feet
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|13 (+1)|18 (+4)|12 (+1)|0 (-5)|0 (-5)|0 (-5)|
+___
+**Condition Immunities** :: blinded, charmed, deafened, frightened, paralyzed, poisoned, unconscious
+**Damage Immunities**               ::  poison, psychic
+___
+***Empowered Speed.*** The Autocycle gains additional speed equal to 5 times your Intelligence modifier.
+:
+***Expert Handling.*** If you are mounted on the Autocycle, and not incapacitated, you add your PB to any ability check or saving throw the Autocycle is forced to make.
+:
+***Inanimate.*** The Autocycle cannot use any of its actions or its movement on its own. A rider must be mounted on it to use its movement speed, and a rider must use its action to use one of the Autocycle's actions.
+:
+***Jump.*** If the Autocycle moves at least 30 feet in a straight line, it can clear a distance of up to 60 feet when jumping over a chasm, ravine, or other gap.
+:
+***Mechanical Momentum.*** If the Autocycle moves at least 20 ft. straight toward a creature and hits it with a Ram attack on the same turn, that target must succeed on a Strength saving throw or be knocked prone.
+:
+***Prone Deficiency.*** If the Autocycle falls prone, it can't right itself and is incapacitated until a creature uses an action on its turn to stand the Autocycle upright.
+:
+***Swerve.*** When the Autocycle is upright and is forced to make a Dexterity saving throw, its rider can use their reaction to grant it advantage on its saving throw.
+### Rider Actions
+***Ram..*** *Melee Weapon Attack:* +4 +PB to hit, reach 5ft., one target. *On hit*, the attack deals bludgeoning damage equal to 1d10 + 4 + your Intelligence modifier.
+}}
+
+{{pageNumber,auto}}
+\page
+#### Afterburn
+At 5th level, once per turn, when you move within 5 feet of a creature while riding your Autocycle, you can force that creature to make a Dexterity saving throw. On a failure, it takes fire damage equal to 1d10 + your Intelligence modifier.
+
+#### Improved Autocycle
+At 5th level, you are accustomed to fighting while riding your Autocycle.
+You gain the following benefits while riding your Autocycle:
+
+- When you cast a spell of 1st-level or higher with a target of self, your Autocycle also gains the benefits of the spell.
+- When your Autocycle is attacked, you can use a reaction to redirect the attack, causing you to be the attack's target.
+- Your Autocycle can bear two Medium creatures or three Small creatures, and its cargo capacity becomes 100 lb.
+- Riders can complete a short rest while mounted on your Autocycle so long as they do not take any damage, make no saving throws, and are traveling at a normal pace.
+
+#### Expert Rider
+At 9th level, you can easily maneuver the Autocycle in any environment.
+While you are mounted on your Autocycle, its movement ignores difficult terrain imposed by magical and mundane effects, and opportunity attacks that target your Autocycle, and any creatures mounted on it, are made at disadvantage.
+
+Also, when you move within 5 feet of a friendly creature while mounted on your Autocycle, it can use its reaction to mount your Autocycle behind you so long as there is room.
+
+#### Master Mechanic
+At 15th level, your Autocycle gains a flying speed equal to its movement speed, and it can hover. Your Autocycle and its riders also
+cannot be targeted by opportunity attacks while moving.
+
+Moreover, your Afterburn feature deals fire damage equal to 2d10 + your Intelligence modifier.
+
+{{imageMaskEdge1,--offset:5%,--rotation:270
+  ![](https://i.imgur.com/kf5yzv4.png){height:100%,left:-200px}
+}}
+{{pageNumber,auto}}
+\page
+### Miner
+The inventive city of Fervendum was not always known for its argent — an ultra pure ore of silver. But that changed when the gifted Argyrian inventor named Fogec crafted her magnum opus, the earthbreaker gauntlets. Her invention made it much easier to mine the ore pivotal to the creation of most magical tools and weaponry; something the city of craftspeople desperately needed. However, its most important function became apparent when Fervendum’s miners started utilizing their new tools to fight back against the underground creatures; like aggressive kobolds, giant bats, and even rust monsters. The gauntlets’ capabilities have even spurred some to quit mining and become adventurers instead, spreading the popularity of the tool across the country.
+
+#### Tools of the Trade
+At 1st level, you gain proficiency with miner’s tools. If you already have this tool proficiency, you gain proficiency with one other type of artisan’s tools of your choice.
+
+#### Miner Spells  
+At 2nd level you learn certain spells at the Artificer levels noted in the table below. These don't count against your total number of Spells Known and cannot be switched upon gaining a level. 
+Artificer Level| Spell
+:-:|:-:
+2nd | Shield, Thunderous Smite
+5th | Heat Metal, Knock  
+9th | Blinding Smite, Meld Into Stone
+13th | Fire Shield, Stone Shape
+17th | Bigby’s Hand, Passwall
+
+
+\column
+
+#### Earthbreaker Gauntlets
+By 3rd level, your expertise in mineral craftsmanship has led to you being gifted the use of earthbreaker gauntlets, powerful mining tools that help with surviving in the underdark. 
+
+For you, the gauntlets count as simple melee weapons, and also serve as miner’s tools. They take an action to don and doff, and you cannot wield any weapons or a shield while the gauntlets are equipped. 
+
+When you attack with the gauntlets, you can add your Intelligence modifier to damage rolls. 
+
+On a hit, the gauntlets deal 1d6 magical bludgeoning damage. If you use the gauntlets to hit an object or structure, the hit is automatically a critical hit. While wearing the gauntlets, you also gain a +1 bonus to your armour class.
+
+At certain levels, the damage of your earthbreaker gauntlets and the bonus to your armour class increase. These increases are shown in the Earthbreaker
+
+##### Earthbreaker Gauntlets
+Miner Level|	Earthbreaker Gauntlets  Damage Die|	Armour Class Bonus|
+:-:|:-:|:-:
+3rd|	d4|	+1
+5th|	d6|	+2
+9th|d8|	+3
+15th|	d10|	+4
+
+In addition, you can add your Intelligence modifier to any Strength check.
+
+#### Extra Attack
+At 5th level, you can attack twice, rather than once, when you take the Attack action on your turn. Moreover, you can cast one of your artificer cantrips in place of one of those attacks.
+
+#### Seismic Strike
+At 9th level, you learn how to interact with any terrain you stand on, to ensure you always have the upper hand in a scuffle.
+
+As an action, you strike the ground, causing each creature within 15 feet of you to make a dexterity saving throw against your artificer spell save DC. 
+
+On a failed save, a creature takes 3d10 thunder damage, and they all suffer one of the following conditions of your choice:
+
+- The creatures fall prone.
+- The creatures are pushed 15 feet away from you.
+- The creatures are deafened for 1 minute.
+- The creatures have disadvantage on their next attack roll.
+- The creatures have disadvantage on their next Strength or Dexterity saving throw.
+
+You can use this feature a number of times equal to your intelligence modifier, and you regain all uses on a long rest.
+
+{{pageNumber,auto}}
+\page
+
+#### Gauntlet Mastery
+At 15th level, your excavating knowledge and combat experience has further honed your abilities with your earthbreaker gauntlets.
+
+##### Quake Punch
+Your barrage of blows has become especially swift and staggering. 
+As a bonus action, you can make an attack with your earthbreaker gauntlets. 
+
+If you successfully hit a single creature twice on the same turn with your earthbreaker gauntlets, the next attack roll made against it before the end of your next turn is made with advantage.
+
+If you successfully hit a single creature three times on the same turn with your earthbreaker gauntlets, the creature becomes stunned until the end of its next turn.
+
+
+##### Earthen Aegis
+Unlocking the full potential of your gauntlets has allowed you to protect not only yourself, but your allies as well. 
+
+When you are forced to make a Dexterity saving throw, you can use your reaction to raise your gauntlets as a protective mitt to shield you against incoming damage. 
+
+Instead of rolling a Dexterity saving throw, you can instead choose to use your armour class as the total you would have rolled. 
+
+You can use this feature a number of times equal to your proficiency modifier, and you regain all expended uses when you finish a long rest.
+
+In addition, you can choose to extend the benefits of that feature to any creature of your choice within 10 feet of you. 
+
+Those creatures, if they are willing, use your armour class as the total you would have rolled for their Dexterity saving throw.
+
+
+{{imageMaskEdge2,--offset:10%,--rotation:270
+  ![](https://hammling.carrd.co/assets/images/gallery01/384555d5_original.jpg?v=){height:100%,left:240px}
+}}
+
+
+
+{{pageNumber,auto}}
+\page
+### Nuclear Engineer
+While most artificers turn towards the application of the arcane into inventions or otherwise more practical objects, you have turned your attention to the peak of non-magical science in our world: Nuclear Fission. While you do use magic to better control and harness it, your genius has developed a Miniature Nuclear Reactor, which you use to power your abilities.
+
+
+#### Tools of the Trade
+At 1st level, you gain proficiency in Tinker’s Tools and Smith’s tools. If you’re already proficient in these tools, you gain proficiency with another set of artisan’s tools of your choice.
+
+#### Nuclear Spells  
+At 2nd level you learn certain spells at the Artificer levels noted in the table below. These don't count against your total number of Spells Known and cannot be switched upon gaining a level. 
+Artificer Level| Spell
+:-:|:-:
+2nd | Guiding Bolt, Ray of Sickness
+5th | Flaming Sphere, Heat Metal  
+9th | Spirit Guardians, Stinking Cloud
+13th | Sickening Radiance, Blight 
+17th | Destructive Wave (Radiant Only), Dawn
+
+#### Miniature Nuclear Reactor
+
+By 3rd level, your research has led to the creation of a Miniature Nuclear Reactor, infused with your signature arcane magic. It uses the rules below:
+
+**Creating the Reactor.** During a Long Rest, you may spend 1 hour using your Tinker’s Tools to create a Miniature Nuclear Reactor. You can only have 1 nuclear reactor at a time, and only you can use it. Crafting another one renders any previous ones inert. 
+
+**Abilities.** The reactor itself is a tiny object you can hold in one hand. You can use the Reactor as a spellcasting focus. As a bonus action, you can load the reactor with fissile material, creating a 10ft radioactive emanation centered on you. Any creature within the radius other than you takes an amount of radiant damage equal to you Intelligence modifier at the start of their turn. As a bonus action, you can choose to remove the material, deactivating the Reactor.
+
+**Reactor Overload.** As an action, you can shove in an overload of fissile material, causing the radioactive aura around you to intensify. 
+
+Creatures within your radioactive aura must make a Constitution saving throw against your artificer spell save DC, taking 1d8 + Intelligence modifier necrotic damage on a failed save. 
+
+You can designate creatures of your choice; those creatures automatically succeed their save against Reactor Overload.
+
+\column
+
+#### Improved Overload
+At 5th level, you improve your reactor. Your Reactor Overload deals 2d8 necrotic damage, and increases to 3d8 at 11th level, and to 4d8 at 17th level. 
+
+In addition, your reactor’s aura range increases to 15ft.
+
+#### Lethal Overload
+At 9th level, you improve your overload to harm your enemies, while further protecting your allies from this developed backlash. Creatures that succeed their save against your Nuclear Overload feature take half damage.
+
+Additionally, your Reactor Overload ignores resistance to necrotic damage, and treats necrotic immunity as resistance. 
+
+In addition, your reactor’s aura range increases to 20ft.
+
+
+#### Elephant’s Foot
+At 9th level, you have learned how to trigger meltdowns on your Reactor to weaponize it as a last resort. As an action, you can throw your reactor up to 60 ft away from you, which causes it to experience a critical meltdown. 
+
+The reactor emanates the aura from your Miniature Nuclear Reactor feature, and at the start of each of your turns, activates Reactor Overload. 
+
+Once 1 minute has passed, it fully melts down, ceasing any function and becoming unusable.
+
+#### Master Nuclear Engineer
+
+At 15th level, you have become a master of Nuclear Engineer Artifice, gaining the following benefits:
+
+- You become resistant to radiant, necrotic, and poison damage, and have advantage on saves against the poisoned condition.
+- As an action, you can spend a 3rd level spell slot or higher to produce a Miniature Nuclear Reactor.
+- Reactor Overload’s damage cannot be reduced in any way.
+- Your reactor’s aura range increases to 30ft.
+
+{{pageNumber,auto}}
+\page
+### Pilot  
+Known as Pilots, the Artificers that specialize in the creation and construction of Exoskeletons. These arcane constructs enhance their own physical abilities, and eventually grow to become massive suits of mechanical armor that its Pilot can ride inside of. Towering over their enemies on the battlefield, a Pilot and their Exoskeleton is a force to be reckoned with.  
+
+#### Arcane Exoskeleton
+At 1st level, you have crafted a arcane exoskeleton that enhances your movements. Over the course of 1 hour, which can be during a short or long rest, you can use your smith's tools to create an Arcane Exoskeleton which is usable only by you.  
+  
+You can wear your Arcane Exoskeleton over a set of light armor, and while you wear it you gain the benefits below:  
+- You can use your Intelligence, in place of Strength to calculate your long and high jump distances.  
+- You gain a climbing speed equal to your walking speed.  
+- Your unarmed strikes deal 1d6 bludgeoning damage on hit.
+- You can add your Intelligence modifier to the damage rolls of unarmed strikes.
+#### Tools of the Trade
+By 1st level you gain proficiency with smith's tools and both land and water vehicles. If you are already proficient in smith's tools you gain proficiency in a set of artisan's tools of your choice.
+#### Pilot Spells  
+At 2nd level you learn certain spells at the Artificer levels noted in the table below. These don't count against your total number of Spells Known and cannot be switched upon gaining a level. 
+Artificer Level| Spell
+:-:|:-:
+2nd | grease, zephyr strike 
+5th | blur, enlarge/reduce  
+9th | conjure barrage, haste  
+13th | resilient sphere, summon construct  
+17th | conjure volley, wall of force
+
+\column
+
+#### Empowered Exoskeleton
+At 3rd level, as a bonus action, you can empower your Exoskeleton to grow into a suit of wondrous mechanical armor that covers your whole body and grants you the benefits listed below:  
+- You use the Empowered Exoskeleton stat block. It uses your Artificer Spell save DC and proficiency bonus (PB).  
+- Your game statistics are replaced by the statistics in the stat block, but you retain your alignment, personality, ability scores, and hit points. You also retain all of your skill and saving throw proficiencies, in addition to gaining those of the stat block. If the Empowered Exoskeleton has the same proficiency as you, use the higher bonus.  
+- You gain temporary hit points equal to your Artificer level. Temporary hit points you gain from this transformation are dispelled when you return to your normal form.  
+- You retain the benefits of any features from your Artificer class, your race, and other sources, including spellcasting.
+
+Your Arcane Exoskeleton remains empowered in this way for 1 minute. You can empower your Exoskeleton once, and you regain the ability to empower it again when you finish a short or long rest. When you have no uses left, you can expend a spell slot to empower your Exoskeleton again.
+
+{{monster,frame
+## Empowered exoskeleton
+*Medium Construct*
+___
+**Armor Class** :: 13 + your Intelligence modifier 
+**Speed**       :: 30 ft., climb 30 ft.
+___
+**Skills** :: Athletics + PB, Perception + PB  
+**Damage Resistances** :: bludgeoning, piercing, and slashing damage from nonmagical attacks.  
+___
+  
+***Empowered Fists.*** The Exoskeleton's unarmed strikes deal 1d8 bludgeoning damage on hit.  
+:
+
+***Siege Engine.*** The Exoskeleton's weapon attacks deal the maximum possible damage against nonmagical objects and structures instead of rolling.  
+### Actions
+***Grappling Shot.*** The Exoskeleton fires its grappling hook at a target it can see within 30 feet. If the target is an object, it can instantly pull itself to the object, or it can pull a Medium or smaller object to itself. If the target is a Medium or smaller creature, it must succeed on a Strength saving throw or be pulled into a space within 5 feet of the Exoskeleton.   
+}}
+
+
+#### Extra Attack
+At 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn. Moreover, you can cast one of your Artificer cantrips in place of one of these attacks. 
+
+{{pageNumber,auto}}
+\page
+#### Enhanced reflexes 
+By 9th level, your Arcane Exoskeleton improves your physical abilities even further. You gain a bonus to your initiative rolls equal to your Intelligence modifier (minimum of +1 ). Moreover, when you are forced to make a Dexterity saving throw while your Exoskeleton is empowered, you have advantage on your roll.  
+  
+#### Master Pilot
+Starting 15th level, your Exoskeleton serves as an extension of your very body. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and half damage if you fail. You must be wearing your Exoskeleton.  
+  
+In addition, when you empower your Arcane Exoskeleton, you can choose to grow by one size, from Medium to Large for example, so long as there is room for you to do so.
+{{pageNumber,auto}}
+\page
+### Prosthetist
+A Prosthetist is an artificer who views the humanoid form as a canvas for arcane improvement. Unlike other inventors who build external constructs, the Prosthetist focuses on Magical Prostheses that replace or enhance their own limbs with intricate enchantments and mechanical lethality.
+
+#### Tools of the Trade
+At 1st level, you gain proficiency with smith's tools. If you are already proficient with smith's tools, you instead gain proficiency with another set of artisan's tools of your choice.
+
+#### Magical Augmentation
+Also 1st level, you have mastered the art of attaching and utilizing Magical Prostheses. You start with one Magical Prosthesis of your choice from the Adventuring Magical Prostheses table. You can attach this to yourself or a willing creature over the course of 1 minute. 
+
+You are considered proficient with any attack made using a prosthesis property such as Blast, Launch, or Melee.
+
+#### Prosthetist Spells
+Starting 2nd level, you learn certain spells at the artificer levels noted in the table below. These don't count against your total number of Spells Known and can't be switched upon gaining a level.
+
+Artificer Level|	Spell
+:-:|:-:
+2nd|	shield, thunderwave
+5th|	alter self, spider climb
+9th|	haste, lightning bolt
+13th|	freedom of movement, summon construct
+17th|	bigby's hand, steel wind strike
+
+#### Integrated Combat
+At 3rd level, you have learned to use your intellect to guide your mechanical limbs in battle. You can use your Intelligence modifier, in place of Strength or Dexterity, for the attack and damage rolls of any prosthesis property.
+
+Also, when you use a prosthesis property that requires an action, you can use your Artificer Spell Save DC for any required saving throws.
+
+
+
+#### Extra Attack 
+
+At 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn. Moreover, whenever you take the Attack action, you can command your Thrall to make one attack from its stat block in place of one of your attacks.
+
+Additionally, your magical prostheses can no longer be Jammed by external forces.
+\column
+
+
+#### Arcane Integration
+At 9th level, Your magical prostheses are now perfectly compatible with your infusions.
+You can apply your Artificer Infusions to your Magical Prostheses, treating them as the required item even though they are magic items.
+
+Your number of Infusions Known increases by 1, but this additional infusion must be applied to a prosthesis you are wearing.
+
+
+Additionally, at the end of a long rest, you can use your smith's tools to swap your current Magical Prosthesis for a different one from the Adventuring Magical Prostheses table.
+
+
+#### Ultimate Synthesis
+At 15th level, your mastery of the prosthetic arts allows you to unlock the full potential of your mechanical body. Every Magical Prosthesis you wear now gains the Impact and Reach properties if it did not have them already. 
+
+While you are wearing an infused prosthesis, you gain +1 bonus to all saving throws for each magic item you are attuned to.
+
+Additionally, you can now have two Magical Prostheses attached to you simultaneously
+{{pageNumber,auto}}
+\page
+### Puppeteer
+Though all artificers have their quirks, Puppeteers tend to be the strangest subset of arcane inventors.
+
+#### Tools of the Trade
+At 1st level, you gain proficiency with weaver's tools. If you are already proficient with weaver's tools, you instead gain proficiency with another set of artisan's tools of your choice.
+
+#### Arcane Threads
+At 1st level, you have constructed for yourself arcane threads that you can manipulate with magic. You learn the *thorn whip* cantrip, and when you gain the Spellcasting feature at 2nd level, it doesn't count against your total number of Cantrips Known. When you cast thorn whip it has the following changes:
+
+- You must use weaver's tools as the spellcasting focus.
+- You can choose for the spell not to damage a creature.
+- You can target objects and creatures. If the object is smaller than you and is not being worn or carried, it is pulled up to 30 feet to you. If the object is larger than you, you can pull yourself up to 30 feet toward the object.
+
+#### Puppeteer Spells
+Starting 2nd level, you learn certain spells at the artificer levels noted in the table below. These don't count against your total number of Spells Known and can't be switched upon gaining a level.
+
+Artificer Level|	Spell
+:-:|:-:
+2nd|	ensnaring strike, entangle
+5th|	crown of madness, hold person
+9th|	hypnotic pattern, slow
+13th|	dominate beast, grasping vine
+17th|	dominate person, hold monster
+
+\column
+
+#### Marionette Strings
+At 3rd level, you can use your strange artifice to help and control. While holding weaver's tools, you can use an action to cause your Strings to fly and attach to a willing creature within 30 feet.
+
+While a creature is attached to your Strings, you gain the features listed below. Your Marionette Strings detach after 1 minute, if you use a bonus action to detach them, or if you and the attached creature are ever more than 30 feet apart.
+
+**Corrected Strike.** When the attached creature makes a melee attack, you can use your reaction to have them re-roll their attack roll, and they must use the new roll. You must use this reaction before you know if the attack hits or misses.
+
+**Channel Spell.** As an action on your turn, you can cast an artificer spell as if it originated from the attached creature. If the spell requires concentration, you must concentrate on it.
+
+**Strands of Guidance.** When the attached creature makes an ability check using a skill that you are proficient in, they add your Intelligence modifier (minimum of +1) to their roll.
+
+**Strange Movement.** As a bonus action on your turn, you can move the attached creature a number of feet equal to 5 times your Intelligence modifier (minimum of 5 feet). This movement does not provoke opportunity attacks.
+
+#### Strange Strikes
+At 5th level, the control you can exert through your Strings grows. As a reaction when the creature attached to your Strings makes an attack, you can cause them to make one additional attack.
+
+#### Nimble Fingers
+At 9th level, you can have up to two creatures attached to your Strings at one time. You must have a free hand to control each creature. The two creatures can be any distance apart from each other, so long as they remain within the range of your Strings.
+
+In addition, the length of your Marionette Strings, and the range of all of your Puppeteer abilities increases to 60 feet.
+
+#### Master Puppeteer
+At 15th level, you have become a master Puppeteer. As an action, you can use your weaver's tools to cast *Irresistible Dance*, without expending a spell slot, or requiring concentration. However, you can only have once instance of this spell active at a time, and the spell requires one of your free hands to maintain.
+
+Once you cast Irresistible Dance this way, you must finish a short or long rest before you can do so again.
+{{pageNumber,auto}}
+\page
+### Reanimator  
+those Artificers known as Reanimators use their unique abilities to raise their defeated enemies as Thralls. 
+
+#### Reanimated Thrall  
+At 1st level, you can restore a facsimile of life to your slain foes. Over the course of 1 minute, you can perform a special ritual where you use leatherworker's tools on one creature you can touch that has died within the last minute. At the end of this ritual, the target rises as a Thrall as if it had completed a long rest.  
+  
+The creatures you can reanimate as Thralls are limited by your Artificer level, as shown in the Max. CR column of the Potential Thralls table below. You can only reanimate Beasts and Monstrosities as Thralls, but you can learn to reanimate other creature types as you gain levels in this class.  
+  
+Your Thrall uses the stat block it had in life, but it gains the Undead creature type in addition to its original type, it has no Hit Dice, and it gains no benefits from short or long rests.  
+  
+Your Thrall is mindless and obeys your orders completely to the best of its abilities. In combat, it acts on your turn. It can move and use its reaction on its own, but it will only take the Dodge action on its turn unless you use your bonus action to command it to take an action from its stat block or another combat action. If you are incapacitated, your Thrall will act on its own to defend itself, but it will take no further actions.  
+  
+Once your Thrall is slain it cannot be raised as a Thrall again. If you raise a second Thrall while another Thrall lives, your previous Thrall falls to 0 hit points and instantly dies.  
+Artificer Level | Max. CR | Examples 
+:-:|:-:|:-
+1st | 0 | Cat, Raven
+3rd | 1/4| Boar, Panther 
+5th | 1 | Hippogriff, Tiger
+11th | 3 | Manticore, Owlbear 
+17th | 6 | Chimera, Mammoth
+
+
+#### Tools of the Trade 
+At 1st level, you gain proficiency in Nature and leatherworker's tools. If you are already proficient in leatherworker's tools, you gain proficiency with a set of artisan's tools of your choice.  
+
+\column
+
+ 
+#### Reanimator Spell  
+By 2nd level you learn certain spells at the Artificer levels noted in the table below. These don't count against your total number of Spells Known and cannot be switched upon gaining a level.  
+Artificer Level| Spell 
+:-:|:-:
+2nd | false life, longstrider 
+5th | alter self, spider climb 
+9th | haste, life transference 
+13th| blight, polymorph 
+17th| enervation, skill empowerment 
+  
+#### Greater Reanimations
+At 3rd level, as your knowledge of reanimation grows, you learn to create Thralls from more diverse and powerful creatures. Choose a creature type from the list below, which you can reanimate as a Thrall as part of your Reanimated Thrall feature:
+||||
+:-:|:-:|:-:|
+Ooze|Plant|Undead|  
+#### Extra Attack 
+
+At 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn. Moreover, whenever you take the Attack action, you can command your Thrall to make one attack from its stat block in place of one of your attacks.
+
+#### Advanced Reanmations  
+At 9th level, you can raise some of the most powerful mortal creatures in existence to serve you as Thralls. Choose one creature type from the list below, which you can reanimate as a Thrall as part of your Reanimated Thrall feature:
+||||
+:-:|:-:|:-:|
+Aberration|Dragon|Giant  
+  
+ 
+#### Masterwork Thrall  
+At 15th level, you can keep your Thralls alive so long as your power lasts. When your Thrall is reduced to 0 hit points, but not killed outright, you can spend a spell slot of 1-level or higher to grant your Thrall a number of hit points equal to 10 times the level of the spell slot you spend as part of the reaction.
+
+
+{{pageNumber,auto}}
+\page
+### Venomist  
+Fascinated by toxins, venoms, and poisons that are produced by monsters and animals, Venomists are Artificers who learn to reproduce these potent poisons for their own personal use. Adept at harvesting and weaponizing the venom of monsters, these Artificers can also create their own signature poisons.  
+ 
+#### Tools of the Trade
+At 1st level, you gain proficiency with poisoner's kits and blow guns. If you are already proficient in poisoner's kits, you instead gain proficiency with another set of artisan's tools of your choice.  
+  
+Moreover, whenever you make a poisoner's kit check and you have at least 10 minutes to complete the check, you can treat a roll of 9 or lower on the d20 as a 10.  
+  
+#### Poisoner Adept 
+At 1st level, you have spent a great deal of time working with, creating and weaponizing various poisons. You learn the poison spray cantrip, but it doesrit count against your number of Cantrips Known. When you cast poison spray using a poisoner's kit as the spellcasting focus and target a creature you touch, it has disadvantage on its Constitution saving throw:  
+  
+In addition. you can take the Use an Object action as a bonus action on each of your turns. However, you can only use it to use a poisoner's kit or to apply a vial of poison.  
+  
+Finally, any poisons that you craft use your Artificer Spell save DC in place of the normal DC for that poison.
+#### Venomist Spells  
+At 2nd level, you learn certain spells at the Artificer levels noted in the table below. These dor't count against your total number of Spells Known and cannot be switched upon gaining a level  
+  
+Artificer Level| Spells 
+:-:|:-:
+2nd|detect poison & disease, ray of sickness 
+5th |protection from poison, ray of enfeeblement
+9th | bestow curse, enemies abound  
+13th | blight, vitriolic sphere  
+17th | contagion, negative energy flood  
+  
+\column
+
+#### Infused Poisons  
+By 3rd level, as your knowledge of poisons has grown, you have learned to create your own signature poisons as detailed below:  
+**Venomist Infusions.** Your number of Infusions Known inereases by one, but the extra infusion must be from the list of Venomist Infusions at the end of this Specialization.  
+  
+Your total number of Infusions Known increases by one again 9th level and at 15 th level in this class. Both of these additional Infusions must also be chosen from the list of Venomist Infusions at the end of this Specialization.  
+  
+**Infusing a Poison.** At the end of each long rest, you can use a poisoner's kit to create one vial of each Infused Poison you know without expending a spell slot. Any Infused Poisons you create lose their potency at the end of your next long rest.  
+  
+As an action, you can use a poisoner's kit to create another vial of one Infused Poison that you know from a Venomist Infusion by expending the spell slot listed in its description.
+#### Potent Venom 
+At 5th level, whenever one of your poisons or an Artificer spell cast by you deals acid, necrotic, or poison damage, you can add your Intelligence modifier (minimum of +1 ) to one damage roll.  
+  
+#### Inoculation 
+Starting 9th level, your work with poisons of all kinds has made you especially resistant to their effects. You gain immunity to the poisoned condition and gain resistance to acid and poison damage.  
+  
+#### Deadly Toxins  
+Begining 15th level, whenever you, or a poison that you have created, deals acid, poison, or necrotic damage, you can treat a roll of 1 or 2 on any of its damage dice as a 3
+
+
+
+
+{{pageNumber,auto}}
+\page
+## Venomist Infusions 
+Below are is the list of Infusions available only to Artificers of the Venomist Specialization. If an Infusion has a prerequisite level you can learn it when you meet that prerequisite level  
+  
+#### Craft Minor Porson  
+*Prerequisites: 3rd level Artificer*
+:
+*Item: One empty vial filled with water*
+
+As an action, you can expend a 1st-level spell slot and use a poisoner's kit to craft one vial of Minor Poison, which retains its potency until the end of your next long rest.  
+  
+A creature can take the Use an Object action to expend the vial and apply it to one weapon or a piece of ammunition it is holding. On its next hit, the weapon deals poison damage in place of its normal damage, and the target must succeed on a Constitution saving throw or it is poisoned for 1 minute.  
+  
+The poisoned creature can repeat this saving throw at the end of each of its turns, ending the effect on a success.  
+  
+#### Replicate Poison  
+*Prerequisites: 3rd level Artificer*
+:
+Over the course of a long rest, you can use a poisoner's kit to examine a vial of poison you touch. At the end of the long rest, you can replace this Infusion with the knowledge of how to create that poison. Once you do so, you can craft one vial of that poison at the end of each long rest.  
+  
+You can learn this Infusion multiple times, using it to learn to recreate various poisons that you discover, buy, or craft.  
+  
+#### Craft Greater Poison  
+*Prerequisites: 5th level Artificer*  
+:
+*Item: One empty vial filled with water*
+
+As an action on your turn, you can expend a 2nd-level spell slot and use a poisoner's kit to craft a vial of Greater Poison, which retains its potency until the end of your next long rest.  
+  
+A creature can take the Use an Object action to expend the vial and apply it to one weapon or a piece of ammunition it is holding. On its next hit, it deals an additional 2d6 poison damage, and the target must succeed on a Constitution saving throw or suffer the following effects for 1 minute:  
+- It has disadvantage on attack rolls and ability checks.  
+- Its speed is halved, and it cannot take reactions.  
+  
+The poisoned creature can repeat this saving throw at the end of each of its turns. On a success, these effects end, but on a failure, it takes an additional 2d6 poison damage.
+
+\column
+
+#### Craft Advanced Poison  
+*Prerequisites: 9th level Artificer*
+:
+*Item: One emply vial filled with water*
+
+As an action, you can expend a 3rd-level spell slot and use your poisoner's kit to craft a vial of Advanced Poison, which retains its potency until the end of your next long rest.  
+A creature can take the Use an Object action to expend the vial and apply it to one weapon or a piece of ammunition it is holding On hit, it deals an additional 6d6 acid damage, and the target must succeed on a Constitution saving throw or have disadvantage on all attack rolls and ability checks for 1 hour. If it fails by 5 or more, it is also blinded for the duration.  
+As an action, the poisoned creature can repeat this saving throw. On a success, these effects end, but on a failed save, it takes an additional 2d6 acid damage. 
+
+#### Craft Masterwork Poison  
+*Prerequisites: 15th level Artificer*
+:
+*ltem: One empty vial filled with water*
+
+As an action, you can expend a 4th-level spell slot and use your poisoner's kit to craft a vial of Masterwork Poison, that retains its potency until the end of your next long rest.  
+A creature can take the Use an Object action to expend the vial and apply it to one weapon or a piece of ammunition it is holding. On hit, it deals an additional 10d6 necrotic damage, and the tanget must succeed on a Constitution saving throw or have disadvantage on all attack rolls and ability checks until a spell of 5 th-level or higher is used to neutralize this Masterwork Poison poison (such as *greater restoration*)  
+If the creature fails by 5 or more, it is incapacitated and it cannot move or speak until it is cured of this poison.
+{{pageNumber,auto}}
+\page
+### Wandslinger
+Wandslingers use their ingenuity and artistic minds to craft wondrous arcane weapons. What they lack in flexibility and subtlety, they make up for in overwhelming arcane firepower. Wandslingers are marked by their signature Arcane Sidearm. For some, these are intricately wands, bow or staffs, and for others, they are expertly crafted runic iron cannons.
+
+#### Tools of the Trade
+At 1st level, you gain proficiency with woodcarver's tools. If you are already proficient with woodcarver's tools, you instead gain proficiency with another set of artisan's tools of your choice.
+
+#### Arcane Sidearm
+At 1st level, you have constructed for yourself a Wandslinger's signature weapon. At the end of a long rest, you can use woodcarver's tools to craft an Arcane Sidearm. It resembles a Tiny object of your choosing, though its appearance has no effect on its abilities. Many Wandslingers craft Sidearms that resemble delicate wands, rods, or even eldritch cannons.
+
+Your Arcane Sidearm is a simple weapon with the ranged (120/300) property, and you use your Dexterity for its attack rolls. On a hit, it deals piercing damage equal to 1d8 + your Dexterity modifier. 
+
+Additionally, you add your Intelligence modifier to the damage roll.
+When you gain the Spellcasting feature at 2nd level, your Arcane Sidearm can be used as a spellcasting focus by you.
+
+You can only have one Arcane Sidearm at a time. Creating another Arcane Sidearm renders that magic of the first inert.
+
+#### Quickdraw
+By 1st level, when you roll initiative and are not surprised or incapacitated, you can use your reaction to make one attack with your Arcane Sidearm, or another magic wand, rod, or staff that you are holding before any other creatures act.
+
+#### Wandslinger Spells
+Starting 2nd level, you learn certain spells at the artificer levels noted in the table below. These don't count against your total number of Spells Known and can't be switched upon gaining a level.
+
+Artificer Level|	Spell
+:-:|:-:
+2nd|	shield, thunderwave
+5th|	blur, shatter
+9th|	counterspell, lightning bolt
+13th|	vitriolic sphere, wall of fire
+17th|	cone of cold, wall of force
+
+#### Arcane Duelist
+At 3rd level, you have begun to master the signature abilities of an arcane duelist. As an action on each of your turns, you can use your Arcane Sidearm to use one of the abilities listed below.
+
+If one of these abilities forces a creature to make a saving throw, it does so against your artificer Spell save DC.
+
+###### Shocking Burst
+Your Arcane Sidearm conjures a burst of lightning at a point you can see within 60 feet, forcing creatures within 5 feet to make a Dexterity saving throw. Creatures take 2d6 lightning damage on a failure, and half as much damage on a success.
+
+###### Thunderous Blast
+Your Arcane Sidearm emits a blast of magic in an adjacent 15-foot cone. Any creatures in that area must succeed on a Dexterity saving throw or take 2d6 thunder damage.
+
+Any Large or smaller creature that fails this saving throw is also knocked back 10 feet away from you in a straight line.
+
+###### Wandslinger's Ward
+Your Arcane Sidearm produces a field that grants you, or a creature of your choice within 10 feet of you, temporary hit points equal to your Intelligence modifier (minimum of 1).
+
+#### Spell Slinger
+At 5th level, you wield your Arcane Sidearm with deadly skill. When you use your action to make an attack with your Arcane Sidearm, you can make two attacks instead of just one.
+
+When you take the Attack action on your turn, you can replace one of your attacks with the Arcane Duelist action.
+
+As you gain artificer levels, the number of Arcane Sidearm attacks you make as part of a single action increases: at 11th level (3), and 17th level (4).
+
+In addition, Your Arcane Sidearm counts as magical for the sake of overcoming resistance and immunity to non-magical attacks.
+
+#### Expert Duelist
+At 9th level, the amount of lightning or thunder damage dealt, or temporary hit points granted by all three Arcane
+Duelist action features increases by 1d6.
+
+#### Master Wandslinger
+At 15th level, you have become a master of Wandslinger
+artifice. You gain the benefits listed below:
+
+- When you use your action to make an Arcane Sidearm attack, you can cast an artificer spell of 1st-level or higher as a bonus action on that turn.
+- You can choose for your Arcane Sidearm to deal force damage in place of their normal damage.
+- When you cast an artificer spell and use your Arcane Sidearm as the spellcasting focus, you can choose for that spell to deal force damage in place of its normal damage type.
+- As a reaction when you, or a creature within 10 feet is targeted by a spell, you you can grant all creatures within 10 feet of you three-quarters cover against that spell.
+
+{{pageNumber,auto}}
+\page
+## Artificer Infusions
+Below are the Infusions available to an artificer. If an Infusion has an artificer level prerequisite, you can learn it at the same time that you meet the prerequisite. Your Infusions use your artificer spellcasting ability and your artificer Spell save DC.
+
+#### Adjustable Tool Set
+
+*Item: a set of artisan's tools (requires attunement)*
+
+The wielder is considered proficient with this magical set
+of tools, and as an action, they can transform this set of
+tools into another set of artisan's tools of their choice.
+
+At 11th level, this magical tool set grants a +1 bonus to ability checks. This bonus increases to +2 at 17th level.
+
+#### Arm Launcher
+*Item: A glove or gauntlet*
+:
+This tiny magical launcher can be loaded with a Tiny
+object, including but not limited to; ball bearings, a vial of acid, or holy water. As a bonus action, the wearer can activate the launcher and make a ranged weapon attack at a target up to 20 feet away. The launcher can be reloaded as an action.
+
+#### Enhanced Arcane Focus
+*Item: A rod, staff, or wand (requires attunement)*
+:
+This item grants the user +1 bonus to spell attack rolls, and they can ignore half cover when making spell attacks.
+
+This bonus increases at 11th level (+2) and 17th level (+3).
+
+#### Enhanced Defense
+*Item: A suit of armor or a shield*
+:
+This item grants the user +1 bonus to their armor class while wearing (armor) or wielding (shield) this infused item.
+
+This bonus increases at 11th level (+2) and 17th level (+3).
+
+#### Enhanced Instrument
+*Item: a musical instrument (requires attunement)*
+:
+The wielder is proficient with this magic instrument and can use it as a spellcasting focus. Whenever they make an ability check using this instrument, they gain a bonus to the roll equal to your Intelligence modifier (minimum of +1).
+
+At 11th level, this magic instrument grants a +1 bonus to spell attack rolls. This bonus increases to +2 at 17th level.
+
+#### Enhanced Tool Set
+*Item: a set of tools you are proficient with*
+:
+Whenever the wielder uses these tools as part of an ability check, it gains a bonus to that ability check equal to your Intelligence modifier (minimum of +1)
+
+#### Enhanced Weapon
+*Item: A simple or martial weapon*
+:
+This magic weapon grants the user a +1 bonus to any attack and damage rolls they make with this infused weapon.
+
+This bonus increases at 11th level (+2) and 17th level (+3).
+
+#### Featherweight Belt
+*Item: A belt or cloak (requires attunement)*
+:
+When worn, this magic belt reduces the user to one-tenth
+of their weight without decreasing their physical abilities.
+
+At 11th level, it reduces the wearer to one-hundredth of their weight without decreasing their physical abilities.
+
+#### Featherweight Weapon
+*Item: A heavy or two-handed weapon (requires attunement)*
+:
+This magic weapon loses the heavy property if it had it. If it did not have the heavy property, it gains the light property.
+
+At 11th level, this weapon grants a +1 bonus to its attack and damage rolls. This bonus increases to +2 at 17th level.
+
+#### Goggles of Clearsight
+*Item: A pair of goggles or glasses*
+:
+While wearing these goggles, the wearer can see through areas that are lightly obscured by magical or mundane phenomena without disadvantage on Perception checks.
+
+In addition, the wearer no longer suffers the negative effects of the Sunlight Sensitivity trait, and they have advantage on saving throws to resist becoming blinded.
+
+#### Power Whip
+*Item: A whip or chain*
+:
+This magic weapon grants a +1 bonus to attack and damage rolls made with it, and its damage die becomes a 1d8.
+
+This bonus increases at 11th level (+2) and 17th level (+3).
+
+#### Repeating Shot
+*Item: A ranged weapon (requires attunement)*
+:
+This magic weapon ignores the loading property if it has it. If you load no ammunition into the weapon it produces its own, creating magic ammunition when you make a ranged attack. The ammunition vanishes after it either hits or misses.
+
+At 11th level, this weapon grants a +1 bonus to its attack
+     and damage rolls. This bonus increases to +2 at 17th level.
+{{pageNumber,auto}}
+\page
+#### Returning Weapon
+*Item: A weapon with the thrown property*
+:
+After making a ranged attack this magic weapon, regardless if the attack hits or misses its target, it instantaneously returns to its wielder's hand.
+
+At 11th level this weapon grants a +1 bonus to its attack and damage rolls. This bonus increases to +2 at 17th level.
+
+#### Ring of Proficiency
+*Item: A ring (requires attunement)*
+:
+The wearer of this ring gains proficiency in one skill or set of tools that you are proficient in (your choice upon infusion).
+
+#### Homing Weapon
+*Prerequisite: 5th-level artificer*
+:
+*Item: A weapon with the ranged or thrown property*
+:
+The wielder of this magic weapon ignores the disadvantage
+           imposed when attacking at the weapon's long range.
+
+At 11th level it gains a +1 bonus to its attack and damage rolls. This bonus becomes +2 at 17th level.
+
+#### Immovable Boots
+*Prerequisite: 5th-level artificer*
+:
+*Item: A pair of boots (requires attunement)*
+:
+When the wearer is standing on a flat surface, it can use an action to activate the boots, magically fixing the wearer in place. Until the wearer uses an action to deactivate the boots, they do not move, even if they are defying gravity.
+
+A creature can use an action to make a DC 30 Strength check, separating the boots from the surface on a success.
+
+#### Infiltrator Armor
+*Prerequisite: 5th-level artificer*
+:
+*Item: A suit of armor (requires attunement)*
+:
+This magic suit of armor retains its weight but is formfitting and wearable under clothes. The wearer of this armor has advantage on any Dexterity (Stealth) checks.
+
+If this armor normally imposes disadvantage on Stealth checks, the advantage and disadvantage cancel each other.
+
+\column
+
+#### Light Blade
+*Prerequisite: 5th-level artificer*
+:
+*Item: A sword hilt or wand (requires attunement)*
+:
+While grasping the object, the wielder can use a bonus action to cause a blade of pure radiance to spring into existence, or disappear, from the end of this object. While the blade exists, this magic item is considered a simple melee weapon with the finesse property, and it deals 1d8 radiant damage on hit.
+
+The luminous blade emits bright light in a 15-foot radius and dim light for an additional 15 feet beyond that radius.
+
+At 11th level, this weapon grants a +1 bonus to its attack and damage rolls. This bonus increases to +2 at 17th level.
+
+#### Many-Handed Pouch
+*Prerequisite: 5th-level artificer*
+:
+*Item: individual pouches equal to your Intelligence modifier*
+:
+These magic pouches all share one interdimensional space with the capacity of a single pouch. Reaching into an infused pouch allows access to this shared storage space. A pouch operates as long as it is within 100 miles of another pouch; the pouch is otherwise empty and won't accept contents.
+
+If the Infusion ends, the items stored in the shared space all move into one of the pouches, determined at random.
+
+#### Mind Sharpener
+*Prerequisite: 5th-level artificer*
+:
+*Item: A suit of armor or robes*
+:
+This item can send a jolt to the wearer to refocus their mind. The item has 4 charges. When the wearer fails a Constitution saving throw to maintain concentration on a spell, they can use their reaction to spend 1 of the item's charges to succeed instead. The item regains all expended charges at dawn.
+
+#### Minor Arcane Item
+*Prerequisite: 5th-level artificer*
+:
+*Item: a Tiny item or tool (requires attunement)*
+:
+You imbue this object with a minor amount of arcane power. Each time you imbue this Infusion into an object, you choose a 1st-level artificer spell you know to imbue. A creature that holds the item can cast the spell imbued within, using the spell's normal casting time and your spellcasting ability.
+
+If the spell requires concentration, that creature holding the item must concentrate on the spell for its duration.
+This item holds a number of charges of the imbued spell equal to your Intelligence modifier (minimum of 1), and it regains all expended charges each day at dawn.
+{{pageNumber,auto}}
+\page
+#### Radiant Weapon
+*Prerequisite: 5th-level artificer*
+:
+*Item: A melee weapon (requires attunement)*
+:
+As a bonus action, the wielder can cause this weapon to emit bright light in a 30-foot radius, and dim light 30 feet beyond that. The wielder can extinguish the light as a bonus action.
+
+This magical weapon has 4 charges. When its wielder hits a creature with this weapon, it can expend 1 charge and force its target to make a Constitution saving throw. On a failure, it is blinded until the beginning of your next turn. This weapon regains all expended charges at dawn.
+
+At 11th level, this weapon grants a +1 bonus to its attack and damage rolls. This bonus increases to +2 at 17th level.
+
+#### Repulsion Gauntlets
+*Prerequisite: 5th-level artificer*
+:
+*Item: A pair of gloves or gauntlets (requires attunement)*
+:
+These magical gauntlets have 4 charges. When their wearer hits a creature with an unarmed strike or gauntlet attack, it can expend 1 charge and force a Large or smaller target to make a Strength saving throw. On a failed save, the creature is knocked back 15 feet in a straight line. These gauntlets regain all of their expended charges at dawn.
+
+At 11th level, this weapon grants a +1 bonus to its attack and damage rolls. This bonus increases to +2 at 17th level.
+
+#### Repulsion Shield
+*Prerequisite: 5th-level artificer*
+:
+*Item: A shield (requires attunement)*
+:
+This magic shield has 4 charges. When the wielder is hit by
+a melee attack, they can force a Large or smaller attacker to make a Strength saving throw. On a failed save, the attacker is knocked back 15 feet in a straight line and falls prone. The shield regains all of its expended charges at dawn.
+
+At 11th level this magic shield grants a +1 bonus to Armor Class. This Armor Class bonus increases to +2 at 17th level.
+
+#### Ring of Spell Refueling
+*Prerequisite: 5th-level artificer*
+:
+*Item: A ring (requires attunement)*
+:
+While wearing this magic ring, the wearer can use an action to recover one of its expended spell slots of 3rd-level or lower.
+
+Once used, the ring can't be used again until the next dawn.
+
+\column
+
+#### Skyfall Harness
+*Prerequisite: 5th-level artificer*
+:
+*Item: a cloak, vest, or harness*
+:
+This magic harness automatically sizes to fit the wearer and can be worn over clothing or light armor. It has wing-like fins between its limbs that slow falls and allow wearers to glide.
+
+When the wearer falls and isn't incapacitated, it subtracts up to 100 feet from its fall when calculating falling damage, and it can glide 2 feet horizontally every 1 foot that it falls.
+
+#### Wall Shield
+*Prerequisite: 5th-level artificer*
+:
+*Item: a shield (requires attunement)*
+:
+This magical shield has 4 charges. As an action, the wielder can expend 1 charge and slam the shield into the ground to produce the effect of wall of stone. However, it only conjures a number of panels equal to your Intelligence modifier.
+
+When cast in this way, wall of stone does not require the wielder's concentration. The wielder can end the spell early by using its action to remove this shield from the ground.
+
+#### War Gauntlet
+*Prerequisite: 5th-level artificer*
+:
+*Item: An armored gauntlet and a martial weapon or shield*
+:
+You attach either a martial weapon lacking the heavy or two handed properties, or a shield, to the gauntlet. The wearer gains proficiency with the attached item, and it cannot be removed from the gauntlet while this Infusion is active.
+
+At 11th level, this weapon grants a +1 bonus to its attack and damage rolls. This bonus increases to +2 at 17th level.
+
+#### Armor of Magical Strength
+*Prerequisite: 11th-level artificer*
+:
+*Item: a suit of armor (requires attunement)*
+:
+This magical armor grants its wearer a +1 bonus to its Armor Class, and its wearer can also use its Intelligence, in place of Strength, for Strength-based ability checks or saving throws.
+
+This armor also has 4 charges. As a reaction when the wearer would be knocked prone or moved against their will, they can expend 1 charge to remain standing or not move. The armor regains all of its expended charges at dawn.
+
+At 17th level, this armor grants a +2 bonus to Armor Class.
+{{pageNumber,auto}}
+\page
+#### Boots of the Winding Path
+*Prerequisite: 11th-level artificer*
+:
+*Item: A pair of boots (requires attunement)*
+:
+The wearer of these magical boots can use a bonus action to teleport up to 15 feet to an unoccupied space they can see.
+
+#### Chameleon Armor
+*Prerequisite:11th-level artificer*
+:
+*Item: a suit of armor (requires attunement)*
+:
+This armor grants its wearer a +1 bonus to its Armor Class.
+
+This armor also has 4 charges. While wearing this armor the wearer can use an action to expend charges and cast one of the following spells, targeting only themselves: invisibility (2 charges) or greater invisibility (4 charges). This magical armor regains all of its expended charges daily at dawn.
+
+At 17th level, this armor grants a +2 bonus to Armor Class.
+
+#### Collar of Taming
+*Prerequisite: 11th-level artificer*
+:
+*Item: a metal circlet or collar (requires attunement)*
+:
+The magic of this collar can tame even the wildest animals. You, and only you, can control any beast wearing this collar as if it were a trained mount. This collar does not work on beasts with an Intelligence score greater than your own.
+
+At 17th level, this magic collar allows you to control any monstrosity with an Intelligence score lower than your own.
+
+#### Elemental Weapon
+*Prerequisite: 11th-level artificer*
+:
+*Item: A melee weapon (requires attunement)*
+:
+You infuse this magic weapon with elemental energy. Upon infusion, choose a command word and one of the following damage types: acid, cold, fire, poison, or lightning. As a bonus action, the wielder can speak the weapon's command word and cause elemental energy to burst forth from the weapon until the command word is spoken again. On hit, the weapon deals an additional 1d6 of the chosen elemental damage.
+
+At 17th level, the bonus elemental damage becomes 2d6.
+
+\column
+
+#### Greater Arcane Item
+*Prerequisite: 11th-level artificer*
+:
+*Item: a Tiny item or tool (requires attunement)*
+:
+You imbue this object with a greater amount of arcane power. Each time you imbue this Infusion into an object, you choose a 2nd-level artificer spell you know to imbue. A creature that holds the item can cast the spell imbued within, using the spell's normal casting time and your spellcasting ability.
+
+If the spell requires concentration, that creature holding the item must concentrate on the spell for its duration.
+
+This item holds a number of charges of the imbued spell equal to your Intelligence modifier (minimum of 1), and it regains all expended charges each day at dawn.
+
+#### Helm of Awareness
+*Prerequisite: 11th-level artificer*
+:
+*Item: A helm, hat, or diadem (requires attunement)*
+:
+The wearer of this helm gains a bonus to its initiative rolls equal to your Intelligence modifier (minimum of +1), and cannot be surprised, so long as they are not incapacitated.
+
+#### Metamorphosis Armor
+*Prerequisite: 11th-level artificer*
+:
+*Item: a suit of armor (requires attunement)*
+:
+This magic suit of armor has 4 charges. As an action, the wearer can expend a charge to cast the enlarge/reduce spell, targeting only themselves, without expending a spell slot or requiring concentration. Expending a charge to cast the spell again ends the effect. This armor regains all charges at dawn.
+
+At 17th level, the wearer can expend up to two charges at one time to reduce or grow their size by two size categories.
+
+#### Resistant Armor
+*Prerequisite: 11th-level artificer*
+:
+*Item: A suit of armor (requires attunement)*
+:
+This magical armor grants its wearer a +1 bonus to its Armor Class, and its wearer has resistance to one of the following damage types; acid, cold, fire, lightning, necrotic, poison, radiant, or thunder (your choice upon Infusion).
+
+At 17th level, this armor grants a +2 bonus to Armor Class, and you can choose for this magical armor to grant its wearer resistance to psychic or force damage.
+{{pageNumber,auto}}
+\page
+#### Ring of the Elements
+*Prerequisite: 11th-level artificer*
+:
+*Item: A ring (requires attunement)*
+:
+Upon infusing this magic ring you select one of the following damage types: acid, cold, fire, poison, lightning, or thunder.
+
+When the wearer casts a spell of 3rd-level or lower that deals that damage type, it can activate the ring to cause its spell to deal maximum damage to one target of that spell.
+
+Once the wearer uses this ring to maximize the damage of a spell it cannot be used again until the next dawn.
+
+At 17th level, it can be used on spells of 5th-level or lower.
+
+#### Vampiric Weapon
+*Prerequisite: 11th-level artificer*
+:
+*Item: A melee weapon (requires attunement)*
+
+When the wielder scores a critical hit with this weapon, the target takes an extra 2d6 necrotic damage, and the wielder gains temporary hit points equal to the necrotic damage dealt. Undead are immune to the effects of this Infusion.
+
+At 17th level, the extra necrotic damage becomes 4d6.
+
+#### Boots of Destruction
+*Prerequisite: 17th-level artificer*
+:
+*Item: a pair of boots (requires attunement)*
+:
+While wearing these magic boots, the wearer can use an action to stomp the ground and cast destructive wave without expending a spell slot. Once they do so, they must finish a short or long rest before they can do so again.
+
+#### Gauntlets of the Guardian
+*Prerequisite: 17th-level artificer*
+:
+*Item: A pair of gauntlets (requires attunement)*
+:
+As a reaction when a Huge or smaller creature ends its turn within 30 feet of the wearer, it can force that creature to make a Strength saving throw. On a failed save, the target is pulled 30 feet toward the wielder to an unoccupied space of its choice. If they pull the creature within 5 feet, the wielder can make a single melee weapon attack against it.
+
+#### Helm of Mind Shielding
+*Prerequisite: 17th-level artificer*
+:
+*Item: A helm, hat, or diadem (requires attunement)*
+:
+The wearer of this magic helm gains resistance to psychic damage and immunity to both the charmed and frightened conditions and magic that allows another creature to read their thoughts or telepathically communicate with them.
+
+\column
+
+#### Masterwork Arcane Item
+*Prerequisite: 17th-level artificer*
+:
+*Item: a Tiny item or tool (requires attunement)*
+:
+You imbue this object with wondrous arcane power. Each time you imbue this Infusion into an object, you choose a 3rd-level artificer spell you know to imbue. A creature that holds the item can cast the spell imbued within, using the spell's normal casting time and your spellcasting ability.
+
+If the spell requires concentration, that creature holding the item must concentrate on the spell for its duration.
+
+This item holds a number of charges of the imbued spell equal to your Intelligence modifier (minimum of 1), and it regains all expended charges each day at dawn.
+
+#### Masterwork Homunculus
+*Prerequisite: 17th-level artificer*
+:
+You have discovered the secrets to the creation of life. You learn the clone spell. It counts as an artificer spell for you, but it doesn't count against your total number of Spells Known. You can cast clone without expending a spell slot as long as you have the material components available. Your clone only takes 12 days to reach maturity, but you can only have one.
+
+If you replace this Infusion with another at any point before your clone reaches maturity, the spell immediately fails.
+
+#### Mystic Armament
+*Prerequisite: 17th-level artificer*
+:
+*Item: a melee weapon (requires attunement)*
+:
+The wielder of this weapon can cast steel windstrike without expending a spell slot, so long as they use this magic weapon as the spellcasting focus for the spell.
+
+Once steel wind strike is cast in this way, the wielder must finish a short or long rest before it can cast it this way again.
+
+#### Mystic Shot
+*Prerequisite: 17th-level artificer*
+:
+*Item: a ranged weapon (requires attunement)*
+:
+The wielder of this weapon can cast swift quiver without expending a spell slot, so long as they use this magic weapon as the spellcasting focus for the spell.
+
+Once swift quiver is cast in this way, the wielder must finish a short or long rest before it can cast it this way again.
+
+
+##### Space Age Ranged Weapon Masteries
+| Mastery | Weapons
+|:---|:---|
+Dazing| Avia-Ra Sunstaff	
+Grazing| Magnus Opum, REC Gun	
+Pushing| Ion Cannon, Concussion Rifle, Singularity Emitter			
+Sapping| Blitz Cannon	
+Slowing| Phaser, Standard Carbine, Diode Beam	
+Toppling| Impactor Cannon, Plasma Launcher	
+Vexing| Swarm Pistol, Psionic Helm		
+Wounding| Repeater, Volcanic
+}}
+
+{{pageNumber,auto}}
+\page
+## Prosthesis System
+
+
+along with unique rules for equipping and using such items. In the context of this book, a prosthesis is
+an item that functions as a replacement or augmentation for
+a limb or other body part. 
+
+Prostheses are divided into two categories: mundane and magical.
+
+
+### Using a Prosthesis
+The following rules govern the general use of a prosthesis.
+
+#### Attaching and Removing a Prosthesis
+Over the course of 1 minute, a creature can attach or remove a prosthesis from itself, another willing creature, or an Unconscious creature within reach.
+
+
+#### Jamming a Prosthesis
+Over the course of 1 minute, a creature can jam a prosthesis attached to a willing or Unconscious creature within reach. While jammed, a prosthesis continues to function as a limb, but none of its properties can be used.
+
+A prosthesis remains jammed until a creature spends 10 minutes unjamming it, a process that requires both of the creature’s hands to be free.
+
+### Mundane Protheses
+Mundane prostheses are nonmagical items, and are fully mechanical in nature.
+
+**Replacing a Limb.** A mundane prosthesis can be used to replace a missing limb, but can’t be used to add a new limb that a member of the species wouldn’t normally have. For example, a human can’t use a Wartail prosthesis to gain the functionalities of a tail, but a tiefling that has lost its tail can.
+
+**Motor Functions.** A mundane prosthesis can replicate motor functions, but can’t relay sensation. For example, a mundane prosthetic eye can turn in its socket, but doesn’t grant its user the ability to see through it.
+
+
+\column
+
+### Magical Protheses
+
+Magical prostheses make use of intricate enchantments to enhance their functionality and gain new properties. 
+
+**Replacing or Enhancing a Limb.** A magical prosthesis can be used to replace a missing limb or be placed
+around an existing limb to enhance it. Unless stated otherwise, a prosthesis can’t be used to add a new limb that a member of the species wouldn’t normally have.
+
+**Prosthesis Functions.** A magical prosthesis can replicate all functions of the limb it emulates. For example, a magical prosthetic tongue is able to taste, a magical prosthetic eye can see, and a magical prosthetic nose is able to smell.
+
+**Attaching or Removing a Magical Prosthesis.** A magical prosthesis can’t be attached to or removed from an unwilling creature, even if the creature is Unconscious. 
+
+
+### Proficiency with Prostheses
+Any creature can use a prosthesis as a limb, but one must be martially adept to use it as a weapon. 
+
+When a prosthesis property allows the wielder to make an attack using the prosthesis, it lists which weapons the wielder must be proficient with, if any, in order to add its Proficiency Bonus to an attack roll it makes with it.
+
+
+{{pageNumber,auto}}
+\page
+## Types of Protheses
+Several types of mundane and magical prostheses exist,
+each with useful properties that allow them to serve other
+functions in addition to acting as a limb or body part. For
+example, a clever pickpocket might conceal his ill-gotten
+spoils in a hidden compartment within his prosthetic leg, or
+a grizzled warrior might extend a blade from her prosthetic
+arm to fight off a band of roving pillagers.
+
+The table below details the types of mundane prostheses
+available, as well as the properties that each one has and
+what limbs it can replace or enhancе.
+:::::::::::::::
+
+{{wide
+#### Adventuring Mundane Protheses
+Prosthesis| Properties| Cost| Arm| Leg| Tail|
+:-|:-|:-:|:-:|:-:|:-:
+Advanced| Hookshot (15 ft.), Integrated (any), Launch (1d6, 15 ft.)| 100 gp|  X|- |- 
+Basic| Integrated (any)| 50 gp   |X|- |- 
+Cannon| Blast (1d6, 20 ft.)| 150 gp| X |X| X| 
+Climbing Claw| Mobility (climb 20 ft.)| 75 gp| X| X| X 
+Combat Arm| Hookshot (20 ft.), Launch (1d6 bludgeoning, 20 ft.), Melee (1d6 bludgeoning, Impact)| 150 gp|X|-|- 
+Grappling Hook| Hookshot (40 ft.)| 100 gp| X|-| X
+Smokeshot| Integrated (stash), Obscure| 90 gp| X| X| X
+Steelslinger| Hookshot (30 ft.), Launch (1d6,30 ft.)| 125 gp| X|-|- 
+Streamcutter| Mobility (swim 20 ft.) |75 gp |X |X| X
+Wartail| Melee (1d6, Reach)| 100 gp| -|-|X 
+}}
+
+{{wide
+#### Adventuring Magical Protheses
+Prosthesis| Properties| Cost| Arm| Leg| Tail|
+:-|:-|:-:|:-:|:-:|:-:
+All-terrain Leg| Melee (1d4, Finesse)|250 gp|-|X|-
+Draakannon|Blast (1d6 fire, 20 ft.)|90 gp| X|-|X
+Earthpiercer| Hookshot (20 ft.), Launch (1d4 piercing, 20 ft.), and Melee (1d4 piercing, Impact)| 100 gp|X|-|-
+G.R.A.P.P.L.E.R.| Hookshot (40 ft.)| 75 gp|X|-|-
+Hanabi Kicker| Melee (1d6 Bludgeoning, Impact)|100 gp|-|X|-
+Helping Hand| Hookshot (40 ft.), Special | 250 gp|X|-|-
+Iron Kasa| Hookshot (15 ft.), Integrated (shield), Launch (1d4 bludgeoning, 15 ft.)| 250 gp| X|-|-
+Kageboshi| Hookshot (30 ft.), Launch (1d6 slashing, 30 ft.)|100 gp|X|-|X
+Reaper's Kama| Hookshot (30 ft.), Integrated (Sickle), and Launch (1d6 slashing, 30 ft.)| 100 gp| X|-|-
+Scorpion's Wartail| Melee (1d6 piercing, Reach) | 250 gp| -|-|X
+}}
+
+
+
+
+{{pageNumber,auto}}
+\page
+
+
+
+## Protheses Properties
+Like weapons, prostheses have special properties that dictate
+how they function. Properties commonly found on prostheses include the following:
+
+**Blast (XdX, Xft.).** This prosthesis is capable of discharging powerful explosive blasts. The prosthesis is a
+martial ranged weapon with the Loading property. If you're
+proficient with a martial ranged weapon, you're considered
+proficient with this weapon. The information in parentheses
+notes the weapon's damage dice, damage type, and range,
+respectively. This weapon doesn't have a long range.
+
+Alternatively, you can use an action to fire the cannon
+and propel yourself a distance up to the range of the blast
+in a straight line in any direction, dealing no damage. As
+normal, this movement can provoke opportunity attacks.
+
+**Hookshot (X ft.).** This enhancement consists of a metallic
+hook or similar tool typically attached to a spool of wire,
+though rope, chain, or even spidersilk may be used instead.
+
+The number in parentheses is the range of the hookshot. If
+the prosthesis isn't being used to hold an item, you can shoot
+the hook at a fixed surface within range as a bonus action,
+or as a reaction when falling. The hook then attaches to that
+surface until you use a bonus action to detach the hook and
+reel the wire back in, or until the wire is destroyed. The wire is an object with AC 19 and 10 hit points; resistance to fire
+and cold damage; and immunity to lightning, psychic, and
+poison damage. The AC, price, and other properties of this
+wire can vary if different materials are used (GM's discretion).
+
+Alternatively, you can fire the hook at another creature
+at least two sizes larger than you, making an attack roll
+with the prosthesis. You're considered proficient with the
+attack, which uses your Strength or Dexterity modifier for
+the attack roll. On a hit, it deals no damage, but the hook
+attaches to the target. A creature within 5 feet of the hook
+can use an action to forcefully detach the hook with a successful DC 10 Strength or Dexterity check.
+
+While the hook is attached, you have advantage on ability checks made to move along the wire, such as to climb a vertical surface, swim against a current, or walk against a strong wind, and you can't move or be moved more than the hookshot's range away from the point to which the hook is attached. If you're falling, you stop falling further than the range at which you shot the hookshot and become suspended from the surface the hook is attached to. 
+
+In addition, until the hook is reeled back in, the prosthesis can't hold anything or be used to make attacks, and you can't use or benefit from objects integrated into the prosthesis (such as attacking with a weapon or benefitting froma shield's bonus to АC).
+
+**Impact.** This prosthesis deals double damage to objects and structures.
+
+\column
+
+**Integrated (X).** The object in parentheses is integrated
+into the prosthesis, and can't be separated from it, exchanged for another integrated object, or used to make
+ranged attacks by throwing it. You can extend or retract the
+integrated object as a free object interaction; if the integrated object is a weapon, this counts as drawing or stowing it.
+While an object is extended from an arm or hand prosthesis, you can manipulate it as if you were holding it, and
+your hand is not considered free. A prosthesis can only have
+one object integrated into it, which can be:
+- A weapon without the Heavy or Superheavy properties
+- A shield
+- A set of tools or handheld item that can conceivably fit within the prosthesis (GM's discretion)
+- An orb, rod, or wand
+- A **stash**: a concealed storage space within the prosthesis, up to 35 inches cubed in volume, that can be used to store Tiny objects, such as rings, phials of liquid (e.g. potions), smoke bombs, pieces of ammunition, or a bag of caltrops or ball bearings. The user of the prosthesis can stow or retrieve an item from the stash as a bonus action. A creature can find this secret compartment with a successful DC 11 Intelligence (Investigation) check.
+
+**Launch (XdX, Xft.).** A portion of this prosthesis is
+attached to the limb by a length of chain, rope, or wire, and
+can be launched at an enemy. The prosthesis is a martial
+ranged weapon with the Thrown and Finesse properties.
+If you're proficient with aweapon that has the Thrown
+property, you're considered proficient with this weapon.
+
+The portion of the prosthesis used to attack is automatically
+reeled in immediately after. The information in parentheses
+notes the attack's damage dice, damage type, and range,
+respectively. This weapon doesn't have a long range.
+
+**Melee (XdX, X).** The prosthesis is a martial melee weapon.
+If you're proficient with a martial melee weapon, you're considered proficient with this weapon. The information in parentheses notes the weapon's damage dice, damage type, and
+any additional weapon properties it may have, respectively.
+
+**Mobility (X, Xft.).** While wearing this prosthesis, you
+gain a special speed, the type and amount of which are both
+indicated in parenthesis.
+
+**Obscure.** This prosthesis can expel acloud of smoke to
+obscure an area. As a bonus action, you can expel a 5-foot
+radius cloud of smoke centred on you. The area of the
+smoke is heavily obscured and lasts until the end of your
+next turn. 
+
+Once you've expelled the smoke, you can't do so
+again until you take an action to reset the mechanism.
+
+**Reach.** This prosthesis adds 5 feet to your reach when
+you attack with it, as well as when determining your reach
+for opportunity attacks with it.
+
+{{pageNumber,auto}}
+\page
+
+## Magical Protheses
+#### All-terrain Leg
+
+In the Yokai Realms, they say you can't judge a man until you've walked a mile in his legs. And climbed a mile in his legs. And swum a mile in his legs.
+
+As a bonus action while wearing this prosthesis, you can change it into one of the following forms, each of which grantsa different benefit, or back into a regular leg shape:
+
+**Blade.** Your walking speed increases by 5 feet.
+
+**Claw.** You gain a climbing speed equal to your walking speed.
+
+**Fin.** You gain a swimming speed equal to your
+walking speed.
+
+#### Draakannon
+
+
+Throngs of vicious pillagers attacking your home? Explosions. Sturdy obstacles standing in your way? Explosions. Want to soar through the air like a dragon? Believe it or
+not, explosions.
+
+As a bonus action while wearing this prosthesis, you can change the damage type it deals with its Blast property to one of the following: acid, cold, fire,
+lightning, or poison.
+
+#### Earthpiercer
+"This drill is the drill that will pierce the earth!" Thus were the words of Bombuku upon completion of the first earthpiercer prototype. After being asked if the same didn't technically apply to most drills, he declined to make further comments.
+
+This prosthesis uses a drill instead of a hook for its Hookshot property. When you hit with an attack roll made to attach the drill to a creature, the creature
+takes 1d4 piercing damage. When the drill is detached from a creature, that creature takes 1d4 piercing damage.
+
+#### G.R.A.P.P.L.E.R.
+
+The Gear for Rapid Ascension and Precise, Persistent Latching onto Enormous Ravagers, or G.R.A.P.P.L.E.R.
+
+Once on each of your turns, when you hit a Medium or smaller creature with an attack using this prosthesis, you car can force it to make a DC 13 Strength saving throw. On a failed save, the creature is pulled up to 10 feet closer to you.
+
+
+#### Hanabi Kicker
+
+Innovation is all about thinking outside the box.
+
+While wearing this prosthesis, your jump distance is doubled, and you can jump up to your maximum distance with or without a running start.
+
+\column
+
+#### Helping Hand
+To make the humanoid-shaped puppets with multiple pairs of bladed arms somewhat less unsettling
+
+This prosthesis can enhance or replace an arm. It has the Hookshot (40 ft.) property. Instead of firing a hook, the prosthesis allows you to manipulate three Tiny mechanical puppets that grab onto the target. 
+
+Instead of rope, the puppets are connected to the prosthesis by wires of pure magic, which can't be damaged or destroyed.
+It otherwise functions in the same way.
+
+**Special.** As an action while the puppets are attached to a target, you can reel yourself in. When you do, you movea number of feet up to the item's Hookshot range in a straight line towards the puppets. In addition, the DC of the ability check required to forcefully detach the puppets increases to 13.
+
+
+#### Iron Kasa
+
+It is the duty of a valiant hero to impede evildoers, support one's allies, and most importantly, protect the defenceless. 
+
+As a reaction when a creature you can see within the prosthesis' Hookshot range is hit by an attack, you can launch the shield in front of it, granting it a +1 bonus to AC against the attack and potentially causing it to miss. 
+
+#### Kageboshi
+Upon finishing yet another new design, Bombuku proudly submitted it to the Rakin Association of Craftsmen and Inventors for grading.
+
+When you make an attack using the Launch property of the prosthesis, you can unsheathe and throw another weapon, concealing it in the throwing star's shadow. 
+
+As part of the same action, make another attack against the same target, using a weapon you're carrying that has both the Light and Thrown properties.
+
+Once this property of the prosthesis has been used, it can't be used again until the next dawn.
+
+#### Reaper's Kama
+This is pretty cut and dry. 
+
+As an action while wearing this prosthesis and the sickle isn't attached to a target as part of the Hookshot property, you can whip the chain around you, slicing at foes with the sickle at its tip in a whirlwind of steel. 
+
+Each creature within 10 feet of you must make a DC 13 Dexterity saving throw, taking 2d6 slashing damage on a failed save, or half as much damage on a successful one. 
+
+Once this property of the prosthesis has been used, it can't be used again until the next dawn.
+{{pageNumber,auto}}
+\page
+
+#### Scorpion's Wartail
+
+With such a beautifully lethal weapon at one's disposal, after all,
+it's a travesty to see it go unused.
+
+This prosthesis contains a reservoir of powerful venom in its tip. When you hit a creature with an attack using the prosthesis, you can inject the venom into the creature, which must make a DC 15 Constitution saving throw. 
+
+On a failed save, the creature is poisoned for 1 minute.
+
+On a successful save, the creature isn't poisoned. 
+
+A creature must repeat the saving throw at the end of each of its turns, ending the
+effect on a success. 
+
+Once this property of the prosthesis has been used, it can't be used again until the next dawn, when the reservoir magically refills with venom.
+
+
+

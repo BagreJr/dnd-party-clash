@@ -1,0 +1,2135 @@
+```metadata
+title: Illrigger
+description: ''
+tags: []
+systems: []
+renderer: V3
+theme: 5ePHB
+
+```
+
+```css
+.page{
+	width  : 210mm;
+	height : 296.3mm;
+}
+
+css
+
+.page .columnWrapper {
+	height: 100%
+}
+
+.page .toc.wide {
+	columns: 1;
+	height: 100%;
+}
+
+.page .toc > ul > li {
+	font-weight:100;
+	margin-bottom:-2.1px;
+
+}
+
+.page .toc ul ul {
+	margin-left: 0;
+	font-weight: 50;
+	color: black;
+}
+
+
+
+
+
+
+
+
+```
+
+{{frontCover}}
+
+{{logo ![](/assets/naturalCritLogoRed.svg)}}
+
+# Illrigger
+
+![background image](https://i.imgur.com/1hbCI0r.jpg){position:absolute,bottom:0,left:0,height:110%}
+
+\page
+{{toc,wide
+
+  - ### [{{ Illrigger}}{{ 3}}](#p3)
+    -  [{{ The Order of Desolation}}{{ 3}}](#p3)
+  - ### [{{ Class Features}}{{ 4}}](#p4)
+    -  [{{ Forked Tongue}}{{ 5}}](#p5)
+    -  [{{ Baleful Interdict}}{{ 5}}](#p5)
+    -  [{{ Combat Mastery}}{{ 5}}](#p5)
+    -  [{{ Interdiction}}{{ 5}}](#p5)
+    -  [{{ Invoke Hell}}{{ 6}}](#p6)
+    -  [{{ Diabolic Contract}}{{ 6}}](#p6)
+    -  [{{ Ability Score Improvement}}{{ 6}}](#p6)
+    -  [{{ Extra Attack}}{{ 6}}](#p6)
+    -  [{{ Infernal Conduit}}{{ 6}}](#p6)
+    -  [{{ Blood Price}}{{ 7}}](#p7)
+    -  [{{ Terrorizing Force}}{{ 7}}](#p7)
+    -  [{{ Superior Interdict}}{{ 7}}](#p7)
+    -  [{{ Infernal Majesty}}{{ 7}}](#p7)
+    -  [{{ Master of Hell}}{{ 7}}](#p7)
+  - ### [{{ Diabolic Contracts}}{{ 8}}](#p8)
+  -  [{{ Architect of Ruin}}{{ 8}}](#p8)
+  -  [{{ Black Menagerist}}{{ 10}}](#p10)
+  -  [{{ Brass Banker}}{{ 12}}](#p12)
+  -  [{{ Breaker of Bonds}}{{ 13}}](#p13)
+  -  [{{ Cardinals of Inferno}}{{ 14}}](#p14)
+  -  [{{ Despotic Ruler}}{{ 16}}](#p16)
+  -  [{{ Fatebreaker}}{{ 17}}](#p17)
+  -  [{{ Fiendish Marksman}}{{ 18}}](#p18)
+  -  [{{ Harbingers of Famine}}{{ 19}}](#p19)
+  -  [{{ Hell’s Cantor}}{{ 20}}](#p20)
+  -  [{{ Hellspeaker}}{{ 21}}](#p21)
+  -  [{{ Knights of the Eclipsed Sun}}{{ 23}}](#p23)
+  -  [{{ Nails of Odium}}{{ 25}}](#p25)
+  -  [{{ Painkiller}}{{ 26}}](#p26)
+  -  [{{ Pale Reaper}}{{ 27}}](#p27)
+  -  [{{ Queen’s Champion}}{{ 28}}](#p28)
+  -  [{{ Radiant Sentinel}}{{ 30}}](#p30)
+  -  [{{ Sanguine Knight}}{{ 31}}](#p31)
+  -  [{{ Shadowmaster}}{{ 32}}](#p32)
+  -  [{{ Sovereign of Chains}}{{ 33}}](#p33)
+  -  [{{ War Artisans}}{{ 34}}](#p34)
+  -  [{{ Warden of the Dual Fane}}{{ 35}}](#p35)
+  -  [{{ Forsaken}}{{ 36}}](#p36)
+  -  [{{ Forsworn}}{{ 37}}](#p37)
+- ### [{{ Interdict Boons}}{{ 38}}](#p38)
+  -  [{{ 2nd Level Interdict Boons}}{{ 38}}](#p38)
+  -  [{{ 7th Level Interdict Boons}}{{ 38}}](#p38)
+  -  [{{ 13th Level Interdict Boons}}{{ 39}}](#p39)
+}}
+
+
+
+
+\page
+## Illrigger
+The archdevils who rule the Seven Cities of Hell scheme endlessly. Each eternally plots to bring the others to heel—to ascend to the Throne of Hell, unite the Seven Cities and every infernal being living there, and lead an inexhaustible army of devils across the timescape until all worlds burn.
+
+These archdevils’ elite operatives are the illriggers. Knights, assassins, mages, and terrorcommandos of Hell, illriggers command the battlefield, disrupt enemy factions, and carry
+out their archdevil’s infernal will.
+
+### The Order of Desolation
+Millennia ago, the rulers of Hell did something remarkable: they cooperated. Together, they created the Order of Desolation—knights sworn to serve Hell first, their patron archdevil second.
+
+Those accepted into the Order of Desolation become comrades with every other illrigger, regardless of which archdevil they serve. Each archdevil has grand temples, underground fanes, secret societies, and sinister cults, all with leaders fanatically devoted to the archdevil who grants
+them their power. But the Order of Desolation stands above the petty political squabbles dividing the Seven Cities.
+
+Members of the Order of Desolation, also known as the Desolate, are expected to be intelligent, resourceful, tactical, and manipulative. The order was founded to give the archdevils capable agents who could act independently across the timescape, free from the direct control of their patron.
+
+An illrigger has many powerful abilities granted by their archdevil, but more precious is their patron’s trust. Each illrigger is expected to sow discord, pain, strife, deceit, and fear without instruction or supervision. It’s not unusual, therefore, for a Desolate to first rely on other order members—regardless of which archdevil they serve—before turning to an institution devoted to their own archdevil.
+
+
+
+#### Creating an Illrigger
+To create an illrigger, consult the following subsections, which give you hit points, proficiencies, and starting equipment. Then look at the Illrigger table to see which features you get at each level. 
+
+#### Quick Build
+You can make an illrigger quickly by following these suggestions. First, put your highest ability score in Strength (if you want to focus on melee weapons), Dexterity (if you want to focus on archery or finesse weapons), or Charisma (if you plan to choose the Architect of Ruin subclass). Your second highest ability score should be Constitution. Then, choose the soldier or outlander background from the core rules, or any background that gives proficiency in skills such as Athletics, Deception, Intimidation, or Persuasion.
+
+{{imageMaskEdge8,--offset:10%,--rotation:270
+  ![](https://cdnb.artstation.com/p/assets/images/images/034/114/875/large/grace-cheung-illrigger-architect-of-ruin-male.jpg?1611434787){height:101%,left:210px,bottom:-1px}
+}}
+
+
+
+
+
+{{pageNumber,auto}}
+\page
+
+{{classTable,frame,decoration
+##### The Illrigger
+| Level | PB   | Features |Seals|Seal Damage|Interdict Boons|Infernal Conduit Dice |
+|:-----:|:----:|:---------|:-:|:----:|:-:|:-:|
+|  1st  |  +2  | Baleful Interdict, Forked Tongue  |3|1d6|— |—                     |
+|  2nd  |  +2  | Combat Mastery, Interdiction |3|1d6|1|—                      |
+|  3rd  |  +2  | Diabolic Contract, Invoke Hell     |4|1d6|1 |—                     |
+|  4th  |  +2  | Ability Score Improvement       |4|1d6|1 |—                     |
+|  5th  |  +3  | Extra Attack |4|2d6|1|   —|
+|  6th  |  +3  | Infernal Conduit|4|2d6|2| 3                     |
+|  7th  |  +3  | Diabolic Contract feature   |5|2d6|2 |  4                    |
+|  8th  |  +3  | Ability Score Improvement   |5|2d6|2 | 4                     |
+|  9th  |  +4  | Forked Tongue improvement |5|2d6|2|  5                     |
+| 10th  |  +4  | Blood Price  |5|2d6|2| 5                      |
+| 11th  |  +4  | Diabolic Contract feature, Infernal Conduit improvement, Terrorizing Force    |5|3d6|2 |  6 |
+| 12th  |  +4  | Ability Score Improvement     |5|3d6|2 | 6                  |
+| 13th  |  +5  | — |6|3d6|3|  7               |
+| 14th  |  +5  | Superior Interdict |6|3d6|3|      7              |
+| 15th  |  +5  | Diabolic Contract feature |6|3d6|3|         8           |
+| 16th  |  +5  | Ability Score Improvement    |6|3d6|3|  8     |
+| 17th  |  +6  | Infernal Majesty|7|3d6|3|  9  |
+| 18th  |  +6  | —|7|3d6|4|   9    |
+| 19th  |  +6  | Ability Score Improvement    |7|3d6|4|     10  |
+| 20th  |  +6  | Master of Hell|7|4d6|4|   10    |
+}}
+
+\column
+
+## Class Features
+
+As a illrigger, you gain the following class features
+
+#### Hit Points
+**Hit Dice:**                    :: 1d10 per illrigger level
+**Hit Points at 1st Level:**     :: 10 + your Constitution modifier
+**Hit Points at Higher Levels:** :: 1d10 (or 6) + your Constitution modifier per illrigger level after 1st
+
+#### Proficiencies
+**Armor:**   :: Light armor, medium armor, shields
+**Weapons:** :: Simple weapons, martial weapons
+**Tools:**   :: None
+
+**Saving Throws:** :: Constitution, Charisma
+**Skills:**        :: Choose two from Arcana, Athletics, Deception, Insight, Intimidation, Investigation, Persuasion, and Religion
+
+#### Equipment
+You start with the following equipment, in addition
+to the equipment granted by your background:
+- *(a)* a martial weapon and a shield or *(b)* two martial weapons
+- *(a)* chain shirt or *(b)* leather armor, longbow, and 20 arrows
+- *(a)* a priest’s pack or *(b)* a dungeoneer’s pack
+- A holy symbol, two daggers, and five javelins
+
+{{imageMaskEdge1,--offset:15%,--rotation:0
+  ![](https://thinkdm.files.wordpress.com/2021/04/the-illrigger-cover.png){height:55%,left:-0px,top:600px}
+}}
+
+
+
+{{pageNumber,auto}}
+\page
+### Forked Tongue
+You can instinctively speak, read, and write
+Infernal.
+
+In addition, you can speak two other languages of your choice, but you can’t read or write them. When you finish a long rest, you can draw on your archdevil’s knowledge to replace one of these two languages. When you do, choose another language whose name you know; you magically forget the previous language and gain this new one instead.
+
+Once you replace a language in this way, you must finish a long rest before you can do so again.
+
+Starting at 9th level, this feature grants you another language, for a total of three (in addition to Infernal).
+
+Furthermore, you gain advantage on Wisdom (Insight) checks made to ascertain the intentions or sincerity of creatures.
+
+### Baleful Interdict
+
+At 1st level, once on your turn, you can place a magical seal on a creature within 30 feet of you.
+
+You can either place this seal when you hit that target with a weapon attack (no action required), or you can use a bonus action to place this seal on a target you can see within range. This seal lasts for 1 minute or until burned.
+
+A creature with one or more of your seals is referred to as an interdicted creature. Seals you place are invisible to other creatures, and when you can see an interdicted creature, the seals appear to you as glowing glyphs on the creature’s body.
+
+You can only place a limited number of seals before resting, and you regain all seals when you finish a short or long rest. The number of seals you can place increases as you gain illrigger levels, as indicated in the Seals column of the Illrigger table.
+
+If an interdicted creature dies, you can use a bonus action on your turn to move all seals placed on them to a new creature you can see within 30 feet of them. Each seal’s duration continues to elapse when an interdicted creature dies and when
+that seal is moved to a new creature.
+
+**Burning Seals.** When an interdicted creature you can see within 30 feet of you takes damage from any source other than a seal burned by an illrigger, you can burn any number of seals you placed on them to deal 1d6 fire or necrotic damage (your choice) to that creature per seal burned. You deal this damage immediately after the triggering
+damage. Burning a seal doesn’t require an action from you, but you can’t do so while incapacitated. Once a seal is burned, it immediately vanishes.
+
+Once you reach 5th level in this class, your connection to your archdevil strengthens. Each burned seal deals an extra 1d6 damage, for a total of 2d6. The damage of each seal increases again by 1d6 when you reach 11th level (for a total of 3d6) and 20th level (for a total of 4d6) in this class, as indicated in the Seal Damage column of the
+Illrigger table.
+
+
+\column
+
+
+**Interdict Save.** The saving throw DC for these effects uses your interdict save DC, which is calculated
+as follows:
+
+**Interdict save DC** = 8 + your proficiency bonus + your Charisma modifier
+
+
+### Combat Mastery
+At 2nd level, choose one of the following illrigger combat masteries:
+
+**Brutal.** When you hit a creature who is no more than one size larger than you with an attack you make with a melee weapon you are wielding with two hands, you can move the target 5 feet horizontally. If you choose, you can then spend your movement to move into the space they left.
+
+**Inexorable.** You gain a +1 bonus to saving throws for each hostile creature within 5 feet of you, to a maximum bonus of +5.
+
+**Lies.** When you take the Attack action while two-weapon fighting, you can make a single additional attack with your off-hand weapon as part of your action instead of your bonus action, adding your charisma modifier to the damage of this attack.
+
+
+**Lissome.** When you hit a creature with a melee weapon attack, you can spend your
+movement to move 5 feet without provoking opportunity attacks.
+
+**Unfettered.** When you use your Baleful Interdict to place or burn a seal, its range is 60 feet instead of 30 feet. When you gain the Infernal Conduit feature at 6th level, its range is 30 feet instead of touch. In addition, making a ranged attack while within 5 feet of a hostile creature does not impose disadvantage on the attack roll.
+
+### Interdiction
+When you reach 2nd level, You can infuse your seals.
+
+**Interdict Boons Known.** You learn one interdict boon of your choice from the “Interdict Boons” section at the end of the class’s description.
+ 
+As you gain levels in this class, you gain additional boons of your choice, as shown in the Interdict Boons column of the Illrigger table. Each new boon must be of a level you can learn. When you reach 7th level, for example, you learn one new boon of 2nd or 7th level.
+
+Whenever you gain an illrigger level, you can choose a boon you know and replace it with another boon you can learn.
+
+**Using Interdict Boons.** Some boons allow you to expend unplaced seals to fuel abilities, while others empower all your seals or grant you benefits against interdicted creatures. The boons that grant passive benefits, such as the 2nd-level Swift Retribution boon, are marked with a “Passive” tag. You don’t need to expend a seal or take an action to benefit from the passive boons you know. All other boons, such as the 2nd-level Abating Seal boon, must be activated on a turn (for example, by expending a seal). You can activate only one non-passive boon per turn, regardless of how many you know.
+
+{{pageNumber,auto}}
+\page
+### Invoke Hell
+
+When you reach 3rd level, your diabolic connection allows you to channel
+infernal energy to empower magical effects. Your chosen diabolic contract grants you two Invoke Hell options and describes how to use each.
+
+When you use your Invoke Hell, you choose which option to use. You must then finish a short or long rest to use your Invoke Hell again.
+Some Invoke Hell effects require a saving throw. When you use such an effect, the DC equals your interdict save DC.
+
+### Diabolic Contract
+When you reach 3rd level, You sign a diabolic contract with an archdevil who welcomes you into the Order of Desolation.
+
+Each of these subclasses is detailed after the class’s description. Your choice grants you features at 3rd level and again at 7th, 11th, and 15th level.
+
+### Ability Score Improvement
+When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.
+
+
+### Extra Attack
+Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.
+
+\column
+
+### Infernal Conduit
+Beginning at 6th level, you can strengthen your allies at the cost of yourself—or drain your enemy’s life force for your own gain. You have a pool of Infernal Conduit dice, which are d10s. The number of Infernal Conduit dice in your pool increase as you gain illrigger levels, as shown in the Infernal Conduit Dice column of the Illrigger table.
+
+As an action, you can touch another creature and spend one or more dice from your pool. The target must make a Constitution saving throw against your interdict save DC. A creature can willingly fail this saving throw. Roll the spent dice and choose one of
+the following effects:
+
+**Invigorate.** On a failed save, the target regains hit points equal to the total you rolled, and you take necrotic damage equal to that total. On a successful save, the target regains half as many hit points, and you take necrotic damage equal
+to that total. Save or fail, this necrotic damage can’t be reduced in any way, and if this damage reduces you to 0 hit points, you fall unconscious and are stabilized.
+
+**Devour.** On a failed save, the target takes necrotic damage equal to the total you rolled, and you regain hit points equal to that total. On a successful save, the target takes half as much damage, and you regain hit points equal to the damage the target took. Save or fail, or if the target chose to fail their saving throw against this effect, the necrotic damage can’t be reduced in any way. When you reach 11th level in this
+class, the target also gains a level of exhaustion
+on a failed save against this effect. 
+
+This level of exhaustion can be reduced as normal, and a creature can’t suffer more than three levels of exhaustion combined from all illriggers’ Infernal Conduit features.
+
+You regain any spent Infernal Conduit dice when you finish a long rest.
+
+
+
+{{imageMaskEdge1,--offset:16%,--rotation:0
+  ![](https://cdna.artstation.com/p/assets/images/images/043/109/960/large/grace-cheung-champion-of-norganas.jpg?1636400729){height:100%,top:500px}
+}}
+{{pageNumber,auto}}
+\page
+### Blood Price
+By 10th Level, you can strengthen your defenses at the cost of your
+vitality. 
+
+Whenever you fail a saving throw, you can spend one of your Hit Dice, rolling it and adding the number rolled to the result of the save.
+
+### Terrorizing Force
+Starting 11th level, your attacks are empowered with devastating might. When you gain this feature, choose a damage type: cold, fire, necrotic, or poison.
+
+When you hit with a weapon attack, you deal an extra 1d8 damage of the chosen type. 
+
+You can choose a different damage type when you finish a long rest.
+
+### Superior Interdict
+Begining 14th level, damage from your seals ignores any damage resistances the target has.
+
+In addition, you can use a bonus action to regain a seal if you have none remaining. 
+
+Once you regain a seal in this way, you can’t do so again until you finish a long rest.
+
+### Infernal Majesty
+Starting 17th level, your archdevil bestows on you the ability to don
+a measure of their power. As a bonus action, you channel the might of Hell, gaining the following benefits for 10 minutes:
+- You gain resistance to fire, cold, and necrotic damage.
+- Wings appear on your back, granting you a flight speed of 60 feet.
+- When you use your Blood Price, you can cause an enemy you can see within 10 feet of you to take damage equal to the number rolled on your Hit Die.
+- When you hit with a weapon attack, your Terrorizing Force deals an extra 2d8 damage instead of 1d8.
+
+For the duration, if you die, you can choose to have your body disappear in a burst of flame, leaving behind only your equipment. If you do, your body reforms 1d6 days later somewhere in Hell. 
+
+Once your body reforms, you return to life and regain all of your hit points.
+
+Once you channel your Infernal Majesty, you must finish a long rest before you can do so again.
+
+
+\column
+
+### Master of Hell
+At 20th Level, you learn to tear open a rift to Hell and wreak its fury on your enemies. As an action, you can summon a hellstorm centered on a point you can see within 150 feet of you. 
+
+Choose one of the following effects, which fills a 50-foot-radius sphere centered
+on that point:
+
+**Inferno.** Hellfire rains down on your foes. Each enemy in that area must make a Dexterity saving throw. On a failed save, a creature takes 5d10 fire damage plus 5d10 necrotic damage, and they burn for 1 minute. On a successful save, a creature takes half as much damage and does not burn. A creature burning in this way must repeat this saving throw at the end of their turn, taking 1d10 fire damage plus 1d10 necrotic damage on a failed save, or ending the effect on themself on a successful one. This hellfire can’t be extinguished by nonmagical means.
+
+**Pestilence.** A foul miasma swirls around your foes. Each enemy in that area must make a
+Constitution saving throw. On a failed save, a creature takes 5d10 poison damage plus 5d10 necrotic damage and becomes poisoned for 1 minute. On a successful save, a creature takes half as much damage and does not become poisoned.
+
+**Darkness.** A bitter storm assails your foes. Each enemy in that area must make a Constitution saving throw, taking 10d10 cold damage on a failed save, or half as much damage on a successful one. Additionally, the storm’s gloom persists for 1 minute, and each enemy within that area is blinded for the duration or until they leave the area.
+
+
+Once you summon a hellstorm, you must finish a long rest before you can do so again.
+{{pageNumber,auto}}
+\page
+## Diabolic Contracts
+The knight who walks the path of Hell may gain access to the powers of the Illrigger purely through their own devotion. No oath is necessary, no mentor. A fledgling hellknight might not even be aware Hell’s Paladins exist.
+
+### Architect of Ruin
+Asmodeus is the Lord of Acheron, the City of Fear. His illriggers scour the timescape collecting secrets and spells designed to deceive and terrify his opponents. The war he fights against the other Lords of Hell is one of deception and propaganda.
+
+Acheron’s illriggers work to make Hell’s enemies seem outnumbered and outmaneuvered. Half their strategy involves research and infiltration, the other half illusion and propaganda. When an Architect of Ruin finally confronts an enemy, the foe sees the illrigger’s forces as impossibly powerful, while their own allies betray them and their armies flee in fear.
+:
+
+{{classTable,frame
+##### Architect of Ruin Spellcasting 
+| Illrigger  | Spells  |--- Spells Slots per Spell Level ---||||
+| Level ^| Known  ^|   1st   |   2nd   |   3rd   |   4th   |
+|:------:|:--------:|:-------:|:-------:|:-------:|:-------:|
+|  3rd   |    3     |    2    |    —    |    —    |    —    |
+|  4th   |    4     |    3    |    —    |    —    |    —    |
+|  5th   |    5     |    3    |    —    |    —    |    —    |
+|  6th   |    5     |    3    |    —    |    —    |    —    |
+|  7th   |    6     |    4    |    2    |    —    |    —    |
+|  8th   |    6     |    4    |    2    |    —    |    —    |
+|  9th   |    7     |    4    |    2    |    —    |    —    |
+|  10th  |    7     |    4    |    3    |    —    |    —    |
+|  11th  |    8     |    4    |    3    |    —    |    —    |
+|  12th  |    8     |    4    |    3    |    —    |    —    |
+|  13th  |    9     |    4    |    3    |    2    |    —    | 
+|  14th  |    9     |    4    |    3    |    2    |    —    | 
+|  15th  |    10    |    4    |    3    |    2    |    —    | 
+|  16th  |    10    |    4    |    3    |    3    |    —    | 
+|  17th  |    11    |    4    |    3    |    3    |    —    |
+|  18th  |    11    |    4    |    3    |    3    |    —    |
+|  19th  |    12    |    4    |    3    |    3    |    1    | 
+|  20th  |    12    |    4    |    3    |    3    |    1    | 
+}}
+
+{{imageMaskEdge1,--offset:25%,--rotation:0
+  ![](https://cdna.artstation.com/p/assets/images/images/048/073/164/large/grace-cheung-order-of-the-black-flame.jpg?1649149681){height:100%,top:350px}
+}}
+
+\column
+
+#### Precepts of Ruin
+Hell’s Architects swear an oath to Asmodeus when they join the Order of Desolation. The oath commits them to destroy Asmodeus’ enemies by causing fear and sowing distrust.
+
+**The Battlefield of the Mind.** By the time my armies meet yours, you will be filled with terror and doubt your own strength. I won’t have to lift a finger to defeat you.
+
+**The Proper Secret.** Once I know your secrets, I know what you fear.
+
+**Knowledge Is Power.** Lore is as powerful as steel. I will learn every detail about my enemy so that, when I strike, I will know their every move. They will be checkmated before the game even begins.
+
+**Perception Is Reality.** Illusion is also as powerful as steel. I will spread so many rumors about my own powers, your friends will desert you, your soldiers will quake. So what if none of it’s true? And some of it is...
+
+#### Asmodeus’s Blessing
+When Asmodeus accepts you as an Architect of Ruin, he grants you access to his infernal knowledge. You gain proficiency in one of the following skills of your choice: Arcana, History, Nature, or Religion.
+
+In addition, you can also read and write the languages granted by your Forked Tongue, instead of only speaking them.
+
+#### Invoke Hell
+At 3rd Level, you gain the following two Invoke Hell options:
+
+**Enervating Spell.** When you deal damage to a creature with an illrigger spell of 1st level or higher, you can expend a seal (no action required) and imbue the spell with weakening magic. The target has vulnerability to that spell’s
+damage. If they normally have resistance or immunity to the spell’s damage, that resistance or immunity is suppressed for this spell, and the target has vulnerability to the damage instead.
+
+**Spellblade.** You can use an action to both make a melee weapon attack and cast an illrigger spell you know that has a casting time of one action.
+{{pageNumber,auto}}
+\page
+#### Spellcasting
+When Asmodeus accepts you as an Architect of Ruin, you gain access to his infernal power and learn to access arcane magic to cast illrigger spells. 
+
+**Cantrips.** You learn two cantrips of your choice from  the wizard spell list. At 10th level, you learn an additional cantrip.
+
+**Spell Slots.** The Architect of Ruin Spellcasting table shows how many spell slots you have. To cast one of these spells, you must expend a slot of the spell’s level or higher. When you finish a long rest, you regain all expended spell slots.
+
+**Spells Known of 1st Level and Higher.** You know three 1st-level wizard spells of your choice, two of which you must choose from the evocation, enchantment and illusion spells on the wizard spell list.
+
+The Spells Known column of the Architect of Ruin Spellcasting table shows when you learn more wizard spells of 1st level or higher. Each of these spells must be an evocation, enchantment or illusion spell of your choice, and must be of a level for which you have spell slots. For instance, when you reach 7th level in this class, you can learn one new spell of 1st or 2nd level.
+
+The spells you learn at 8th, 14th, and 20th level can come from any school of magic.
+
+Whenever you gain a level in this class, you can replace one of the wizard spells you know with another spell of your choice from the wizard spell list. The new spell must be of a level for which you have spell slots, and it must be an evocation, enchantment or illusion spell, unless you're replacing the spell you gained at 3rd, 8th, 14th, or 20th level from any school of magic.
+
+
+**Spellcasting Ability.** Charisma is your spellcasting ability for your illrigger spells, since your power derives from your ability to command the attention of your patron archdevil. You use your Charisma whenever a spell refers to your spellcasting ability. 
+
+In addition, you use your Charisma modifier when setting the saving throw DC for an illrigger spell you cast and when making an attack roll with one.
+
+::**Spell save DC** = 8 + your proficiency bonus + your Charisma modifier
+
+::**Spell attack modifier** = your proficiency bonus + your Charisma modifier
+
+
+
+
+\column
+
+#### Hellish Versatility
+Starting at 7th level, Once on each of your turns, you can cast one of your illrigger cantrips in place of one of your attacks granted by your Extra Attack feature.
+
+Additionally, you can cast an illusion spell as a bonus action.
+
+#### Asmodeus’s Interdiction
+At 7th level, you learn the following additional interdict boons at the noted illrigger levels. Once you learn an interdict boon granted by this feature, you always know it, and it doesn’t count against the number of interdict boons you know.
+
+**Axiomatic Seals (7th Level; Passive).**
+Asmodeus’s secrets allow you to infuse your seals
+with manifest power. When you burn one or more
+seals to deal damage to a creature, you can activate
+this boon (no action required) to add your Charisma
+modifier (minimum of 1) to each seal’s damage roll.
+
+**Spellbreaker (13th Level).** 
+When an interdicted creature you can see within 60 feet of you casts a spell, you can use your reaction to burn one or more of the seals on them. When you do, burning the seal deals no damage, and instead you cast counterspell on them without expending a spell slot. Your spell’s level increases by 1 for every additional seal you burn after the first.
+
+**Hell Mage (18th Level; Passive).**
+When you or an ally within 30 feet of you succeed on a saving throw against a spell or other magical effect imposed by an enemy, you can immediately place one or more seals on that enemy, up to a number equal to your proficiency bonus.
+
+#### Submit
+At 11th level, when you cast an illrigger spell you know, you can burn two seals on an interdicted creature (no action required) to impose disadvantage on their saving throw against the spell.
+
+#### Vile Transmogrification
+At 15th level, you uncover two new ways to employ Asmodeus’s
+magic:
+
+**Regaining Seals.** As a bonus action on your turn, you can expend one spell slot to regain a number of seals equal to that slot’s level.
+
+**Regaining Spell Slots.** As a bonus action on your turn, you can expend any number of seals to regain a spell slot of a level equal to one-third that number. For example, you can expend six seals to regain a 2nd-level spell slot.
+
+Once you use one of these benefits, you can’t use that benefit again until you finish a long rest.
+
+
+
+
+
+{{pageNumber,auto}}
+\page
+### Black Menagerist
+The Black Menager sworn to an oath of servitude to the powerful deity Baphomet as part of the Order of Desolation. These dedicated individuals take on the solemn responsibility of tending to and harnessing the might of Baphomet's vast and ominous collection of creatures, known as the Black Menagerie, preparing them for the inevitable battles that lie ahead.
+
+#### Precepts of Black Menagerist
+Black Menagerists swear an oath to Baphomet when they join the Order of Desolation. The oath commits them to maintaining the Black Menagerie, Baphomet’s ’s vast collection of beasts and other creatures of war, and preparing them for battle.
+
+**Beastlord.** The creatures within the Menagerie are yours to command. They will bow to your will or fall to your wrath.
+
+**Tame the Wild.** The Menagerie always has space for more exotic and powerful denizens, seek to capture and subjugate new creatures to offer to Baphomet.
+
+**Chain and Whip.** Creatures can be controlled with pain and fear. Mortal races are no different.
+
+**Hold to the Black Trail.** The Menagerie has innumerable denizens, they are tools to be utilized. Tools without purpose are worthless.
+
+
+#### Invoke Hell
+At 3rd level, you gain the following two Invoke Hell options:
+
+**Beastlord’s Gaze.** As a reaction to failing a Wisdom (Animal Handling) check to prevent your companion from rampaging, you can choose to succeed instead.
+
+**Whip of Agony.** As an action, you Invoke Baphomet's authority, whipping your companion into a vicious frenzy. Your companion gains ferocity equal to 1d4 + your Charisma modifier and takes an equal amount of necrotic damage. This damage cannot be reduced in any way.
+
+#### Baphomet’s 's Blessing
+When you choose Baphomet as your archdevil, you gain proficiency with the Animal Handling skill.
+
+\column
+
+#### Beast of the Menagerie
+At 3rd level, you summon a hell companion from the Black Menagerie that accompanies you.
+
+Your fiendish connection to your companion binds their life to yours, allowing you to help your companion overcome even the most grievous injuries. When your companion drops to 0 hit points, it returns to Hell, leaving behind no physical form. If your companion has lost hit points or died, you can spend 1 minute channeling infernal magic into them. The companion then regains all their hit points or returns from the Menagerie if they were dead, and you gain one level of exhaustion.
+
+The first time you finish a long rest after you gain a level in this class, you can summon a new companion of your choice, which arrives in an unoccupied space within 5 feet of you in a flash of brimstone. If you already have a companion from this feature, they return to the Black Menagerie as the new companion arrives.
+
+
+{{monster,frame
+## Hell Companion
+*Medium Fiend, Unaligned*
+___
+**Armor Class** :: 13 plus PB (natural armor)
+**Hit Points**  :: 7 + seven times your Illriger level (your hell companion has a number of d8 Hit Dice equal to your Illriger level)
+**Speed**       :: 40 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|16(+3) |12 (+1)| 14(+2)| 6 (−2)| 12(+1)| 8 (−1)|
+___
+**Saving Trows** :: Con +2 + PB
+**Skills** :: Perception +1 plus PB
+**Senses** :: darkvision 60 ft., passive Perception 11 plus PB
+___
+***Keen Hearing and Smell.*** The Hell Companion has advantage on Wisdom (Perception) checks that rely on hearing or smell.
+:
+### Actions
+***Bite.*** *Melee Weapon Attack:* + 3 + PB to hit, reach 5ft., one target. *Hit* 1d6 + PB piercing damage. 
+:
+***Lava Spitle.*** The hell companion makes a attack. On a hit, the atack deals an extra PB damage, and a creature the hell companion chooses within 5 feet of them other than the target takes PB fire damage.
+}}
+{{pageNumber,auto}}
+\page
+#### Baphomet's interdiction
+You learn the following additional interdict boons at the noted illrigger levels. Once you learn an interdict boon granted by this feature, you always know it, and it doesn’t count against the number of interdict boons you know.
+
+**Baleful Command (7th level).**  the bonus action you use to place a seal on a creature grants you the ability to issue a command to your companion. 
+
+Additionally, if your companion is within 30 feet of an interdicted creature when a seal is consumed, they regain 2 hit points per die of damage.
+
+**Fiendish Ferocity (13th level; Passive).** You can use a seal to unleash a blast of fire from your companion. Each creature within 20 feet of the companion must make a Dexterity saving throw, taking 4d10 fire damage on a failed save, or half as much damage on a successful one. You and your companion take no damage from this effect.
+
+**Feast On Their Flesh (18th level; Passive).** When you consume a seal due to an attack of your companion, your seal does two additional dice of damage.
+
+
+#### Improved Signature Attack
+At 7th level, when your companion hits with their attack, the attack deals one additional damage die.
+
+Additionally, when your companion hits a creature, you or your companion (your choice) regain hit points equal to half the damage dealt and the damage dealt by your companion’s attacks counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.
+
+
+#### Wicked Adaptations
+At 11th level, you are able to summon more powerful, fiendish members of the Menagerie. When you summon your companion, they have the following traits:
+
+**Infernal Resistance.** Your companion has advantage on saving throws you make to avoid or end the poisoned condition on themselves. They also have resistance to fire and poison damage.
+
+**Brimstone Armaments.** Whenever your companion uses the Attack action, it deals additional fire damage equal to 1d8 + your Charisma modifier.
+
+
+#### Hellhound
+At 15th level, when your companion hits with their attack, the attack deals one additional damage die.
+
+Additionally, lava spitle can now target any number of creatures  whitin 10 feets.
+
+
+
+{{imageMaskEdge8,--offset:10%,--rotation:270
+  ![](https://www.dandwiki.com/w/images/6/67/Cerberus-l.jpg){height:101%,left:100px,bottom:-1px}
+}}
+
+
+
+{{pageNumber,auto}}
+\page
+### Brass Banker
+
+Mammon, the ruler of the city, dominates hell's economy. His followers understand that everything has a price and use their powers to offer valuable services in exchange for steep fees.
+
+Brass Bankers, his loyal subordinates, ensure debts are repaid, whether in money or blood. They control finances and people in various roles, managing banks, casinos, or even acting as loan sharks. In battles, Brass Bankers support allies while using abilities with hidden costs.
+
+#### Precepts of Banking
+Hell’s Banker, loyal to Mammon in the Order of Desolation, pledge to destroy his Debtors through fear and distrust.
+
+**Invest in Power.** If someone looks like they're going to be someone help them, then when they make it you can collect on your investment.
+
+**Debt.** Make others owe you, that way the one truly in control of their life is you.
+
+**Money.** Money isn't everything but it can get you almost anything, and what it can't get you can hire someone to get.
+
+**Risk.** Everything and anything is a risk whats important is how much you're willing to lose for a venture.
+
+#### Mammon's Blessing
+At 3rd level, when you choose Mammon as your archdevil, you gain proficiency with the persuasion skill.
+
+#### Invoke Hell
+At 3rd level, you gain the following two Invoke Hell options:
+
+**Greed for Greeds Sake.** As an action you can target one creature you with 30 feet of you that you can see, the target must make a Wisdom saving throw (DC = 8 + your proficiency bonus + your Charisma modifier). On a failure the target is overcome with greed and will desire one object of your choice within 10 feet of you, for the next minute the target creature will do anything in its power to obtain the object short of harming them self or another creature unless they were already predisposed to harming other creatures.
+
+**Invest in Ally.** As a bonus action, choose one willing creature you can see withing 30 feet of you, that creature can make one weapon attack as a bonus action on their turn.
+
+
+#### Mind Games
+At 7th level, when you use your infernal conduit on a creature you can choose to remove the charmed or frightened condition alternatively you can charm or frighten that creature for 1 minute. If you deal damage to a creature charmed by this ability the charmed condition ends.
+
+\column
+
+#### Mammon's interdiction
+You learn the following additional interdict boons at the noted illrigger levels. Once you learn an interdict boon granted by this feature, you always know it, and it doesn’t count against the number of interdict boons you know.
+
+**The Fool (7th level; Passive).** When you place one of your seals on a creature you can choose for that creature to be under the effect of the Heroism spell, Charisma is your Spellcasting ability for the spell. While under the effect of the spell the creature has disadvantage on attack rolls.
+
+**The Two-Headed Snake (13th level; Passive).**  when you place one of your seals on a creature you can choose for that creature to be immune to the charmed, frightened and stunned conditions but the creature then becomes poisoned. A creature immune to the poisoned condition is not immune to its effect from this seal.
+
+**The Berserker (18th level).** When you place one of your seals on a creature you can choose for that creature to gain resistance to bludgeoning, piercing, and slashing damage. At the start of the creatures turn it must make a Wisdom saving throw (DC = 8 + your proficiency bonus + your Charisma modifier), on a failure it must take the attack action on the turn and you choose the target of the attack. Creatures that are immune to the charmed condition are immune to this effect.
+
+
+#### Cash Out
+Starting at 11th level, when a creature with one of your seals forces you to make a saving throw and you fail you can use your reaction to consume the seal on the creature dealing no damage and in exchange reroll the saving throw with advantage.
+
+#### Account Merger
+At 15th level, as an action you can target two creatures within 60 feet of you, those creatures must make a Charisma saving throw (DC = 8 + your proficiency bonus + your Charisma modifier), if both creatures fail then for then next minute their life force is tied together and any damage one creature takes is halved but the other creature takes the same amount of damage (damage from this feature is not shared). Creatures can choose to fail the saving throw and if the two creatures were more than 30 feet apart when you first used this ability then they have advantage on the saving throw.
+
+Once you've successfully used this feature you can't use it again until you finish a long rest.
+{{pageNumber,auto}}
+\page
+
+### Breaker of Bonds
+These illriggers are sworn to Belial, the Lord of Gehennom. They operate as spies, false friends, and double agents, weaving themselves into the fabric of enemy factions . A Breaker of Bonds feigns loyalty and camaraderie, becoming a trusted ally and confidant. They learn their enemy's strengths, their fears, and, most importantly, their bonds—only to shatter them at the most opportune moment. They know that an army that has turned on itself is already defeated, and a hero abandoned by their friends is a victory more complete than any simple death.
+
+
+#### Precepts of Discord
+The Breakers of Bonds swear an oath to Belial, committing themselves to serve their foes as allies before revealing themselves as enemies.
+
+**Isolate the Target.** I will sever their ties, one by one, until they stand alone.
+
+**Be the Dagger.** I will place myself in a position of trust, not to protect, but to find the perfect moment to strike. Their vulnerability is my opportunity.
+
+**Amplify the Burden.** I will amplify their sorrows, twist their triumphs into jealousies, and ensure they break under the weight.
+
+**Exploit All Trust.** I will be the one they rely on, so that when I betray them, their fall is absolute.
+
+#### Belial’s Blessing
+At 3rd level, when Belial accepts you as his illrigger, you gain proficiency in the Deception skill. 
+
+#### Bond of Isolation 
+Starting at 3rd level, when you place a seal on a creature, you can choose to make that seal a Bond of Isolation (no action required). This bond lasts for 1 minute or until the seal is burned. While this bond is active, the target is magically cut off from its allies.
+
+The creature cannot receive telepathic communication of any kind.
+
+While you are within 30 feet of the target, you can use a bonus action to magically tug at the bond. The target must make a Strength saving throw against your interdict save DC. On a failed save, you can pull the creature up to 10 feet to an unoccupied space in a direction of your choice.
+
+
+#### Invoke Hell
+At 3rd level, you gain the following two Invoke Hell options:
+
+**Curse of Loneliness.** As an action, you can choose one creature you can see within 30 feet. The target must succeed on a Wisdom saving throw or be magically cursed. For 10 minutes, the target cannot be the target of any beneficial spell (including healing) cast by its allies, nor can it benefit from any allied auras. The creature can repeat the saving throw at the end of each of its turns, ending the effect on a success.
+
+**Exploit Opening.** When a creature within 30 feet of you misses an interdicted creature with a weapon attack, you can use your reaction to make one weapon attack against that interdicted creature.
+
+#### Aura of Discord
+Starting at 7th level, your mere presence subtly undermines teamwork. Enemy creatures within 10 feet of you cannot take the Help action.
+
+Additionally, any enemy creature within the aura that is within 5 feet of one of its allies has a -1 penalty to its AC, as their coordination is disrupted.
+
+#### Belial's Interdiction
+At 7th level, you learn the following additional interdict boons at the noted illrigger levels. Once you learn an interdict boon granted by this feature, you always know it, and it doesn't count against the number of interdict boons you know.
+
+**Paranoid Seal (7th Level; Passive).** A creature under the effect of your Bond of Isolation cannot be the target of the Help action and cannot benefit from features that require an ally to be nearby (such as Pack Tactics).
+
+**Shatter Bond (13th Level).** As a reaction, when an ally of an interdicted creature moves to a space within 5 feet of that creature, you can burn a seal on the interdicted creature. The seal's damage is dealt to both the interdicted creature and the ally who moved.
+
+**Isolation (18th Level; Passive).** Interdicted creatures within 30 feet of you cannot be magically healed by their allies and cannot receive temporary hit points from any allied source.
+
+#### Sever the Tie
+At 11th level, your power to sever bonds is absolute. As a bonus action, you can target one interdicted creature you can see. The target must make a Charisma saving throw against your interdict save DC. On a failure, any beneficial spells or magical effects on it that were cast by another creature (such as bless, haste, or warding bond) immediately end.
+
+Once you use this feature, you cannot use it again until you finish a short or long rest.
+
+#### Puppet Shield
+Starting at 15th level, you can redirect harm by sacrificing others. When you are hit by an attack from a creature you can see, you can use your reaction to force a different creature within 5 feet of you to become the target of the attack instead. The original attack roll is then compared against the new target's AC.
+
+You can use this feature a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a long rest.
+{{pageNumber,auto}}
+\page
+### Cardinals of Inferno
+Baal is the lord of Kasyrgan, the City of Pain. Baal’s illriggers go forth often serving as arms dealers and agents provocateur, creating feuds, igniting rivalries across the timescape.
+
+Cardinals of Inferno, use their pulpits and supply of arms to twist the love of home and kingdom into hatred and fear of others. When sentiment is right they act, handing out weapons and inciting their targets to war.
+
+#### Precepts of the Inferno
+Hell’s Cardinals swear an oath to Baal when they join the Order of Desolation. The Oath Commits them to burning the Baal’s enemies to Ash and tending to the fires of Hell.
+
+**Incite Passion.** I am the torch in the night, leading down the primrose path.
+
+**Prideful Sermon.** I am the voice that inspires nations to rise and claim their destiny.
+
+**Gone up in Smoke.** Where Passion fails, it’s time to seek fresh kindling.
+
+**Hell Rider.** Now for wrath, now for ruin, and the red dawn.
+
+#### Baal’s Blessing
+When Baal accepts you as his illrigger, he grants you access to his sacrilegious command of blood and life. You gain proficiency in the Arcana skill.
+
+#### Invoke Hell
+At 3rd level, you gain the following two Invoke Hell options:
+
+**Masters of Hellfire.** You call on Baal’s power when you cast a spell that deals fire damage you deal maximum damage instead of rolling.
+
+**Dark Sermon.** As a bonus action you say a quick benediction, up to your charisma modifier in allies are subject to the effects of bless for 1 minute.
+
+\column
+#### Spellcasting
+At 3rd level, when Baal accepts you as an Cardinal of Inferno, you gain access to his infernal power and learn to access divine magic to cast illrigger spells. 
+
+**Cantrips.** You learn two cantrips of your choice from the wizard spell list. You learn an additional wizard cantrip of your choice at 10th level.
+
+**Spell Slots.** The Cardinals of Inferno Spellcasting table shows how many spell slots you have. The table also shows what the level of those slots is; all of your spell slots are the same level. To cast one of your illrigger spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.
+
+**Spells Known of 1st Level and Higher.** You know three 1st-level wizard spells of your choice, two of which you must choose from the abjuration, conjuration and evocation spells on the wizard spell list.
+
+The Spells Known column of the Cardinals of Inferno Spellcasting table shows when you learn more wizard spells of 1st level or higher. Each of these spells must be an abjuration, conjuration or evocation spell of your choice, and must be of a level for which you have spell slots. For instance, when you reach 7th level in this class, you can learn one new spell of 1st or 2nd level.
+
+The spells you learn at 8th, 14th, and 20th level can come from any school of magic.
+
+Whenever you gain a level in this class, you can replace one of the wizard spells you know with another spell of your choice from the wizard spell list. The new spell must be of a level for which you have spell slots, and it must be an abjuration, conjuration or evocation spell, unless you're replacing the spell you gained at 3rd, 8th, 14th, or 20th level from any school of magic.
+
+**Spellcasting Ability.**  Charisma is your spellcasting ability for your illrigger spells. You use your Charisma whenever a spell refers to your spellcasting ability.
+
+In addition, you use your Charisma modifier when setting the saving throw DC for an illrigger spell you cast and when making an attack roll with one.
+
+**Spell save DC** = 8 + your proficiency bonus + your Charisma modifier
+
+**Spell attack modifier** = your proficiency bonus + your Charisma modifier
+
+{{note
+##### Alternative Spellcasting List
+Ask your DM
+The Cardinal of Inferno Spell List can be replaced by the Arcane Spell List, all other restrictions still apply
+}}
+
+
+
+{{pageNumber,auto}}
+\page
+
+
+{{classTable,frame
+##### Cardinal of Inferno Spellcasting 
+| Illrigger  | Spells  |--- Spells Slots per Spell Level ---||||
+| Level ^| Known  ^|   1st   |   2nd   |   3rd   |   4th   |
+|:------:|:--------:|:-------:|:-------:|:-------:|:-------:|
+|  3rd   |    3     |    2    |    —    |    —    |    —    |
+|  4th   |    4     |    3    |    —    |    —    |    —    |
+|  5th   |    5     |    3    |    —    |    —    |    —    |
+|  6th   |    5     |    3    |    —    |    —    |    —    |
+|  7th   |    6     |    4    |    2    |    —    |    —    |
+|  8th   |    6     |    4    |    2    |    —    |    —    |
+|  9th   |    7     |    4    |    2    |    —    |    —    |
+|  10th  |    7     |    4    |    3    |    —    |    —    |
+|  11th  |    8     |    4    |    3    |    —    |    —    |
+|  12th  |    8     |    4    |    3    |    —    |    —    |
+|  13th  |    9     |    4    |    3    |    2    |    —    | 
+|  14th  |    9     |    4    |    3    |    2    |    —    | 
+|  15th  |    10    |    4    |    3    |    2    |    —    | 
+|  16th  |    10    |    4    |    3    |    3    |    —    | 
+|  17th  |    11    |    4    |    3    |    3    |    —    |
+|  18th  |    11    |    4    |    3    |    3    |    —    |
+|  19th  |    12    |    4    |    3    |    3    |    1    | 
+|  20th  |    12    |    4    |    3    |    3    |    1    | 
+}}
+
+
+#### Amplifying Seal 
+At 7th level you master one of baal’s most closely guarded secrets. You learn the seal of amplification, at the end of a long rest you may touch one weapon and mark it with a seal of amplification, until the end of your next long rest, when the weapon is used on a target that has a seal on it, the weapon causes and additional 2d6 necrotic damage. 
+
+The effect increases to 3d6 at level 18.
+
+#### Baal's Interdiction 
+You learn the following additional interdict boons at the noted illrigger levels. Once you learn an interdict boon granted by this feature, you always know it, and it doesn’t count against the number of interdict boons you know.
+
+**Unholy Seals (7th level).** Your mastery of seals increases, when you apply a seal you can choose to make the seal visible to everyone, when you attack a creature with your seal on it, you add 1d4 to hit and damage. (This does not stack with bless or leadership effects)
+
+**Seal Conduite (13th level; Passive).** You learn to cast a spell through a seal. You may use a creature marked with your seal as the origin point for one of your spells. Doing this consumes the seal.
+
+**Seal of Retribution (18th level).** When a creature with your seal on it attacks you, as a reaction you may make an attack against that target.
+
+#### Favor of Baal
+
+At 11th level you gain the true favor of Baal and his protection. You gain a bonus on all saving throws equal to your charisma modifier.
+
+Additionally, you become immune to dominate and charm effects.
+
+#### Devil Caster
+At 15th level, you can, as a reaction to taking damage, cast fire shield. The shield is always a warm shield, deals fire damage, and deals 8d8 damage instead of 2d8.
+
+You can use this feature a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a long rest.
+{{pageNumber,auto}}
+\page
+### Despotic Ruler
+
+Mephistopheles, the ruler of Cania, the eighth layer of Hell, bestows his power upon those who seek to rule with an iron fist and an unyielding grip. His illriggers are master tacticians, ruthless warriors, and cunning leaders, capable of commanding legions and crushing dissent with their unparalleled combat prowess and strategic genius.
+
+#### Precepts of Dominion
+Despotic Ruler swear an oath to Mephistopheles when they join the Order of Desolation. By following these precepts, they dominate their foes and inspire fear in their subjects.
+
+**Rule with an Iron Fist.** Mercy is for the weak. Strength and ruthlessness are the keys to power.
+
+**Crush Dissent.** Any challenge to your authority must be stamped out swiftly and decisively.
+
+**Command and Conquer.** Use your tactical genius to outmaneuver your enemies and bring them to their knees.
+
+**Power is Absolute.** Seek greater power at all costs, for only the strong can rule.
+
+#### Mephistopheles' Blessing
+At 3rd level, when Mephistopheles accepts you as his illrigger, you gain proficiency with heavy armor. 
+
+
+
+#### Invoke Hell
+
+At 3rd level, you gain the following two Invoke Hell options:
+
+**Commanding Presence.** You exude an aura of command that can inspire your allies.  As an action, choose up to three creatures within 30 feet of you that can see and hear you. They gain temporary hit points equal to your illrigger level + your Charisma modifier, which last for 1 minute.
+
+**Dominion's Call.** As a bonus action, you can command your enemies to bow before you. Each creature of your choice within 30 feet of you must make a Wisdom saving throw. On a failed save, a creature is knocked prone and must use its movement on its next turn to crawl 10 feet closer to you. On a successful save, a creature is unaffected.
+
+#### Unyielding Will
+Starting 7th level, your resolve is unbreakable, and your presence bolsters your allies. You and each creature of your choice within 15 feet of you are immune to the frightened condition while you are conscious.
+
+\column
+
+#### Mephistopheles' Interdiction
+You learn the following additional interdict boons at the noted illrigger levels. Once you learn an interdict boon granted by this feature, you always know it, and it doesn’t count against the number of interdict boons you know.
+
+**Fiendish Command (7th Level).** When you make an Intimidation check, you can expend a seal to treat a d20 roll of 9 or lower as a 10.
+
+**Tyrant's Retaliation (13th Level).** When a creature within 5 feet of you hits you with an attack, you can place a seal on them as a reaction and force the creature to make a Wisdom saving throw. On a failed save, the creature is frightened of you until the end of their next turn.
+
+**Hellish Dominion (18th Level; Passive).** Interdicted creatures have disadvantage on Wisdom and Charisma saving throws while within 30 feet of you.
+
+
+#### Iron Grip
+Starting at 11th level, your strikes are imbued with the power of Mephistopheles, making them more devastating. You can add your Charisma modifier to damage rolls with meele weapon attacks.
+
+#### Overwhelming Dominion
+At 15th level, your mere presence demands respect and submission. As an action, you can force all creatures of your choice within 30 feet of you that can see and hear you to make a Wisdom saving throw against your interdict save DC. On a failed save, a creature is magically compelled to bow before you, falling prone and remaining there until the end of their next turn. While bowing, a creature is considered incapacitated.
+
+In addition, creatures that fail the saving throw take 3d10 psychic damage as their will is crushed by your overwhelming presence. Creatures that succeed on the saving throw are not forced to bow but still take half as much psychic damage.
+
+You can use this feature once, and you regain the ability to use it when you finish a long rest.
+{{pageNumber,auto}}
+\page
+
+
+### Fatebreaker
+Nezarec, the ruler of destinies, leads the enigmatic Destiny Weavers, who manipulate fates for a price. They control lives, oversee mystical tapestries, and guide souls. In battles, they aid allies by shaping fate and ensnare foes in destiny's webs.
+
+#### Precepts of Fate
+Nezarec's Harbingers pledge their loyalty to the Fiend of Destiny when they enter the Coven of Fate. 
+
+**Control Chaos.** Chaos is a powerful tool but remember hell is a realm of order and its goal is to bring order to the multiverse.
+
+**Fate.** All things are bound by fate, it is your duty to ensure the correct fate is followed.
+
+**Self Reliance.** It is fine to have allies but remember in the end the only one you can always rely on is yourself.
+
+**Truth.** Lies are a powerful weapon but the truth can be as if not more powerful a weapon.
+
+#### Nezarec’s Blessing 
+At 3rd level, when you choose Nezarec as your archdevil, you gain proficiency with insight, investigation, and perception.
+
+
+#### Invoke Hell
+At 3rd level, you gain the following two Invoke Hell options:
+
+**Bend the Knee.** As an action, you cast command (DC = 8 + your proficiency bonus + your Charisma modifier), without expending a spell slot, and for 1 minute or until your concentration ends (as if you were concentrating on a spell). During this time, you can cast command as an action on each of your turns, without expending a spell slot.
+
+**Mind Screech.** As an action you can release a wave of psychic energy to confuse and disorient your enemies, all hostile creatures within 30 feet of you must make a Wisdom saving throw (DC = 8 + your proficiency bonus + your Charisma modifier) or be incapacitated until the end of your next turn. Interdicted creatures have disadvantage on the saving throw.
+
+#### Spell Scourge
+At 7th level, an interdicted creature has disadvantage to maintain concentration on their spells.
+
+Additionally, you can hear the thoughts of a creature that has one of your seals on it.
+
+\column
+
+#### Nezarec's interdiction
+You learn the following additional interdict boons at the noted illrigger levels. Once you learn an interdict boon granted by this feature, you always know it, and it doesn’t count against the number of interdict boons you know
+
+**Mind Breaker (7th level; Passive).**  When a creature starts its turn with one of your seals on it that creature takes psychic damage equal to your Charisma modifier (minimum of 1).
+
+**Fear the Inevitable (13th level; Passive).** At the start of an interdicted creatures turn it must make a Wisdom saving throw (DC = 8 + your proficiency bonus + your Charisma modifier) or be frightened of you until the start of their next turn.
+
+**Sealed Fate (18th level).** When you place a seal on a creature you can force it to make a Wisdom saving throw (DC = 8 + your proficiency bonus + your Charisma modifier), on a failure the creature is paralyzed until the end of your next turn.
+
+
+#### Fate Resistance
+Starting at 11th level, you have advantage on saving throws against spells and other magical effects.
+
+In addition, you gain a bonus to your initiative rolls equal to your Charisma modifier (minimum of +0).
+
+#### Aura of Aggression
+Beginning at 15th level, you radiate a magical aura of evil. Whenever a hostile creature within 15 feet of you makes an attack roll or a saving throw, it must roll a 1d4 and subtract the number rolled from the result.
+
+In addition when you make a weapon attack against a creature within that area add 1d4 to your attack. 
+{{pageNumber,auto}}
+\page
+
+### Fiendish Marksman
+The Pactsmen of Gargauth are those who have forged a dark pact with the fiendish entity known as Gargauth. Through this sinister alliance, they gain access to a twisted arsenal of enchanted firearms and shadowy powers. These individuals are deadly marksmen, wielding their infernal weapons with uncanny accuracy and inflicting devastation upon their enemies.
+
+#### Precepts of Marksman
+Enforcers swear an oath to Gargauth when they join the Order of Desolation. The oath commits them to embracing the flames and the power of firearms, and to using them to sow chaos and destruction in the name of Gargauth.
+
+**Embrace the Infernal Arsenal.** Harness the power of Gargauth's weaponry to bring chaos and destruction to your enemies.
+
+**Master the Firearm.** Perfect your marksmanship skills to strike with deadly precision and unleash the full potential of your infernal armaments.
+
+**Spread Chaos with Bullets.** Rain down a hail of bullets infused with infernal energy to sow fear and discord among your foes.
+
+**Forge the Path of Destruction.** Walk the path of Gargauth's chosen, leaving a trail of devastation in your wake as you fulfill your dark purpose.
+
+#### Infernal Arsenal Mastery
+
+Starting at 3rd level, as a free action while on the same plane of existence, you can summon your ranged weapon into your hand.
+
+Additionally, you can choose to use your Strength modifier instead of your Dexterity modifier when making ranged weapon attacks with ranged weapons.
+
+#### Gargauth's Blessing
+When you choose Gargauth as your archdevil, you gain proficiency with the acrobatic skill.
+
+#### Invoke Hell
+At 3rd level, you gain the following two Invoke Hell options:
+
+**Shootgun Blast.** As a reaction to taking damage from a creature within 10 feet of you, you can unleash a blast of fire in retaliation. The creature must make a Dexterity saving throw, taking 4d6 piercing damage on a failed save, or half as much damage on a successful one.
+
+**Firearm Barrage.** As an action, you Invoke Gargauth's authority, causing your ranged weapon to unleash a barrage of bullets. Choose a point within weapon range. Each creature in a 15-foot radius of that point must make a Dexterity saving throw, taking 3d6 piercing damage on a failed save, or half as much damage on a successful one.
+
+\column
+
+#### Mystical Arsenal
+Starting at 7th level, your mastery of firearms becomes infused with mystical energy,  all piercing damage you deal with your weapons is considered magical for the purpose of overcoming resistance to non-magical attacks and damage. 
+
+Additionally, when you deal piercing damage to a creature, you ignore the target's piercing resistance, and you treat the target's immunity to piercing damage as resistance.
+#### Gargauth's Interdiction
+You learn the following additional interdict boons at the noted illrigger levels. Once you learn an interdict boon granted by this feature, you always know it, and it doesn’t count against the number of interdict boons you know.
+
+**Precision (7th level, Passive).** You can expend one use of your seals to ignore the effects of half cover and three-quarters cover on a ranged weapon attack you make. 
+
+Additionally, you ignore the Loading properties of weapons. 
+
+**Sniper (13th level, Passive).** Your skill with firearms reaches unparalleled heights, allowing you to strike with deadly precision. Your ranged weapons attacks score a critical hit on a roll of 19 or 20.
+
+**Barrage (18th level).** you unleash a devastating hail of bullets upon your enemies, creating a storm of destruction in a 30-foot radius. You can expend one use of your seals and choose a point within 60 feet of you. Each creature in the area must make a Dexterity saving throw, taking 10d10 piercing damage on a failed save, or half as much damage on a successful one.
+#### Deadeye
+At 11th level, your precision with ranged weapons becomes supernatural. You gain the following benefits:
+
+- You can add your Charisma modifier to damage rolls with ranged weapon attacks.
+
+- When you roll a 1 or 2 on a damage die for an attack you make with a ranged weapon, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2.
+
+#### Devilgunner
+At 15th level, you forge a pact with Gargauth, granting you access to his infernal arsenal. As bonus action, you can summon Gargauth's firearm (range 60/240) into your hand. It counts as a magical ranged weapon with which you are proficient. The firearm deals 4d6 piercing damage on a hit.
+
+You can maintain your firearm for 1 minute. You can also dismiss the firearm at any time as free action.
+
+Once you use this ability, you can’t use it again until you finish a short or long rest.
+
+
+
+{{pageNumber,auto}}
+\page
+### Harbingers of Famine
+Beelzebub, the Lord of the Flies and the Prince of Famine, rules over the wasting lands of the Abyss. His Illriggers, known as Harbingers of Famine, do not seek to crush their enemies with brute force immediately. Instead, they tilt the scales of battle, starving their foes of resources, hope, and vitality until they are weak enough to be controlled.
+
+These Illriggers understand a fundamental truth: morality and will disappear when the stomach is empty. A starving dog will bite its master; a starving hero will betray their king. These knights are calm, calculating, and often tilt their heads as they observe the desperation they create.
+
+#### Precepts of Hunger
+Harbingers of Famine swear an oath to Beelzebub when they join the Order of Desolation. Their code is cold and inevitable.
+
+**Hunger is Absolute.** Ideals, loyalty, and love are luxuries of the well-fed. Strip away the sustenance, and you reveal the beast.
+
+**Tilt the Scales.** A fair fight is a failure of planning. Weaken the enemy before the first blow is struck.
+
+**Control the Starving.** Those who are desperate look for a savior. Be that savior, and they will belong to you.
+
+**Devour the Weak.** There is no waste in nature. What falls must be consumed to fuel the strong.
+
+#### Beelzebub’s Blessing
+At 3rd level, when Beelzebub accepts you as his Illrigger, you gain proficiency in the Survival skill.
+
+
+#### Invoke Hell
+At 3rd level, you gain the following two Invoke Hell options:
+
+**Wither.** As an action, you drain the moisture and vitality from the air around you. Each creature of your choice within 30 feet of you must make a Constitution saving throw against your Interdict Save DC. On a failed save, a creature takes necrotic damage equal to your Illrigger level + your Charisma modifier and gains one level of exhaustion. On a successful save, they take half damage and do not gain exhaustion.
+
+**Scales of Famine.** As a bonus action, you can magically rebalance the vitality between two creatures. Choose two creatures you can see within 30 feet of you. You take hit points from one target up to your Illrigger level and grant them to the other target as temporary hit points. If the target being drained is unwilling, they must succeed on a Constitution saving throw against your Interdict Save DC or lose the hit points (this damage cannot be reduced).
+
+\column
+
+#### Pawn of the Starving
+Starting at 3rd level, you can assert dominance over those weakened by battle. When an interdicted creature is below half its hit point maximum, it is considered Starving.
+
+As a bonus action, you can mentally command a Starving creature within 60 feet of you. The target must succeed on a Wisdom saving throw against your Interdict Save DC. On a failure, the creature must immediately use its reaction to move up to its speed or make a single weapon attack against a creature of your choice.
+
+#### Aura of Drouth
+At 7th level, you radiate an aura that saps energy from your foes. Whenever a hostile creature within 10 feet of you regains hit points, the amount healed is reduced by your proficiency bonus.
+
+#### Beelzebub’s Interdiction
+At 7th level, you learn the following additional interdict boons at the noted illrigger levels. Once you learn an interdict boon granted by this feature, you always know it, and it doesn't count against the number of interdict boons you know.
+
+**Atrophic Seal (7th Level; Passive).** A creature bearing your seal cannot regain hit points. If they receive magical healing, the seal consumes the magic instantly, preventing the healing, but the seal remains on the creature.
+
+**Gluttonous Tithe (13th Level).** When an interdicted creature hits you with an attack, you can use your reaction to burn a seal on them. You reduce the damage taken by 1d10 + your Charisma modifier, and you regain hit points equal to the amount reduced.
+
+**Zone of Emptiness (18th Level; Passive).** Interdicted creatures within 30 feet of you have disadvantage on Strength and Constitution saving throws.
+
+#### Voracious Strike
+Starting at 11th level, your strikes are infused with the gnawing hunger of the void. When you hit a creature with a melee weapon attack and the target is below half its hit point maximum, you deal an extra 2d8, and you gain temporary hit points equal to the necrotic damage dealt.
+
+#### The Great Famine
+At 15th level, you can manifest the true aspect of the Horseman. As an action, you summon a 30-foot-radius sphere of devastating hunger centered on yourself. The sphere moves with you and lasts for 1 minute. Enemy creatures that start their turn in the sphere must make a Constitution saving throw. On a failure, they take 4d10 necrotic damage and are considered Starving regardless of their current hit points until the start of their next turn. On a success, they take half damage.
+
+Once you use this feature, you cannot use it again until you finish a long rest.
+
+{{pageNumber,auto}}
+\page
+### Hell's Cantor
+Glasya, the Archduchess of Malbolge and Princess of Hell, is the master of lies, contracts, and twisted artistry. Her illriggers are not mere soldiers; they are instruments of manipulation, weaving infernal power into music, poetry, and performance.
+
+A Hell's Cantor operates as Hell's smiling diplomat, its celebrated artist, and its most insidious agent. They use their art to lull foes into complacency, shatter enemy morale with a single discordant note, and compose symphonies of deceit that leave entire kingdoms in ruins. They know that a well-placed rumor is as deadly as a poisoned dagger, and a captivating song can break a will faster than any torture.
+
+#### Precepts of the Song
+Hell's Cantors swear an oath to Glasya when they join the Order of Desolation. The oath commits them to using their artistic talents to deceive, corrupt, and control.
+
+**The Unheard Note.** My true intentions are the melody no one hears until it's too late.
+
+**A Captive Audience.** Once they listen, they are mine. Control their ears, and you control their hearts and minds.
+
+**Dissonance is Ruin.** A single wrong note can shatter an army's morale. I am that note.
+
+**The Devil's Tune.** All art serves Hell. I will compose masterpieces of deceit and symphonies of sorrow.
+
+#### Glasya's Blessing
+At 3rd level, when Glasya accepts you as her illrigger, she grants you proficiency with one musical instrument of your choice.
+
+You also gain proficiency in the Performance or Deception skill (your choice). If you are already proficient in the chosen skill, your proficiency bonus is doubled for any ability check you make with that skill.
+
+#### Invoke Hell
+At 3rd level, you gain the following two Invoke Hell options:
+
+**Inspiring Anthem.** As an action, you perform a rousing infernal tune. Choose a number of willing creatures up to your Charisma modifier (minimum 1) within 30 feet of you who can hear you. Those creatures gain temporary hit points equal to your illrigger level + your Charisma modifier, and they have advantage on the next attack roll or saving throw they make before the start of your next turn.
+
+**Shattering Discord.** As an action, you unleash a magically discordant note. Choose one creature you can see within 60 feet of you. They must make a Wisdom saving throw against your interdict save DC. On a failed save, the creature takes psychic damage equal to two rolls of your Seal Damage die and is deafened for 1 minute. On a successful save, they take half as much damage and are not deafened. An interdicted creature has disadvantage on this saving throw.
+
+
+#### Aura of the Siren
+Starting at 7th level, your artful presence bolsters your allies against mental assault. You and friendly creatures within 10 feet of you who can hear you have advantage on saving throws against being charmed or frightened. This is comparable to the Hellspeaker's immunity to the charmed condition or the Despotic Ruler's immunity to the frightened condition.
+
+
+#### Glasya's Interdiction
+At 7th level, you learn the following additional interdict boons at the noted illrigger levels. Once you learn an interdict boon granted by this feature, you always know it, and it doesn't count against the number of interdict boons you know.
+
+
+**Cacophonous Seal (7th Level; Passive).** When you burn a seal on a creature, the resulting burst of infernal sound distracts them. The target has disadvantage on the next saving throw it makes to maintain concentration before the end of your next turn.
+
+
+**Enthralling Performance (13th Level).** As an action, you can expend a seal to target one interdicted creature  within 30 feet of you who can hear you. The target must make a Wisdom saving throw. On a failed save, it is charmed by you for 1 minute or until it takes damage. While charmed, it is incapacitated as it listens intently to your infernal melody which only it can hear.
+
+
+**Dirge of Despair (18th Level; Passive).** Interdicted creatures within 30 feet of you that can hear you cannot be magically healed and cannot gain temporary hit points.
+
+#### Crescendo
+Starting at 11th level, you can build your infernal power to a deafening peak. When you burn one or more seals on a creature, you can use your reaction to unleash a shockwave of sound.
+
+Each enemy creature of your choice within 15 feet of the interdicted target must make a Constitution saving throw. On a failed save, they take thunder damage equal to half the total damage dealt by the burned seals and are pushed 10 feet away from the original target.
+
+#### Siren's Call
+At 15th level, you can use your art to dominate the will of your foes. As an action, you can target one interdicted creature you can see within 60 feet. The target must make a Charisma saving throw against your interdict save DC.
+
+On a failed save, the creature is dominated by you, as if by the *dominate person* spell, for 10 minutes. This effect does not require your concentration. The creature can repeat the saving throw at the end of each of its turns and whenever it takes damage, ending the effect on a success.
+
+Once you successfully use this feature, you can't use it again until you finish a long rest.
+{{pageNumber,auto}}
+\page
+### Hellspeaker
+Moloch rules Styx, the City of Lies, but his reach extends far beyond it. Hell’s greatest politicians and diplomats rise to prominence through Moloch’s subtle manipulations. They follow him with great loyalty, for they know they are nothing without him—and thus his power echoes through all of Hell. Moloch’s illriggers are silver-tongued enchanters,
+lulling his foes to complacency with sorcery and subterfuge until they wake and find themselves under the command of the Order of Desolation.
+
+These Hellspeakers train in the art known as the Red Cant or Hell’s Cant. By understanding their enemy and through weaving subtle sorceries into normal speech, Hellspeakers can make their foes feel, think, or do nearly anything to accelerate Hell’s victory.
+
+Across the timescape, Hellspeakers enjoy a reputation as smiling rogues and swashbuckling villains. An asset in any negotiation, Hellspeakers know that in a world of lies, the truth can be as potent a weapon as steel.
+
+#### Precepts of Deception
+Hellspeakers swear an oath to Moloch when they join the Order of Desolation. By following these precepts, they infiltrate the farthest reaches of power and manipulate all under their influence.
+
+**My Voice Is a Weapon.** Even when my enchantments fail, if my enemy can hear me, they are mine.
+
+**Doubt Is Certainty.** I need not convince my enemy, only sow doubt and wait for it to bear fruit.
+
+**Trust Me.** For each lie I utter, I tell the truth tenfold. One who always lies says nothing.
+
+**Never Tell the Same Lie Twice.** An overused skill becomes too predictable. Keep moving, switch targets, keep them guessing.
+
+#### Moloch’s Blessing
+At 3rd level, when Moloch accepts you as his illrigger, you gain proficiency in the Persuasion or Deception skill (your choice). If you already have proficiency in the skill
+of your choice, your proficiency bonus is doubled for
+any ability check you make with that skill.
+
+In addition, your Forked Tongue feature grants you an additional language (for a total of three at 3rd level and four at 9th level). Whenever you speak in a language gained by this feature, your devilish influence is subconsciously felt by creatures who can hear and understand you, granting you advantage on Charisma checks to influence those creatures.
+
+\column
+
+#### Charm Enemy
+At 3rd level,  when you use your bonus action to place a seal on a Humanoid, you can attempt to charm them. The target must succeed on a Charisma saving throw or be charmed by you for 1 hour or until you or your companions do anything harmful to them.
+
+While charmed, the target regards you as a friendly acquaintance. When the charmed condition ends, the target knows they were charmed by you.  When you use this bonus action, you can additionally burn one or more seals on one or more other interdicted Humanoids within 30 feet of you, attempting to charm those targets as well. After taking damage from the burned seals, each of those targets must succeed on a Charisma saving throw or be under the same charmed effect.
+
+You can use this feature a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a long rest.
+
+#### Invoke Hell
+At 3rd level, you gain the following two Invoke Hell options:
+
+**Honey-Sweet Blades.** When you make a weapon attack against an interdicted creature,
+you can gain advantage on that attack (no action required). If the attack hits, it becomes a critical hit.
+
+**Turncoat.** As an action, you wield your manipulative tongue against your enemies. You
+choose a number of enemy creatures up to your proficiency bonus within 60 feet of you who
+can hear you. Each target must succeed on a Charisma saving throw or use their reaction to make a weapon attack against a single target of your choice. A creature affected by this feature can’t attack themself.
+
+#### Moloch’s Interdiction
+At 7th level, you learn the following additional interdict boons
+at the noted illrigger levels. Once you learn an
+interdict boon granted by this feature, you always
+know it, and it doesn’t count against the number of
+interdict boons you know.
+
+**Red Cant (7th Level).** When you make a Charisma check, you can expend a seal to treat a d20 roll of 9 or lower as a 10.
+
+**Slippery Ploy (13th Level).** When a creature targets you with an attack, spell, or other magical effect, you can place a seal on them as a reaction and force the creature to make a Charisma saving throw. On a failed save, the creature must choose a new target or lose the attack or effect.
+
+**Incontrovertible (18th Level; Passive).** Interdicted creatures have disadvantage on Wisdom and Charisma saving throws. 
+{{pageNumber,auto}}
+\page
+#### Intransigent
+
+Starting 7th level, you and each creature of your choice within 10 feet
+of you are immune to the charmed condition while you are conscious.
+
+#### Let’s Make a Deal
+At 11th level, you can offer your allies a deal—at a price, of course. As a bonus action, you choose one willing ally within 60 feet of you who can hear you. Once within the next 10 minutes, the creature can choose to gain advantage on one attack roll or saving throw they make and can add a bonus equal to your proficiency bonus to the same roll.
+
+If this attack hits or this saving throw succeeds, the creature gains temporary hit points equal to your illrigger level. If this attack misses or this saving throw fails, the creature has disadvantage on the next attack roll or saving throw they make. This disadvantage can’t be canceled out with advantage in any way. A creature can strike only one deal with you at a time.
+
+You can use this feature a number of times equal to your proficiency bonus. You regain any expended uses when you finish a long rest.
+
+#### Quid Pro Quo
+At 15th level, you can whisper to the legions of Hell, ensnaring enemies and calling allies. As an action, you can attempt to banish a creature you can see within 30 feet of you. The target must succeed on a Charisma saving throw. On a failed save, the target is banished to the wastes of Hell for 1 minute, after which they return to the unoccupied space nearest to the one they left. A target banished in this way can repeat the saving throw at the end of each of their turns, ending the effect early on a success.
+
+A creature who succeeds on a saving throw against this effect becomes immune to your Quid Pro Quo for 24 hours.
+
+Additionally, when a target is banished in this way, a devil jurist or a horned devil appears in their place. This devil acts as an ally to you and follows your commands until the banished creature is no longer banished, at which time the devil disappears.
+
+Once you successfully banish a creature in this way, you can’t use this feature again until you finish a long rest.
+
+{{imageMaskEdge8,--offset:7%,--rotation:270
+  ![](https://i.imgur.com/cyrgQcz.png){height:101%,left:50px,bottom:-1px}
+}}
+
+{{pageNumber,auto}}
+\page
+### Knights of the Eclipsed Sun
+Malkizid, the Branded King, is the lord of the impure, the fallen, and the branded. Once a Solar of blinding radiance, he was cast down for his treachery, his wings scorched and his essence twisted. He now resides in the lower planes, plotting against both the celestial hosts and the other Archdevils.
+
+His Illriggers, known as the Knights of the Eclipsed Sun, are the enforcers of his burning tyranny. They do not wield the gentle light of the sun, but its unforgiving heat and blinding radiation. They brand their enemies, strip away their defenses, and leave nothing but scorched earth in their wake. They are often tasked with hunting down Paladins and Celestials to prove the superiority of Malkizid’s tainted light.
+
+#### Precepts of the Brand
+Knights of the Eclipsed Sun swear an oath to Malkizid. Their code is one of searing judgment and inevitable exposure.
+
+**The Sun Reveals.** Secrets wither in the light. I will burn away the shadows and expose the weakness of my enemies.
+
+**The Brand Endures.** Pain is a lesson that must be remembered. I will leave my mark upon the world and my foes.
+
+**Radiance is Power.** Light does not ask for permission to burn. I will assert my dominance with overwhelming force.
+
+**Corruption of the Pure.** That which claims to be holy is a lie. I will show them the true face of the sun.
+
+
+#### Malkizid’s Blessing
+At 3rd level, when Malkizid accepts you as his illrigger, your skin becomes feverishly hot to the touch, and your eyes glow with a sickly, pale light. You gain proficiency in the Insight skill. If you are already proficient, you gain proficiency in Intimidation instead.
+
+Additionally, you gain resistance to Radiant damage.
+
+
+\column
+
+#### Invoke Hell
+At 3rd level, you gain the following two Invoke Hell options. 
+
+**Solar Flare.** As an action, you unleash a beam of concentrated, radioactive light in a 5-foot wide, 60-foot long line. Each creature in the line must make a Constitution saving throw. 
+
+On a failed save, a creature takes Radiant damage equal to 2d8 + your Illrigger level and is blinded until the start of your next turn. On a successful save, they take half as much damage and are not blinded.
+
+**Brand of Judgment.** As a bonus action, you sear a magical brand onto a creature you can see within 30 feet of you. The target must succeed on a Wisdom saving throw or be Branded for 1 minute. While Branded, the creature sheds dim light in a 10-foot radius and cannot benefit from being invisible. 
+
+Additionally, whenever the Branded creature takes damage from a spell or attack, it takes an additional amount of Radiant damage equal to your Charisma modifier. The creature can repeat the saving throw at the end of each of its turns, ending the effect on a success.
+
+
+#### Aura of Radiation
+Starting at 7th level, you emit a subtle, sickening heat that weakens your foes. Hostile creatures within 10 feet of you that starts its turn in this aura takes Radiant damage equal to your proficiency bonus.
+
+#### Malkizid’s Interdiction
+At 7th level, you learn the following additional interdict boons at the noted illrigger levels. Once you learn an interdict boon granted by this feature, you always know it, and it doesn't count against the number of interdict boons you know.
+
+
+**Irradiated Seal (7th Level; Passive).** Your seals glow with a sickly light. An interdicted creature sheds bright light in a 20-foot radius and dim light for an additional 20 feet. The creature cannot Hide, and attack rolls against the creature ignore half cover.
+
+**Gravity Well (13th Level).** When you burn a seal on an interdicted creature, you can twist the gravity around them. The target must succeed on a Strength saving throw or be pulled up to 15 feet in a straight line toward you. If they end this movement within 5 feet of you, you can make one melee weapon attack against them as a reaction.
+
+**Supernova (18th Level; Passive).** When you burn a seal on a creature, the energy erupts outward. You can choose to deal the seal's damage to all other creatures within 10 feet of the target (including allies, but excluding yourself). The damage type for this explosion is Radiant.
+{{pageNumber,auto}}
+\page
+
+#### Sun-eater's Strike
+At 11th level, your weapon absorbs the light around it to fuel your strikes. When you hit a creature with a melee weapon attack, you deal an extra 1d8 Radiant damage. 
+
+If the target is a Celestial or a Paladin, this damage increases to 2d8.
+
+#### Total Eclipse
+
+At 15th level, you can manifest the ultimate power of the Branded King, blotting out the light to replace it with your own.As an action, you create a sphere of magical darkness with a 60-foot radius centered on yourself that moves with you. This darkness lasts for 1 minute.
+
+- You can see through this darkness perfectly, and for you, everything within the sphere appears illuminated in bright, harsh light.
+- While this darkness is active:Enemy creatures within the darkness are Blinded, even if they have darkvision (unless they have Truesight or devil's sight).
+- You have advantage on all attack rolls against creatures within the darkness.At the start of each of your turns, all hostile creatures within the darkness take 4d6 Radiant damage.
+
+Once you use this feature, you cannot use it again until you finish a long rest.
+
+
+{{pageNumber,auto}}
+\page
+### Nails of Odium
+Of all of Hell’s Knights there are none more tough than the Odious Lord’s Toolbox, the Nails of Odium. Whenever there are walls to sunder or enemy lines to break, the Nails will take them down, because if there is anything a nail is good for it’s making holes.
+
+#### Precepts of Hate
+The Nails of Odium swear an oath to Geryon when they join the Order of Hate. This oath commits them to kill Geryon's enemies out of pure hatred.
+
+**Hate is Conviction.** Hate is proof of your conviction, proof of your commitment. Where there is hatred, there is your truth.
+
+**Deep as Night, Vast as Sky.** Within all there is a well of emotion that will grant you great power, it is up to you to reach in and grasp it.
+
+**Ire for the Worthy Few.** Only those who can affect you greatly are deserving of your hate, even if it is in the more physical sense.
+
+**All Paths to Victory.** Let neither pride nor humility prevent certain victory.
+
+#### Geryon’s Blessing
+At 3rd level, when you choose Geryon as your Archfiend, you gain proficiency with heavy armor.
+
+#### Invoke Hell
+
+At 3rd level, you gain the following two Invoke Hell options:
+
+**Odious Burst.** Your hatred is made manifest as both proof to your conviction and a mode of survival. As a reaction to taking damage, you gain 3 times your Illrigger level in temporary hit points. While you have these temporary hit points, you have advantage on Dexterity and Strength saving throws. You lose these temporary hit points at the end of your next turn.
+
+**Instill Rage.** As an action, you place a violent anger in your enemy. Choose a target within 60 feet they must make a Charisma saving throw (8 + Proficiency modifier + Charisma Modifier) or be charmed. While charmed by this effect, as determined randomly by the DM they will attack any creature regardless of whether they consider them an ally or enemy, as well as having advantage on melee attacks, but melee attacks made against them also have advantage. 
+
+They also cannot cast or concentrate on spells if they are able.
+
+This effect lasts for 1 minute or until you lose your concentration (as if you were concentrating on a spell). If the creature is interdicted, they must make their saving throw at disadvantage. 
+
+
+
+#### Rough housing
+At 3rd level, when you attack a creature with a melee attack, you can use your bonus action to make another creature within your reach make a Strength saving throw or be pushed back 5 feet and take bludgeoning damage equal to your Strength Modifier.
+
+\column
+
+#### Raging Juggernaut
+Starting at 7th level, you have learned to channel your ire to power your charge. When you move at least 10 feet straight towards a target and hit with an attack deal an extra 1d8 weapon damage, and if the target is a creature they must make a Strength saving throw against your DC. If they fail they are knocked prone. 
+
+If the target is an object or structure you can instead make a melee attack using your armor dealing 1d8 times half of your Illrigger level in bludgeoning damage. This damage is considered magical for the purpose of overcoming damage resistance. 
+
+At 11th level, you deal double damage to structures and objects while using this feature. 
+
+You can use this ability a number of times equal to your Charisma modifier.
+
+#### Geryon’s Interdiction
+You learn the following additional interdict boons at the noted illrigger levels. Once you learn an interdict boon granted by this feature, you always know it, and it doesn’t count against the number of interdict boons you know.
+
+**Crashing Assault (7th level; Passive).** When you hit an interdicted creature with an attack, you can force them to move 5 feet in any direction. If you consume the seal while attacking you can move them away 10 feet.
+
+**Sting of Steel (13th level).** When you consume a seal on an interdicted creature they can’t take reactions until the end of your next turn.
+
+**As Dangerous as Hellfire (18th level; Passive).** When you consume a seal you can instead choose to deal half the damage to all creatures you choose within 10 feet of the target, excluding yourself. 
+
+#### Mark of Malice
+Starting at 11th level as bonus action you can place a seal on a creature within 30 feet and summon a long nail of pure malice to pierce their soul. The target must make a Charisma saving throw or have their movement reduced by half and if the creature deals any damage to you before the start of your next turn, you can use your bonus action to make an additional attack against them during your next turn. This effect ends when either after the seal is consumed or evaporates.
+
+In addition your speed increases by 15 feet and you can move up vertical structures without falling during the move and any damage you take on your turn is halved.
+
+
+#### Unrelenting Odium
+At 15th level, when you would go down to 0 hit points you instead go to 1 and as a reaction, you can make a weapon attack against a target, if it hits, the attack is considered a critical hit. You regain use of this ability after completing a long rest.
+
+
+
+{{pageNumber,auto}}
+\page
+
+
+### Painkiller
+Dispater rules Dis, the City of War. When Hell invades another world, Dispater’s army does the fighting and dying. His Painkillers are master strategists who lead from the front, inspiring terror and awe in their soldiers. The imperious Painkillers are full of pride and hubris, and they often obsess over their personal appearance.
+
+Though among the most chivalrous of the illriggers, a Painkiller’s gallantry is twisted. They accept and honor challenges to single combat, and swiftly punish any who try to interfere—but if losing, they don’t hesitate to cheat, and if winning, they arrogantly toy with an enemy before finishing them.
+
+In a moment of weakness or desperation, a ruler in another world might see their army facing certain defeat and call on Dispater. Ever eager to sow strife and discord, Dispater often responds to these pleas by sending a Painkiller to lead the desperate ruler’s armies.
+
+#### Precepts of Pride
+Dispater’s heavy shock troops must be effective battlefield commanders and quickly dispatch enemies. Painkillers follow precepts instructing them to lead Hell’s armies and wage war against Good across the timescape.
+
+**Lead from the Front.** I charge in at the front
+of every battle, inspiring my soldiers and terrifying
+my enemies.
+
+**Commander.** Wherever I go, I command.
+I don’t take orders from those who don’t have the
+will to lead.
+
+**Victory at Any Cost.** I respect the enemy
+leader and treat them honorably. But once swords
+are drawn, I use every trick in my arsenal to win,
+expecting them to do the same.
+
+**Soldiers Die.** I care not for the lives of my
+soldiers, for they are resources I spend to secure
+my victory
+
+
+#### Dispater’s Blessing
+At 3rd level, when Dispater accepts you as his illrigger, you gain proficiency with heavy armor
+
+#### Devastator
+At 3rd Level,  as an action, you invoke the authority of Dispater.
+You make a weapon attack and choose a number of willing creatures up to your proficiency bonus who you can see within 30 feet of you. Each creature you choose can use a reaction to make a weapon attack or cast a damage-dealing cantrip with a casting time of 1 action.
+
+Once you use this action, you can’t use it again until you finish a short or long rest.
+
+\column
+
+#### Invoke Hell
+At 3rd Level, you gain the following two Invoke Hell options:
+
+**Grand Strategist.** You can order your allies to follow your formation (no action required). Choose one or more creatures within 60 feet of you who can hear you, up to a number of creatures equal to your proficiency bonus. Each target can immediately move up to half their speed without provoking opportunity attacks.
+
+**Punishment.** When a creature damages you with an attack, you can use your reaction to force the attacker to make a Wisdom saving throw. 
+
+On a failed save, the attacker takes necrotic damage equal to the damage they dealt you with the triggering attack. On a successful save, the attacker takes half as much damage.
+
+
+
+
+
+#### Dispater’s Interdiction
+At 7th level, you learn the following additional interdict boons at the noted illrigger levels. Once you learn an interdict boon granted by this feature, you always know it, and it doesn’t count against the number of interdict boons you know.
+
+**Telekinetic Seal (7th Level).** When a creature
+you can see moves within 5 feet of you, you can use
+your reaction to place a seal on them. When you do,
+the target must succeed on a Wisdom saving throw
+or be either pushed back 15 feet or knocked prone
+(your choice).
+
+**By the Throat (13th Level).** When you use a
+bonus action to place or move a seal on a creature
+who is no more than one size larger than you, they
+must succeed on a Wisdom saving throw or be
+restrained until the end of their next turn.
+
+**Dispater’s Supremacy (18th Level; Passive).** Your attacks against interdicted creatures score a critical hit on a roll of 18 through 20.
+
+#### You Die on My Command!
+At 11th level, when an ally within 30 feet of you who can hear
+you drops to 0 hit points without being killed
+outright, you can use your reaction to shout an
+order at them, causing them to drop to 1 hit point
+instead. Once you use this reaction, you can’t do so
+again until you finish a short or long rest.
+
+#### Deathstrike
+At 15th level, when you hit an interdicted creature with a melee
+weapon attack, you can use your reaction to burn one of the seals on them to turn the hit into a critical hit. When you do, you also double the damage dice you roll for the burned seal.
+
+You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.
+
+{{pageNumber,auto}}
+\page
+
+
+### Pale Reaper
+Levistus rules Stygia, a frozen wasteland of eternal cold. While other Archdevils seek to rule the living, Levistus understands the ultimate truth: eventually, everything stops. His Illriggers, the Pale Reapers, are the executioners of the Order of Desolation. They do not seek to conquer or manipulate; they are dispatched to end threats permanently. They bring with them the silence of the grave and the numbing cold of the void. Where they walk, life withers, and those they strike down do not rise again.
+
+
+
+
+#### Precepts of the End
+Pale Reapers swear an oath to Levistus when they join the Order of Desolation. Their code is one of inevitable finality.
+
+**Death is Absolute.** There are no second chances. When I strike, it is the final word.
+
+**The Cold Embrace.** Passion, fear, and hope are warm lies. I am the cold truth.
+
+**Silence the Pulse.** Noise is a sign of life. I bring the silence.
+
+**Leave No Trace.** A job is only done when the body is cold and the soul is gone.
+
+#### Levistus’s Blessing
+At 3rd level, when Levistus accepts you as his Illrigger, your body temperature drops, and your skin is cold to the touch. You gain proficiency in the Stealth skill. Additionally, you gain resistance to Cold damage.
+
+#### Invoke Hell
+At 3rd level, you gain the following two Invoke Hell options:
+
+**Edict of Execution.** As an action, you target a creature you can see within 30 feet that has 20 hit points or fewer. The target must make a Constitution saving throw (DC = 8 + your proficiency bonus + your Charisma modifier). On a failed save, the creature drops to 0 hit points immediately. On a successful save, the creature takes 2d10 necrotic damage.
+
+**Glacial Tomb.** As a reaction when a creature within 30 feet of you (including yourself) is hit by an attack, you can encase them in a flash-frozen block of Stygian ice. The target gains 30 temporary hit points. While these temporary hit points remain, the creature is incapacitated and has vulnerability to fire damage, but resistance to all other damage. The ice melts at the start of your next turn.
+
+#### Touch of the Void
+Starting at 3rd level, your connection to Stygia infuses your strikes. When you deal damage with your Baleful Interdict (burning seals), you can choose for the damage to be Cold instead of Fire or Necrotic.
+
+#### Aura of Finality
+At 7th level, you radiate an aura of inevitable death. Any cold damage you deal ignores resistance to cold damage.
+
+#### Levistus’s Interdiction
+At 7th level, you learn the following additional interdict boons at the noted illrigger levels. Once you learn an interdict boon granted by this feature, you always know it, and it doesn't count against the number of interdict boons you know.
+
+**Rigor Mortis (7th Level; Passive).** An interdicted creature's speed is reduced by 10 feet. If a creature has multiple seals on it, its speed is reduced by 10 feet for each seal.
+
+**Soul Shatter (13th Level).** When you burn a seal on a creature, you can attempt to freeze their very soul. The target must succeed on a Constitution saving throw or be Paralyzed until the end of your next turn. If the target takes bludgeoning, thunder, or force damage while paralyzed in this way, they take an additional 2d10 cold damage as their frozen form cracks.
+
+**The Pale Horse (18th Level; Passive).** You hover slightly above the ground. You ignore difficult terrain, and you leave no footprints or tracks. When you move, you can pass through creatures as if they were difficult terrain. If you end your turn inside a creature, you take 1d10 force damage and are ejected to the nearest unoccupied space.
+
+
+
+#### Winter's End
+At 11th level, you ensure that the dead stay dead. As an action, you can unleash the winds of Stygia in a 30-foot radius centered on you. The area becomes heavily obscured by swirling snow for 1 minute. Each enemy creature in the area must make a Constitution saving throw. On a failed save, a creature takes 3d10 cold damage. On a successful save, they take half damage.
+
+Once you use this feature, you cannot use it again until you finish a long rest.
+
+#### Keeper of the Grave
+At 15th level, you become an avatar of absolute death. A creature reduced to 0 hit points by your weapon attacks or your seals dies instantly and cannot be revived by any means short of a Wish spell. 
+
+Additionally, when you kill a creature, your next weapon attack deals an extra 3d8 cold damage.
+
+
+{{pageNumber,auto}}
+\page
+### Queen’s Champion
+Tiamat is both separate and a forced conspirer with the other lords of Hell. Residing in her own region of Avernus, she has found that playing the political game of the Nine Hells has its advantages. Through dedicating a proportion of her followers to the path of the Illrigger, she is able to find items and lore that is of interest to her. In the mortal realm, these Illriggers are placed into noble ranks to find favourable situations Tiamat can exploit or trade with other Devil lords.
+  Armoured in their own self confidence, these Illriggers emit an air of superiority and confidence which some find alluring. Appearing ill-prepared for violence, they strike when an enemy’s defences are relaxed from another direction, spewing forth elemental breath and coating their weapons with power.
+  Those offering fealty to Tiamat may occasionally be blessed by an appearance of one of her Illriggers. Flowing through the ranks of a battle or holding sway over court to forward an agenda, an Illrigger of Tiamat is well prepared for either of these.
+  
+#### Precepts of Duty
+The confident and smiling knights of Tiamat are found in casual garb, but they are but coiled springs waiting for an opportune moment to rain destruction.
+
+**Secret Superiority.**
+I disguise my strength for my own advantage, that way I can more greatly punish my inferiors.
+
+**Respect through Fear.**
+Why win the respect of others with actions when you can take it with threat?
+
+**Always Another Scheme.**
+I weave a tapestry of schemes so my enemies never know my true plans.
+
+**Her Majesty is All.**
+I must always strive to do her will and work towards her freedom.
+
+#### Tiamat’s Blessing
+At 3rd level, when Tiamat accepts you into her service, your skin takes on the appearance of her children. 
+
+While you aren’t wearing armor, you can calculate your AC as 13 + your Dexterity modifier. 
+
+You can use a shield and still gain this benefit.
+\column
+
+#### Invoke Hell
+At 3rd level, you gain the following two Invoke Hell options:
+
+**Fury.** As a bonus action, each creature in a 15-foot cone must succeed on a Wisdom saving throw against a DC equal to 8 + your Constitution modifier + your proficiency bonus. Creatures affected drop whatever they are holding and become frightened for 1 minute.
+
+At the end of each of their turns, an affected target can make a Wisdom saving throw. If they succeed, this effect ends for that target
+
+**Duplicity.** As an action, you create a perfect illusion of yourself that lasts for 1 minute, or until you lose your concentration (as if you were concentrating on a spell). The illusion appears in an unoccupied space that you can see within 30 feet of you. As a bonus action on your turn, you can move the illusion up to 30 feet to a space you can see, but it must remain within 120 feet of you. When both you and your illusion are within 5 feet of a creature that can see the illusion, you have advantage on attack rolls against that creature, given how distracting the illusion is to the target.
+
+
+#### Emissary of the Queen
+At 3rd level, Tiamat has marked you as one of her chosen, granting the following effects:
+- If you can’t already, you learn to speak, read, and write Draconic.
+- Your word is Tiamat’s, granting you advantage on Charisma (Intimidation) and Charisma (Persuasion) checks with Chromatic Dragons.
+- You must choose which of Tiamat's heads to incarnate. 
+
+Tiamat’s Aspect| Damage Type
+:-:|:-:
+Black |Acid
+Blue  |Lightning
+Green |Poison
+Red| Fire
+White| Cold
+
+#### Channel Aspect
+Starting at 7th level as a bonus action on your turn, you are able to channel your chosen Tiamat’s Aspect into a single weapon for up to an hour. Your weapon counts as magical and deals an additional 1d4 damage of your chosen Tiamat’s Aspect. This damage increases when you reach 11th level (2d4), and 17th level (3d4). You can use this ability a number of times equal to your proficiency bonus.
+
+
+{{pageNumber,auto}}
+\page
+#### Tiamat’s Interdiction
+You learn the following additional interdict boons at the noted illrigger levels. Once you learn an interdict boon granted by this feature, you always know it, and it doesn’t count against the number of interdict boons you know.
+
+**Seal of Attraction (7th Level; Passive).** Interdicted creatures have disadvantage on saving throws against beign frightened.
+
+**Misdirection (13th Level; Passive).** An interdicted creature can only see your duplicate until you attack or cause damage to them.
+
+**Erupting Seal (18th level).** Your seals detonate when consumed, dealing 3d6 damage of your Tiamat’s Aspect type to the interdicted creature and all those within 10 feet of them. 
+
+#### Incite Dread
+At 11th level, when you place a seal on an enemy you can call on Tiamat’s presence to show them their place. They must make a Wisdom saving throw (DC = 8 + your proficiency bonus + your Charisma modifier) or be frightened of you, and your duplicate if present, for 1 minute. They can repeat the save at the end of each of their turns.
+
+Additionally, when you place a seal on an enemy you can use your reaction to give the target vulnerability to the damage type of your Tiamat’s Aspect until the end of your next turn.
+#### Wings of Tyranny
+At 15th level, you can use an action to 	manifest a pair of draconic wings for 1 minute. These give you a flying speed of 60 feet. 
+
+Whilst manifested, you can use a reaction to shield yourself from an attack, granting a +5 bonus to AC until the start of your next turn. 
+
+After using the wings in this manner they disappear. You cannot use this feature again until you complete a long rest.
+
+
+
+{{imageMaskEdge8,--offset:7%,--rotation:270
+  ![](https://i.imgur.com/IU56eWk.jpg){height:101%,left:-300px,bottom:-1px}
+}}
+{{pageNumber,auto}}
+\page
+
+### Radiant Sentinel
+The Sentinels are ideal double agents, committing acts against Hell in order to strike back at the Celestial Court in a greater fashion, all while serving Anahita. Their skill is such that even Anahita believes they are loyal to her, while their true allegiance is to Hell and Hell alone.
+
+#### Precepts of Radiance
+Hell’s celestial moles must be able to deceive their enemies to work for them and learn of their plans.
+
+**A Hand for an Arm.** Hell is not above compromises in order to engineer a greater fall of the Celestial Court.
+
+**Symbol of Good.** I'll become a symbol of good and lead their legions to certain failure.
+
+**Demeanor Before Nature.** My demeanor will never betray my true infernal nature.
+
+**Unquestionable Loyalty.** No matter who we currently serve and swear by, our true loyalty remains in Hell.
+
+#### Anahita’s Blessing
+At 3rd level, Radiant Sentinels gain proficiency in the Deception skill if they don’t already have it, and can use Deception instead of Insight when trying to determine if a creature is lying. Creatures with the Divine Awareness trait cannot detect their lies with it.
+
+#### Invoke Hell
+You gain the following two Invoke Hell options:
+
+**Flash of Radiance.** As an action, you can let out a bright flash of light. Any creature you designate on a 30ft sphere centered around you must make a Constitution saving throw (DC = 8 + your proficiency bonus + your Charisma modifier) or be blinded until the start of your next turn. Interdicted creatures who fail the saving throw are also stunned until the end of their next turn.
+
+**Infernal Blessing.** As a bonus action, you may place any number of seals on a creature as protection. The target creature gains 4 temporary hit points per seal (increases to 6 at level 10). These seals are consumed when the interdicted creature gets hit, dealing their damage to the attacker and healing the interdicted creature.
+
+
+
+#### Radiant Shroud
+Starting at 7th level, you gain resistance to radiant damage, and when healing a creature with Infernal Conduit, the target also gains resistance to radiant damage until the start of your next turn.
+
+#### Lie to Me
+At 7th level, your skill at deceiving mixed with celestial influences makes you an expert at deducing lies. You make checks to determine if a creature is lying with advantage.
+
+You can also cast the detect thoughts spell, requiring no spell slot or components, and you must finish a long rest before you can cast it this way again.
+
+\column
+
+#### Anahita’s Interdiction
+You learn the following additional interdict boons at the noted illrigger levels. Once you learn an interdict boon granted by this feature, you always know it, and it doesn’t count against the number of interdict boons you know.
+
+**Hell's Protection (7th level; Passive).** You may use your Baleful Interdict feature to place a seal as protection. These seals are consumed when the interdicted creature gets hit, dealing their damage to the attacker and healing the interdicted creature.
+
+**Enervating Seal (13th level; Passive).**   Your seals enervate your foes. After placing a seal on an enemy creature, they must succed on a Constitution saving throw (DC = 8 + your proficiency bonus + your Charisma modifier) or the damage dealt by its weapon attacks is halved until the end of their next turn.
+
+**Dispel Influence (18th level).** You can use your reaction to consume a seal and cast dispel magic, without using a spell slot, on an interdicted creature. If dispelling an effect that requires you to make an ability check, you make it with advantage.
+
+#### Morale Boost
+Beginning at 11th level, your allies can also benefit from your seals' healing. A number of creatures equal to your Charisma modifier you designate within 30ft of the interdicted creature may also regain hit points whenever a seal is consumed
+
+
+#### Your Pain is my Respite
+At 15th level, you can use your reaction when seals are consumed to increase the healing by the amount of damage dealt by the seals.
+
+{{imageMaskCorner30,--offsetX:65%,--offsetY:-55%,--rotation:0
+  ![](https://i.imgur.com/SCk7B6A.png){height:50%,left:340px,top:610px}
+}}
+
+
+{{pageNumber,auto}}
+\page
+### Sanguine Knight
+Sutekh rules Naraka, the City of Blood. Recognized as the greatest sorcerer in hell, he carries the title of High Sanguinary and rules from the Temple of Vitality. He is a master of blood magic, and his inner circle of priests and wizards are the Bloodliches, undead spellcasters whose corporeal forms turned to ash centuries ago and whose bodies are crafted from solid blood. Sutekh’s illriggers all belong to a cult known as the Chalice of Vitality. Knights of the Chalice drink deeply of their enemies’ essence, draining it to power their magics. 
+
+Other members of the Order of Desecration fear that the Sanguine Knights seek more than Sutekh’s mere ascension to the Throne of Hell; some whisper that the Chalice secretly schemes to make Sutekh a god. This would, of course, be treason.
+
+#### Precepts of Blood
+Sanguine Knights swear an oath to Sutekh when they join the Order of Desolation.
+
+These tenets swear them to wield profane blood magic, commanding loyalty and inflicting terror.
+
+**Their Strength Is Their Weakness.** I target the strongest of my foes, for their vitality shall feed my victory.
+
+**Sin Demands Suffering.** Opposing me is heresy. Before my enemies taste defeat, they must pay for their unbelief with agony.
+
+**Loyalty Rewarded.** My boons lead my allies to depend on me—and on the bloodshed that
+empowers me.
+
+**Mercy Is Power.** In granting succor to my allies, I prove how great my power is. Each time I restore life, it serves as a reminder of how quickly I can strip it away.
+
+#### Exsanguinate
+At 3rd level, you can drain enemies to embolden your allies.
+Whenever you burn one or more seals on a creature who isn’t a Construct or Undead, you can choose an ally you can see within 30 feet of you. That ally gains temporary hit points equal to the damage dealt by the seals to the interdicted creature.
+
+#### Sutekh’s Blessing
+At 3rd level, when Sutekh accepts you as his illrigger, he grants you access to his sacrilegious command of blood and life. You gain proficiency in the Religion skill.
+
+In addition, as an action, you can expand your awareness of life around you. Until the end of your next turn, you can sense creatures who have blood within 120 feet of you without having to see them. 
+
+This ability can penetrate most barriers, but is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt. You know the distance and direction of each creature, as well as the creature’s type. You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.
+
+\column
+
+#### Invoke Hell
+At 3rd level, you gain the following two Invoke Hell options:
+
+**Embolden Allies.** As a bonus action, you restore a total number of hit points equal to five times your illrigger level, divided however you choose between yourself and other creatures within 30 feet of you.
+
+**Vitalize.** You can flood your allies with invigorating vivacity (no action required). For 1 minute, each creature of your choice within 30 feet of you gains a bonus to ability checks equal to your proficiency bonus.
+
+
+#### Sutekh’s Interdiction
+At 7th level, you learn the following additional interdict boons at the noted illrigger levels. Once you learn an interdict boon granted by this feature, you always know it, and it doesn’t count against the number of interdict boons you know.
+
+**Foul Interchange (7th Level).** As an action, you choose a creature you can see within 30 feet of you and expend a seal to end one of the followingconditions afflicting them: blinded, charmed, dazed, deafened, frightened, paralyzed, or poisoned.
+
+Another creature you can see within 60 feet of you must succeed on a Constitution saving throw or suffer that same condition until the end of your next turn. If that creature is immune to the condition, they don’t suffer the condition, but the condition ends for the original creature.
+
+**Sanguine Gift (13th Level).** When a creature you can see within 30 feet of you regains hit points, you can expend a seal (no action required) and the creature regains additional hit points equal to your illrigger level.
+
+**Blood for Blood (18th Level; Passive).** Whenever an ally takes damage from an interdicted creature, that interdicted creature takes necrotic damage equal to your proficiency bonus.
+
+#### Bloodstroke
+At 11th level, the magic that shields your allies now also saps
+their enemies’ strength. When an ally who has
+temporary hit points from your Exsanguinate
+feature is hit by a melee attack, the attacker takes
+cold, fire, or necrotic damage (your choice) equal
+to your illrigger level.
+
+#### Haemal Exchange
+At 15th level, you have mastered the ability to enervate enemies and endow allies. When an interdicted creature within 60 feet of you makes an attack roll or saving throw, you can use your reaction to burn one of the seals on them and transfer their power. The target must roll a d8 and subtract the number rolled from the triggering attack roll or saving throw.
+
+You then empower an ally within 30 feet of you.
+The next time that ally makes an attack roll or
+saving throw, they roll a d8 and add the number
+rolled to the attack roll or saving throw
+{{pageNumber,auto}}
+\page
+
+
+### Shadowmaster
+
+Belial rules Gehennom, the City of Darkness. He strives to rule Hell through poison, torture, and assassination. His illriggers strike from the shadows or use deception to earn high-ranking positions close to powerful rulers. Many Shadowmasters run networks of spies and assassins who have no idea of the infernal provenance of their leader.
+
+Shadowmasters are sworn not to reveal their true allegiance, and if need be, they must take their own lives to fulfill this oath. Many Shadowmasters prepare elaborate plans for their own assassination so that, should they risk discovery, their assassination obscures the truth. Of course, these killers never learn they were hired by their deceased target.
+
+#### Precepts of Shadow
+Shadowmasters swear an oath to Belial when they join the Order of Desolation. These precepts commit them to serve Belial’s foes as allies before revealing themselves as enemies.
+
+**Plans Within Plans.** My enemies must never discover my true goals. If needed, I will sacrifice myself to protect my schemes.
+
+**Positions of Power.** I control everything from the shadows by knowing who to deceive and where to hide in plain sight.
+
+**Power in Patience.** I study my enemy and methodically build their trust. My loyalty must be unquestionable so my inevitable betrayal is unthinkable.
+
+**Hesitation Is Failure.** Though I usually rely on agents, when the opportunity presents itself, I can unhesitatingly kill with efficiency and precision.
+
+#### Belial’s Blessing
+At 3rd level, you are particularly skilled against foes you mark for death. You have advantage on your first attack against an interdicted creature on each of your turns.
+
+#### Strike from the Dark
+At 3rd level, you understand the power of striking from the shadows. Once per turn, when you hit an interdicted creature with a melee weapon attack and you have advantage on the attack roll, you can roll a number of d4s equal to your proficiency bonus and deal extra damage equal to the total you rolled.
+
+This damage increases by 1d4 if the target is in dim light or darkness.
+\column
+
+#### Invoke Hell
+At 3rd level, you gain the following two Invoke Hell options:
+
+**Master of Disguise.** As an action, you can cast the disguise self spell without expending a spell slot.
+
+**No Escape.** As a bonus action, you can call on the shadows to entrap a creature you can see within 30 feet of you. The target must make a Charisma saving throw, made with disadvantage if they are in dim light or darkness. On a failed save, the target’s speed is halved and they can’t willingly move more than 30 feet away from you. This effect ends for the target if you are incapacitated or die or if the target is more than 30 feet away from you.
+
+#### Belial’s Interdiction
+At 7th Level, you learn the following additional interdict boons at the noted illrigger levels. Once you learn an interdict boon granted by this feature, you always know it, and it doesn’t count against the number of interdict boons you know.
+
+**Veil of Lies (7th Level).** As a bonus action, you can expend a seal to become invisible for 10 minutes or until you attack or cast a spell.
+
+**Hell’s Assassin (13th Level; Passive)**. Whenever you roll a 1 or 2 on a die to determine the damage of your seals or your weapon attacks against interdicted creatures, you can reroll the die and must use the new roll.
+
+**Dark Malediction (18th Level; Passive).** Interdicted creatures radiate darkness in a 10-foot radius. Mundane sources of light can’t illuminate this darkness, but creatures with darkvision can see through it. If any of this darkness overlaps with an area of light created by magic or psionics, the overlapping area of darkness is illuminated by the light.
+
+#### Umbral Killer
+At 11th level, shadows are your companion, aiding you in your
+exploits. You gain the following benefits:
+- You gain darkvision out to 60 feet. If you already have darkvision, its range increases by 60 feet.
+- Your movement speed increases by 10 feet.
+- You have advantage on Dexterity (Stealth) checks made to hide. Whenever you make a Dexterity saving throw to take only half damage from an effect, you instead take no damage if you succeed on the saving throw, and half damage if you fail.
+#### Doomed to the Shadows
+At 15th level, the extra damage from your Strike from the Dark feature increases to a number of d8s equal to your proficiency bonus (instead of that number of d4s), and you deal an extra 2d8 damage if the target is in dim light or darkness (instead of an extra 1d4 damage).
+
+In addition, when you deal damage using Strike from the Dark, you can use your reaction to burn a seal on the creature, causing them to be blinded for 1 minute instead of dealing the seal’s damage.
+{{pageNumber,auto}}
+\page
+### Sovereign of Chains
+Fierna, the Lady of Phlegethos, grants power not through brute strength or mere trickery, but through absolute domination. Her Illriggers, known as Sovereigns of Chains, view the world through a lens of hierarchy: there are those who control, and those who are controlled. They do not raise their voices; they do not need to. They walk calmly through the battlefield, for they know that every living thing is merely a tool waiting to be used.
+
+A Sovereign of Chains is often polite, soft-spoken, and immaculately dressed. They prefer to use their enemies as weapons against one another, weaving invisible chains of domination. When they do strike personally, it is with unseen force and terrifying precision.
+#### Precepts of the Chains
+Sovereigns of Chains swear an oath to Fierna (or the concept of Control itself) when they join the Order of Desolation. 
+
+**A Dog Has No Say.** Why listen to the barking of lesser beings? Do not concern yourself with the opinions of those beneath you.
+
+**Necessary Evil.** To create a perfect world, one must be willing to do terrible things. The result justifies the method. 
+
+**The Corpse is Talking.** Death is not an escape from service. Even the dead can be useful if the strings are pulled correctly. 
+
+**Order through Chains.** True peace is achieved only when everyone knows their place and stays in it.
+
+#### Fierna’s Blessing
+At 3rd level, when Fierna accepts you as her illrigger, your senses are heightened to supernatural levels, allowing you to perceive the world as a predator perceives prey. You gain proficiency in the Perception skill. If you are already proficient, your proficiency bonus is doubled for any ability check you make with that skill.
+
+Additionally, you gain a supernatural sense of smell. You can identify individuals, their emotional state, and their creature type by scent alone within 60 feet of you, provided they are not constructs.
+
+#### Invoke Hell
+At 3rd level, you gain the following two Invoke Hell options:
+
+**Force Projection.** As an action, you point your finger at a creature you can see within 120 feet of you and utter a command of destruction. Make a ranged spell attack against the target. On a hit, the target takes force damage equal to 3d10 + your half illrigger level. If this damage reduces the target to 0 hit points, their body is crushed into a pulp.
+
+**Command "Down".** As a bonus action, you exert your crushing will upon those around you. Each creature of your choice within 30 feet of you must make a Strength saving throw. On a failed save, a creature is knocked prone and is restrained by an invisible force until the start of your next turn.
+
+\column
+#### Oppressive Presence
+Starting at 7th level, your mere existence weighs heavily on the minds of lesser beings. You are immune to the charmed condition.
+
+Additionally, the air around you exerts a crushing physical pressure. The ground within 10 feet of you is considered difficult terrain for hostile creatures.
+#### Fierna’s Interdiction
+At 7th level, you learn the following additional interdict boons at the noted illrigger levels. Once you learn an interdict boon granted by this feature, you always know it, and it doesn't count against the number of interdict boons you know.
+
+**Chain of Custody (7th Level).** When an interdicted creature deals damage to you, you can use your reaction to burn a seal on them. The damage you take is reduced by an amount equal to the damage dealt by the seal.
+
+**Eyes of the Vermin (13th Level; Passive).** You can communicate with and command small beasts as if you had cast speak with animals. Additionally, as an action, you can perceive through the senses of any Beast or interdicted creature within 1 mile of you for 1 minute.
+
+**Absolute Obedience (18th Level).** When you place a seal on a creature, you can cast dominate person (or dominate monster if the target is not a humanoid) on them without expending a spell slot. If the target fails the saving throw, the seal is consumed immediately. You can use this feature once per long rest.
+
+#### Invisible Hand
+Starting at 11th level, your physical attacks project force beyond your reach. When you make a melee weapon attack on your turn, your reach for that attack is increased by 30 feet. The attack deals force damage instead of its normal damage type, and you can add your Charisma modifier to the damage roll.
+
+#### Contract of the Prime 
+At 15th level, you have forged a contract that ensures your survival at the cost of your "subjects."
+
+When you take damage, you can use your reaction to transfer that damage to another creature. Choose an interdicted creature or a creature currently charmed by you within 60 feet. That creature takes the damage instead of you. This damage cannot be reduced by the creature's resistances or immunities.
+
+If the damage kills the creature, you regain hit points equal to your Charisma modifier + your illrigger level.
+
+You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.
+
+
+{{pageNumber,auto}}
+\page
+### War Artisans
+Zariel rules Avernus, the first layer of Hell and the primary battlefield of the Blood War. While Dispater’s Painkillers command the strategy of armies, Zariel’s War Artisans are the living embodiment of the weapon itself. They believe that anything and anyone can be forged into a tool for destruction.
+
+These Illriggers possess the ability to transmute mundane objects and the remains of the fallen into terrifying instruments of war. Like the War Devil, they are prideful, possessive, and view the battlefield as a resource to be harvested. When a War Artisan stands amidst the dead, they are never unarmed.
+
+#### Precepts of the Arsenal
+War Artisans swear an oath to Zariel to turn the world into a weapon for Hell’s victory.
+
+**Everything is a Weapon.** A stone, a uniform, a spine. All things exist to be wielded. I will find the lethality in everything.
+
+**Ownership is Power.** To wield a weapon is to own it. To kill an enemy is to own their death. I will claim what is mine.
+
+**Guilt Sharpens the Blade.** Regret is for the weak; I use the weight of my actions to crush those who stand against me.
+
+**Frontline Perfection.** I do not hide behind walls. I am the tip of the spear.
+
+#### Zariel’s Blessing
+At 3rd level, when Zariel accepts you as her Illrigger, you gain proficiency in Smith's Tools. 
+
+#### Invoke Hell
+At 3rd level, you gain the following two Invoke Hell options:
+
+**Flesh and Bone Armory.** As an action, you can touch a corpse, a severed limb, or a non-magical object that fits in a 5-foot cube to transform it into a weapon of war. The object twists and hardens into a martial melee weapon of your choice. This weapon counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage. It deals 2d8 damage of the weapon's type. You can add your Charisma modifier to damage rolls. The weapon lasts for 10 minutes or until you let go of it.
+
+**Tactical Instinct.** As a reaction when you are hit by an attack, you can turn your skin as hard as steel. You reduce the damage taken by an amount equal to your Illrigger level + your Charisma modifier. If this reduces the damage to 0, you can immediately make one melee weapon attack against the attacker if they are within reach.
+\column
+#### Hand of War
+Starting at 3rd level, you can manipulate weapons with supernatural speed. You can draw or stow a weapon as a free action on your turn. 
+
+Additionally, you cannot be disarmed of any weapon you are holding unless you are incapacitated. If you make a thrown weapon attack, the weapon instantly returns to your hand after the attack is resolved.
+
+
+
+
+#### Zariel’s Interdiction
+At 7th level, you learn the following additional interdict boons at the noted illrigger levels. Once you learn an interdict boon granted by this feature, you always know it, and it doesn't count against the number of interdict boons you know.
+
+**Turn to Scrap (7th Level; Passive).** When you place a seal on a creature wearing armor or wielding a weapon, you can weaken their equipment. The target takes a -2 penalty to damage rolls until the seal is consumed or fades.
+
+**Asset Seizure (13th Level).** As a reaction when an interdicted creature misses you with a weapon attack, you can burn a seal to force them to drop their weapon. You can then catch the weapon in a free hand if you have one. If you catch it, you can immediately make an attack with it as part of the reaction.
+
+**Mass Production (18th Level).** As an action, you can burn a seal on a creature to cause blades to burst from their body. The interdicted creature takes 4d10 piercing damage. Additionally, all creatures of your choice within 10 feet of the target must make a Dexterity saving throw. On a failure, they take the same damage.
+
+#### Warmonger's Pace
+Starting at 7th level, your movement speed increases by 10 feet. Additionally, moving through difficult terrain costs you no extra movement if that terrain is composed of rubble, ruins, or corpses.
+
+#### Guilt-ridden Strike
+At 11th level, the weight of your conquests empowers your blows. You can sacrifice your own vitality to ensure destruction. When you hit a creature with a melee weapon attack, you can spend one of your Hit Dice. Roll the Hit Die and add the result + your Charisma modifier to the damage of the attack.
+
+#### Domain of War
+At 15th level, you can impose your ownership over the battlefield itself. As an action, you touch the ground and scream a command. For 1 minute, the ground within a 30-foot radius of you sprouts weapons. The area becomes difficult terrain for your enemies and when an enemy enters the area for the first time on a turn or starts its turn there, it takes 3d6 piercing damage.
+
+As a bonus action on your turn, you can pull a weapon from the ground.
+
+Once you use this feature, you cannot use it again until you finish a long rest.
+
+{{pageNumber,auto}}
+\page
+### Warden of the Dual Fane
+The Warden of the Dual Fane serves the twin aspects of Hell’s hierarchy: the public face of order and the hidden shadow of subversion. These Illriggers are masters of the Battlefield of the Mind, utilizing illusions and crushing psychic pressure to shatter their enemies' perception of reality. Like a star collapsing into a supernova, they balance absolute authority with a chaotic, hidden depth.
+
+#### Precepts of the Duality
+Wardens of the Dual Fane swear an oath when they join the Order of Desolation.
+
+**The Mask of Order.** I shall lead with the appearance of a saint, for a trusted commander strikes the deepest blow.
+
+**The Shadow of Rebellion.** Within every soul lies a hidden traitor; it is my duty to bring that chaos to the surface.
+
+**Galactic Authority.** My power is that of the cosmos itself; those who oppose me shall be crushed by the weight of falling stars
+
+#### Twin Aspect's Blessing
+At 3rd level, when you sign this contract, you gain proficiency in the Deception and Intimidation skills. Additionally, you gain a supernatural sense for the internal conflicts of others; you have advantage on Wisdom (Insight) checks made to determine if a creature is acting against its own nature or is under magical influence.
+
+#### Invoke Hell
+At 3rd level, you gain the following two Invoke Hell options:
+
+**Another Dimension.** As an action, you tear a rift in space. Choose a creature you can see within 30 feet. The target must succeed on a Charisma saving throw or be banished to a localized pocket of the Void until the end of your next turn. While there, the creature is incapacitated. When the effect ends, the target reappears in the space it left or the nearest unoccupied space.
+
+**Demon’s Illusion.** As an action, you project a terrifying duality into the minds of your foes. Each hostile creature within 30 feet must make a Wisdom saving throw. On a failure, the creature is confused as per the confusion spell for 1 minute. An affected creature can repeat the saving throw at the end of each of its turns, ending the effect on a success.
+
+#### Split Perception
+Starting at 7th level, you can exist in two states at once. You can cast *mirror image* without expending a spell slot. Once you use this feature, you must finish a short or long rest before you can use it again. 
+
+Additionally, your presence disrupts the coordination of others, hostile creatures within 10 feet of you have a -1 penalty to AC as their senses struggle to track your shifting form.
+
+\column
+#### Dual Fane Interdiction
+
+At 7th level, you learn the following additional interdict boons. These do not count against your number of boons known:
+
+
+**Shattered Will (7th Level; Passive).** When a creature with your seal on it makes a Wisdom or Charisma saving throw, it must subtract your Charisma modifier (minimum of 1) from the roll.
+
+
+**Ghostly Strike (13th Level).** When you take the Attack action, you can burn a seal to teleport up to 30 feet to an unoccupied space you can see before or after one of your attacks.
+
+**Galactic Annihilation (18th Level).** When you burn a seal to deal damage, you can choose to change the damage type to Force. The target and all creatures of your choice within 10 feet must succeed on a Constitution saving throw or be knocked prone by the celestial pressure.
+
+
+#### Annihilation of the Self
+At 11th level, you can force a creature's shadow to rebel. As a bonus action, you can target one interdicted creature within 60 feet. The target must make a Charisma saving throw. On a failure, the target immediately uses its reaction to make a melee weapon attack against itself.
+
+#### Galaxy Explosion
+At 15th level, you can unleash the full destructive power of a collapsing star. As an action, you release a wave of pure force in a 30-foot radius centered on yourself. Each enemy in the area must make a Constitution saving throw.
+
+On a failure, a creature takes 8d10 Force damage and is stunned until the end of your next turn. On a success, it takes half as much damage and is not stunned. 
+
+Once you use this feature, you must finish a long rest before you can use it again.
+
+{{pageNumber,auto}}
+\page
+{{note
+##### Breaking an Infernal Contract
+An Illrigger’s pact is a bond not easily severed. The terms of their contract are woven into their very soul, and breaking them carries dire consequences. Some Illriggers find loopholes or twist their obligations to suit their needs, while others defy their archdevil masters outright.
+
+When an Illrigger breaks their infernal contract in a way that cannot be ignored, they face two paths forward. Some are Forsaken, cast out from Hell but still clinging to its power, becoming brutal enforcers of their own will. Others reject the chains of the Nine Hells entirely, cutting all ties and embracing absolute freedom as Forsworn, hunted by their former masters but bound to no one.
+
+Whichever path they choose, these outcasts are marked—no longer agents of the Infernal Order, but dangerous rogues who wield Hell’s power for their own ends.
+}}
+
+
+
+### Forsaken
+
+Forsaken are illriggers who have found a way out of their diabolic contract and now sustain their powers with a plane other than hell. Some choose the abyss and the chaotic freedom it offers while others draw from the negative energy plane but none can draw from hell like they once could. A Forsaken is able to channel their necrotic power into corpses to raise them as undead servants or to separate part of their own soul to strike their enemies.
+
+#### Precepts of Forsaken
+I have broken free from the chains of infernal servitude, embracing the void and the power of death. I command the boundary between life and oblivion, wielding the authority of the grave to shape my will.
+
+#### Invoke Hell: Contract Breaker
+You have severed your ties with the powers of hell and now draw on the power of another plane to sustain your powers.
+
+**Unleash Hollow Wraith.** As an action you can summon a Hollow Wraith of yourself to attack enemies, target a number of hostile creatures within 60 feet of you up to your proficiency bonus. Make a melee attack against each target, your hollow wraith deals force damage instead of bludgeoning, piercing, or slashing damage.
+
+**Summon Wraithbound Legion.** As an action you can release necrotic out to a range of 60 feet and target a number of corpses or piles of bones in that area to animate into your service as wraithbound.
+
+The wraithbound uses the zombie statistics and acts on its own initiative count, targeting the nearest hostile creature it can see with melee attacks or dashing if it can’t reach any targets. The wraithbound cannot take other actions. After 1 hour the magic fades and the wraithbound is turned back into an ordinary corpse.
+
+#### Etherial Sight
+By 3rd level, you have advantage on Wisdom (Perception) checks to notice disguised, hidden, or invisible creatures.
+
+#### Improved Invoke Hell
+Starting at 7th level, when you use your infernal conduit or weapon attack to reduce a Interdicted creature to 0 hit points you can raise its corpse as a wraithbound. 
+
+Additionally, if you reduce a Interdicted creature to 0 hit points you can regain one of your consumed seals.
+
+
+
+#### Interdict Improvements
+As your Forsaken levels up, you are able to draw more power and your interdiction carries more power.
+
+**Enhanced Invoke Hell (7th Level; Passive).** You can use your Invoke Hell twice between long rests.
+
+**Interdiction Mark (13th Level; Passive).** Interdicted creatures take an additional 1d6 damage from your attacks.
+
+**Improved Invoke Hell (18th Level; Passive).** you can use your Invoke Authority three time between long rests.
+
+#### Grave Resilience
+At 11th level, your body has been strengthened so that you shrug off harmful effects that could cripple lesser combatants. When you are subjected to an effect that allows you to make a Constitution saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.
+
+#### Wraithlord's Ascension
+Starting at 15th level, as an action you can transform into a lord of the dead, your physical body blends into the etherial plane causing you to seem to vanish into thin air. For the next 10 minutes you gain the following benefits:
+
+- When you use your action to enter this form or when the form ends you can use your summon wraithbound legion ability.
+- You become invisible.
+- You can use your bonus action to place a seal on a creature, you can make attack against it.
+
+You can end this form early as a free action.
+
+Once you use this feature, you can't use it again until you finish a long rest.
+
+{{pageNumber,auto}}
+\page
+### Forsworn
+Not all illriggers remain bound by their infernal contracts. Some reject their archdevil’s will—not out of rebellion or righteousness, but out of pure self-interest. Whether they betrayed their patron, failed their mission, or simply walked away, these illriggers sever their chains and carve their own path, unbound by infernal law.
+
+Though they are hunted by the Order of Desolation, they are survivors above all else. The Forsworn wield their remaining infernal power not in service to Hell, but to further their own ends—through deception, self-preservation, and ruthless pragmatism.
+
+Hunted by their former masters, these illriggers wield the remnants of their infernal power with ruthless efficiency. They are exiles of Hell, ghosts in the dark, and masters of their own fate.
+
+
+#### Precepts of the Forsworn
+An Forsworn Illriggers owes allegiance to no one. they hold to no tenets and are loyal to nothing but themselves.  Forsworn Illriggers are often selfish, with their own safety and power being their only concern. No god, devil, or king bestows true strength. You must seize it yourself, no matter the price.
+
+#### Invoke Hell
+When you reach 3rd level, your severed pact still grants you infernal power, albeit twisted by your own will. You gain the following Invoke Hell options:
+
+**Unseen Escape.** As a bonus action, you vanish from the perception of one creature you can see within 60 feet. The target must make a Wisdom saving throw. On a failed save, they cannot perceive you for 1 minute (as if under the *greater invisibility* spell, but only against that creature).
+
+This effect ends early if you attack or cast a spell that affects the target.
+
+**Selfish Vitality.** As a reaction when you take damage, you can burn an Interdict Seal on a creature within 30 feet. You immediately regain hit points equal to twice the damage of the burned seal, but the interdicted creature takes an equal amount of necrotic damage
+
+
+#### Renegade Gambit
+At 3rd level, your exile has made you a master of deception and escape. You gain proficiency in Deception and Stealth. If you are already proficient, you gain expertise in one of them instead.
+
+Additionally, you can take the Disengage or Hide action as a bonus action on your turn.
+
+
+#### Wraith’s Step
+At 7th level, you can step between the shadows like a ghost. When a creature you can see within 30 feet takes damage, you can use your reaction to teleport to an unoccupied space within 5 feet of that creature. You become invisible until the start of your next turn
+
+You can use this feature a number of times equal to your Charisma modifier (minimum once), regaining all uses when you finish a long rest.
+\column
+
+#### Forsworn's Interdiction
+Starting at 7th level, you learn to twist your interdiction into a curse of misfortune. You gain the following Interdict Boons:
+
+
+**Forsaken Seal (7th Level; Passive).** When you place a seal on a creature, it must make a Wisdom saving throw against your Interdict Save DC. On a failure, it has disadvantage on its next saving throw before the end of your next turn.
+
+**Leeching Curse (13th Level; Passive).** When you burn a seal on an interdicted creature, you regain hit points equal to the damage dealt by the seal.
+
+**Chains of the Forsworn (18th Level; Passive).** When you burn a seal on an interdicted creature, it must make a Strength saving throw or be restrained until the end of its next turn.
+
+
+#### Warden of the Unseen
+By 11th level, your presence becomes nearly undetectable.
+
+- You can no longer be detected by divination magic.
+
+- When you are hidden from a creature and hit it with a weapon attack, the attack deals an additional 2d6 psychic damage.
+
+- You have advantage on Dexterity (Stealth) checks.
+
+#### Master of the Unbound
+At 15th level, you have completely severed your ties to Hell, becoming a phantom in the eyes of both mortals and fiends. As a bonus action, you can enter a state of true Forsworn for 1 minute, gaining the following benefits:
+
+- You are immune to the charmed and frightened conditions.
+
+- You can move through creatures and objects as if they were difficult terrain. If you end your turn inside an object, you take 1d10 force damage and are ejected to the nearest unoccupied space.
+
+- Whenever you burn a seal, you can choose to silence the interdicted creature until the start of your next turn. It cannot speak, cast verbal-component spells, or communicate telepathically.
+
+Once you use this feature, you cannot do so again until you finish a long rest.
+
+
+{{pageNumber,auto}}
+\page
+## Interdict Boons
+
+Your Interdiction feature grants you access to interdict boons, which are detailed below. Some boons specify a minimum illrigger level; the boons in the "7th-Level Interdict Boons" section and the "13th-Level Interdict Boons" section can’t be learned until you are at least that level.
+
+### 2nd Level Interdict Boons
+You can choose from these boons when you gain the Interdiction feature at 2nd level, or whenever you gain a new boon.
+
+**Abating Seal.** When a creature you can see damages you or an ally within 30 feet of you, you can expend a seal as a reaction to reduce the damage taken by the target by an amount equal to 1d10 + half of your illrigger level (rounded down).
+  
+**Bedevil.** When you burn a seal on an interdicted creature, you can activate this boon (no action required). The target must subtract a number equal to your proficiency bonus from the result of the next saving throw they make before the end of their next turn.
+
+**Cruel Obstruction.** When an interdicted creature attempts to move, you can use your reaction to burn a seal on them. The target must succeed on a Strength saving throw or have their speed reduced to 0 until the start of your next turn.
+
+**Diabolic Instincts (Passive).** You have advantage on Wisdom (Perception) and Wisdom (Insight) checks made against a creature that currently has one of your seals on it.
+
+**Infernal Aegis.** When you are hit by an attack, you can expend a seal as a reaction to gain a +2 bonus to your AC against that attack, potentially causing it to miss. If the attack misses, you can immediately place a seal on the attacker if they are within range.
+
+**Soul Eater.** When you burn a seal on an interdicted creature, you can activate this boon (no action required) to gain temporary hit points equal to your illrigger level.
+
+**Styx’s Apathy.** When you burn a seal on an interdicted creature, you can use your reaction to flood the target with an otherworldly chill. Until the end of the target’s next turn, they can’t take reactions.
+
+**Swift Retribution (Passive).** When an interdicted creature provokes an opportunity attack from you, you can make that attack without using your reaction, provided you’re not incapacitated. Once you benefit from this boon, you can’t do so again until the start of your next turn.
+
+\column
+
+### 7th Level Interdict Boons
+When you reach 7th level, the following interdict boons are added to your list of Interdiction options.
+
+**Acheron’s Chain.** When you use a bonus action to place or move a seal on a Large or smaller creature, you can activate this boon (no action required). You conjure infernal chains to grasp the target, forcing them to make a Strength saving throw. On a failed save, you can either pull the creature 10 feet toward you or cause them to be grappled until the end of your next turn (escape DC equal to your interdict save DC).
+
+**Conflagrant Channel.** You can expend a seal as a bonus action to teleport up to 60 feet to an unoccupied space you can see.
+
+**Contagious Calamity.** When an interdicted creature drops to 0 hit points, you can use your reaction to move any remaining seals on that creature to another creature you can see within 30 feet. If you do so, the new target immediately takes 1d6 fire damage per seal moved.
+
+
+**Eyes of the Gate.** As an action, you can expend one or more seals to attempt to bind your awareness to a creature you can see within 60 feet of you. The target must make a Wisdom saving throw; they can willingly fail this save. On a failed save, you are bound to the target’s awareness for a number of hours equal to the number of seals you expended, or until you use this boon on another creature. For the duration, while the target is within 300 feet of you, you can use an action to see and hear through their senses, gaining the benefit of any special senses the target possesses, and you continue to do so until you use your action to return to your normal senses. While perceiving through the target’s senses, you are deaf and blind with regard to your own senses. Additionally, for the duration, you can place seals, burn them, and use interdict boons as if you were in the creature’s space, but doing so makes the creature aware of this bond. An aware creature can use their action to repeat the saving throw, ending the effects of this boon on a success.
+
+**Shadow Shroud.** You can expend a seal as a bonus action to weave a mantle of semisolid shadows around yourself or a creature you touch. The target gains a +2 bonus to AC for 1 minute.
+
+**Transpose Position.** As a bonus action, you can expend a seal to magically swap places with an interdicted creature you can see within 60 feet of you. The target must succeed on a Charisma saving throw to resist this effect. If the target willingly fails or fails the save, you both teleport, swapping spaces.
+{{pageNumber,auto}}
+\page
+
+**Unleash Hell.** When you burn one or more seals on an interdicted creature, you can use your reaction to unleash an explosion of hellish energy around them. Each creature of your choice within 5 feet of the target must make a Dexterity saving throw. On a failed save, a creature takes the same amount and type of damage as the seals dealt to the interdicted creature. On a successful save, a creature takes half as much damage.
+
+**Unsettling Whispers (Passive).** An interdicted creature within 30 feet of you has disadvantage on Constitution saving throws made to maintain concentration on a spell.
+
+**Vengeful Shot.** When a creature makes a ranged attack against you or an ally you can see within 30 feet of you, you can expend a seal as a reaction to make a ranged weapon attack against the attacker. If your attack hits, it deals extra damage equal to half your illrigger level (rounded down).
+
+### 13th Level Interdict Boons
+When you reach 13th level, the following interdict boons are added to your list of Interdiction options.
+
+
+**Dis’s Onslaught (Passive).** Each time you use a bonus action to place or move a seal, you can make one weapon attack as part of the same bonus action.
+
+**Flash of Brimstone.** When you place or move a seal, you can activate this boon (no action required) to magically teleport to an unoccupied space you can see within 5 feet of the target.
+
+**Hellish Frenzy.** When you start your turn within 30 feet of an interdicted creature, you can expend a seal to become frenzied by the power of Hell until the start of your next turn. While frenzied, your movement speed is doubled, you have a +2 bonus to your AC, and you can make an extra weapon attack when you take the Attack action.
+
+**Hellsight.** You can expend a seal as an action to gain truesight out to 60 feet for 1 hour.
+
+**Impaling Shot.** When you hit an interdicted creature with a ranged weapon attack, you can expend a seal as a bonus action to create a weak point in their defenses. Until the end of your next turn, the creature takes a penalty to AC equal to your proficiency bonus.
+
+**Iron Gaol.** As an action, you can touch a creature and expend four seals to attempt to send that creature to Hell. The target must succeed on a Charisma saving throw or be pulled through a rift into the prisons of your archfiend’s infernal city. If the target is native to Hell, or if their level or challenge rating is 4 or lower, they remain there and must find their own way out. Otherwise, the target remains in the prison for 1 minute, after which they reappear in the space they left or in the nearest unoccupied space available; this target can repeat the saving throw at the end of each of their turns, ending the effect early on a success.
+
+\column
+
+**Last Word.** When you are reduced to 0 hit points and have unplaced seals remaining, the hellfire in you refuses to die. You can expend up to 3 seals and release an explosion around you (no action required). Roll 3d6 per seal expended. Each creature of your choice within 30 feet of you must make a Dexterity saving throw. On a failed save, a creature takes fire damage equal to the total you rolled. On a successful save, a creature takes half as much damage. If this explosion damages at least one creature, you regain a number of hit points equal to the total you rolled.
+
+**Nullification Seal.** When you burn a seal on a creature, you can choose to forgo the damage. Instead, the creature must succeed on a Charisma saving throw or be unable to cast spells or use magical abilities until the end of your next turn.
+
+**Planar Anchor.** You can expend a seal as a bonus action to anchor a creature you can see within 60 feet to the current plane of existence. For 1 minute, the target cannot use teleportation or planar travel (such as Misty Step or Plane Shift). An interdicted creature has disadvantage on saving throws against effects that would banish or teleport them against their will.
+
+**Soul’s Doom.** When you use a bonus action to place or move a seal, you can scorch the seals into the target’s soul. For 1 minute, whenever that interdicted creature takes damage, they take extra damage equal to your proficiency bonus.
+
+**Warlord’s Command.** As an action, you can burn a seal on an interdicted creature to force it to serve you momentarily. The target must make a Wisdom saving throw. On a failure, the creature immediately uses its reaction to make one weapon attack against a creature of your choice (other than itself).

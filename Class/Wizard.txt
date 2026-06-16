@@ -1,0 +1,2386 @@
+```metadata
+title: Wizard
+description: ''
+tags: []
+renderer: V3
+theme: 5ePHB
+
+```
+
+```css
+.page{
+	width  : 210mm;
+	height : 296.3mm;
+}
+
+css
+
+.page .columnWrapper {
+	height: 100%
+}
+
+.page .toc.wide {
+	columns: 1;
+	height: 100%;
+}
+
+.page .toc > ul > li {
+	font-weight:100;
+	margin-bottom:-2.1px;
+
+}
+
+.page .toc ul ul {
+	margin-left: 0;
+	font-weight: 5;
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```
+
+{{frontCover}}
+
+{{logo ![](/assets/naturalCritLogoRed.svg)}}
+
+# Wizard
+
+
+![background image](https://i.imgur.com/LVQW9XQ.jpg){position:absolute,bottom:-110px,left:0,height:110%}
+
+\page
+{{toc,wide
+
+  - ### [{{ Wizard}}{{ 3}}](#p3)
+    -  [{{ Scholars of the Arcane}}{{ 3}}](#p3)
+    -  [{{ The Lure of Knowledge}}{{ 3}}](#p3)
+    -  [{{ Creating a Wizard}}{{ 3}}](#p3)
+    - ### [{{ Class Features}}{{ 4}}](#p4)
+    -  [{{ Spellcasting}}{{ 4}}](#p4)
+    -  [{{ Arcane Recovery}}{{ 6}}](#p6)
+    -  [{{ Arcane Tradition}}{{ 6}}](#p6)
+    -  [{{ Ability Score Improvement}}{{ 6}}](#p6)
+    -  [{{ Spell Mastery}}{{ 6}}](#p6)
+    -  [{{ Signature Spells}}{{ 6}}](#p6)
+  - ### [{{ Arcane Traditions}}{{ 7}}](#p7)
+  -  [{{ Arcane Commander}}{{ 7}}](#p7)
+  -  [{{ Familiar Master}}{{ 8}}](#p8)
+  -  [{{ Magic Missile Mage}}{{ 9}}](#p9)
+  -  [{{ Mystic Savant}}{{ 10}}](#p10)
+  -  [{{ Order of Embalmers}}{{ 12}}](#p12)
+  -  [{{ Order of Scribes}}{{ 14}}](#p14)
+  -  [{{ Origami Mage}}{{ 16}}](#p16)
+  -  [{{ School of Abjuration}}{{ 18}}](#p18)
+  -  [{{ School of Animism}}{{ 19}}](#p19)
+  -  [{{ School of Automata}}{{ 20}}](#p20)
+  -  [{{ School of Bladesinging}}{{ 23}}](#p23)
+  -  [{{ School of Conjuration}}{{ 23}}](#p23)
+  -  [{{ School of Chronomancy}}{{ 24}}](#p24)
+  -  [{{ School of Divination}}{{ 25}}](#p25)
+  -  [{{ School of Enchantment}}{{ 26}}](#p26)
+  -  [{{ School of Evocation}}{{ 27}}](#p27)
+  -  [{{ School of Gastronomy}}{{ 28}}](#p28)
+  -  [{{ School of Graviturgy}}{{ 29}}](#p29)
+  -  [{{ School of Hardlight}}{{ 30}}](#p30)
+  -  [{{ School of Hexcraft}}{{ 31}}](#p31)
+  -  [{{ School of Illusion}}{{ 32}}](#p32)
+  -  [{{ School of Necromancy}}{{ 33}}](#p33)
+  -  [{{ School of Metallurgy}}{{ 34}}](#p34)
+  -  [{{ School of Onomancy}}{{ 35}}](#p35)
+  -  [{{ School of Somnomancy}}{{ 36}}](#p36)
+  -  [{{ School of Theurgy}}{{ 37}}](#p37)
+  -  [{{ School of Teleportation}}{{ 38}}](#p38)
+  -  [{{ School of Transmutation}}{{ 39}}](#p39)
+  -  [{{ School of War Magic}}{{ 40}}](#p40)
+  -  [{{ School of Warp watcher}}{{ 41}}](#p41)
+  -  [{{ Shinobi}}{{ 42}}](#p42)
+}}
+
+
+
+\page
+## Wizard
+:
+Clad in the silver robes that denote her station, an elf closes her eyes to shut out the distractions of the battlefield and begins her quiet chant. Fingers weaving in front of her, she completes her spell and launches a tiny bead of fire toward the enemy ranks, where it erupts into a conflagration that engulfs the soldiers.
+
+Checking and rechecking his work, a human scribes an intricate magic circle in chalk on the bare stone floor, then sprinkles powdered iron along every line and graceful curve. When the circle is complete, he drones a long incantation. A hole opens in space inside the circle, bringing a whiff of brimstone from the otherworldly plane beyond.
+
+Crouching on the floor in a dungeon intersection, a gnome tosses a handful of small bones inscribed with mystic symbols, muttering a few words of power over them. Closing his eyes to see the visions more clearly, he nods slowly, then opens his eyes and points down the passage to his left.
+
+Wizards are supreme magic-users, defined and united as a class by the spells they cast. Drawing on the subtle weave of magic that permeates the cosmos, wizards cast spells of explosive fire, arcing lightning, subtle deception, and brute-force mind control. Their magic conjures monsters from other planes of existence, glimpses the future, or turns slain foes into zombies. Their mightiest spells change one substance into another, call meteors down from the sky, or open portals to other worlds.
+
+### Scholars of the Arcane
+Wild and enigmatic, varied in form and function, the power of magic draws students who seek to master its mysteries. Some aspire to become like the gods, shaping reality itself. Though the casting of a typical spell requires merely the utterance of a few strange words, fleeting gestures, and sometimes a pinch or clump of exotic materials, these surface components barely hint at the expertise attained after years of apprenticeship and countless hours of study.
+
+Wizards live and die by their spells. Everything else is secondary. They learn new spells as they experiment and grow in experience. They can also learn them from other wizards, from ancient tomes or inscriptions, and from ancient creatures (such as the fey) that are steeped in magic.
+
+\column
+
+### The Lure of Knowledge
+Wizards’ lives are seldom mundane. The closest a wizard is likely to come to an ordinary life is working as a sage or lecturer in a library or university, teaching others the secrets of the multiverse. Other wizards sell their services as diviners, serve in military forces, or pursue lives of crime or domination.
+
+But the lure of knowledge and power calls even the most unadventurous wizards out of the safety of their libraries and laboratories and into crumbling ruins and lost cities. Most wizards believe that their counterparts in ancient civilizations knew secrets of magic that have been lost to the ages, and discovering those secrets could unlock the path to a power greater than any magic available in the present age.
+
+### Creating a Wizard
+Creating a wizard character demands a backstory dominated by at least one extraordinary event. How did your character first come into contact with magic? How did you discover you had an aptitude for it? Do you have a natural talent, or did you simply study hard and practice incessantly? Did you encounter a magical creature or an ancient tome that taught you the basics of magic?
+
+What drew you forth from your life of study? Did your first taste of magical knowledge leave you hungry for more? Have you received word of a secret repository of knowledge not yet plundered by any other wizard? Perhaps you’re simply eager to put your newfound magical skills to the test in the face of danger.
+
+#### Quick Build
+
+You can make a wizard quickly by following these suggestions. First, Intelligence should be your highest ability score, followed by Constitution or Dexterity. If you plan to join the School of Enchantment, make Charisma your next-best score. Second, choose the sage background. Third, choose the mage hand, light, and ray of frost cantrips, along with the following 1st-level spells for your spellbook: burning hands, charm person, feather fall, mage armor, magic missile, and sleep.
+
+{{imageMaskCorner10,--offsetX:53%,--offsetY:-50%,--rotation:0
+  ![](https://i.imgur.com/xbRu9Ww.png){height:50%,left:435px,top:700px}
+}}
+
+
+
+{{pageNumber,auto}}
+\page
+
+
+{{imageMaskEdge5,--offset:5%,--rotation:90
+  ![](https://static0.gamerantimages.com/wordpress/wp-content/uploads/2019/12/dnd-wizbuild-coverimg.jpg){height:100%}
+    ![](https://i.imgur.com/RVv3Ft5.png){height:100%,transform: scaleX(-1)}
+}}
+
+
+
+{{artist,position:absolute,top:1000px,left:310px
+##### Sir Ed
+}}
+
+
+  
+
+\column
+
+
+
+### Class Features
+As a wizard, you gain the following class features
+#### Hit Points
+___
+- **Hit Dice:** 1d6 per wizard level
+- **Hit Points at 1st Level:** 6 + your Constitution modifier
+- **Hit Points at Higher Levels:** 1d6 (or 4) + your Constitution modifier per wizard level after 1st
+
+#### Proficiencies
+___
+- **Armor:** None
+- **Weapons:** Daggers, darts, slings, quarterstaffs, light crossbows
+- **Tools:** None
+
+___
+- **Saving Throws:** Intelligence, Wisdom
+- **Skills:** Choose two from Arcana, History, Insight, Investigation, Medicine, and Religion
+
+#### Equipment
+You start with the following equipment, in addition to the equipment granted by your background:
+-  *(a)* a quarterstaff or *(b)* a dagger
+- *(a)* a component pouch or *(b)* an arcane focus
+- *(a)* a scholar's pack or *(b)* an explorer's pack
+- A spellbook
+
+
+### Spellcasting
+As a student of arcane magic, you have a spellbook containing spells that show the first glimmerings of your true power.
+
+#### Cantrips
+At 1st level, you know three cantrips of your choice from the wizard spell list. You learn additional wizard cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Wizard table.
+
+#### Spellbook
+At 1st level, you have a spellbook containing six 1st-level wizard spells of your choice.
+
+The spells that you add to your spellbook as you gain levels reflect the arcane research you conduct on your own, as well as intellectual breakthroughs you have had about the nature of the multiverse. You might find other spells during your adventures. You could discover a spell recorded on a scroll in an evil wizard's chest, for example, or in a dusty tome in an ancient library.
+
+**Copying a Spell into the Book.** When you find a wizard spell of 1st level or higher, you can add it to your spellbook if it is of a level for which you have spell slots and if you can spare the time to decipher and copy it.
+{{pageNumber,auto}}
+\page
+
+
+
+{{classTable,frame,decoration,wide
+##### The Wizard
+| Level | Proficiency Bonus | Features | Cantrips Known |  1st | 2nd | 3rd | 4th | 5th | 6th | 7th | 8th | 9th 
+|:---:|:---:|:---|:-------:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1st | +2 | Spellcasting, Arcane Recovery  | 3 | 2 | — | — | — | — | — | — | — | — |
+| 2nd | +2 | Arcane Tradition               | 3 |  3 | — | — | — | — | — | — | — | — |
+| 3rd | +2 | —                              | 3 |  4 | 2 | — | — | — | — | — | — | — |
+| 4th | +2 | Ability Score Improvement      | 4 |  4 | 3 | — | — | — | — | — | — | — |
+| 5th | +3 | —                              | 4 |  4 | 3 | 2 | — | — | — | — | — | — |
+| 6th | +3 | Arcane Tradition feature       | 4 |  4 | 3 | 3 | — | — | — | — | — | — |
+| 7th | +3 | —                              | 4 |  4 | 3 | 3 | 1 | — | — | — | — | — |
+| 8th | +3 | Ability Score Improvement      | 4 |  4 | 3 | 3 | 2 | — | — | — | — | — |
+| 9th | +4 | —                              | 4 |  4 | 3 | 3 | 3 | 1 | — | — | — | — |
+| 10th | +4 | Arcane Tradition feature      | 5 |  4 | 3 | 3 | 3 | 2 | — | — | — | — |
+| 11th | +4 | —                             | 5 |  4 | 3 | 3 | 3 | 2 | 1 | — | — | — |
+| 12th | +4 | Ability Score Improvement     | 5 |  4 | 3 | 3 | 3 | 2 | 1 | — | — | — |
+| 13th | +5 | —                             | 5 |  4 | 3 | 3 | 3 | 2 | 1 | 1 | — | — |
+| 14th | +5 | Arcane Tradition feature      | 5 |  4 | 3 | 3 | 3 | 2 | 1 | 1 | — | — |
+| 15th | +5 | —                             | 5 |  4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 | — |
+| 16th | +5 | Ability Score Improvement     | 5 |  4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 | — |
+| 17th | +6 | —                             | 5 |  4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 | 1 |
+| 18th | +6 | Spell Mastery                 | 5 |  4 | 3 | 3 | 3 | 3 | 1 | 1 | 1 | 1 |
+| 19th | +6 | Ability Score Improvement     | 5 |  4 | 3 | 3 | 3 | 3 | 2 | 1 | 1 | 1 |
+| 20th | +6 | Signature Spells              | 5 |  4 | 3 | 3 | 3 | 3 | 2 | 2 | 1 | 1 |
+}}
+
+
+Copying a spell into your spellbook involves reproducing the basic form of the spell, then deciphering the unique system of notation used by the wizard who wrote it. You must practice the spell until you understand the sounds or gestures required, then transcribe it into your spellbook using your own notation.
+For each level of the spell, the process takes 2 hours and costs 50 gp. The cost represents material components you expend as you experiment with the spell to master it, as well as the fine inks you need to record it. Once you have spent this time and money, you can prepare the spell just like your other spells.
+
+**Replacing the Book.** You can copy a spell from your own spellbook into another book-for example, if you want
+to make a backup copy of your spellbook. This is just like copying a new spell into your spellbook, but faster and easier, since you understand your own notation and already know how to cast the spell. You need spend only 1 hour and 10 gp for each level of the copied spell.
+If you lose your spellbook, you can use the same procedure to transcribe the spells that you have prepared into a new spellbook. Filling out the remainder of your spellbook requires you to find new spells to do so, as normal. For this reason, many wizards keep backup spellbooks in a safe place.
+
+**The Book's Appearance.** Your spellbook is a unique compilation of spells, with its own decorative flourishes and margin notes. It might be a plain, functional leather volume that you received as a gift from your master, a finely bound gilt-edged tome you found in an ancient library or even a loose collection of notes scrounged together after you lost your previous spellbook in a mishap.
+
+\column
+
+#### Preparing and Casting Spells
+The Wizard table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
+
+You prepare the list of wizard spells that are available for you to cast. To do so, choose a number of wizard spells from your spellbook equal to your Intelligence modifier + your wizard level (minimum of one spell). The spells must be of a level for which you have spell slots.
+
+For example, if you're a 3rd-level wizard, you have four 1st-1evel and two 2nd-level spell slots. With an Intelligence of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination, chosen from your spellbook. If you prepare the 1st-level spell Magic Missile, you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.
+
+You can change your list of prepared spells when you finish a long rest. Preparing a new list of wizard spells requires time spent studying your spellbook and memorizing the incantiations and gestures you must make to cast the spell: at least 1 minute per spell level for each spell on your list.
+
+{{note
+##### Alternative Spellcasting List
+**Ask your DM**  
+Instead of chosing from the Wizard Spell List, you may choose your spells from the Arcane Spell List.
+}}
+{{pageNumber,auto}}
+\page
+#### Spellcasting Ability
+Intelligence is your spellcasting ability for your wizard spells, since you learn your spells through dedicated study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.
+
+**Spell save DC** = 8 + your proficiency bonus + your Intelligence modifier
+
+**Spell attack modifier** = your proficiency bonus + your Intelligence modifier
+
+#### Ritual Casting
+You can cast a wizard spell as a ritual if that spell has the ritual tag and you have the spell in your spellbook. You don't need to have the spell prepared.
+
+#### Spellcasting Focus
+You can use an arcane focus as a spellcasting focus for your wizard spells.
+
+#### Learning Spells of 1st Level and Higher
+Each time you gain a wizard level, you can add two wizard spells of your choice to your spellbook. Each of these spells must be of a level for which you have spell slots, as shown on the Wizard table. On your adventures, you might find other spells that you can add to your spellbook.
+
+### Arcane Recovery
+You have learned to regain some of your magical energy by studying your spellbook. Once per day when you finish a short rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your wizard level (rounded up), and none of the slots can be 6th level or higher.
+
+For example, if you're a 4th-level wizard, you can recover up to two levels worth of spell slots. You can recover either a 2nd-level spell slot or two 1st-level spell slots.
+
+### Arcane Tradition
+When you reach 2nd level, you choose an arcane tradition, shaping your practice of magic through one of the following schools: abjuration, bladesinging, chronurgy, conjuration, divination, enchantment, evocation, graviturgy, illusion, necromancy, scribes, transmutation, or war magic.
+Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level.
+
+\column
+
+### Ability Score Improvement
+When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
+
+### Spell Mastery
+At 18th level, you have achieved such mastery over certain spells that you can cast them at will. Choose a 1st-level wizard spell and a 2nd-level wizard spell that are in your spellbook. You can cast those spells at their lowest level without expending a spell slot when you have them prepared. If you want to cast either spell at a higher level, you must expend a spell slot as normal.
+
+By spending 8 hours in study, you can exchange one or both of the spells you chose for different spells of the same levels.
+
+### Signature Spells
+When you reach 20th level, you gain mastery over two powerful spells and can cast them with little effort. Choose two 3rd-level wizard spells in your spellbook as your signature spells. You always have these spells prepared, they don't count against the number of spells you have prepared, and you can cast each of them once at 3rd level without expending a spell slot. When you do so, you can't do so again until you finish a short or long rest.
+
+If you want to cast either spell at a higher level, you must expend a spell slot as normal.
+{{pageNumber,auto}}
+\page
+## Arcane Traditions
+
+### Arcane Commander
+While most Wizards focus their studies solely on the arcane
+arts, those known as Arcane Commanders supplement their
+magical studies with tactical knowledge. A difficult Tradition
+to truly master, these rare Wizards are a terror to behold on
+the field of battle. 
+
+Often, they find themselves in the service
+of great monarchs and conquerors, leading their armies with
+a unique combination of arcane magic and tactical acumen.
+
+#### School of War & Wizardry
+Beginning when you choose this arcane tradition at 2nd level, you have trained to defend yourself in combat with both spell and steel. 
+
+You gain proficiency with light armor and with longswords, scimitars, shortswords, and rapiers.
+
+
+#### Arcane Commander Exploits
+Also at 2nd level, you have studied various tactical exploits to better aid your
+allies on the field of battle. You gain the following features:
+
+**Exploit Dice.** The Arcane Commander Exploits table
+shows how many Exploit Dice you have to use your Exploits,
+and the size of these Dice. To use an Exploit you know, you
+must expend an Exploit Die, and you regain all expended
+Exploit Dice each time you finish a short or long rest.
+
+**High Degree.** Your Wizard level limits the technicality of
+the Exploits you are able to learn, and is reflected in the High
+Degree column of the Arcane Commander Exploits table.
+Exploits. You learn two Tactical Exploits of your choice
+from those available to the Warlord Class. You can only use
+one Exploit per ability check, attack, or saving throw.
+
+As you gain Wizard levels, you learn more Exploits, as
+shown in the Exploits Known column of Arcane Commander
+Exploits table. When you gain a Wizard level, you can replace
+an Exploit you know with a Tactical Exploit of your choice.
+
+**Saving Throws.** If an Exploit requires a creature to make
+a saving throw, the saving throw DC is calculated as follows:
+
+**Exploit save DC** = 8 + your proficiency bonus + your Intelligence modifier
+
+
+{{classTable
+##### Arcane Commander Exploits
+| Wizard | Exploits | Exploit | Exploit |   High  |
+| Level  | Known    | Die     |   Dice  |  Degree |
+|:------:|:--------:|:-------:|:-------:|:-------:|
+|  1st   |    2     |   d4    |    2    |   1st   |
+|  2nd   |    2     |   d4    |    2    |   1st   |
+|  3rd   |    2     |   d4    |    2    |   1st   |
+|  4th   |    2     |   d4    |    2    |   1st   |
+|  5th   |    3     |   d4    |    2    |   1st   |
+|  6th   |    3     |   d4    |    2    |   1st   |
+|  7th   |    4     |   d6    |    2    |   1st   |
+|  8th   |    4     |   d6    |    2    |   1st   |
+|  9th   |    4     |   d6    |    2    |   1st   |
+|  10th  |    4     |   d6    |    3    |   2nd   |
+|  11th  |    5     |   d6    |    3    |   2nd   |
+|  12th  |    5     |   d6    |    3    |   2nd   |
+|  13th  |    5     |   d6    |    3    |   2nd   |
+|  14th  |    5     |   d6    |    3    |   2nd   |
+|  15th  |    6     |   d6    |    3    |   2nd   |
+|  16th  |    6     |   d6    |    3    |   2nd   |
+|  17th  |    6     |   d6    |    3    |   2nd   |
+|  18th  |    6     |   d6    |    3    |   2nd   |
+|  19th  |    7     |   d8    |    4    |   3rd   |
+|  20th  |    7     |   d8    |    4    |   3rd   |
+}}
+
+#### Arcane Insight
+Begining 6th level, your mastery of the battlefield allows you to weave tactical commands into the very somatic components of your spells. When you cast a Wizard spell of 2nd level or higher, you can use one Tactical Exploit you know as part of that same action without expending an Exploit Die.
+
+#### Tactical Reposition
+At 10th Level, you wield your allies as other warriors wield weapons. When you use your action to make a weapon attack, cast a Wizard spell, or use a Tactical Exploit you know, you can take the Disengage action as a bonus action on that turn.
+
+#### High Command
+At 14th level, your tactical prowess and arcane knowledge rivals that of the greatest commanders and archmages. 
+
+If you have no Exploit Dice remaining, you can expend a spell slot to use an Exploit you know again. 
+
+The spell slot's level must be equal to, or higher than, the degree of the Exploit you wish to use.
+
+You cannot use this feature to use a 3rd-degree (or higher) Exploit more then once per short or long rest.
+
+{{pageNumber,auto}}
+\page
+### Familiar Master
+Learning the find familiar spell is seen as a rite of
+passage among fledgling wizards, as the spell offers a
+useful, if limited, magical servant. However, a small
+subschool of wizards known as the “familiar masters”
+or “evolutionists” believe that within the humble spell
+lies manifold hidden powers. Indeed, their studies
+have unlocked the spell's hidden potential: the ability
+to evolve their familiars and fluidly shift its form.
+
+#### Improved familiar
+Beginning when you choose this arcane tradition
+at 2nd level, you always have the find familiar spell
+prepared, and it does not count against the number
+of spells you prepare. Additionally, you can cast
+the spell as an action, without expending material
+components. When you choose your familiar’s
+creature type, you can choose aberration, construct,
+elemental, or undead, in addition to the normal
+options for the spell.
+
+
+#### Arcane evolution
+Also at 2nd level, you can use an action and expend
+a spell slot to transform your familiar. When you do,
+choose a beast with a CR equal to or lower than half
+the level of the spell slot expended, and your familiar
+takes on that beast’s appearance and statistics (except
+that it keeps its creature type). During this time, your
+familiar can attack on its turn. This transformation
+lasts for 10 minutes, after which time you can
+choose which animal form it takes from those made
+available by the spell.
+
+
+
+#### Servitor's gift
+Starting at 6th level, while you have a familiar,
+you gain a benefit based on its current form. You
+continue to gain this benefit when your familiar is
+transformed by your Arcane Evolution feature.
+
+**Bat.** You can use a bonus action on your turn to gain blindsight out to a distance of 15 feet while you are not deafened.
+
+**Cat.** When you land after jumping or falling, you can use your reaction to reduce falling damage to 0.
+
+**Crab.** While you are not wearing armor, your AC equals 12 + your Dexterity modifier.
+
+**Frog.** Your jump distances are tripled.
+
+**Hawk.** You have advantage on Wisdom (Perception) ability checks that rely on sight.
+
+**Lizard.** You have resistance to poison damage.
+
+**Octopus.** While you are grappled, you can use a bonus action to attempt to escape. When you attempt to escape from a grapple, you gain a bonus to your Strength (Athletics) or Dexterity (Acrobatics) check equal to your Intelligence modifier (minimum +1).
+
+**Owl.** You gain darkvision out to a distance of 30 feet.
+
+**Poisonous Snake.** When you hit a creature with a melee weapon attack, you deal an additional 1d4 poison damage.
+
+**Quipper.** You have a swim speed of 30 feet, and the length of time you can hold your breath is doubled.
+
+**Rat.** You have advantage on saving throws against poison and disease.
+
+**Raven.** You add your proficiency bonus to death saving throws and know the spare the dying cantrip, which doesn’t count against your total number of cantrips known. Intelligence is your spellcasting modifier for this spell.
+
+**Sea Horse.** You add your proficiency bonus to ability checks you make to control a creature as a mount, and you count as one size smaller than you are for the purposes of determining creatures you can use as a mount.
+
+**Spider.** You have a climb speed of 30 feet.
+
+**Weasel.** Squeezing does not require extra movement for you, and you can stand up from prone by spending 5 feet of movement.
+
+
+#### Empower familiar
+Starting at 10th level, you can use a bonus action to
+grant your familiar a number of temporary hit points
+equal to twice your level in this class. When you do,
+you can also change the familiar’s creature type and
+which form it takes from the list provided in the find
+familiar spell.
+Once you use this feature, you must finish a
+short or long rest before you can use it again.
+
+#### Servitor's greater gift
+At 14th level, while you have a familiar, you gain a benefit based on its creature type.
+
+**Aberration.** When you cast a spell that deals damage, you can choose to change its damage type to psychic. In addition, you have resistance to psychic damage.
+
+**Celestial.** When you expend a spell slot to cast a spell or use your Arcane Evolution feature, you can choose a creature within 30 feet to regain hit points equal to your Intelligence modifier + the level of spell slot expended. In addition, you have resistance to radiant damage.
+
+**Construct.** Critical hits made against you with nonmagical weapons become normal hits. In addition, you gain a +1 bonus to your AC.
+
+**Elemental.** When you cast a spell that deals damage you can choose to change its damage type to acid, cold, fire, lightning, or thunder damage. In addition, you can speak, read, and write Primordial.
+
+**Fey.** When you expend a spell slot to cast a spell or use your Arcane Evolution feature, you can teleport a number of feet equal to 5 × the level of the spell slot expended. In addition, you have advantage on saving throws against being charmed or frightened.
+
+**Fiend.** When you expend a spell slot to cast a spell or use your Arcane Evolution feature, you can choose a creature within 30 feet of you and deal cold, fire, or necrotic damage (your choice) to it equal to your Intelligence modifier + the level of spell slot expended. In addition, you have resistance to fire damage.
+
+**Undead.** When you cast a spell that deals damage you can choose to change its damage type to necrotic. In addition, you have resistance to necrotic damage.
+{{pageNumber,auto}}
+\page
+### Magic Missile Mage
+Magic missile is a staple wizard spell, well-loved for its versatility and unerring accuracy. As a missile magician, however, your fondness for the spell borders on obsession. Your studies focus entirely on this spell, exploring every rune in the spell’s composition and analyzing every aspect of its casting, resulting in new augmentations and greater power than ever before.
+
+
+#### Branching missile
+Beginning when you select this tradition at 2nd level, you learn the spell magic missile, if you do not know it already. Whenever you cast this spell, it is improved in the following ways:
+
+- For every additional target after the first, you magic missile casts gain 1 additional missile, up to your proficiency bonus.
+
+- When your missiles are blocked by an effect, such as the shield spell, that specifically blocks or reflects the magic missile spell, you can redirect the missile to another target within range.
+
+- You can cast this spell without using a spell slot, when you do so, you only fire a single dart. At 18th level, if you choose magic missile for your spell mastery feature, magic missile gains an extra dart when you cast it that way.
+
+#### Shield of missile
+Starting at 6th level, you can cast magic missile in a tight orbit around you, creating a deadly aegis from your foes, which lasts for up to 10 minutes. When a hostile creature makes a melee attack against you, a single missile strikes it, dealing 2d4+2 force damage, increasing your AC by 1 until the start of your turn and decreasing the number of missiles orbiting you.
+
+Additionally, when you cast magic missile, you can add missiles orbiting you to the spell, decreasing the missiles orbiting you.
+#### Counter-missile
+By 10th level, you’ve learned how to use magic missile to overcome your most powerful fellow wizards. When your magic missile hits a creature that is concentrating on a spell, another magic missile is cast from it's location, releasing half as many darts as the original (rounded up), targeting as many hostile creatures as possible within 60 feet. If the creature loses it's concentration because of the damage from you magic missile, the full amount of missiles is released.
+
+Only the original darts can trigger this feature.
+
+\column
+
+#### Powerful missiles
+Beginning at 14th level, your missiles seek out targets that would otherwise somehow escape them. This grants you the following benefits:
+
+- The range of the spell increases to 500 feet.
+
+- Your magic missile spell always count as 2 level higher for the purposes of counterspell, dispel magic and other effects of the sort.
+
+- Your missiles gain increased potency, increasing the damage of the first dart for each target by your Inteligence modifier.
+
+
+{{pageNumber,auto}}
+\page
+
+### Mystic Savant
+Unlike most other arcane traditions, mystic savants
+do not belong to a formalized institution, but share a
+philosophy that, to master arcana, one must master
+every aspect of it. Their contemporaries call such
+wizards “universalists” or “holistics,” but they are
+savants by any definition. The skill of spellcasting
+comes naturally to them, so while other wizards
+refine a specific school of magic, mystic savants
+master an array of cross-school stratagems to help
+them snatch victory from the jaws of defeat.
+
+#### Arcane strategist
+Beginning when you choose this arcane tradition
+at 2nd level, you learn stratagems that are fueled by
+special dice called battle dice.
+
+**Battle Dice.** You have two battle dice, which are d8s. A battle die is expended when you use it. You regain all of your battle dice when you take a short or long rest, or when you roll initiative. Your battle die changes and more battle dice become available when you reach certain levels in this class, as shown on the table below.
+
+Wizard Level| Battle Dice
+:-:|:-:
+2nd| 2d6
+3rd| 2d8
+7th| 3d8
+13th| 3d10
+19th| 4d10
+
+**Using Battle Dice.** Once per turn, you can expend a battle die to use a stratagem of your choice. Your stratagem options are detailed at the end of this subclass description.
+
+**Stratagems.** You learn three stratagems of your
+choice, which are detailed under “Stratagems” below. Many stratagems enhance a spell in some way. You can use only one stratagem per spell. 
+
+You learn two additional stratagems of your choice at 6th level and one additional stratagem of your choice at 10th and 14th level. Each time you learn new stratagems, you can also replace one stratagem you know with a different one.
+
+#### Bonus proficiency
+Also at 2nd level, you gain proficiency in one of the following skills of your choice: Arcana, History, Insight, Investigation, Medicine, Nature, Perception, or Religion
+
+
+
+#### Versatile momery
+Starting at 6th level, you can use your action to
+exchange one spell you have prepared for another of
+the same level or lower in your spellbook.
+Once you use this ability, you can’t use it again
+until you finish a short or long rest.
+
+\column
+
+#### Arcanist's assessment
+At 10th level, you can use your action to appraise the
+spellcasting prowess of a creature you can see within
+30 feet. Make an ability check using your spellcasting
+modifier contested by the creature’s spellcasting
+modifier. If the creature doesn’t have a spellcasting
+modifier, they roll a d20 instead. On a success, you
+learn if the creature has the Spellcasting, Innate
+Spellcasting, or Pact Magic features, and whether the
+creature can cast spells of a higher level than you can
+cast.
+
+On a success or failure, the target knows you have assessed its magical capabilities, and you can’t use this ability on the target for 24 hours.
+
+You can use this feature a number of times equal to your Intelligence modifier (minimum once) and regain all expended uses when you finish a long rest.
+
+#### Font of percipience
+Starting at 14th level, you can use a bonus action and expend a spell slot to regain a number of your expended battle dice up to the level of the spell slot expended. When you do, you can choose a stratagem you know and replace it with a different stratagem.
+{{pageNumber,auto}}
+\page
+#### Stratagems
+The stratagems are presented in alphabetical order. 
+
+**Arcane Warding.** When you cast a spell of 1st level or higher, you can expend and roll one battle die as a bonus action to gain temporary hit points equal to the level of spell slot expended to cast the spell + the result of the battle die. You lose any temporary hit points gained from this stratagem after 10 minutes.
+
+**Eldritch Aegis.** When you or a creature you
+can see within 30 feet takes damage from a spell, you
+can use your reaction to expend and roll one battle
+die, reducing the damage taken by the result.
+Flash of Brilliance. When you make an Intelligence or Wisdom ability check, you can expend and roll one battle die to add its result to your ability check. You can choose to use this stratagem after the ability check is rolled but before the GM declares whether the result was a success or failure.
+
+**Mystic Counsel.** You can use a bonus action
+and expend one battle die to give counsel to a
+creature that can hear you within 30 feet. Once in the
+next minute when the creature makes a saving throw
+against a spell, it can choose to roll the battle die and
+add its result to the saving throw.
+
+**Mystic Defense.** When you make a saving
+throw against a spell or other magical effect you can
+use your reaction to expend and roll one battle die
+to add its result to the saving throw. You can choose
+to use this stratagem after the saving throw is rolled
+but before the GM declares whether the result was a
+success or failure.
+
+**Potent Casting.** When you roll damage for
+a spell you cast, you can expend one battle die as a
+bonus action. When you do, you can reroll a number
+of the damage dice up to your Intelligence modifier
+(minimum of one) and must use the new rolls.
+Precision Spell. When you make a spell attack
+roll against a creature, you can expend one battle die
+to add it to the roll as a bonus action. You can use
+this stratagem before or after making the attack roll,
+but before any effects of the spell attack are applied.
+
+**Quick Thinking.** When you make an ability
+check to determine initiative, you can expend and
+roll one battle die to add its result to your ability
+check. You can choose to use this stratagem after the
+ability check is rolled but before the GM determines
+initiative order.
+
+**Sorcerous Spread.** When you deal damage to
+a creature with a spell of 1st level or higher, you can
+use your bonus action to choose another creature
+within 5 feet of the target then expend and roll a
+battle die. That chosen creature takes damage equal
+to the level of spell slot expended casting the spell +
+the result of the battle die. The type of damage is the
+same as that taken by the original target of the spell.
+Spellcaster’s Sting. When a creature within
+60 feet of you that you can see succeeds on a saving
+throw against a spell you cast of 1st level or higher,
+you can use a bonus action and expend and roll a
+battle die. If you do, that creature takes force damage
+equal to the level of spell slot expended casting the
+spell + the result of the battle die.
+
+**Spell Sundering.** When you deal damage
+to a creature concentrating on a spell, you can use
+your bonus action to expend and roll one battle die,
+adding its result to the damage dealt. If the creature
+must make a Constitution saving throw to maintain
+concentration as a result of this damage, that saving
+throw has disadvantage.
+
+**Unbreakable Concentration.** When you
+make a saving throw to maintain concentration on
+a spell, you can expend and roll one battle die to
+add its result to the saving throw. You can choose
+to use this stratagem after the saving throw is rolled
+but before the GM declares whether the result was a
+success or failure.
+{{pageNumber,auto}}
+\page
+### Order of Embalmers
+Keepers at the gates of death, embalmers use their magic to ferry spirits back and forth between the realms of the living and the departed. Unlike a necromancer who reanimates rotten flesh puppets and brittle bone marionettes, an embalmer offers a contract, letting a deceased soul taste the joys of the living for a short time in exchange for its service. Many embalmers even include a small offering of food, drink, or a trinket as part of the conjuring. These tokens of gratitude make embalmers (allegedly) far more popular in the lands of the deceased. Wizard: Order of Embalmers
+
+Embalmers take much from the realms beyond, and they give back by preparing others for this final journey. They’re often called upon to perform funerary rites, anoint the dead, and of course, prepare the bodies. They take immense pride in their craft—the most egotistic of them go as far as summoning the souls they helped pass on just to pester them with lengthy surveys about the quality of the linen wraps or the cadaver’s rate of decay. Sometimes, the poor mummies are even kept from their eternal rest until they provide glowing endorsements—buyer beware of numerous five-star reviews!
+
+
+#### Book of the Dead
+At 2nd Level, by calling to denizens of the dead rather than the living, you’re able to summon a wider variety of creatures to your aid. Any spell that contains the word “Conjure” or “Summon” in its name and summons a creature with a stat block is considered a Wizard spell for you. The gold and time you must spend to copy one of these spells into your spellbook is halved.
+
+\column
+
+#### Are You My Mummy?
+
+At 2nd level, Though not necessarily related to your biological mother, creatures you summon may manifest in the form of mummies. Whenever you summon a creature by casting a Wizard spell, you can choose to mummify it. Any creature you summon with a spell not normally on the Wizard spell list is always mummified. A mummified creature has its statistics changed in the following ways:
+- It’s Undead instead of its normal type.
+- It has Resistance to Necrotic damage.
+- It has Immunity to Poison damage and the Poisoned condition.
+- It has Vulnerability to Fire and Radiant damage.
+- Attacks it makes with natural weapons deal an extra 1d4 Necrotic damage. If a creature has no natural weapon attack, it gains one that deals Necrotic damage equal to 1d4 + its Constitution modifier on a hit. If a creature would normally be unable to attack, such as the one summoned by the *Find Familiar* spell, its mummified version can attack.
+- When it’s reduced to 0 Hit Points by any damage other than Fire or Radiant damage, it explodes into necrotic dust. Each creature within 5 feet of it when it explodes must make a Constitution saving throw against your spell save DC, taking 3d6 Necrotic damage on a failure, or half as much damage on a success.
+
+Additionally, immediately after you cast a Necromancy spell of 1st level or higher, you can choose one of your mummified creatures that is within 120 feet of you. That creature gains Temporary Hit Points equal to 5 times the spell’s level, which last for 1 minute.
+
+{{pageNumber,auto}}
+\page
+#### Runic Wraps
+At 6th level, using the latest trends in arcane cloth wrapping, you
+can empower your summons to react in new ways when exposed to necromantic energy. When you would grant a creature Temporary Hit Points using your Are You My Mummy? feature, you can empower the creature with one of the following glyphs instead:
+
+**Glyph of Decay.** The mummified creature exudes a sickly, rotting aura for 1 minute or until you empower it with another glyph. For the duration, creatures that hit the mummified creature with a melee attack take Necrotic damage equal to 3 times the level of the spell that created the glyph.
+
+A creature that takes this damage can't regain Hit Points until the start of your next turn.
+
+**Glyph of Despair.** The mummified creature emits a low, droning wail of sorrow for 1 minute or until you empower it with another glyph. For the duration, any creature that starts its turn within 10 feet of the mummified creature or comes within 10 feet of it for the first time on a turn has its Speed reduced by 5 times the level of the spell that created the glyph until the start of its next turn.
+
+**Glyph of Terror.** When the mummified creature gains this glyph, each creature within a number of feet of the mummified creature equal to 5 times the spell's level must succeed on a Wisdom saving throw against your spell save DC or be Frightened of the mummified creature for 1 minute or until you empower the mummified creature with a different glyph. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+
+
+#### Preserved in Death
+Starting 10th Level, you’ve learned to treat your own flesh and organs with embalming salts and salves, halting the slow decay of time and freeing yourself from bodily needs. You no longer need to eat, drink, or breathe, and don't visibly age. In addition, you remain dormant but aware instead of sleeping, and can finish a Long Rest in 4 hours instead of 8.
+
+
+\column
+
+#### Rite of Mummification
+At 10th level, mixing your embalming techniques with a dash of transmutative magic allows a living creature to temporarily exist in the space between life and death.
+
+You can spend 10 minutes performing a special ritual on a willing, non-Undead creature of your choice.
+
+The creature must remain within 5 feet of you for the
+entire ritual, after which it appears covered in spectral
+bandages while the ritual’s benefits last, which it can
+make appear or disappear as a Bonus Action. The
+creature gains the following benefits until you finish
+
+a Long Rest, or until you use this ritual on a differ-
+ent creature:
+
+- It can choose to count as Undead instead of its normal type for the purposes of spells or other effects.
+
+- It has Resistance to Necrotic and Poison damage, and Advantage on saving throws made against the Poisoned condition.
+- If it’s reduced to 0 Hit Points by any damage other than Fire or Radiant damage, it rolls a Constitution saving throw with a DC equal to half of the damage taken. On a success, it drops to 1 Hit Point instead and loses the benefits of the ritual.
+
+#### Master Embalmer 
+At 14th level, you’ve perfected the formulas used in your craft, enhancing your mummified allies to a superior state of undeath. Mummified creatures you summon have Immunity to Necrotic damage, as well as the Charmed, Exhaustion, and Frightened conditions. 
+
+Additionally, the extra Necrotic damage from their attacks increases
+to 3d4.
+
+When you would grant a mummified creature Temporary Hit Points or empower it with a glyph, you can choose to also extend the same benefits to the creature affected by your Rite of Mummification feature if it is within 120 feet of you. In addition, you can choose from the following additional glyphs to empower your mummies:
+
+**Glyph of Withering.** The mummified creature’s touch saps vitality for 1 minute or until you empower it with another glyph. For the duration, attacks made by the mummified creature reduce the target’s Hit Point maximum by an amount equal to the damage taken until the target finishes a Long Rest. In addition, the target has Disadvantage on all Strength-based attack rolls, ability checks, and saving throws until the end of the mummified creature’s next turn.
+
+**Glyph of the Mirage.** An uncanny illusion of yourself overlays the mummified creature for 1 minute or until you empower it with another
+glyph. For the duration, whenever you become the target of a spell, you can use your Reaction to have it target the mummified creature instead, so long as it’s within 120 feet of you. When the glyph ends, the spell ends on the creature as well.
+
+
+{{pageNumber,auto}}
+\page
+### Order of Scribes
+
+Magic of the book-that's what many folk call wizardry. The name is apt, given how much time wizards spend poring over tomes and penning theories about the nature of magic. It's rare to see wizards traveling without books and scrolls sprouting from their bags, and a wizard would go to great lengths to plumb an archive of ancient knowledge.
+
+Among wizards, the Order of Scribes is the most bookish. It takes many forms in different worlds, but its primary mission is the same everywhere: recording magical discoveries so that wizardry can flourish. And while all wizards value spellbooks, a wizard in the Order of Scribes magically awakens their book, turning it into a trusted companion. 
+
+#### Wizardly Quill
+At 2nd level, as a bonus action, you can magically create a Tiny quill in your free hand. The magic quill has the following properties:
+
+- The quill doesn’t require ink. When you write with it, it produces ink in a color of your choice on the writing surface.
+- The time you must spend to copy a spell into your spell book equals 2 minutes per spell level if you use the quill for the transcription.
+- You can erase anything you write with the quill if you wave the feather over the text as a bonus action, provided the text is within 5 feet of you.
+
+This quill disappears if you create another one or if you die.
+
+#### Awakened Spellbook
+Using specially prepared inks and ancient incantations passed down by your wizardly order, you have awakened an arcane sentience within your spellbook.
+At 2nd level, while you are holding the book, it grants you the following benefits:
+
+- You can use the book as a spellcasting focus for your wizard spells.
+- When you cast a wizard spell with a spell slot, you can temporarily replace its damage type with a type that appears in another spell in your spellbook, which magically alters the spell's formula for this casting only. The latter spell must be of the same level as the spell slot you expend.
+- When you cast a wizard spell as a ritual, you can use the spell's normal casting time, rather than adding 10 minutes to it. Once you use this benefit, you can't do so again until you finish a long rest.
+
+If necessary, you can replace the book over the course of a short rest by using your Wizardly Quill to write arcane sigils in a blank book or a magic spellbook to which you're attuned. At the end of the rest, your spellbook's consciousness is summoned into the new book, which the consciousness transforms into your spellbook, along with all its spells. If the previous book still existed somewhere, all the spells vanish from its pages.
+
+#### Manifest Mind
+At 6th level, you can conjure forth the mind of your Awakened Spellbook. As a bonus action while the book is on your person, you can cause the mind to manifest as a Tiny spectral object, hovering in an unoccupied space of your choice within 60 feet of you. The spectral mind is intangible and doesn't occupy its space, and it sheds dim light in a 10-foot radius. It looks like a ghostly tome, a cascade of text, or a scholar from the past (your choice).
+
+While manifested, the spectral mind can hear and see, and it has darkvision with a range of 60 feet. The mind can telepathically share with you what it sees and hears (no action required).
+
+Whenever you cast a wizard spell on your turn, you can cast it as if you were in the spectral mind's space, instead of your own, using its senses. You can do so a number of times per day equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.
+
+As a bonus action, you can cause the spectral mind to hover up to 30 feet to an unoccupied space that you or it can see. It can pass through creatures but not objects.
+
+The spectral mind stops manifesting if it is ever more than 300 feet away from you, if someone casts Dispel Magic on it, if the Awakened Spellbook is destroyed, if you die, or if you dismiss the spectral mind as a bonus action.
+
+Once you conjure the mind, you can't do so again until you finish a long rest, unless you expend a spell slot of any level to conjure it again.
+
+#### Master Scriviner
+At 10th level, whenever you finish a long rest, you can create one magic scroll by touching your Wizardly Quill to a blank piece of paper or parchment and causing one spell from your Awakened Spellbook to be copied onto the scroll. The spellbook must be within 5 feet of you when you make the scroll.
+
+The chosen spell must be of 1st or 2nd level and must have a casting time of 1 action. Once in the scroll, the spell's power is enhanced, counting as one level higher than normal. You can cast the spell from the scroll by reading it as an action. The scroll is unintelligible to anyone else, and the spell vanishes from the scroll when you cast it or when you finish your next long rest.
+
+You are also adept at crafting spell scrolls, which are described in the treasure chapter of the Dungeon Master's Guide. The gold and time you must spend to make such a scroll are halved if you use your Wizardly Quill.
+
+{{pageNumber,auto}}
+\page
+#### One with the Word
+At 14th level, your connection to your Awakened Spellbook has become so profound that your soul has become entwined with it. While the book is on your person, you have advantage on all Intelligence (Arcana) checks, as the spellbook helps you remember magical lore.
+
+Moreover, if you take damage while your spellbook's mind is manifested, you can prevent all of that damage to you by using your reaction to dismiss the spectral mind, using its magic to save yourself. Then roll 3d6. The spellbook temporarily loses spells of your choice that have a combined spell level equal to that roll or higher. For example, if the roll's total is 9, spells vanish from the book that have a combined level of at least 9, which could mean one 9th-level spell, three 3rd-level spells, or some other combination. If there aren't enough spells in the book to cover this cost, you drop to 0 hit points.
+
+Until you finish 1d6 long rests, you are incapable of casting the lost spells, even if you find them on a scroll or in another spellbook. After you finish the required number of rests, the spells reappear in the spell book.
+
+Once you use this reaction, you can't do so again until you finish a long rest.
+{{pageNumber,auto}}
+\page
+### Origami Mage
+
+Origami Mages are wielders of a unique form of magic that
+combines precision, creativity, and imagination. With a flick
+of their wrist and a whisper of arcane words, they transform
+simple sheets of paper into awe-inspiring manifestations of
+elemental forces, mystical beings, and fantastical creatures.
+Drawing inspiration from the mysterious elegance of
+origami, these mages are not bound by traditional spell
+components but instead rely on the meticulous manipulation of paper to channel their magical energies. 
+
+Origami magic is not without its challenges. Mastery of this arcane
+discipline demands patience, dexterity, and a keen eye for
+detail. Each fold must be precise, each crease exact, for even
+the smallest imperfection can disrupt the flow of magic and
+render a spell ineffective. Yet, for those who persevere, the
+rewards are boundless.
+
+#### An Arcane Art
+At 2nd level, you learn to weave magic into origami, allowing you to create magnificent moving art pieces, which act
+on your behalf. As a bonus action, you can fold and imbue
+life into a paper construct that takes a form you choose
+from the list below. When crafted, an origami construct
+becomes bound to you or another creature of your choice
+that you can see within 60 feet of you.
+
+A creature with a bound origami construct gains the
+unique effects and features listed for that construct. A
+creature can’t have more than one of the same origami
+construct bound to it at a time, unless stated otherwise.
+A bound construct occupies the same space as the creature
+it’s bound to.
+
+These constructs stay imbued with life for a number of
+hours equal to half your wizard level. Origami constructs
+have an AC equal to your spell save DC, are immune to
+poison and psychic damage, and are destroyed when they
+take any damage. You can use this feature to create an
+origami construct a number of times equal to your proficiency bonus, and you regain all expended uses when you
+finish a long rest.
+
+\column
+
+##### Origami Constructs
+The constructs are presented in alphabetical order.
+
+**Bird.** While the origami bird is bound to your person, you gain proficiency in the Perception skill. Additionally, you deal an additional 2 slashing damage whenever you hit a target with a ranged attack.
+
+**Cat.** While the origami cat is bound to your person, you gain proficiency in the Stealth skill. 
+
+Additionally, once on each of your turns when you hit a target with a melee weapon attack, the origami cat can make a melee spell attack against the same target. Its attack modifier is equal to your weapon attack modifier, and on a hit, the target takes 1d6 slashing damage. 
+
+The origami cat’s damage increases when you reach certain levels in this class: 1d8 at 5th level, 1d10 at 11th level, and 1d12 at 17th level.
+
+**Crab.** While the origami crab is bound to your person, you
+gain a +1 bonus to your AC and proficiency in the Athletics skill. If the wizard that crafted this origami crab creates
+another, this origami crab is destroyed.
+
+**Dragon.** While the origami dragon is bound to your person,
+you have disadvantage on Dexterity (Stealth) checks and
+can’t benefit from being invisible. 
+
+Additionally, you take 1d4 fire damage at the start of each of your turns. You can have multiple origami dragons bound to you at the same time. 
+
+When the construct is destroyed, it quickly pops in an audible explosion, dealing 2d6 fire damage to each creature within 5 feet of it.
+
+**Frog.** While the origami frog is bound to your person, you gain proficiency in the Acrobatics skill. 
+
+As a reaction, when you would fail a Dexterity saving throw, you can add a bonus to the roll equal to the spellcasting ability modifier of the wizard that crafted the construct; using this feature destroys the origami frog.
+{{pageNumber,auto}}
+\page
+#### Origami Familiar
+At 2nd level, you learn the *Find Familiar* spell; you always
+have it prepared, and it doesn’t count against the number of
+spells you can prepare each day. Your familiar appears as an
+origami version of itself, is immune to poison and psychic
+damage, and is a construct, instead of a celestial, fey, or
+fiend. In addition to the familiar’s normal statistics, it also
+gains access to the following abilities.
+
+**Camouflage.** You can command your familiar to shift
+into a flattened paper form. In this form the familiar
+looks nearly indistinguishable from a normal piece
+of paper. If a creature uses its action to examine the
+familiar, it can discern the familiar for what it is with a
+successful Intelligence (Investigation) check against your
+spell save DC. The familiar can use an action to shift
+back into its origami form.
+
+**Last Resort.** As an action, your origami familiar can
+dive toward a creature, unfurling itself and wrapping
+around the target’s face, as if a sheet of paper blown
+by the wind. The target must make a Dexterity saving
+throw against your spell save DC or become blinded for 1
+minute. A creature blinded by the paper or one that can
+touch the creature can use its action to make a Strength
+check against your spell save DC. On a success, the
+target is no longer blinded. When this effect ends, your
+familiar is destroyed.
+
+**Reconnaissance.** As an action, you can command your
+familiar to spy. The origami familiar will then spend 1
+minute listening to any and all sounds within 15 feet of
+itself, recording what is overhears on its paper body. It
+then returns to you and dispels its familiar form, leaving
+behind a transcript of its findings written in a language
+of your choice that you know.
+
+
+#### Binding Release
+Starting at 6th level, you can use a bonus action to move
+one of your origami constructs to a creature that you can
+see within 30 feet of it.
+
+#### Paper Path
+Also at 6th level, when you cast a spell with a range of
+touch, your origami construct can deliver the spell as if it
+had cast the spell. Your construct must be within 100 feet of
+you. If the spell requires an attack roll, you use your attack
+modifier for the roll.
+
+\column
+
+#### Origami Servant
+Beginning at 10th level, you learn the *Unseen Servant*
+spell; you always have it prepared, and it doesn’t count
+against the number of spells you can prepare each day. 
+
+In addition, you can cast it without expending a spell slot, but
+the maximum number of servants you can have at a time is
+equal to half your wizard level (rounded up). When you cast
+it, it has the following changes:
+- The spell lasts for a number of hours equal to your proficiency bonus, instead of 1 hour.
+- Your servant appears as a visible origami version of itself.
+- Your servant is immune to poison and psychic damage.
+- Your servant can move through a space as narrow as 1 inch wide without squeezing.
+- When you use your bonus action to command a servant, you can issue a unique command to each servant you have created as part of the same bonus action.
+- Your servant falls at a rate of 60 feet per round and takes no falling damage.
+- Your servant can see invisible creatures and objects as if they were visible.
+- As an action, while your servant is within 100 feet of you, you can see through your servant’s eyes and hear what it hears until the start of your next turn, gaining the benefits of any special senses that the servant has. During this time, you are deaf and blind with regard to your own senses.
+
+#### Arcane Refresh
+At 14th level, your origami constructs return the magic you
+lent them when you imbued them with life whenever they
+are destroyed. When one of your constructs is destroyed,
+you can regain 10 hit points or regain a spell slot of 2nd
+level or lower (your choice).
+
+Additionally, when one of your constructs would take
+damage, you can use your reaction to negate the damage
+against it. 
+
+Once you use this ability, you can’t do so again
+until you finish a long rest.
+
+
+{{pageNumber,auto}}
+\page
+### School of Abjuration
+The School of Abjuration emphasizes magic that blocks, banishes, or protects. Detractors of this school say that its tradition is about denial, negation rather than positive assertion. You understand, however, that ending harmful effects, protecting the weak, and banishing evil influences is anything but a philosophical void. It is a proud and respected vocation.
+
+Called abjurers, members of this school are sought when baleful spirits require exorcism, when important locations must be guarded against magical spying, and when portals to other planes of existence must be closed.
+
+#### Abjuration Savant
+Beginning when you select this school at 2nd level, the gold and time you must spend to copy a abjuration spell into your spellbook is halved.
+
+
+
+#### Arcane Ward
+Starting at 2nd level, you can weave magic around yourself for protection. When you cast an abjuration spell of 1st level or higher, you can simultaneously use a strand of the spell's magic to create a magical ward on yourself that lasts until you finish a long rest. The ward has hit points equal to twice your wizard level + your Intelligence modifier. Whenever you take damage, the ward takes the damage instead. If this damage reduces the ward to 0 hit points, you take any remaining damage.
+
+While the ward has 0 hit points, it can't absorb damage, but its magic remains. Whenever you cast an abjuration spell of 1st level or higher, the ward regains a number of hit points equal to twice the level of the spell.
+
+Once you create the ward, you can't create it again until you finish a long rest.
+
+#### Projected Ward
+Starting at 6th level, when a creature that you can see within 30 feet of you takes damage, you can use your reaction to cause your Arcane Ward to absorb that damage. If this damage reduces the ward to 0 hit points, the warded creature takes any remaining damage.
+
+#### Improved Abjuration
+Beginning at 10th level, when you cast an abjuration spell that requires you to make an ability check as a part of casting that spell (as in Counterspell and Dispel Magic), you add your proficiency bonus to that ability check.
+
+Your Arcane Ward also gains Resistance to all non-magical bludgeoning, piercing, and slashing damage.
+
+#### Spell Resistance
+Starting at 14th level, your mastery over Abjuration magic has infused your mortal
+form with an innate magical ward. You have advantage on all
+saving throws against spells, and Resistance
+to all damage dealt by spells.
+
+\page
+
+### School of Animism
+Far from the Material Plane’s regimented colleges of
+wizardry, fey wizards learn to tap into the essential magic
+of the natural world in a manner similar to druids of wild
+mages.
+
+ Although animists still strive to master magic through
+study and logical reasoning like other wizards, they have a
+tendency to be somewhat irrational, given to superstition
+and animism. This may manifest in their mannerisms,
+methods, or moral compass―and is responsible for the
+distrust they face from more conventional wizards.
+
+ Animists appreciate diversity in all things, and seek to
+incorporate many different ideas and techniques into their
+magic. This means they are much more open to new ideas,
+making them talented diviners and transmuters, though they
+place no special emphasis on any one school.
+
+#### Animist’s Familiar
+Starting when you choose this tradition at 2nd level, you
+add the spell find familiar to your spellbook if it was not
+there already.
+
+ While your familiar is summoned, you can use an action
+to touch your familiar and fuse yourself with it. Your
+normal body is removed from the world and your
+consciousness now controls the familiar. Your game
+statistics are replaced by those of the familiar, except that
+you retain your Intelligence, Wisdom, and Charisma scores,
+your ability to speak, and your ability to cast spells,
+including those with somatic or material components. You
+can use an action to undo the fusion at any time.
+
+ If your familiar is reduced to zero hit points while you
+are fused with it, you are immediately ejected and
+any excess damage is applied to you.
+
+The familiar is then dismissed.
+
+#### Wild Magic Recovery
+Starting at 6th level, you gain the ability to draw upon the
+wild magic of the Feywild. When you use this ability as an
+action, you roll 1d6 and recover expended spell slots with a
+combined level equal to the number rolled. 
+
+You then trigger a Weird Arcana effect as detailed [here](https://homebrewery.naturalcrit.com/share/SqAaxqRVqNux).
+
+Once you use this ability, you must finish a long rest before
+you can use it again.
+
+#### Moonsight
+At 10th level, you gain blindsight out to a range of 5 feet
+and are immune to the blinded condition.
+
+\column
+
+#### Spiritual Rebirth
+At 14th level, your familiar gains the ability to store your
+spirit in the event of your death. If you die after failing
+three death saves while your familiar is summoned, your
+body immediately melts into nothing, while your spirit is
+transferred to your familiar.
+
+1d10 days later, you return to life in a new body that is spontaneously generated within 5
+feet of your familiar.
+
+ While you are dead, you are able to see and hear
+through your familiar’s senses, but you are not able to
+control it or communicate in any way. 
+
+It will do its best to
+preserve itself and go to a safe location so that you can
+regenerate.
+{{pageNumber,auto}}
+\page
+### School of Automata
+Inspired by the practicality of gadgeteers, wizards in the
+School of Automata depart from the traditional realm
+of scholarly book-smart mages in favor of a hands-on,
+mechanical approach to their magic. These so-called
+mechamancers use their expertise in mechanist's tools,
+engineering, and the principles of magical technology
+to animate obedient automatons to follow their every
+command. Typically, mechamancers reside some distance
+away from the dangers of exploring, while their creations
+engage in the unpleasantness of combat on their behalf.
+
+
+
+#### Engineering Savant
+Beginning at 2nd level, you can fashion and animate constructs that serve at your command. When you prepare spells following a long rest, you use your tools and spend spell slots to raise a collection of mundane parts into mechanical constructs. Once you have expended a spell slot to make a construct, you can't regain that slot until the construct is disassembled (requiring 10 minutes of work) or drops to 0 hit points. Different constructs cost different number of spell slot levels and can only be created when you have enough levels in this class, as shown on the Constructs table above. You can expend one or more spell slots to create each construct, as long as you meet or exceed the number of slot levels required. You can have up to 3 constructs at one time. 
+
+When you take a long rest, you can repair your constructs to their full hit points. You are always considered to have enough scrap and material to create and repair your constructs.
+Your constructs act on your turn, though they don't take actions unless you command them to. On each of your turns, you can use a bonus action to mentally command any of your constructs within 60 feet of you, issuing a command to each one. You can decide what action the construct will take and where it will move. If you command your constructs to attack, each construct makes only one attack. Alternatively, you can issue a general command, such as to guard a particular chamber or corridor. If a command is too complex for a construct to follow, or if the construct is unable to follow it, it spends its turn motionlessly considering the command. Otherwise, once given an order, the construct continues to follow it until complete.
+
+The connection to your constructs is taxing, and you can't magically summon or command any other creatures while your constructs are active.
+
+##### Constructs
+Name| Spell Levels|Wizard Level
+:--|:-:|:--:
+Defense helper| 1| 2nd
+Spiderling golem |1| 2nd 
+Medical helper| 1| 2nd
+Recon helper| 1| 2nd
+Single Task golem| 3| 5th
+Multi-Task golem| 7| 11th
+
+
+\column
+
+#### Bonus Proficiencies
+Starting when you choose this tradition at 2nd level, you gain proficiency with the Arcana skill and tinker's tools or carpenter's tools or smith's tools or stonemason.
+#### Assault Programming
+Starting at 6th level, your constructs add your Intelligence modifier to their attack and damage rolls.
+
+#### Construct Upgrade
+At 10th level, whenever you assemble a construct, you
+can apply one of the following upgrades to it. Each
+construct can have only one upgrade at a time, which you
+can switch when you repair it over a long rest.
+
+**Alloy Chassis.** The construct's AC is increased by 2.
+
+**Energy Plating.** The construct has resistance to one damage type of your choice.
+
+**High-Torque Motors.** The construct's speed increases by 10 feet.
+
+#### Perfected Core
+By 14th level, you have perfected the construct cores
+that animate and control your automatons. You use your
+action to assume direct control of one of your constructs:
+
+when you do so, you can see through its senses, designate exactly where it will move, and choose what action it will take. While controlling a construct directly, if you command it to attack, it can make multiple attacks if it has the Multiattack trait.
+{{pageNumber,auto}}
+\page
+{{monster,frame
+## Defense Helper
+*Tiny construct, unaligned*
+___
+**Armor Class** :: 12 (natural armor)
+**Hit Points**  :: 5 (2d4)
+**Speed**       :: 0 ft., fly 40 ft. (hover)
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|7 (-2) |14 (+2)|10 (+0)|4 (–3) |9 (+0) |3 (–4) |
+___
+**Damage Immunities** :: poison, psychic
+**Condition Immunities** :: blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned, prone
+**Senses**               :: blindsight 60 ft. (blind beyond this radius), passive Perception 9
+**Languages**            :: —
+**Challenge**:: 1/8 (25 XP)
+___
+
+***Follow Protocol.*** Unless commanded to do otherwise, the drone follows its master, staying in the master's space, or as nearby as possible. The drone can move on its master's turn in order to follow in this way.
+
+
+### Actions
+***Rune of Blasting.*** *Ranged Weapon Attack* ++4 to hit, range 30/90 ft., one target. *Hit* 5 (2d4) radiant damage.
+}}
+{{monster,frame
+## Recon Helper
+*Tiny construct, unaligned*
+___
+**Armor Class** :: 12 (natural armor)
+**Hit Points**  :: 5 (2d4)
+**Speed**       :: 0 ft., fly 40 ft. (hover)
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|7 (-2) |14 (+2)|10 (+0)|4 (–3) |9 (+0) |3 (–4) |
+___
+**Damage Immunities** :: poison, psychic
+**Condition Immunities** :: blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned, prone
+**Senses**               :: blindsight 60 ft. (blind beyond this radius), passive Perception 9
+**Languages**            :: —
+**Challenge**:: 0 (10 XP)
+___
+
+***Follow Protocol.*** Unless commanded to do otherwise, the drone follows its master, staying in the master's space, or as nearby as possible. The drone can move on its master's turn in order to follow in this way.
+
+
+### Actions
+***Surveillance Protocol.*** The drone creates a holographic marker above one target it can see within 60 feet until the beginning of the drone’s next turn. For that duration, attacks against the target can’t have disadvantage (unless the disadvantage is due to the Automatic property), and the target has disadvantage on checks made to hide.
+}}
+
+\column
+
+{{monster,frame
+## Medical Helper
+*Tiny construct, unaligned*
+___
+**Armor Class** :: 12 (natural armor)
+**Hit Points**  :: 5 (2d4)
+**Speed**       :: 0 ft., fly 40 ft. (hover)
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|7 (-2) |14 (+2)|10 (+0)|4 (–3) |9 (+0) |3 (–4) |
+___
+**Damage Immunities** :: poison, psychic
+**Condition Immunities** :: blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned, prone
+**Senses**               :: blindsight 60 ft. (blind beyond this radius), passive Perception 9
+**Languages**            :: —
+**Challenge**:: 0 (10 XP)
+___
+
+***Follow Protocol.*** Unless commanded to do otherwise, the drone follows its master, staying in the master's space, or as nearby as possible. The drone can move on its master's turn in order to follow in this way.
+
+
+### Actions
+***Revival Protocol*** (3/Day). The drone casts the cantrip spare the dying on a target it can reach, then restores 1d4 of the target's hit points.
+}}
+{{pageNumber,auto}}
+\page
+{{monster,frame
+## Spiderling golem
+*Small construct, unaligned*
+___
+**Armor Class** :: 13 (natural armor)
+**Hit Points**  :: 3 (1d4 + 1)
+**Speed**       :: 20 ft., climb 20 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|6 (−2) |16 (+3)|12 (+1)|2 (−4) |5 (−3) |1 (−5) |
+___
+**Damage Immunities** :: poison, psychic
+**Condition Immunities** :: blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned
+**Senses**               :: blindsight 60 ft. (blind beyond this radius), passive Perception 8
+**Languages**            :: —
+**Challenge**:: 0 (10 XP)
+___
+
+***Death Burst.*** When a mechanical spider dies, it explodes in a burst of fire. Each creature within 5 feet of it must make a DC 13 Dexterity saving throw, taking 7 (2d6) fire damage on a failed save, or half as much damage on a successful one.
+:
+***Spider Climb.*** The mechanical spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
+### Actions
+***Carry.*** The spider can pick up and carry or drop a single object weighing no more than 10 pounds.
+}}
+ 
+
+
+
+{{monster,frame
+## Single Task Golem
+*Medium construct, lawful neutral*
+___
+**Armor Class** :: 13 (natural armor)
+**Hit Points**  :: 39 (6d8 + 12)
+**Speed**       :: 30 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|13 (+1)|9 (−1) |15 (+2)|5 (−3) |1 (−5) |1 (−5) |
+___
+**Damage Immunities** :: poison, psychic
+**Condition Immunities** :: blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned
+**Senses**               :: blindsight 60 ft. (blind beyond this radius), passive Perception 5
+**Languages**            :: —
+**Challenge**:: 1 (200 XP)
+___
+
+***Difficult Terrain Susceptibility.*** Each foot this automaton travels in difficult terrain costs 3 feet.
+:
+***Mechanical Mind.*** The automaton can't be compelled to
+act in a manner contrary to its instructions.
+
+### Actions
+***Multiattack.*** The automaton makes three melee attacks.
+:
+***Improvised Weapon.*** *Melee Weapon Attack* +1 to hit,
+reach 5 ft., one target. *Hit* 5 (1d8 + 1) slashing damage.
+
+}}
+ 
+{{monster,frame
+## Multi-Task Golem
+*Medium construct, lawful neutral*
+___
+**Armor Class** :: 15 (natural armor)
+**Hit Points**  :: 85 (10d8 + 40)
+**Speed**       :: 30 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|17 (+3)|11 (+1)|19 (+4)|7 (−2) |1 (−5) |1 (−5) |
+___
+**Damage Immunities** :: poison, psychic
+**Condition Immunities** :: blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned
+**Senses**               :: blindsight 60 ft. (blind beyond this radius), passive Perception 5
+**Languages**            :: —
+**Challenge**:: 1 (200 XP)
+___
+
+***Difficult Terrain Susceptibility.*** Each foot this automaton travels in difficult terrain costs 3 feet.
+:
+***Mechanical Mind.*** The automaton can't be compelled to
+act in a manner contrary to its instructions.
+
+### Actions
+***Multiattack.*** The automaton makes three melee attacks.
+:
+***Improvised Weapon.*** *Melee Weapon Attack* +1 to hit,
+reach 5 ft., one target. *Hit* 5 (1d8 + 1) slashing damage.
+
+}}
+ 
+{{pageNumber,auto}}
+\page
+### School of Bladesinging
+
+Bladesingers master a tradition of wizardry that incorporates swordplay and dance. Originally created by elves, this tradition has been adopted by non-elf practitioners, who honor and expand on the elven ways. In combat, a bladesinger uses a series of intricate, elegant maneuvers that fend off harm and allow the bladesinger to channel magic into devastating attacks and a cunning defense. 
+
+#### Training in War and Song
+When you adopt this tradition at 2nd level, you gain proficiency with light armor, and you gain proficiency with one type of one-handed melee weapon of your choice.
+
+You also gain proficiency in the Performance skill if you don’t already have it.
+
+#### Bladesong
+Starting at 2nd level, you can invoke an elven magic called the Bladesong, provided that you aren’t wearing medium or heavy armor or using a shield. It graces you with supernatural speed, agility, and focus.
+
+You can use a bonus action to start the Bladesong, which lasts for 1 minute. It ends early if you are incapacitated, if you don medium or heavy armor or a shield, or if you use two hands to make an attack with a weapon. You can also dismiss the Bladesong at any time (no action required).
+
+While your Bladesong is active, you gain the following benefits:
+
+- You gain a bonus to your AC equal to your Intelligence modifier (minimum of +1)
+- Your walking speed increases by 10 feet.
+- You have advantage on Dexterity (Acrobatics) checks.
+- You gain a bonus to any Constitution saving throw you make to maintain your concentration on a spell. The bonus equals your Intelligence modifier (minimum of +1).
+
+You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses of it when you finish a long rest.
+
+#### Extra Attack
+Starting at 6th level, you can attack twice, instead of once, whenever you take the Attack action on your turn. Moreover, you can cast one of your cantrips in place of one of those attacks.
+#### Song of Defense
+Beginning at 10th level, you can direct your magic to absorb damage while your Bladesong is active. When you take damage, you can use your reaction to expend one spell slot and reduce that damage to you by an amount equal to five times the spell slot's level.
+#### Song of Victory
+Starting at 14th level, you can add your Intelligence modifier (minimum of +1) to the damage of your melee weapon attacks while your Bladesong is active.
+\column
+### School of Conjuration
+As a conjurer, you favor spells that produce objects and creatures out of thin air. You can conjure billowing clouds of killing fog or summon creatures from elsewhere to fight on your behalf. As your mastery grows, you learn spells of transportation and can teleport yourself across vast distances, even to other planes of existence, in an instant.
+
+#### Conjuration Savant
+Beginning when you select this school at 2nd level, the gold and time you must spend to copy a Conjuration spell into your spellbook is halved.
+
+#### Benign Transposition
+Starting at 2nd level when you select this school, as a Bonus Action, you teleport up to 30 feet to an unoccupied space that you can see.
+
+Alternatively, you can choose a space within range that is occupied by a Medium or smaller creature. If that creature is willing, you both teleport, swapping places.
+
+You can use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.
+
+#### Distant Transportation
+Starting at 6th level, the range of your Benign Transposition feature increases to 60 feet.
+
+Additionally, you now regain all expended uses of it when you finish a Short or Long Rest.
+
+#### Durable Summons
+Also at 6th level, when you cast a Conjuration spell to summon or create a creature using a spell slot, that creature gains Temporary Hit Points equal to twice your Wizard level when it first appears. 
+
+While it has these Temporary Hit Points, the creature has Resistance to every damage type except Force, Necrotic, Psychic, and Radiant.
+
+#### Focused Conjuration
+Beginning at 10th level, while you are concentrating on a conjuration spell, your concentration can't be broken as a result of taking damage.
+
+#### Splintered Summons
+Starting at 14th level, when you cast a Summon spell using a spell slot, you can modify the spell to summon two creatures with the spell instead of one.
+
+Each creature is of the same kind, uses the stat block and rules denoted by the spell, and manifests in a different unoccupied space of your choice within the spell’s range, but the summoned creatures’ Hit Points are halved.
+
+If you lose Concentration on the spell, both creatures disappear. 
+
+Once you use this feature to modify a spell in this way, you must finish a Long Rest before you do so again. 
+
+You can also restore its use by expending a spell slot of 5th level or higher.
+
+{{pageNumber,auto}}
+\page
+### School of Chronomancy
+The School of Chronomancy focuses on harnessing
+and manipulating the energies of flowing time. It
+is a perilous tradition, as the practice of slowing,
+reversing, or diverting the flow of time can accidently
+tear novices to pieces, spreading them thinly across
+millennia, or sometimes even drop them wholesale
+into a new era, with no way of returning home.
+Masters of this school, however, walk the generations
+as planeswalkers walk the cosmos, reliably (and
+literally) ending most conflicts before they even
+begin.
+#### Chronomancy Savant
+Beginning when you select this school at 2nd level,
+all spells with the chronomancy tag are added to the
+wizard spell list for you. Additionally, the time you
+must spend to copy a spell into your spellbook equals
+10 minutes per spell level.
+
+#### Chronoshift
+At 2nd level, you can abate time while casting your
+spells. When you cast a spell of 1st level or higher
+that has a casting time of 1 action, you can expend
+another spell slot of the same level to change the
+casting time to 1 bonus action for this casting.
+You can use this feature a number of times equal to
+your Intelligence modifier (a minimum of once). You
+regain all expended uses when you finish a long rest.
+
+#### Speed of thought
+By 6th level, you can enter a state of heightened
+focus as an action, allowing you to perform certain
+tasks five times faster than normal while you
+concentrate on them like a spell. These tasks must
+be purely intellectual in nature, such as research,
+translation, or computation, and must be tasks you
+can complete alone; others can't understand your
+speech or meaningfully help while you are working
+at increased speed. Furthermore, attempting to cast
+a spell, perform a ritual, or move further than 10 feet
+from where you began instantly returns you to the
+normal flow of time with a feeling of faintness which
+prevents you from maintaining concentration for 1
+minute.
+
+#### Lag spell
+At 10th level, when you cast a spell, you can delay
+its effect for one, two, or three turns. When the
+spell is cast, you choose the spell's target and the
+number of rounds to delay the spell, and you roll any
+relevant attack rolls. Any effects on the spell's targets,
+including saving throws, are resolved when the
+spell triggers at the beginning of your turn after the
+chosen number of rounds. If any conditions change
+between casting and effect of the spell that would
+make the spell impossible—such as the target leaving
+the spell’s maximum range—the spell fails.
+Once you use this ability, you can’t use it again until
+you finish a short or long rest.
+
+\column
+
+#### Foreimage
+By 14th level, you have unlocked the power to
+turn back time and retrace your steps, correcting
+your most egregious errors. Whenever you finish a
+long rest, you are actually beginning your second
+attempt at the day's events. You are accompanied
+by a temporal shadow, an echo of your first time
+experiencing the day, which you follow perfectly
+in order to repeat the day's events. Acting on your
+foreknowledge destroys your temporal shadow until
+you finish a long rest, but allows you to use one of
+the following abilities:
+
+- You gain advantage on an attack roll, ability check, or saving throw you make.
+- You can cause one attack roll that does not have advantage to miss you.
+- You can act on the knowledge of one thing that you could have known before the end of the day, such as the answer to a riddle, the location of a pit trap, the path through a labyrinth, or someone's name.
+
+Once you use this ability, all remaining
+foreknowledge leaves you until you finish a long rest.
+
+
+{{pageNumber,auto}}
+\page
+### School of Divination
+The counsel of a diviner is sought by royalty and commoners alike, for all seek a clearer understanding of the past, present, and future. As a diviner, you strive to part the veils of space, time, and consciousness so that you can see clearly. You work to master spells of discernment, remote viewing, supernatural knowledge, and foresight.
+
+#### Divination Savant
+Beginning when you select this school at 2nd level, the gold and time you must spend to copy a Divination spell into your spellbook is halved.
+
+#### Portent
+Starting at 2nd level when you choose this school, glimpses of the future begin to press in on your awareness. When you are in danger or roll initiative, roll two d20s and record the numbers rolled. You can replace any attack roll, saving throw, or ability check made by you or a creature that you can see with one of these foretelling rolls. You must choose to do so before the roll, and you can replace a roll in this way only once per turn.
+
+Each foretelling roll can be used only once. When you finish a long rest, you lose any unused foretelling rolls.
+
+#### Expert Divination
+Beginning at 6th level, casting divination spells comes so easily to you that it expends only a fraction of your spellcasting efforts. When you cast a divination spell of 2nd level or higher using a spell slot, you regain one expended spell slot. The slot you regain must be of a level lower than the spell you cast and can't be higher than 5th level.
+
+Additionally, so long as you are not Incapacitated, you cannot be Surprised and you add your Intelligence modifier (minimum of +1) to initiative rolls.
+
+#### The Third Eye
+Starting at 10th level, you can use your action to increase your powers of perception. When you do so, choose one of the following benefits, which lasts until you are incapacitated or you take a short or long rest. You can't use the feature again until you finish a short or long rest.
+
+**Darkvision.** You can see normally in both dim light and darkness, produced by magical and non-magical sources.
+
+
+**Ethereal Sight.** You can see into the Ethereal Plane within 60 feet of you.
+
+**Greater Comprehension.** You can read any language.
+
+**See Invisibility.** You can see invisible creatures and objects within 10 feet of you that are within line of sight.
+
+**Arcane Sight.**  You can see the presence of magical effects and objects as if you were using a detect magic spell.
+
+
+
+
+\column
+
+#### Greater Portent
+Starting at 14th level, the visions in your dreams intensify and paint a more accurate picture in your mind of what is to come. You roll three d20s for your Portent feature, rather than two.
+
+Also, as an action, you can expend a spell slot of 2nd-level
+or higher to replace your current benefit from The Third Eye
+with another benefit of your choice from that feature
+{{pageNumber,auto}}
+\page
+### School of Enchantment
+As a member of the School of Enchantment, you have honed your ability to magically entrance and beguile other people and monsters. Some enchanters are peacemakers who bewitch the violent to lay down their arms and charm the cruel into showing mercy. Others are tyrants who magically bind the unwilling into their service. Most enchanters fall somewhere in between.
+
+#### Enchantment Savant
+Beginning when you select this school at 2nd level, the gold and time you must spend to copy a Enchantment spell into your spellbook is halved.
+
+#### Hypnotic Gaze
+Starting at 2nd level when you choose this school, your soft words and enchanting gaze can magically enthrall another creature. As an action, choose one creature that you can see within 10 feet of you. If the target can see or hear you, it must succeed on a Wisdom saving throw against your spell save DC or have the Charmed condition for 1 minute or until your Concentration ends, the target is more than 10 feet away from you, the target can neither see nor hear you, or the target takes damage. 
+
+While Charmed in this way, the target has the Incapacitated condition and a Speed of 0.
+
+
+You can also restore your use of it by expending a level 1 or higher spell slots.
+
+\column
+
+#### Instinctive Charm
+Beginning at 6th level, when a creature you can see within 30 feet of you makes an attack roll against you, you can use your reaction to divert the attack, provided that another creature is within the attack's range. The attacker must make a Wisdom saving throw against your wizard spell save DC. On a failed save, the attacker must target the creature that is closest to it, not including you or itself. If multiple creatures are closest, the attacker chooses which one to target.
+
+On a successful save, you can't use this feature on the attacker again until you finish a long rest.
+
+You can also restore your use of it by casting an Enchantment spell with a spell slot.
+
+You must choose to use this feature before knowing whether the attack hits or misses. Creatures that can't be charmed are immune to this effect.
+
+
+#### Split Enchantment
+Starting at 10th level, when you cast an enchantment spell of 1st level or higher that targets only one creature, you can have it target a second creature.
+
+Addtionally, Your Enchantment spells and Enchanter features ignore Immunity to the Charmed condition.
+
+However, when you force such a creature to make a saving throw to resist or end the Charmed condition, it has advantage on its saving throw.
+
+#### Alter Memories
+At 14th level, you gain the ability to make a creature unaware of your magical influence on it. When you cast an enchantment spell to charm one or more creatures, you can alter one creature's understanding so that it remains unaware of being charmed.
+
+Additionally, once before the spell expires, you can use your action to try to make the chosen creature forget some of the time it spent charmed. The creature must succeed on an Intelligence saving throw against your wizard spell save DC or lose a number of hours of its memories equal to 1 + your Charisma modifier (minimum 1). You can make the creature forget less time, and the amount of time can't exceed the duration of your enchantment spell.
+
+
+ {{pageNumber,auto}}
+\page
+### School of Evocation
+You focus your study on magic that creates powerful elemental effects such as bitter cold, searing flame, rolling thunder, crackling lightning, and burning acid. Some evokers find employment in military forces, serving as artillery to blast enemy armies from afar. Others use their spectacular power to protect the weak, while some seek their own gain as bandits, adventurers, or aspiring tyrants.
+
+#### Evocation Savant
+Beginning when you select this school at 2nd level, the gold and time you must spend to copy a Evocation spell into your spellbook is halved.
+
+
+
+#### Sculpt Spells
+Beginning at 2nd level, you can create pockets of relative safety within the effects of your evocation spells. When you cast an evocation spell that affects other creatures that you can see, you can choose a number of them equal to 1 + the spell's level. The chosen creatures automatically succeed on their saving throws against the spell, and they take no damage if they would normally take half damage on a successful save.
+
+#### Potent Cantrip
+Starting at 6th level, your damaging cantrips affect even creatures that avoid the brunt of the effect. When an Evocation Cantrip requires its targets to make a saving throw, creatures take half damage on a successful save, but do not suffer any additional effects, other than damage, imposed by the Cantrip.
+
+When an Evocation Cantrip requires you to make a Spell Attack Roll, you add your Intelligence modifier
+(minimum of +1) to one damage roll of the spell.
+
+ 
+#### Empowered Evocation
+Beginning at 10th level, you can add your Intelligence modifier (minimum of +1) to the damage roll of any wizard evocation spell that you cast. The damage bonus applies to one damage roll of a spell, not multiple rolls.
+
+
+
+#### Overchannel
+Starting at 14th level, you can increase the power of your simpler spells. When you cast a wizard spell of 5th level or lower that deals damage and isn't a cantrip, you can deal maximum damage with that spell.
+
+The first time you do so, you suffer no adverse effect. If you use this feature again before you finish a long rest, you take 2d12 necrotic damage for each level of the spell, immediately after you cast it. Each time you use this feature again before finishing a long rest, the necrotic damage per spell level increases by 1d12. This damage ignores resistance and immunity.
+ {{pageNumber,auto}}
+\page
+### School of Gastronomy
+Gastronomy, the oft-satirized subschool of foodrelated
+magic, is rarely taught to wizardly apprentices,
+for even masters of transmutation can be terrible at
+cuisine. However, gastronomy is a truly nourishing
+magic which spans all cultures and is more akin
+to an art than an arcane tradition. Stereotypical
+gastronomists are thought of as monstrously fat and
+held aloft by magic, like great balloons in robes,
+but this is mostly a myth; wizards of this school are
+usually healthier than their contemporaries, owing to
+a healthy and balanced magical diet.
+
+
+#### Sous chef
+Beginning when you select this school at 2nd level,
+you gain proficiency with cook's utensils and have
+advantage on any ability check you make to cook or
+prepare ingredients. 
+
+Additionally, you can cast the
+spell create food and water once without using a spell
+slot, and you regain the ability to do so when you
+finish a long rest. When you cast the spell using this
+feature, the resulting food is a mouthwatering meal
+of your choosing.
+#### Monster dish
+Also at 2nd level, when you finish a short or long
+rest, you can prepare a meal using monsters that
+you and your allies have slain. The meal uses the
+entire corpse of a creature as an ingredient, which
+must have died within the last 24 hours or have been
+preserved by a gentle repose spell. You can’t use this
+ability with the corpses of celestials, humanoids, or
+undead creatures. The meal contains enough food
+for a number of creatures equal to your Intelligence
+modifier; this food spoils if not eaten in 24 hours.
+When a creature partakes of this meal at the end of
+a short or long rest, it rolls a number of d6s equal
+to the ingredient creature’s challenge rating (1d6 for
+creatures of CR 1/2 and lower) and gains temporary
+hit points equal to the total rolled. Additionally, if
+the ingredient creature had immunity to a damage
+type other than bludgeoning, piercing, or slashing
+damage, you can choose for the meal to bestow
+resistance to one such damage type for 8 hours to any
+creature that partakes of it.
+
+You can only prepare one meal using this ability,
+and you regain the ability to do so when you finish a
+long rest.
+
+\column
+
+#### Flavor blast
+Beginning at 6th level, you can make other creatures
+smell delicious! Once per turn, when a creature fails
+a saving throw against a spell of 1st level or higher
+that you cast, you can cause the target to smell and
+taste like delectable food for up to 1 minute or until
+you use this ability again. This odor carries out to
+15 feet and can resemble any food of your choosing,
+from freshly baked bread to grilling meat. While
+the target smells this way, attacks made to bite the
+creature or attack it with teeth have advantage, and
+the target has disadvantage on Constitution saving
+throws it makes to maintain concentration.
+
+Additionally, creatures of Intelligence 3 or lower
+can't distinguish the target from the smell and react
+accordingly. Most creatures can distinguish the target
+from the odor after dealing damage to it.
+
+
+
+#### Bottomless feast
+At 10th level, you can cast the spell heroes' feast once,
+creating enough food for one creature, without using
+a spell slot or material components. At 11th level,
+you can create enough food for 5 creatures.
+Once you use this ability, you can't use it again
+until you finish a long rest.
+
+#### Ravenous magic mouth
+Beginning at 14th level, you can use your action
+to summon a Large-sized disembodied mouth
+of magical force filled with sharp teeth in an
+unoccupied space you can see within 60 feet. On
+each of your turns, you can command the mouth
+to float up to 30 feet (no action required), and you
+can use your bonus action to command it to bite
+a creature within 5 feet of it. The mouth uses your
+spell attack bonus for its melee attack roll and on a
+hit deals 4d10 force damage and grapples its target
+(escape DC equals your spell save DC) on a hit. The
+mouth can grapple only one target at a time, and can
+only attack the creature it is grappling.
+
+If the mouth is grappling a target of Medium
+size or smaller at the beginning of your turn,
+you can use your bonus action to command it to
+swallow its target, depositing the creature in an
+extradimensional space filled with acid. While
+swallowed, the creature is blinded and restrained,
+and it takes 4d6 acid damage at the beginning of each
+of its turns. The creature can use its action to make a
+Strength saving throw against your spell save DC to
+escape. On a success, it magically reappears and falls
+prone in an unoccupied space within 5 feet of the
+mouth. The creature automatically escapes when the
+mouth vanishes.
+
+The mouth disappears after 1 minute, or if you
+dismiss it early on your turn (no action required).
+Once you summon the mouth, you can't use it again
+until you finish a long rest.
+
+{{pageNumber,auto}}
+\page
+### School of Graviturgy
+
+Understanding and mastering the forces that draw bodies of matter together or drive them apart, the students of the Graviturgy arcane tradition learn to further bend and manipulate the violent energy of gravity to their benefit, and the terrible detriment of their enemies.
+
+#### Adjust Density
+At 2nd level, as an action, you can magically alter the weight of one object or creature you can see within 30 feet of you. The object or creature must be Large or smaller. The target's weight is halved or doubled for up to 1 minute or until your concentration ends (as if you were concentrating on a spell).
+
+While the weight of a creature is halved by this effect, the creature's speed increases by 10 feet, it can jump twice as far as normal, and it has disadvantage on Strength checks and Strength saving throws.
+
+While the weight of a creature is doubled by this effect, the creature's speed is reduced by 10 feet, and it has advantage on Strength checks and Strength saving throws.
+
+Upon reaching 10th level in this class, you can target an object or a creature that is Huge or smaller.
+
+#### Gravity Well
+When you reach 6th level, whenever you cast a spell on a creature, you can move the target 5 feet to an unoccupied space of your choice if the target is willing to move, the spell hits it with an attack, or it fails a saving throw against the spell.
+
+#### Violent Attraction
+At 10th level, When another creature that you can see within 60 feet of you hits with a weapon attack, you can use your reaction to increase the attack's velocity, causing the attack's target to take an extra 1d10 damage of the weapon's type.
+
+Alternatively, if a creature within 60 feet of you takes damage from a fall, you can use your reaction to increase the fall's damage by 2d10.
+
+You can use this feature a number of times equal to your Intelligence modifier (a minimum of once). You regain all expended uses when you finish a long rest.
+
+#### Event Horizon
+Starting at 14th level, as an action, you can magically emit a powerful field of gravitational energy that tugs at other creatures for up to 1 minute or until your concentration ends (as if you were concentrating on a spell). For the duration, whenever a creature hostile to you starts its turn within 30 feet of you, it must make a Strength saving throw against your spell save DC. On a failed save, it takes 2d10 force damage, and its speed is reduced to 0 until the start of its next turn. On a successful save, it takes half as much damage, and every foot it moves this turn costs 2 extra feet of movement.
+
+Once you use this feature, you can't do so again until you finish a long rest or until you expend a spell slot of 3rd level or higher on it.
+ {{pageNumber,auto}}
+\page
+### School of Hardlight
+Equal parts magic and material, hardlight is perhaps the penultimate arcane discovery. With a flick of the fingers, you can compose any geometry, any device you can conceive of in scintillating light. It is perhaps this expressive freedom that drew you to becoming a pupil of its use as a luxomancer. Through experimentation and cunning, you have learned how to invest hardlight into your armor, weapons, blasters, and spells. Its utility is limited by your own magical reserves, an impediment that shrinks with each passing day.
+
+
+
+#### Photonic Savant
+Beginning when you choose this tradition at 2nd level, you learn a cantrip of your choice from any spell list. The cantrip doesn’t count against your number of cantrips known.
+
+Additionally, you can copy spells that deal radiant or force damage into your spellbook at half the gold and time cost.
+
+#### Martial Training
+At 2nd level, you gain proficiency with Martial Melee weapons that
+don’t have the Two-Handed or Heavy property. You can
+use a Melee weapon with which you have proficiency
+as a Spellcasting Focus for your Wizard spell
+
+#### Hardlight Reservoir
+Also at 2nd level, you have a reserve of energy which you can use to empower your spells with hardlight. This reserve is represented by a pool of hardlight points equal to your wizard level plus your Intelligence modifier. You regain all expended hardlight points when you use your Arcane Recovery feature or finish a long rest.
+
+**Emerald Armor.**
+While you are under the effects of the mage armor spell, you can use your action to invest hardlight energy into the protective field. For the duration of the spell, whenever you begin your turn, you gain temporary hit points equal to the number of hardlight points you have remaining. If you expend hardlight points, you lose an equal number of temporary hit points. These temporary hit points last until mage armor ends.
+
+**Radiant Edge.**
+You can use a bonus action and expend 2 or more hardlight points to coat a weapon you are holding with radiant hardlight. Until you finish a long rest, whenever you attack with that weapon, you can use your Intelligence modifier, instead of Strength or Dexterity, for the attack and damage rolls. This weapon deals force damage on a hit.
+
+
+**Scintillating Strike.** When you hit a creature with an attack roll, you can expend 1 or 2 Hardlight Points as a Bonus Action to deal an extra 1d6 Force damage to the target for each point expended. You can expend more Hardlight Points at
+once when you use this Bonus Action when you
+reach Wizard levels 5 (3 points), 11 (4 points),
+and 17 (5 points).
+
+
+\column
+
+#### Extra Attack
+Starting at 6th level, you can attack twice, instead of once, whenever you take the Attack action on your turn. Moreover, you can cast one of your cantrips in place of one of those attacks.
+
+#### Hardlight Juggernaut
+Starting at 10th level, you can use your bonus action to make a melee weapon attack. You can use this feature a number of times equal to your Intelligence modifier (a minimum of once), unless you expend a hardlight point to use it again. You regain all expended uses when you finish a long rest.
+
+#### Low Orbit Hardlight Cannon
+At 14th level, you can use your action to conjure a hardlight cannon high up in the atmosphere to raze an area on the ground. The cannon creates a 15-foot radius, 1-mile high cylinder centered on a point you can see within 120 feet, which lasts until the start of your next turn.
+
+When a creature enters the area for the first time on a turn or starts its turn there, it is scorched by the beam’s energy, and it must make a Dexterity saving throw against your spell save DC. On a failed save, a creature takes 10d10 radiant damage, or half as much damage on a successful one. The beam ignites flammable nonmagical objects in the area that aren’t being worn or carried.
+
+Once you use this feature, you can’t use it again until you finish a long rest, unless you expend 13 hardlight points to use it again.
+
+ {{pageNumber,auto}}
+\page
+### School of Hexcraft
+Some who study the arcane aren't satisfied with traditional schools of wizardry and turn to the dark arts in their hunger for power. Striking out into the wild, they seek out beings from the lower planes, creatures from the Shadowfell, or vile covens of hags in order to learn otherworldly eldritch magic.
+
+Many who follow this path are willing to sacrifice anything, even their eternal soul, in order to learn sinister magics often reserved for those who enter pacts with eldritch entities.
+
+#### Eldritch Savant
+When you adopt this Arcane Tradition at 2nd level, you gain access to magic that is shunned by all by the most unhinged. You can copy warlock spells that you find in other spellbooks or spell scrolls into your spellbook. Warlock spells gained through this feature count as wizard spells for you.
+
+Also, when you gain a level in this class, one of the spells you add to your spellbook must be from the warlock spell list.
+
+#### Forbidden Arcana
+In your study of dark magics you have gained for yourself strange and sinister abilities. At 2nd level, you learn of two Eldritch Invocations of your choice from the list below.
+
+When you gain a level in this class, you can switch your Invocation for another of your choice from the list below.
+
+You learn an additional Eldritch Invocation from this list when you reach 6th, 10th, and 14th level in this class.
+
+**Beast Speech.** You can cast speak with animals at will, without expending a spell slot or material components.
+
+**Beguiling Influence.** You gain proficiency in both the Deception and Persuasion skills.
+
+**Devil's Sight.** You can see normally in darkness, both magical and nonmagical, to a distance of 120 feet.
+
+**Eldritch Sight.** You can cast detect magic, at will, without expending a spell slot or material components.
+
+**Eyes of the Rune Keeper.** You can read and understand all written symbols and writing.
+
+**Misty Visions.** You can cast silent image at will, without expending a spell slot or material components.
+
+**One with Shadows.** When you are in an area of dim light or darkness, you can use your action to become invisible until you move or take an action or a reaction.
+
+\column
+
+#### Profane Ritual
+You can use your knowledge of dark magic to enhance your life force at the cost of your surroundings. Beginning at 6th level, when you finish casting the ritual version of a wizard spell, you can grant yourself temporary hit points equal to the level at which you cast the ritual spell + your wizard level. When you complete a ritual in this way, area around you is noticeably withered and sickly, and delicate life dies.
+
+#### Inscrutable
+You have learned to hide yourself from spellcasters and other powerful creatures that would stand in your way. Starting at 10th level, you are immune to any effect that would sense your emotions, read your thoughts, or detect your alignment, as well as any divination spell that you refuse. Also, when a creature makes a Wisdom (Insight) check to ascertain your true intentions or sincerity they do so at disadvantage.
+::
+{{note
+##### Forbidden Arcana
+The School of Hexcraft grants wizards access to specific Eldritch Invocations from the warlock class. Consider granting a Hexcraft wizard access to more powerful Invocations in addition to their normal treasure, magic items, and other rewards
+}}
+
+
+#### Heart of Darkness
+You have mastered the sinister magic of drawing power from death. Beginning at 14th level, when you kill a creature with a wizard spell of 1st-level or higher, you can use your reaction to regain one of your expended spell slots. The spell slot you recover must be of at least one level lower then the spell cast to kill the creature, and it cannot be higher than 5th-level.
+
+You can use this ability a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you complete a long rest.
+
+
+ {{pageNumber,auto}}
+\page
+
+### School of Illusion
+You focus your studies on magic that dazzles the senses, befuddles the mind, and tricks even the wisest folk. Your magic is subtle, but the illusions crafted by your keen mind make the impossible seem real. Some illusionists – including many gnome wizards – are benign tricksters who use their spells to entertain. Others are more sinister masters of deception, using their illusions to frighten and fool others for their personal gain.
+
+#### Illusion Savant
+Beginning when you select this school at 2nd level, the gold and time you must spend to copy a Illusion spell into your spellbook is halved.
+
+
+
+#### Improved Minor Illusion
+When you choose this school at 2nd level, you learn the Minor Illusion cantrip. If you already know this cantrip, you learn a different wizard cantrip of your choice. The cantrip doesn't count against your number of cantrips known.
+
+When you cast Minor Illusion, you can create both a sound and an image with a single casting of the spell.
+
+#### Malleable Illusions
+Starting at 6th level, your skill with Illusions allows you to create illusory versions of your other spells. 
+
+Whenever you cast a Conjuration or Evocation spell from your Spellbook, you can choose to produce an illusory version of the spell, changing its effects in the following ways:
+
+- Its Spell School changes to Illusion.
+- You can ignore any of the normal material components of the spell for this casting.
+- If it forces its targets to make a saving throw, targets make an Intelligence saving throw instead of the normal saving throw for that spell.
+-  If it deals damage, its damage is replaced with psychic damage.
+- If it conjures anything with hit points, its hit points are halved.
+
+Any creature whose Intelligence score is greater than your Spell save DC instantly sees through any spell cast in this way and is immune to all of its effects.
+
+All other creatures interact with,
+and believe they are experiencing the
+normal effects of the spell.
+
+\column
+
+
+#### Illusory Self
+Beginning at 10th level, you can create an illusory duplicate of yourself as an instant, almost instinctual reaction to danger. When a creature makes an attack roll against you, you can use your reaction to interpose the illusory duplicate between the attacker and yourself. The attack automatically misses you, then the illusion dissipates.
+
+Once you use this feature you must finish a short or long
+rest before you can use it again. When you have no uses left,
+can expend a spell slot of 2nd-level or higher to use it again.
+
+
+#### Illusory Reality
+By 14th level, you have learned the secret of weaving shadow magic into your illusions to give them a semi-reality. When you cast an illusion spell of 1st level or higher, you can choose one inanimate, nonmagical object that is part of the illusion and make that object real. You can do this on your turn as a bonus action while the spell is ongoing. The object remains real for 1 minute. For example, you can create an illusion of a bridge over a chasm and then make it real long enough for your allies to cross.
+
+The object can't deal damage or otherwise directly harm anyone.
+
+ {{pageNumber,auto}}
+\page
+
+### School of Necromancy
+The School of Necromancy explores the cosmic forces of life, death, and undeath. As you focus your studies in this tradition, you learn to manipulate the energy that animates all living things. As you progress, you learn to sap the life force from a creature as your magic destroys its body, transforming that vital energy into magical power you can manipulate.
+
+
+#### Necromancy Savant
+Beginning when you select this school at 2nd level, the gold and time you must spend to copy a Necromancy spell into your spellbook is halved.
+
+
+#### Grim Harvest
+At 2nd level, you gain the ability to reap life energy from creatures you kill with your spells. Once per turn when you kill one or more creatures with a spell of 1st level or higher, you regain hit points equal to twice the spell's level, or three times its level if the spell belongs to the School of Necromancy. You don't gain this benefit for killing constructs or undead.
+
+You can also split the hit points you would regain between yourself and any Undead under your control within 30 feet.
+
+
+#### Undead Thralls
+At 6th level, you add the Animate Dead spell to your spellbook if it is not there already. When you cast Animate Dead, you can target one additional corpse or pile of bones, creating another zombie or skeleton, as appropriate.
+
+Whenever you create an undead using a necromancy spell, it has additional benefits:
+
+- The creature's hit point maximum is increased by an amount equal to your wizard level.
+- The creature adds your proficiency bonus to its weapon damage rolls.
+
+#### Inured to Undeath
+Beginning at 10th level, you have resistance to necrotic damage, and your hit point maximum can't be reduced. You have spent so much time dealing with undead and the forces that animate them that you have become inured to some of their worst effects.
+
+Moreover, when you take damage, you can choose for an Undead under
+your control within 30 feet to take that damage instead. If it is
+reduced to 0 hit points, you take any remaining damage.
+
+
+\column
+
+#### Command Undead
+Starting at 14th level, you can use magic to bring undead under your control, even those created by other wizards. As an action, you can choose one undead that you can see within 60 feet of you. That creature must make a Charisma saving throw against your wizard spell save DC. If it succeeds, you can't use this feature on it again. If it fails, it becomes friendly to you and obeys your commands until you use this feature again.
+
+Intelligent undead are harder to control in this way. If the target has an Intelligence of 8 or higher, it has advantage on the saving throw. If it fails the saving throw and has an Intelligence of 12 or higher, it can repeat the saving throw at the end of every hour until it succeeds and breaks free.
+
+{{pageNumber,auto}}
+\page
+### School of Metallurgy
+Originally developed by dwarves, the School of Metallurgy emphasizes order, organization, and community. Known as Metallurgists, wizards who belong to this Arcane Tradition use their magic to impose order on a disordered world.
+
+Masters of powerful abjuration and transmutation magic, Metallurgists wield an arcane alloy known as Arcanometal to great effect. Mages of this School are almost always Lawful in their outlook. Some seek to do the most good for the most people, while others use force to impose order on the world.
+
+#### Arcanometal Adept
+When you adopt this Arcane Tradition at 2nd level, you are taught the secret ritual that Metallurgists use to synthesize Arcanometal, the signature alloy of the School of Metallurgy.
+You can synthesize gold into liquid Arcanometal that you use to copy spells into your spellbook. For each level of the spell, you must expend 70 gold to create liquid Arcanometal to copy it. Spells added to your spellbook in this way become Arcanometal Spells for you, and gain the following benefits:
+
+- When you cast an Arcanometal spell that deals damage you can choose for the spell to deal force or magical bludgeoning damage in place of its normal damage.
+- When you cast an Arcanometal spell that targets one or more friendly creatures, one target of the spell gains temporary hit points equal to your wizard level.
+
+#### Metallurgist
+At 2nd level, you learn to create simple Arcanometal items. You conduct a 1-hour ritual that crafts a Small or Tiny item made only of metal. The creation is completed at the end of the ritual, and the item appears in an unoccupied space of your choice within 5 feet of you. Any Arcanometal object that you create with this feature is visibly magical in appearance.
+
+The object you create must be worth less than 100 gold. As part of this ritual, you must lay out metal raw material, which can include coins, with a value equal to the object you wish to create. The metal irretrievably coalesces and transforms into the creation at the ritual’s end. In place of providing metal, you can instead expend a spell slot of 1st-level or higher.
+
+Once you use this feature, you must finish a short or long rest before you can use it again.
+
+\column
+
+#### Arcanometal Shield
+Beginning at 6th level, when you cast an Arcanometal Spell, you can siphon some of its power to create a shimmering shield of Arcanometal around yourself, granting yourself temporary hit points equal to twice the level of the spell slot you expended to cast the spell. While you have temporary hit points from this feature, you are resistant to all non-magical bludgeoning, piercing, and slashing damage.
+
+#### Master Metallurgist
+You wield your Arcanometal as an extension of your very self. Starting at 10th level, you can use your Metallurgist feature to create metal objects with a value of up to 1000 gold.
+
+In addition, when you use your Metallurgist feature you can create larger metal objects, by spending higher level spell slots depending on the size as indicated in the table below:
+
+Spell Slot|	Object Size
+:-:|:-:
+3rd-level|	Medium	
+5th-level|	Large	
+7th-level|	Huge
+9th-level|	Gargantuan
+#### Metallum Arcanus
+Your Arcanometal is a conduit for your overwhelming arcane power. Beginning at 14th level, when you have temporary hit points from your Arcanometal Shield, you gain resistance to all bludgeoning, force, piercing, and slashing damage.
+{{pageNumber,auto}}
+\page
+### School of Onomancy 
+Practitioners of magic well know the power of names, but wizards who follow the tradition of Onomancy use their magic to manipulate the words that encompass existence. Onomancers expand their study into language itself, searching for threads of magical significance that weave through names. Something that is named stands out in the multiverse, distinct from the tapestry of creation all around it.
+
+That distinction creates power that onomancers seek to tap. By speaking a target’s true name, the wizard’s spells slip between the cracks of the target’s defenses, conforming to its essential nature through the power of its name. To protect themselves, wizards who follow this tradition often hide their true names, typically by adopting monikers and pseudonyms.
+
+#### Bonus Proficiencies
+At 2nd level, you learn one language of your choice and gain proficiency with calligrapher’s tools.
+
+#### Extract Name
+At 2nd level, you can magically compel a creature to divulge its true name. As a bonus action, you target one creature you can see within 60 feet of you. The target must make a Wisdom saving throw against your spell save DC. 
+
+On a successful save, you discern that this magic failed, and you can’t use this feature on the target again. 
+
+On a failed save, the target is charmed by you until the end of your next turn, and you mentally learn the charmed target’s name or the fact that the target lacks a name.
+
+You can use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses of it when you finish a long rest.
+
+#### Fateful Naming
+Starting at 2nd level, you can bend magic to assist or hinder creatures through the power of their true names, and even use those names as an anchor to affect others around them. The *Bane* and *Bless* spells are wizard spells for you, and you add them to your spellbook. You always have them prepared, yet they don’t count against the number of spells you can prepare.
+
+You can cast either spell without expending a spell slot if you speak the true name of one target of the spell as part of casting it. 
+
+You can cast the spells in this way a number of times equal to your Intelligence modifier (a minimum of once), and you regain all expended uses when you finish a long rest.
+
+\column
+
+#### Resonant Utterance
+At 6th level, you learn words of power called Resonants, which allow you to tailor your spells through the use of a target’s true name.
+
+**Resonants Known.** When you gain this feature, you learn two Resonants of your choice, which are detailed in the “Resonant Options” section. Each time you gain a level in this class, you can replace one resonant you know with a different one.
+
+**Using a Resonant.** You can use one Resonant when you cast a wizard spell with a spell slot and speak the true name of one creature targeted by the spell. Speaking the name is part of casting the spell.
+
+You can use Resonants a number of times equal to half of your wizard level (round down), and you regain all expended uses when you finish a long rest.
+
+##### Resonant Options
+Here are your options when choosing a Resonant:
+
+**Absorption.** When you cast a spell that deals damage to the named target, you gain 3d6 temporary hit points. The number of temporary hit points you gain increases by 1d6 when you reach 10th level (4d6) and 14th level (5d6) in this class.
+
+**Devastation.** If the spell requires the named creature to make a saving throw, that creature has disadvantage on the first save it makes against the spell.
+
+**Dissolution.** The first time the named creature takes damage from the spell, that creature takes an extra 2d8 force damage. The extra force damage increases by 1d8 when you reach 10th level (3d8) and 14th level (4d8) in this class.
+
+**Nullification.** If the named target is affected by any other spells, you know what those spells are, and you can attempt to end one of your choice by succeeding on an Intelligence check with a DC equal to 10 + the level of the chosen spell.
+
+**Puppetry.** The first time the named creature takes damage from the spell, you can knock the creature prone or move it up to 10 feet, either directly toward you or away from you.
+
+**Sympathy.** If the named creature is within range of the spell, you can target the creature with the spell even if you can’t see the creature or it has total cover against the spell.
+
+#### Inexorable Pronouncement
+At 10th level, you learn two new Resonants of your choice from your Resonant Utterance feature.
+
+#### Relentless Naming
+At 14th level, you have learned how to bypass a named creature’s defenses against certain types of damage. When you cast a spell that deals damage to a creature whose true name you speak as part of casting the spell, you can cause the spell to deal force or psychic damage to the creature, instead of the spell’s normal damage type.
+{{pageNumber,auto}}
+\page
+### School of Somnomancy
+Somnomancers are an idiosyncratic bunch, given
+to fancies, daydreams, and odd sartorial choices,
+so it is no surprise that their subschool of magic
+is rarely accorded any respect by mages of other
+schools. Although their obsession with sleep is
+occasionally useful, such as when someone needs to
+be hypnotized or must have their dreams interpreted,
+it is more often a source of humor—much to the
+chagrin of so-called “pajama mages”!
+
+{{imageMaskCorner28,--offsetX:50%,--offsetY:-75%,--rotation:0
+  ![](https://tabletopden.com/wp-content/uploads/2021/02/Sleep-5e-DD-728x410.png){height:50%,top:750px,left:250px}
+}}
+
+
+
+
+
+
+#### Somnambulist
+Beginning when you select this school at 2nd level, your mastery over sleep magic has rendered you a persistent sleep-walker. While you are asleep, you can move around freely; you don’t fully perceive your environment while asleep, so you must navigate from memory. Additionally, you can copy spells to your spellbook while asleep.
+
+#### Deep sleep
+Also at 2nd level, you add the *Sleep* spell to your
+spellbook if it is not there already. Whenever you cast
+this spell, it is improved in the following ways:
+- The total number of hit points that can be affected is equal to double the number rolled on the dice.
+
+- The radius of the spell is increased to 30 feet.
+
+- You can freely choose the order in which creatures are affected by a sleep spell you cast.
+
+#### Mezmerize
+Beginning at 6th level, by performing a repetitive
+action for 1 minute, you can hypnotize a willing
+creature within 60 feet that can see and hear you.
+
+While hypnotized by you, it is semi-conscious
+and charmed by you. Other spells and effects that
+charm the creature or influence its mind have no
+effect while the creature is hypnotized. If you choose,
+you can cause a creature to repeat its saving throw
+against these effects, ending an effect on itself on a
+success.
+
+The creature has the ability to perfectly recall
+its memories while hypnotized, including memories
+that have been magically altered or suppressed.
+While hypnotized, the creature will answer truthfully
+any question you pose to it.
+
+Lastly, you can specify a single command word
+to be embedded in the creature's subconscious for
+up to 24 hours. The first time the creature hears
+the command word while it is not hypnotized, it
+immediately performs the single action or repeats a
+certain phrase that you specified while the creature
+was hypnotized. The creature performs this action or
+speaks this phrase even if the effects of a spell would
+compel them to act otherwise.
+
+The creature remains hypnotized by you for up
+to 1 hour, or until it takes damage or you end it early
+by saying a special command word.
+
+\column
+
+#### Dreamspeaker
+At 10th level, you add the spell *Dream* to your
+spellbook if it is not there already. When you cast
+this spell, the messenger may jump between up to
+12 creatures (each makes their saving throw against
+the spell separately), conversing with any or all of
+them. They can only appear monstrous to one of
+the targets, however, and the spell ends immediately
+after that option is utilized
+
+#### Fitful slumber
+When you reach 14th level, you can give creatures
+that you put to sleep terrible nightmares. At the start
+of their turn, you can choose to make any creature
+that is under the influence of a *sleep* spell that you
+cast take 3d6 psychic damage. This damage cannot
+wake a creature up, nor can it reduce a creature
+below 1 hit point
+{{pageNumber,auto}}
+\page
+:::::::::::::::::
+
+### School of Theurgy
+Not all who serve deities of the upper planes do so as clerics, priests, and paladins. Some wizards focus their great intellect on studies of the divine, and in turn learn to produce divine magic. Wizards who join this school often reside in temples rather then towers, and tend to be more benevolent then their arcane counterparts. In their studies of the upper planes and their magic, these sages often find themselves sympathizing with the causes of the deities they spend their lives studying.
+
+#### Arcane Theologian
+When you adopt this Arcane Tradition at 2nd level, you gain access to divine magics unavailable to most wizards. You can copy any cleric spell that you find in other spellbooks or spell scrolls into your spellbook, so long as it does not restore hit points to its target. Any cleric spell you add to your spellbook through this feature counts as wizard spells for you.
+
+Moreover, when you gain a wizard level, one of the spells you add to your spellbook can be from the cleric spell list, so long as the spell does not restore hit points to its target.
+
+
+##### Channel Divinity: Turn Undead
+As an action, you present a holy symbol and speak a prayer censuring undead creatures. Undead within 30 feet that can see or hear you must succeed on a Wisdom saving throw or be turned for 1 minute, or until they take any damage.
+
+A turned creature must use its turn to move as far away from you as it can. It cannot willingly move to a space within 30 feet of you, or take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If it can't move, it can use the Dodge action.
+:::::::::::::::::::::::::::::
+#### Channel Divinity: Harness Divine Power
+Upon reaching 6th level you gain the Channel Divinity option here. As a bonus action, you can grasp a holy symbol, utter a prayer, and regain one expended 1st-level spell slot.
+
+At certain wizard levels, you can use this Channel Divinity to regain expended spell slots of higher levels: at 10th level (2nd-level spell slots) and 14th level (3rd-level spell slots).
+
+{{imageMaskEdge2,--offset:40%,--rotation:180
+  ![](https://www.gmbinder.com/images/xsJKQf2.png){height:70%,top:-150px}
+}}
+#### Divine Protection
+Your knowledge of the upper planes grants you a measure of protection against evil. Beginning at 10th level, When a fiend or undead attacks you, it must make a Wisdom saving throw. On a failed save, the creature must choose a different target, or the attack automatically misses. On a successful save, the creature is immune to this effect for 24 hours.
+
+Any creature with an Intelligence of 4 or higher is aware of this effect before it makes its attack against you.
+
+#### Blessed Intervention
+Beginning at 14th level, you can use your knowledge of the divine to implore a being of the upper planes for direct aid.
+
+As an action, you can grasp a holy symbol and beseech that deity for aid, naming a cleric or wizard spell of your choice, of a level for which you have a spell slots. Roll percentile dice. If the result is equal to, or higher, then the number on the table below for the level of spell you wish the deity to cast, you are successful. On a success, the spell is instantly cast as if you had cast it without expending a spell slot or components.
+
+Once you use this feature to successfully cast a spell, you must complete 1d6 +1 long rests before you can use it again.
+
+Level|	d100
+:-:|:-:
+1st|	10 +
+2nd|	20 +
+3rd|	30 +
+4th|	40 +
+5th|	50 +
+6th|	60 +
+7th|	70 +
+8th|	80 +
+9th|	90 +
+
+::::::::::::::::::::::::::::
+{{pageNumber,auto}}
+\page
+### School of Teleportation
+A specialized conjurer, wizards who focus their studies on the field of teleportation seek to adapt the nature of transportation magic in cunning new ways.
+
+As you grow in power, you will be able to open portals small enough to slip a hand through or big enough to pass armies, save allies from a knife in the back or send enemies reeling across the battlefield.
+
+
+
+#### Blink Reflex
+Upon choosing this school at 2nd level, you gain the ability to manipulate the ether and facilitate teleportation. As an action, you can distort space to teleport a willing creature within 20 feet of you.
+
+The range increases by 10 feet when you reach 6th level (30 feet), 10th level (40 feet), 14th level (50 feet) and 18th level (60 feet).
+
+You can use this ability a number of times equal to your proficiency bonus, and you regain all expended uses of this ability when you finish a long rest.
+
+#### Student of the Ether
+Also at 2nd level, you gain proficiency in two of the following skills of your choice: Arcana, History, Investigation or Religion.
+
+#### Far touch
+Beginning at 6th level, you are able to slip your hand into a pocket sized portal to reach enemies and allies at a much greater distance. When you cast a spell or use the help or use object action, the action can originate from a space that you can see, up to 20 feet away from you.
+
+
+#### Hostile Transportation
+Starting at 10th level, as an action, you can target two enemies you can see within 60 feet of each other. You teleport one enemy to the space adjacent to the other enemy. Both creatures must make a Strength saving throw. On a failed save, each creature takes 2d8 force damage as they collide. On a successful save, a creature takes half damage.
+
+You can use this feature once, and you regain its use after completing a short or long rest.
+
+
+#### Master of Teleportation
+Beginning at 14th level, you gain mastery over teleportation, allowing you to transcend the limitations of conventional movement. Instead of moving in the traditional sense, you can choose to replace your movements with teleportations. you can teleport a total distance equal to your speed.
+
+This teleportation is instantaneous and does not provoke opportunity attacks.
+
+You can only teleport in this manner if you are not incapacitated.
+
+Additionally, you can cast the teleport spell once without expending a spell slot.
+ {{pageNumber,auto}}
+\page
+
+### School of Transmutation
+You are a student of spells that modify energy and matter. To you, the world is not a fixed thing, but eminently mutable, and you delight in being an agent of change. You wield the raw stuff of creation and learn to alter both physical forms and mental qualities. Your magic gives you the tools to become a smith on reality's forge.
+
+Some transmuters are tinkerers and pranksters, turning people into toads and transforming copper into silver for fun and occasional profit. Others pursue their magical studies with deadly seriousness, seeking the power of the gods to make and destroy worlds.
+
+
+#### Transmutation Savant
+Beginning when you select this school at 2nd level, the gold and time you must spend to copy a Transmutation spell into your spellbook is halved.
+
+
+#### Minor Alchemy
+Starting at 2nd level, you can use your knowledge of Transmutation magic to alter the physical properties of objects. As an action, you can touch a non-magical object (or part of an object) and expend a spell slot to transform its Material or Shape as detailed below:
+
+**Material.** You change an object made completely of iron, stone (not gems), or wood to another material from this list.
+
+**Shape.** You alter the shape of the object to suit your needs. You cannot add or destroy material as part of this action. The new shape of the object is crude unless you are proficient in the artisan's tools corresponding to its material makeup.
+
+**Size.** The level of the spell slot you expend determines the size of the object you can change. You can alter an object that fits in a cube with sides of 1-foot per level of the spell slot.
+
+For example, by expending a 3rd-level spell slot you can alter any object (or part of an object) that fits inside of a 3-foot cube.
+
+**Concentration.** You must concentrate on this
+change as if concentrating on a spell or the object
+instantly reverts to its previous form. After
+1 minute of concentration any changes
+to the object become permanent
+
+#### Transmute Self
+
+Starting at 6th level, your deep understanding of Transmutation magic allows you to make dramatic alterations to your physical form. During a long rest, you can choose one 1st-level Transmutation spell in your Spellbook that targets a creature, and perform a 1-hour ritual to make its benefits permanent for you. If it normally requires concentration, it does not when cast in this way.
+
+Additionally, 1st-level spells with range self count as a Transmutation spells for you.
+
+The effects of this spell last until you perform this ritual on yourself again during a subsequent long rest.
+
+\column
+
+
+
+#### Shapechanger
+At 10th level, you add *polymorph* to your Spellbook. You always have it prepared, but it does not count against your prepared spells. If you already have polymorph in your Spellbook, you add one Transmutation spell of your choice to your Spellbook instead.
+
+Also, when you cast polymorph on yourself, its casting time becomes a bonus action. While transformed you retain your personality, Intelligence, Wisdom, and Charisma scores and you can cast Transmutation spells while shape-shifted, except for any spell with a Material component that has a cost specified or is consumed by the spell.
+
+Finally, when you use your Transmute Self feature, you can now select 2nd-level  spells in your Spellbook.
+
+
+
+#### Master Transmuter
+Starting at 14th level, you learned the secrets necessary to create a Philosopher's Stone, a Tiny alchemical object capable of wondrous feats of Transmutation. During each long rest, you can spend 1 hour performing a ritual to create one Philosopher's Stone. This ritual renders any previous Philosopher's Stones inert.
+
+When you cast a Wizard spell, you can expend the Stone to cast that spell at 5th-level, without expending a spell slot.
+
+Alternatively, you can use your action to consume the reserve of transmutation magic stored within your Philosopher's Stone in a single burst. When you do so, choose one of the following effects.
+
+**Major Transformation.** You can transmute one nonmagical object – no larger than a 5-foot cube – into another nonmagical object of similar size and mass and of equal or lesser value. You must spend 10 minutes handling the object to transform it.
+
+**Panacea.** You remove all curses, diseases, and poisons affecting a creature that you touch with the transmuter's stone. The creature also regains all its hit points.
+
+**Restore Life.** You cast the Raise Dead spell on a creature you touch with the transmuter's stone, without expending a spell slot or needing to have the spell in your spellbook.
+
+**Restore Youth.** You touch the transmuter's stone to a willing creature, and that creature's apparent age is reduced by 3d10 years, to a minimum of 13 years. This effect doesn't extend the creature's lifespan.
+
+
+{{pageNumber,auto}}
+\page
+### School of War Magic
+A variety of arcane colleges specialize in training wizards for war. The tradition of War Magic blends principles of evocation and abjuration, rather than specializing in either of those schools. It teaches techniques that empower a caster’s spells, while also providing methods for wizards to bolster their own defenses.
+
+Followers of this tradition are known as war mages. They see their magic as both a weapon and armor, a resource superior to any piece of steel. War mages act fast in battle, using their spells to seize tactical control of a situation. Their spells strike hard, while their defensive skills foil their opponents’ attempts to counterattack. War mages are also adept at turning other spellcasters' magical energy against them.
+
+In great battles, a war mage often works with evokers, abjurers, and other types of wizards. Evokers, in particular, sometimes tease war mages for splitting their attention between offense and defense. A war mage's typical response: "What good is being able to throw a mighty Fireball if I die before I can cast it?"
+
+#### Arcane Deflection
+At 2nd level, you have learned to weave your magic to fortify yourself against harm. When you are hit by an attack or you fail a saving throw, you can use your reaction to gain a +2 bonus to your AC against that attack or a +4 bonus to that saving throw.
+
+When you use this feature, you can’t cast spells other than cantrips until the end of your next turn.
+
+#### Tactical Wit
+Starting at 2nd level, your keen ability to assess tactical situations allows you to act quickly in battle. You can give yourself a bonus to your initiative rolls equal to your Intelligence modifier.
+
+#### Power Surge
+Starting at 6th level, you can store magical energy within yourself to later empower your damaging spells.
+
+You can store a maximum number of power surges equal to your Intelligence modifier (minimum of one). Whenever you finish a long rest, your number of power surges resets to one. Whenever you successfully end a spell with Dispel Magic or Counterspell, you gain one power surge, as you steal magic from the spell you foiled. If you end a short rest with no power surges, you gain one power surge.
+
+Once per turn when you deal damage to a creature or object with a wizard spell, you can spend one power surge to deal extra force damage to that target. The extra damage equals half your wizard level.
+
+#### Durable Magic
+Beginning at 10th level, the magic you channel helps ward off harm. While you maintain concentration on a spell, you have a +2 bonus to AC and all saving throws.
+
+#### Deflecting Shroud
+At 14th level, your Arcane Deflection becomes infused with deadly magic. When you use your Arcane Deflection feature, you can cause magical energy to arc from you. Up to three creatures of your choice within 60 feet of you each take force damage equal to half your wizard level.
+{{pageNumber,auto}}
+\page
+### School of Warp watcher
+
+Warp watchers are mages who have mastered the manipulation of time and space, allowing them to instantly traverse to different locations and moments. They harness their magic to swiftly maneuver across the battlefield or to delve into past and future events. With their unparalleled control over temporal forces, Warpwatchers can alter the course of history itself.
+
+#### Chronal Shift
+At 2nd level, you can magically exert limited control over the flow of time around a creature. As a reaction, after you or a creature you can see within 30 feet of you makes an attack roll, an ability check, or a saving throw, you can force the creature to reroll. You make this decision after you see whether the roll succeeds or fails. The target must use the result of the second roll.
+You can use this ability twice, and you regain any expended use when you finish a long rest.
+
+#### Temporal Awareness
+Starting at 2nd level, you can add your Intelligence modifiers to your initiative rolls.
+
+#### Momentary Stasis
+When you reach 6th level, as an action, you can magically force a Large or smaller creature you can see within 60 feet of you to make a Constitution saving throw against your spell save DC. Unless the saving throw is a success, the creature is encased in a field of magical energy until the end of your next turn or until the creature takes any damage. While encased in this way, the creature is incapacitated and has a speed of 0.
+
+You can use this feature a number of times equal to your Intelligence modifier (a minimum of once). You regain all expended uses when you finish a long rest.
+
+#### Arcane Abeyance
+At 10th level, when you cast a spell using a spell slot of 4th level or lower, you can condense the spell's magic into a mote. The spell is frozen in time at the moment of casting and held within a gray bead for 1 hour. This bead is a Tiny object with AC 15 and 1 hit point, and it is immune to poison and psychic damage. When the duration ends, or if the bead is destroyed, it vanishes in aflash of light, and the spell is lost.
+
+A creature holding the bead can use its action to release the spell within, whereupon the bead disappears. The spell uses your spell attack bonus and save DC, and the spell treats the creature who released it as the cast for all other purposes.
+
+Once you create a bead with this feature, you can't do so again until you finish a short or long rest.
+
+\column
+
+#### Convergent Future
+Starting at 14th level, you can peer through possible futures and magically pull one of them into events around you, ensuring a particular outcome. When you or a creature you can see within 60 feet of you makes an attack roll, an ability check, or a saving throw, you can use your reaction to ignore the die roll and decide whether the number rolled is the minimum needed to succeed or one less than that number (your choice).
+
+When you use this feature, you gain one level of exhaustion. Only by finishing a long rest can you remove a level of exhaustion gained in this way.
+
+
+![Harry](https://i.imgur.com/87kXzWt.png) {width:355px,position:absolute,left:510px,bottom:-1px}
+
+{{artist,position:absolute,top:900px,left:440px,margin-bottom:-30px
+##### Harry 
+[The Warp watcher](https://i.imgur.com/wJ5bRJi.png)
+}}
+{{pageNumber,auto}}
+\page
+
+
+### Shinobi
+Masters of illusion, guerilla warfare, and martial combat, Shinobi wizards are elusive tricksters and deadly warriors, striking in a furious onslaught of magic, weaponry, and acrobatics. They adopt a philosophy which unifies martial skill with spellcasting, empowering their blows with devastating magical enhancements before vanishing into darkness. A Shinobi’s unique abilities make them the ultimate artisans of espionage and infiltration, wielding deception, secrecy, and explosive aggression as lethal tools in their arsenal. 
+
+#### Shinobi Training
+At 2nd Level, you gain proficiency with light armour, hand crossbows, thrown weapons, and finesse weapons, and you can use a weapon you are proficient with as your spellcasting focus. 
+
+Additionally, you are considered a member of a half-martial class for the purposes of weapon masteries. 
+
+Finally, you gain darkvision out to 60 feet, or if you already have darkvision, its range is increased by 30 feet.
+
+\column
+
+#### Shadow Striker
+By 2nd Level, you have learned the art of synchronising spellcasting and weaponry. When you take the Attack action on your turn and make a weapon attack roll, you can expend one spell slot. That attack roll is made with advantage, and the attack deals an extra 1d8 damage per level of the spell slot you expended on a hit. After you use this feature, you can use a bonus action that turn to perform one of the following techniques: 
+
+**Cloud of Shadow.** You create a small cloud of magical darkness, heavily obscuring the space you are currently occupying. This darkness lasts for 1 minute, and it ends early if you are knocked unconscious or if your turn ends and you haven’t made a weapon attack since your last turn. Alternatively, on each of your turns, you can use your action to maintain it. A creature with darkvision can’t see through this darkness, and nonmagical light can’t illuminate it. 
+
+**Extrasensory.** You momentarily enhance your senses with magic, making a quick Wisdom (Perception) check to spot a hidden creature or object or Wisdom (Insight) check to assess your enemy’s condition. You gain a bonus to the check equal to your Intelligence modifier (minimum of +1).
+
+**Shadow Ward.** Choose one damage type other than force or radiant. You gain resistance to that damage type until the start of your next turn. 
+
+#### Extra Attack 
+Begining 6th level, You can attack twice rather than once when you take the Attack action on your turn.  
+
+Moreover, you can cast one of your cantrips in place of one of those attacks.
+
+In addition, magical darkness doesn’t impede your vision.
+\page
+#### Umbral Striker
+At 10th Level, your command of shadow magic further enhances your lethal capabilities. You can now also choose from the following options when you use your Shadow Striker feature, but only if you empower your attack with a spell slot of 3rd
+level or higher.
+
+**Duplicitous Strike.** You move in a blur, sprouting magical illusory images in the mind of your target. After your attack hits or misses, the target takes 2d6 psychic damage and it sees illusory duplicates of you until the end of its next turn. Whenever it targets you with an attack, it must roll a d4. On a 1-3, it targets a duplicate instead and the attack misses. 
+
+**Rapid Strikes.** You magically strike with blistering speed. Immediately after your attack hits or misses, you can make another weapon attack. 
+
+**Vanish.** Immediately after your attack hits or misses, you magically turn invisible until the end of your next turn. While invisible in this way, if you cast a spell, you can cast it without any verbal or somatic components. 
+
+#### Shadow Savant
+At 14th level, the shadows are your eager servants. Magical darkness doesn’t impede your darkvision. 
+
+In addition, when another creature you can see moves into an area of heavy obscurement you have created or starts its turn there, you can force it to make a Strength saving throw against your wizard spell save DC (no action required). 
+
+On a failure, the creature is restrained until the start of its next turn. A creature can be forced to make this saving throw no more than once per turn.
+
+{{imageMaskEdge6,--offset:10%,--rotation:270
+  ![](https://cdna.artstation.com/p/assets/images/images/069/054/322/large/ognjen-sporin-diatengu-final.jpg?1699261689){height:100%}
+}}

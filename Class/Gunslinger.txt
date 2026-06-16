@@ -1,0 +1,2144 @@
+```metadata
+title: Gunslinger
+description: ''
+tags: []
+renderer: V3
+theme: 5ePHB
+
+```
+
+```css
+.page{
+	width  : 210mm;
+	height : 296.3mm;
+}
+
+css
+
+.page .columnWrapper {
+	height: 100%
+}
+
+.page .toc.wide {
+	columns: 1;
+	height: 100%;
+}
+
+.page .toc > ul > li {
+	font-weight:100;
+	margin-bottom:-2.1px;
+
+}
+
+.page .toc ul ul {
+	margin-left: 0;
+	font-weight: 50;
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```
+
+
+{{frontCover}}
+
+::::::::::::::::::::::::::::
+# Gunslinger
+
+![background image](https://i.imgur.com/giUzWog.jpg){position:absolute,bottom:0,left:-250px,height:100%}
+
+
+\page
+
+{{toc,wide
+
+- ### [{{ Gunslinger}}{{ 3}}](#p3)
+  -  [{{ Guts and Gunpowder}}{{ 3}}](#p3)
+  -  [{{ Dangerous Outsiders}}{{ 3}}](#p3)
+  -  [{{ Creating a Gunslinger}}{{ 3}}](#p3)
+- ### [{{ Class Features}}{{ 4}}](#p4)
+  -  [{{ Fighting Style}}{{ 5}}](#p5)
+  -  [{{ Quick Draw}}{{ 5}}](#p5)
+  -  [{{ Critical Shot}}{{ 5}}](#p5)
+  -  [{{ Poker Face}}{{ 5}}](#p5)
+  -  [{{ Gunslinger Exploits}}{{ 5}}](#p5)
+  -  [{{ Gunslinger’s Creed}}{{ 5}}](#p5)
+  -  [{{ Ability Score Improvement}}{{ 5}}](#p5)
+  -  [{{ Extra Attack}}{{ 5}}](#p5)
+  -  [{{ Gut Shot}}{{ 6}}](#p6)
+  -  [{{ Evasion}}{{ 6}}](#p6)
+  -  [{{ Speed Loader}}{{ 6}}](#p6)
+  -  [{{ High Noon}}{{ 6}}](#p6)
+  -  [{{ Dire Gambit}}{{ 6}}](#p6)
+  -  [{{ Cheat Death}}{{ 6}}](#p6)
+  -  [{{ Overkill}}{{ 6}}](#p6)
+  -  [{{ Maverick}}{{ 6}}](#p6)
+  -  [{{ Head Shot}}{{ 6}}](#p6)
+- ### [{{ Gunslinger’s Creeds}}{{ 7}}](#p7)
+  -  [{{ Big Game Hunter}}{{ 7}}](#p7)
+  -  [{{ Chroma Duelist}}{{ 8}}](#p8)
+  -  [{{ Covert Operative}}{{ 9}}](#p9)
+  -  [{{ Chronotriggers}}{{ 10}}](#p10)
+  -  [{{ Cryo-Sentinels}}{{ 11}}](#p11)
+  -  [{{ Gun Tank}}{{ 12}}](#p12)
+  -  [{{ Gun-Ko Master}}{{ 13}}](#p13)
+  -  [{{ Gundead}}{{ 14}}](#p14)
+  -  [{{ Grenadier}}{{ 14}}](#p14)
+  -  [{{ High Roller}}{{ 15}}](#p15)
+  -  [{{ Holy Marksman}}{{ 16}}](#p16)
+  -  [{{ Janissary}}{{ 17}}](#p17)
+  -  [{{ Laserist}}{{ 17}}](#p17)
+  -  [{{ League of Shadows}}{{ 18}}](#p18)
+  -  [{{ Lucky Son of a Bitch}}{{ 19}}](#p19)
+  -  [{{ Musketeer}}{{ 19}}](#p19)
+  -  [{{ Pistolero}}{{ 20}}](#p20)
+  -  [{{ Sharpshooter}}{{ 20}}](#p20)
+  -  [{{ Space Cowboy}}{{ 21}}](#p21)
+  -  [{{ Spellslinger}}{{ 22}}](#p22)
+  -  [{{ The Spiral Nomad}}{{ 23}}](#p23)
+  -  [{{ Storm Gunner}}{{ 24}}](#p24)
+  -  [{{ Trick Shot}}{{ 25}}](#p25)
+  -  [{{ Twice-Damned}}{{ 26}}](#p26)
+  -  [{{ Wetslinger}}{{ 27}}](#p27)
+  -  [{{ White Hat}}{{ 28}}](#p28)
+- ### [{{ Risky Exploits}}{{ 29}}](#p29)
+  -  [{{ 1st-Degree Exploits}}{{ 29}}](#p29)
+  -  [{{ 2nd-Degree Exploits}}{{ 30}}](#p30)
+  -  [{{ 3rd-Degree Exploits}}{{ 32}}](#p32)
+  -  [{{ 4th-Degree Exploits}}{{ 33}}](#p33)
+  -  [{{ 5th-Degree Exploits}}{{ 34}}](#p34)
+
+}}
+
+
+
+
+\page
+## Gunslinger
+:
+A glass falls, clattering to the floor, and the tavern
+grows silent. A dwarf with a deep scowl, dripping
+with freshly spilled beer, leers at a drunken nearby
+orc and fingers for a pair of revolvers at his waist.
+High on a hillside, carefully concealed beneath
+foliage and stones, a rifleman steadies her breathing
+and adjusts her scope, acquiring her target and
+patiently awaiting the moment to strike.
+Risk is in a gunslinger’s blood. They are bold
+renegades, bucking tradition and forging a new path
+with dangerous and inelegant firearms. Gunslingers
+are infamous for surviving by their wits, relying on
+split-second timing and a considerable amount of
+luck to survive.
+### Guts and Gunpowder
+Black powder is not for the faint of heart. Its
+thunderous applause is volatile and imprecise; a
+barely-controlled explosion directed at an enemy.
+Only the truly fearless seek to master it, for one must
+be mad or have nerves of steel to weather the risk of
+its use. But those who call themselves gunslingers
+are fearless combatants, hurling death from their
+guns in a roaring cacophony. Adapted for shootouts,
+gunslingers are mobile and daring, knowing that life
+or death hangs on snap decision-making and one’s
+own mettle.
+
+\column
+
+### Dangerous Outsiders
+A gunslinger’s explosive lifestyle lends well to
+wandering and adventuring. Gunslingers will often
+shoot first and ask questions later, an attitude which
+earns them few friends and bountiful enemies. In
+their travels, most gunslingers are secretive and take
+lengths go unnoticed, lest they be spotted by old foes
+with scores to settle.
+Yet, their skills are not unneeded. Anyone
+requiring protection or revenge of their own can
+count on a gunslinger to be in need of an odd job
+when they roll into town. After all, skill with a gun is
+always in demand somewhere.
+
+
+### Creating a Gunslinger
+When creating your gunslinger, consider where
+firearms fit in the campaign's world and what the
+common perceptions are of those who use them. If
+firearms are the norm, your gunslinger might be a
+mercenary or militia fighter. If firearms are rare, your gunslinger might be one of a kind, a trailblazer in
+new types of warfare.
+It’s also not unusual for a gunslinger to be
+haunted by their past. Did some event drive you to
+the gun and motivate you to travel? Is there a bounty
+on your head in one or more areas? Do you have any
+old enemies that seek you for revenge?
+#### Quick build
+To make a gunslinger quickly, follow these
+suggestions. Make Dexterity and Constitution your
+highest ability scores. If you plan to choose the Gun
+Tank creed, instead make your Strength your highest
+ability score. Choose any background.
+
+
+{{imageMaskEdge1,--offset:10%,--rotation:0
+  ![](https://i.imgur.com/LSeaEPU.png){height:75%,top:550px,left:-30px}
+}}
+
+
+
+{{pageNumber,auto}}
+\page
+
+
+{{classTable,frame,decoration,wide
+##### The Gunslinger
+| Level | Proficiency | Features     | Exploits | Exploit | Exploit|
+|      ^| Bonus      ^|             ^| Known   ^| Die ^| Dice |
+|:-----:|:-----------:|:-------------|:--------:|:------:|:--:|
+|  1st  | +2 | Fighting Style, Quick Draw      |    ─     |   ─    | ─  | 
+|  2nd  | +2 | Critical Shot, Poker Face, Exploits  |    2     |   1d4    | 2  |
+|  3rd  | +2 | Gunslinger’s Creed   |    2     |   1d4    |  2  |
+|  4th  | +2 | Ability Score Improvement      |    3     |   1d4    |  2  |
+|  5th  | +3 | Extra Attack, Gut Shot    |    3     |   1d6    |  3  |
+|  6th  | +3 | Creed Feature     |    4     |   1d6    |  3  |
+|  7th  | +3 | Evasion     |    4     |   1d6    |  3  |
+|  8th  | +3 | Ability Score Improvement    |    5     |   1d6    |  3  |
+|  9th  | +4 | Speed Loader |    5     |   1d6    |  3  |
+| 10th  | +4 | Creed Feature   |    6     |   1d6    |  3  |
+| 11th  | +4 | High Noon |    6     |   1d8    | 4  |
+| 12th  | +4 | Ability Score Improvement  |    6     |   1d8    | 4  |
+| 13th  | +5 | Dire Gambit  |    7     |   1d8    |  4  |
+| 14th  | +5 | Creed Feature     |    7     |   1d8   |  4  |
+| 15th  | +5 | Cheat Death     |    7     |   1d8    |  4  |
+| 16th  | +5 | Ability Score Improvement       |    7     |   1d8    |  4  |
+| 17th  | +6 | Overkill       |    8     |   1d10    |  5  |
+| 18th  | +6 | Maverick |    8     |   1d10    |  5  |
+| 19th  | +6 | Ability Score Improvement    |    8    |   1d10    |  5  |
+| 20th  | +6 | Head Shot       |    8     |   1d10    |  5  |
+}}
+
+## Class Features
+
+#### Hit Points
+**Hit Dice:**                    :: 1d8 per gunslinger level
+**Hit Points at 1st Level:**     :: 8 + your Constitution modifier
+**Hit Points at Higher Levels:** :: 1d8 (or 5) + your Constitution modifier per gunslinger level after 1st
+
+#### Proficiencies
+**Armor:**   :: Light armor
+**Weapons:** :: Simple weapons, simple firearms, martial firearms
+**Tools:**   :: One type of gaming set
+
+**Saving Throws:** :: Dexterity, Charisma
+**Skills:**        :: Choose two from: Acrobatics, Animal Handling, Athletics, Insight, Intimidation, Deception, Perception, Persuasion, and Sleight of Hand
+
+#### Equipment
+You start with the following equipment, in addition to the equipment granted by your background:
+- Leather armor with a longcoat
+- A dagger and (a) a handgun and 20 bullets or (b) a revolver and 10 bullets
+- Any two-handed firearm that isn’t heavy and 30 bullets or shells
+- (a) an explorer’s pack or (b) one kit you're proficient with
+
+{{imageMaskEdge1,--offset:5%,--rotation:270
+  ![](https://as1.ftcdn.net/v2/jpg/05/53/04/90/1000_F_553049078_FKkbLeoJGvhN9KdTTNaaTdDwjWLTuBr3.jpg){height:101%,bottom:-1px}
+}}
+<!-- Use --offset to shift the mask away from page center (can use cm instead of %)
+     Use --rotation to set rotation angle in degrees. -->
+
+![Barbie y Ken](https://i.imgur.com/U3xuyk5.png) {width:690px,position:absolute,left:265px,bottom:0px,transform:scaleX(-1)}
+
+
+{{pageNumber,auto}}
+\page
+### Fighting Style
+You adopt a particular style of gunfighting as your
+specialty. Choose one of the following options. You
+can’t take a Fighting Style option more than once,
+even if you later get to choose again.
+
+#### Akimbo
+While holding a melee weapon, ranged attacks ignore the penalty for having a hostile creature  within melee. You may use one handed ranged weapons in dual wielding.
+#### Archery
+You gain a +2 bonus to attack rolls with ranged weapons.
+#### Melee marksman
+Having a hostile creature within 5 feet of you
+does not impose disadvantage on your ranged weapon
+attacks, so long as you are attacking a creature within 5 feet.
+
+When you make a ranged weapon attack against a creature
+within 5 feet, you can use your bonus action to make a melee
+attack against it with your ranged weapon. On hit, you deal
+bludgeoning damage equal to 1d4 + your Strength modifier.
+
+
+#### Strongbow
+You can use your Strength modifier, in place of Dexterity, for your attack and damage rolls with  ranged weapons.
+
+#### Thrown weapon fighting
+You can draw a weapon that has the thrown property as part
+of the attack you make with the weapon. Moreover, when you
+hit with a ranged weapon attack using a thrown weapon, you
+gain a +2 bonus to the damage roll of that attack.
+
+### Quick Draw
+Gunslingers have twitch reflexes and can pull a
+gun in the blink of an eye. You have advantage on
+initiative rolls. 
+
+Additionally, you can draw or stow
+up to two weapons when you roll initiative and
+whenever you take an action on your turn.
+
+### Critical Shot
+At 2nd level, your ranged weapons attacks score a
+critical hit on a roll of 19 or 20.
+
+Starting at 9th level, your ranged weapons attacks
+score a critical hit on a roll of 18 to 20, and at 17th
+your ranged weapons attacks score a critical hit on a
+roll of 17 to 20.
+
+### Poker Face
+Starting at 2nd level, you have advantage on
+ability checks and saving throws made to prevent
+others from sensing your motives, perceiving your
+emotions, or reading your thoughts.
+
+\column
+
+### Gunslinger Exploits
+At 2nd level, you have begun to master unique techniques to enhance your gunslinger skills, both on and off the field of battle.
+
+#### Exploit Dice
+The gunslinger table shows how many Exploit Dice you have to perform the Exploits you know. To use an Exploit, you must  expend one of these Dice. You can only use one Exploit per attack, ability check, or saving throw, and you regain your expended Exploit Dice when you finish a short or long rest. Your Exploit Dice begin as d4s, and increase in size as you gain levels in this class, as indicated in the gunslinger table.
+
+#### Exploits Known
+You know two Exploits of your choice from the list at the end of this class. The Exploits Known column of the gunslinger table shows when you learn more Exploits of your choice. To learn an Exploit you must meet any prerequisites it may have, like a minimum Ability Score or a minimum gunslinger level.
+
+Whenever you gain a gunslinger level, you can replace one of the Exploits you know with another Exploit of your choice.
+
+#### Saving Throws
+If one of your Exploits requires a creature to make a saving throw, your Exploit saving throw DC is calculated as follows:
+{{text-align:center
+**Exploit save DC** = 8 + your proficiency bonus + your
+Strength or Dexterity modifier (your choice)
+}}
+::
+### Gunslinger’s Creed
+By the time gunslingers reach 3rd level, they embrace a way of living, known as their creed, which guides their judgments and their unique brand of gunslinging. Your choice grants you features at 3rd level and again at 6th, 10th, and 14th level.
+
+### Ability Score Improvement
+When you reach 4th level, and again at 8th, 12th,
+16th, and 19th level, you can increase one ability
+score of your choice by 2, or you can increase two
+ability scores of your choice by 1. As normal, you
+can’t increase an ability score above 20 using this
+feature.
+
+### Extra Attack
+Beginning at 5th level, you can attack twice, instead
+of once, whenever you take the Attack action on
+your turn.
+
+{{pageNumber,auto}}
+\page
+### Gut Shot
+Starting at 5th level, whenever you score a Critical Hit against a Large or smaller creature with a ranged attack using a weapon, the projectile lodges itself in the target. For 1 minute or until the target replaces one of its attacks with dislodging the projectile, its Speed is halved and it has Disadvantage on attack rolls.
+
+
+### Evasion
+Beginning at 7th level, you can nimbly dodge out
+of the way of certain area effects, such as a red
+dragon’s fiery breath or an ice storm spell. When you
+are subjected to an effect that allows you to make a
+Dexterity saving throw to take only half damage, you
+instead take no damage if you succeed on the saving
+throw, and only half damage if you fail.
+
+### Speed Loader
+When you reach 9th level, you ignore the loading property of weapons.
+
+Additionally, whenever you make an attack with a ranged weapon, you may use your exploit die instead of it's normal damage die.
+
+### High Noon
+At 11th level, If you haven't moved during your turn, you can stand still and analyze the battlefield as an action. Your speed becomes 0 and you gain temporary hp equal to your gunslinger level until the start of your next turn. At the start of your next turn, as an action, you can make an attack with advantage against each creature you could see since the end of your last turn. Alternatively, you may choose to repeat the same action or neither.
+
+You must finish a long rest before using this feature again.
+
+### Dire Gambit
+Starting at 13th level, whenever you roll Initiative or score a Critical Hit, you regain one expended exploit die if you don't expend an exploit die on this attack.
+
+### Cheat Death
+By 15th level, you have a knack for escaping the
+reaper. When you would be reduced to 0 hit points,
+you can use your reaction and expend one exploit die to
+avoid being incapacitated and instead be reduced to
+a number of hit points equal to the number rolled on
+the die.
+
+Once you use this ability, you must finish a short
+or long rest before using it again.
+
+\column
+
+### Overkill
+At 17th level, when you deal damage with a Ranged weapon that
+doesn’t add your ability modifier to the roll, you add your
+ability modifier nonetheless. If you already add your
+modifier to the damage roll, the target takes an extra 1d8
+damage of the weapon’s type.
+
+### Maverick
+By 18th level, you are unshakable. You have  advantage on Constitution checks and saving throws.
+
+
+
+### Head Shot
+At 20th level, when you score a critical hit against a
+creature using a ranged weapons, you can choose for this shot to be a head shot. If the creature has less than 100 hit points, it dies. Otherwise, it takes 10d10 additional
+damage. Elementals, oozes, undead, and creatures
+which lack nervous systems or vital organs take no
+additional damage from this ability.
+
+Once you use this ability, you must finish a short
+or long rest before using it again.
+
+![cat warrior](https://i.imgur.com/mS7kLe7.png) {position:absolute,bottom:-10px,left:410px,height:35%,transform:scaleX(1)}
+
+{{pageNumber,auto}}
+\page
+## Gunslinger's Creeds
+Gunlingers have many features in common, but
+each of them walks their own path and follows their
+own code. This code, which gunslingers call a creed,
+embodies their core beliefs and informs their unique
+combat style.
+### Big Game Hunter
+Armed with the largest guns possible, big game
+hunters aim to bring down dangerous titans—such
+as dinosaurs, hydras, and giant beasts—before
+they can endanger smaller folk. Quarry as small as
+owlbears or as intelligent as giants are ill-suited to
+such as hunter’s sensibilities, for they revel most in
+the conquest of titans and the smell of their elephant
+guns glowing red hot.
+#### Elephant Gun
+Starting at 3rd level, you learn to operate a weapon
+of staggering proportions: the elephant gun. The
+elephant gun is an exotic firearm that deals 2d8
+piercing on a hit, has the following properties:
+
+Ammunition (range 80/320), Heavy, Two-Handed,
+and Recoil. You have proficiency in this weapon.
+As you gain levels in this class, you can modify
+your elephant gun to chamber increasingly large
+calibers, increasing the weapon’s damage as shown
+on the Elephant Gun table.
+
+**Recoil.** You can only make an attack with this
+weapon when you take the Attack action, and only
+as the first attack you make on your turn. Once you
+make an attack with this weapon, you can’t make any
+attacks until the start of your next turn.
+##### Elephant Gun
+| Gunslinger Level| Damage |
+|:---------------|:-----|
+| 3rd              | 2d8     | 
+| 5th              | 4d10     |
+| 11th             | 5d10    |
+| 17th             | 6d10   |
+
+ 
+
+
+#### Broad Side of a Barn
+Also at 3rd level, you don’t have disadvantage due to attacking at long range using a firearm against a Large or larger target.
+
+#### Big Game Hunter Exploits
+You learn certain Exploits at the Gunslinger levels noted in the table below. These don't count against your number of Exploits Known and can't be switched upon gaining a level.
+|Gunslinger Level| Exploit|
+|:---------:|:------------:|
+3rd |Crippling Strike, Steady Aim
+5th |Exposing Strike, Take Cover
+9th |Thunderous Shot
+
+\column
+
+#### Tracker
+By 6th level, you gain proficiency in the Survival skill and you gain Expertise with that skill.
+
+Addiotionally, by examining the footprints left behind by a creature as a Study action, you can determine without an ability check the specific kind of creature that left it, how long ago it left the footprints, the creature’s size, and whether the creature was missing any of its Hit Points when it left the footprints.
+
+#### Exotic Caliber
+Beginning at 10th level, you can use your bonus
+action and expend two exploits dice to chamber your
+elephant gun with one of the following types of
+ammunition:
+
+**Buck Shot.** You load your elephant gun with
+dozens of lead pellets that scatter the next time the
+gun is fired. The attack becomes a 30-foot cone.
+Each creature in the area must make a Dexterity
+saving throw against your Exploit save DC, taking the
+elephant gun’s damage on a failed save, or half as
+much damage on a success.
+
+**Explosive Shot.** You load your elephant gun
+with a projectile that explodes the next time the gun
+is fired. The attack becomes a spherical explosion.
+Choose a point you can see within 80 feet of you.
+Each creature within a 15-foot-diameter sphere must
+make a Dexterity saving throw against your Exploit
+save DC, taking fire damage equal to the damage of
+your elephant gun on a failed save, or half as much
+damage on a successful one.
+
+**Piercing Shot.** You load your elephant gun
+with a conical projectile that penetrates through
+its target the next time the gun is fired. The attack
+becomes a 5-foot wide line that extends 80 feet out
+from you. Each creature in that line must make a
+Dexterity saving throw against your Exploit save DC. A
+creature takes the elephant gun’s damage on a failed
+save, or half as much damage on a success.
+
+#### Legendary Shot
+By 14th level, you have hunted all but the most
+dangerous creatures. When a creature you can see
+within 80 feet of you takes a legendary action, you
+can use your reaction to make an attack against it
+using your elephant gun. 
+
+You can make this attack even if you’ve already made an attack using your elephant gun on your turn.
+
+Once you use this feature, you can’t do so again
+until you finish a short or long rest. 
+
+
+{{pageNumber,auto}}
+\page
+
+### Chroma Duelist
+ 
+You see the battlefield as a canvas and your gun as a brush. By channeling raw arcane energy into your ammunition, you paint the world with vibrant, deadly hues, each shot a masterpiece of destructive art. You wield a palette of elemental power, shifting your damage to exploit any weakness and control the flow of combat with stunning, vivid displays of force.
+
+#### Chroma Duelist Exploits
+You learn certain Exploits at the Gunslinger levels noted in the table below. These don't count against your number of Exploits Known and can't be switched upon gaining a level.
+|Gunslinger Level| Exploit|
+|:---------:|:------------:|
+3rd |Precision Strike, Scholar’s Insight
+5th |Exposing Strike, Flaming Shot
+9th |Thunderous Shot
+
+#### Painter's Eye
+
+When you adopt this creed at 3rd level, you gain proficiency with painter's supplies.
+
+Additionally, you can use your Intelligence modifier, in place of Strength or Dexterity, when calculating your Exploit save DC.
+
+#### Chromatic Infunsion
+
+Also at 3rd level, you can use your firearm as a conduit for raw elemental energy. As a bonus action, you can expend one Exploit Die to infuse your firearm. For the next minute, your ranged weapon attacks made with that firearm deal your choice of Acid, Cold, Fire, or Lightning damage instead of their normal piercing or bludgeoning damage.
+
+#### Vivid Impact
+
+Starting at 6th level, when you hit a creature with a ranged weapon attack empowered by your Chromatic Infusion feature, you can apply an additional effect based on the damage type currently active:
+
+- **Acid (Verdant).** The target is covered in corrosive energy. Its AC is reduced by 2 until the start of your next turn.
+- **Cold (Azure).** The target is encased in rime. Its speed is reduced by 10 feet until the start of your next turn.
+- **Fire (Crimson).** The target is set ablaze. It takes additional fire damage equal to one roll of your Exploit Die at the start of its next turn.
+- **Lightning (Golden).** The target's senses are overloaded. It cannot take reactions until the start of your next turn.
+
+Once you use one of these effects, you can’t use that effect again until the end of your next turn.
+
+\column
+
+#### Blinding Sprectrum
+
+At 10th level, as an action, you can expend two Exploit Dice to unleash a cone of disorienting, prismatic light from your firearm. 
+
+Each creature in a 15-foot cone must make a Constitution saving throw against your Exploit save DC. On a failed save, a creature is blinded for 1 minute. 
+
+A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+
+#### Prismatic Mastery
+
+Starting at 14th level, your mastery over chromatic energy is complete. 
+
+When you use your Chromatic Infusion feature, you can choose two damage types from the list instead of one. 
+
+Your ranged weapon attacks deal both damage types simultaneously.
+
+When you hit a creature and use your Vivid Impact feature, you can apply the effects for both chosen damage types.
+ {{pageNumber,auto}}
+\page
+### Covert Operative
+They say, 'the pen is mightier than the sword,' and you
+believe that knowledge is power: the best way to defeat
+your enemies is by stealing what they know and replacing it with misinformation. To that end, you have been trained inthe ways of covert warfare, giving you a broad range of
+abilities to complement your fearsome gunnery skills.
+
+#### Secret Agent Training
+When you adopt this creed at 3rd level, you gain
+proficiency in two sets of tools from the following list:
+disguise kit, thieves' tools, vehicles (land), vehicles (water) and two skills from the following list: Investigation, Sleight of Hand, Stealth, Survival. You can apply double your proficiency bonus to any check you make that uses one of these tools or skills.
+
+#### Sneaky Shot
+At 3rd level, your training allows you to make attacks on
+the hoof, even in the most intense operations. When you
+take the Dash or Disengage action on your turn, you can
+make a single attack with a ranged weapons as a bonus action.
+#### Covert operative Exploits
+You learn certain Exploits at the Gunslinger levels noted in the table below. These don't count against your number of Exploits Known and can't be switched upon gaining a level.
+|Gunslinger Level| Exploit|
+|:---------:|:------------:|
+3rd |Keen Observation, Scholar’s Insight
+5th |Improvised Skill, suppressing  strike
+9th |Recruit Informant
+
+
+#### Fieldcraft
+Starting from 6th level, your experience in the field gives you a number of advantages. You cannot be surprised while you are conscious. Additionally, you can use a bonus action to make a Wisdom (Perception) check to spot hidden creatures.
+
+#### Concealed Gear
+Also at 6th level, you gain access to specialized
+adventuring gear that can be hidden about your person,
+either by being unusually small or by being disguised as
+something else. Any gear that you are carrying, except for
+weapons and armor that are not light, is undetectable by
+any casual observer. A creature that attempts to
+conduct a thorough search of you must make
+an Intelligence (Investigation) check with a
+DC equal to 13 + your Intelligence modifier + twice your proficiency bonus.
+
+#### Risky Mission
+At 10th level, you know which risks to take and
+which to leave alone. You can now expend two exploits dice to perform two risky exploits within the same turn.
+
+
+\column
+
+
+#### License to Kill
+At 14th level, when you hit a creature with a ranged weapon and expend an Exploit, add double the result rolled to the weapon's damage.
+{{pageNumber,auto}}
+\page
+### Chronotriggers
+Bullets are already faster than the naked eye can follow, so is temporal manipulation a little overkill? To that, Gunners of the Chronotrigger’s Creed say, “Maybe, but we’re doing it anyway!” Originating in the Timespun Sands, this Creed asks its adherents to be creative and unpredictable in combat, acting at unexpected times and subtly altering the flow of time to catch opponents off guard. In their wake, their foes are often left wondering not just what happened, but when it happened.
+
+#### Chronotriggers Exploits
+You learn certain Exploits at the Gunslinger levels noted in the table below. These don't count against your number of Exploits Known and can't be switched upon gaining a level.
+|Gunslinger Level| Exploit|
+|:---------:|:------------:|
+3rd |Precision Strike, Street Smarts
+5th |Dirty Hit, Trick Shot
+9th |Incite Violence
+
+#### Chrono-Logic
+At 3rd level, a good chronomancer always looks forward in time. A great Chronotrigger knows to look backward as well. You gain proficiency in the History skill. 
+
+Additionally, you cannot be surprised while you are conscious.
+
+#### Temporal Tweak
+
+Also at 3rd level, A gentle press on the delicate scales of time is often just enough to tip them in your favour. When you roll Initiative, you can choose to take a penalty to your roll equal to your Dexterity modifier to give a willing creature you see a bonus to its Initiative equal to that penalty (or vice-versa).
+
+#### Hang Fire
+At 6th level, acting in proper time becomes optional. You much prefer in-
+terrupting your foes when they’re about to do something interesting. When you take the Attack action, you can replace one attack with the Ready action. This Ready action can only be used to ready an attack with a ranged weapon.
+
+#### Slow Motion
+At 10th level, when you hit a creature with an attack, you can expend two Exploit Dice to force the target to make a Wisdom saving throw. On a failure, the creature is affected by the Slow spell until the end of its next turn.
+
+
+#### Overclock and Load
+At 14th level, Such is your mastery over the flow of time that you can create a handful of extra seconds out of nothing
+and a handful of seconds is often all you need. when you use your High Noon feature, you can immediately take an extra turn after the current one.
+ {{pageNumber,auto}}
+\page
+### Cryo-Sentinels
+Gunslingers of the Cryo-Sentinels, often called "The Eleventh Pillar" treat combat as a study in absolute stillness. They believe that heat is merely the chaos of molecules and that true mastery comes from bringing that chaos to a permanent halt. By infusing their firearms with the essence of the Absolute Zero, they don't just kill their enemies—they preserve them in eternal, frozen silence.
+
+#### Cryo-Sentinels Exploits
+You learn certain Exploits at the Gunslinger levels noted in the table below. These don't count against your number of Exploits Known and can't be switched upon gaining a level.
+|Gunslinger Level| Exploit|
+|:---------:|:------------:|
+3rd |Crippling Strike, Scholar’s Insight
+5th |Exposing Strike, Alchemical Oil
+9th |Thunderous Shot
+
+#### Diamond Dust
+When you adopt this creed at 3rd level, your bullets carry the chilling winds of the tundra. Whenever you hit a creature with a ranged weapon attack, you can choose to deal Cold damage instead of the weapon's normal damage type. 
+
+Additionally, once per turn when you hit a creature with a ranged weapon attack that deals cold damage, the target’s speed is reduced by 10 feet until the start of your next turn.
+
+#### Freezing Coffin
+Starting at 6th level, you can solidify the air around your targets. As an action, you can expend one Exploit Die to fire a specialized "Stasis Round."  Make a ranged weapon attack. On a hit, the target takes additional cold damage equal to your Exploit Die and must succeed on a Strength saving throw against your Exploit save DC.
+
+On a failure, the creature is Restrained as ice encases its limbs. The ice has hit points equal to five times your Gunslinger level and an AC of 10. The effect ends if the ice is destroyed or if the creature uses its action to make a successful Strength check against your Exploit save DC to break free.
+
+#### Glacial Aura
+At 10th level, the cold you command protects you from harm. You gain resistance to Cold damage. 
+
+Furthermore, the area within 10 feet of you is considered difficult terrain for hostile creatures as the ground freezes beneath their feet.
+
+\column
+
+#### Aurora Execution
+At 14th level, you have mastered the ultimate technique of the Absolute Zero. As an action, you can raise your firearm with both hands and unleash a devastating wave of absolute cold in a 30-foot cone.
+
+Each creature in the area must make a Constitution saving throw against your Exploit save DC. On a failure, the target takes 10d10 Cold damage and is Paralyzed until the end of its next turn as its blood freezes mid-vein. On a success, takes half as much damage and is not paralyzed.
+
+Once you use this ability, you must finish a long rest before you can use it again. You can also restore your use of it by expending four Exploit Dice.
+ {{pageNumber,auto}}
+\page
+### Gun Tank
+Be bigger, be badder, and be tougher, and no man
+will stand in your way. You are a living siege engine,
+a titan of muscle, brandishing weapons most men are
+incapable of lifting. Armed with these devastating
+firearms, you wade into the field of battle,
+bombarding and destroying those foolish enough to
+approach you.
+
+#### Gun Tank Exploits
+You learn certain Exploits at the Gunslinger levels noted in the table below. These don't count against your number of Exploits Known and can't be switched upon gaining a level.
+|Gunslinger Level| Exploit|
+|:---------:|:------------:|
+3rd |brace up, feat of strength
+5th |heroic will, suppressing  strike
+9th |mythic athleticism
+
+#### Heavy Gunner
+When you select this feature at 3rd  level, you can ignore Strength requisites for ranged weapons, can add your Strength instead of your Dexterity to your Exploit Save DC, and gain an additional fighting style chosen between *melee marksman* and *strongbow*
+
+Additionally, you can ignore the Two-Handed property on ranged weapon with which you are proficient.
+#### Walking Turret
+Also at 3rd level, you can apply the Mounted property to any ranged weapon you are holding. You can mount or unmount the weapon as a bonus action.
+
+While mounted, the weapon's damage die increases by one step (to a maximum of d12) and you suffer no movement penalties while moving with it.
+
+#### Thick-Headed
+At 6th level, you have Advantage on saving throws you make to avoid
+or end the Charmed, Frightened, and Stunned conditions.
+
+#### Strong As An Ox
+Starting at 10th level, your lifting and carrying capacities are doubled and you have advantage on Strength checks and Strength saving throws.
+
+
+
+#### Gun Rage
+At 14th level, as a bonus action, you can explode into a fury to destroy lesser men. For the next minute, you have resistance to bludgeoning, piercing, and slashing damage and can make two additional attack when you take the Attack action on your turn. However, for the duration, your movement speed is halved and you have disadvantage on Dexterity checks and saving throws.
+
+Your gun rage ends if you use your bonus action to end it early, take cover, or finish your turn without attacking. 
+
+Once you use this ability, you must finish a short or long rest before using it again.
+{{pageNumber,auto}}
+\page
+
+### Gun-Ko Master
+The ancient art of gun-ko is passed through
+generations of gunslingers who study the gun as a
+perfect weapon and meditate on its intricacies. This
+path is not for the impatient or the faint of heart, but
+those who practice it diligently make their guns an
+extensions of themselves, learning to strike with the
+speed of a rifle and catch bullets out of the air.
+#### Gun-Ko Exploits
+You learn certain Exploits at the Gunslinger levels noted in the table below. These don't count against your number of Exploits Known and can't be switched upon gaining a level.
+|Gunslinger Level| Exploit|
+|:---------:|:------------:|
+3rd |disarm, lightstep
+5th |dirty hit, redirect
+9th |heroic focus
+
+#### Gun-Martial Arts
+Beginning at 3rd level, you learn the immortal art of gun-ko, which sees the gun as a total weapon, as devastating used as a melee weapon in close-quarters as it is fired at range. You can treat ranged weapons as melee weapons with the Finesse property that deal 1d6 bludgeoning damage on a
+hit, or 1d8 damage if the ranged weapons has the Two-Handed
+property.
+
+Additionally, when you make a ranged weapon attack using a firearm against a creature within 5 feet of you, you can make a melee weapon attack using that firearm as a
+bonus action.
+
+#### Point Blank Shot
+At 3rd level, you don't suffer disadvantage from making a
+ranged attack with a ranged weapons while you are within 5 feet of a hostile creature.
+
+\column
+
+#### Lightning Disarm
+At 6th level, you can use the disarm exploit without expending an exploit die a number of times equal to your proficiency modifier per long rest. The attack deals no bonus damage if you don’t expend a die. If you have at least a free hand and are within 5ft of the creature you can grab the weapon instead of making it drop.
+
+Additionally, you can use your reaction to deflect or catch a projectile when you are hit by a ranged weapon attack. When you do so, the damage you take from the attack is reduced by 1d10 + your Dexterity modifier + proficiency bonus.
+
+#### Predictive Dodge
+At 10th level, your reflexes are so honed that you
+can dodge incoming bullets. You can use your bonus
+action to choose one creature that you can see within
+30 feet of you. You gain the benefits of the Dodge
+action against the target's ranged attacks and effects
+until the beginning of your next turn. You lose this
+benefit if you take damage from the target.
+
+#### Gatling Strikes
+By 14th level, you have mastered the most advanced
+techniques of gun-ko. You can use your bonus action
+to make two melee weapon attacks and one ranged
+weapon attack using a firearm against targets within
+15 feet of you. Once you use this ability, you can't use it again until you finish a short or long rest.
+
+
+
+{{pageNumber,auto}}
+\page
+### Gundead
+The gun is a pure connection between life and death; it is
+an object connected to the very soul, for it is can send
+anyone to the afterlife with the pull of a trigger. 
+
+#### Gun Soul
+Starting at 3rd level, your brushes with death have loosened your soul, allowing you to enhance your firearm by placing a fragment of your soul into a shot. When you hit with a ranged attack using a ranged weapons, you can use your bonus action to deal bonus necrotic damage equal to your proficiency bonus.
+
+#### Dead Shot
+Also at 3rd level, you can shoot a bullet into the heart of a humanoid corpse, rousing it from death. You can use this ability as an action, or as a reaction when you reduce a humanoid to 0 hit points with a ranged weapons attack, slaying and reanimating the target with a single bullet. The corpse rises as a zombie under your control, as per the *animate dead* spell.
+
+Undead animated by this ability collapse into dust at the
+end of your next turn, but last longer as you gain higher
+levels in this class. At 7th level, undead you summon last
+for 1 minute, at 10th level, undead last 10 minutes, and at 14th level, undead last 1 hour.
+
+Once you use this ability you can't use it again until you finish a short or long rest. Beginning at 10th level, you can use this ability twice between rests.
+
+#### Gun Soul Exploits
+You learn certain Exploits at the Gunslinger levels noted in the table below. These don't count against your number of Exploits Known and can't be switched upon gaining a level.
+|Gunslinger Level| Exploit|
+|:---------:|:------------:|
+3rd |Crippling Strike, Precision Strike
+5th |dirty hit, Volley
+9th |Incite Violence
+
+#### Sleep of the Dead
+Beginning at 6th level, while you remain motionless, you are indistinguishable from a corpse.
+
+#### Grave Whisperer
+At 10th level, you gain the ability to converse with undead as if you shared a language with them. In addition, you gain advantage on any Charisma checks you make to interact with undead creatures that understand a language.
+
+#### Ghost Bullet
+By 14th level, you have become more adept at creating
+undead using your soul and are now able to enhance those
+that you raise from the dead. When you animate an undead
+using your Dead Shot feature, the target now rises as a
+ghoul under your control, but otherwise follows the spell
+*animate dead*.
+
+\column
+### Grenadier
+You believe that virtually all problems can be solved with
+the careful application of high-explosives, and will go to
+great lengths to prove this thesis. Demolitions are your
+expertise, and anything that can cause explosions at long
+range is your instrument.
+
+#### Explosives ammunition
+Choose one ranged weapon you are proficient with. When wielding this firearm, it gains the explosive property.
+
+#### High Explosive
+Beginning when you choose this creed at 3rd level,
+whenever you make an attack with a weapon that has the
+Explosive property, you can use your bonus action to
+double the projectile's blast radius.
+
+Additionally, weapons with the Explosive property use your exploit save DC, if it would be higher.
+
+
+
+#### Grenadier Exploits
+You learn certain Exploits at the Gunslinger levels noted in the table below. These don't count against your number of Exploits Known and can't be switched upon gaining a level.
+|Gunslinger Level| Exploit|
+|:---------:|:------------:|
+3rd |Alchemical Adept, Operative’s Cunning
+5th |Alchemical Oil ,Flaming Shot
+9th |Thunderous Shot
+
+#### Configurable Blast
+Starting at 6th level, once per turn when you hit a creature with a ranged weapon attack using a weapon with the Explosive property, you deal an additional 1d8 damage of the weapon’s type to the target. After dealing this extra damage, you can choose one of the following benefits to apply to that attack:
+
+**Demolition Blast.** The explosion deals double damage
+to objects and ignores the damage threshold of objects.
+
+**Elemental Blast.** You cause the explosion to deal Acid, Cold, Lightning, or Thunder damage rather than its normal damage type.
+
+**Incendiary Blast.** Flammable objects in the area of the
+explosion that aren’t being worn or carried start burning.
+
+#### Take Cover
+Starting at 10th level, each creature you choose gains the benefits of your Evasion feature while it is within 5 feet of you.
+
+{{note
+##### Explosive property
+
+When this weapon’s projectile hits a target, it explodes in a 5-foot radius. The projectile can be fired at an unoccupied space within its range. Each creature other than the target within the blast radius must succeed on a DC 14 Dexterity saving throw, taking half the damage rolled on a failed save or no damage on a successful one.
+}}
+
+
+
+{{pageNumber,auto}}
+\page
+#### Clusterbomb
+By 14th level, you can load and fire a special projectile that is packed tight with smaller explosives which scatter on impact. You can load and fire this projectile as an action; the projectile's range is determined by the weapon that fires it. When the clusterbomb lands, it explodes in a 20-foot radius. Each creature within the blast radius must make a Dexterity saving throw with disadvantage against your exploit save DC, or take 10d6 fire damage on a failed save, or half as much on a successful one.
+
+Once you use this ability, you can't use it again until you finish a long rest. You can also restore your use of it by expending four Exploit Die.
+
+### High Roller
+Fortune is a fickle thing—unless you’re a high roller. These  gunslingers are master card sharps and dice throwers that  mix their love of risk with their talent for gunplay. High  rollers push their luck until it runs out, then push harder.  Why settle for just a win when you could bet it all and win  big? 
+
+#### Bonus Proficiencies 
+When you choose this creed at 3rd level, you gain  proficiency with all gaming sets and in your choice of one  of the following skills: Deception, Insight, or Perception. 
+
+#### All In 
+
+Also at 3rd level, you can use your bonus action when you  make an ability check or attack roll, or your reaction when  you make a saving throw to expend and roll one of your exploit dice.
+
+You choose to do this after you roll the d20 but  before the GM says whether the roll succeeds or fails. 
+
+If you roll a 1 on your exploit die, you fail the ability  check, attack roll, or saving throw, regardless of the result.  Otherwise, you add the number rolled on your exploit die to the result. 
+
+#### High Roller Exploits
+You learn certain Exploits at the Gunslinger levels noted in the table below. These don't count against your number of Exploits Known and can't be switched upon gaining a level.
+|Gunslinger Level| Exploit|
+|:---------:|:------------:|
+3rd |Precision Strike, Scholar’s Insight
+5th |Exposing Strike, suppressing  strike
+9th |Thunderous Shot
+
+#### Risky Business 
+ 
+At 6th level, when you make an attack roll against a  hostile creature or a hostile creature forces you to make  a saving throw and you don’t have disadvantage, you can  choose to make the roll with disadvantage. When you do,  you regain an expended exploit die.
+
+![Colt](https://i.imgur.com/450BwCX.png) {width:305px,position:absolute,left:500px,bottom:0px,transform:scaleX(-1)}
+
+{{artist,position:absolute,top:780px,left:550px,margin-bottom:-30px
+##### Thomas 'Colt' Cassidy
+}}
+\column
+
+#### Boom and Bust 
+Starting at 10th level, when you score a hit on a ranged attack, you can add your proficiency bonus to damage roll. 
+
+When you roll a 1 on a ranged attack roll, you can choose to take psychic damage equal to your proficiency bonus or lose this feature for the next minute. 
+
+
+#### Double or Nothing 
+
+At 14th level, when you score a critical hit, you can roll two additional d20s. Treat these d20s as if they were ranged attack rolls you made against the target. 
+
+If they both miss, your critical hit becomes a normal hit. If either of these d20s would score a critical hit, roll all of the attack’s damage dice five times and add them together, instead of only two times as normal for a critical hit. 
+
+Otherwise, the critical hit happens as normal.
+{{pageNumber,auto}}
+\page
+### Holy Marksman
+Gunslingers who follow the path of the Holy Marksman blend their skill with firearms with divine power. They see their weapons as instruments of justice and righteousness, smiting their enemies with holy fervor. 
+#### Divine Smite
+At 3rd level, when you choose this subclass at 3rd level, you gain the ability to imbue your shots with divine energy. When you hit a creature with a ranged weapon attack, you can expend one spell slot to deal radiant damage to the target, in addition to the weapon's damage. The extra damage is 2d6 for a 1st-level spell slot, plus 1d6 for each spell level higher than 1st, up to a maximum of 5d6. The damage increases by 1d6 if the target is an undead or a fiend.
+#### Consecrated Magic
+Beginning 3rd level , your blind loyalty to the god you serve has granted you the ability to cast divine spells, much like a Paladin does.
+
+**Spell Slots.** The Holy Marksman Spellcasting table shows how many spell slots you have to cast your spells of 1st-level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all of your expended spell slots each time you finish a long rest.
+
+**Spells Known of 1st-Level and Higher.** The Spells Known column in the Holy Marksman Spellcasting table indicates when you learn additional paladin spells of 1st level or higher. You can learn any paladin spells as long as they do not restore hit points to their target. You may also choose any smite spell of your choice, and it must be of a level for which you have available spell slots. You can use these spells with ranged weapon attacks, as long as they are done within half the weapon's normal range.
+
+
+**Spellcasting Ability.** Charisma is your spellcasting ability for your Holy Marksman spells, so you use your Charisma whenever a spell refers to your spellcasting ability, when you set a spell saving throw DC, or when you make a spell attack roll.
+
+**Spell save DC** = 8 + your proficiency bonus + your Charisma modifier
+
+**Spell attack modifier** = your proficiency bonus + your Charisma modifier
+
+\column
+
+
+##### Holy Marksman Spellcasting
+Gunslinger Level| Spells Known| 1st Level| 2nd Level| 3rd Level| 4th Level
+|:-:|:-:|:-:|:-:|:-:|:-:|
+3rd| 3| 2| —| —| —
+4th| 4| 3| —| —| —
+5th| 5| 3| ─| —| —
+6th| 5| 3| ─| —| —
+7th| 6| 4| 2| —| —
+8th| 6| 4| 2| —| —
+9th| 7| 4| 2| —| —
+10th| 7| 4| 3| —| —
+11th| 8| 4| 3| —| —
+12th| 8| 4| 3| —| —
+13th| 9| 4| 3| 2| —
+14th| 9| 4| 3| 2| —
+15th| 10| 4| 3| 2| —
+16th| 10| 4| 3| 3| —
+17th| 11| 4| 3| 3| —
+18th| 11| 4| 3| 3| —
+19th| 12| 4| 3| 3| 1
+20th| 12| 4| 3| 3| 1
+
+
+#### Aura of Accuracy
+
+Starting 6th level, you develop an aura that helps you and your allies to hit more accurately with your attacks. You have an aura that extends 10 feet around you. You and friendly creatures within this aura gain a +1 bonus to attack rolls with ranged weapons. At 18th level the range of this ability increases to 30 feet.
+
+#### Blessed Ammunition
+Starting at 10th level, your ammunition is infused with divine energy. Your ranged weapons no longer require ammunition, as it is magically produced when you make an attack.
+
+Additionally, your attacks with these weapons deal radiant damage instead of their normal damage type and deal an extra 1d6 radiant damage.
+
+
+#### Divine Retribution
+
+At 14th level, your shots imbued with celestial energy can weaken your enemies. When you or a creature within 30 feet of you takes damage from an attack, you can use your reaction to make a ranged weapon attack against the attacker. If the attack hits, you can use your Divine Smite feature as part of this attack without expending a spell slot. 
+
+Once you use this feature, you can't use it again until you finish a short or long rest.
+
+Additionally, the damage of your Divine Smite increases by an additional 1d6.
+{{note
+##### Alternative Spellcasting List
+**Ask your DM**
+Holy Marksmans Spell List can be replaced by the Divine Spell List, all other restrictions still apply. Can also choose any smite spell.
+}} 
+{{pageNumber,auto}}
+\page
+### Janissary
+In a time when most warriors fight with swords or bows,
+you were among the first to see the potential of gunpowder
+to reshape warfare.
+
+#### Coordinated Volley
+When you reach 3rd level, your superior training enables you to focus fire with your allies. Once on each of your turns, when you make an attack with a ranged weapons against a target within your weapon’s normal range that has been hit by another ranged weapons attack by one of your allies since the end of your last turn, you can gain advantage on the attack.
+
+#### Janissary’s Formation
+Also at 3rd level, your training in disciplined ranks allows you and your allies to fight as a single war machine. When you hit a creature with a ranged weapon attack, one ally within your weapon’s normal range of you can use their reaction to make a ranged weapon attack against the same target.
+
+Additionally, when you are wielding a ranged weapon, it never jams or misfires, even if submerged in water, and any spell or magical effect that would cause your weapons or ammunition to malfunction automatically fails.
+
+#### Janissary Exploits
+You learn certain Exploits at the Gunslinger levels noted in the table below. These don't count against your number of Exploits Known and can't be switched upon gaining a level.
+|Gunslinger Level| Exploit|
+|:---------:|:------------:|
+3rd |Charlatan’s Guile, Commander’s Presence
+5th |Exposing Strike, Volley
+9th |Recruit Mercenary
+
+#### Steel Discipline
+By 6th level, your years of experience make
+you almost impossible to deceive. You have advantage on any saving throw imposed by a spell of the illusion or enchantment school and on any ability check made do discern or disbelieve an illusion
+
+#### Influence
+At 10th level, as an action, you can issue a commanding directive to your allies within 30 feet who can hear and understand you. For the next minute, these allies gain the following benefits:
+
+**Inspired Aim.** When an affected ally makes a ranged attack with a ranged weapon, they can add your Charisma modifier to the attack roll.
+
+**Coordinated Assault**. When two or more affected allies are within 5 feet of each other and making ranged attacks, they can use their reaction to provide cover for each other, granting a +2 bonus to AC until the start of their next turn.
+
+**Swift Maneuvering.** Once per round, as a reaction to being targeted by a ranged attack, an affected ally can move up to half their speed without provoking opportunity attacks.
+
+Once you use this feature, you can't use it again until you finish a short or long rest. 
+
+
+
+
+#### Defensive Formation
+Starting at 14th level, you are considered to benefit from half cover against all ranged attacks as long as you are within 10 feet of an ally who is not unconscious. If you are standing directly behind an ally, you have three-quarter cover instead.
+
+### Laserist
+Gunslinging, as you well understand, is more science than art, especially when using cutting-edge blaster technology. 
+#### Beam Shot
+Starting at 3rd level, once per turn when you make an
+attack roll with a ranged weapons, you can expend a expoit die to fire a penetrating laser shot. When you do do, your fire a blast in a 5-foot wide line, extending out to the normal range of the ranged weapon; attacks against targets outside of this range automatically miss. Make a separate attack roll for each target in the line and add the expoit die to one of the damage rolls.
+#### Laserist Exploits
+You learn certain Exploits at the Gunslinger levels noted in the table below. These don't count against your number of Exploits Known and can't be switched upon gaining a level.
+|Gunslinger Level| Exploit|
+|:---------:|:------------:|
+3rd |Precision Strike, Reliable Skill
+5th |Improvised Skill, Suppressing Strike
+9th |Survey Settlement
+
+#### Multi-Configure Weapon
+At 6th level, you can integrate up to two ranged weapons into your armor or clothing, leaving  your hands available even during combat. You can change which ranged weapons are integrated during a long rest.
+
+Additionally, whenever you hit a creature with a ranged attack, you can cause the
+blaster bolt to deflect off the target to a second creature you can see within 30 feet of the original target. The target takes damage of the weapon’s type equal to your Dexterity modifier (minimum of 1).
+
+#### Deflection Shield
+Beginning at 10th level, you have installed a sophisticated electromagnetic device on your person, capable of scattering an incoming blaster shot. As a reaction whenever you take lighting, necrotic, radiant, or thunder damage, you can expend a exploits die to gain resistance to this damage.
+
+{{pageNumber,auto}}
+\page
+#### Tri-Laser
+By 14th level, you have perfected a blaster design of
+singularly destructive power, the tri-laser, whose projectiles emulate the dynamics of a sphere of annihilation. As an action, you can fire the laser, creating a two-foot diameter sphere of energy. However, this sphere floats to its target sluggishly, moving only 15 feet, and continuing its movement at the beginning of each of your turns, moving 15 feet each turn. The sphere deals 4d10 radiant damage to anything it touches, disintegrating nonmagical objects it reduces to 0 hit points. The sphere dissipates when it meets an obstruction that is not destroyed by it.
+
+### League of Shadows
+The Gunslingers of the League of Shadows are elite operatives renowned for their unparalleled marksmanship and deadly precision. Masters of firearms and shadows alike, these gunslingers operate on the fringes of society, wielding their shadowy powers to strike fear into the hearts of their enemies. Trained in the art of assassination and covert operations, they excel in the art of the kill, using their firearms to dispatch targets with ruthless efficiency. With each shot fired, they bring one step closer the League's ultimate goal: the overthrow of corrupt monarchies and the establishment of a new era of governance. Whether picking off targets from the shadows or engaging in high-stakes gunfights, the League of Shadows Gunslingers are the epitome of deadly grace, executing their missions with deadly accuracy and unwavering resolve.
+#### Shadow Tactics
+Starting at 3rd level, you gain proficiency with the disguise kit and the poisoner's kit if you don't already have it.
+
+Additionally, having a hostile creature within 5 feet of you does not impose disadvantage on your ranged weapon attacks
+#### Cloak of Shadows
+At 3rd level, you gain the ability to blend into the shadows with ease. As a bonus action, you can magically become invisible until the end of your next turn or until you attack, make a damage roll, or force someone to make a saving throw. 
+
+You can use this ability a number of times equal to your proficiency bonus, and you regain all expended uses of this ability when you finish a long rest.
+
+#### Shadows Exploits
+
+Gunslinger Level|	Exploit
+:-:|:-:
+3rd|	Precision Strike, Smoke Bomb
+5th|	Flash Bomb, Improvised Skill
+9th|	Survey Settlement
+
+\column
+
+#### Shadow Strike
+Starting at 6th level, you gain the ability to conjure shadowy ammunition with your cunning manipulation of the shadows. When you hit a creature with a ranged weapon, you can deal an additional 1d8 necrotic damage.
+
+#### Shroud of Deception
+At 10th level, you gain the ability to mask your true intentions and manipulate the perceptions of others. You can cast the spell Nondetection on yourself at will, without expending a spell slot or material components. 
+
+Additionally, when you make a Charisma (Deception) check to pass yourself off as someone else, your proficiency bonus is doubled.
+
+####  Shadow Veil
+Upon reaching 14th level, you master the art of blending into the shadows and striking from unseen places. While you are in dim light or darkness, you have advantage on attack rolls and ability checks.
+
+Furthermore, you can use your bonus action to teleport up to 60 feet to an unoccupied space that is also in dim light or darkness.
+
+{{imageMaskCorner21,--offsetX:53%,--offsetY:-40%,--rotation:0
+  ![](https://i.imgur.com/8JNrSfg.jpg){height:70%,left:390px}
+}}
+
+{{pageNumber,auto}}
+\page
+### Lucky Son of a Bitch
+Sometimes, it's better to be lucky than good; in fact, some gunslingers find this is their defining characteristic. Lucky gunslingers engage in some spectacularly dangerous behavior, running in unawares, will shooting from the hip, and mouthing insults whenever they can, but somehow always come out unscathed. 
+
+#### Fortune's Favorite
+Starting when you choose this archetype at 3rd level, you
+can reroll on ability check, attack roll or saving throw. You choose to reroll after you roll the die, but before the outcome is determined. 
+
+You gain the ability to use this ability an additional time at 7th level (2 times), 10th level (3 times), and 14th level (4 times) and regain all uses of this ability when you finish a long rest.
+
+#### Lucky Evasion
+At 3rd level, when you're hit by a ranged attack, you can use your reaction to call upon your luck. Roll a d6. On a 4 or higher, the attack misses you, regardless of its roll.
+
+Once you use this feature, you can’t use it again until you finish a Short or Long Rest 
+
+#### Lucky Exploits
+You learn certain Exploits at the Gunslinger levels noted in the table below. These don't count against your number of Exploits Known and can't be switched upon gaining a level.
+|Gunslinger Level| Exploit|
+|:---------:|:------------:|
+3rd |lightstep, gambler’s ploy
+5th |improvised skill, trick shot
+9th |survey settlement
+
+#### Against All Odds
+At 6th level, when you miss with an attack roll using a ranged weapon, you can roll a d6. On a 5 or 6, the shot miraculously ricochets failure into fortune. The target is momentarily distracted, granting the next attack roll made against it before the start of your next turn advantage.
+
+You can use this feature a number of times equal to your proficiency bonus, and regain all expended uses when you finish a long rest.
+
+#### Half-Cocked
+Starting at 10th level, you have advantage on attack rolls
+against any creature that hasn't taken a turn in the combat yet.
+
+
+#### One in a Million Shot
+By 14th level, you seem to have a knack for triumphing to the fullest extent even in the best of odds. When you score a critical hit and any of your dice rolls is the maximum possible result for any die rolled as part of the attack, you can reroll that die and add the new result to the total damage. You can only use this ability once per turn.
+\column
+
+### Musketeer
+You believe that camaraderie and glory go hand-inhand,
+that you and your allies are undefeatable as
+long as you stand together. As such, you have trained
+with blades and halberds, so that you battle up-close.
+Your place is not supporting them from afar, but
+launching a single volley of shot before charging
+in, bayonet or cutlass in hand, that you might all
+succeed or fail as one.
+
+#### Musketeer Exploits
+You learn certain Exploits at the Gunslinger levels noted in the table below. These don't count against your number of Exploits Known and can't be switched upon gaining a level.
+|Gunslinger Level| Exploit|
+|:---------:|:------------:|
+3rd |crippling strike, take down
+5th |heroic will, suppressing strike
+9th |war cry
+
+#### Bonus Proficiencies
+Starting when you choose this creed at 3rd level, you gain proficiency in the bayonet, cutlass, rapier, shortsword, and halberd.
+
+Additionally you ignore the Loading, Misfire and Reload properties of weapons.
+#### Heavy Shot
+At 3rd level, during a rest, you can modify your ammunition with scraps to make them heavier. When you  make a ranged attack using this ammunition the attack’s ranges are halved and deals extra damage equal to your proficiency bonus.
+
+#### Morale Boost
+At 6th level,  When you use a Exploit die, choose up to 5 allies you can see within 30 feet of yourself. Each chosen ally gains Temporary Hit Points equal to one roll of your Exploit Die plus half your Gunslinger level (round down).
+
+#### Mobile Tactics
+Starting at 10th level, you hit a creature with an attack, the target can’t make Opportunity Attacks against you until the start of its next turn.
+
+#### All For One
+By 14th level, whenever a friendly creature within 60 feet of you is attacked, you use your reaction to make a ranged weapon attack targeting the attacker.
+{{pageNumber,auto}}
+\page
+
+
+### Pistolero
+Bullets are power, and you have long believed that
+more bullets equal more power. Your expertise is
+in delivering a hail of deadly fire to pulverize your
+enemies. Not every bullet needs to be accurate to
+make a difference.
+
+#### Pistolero Exploits
+You learn certain Exploits at the Gunslinger levels noted in the table below. These don't count against your number of Exploits Known and can't be switched upon gaining a level.
+|Gunslinger Level| Exploit|
+|:---------:|:------------:|
+3rd |operative’s cunning, precision strike
+5th |exposing strike, volley
+9th |recruit mercenary
+
+#### Fan the hammer
+Starting at 3rd level, when you expend an exploit die as part of your attack action during your turn, you can make two ranged weapon attack as a bonus action with disadvantage. The weapon you use can’t have the heavy or automatic property.
+
+At 14th level, you can make three additional attacks.
+
+
+#### Draw!
+At 3rd level, when you roll initiative you can make a ranged weapon attack against a creature you can see within range. The weapon you use can’t have the heavy property.
+
+#### Disarm
+Starting at 6th level, when you score a Critical Hit and trigger your Gut Shot feature against a creature, you can disarm the target instead of lodging a projectile in it.
+
+The target drops one object of your choice that it’s holding, with the object landing in a space of your choice up to 15 feet away from the target.
+
+
+#### Bullet Time
+At 10th level, when you make a ranged weapon attack with a one-handed ranged weapon on your turn, you can use your bonus action to gain advantage on the attack roll. 
+
+Once you use this ability, you can’t use it again until you finish a short or long rest. You can also restore your use of it by expending one Exploit Die (no action required).
+
+#### Skin of Your Teeth
+At 14th level, when a creature you can see hits you with an attack roll, you can take a Reaction and expend one Exploit Die to dodge out of harm’s way. Roll the die and add the number rolled to your AC against this attack, potentially causing it to miss.
+
+\column
+
+### Sharpshooter
+A well-placed bullet is more powerful than a sword,
+arrow, or spell. Indeed, you believe that every
+violent conflict should sound like a single loud crack
+followed by a long silence. Such shots need to be
+delivered perfectly, even at range, for when they are
+done right, they are as deadly for the target as they
+are stupendous for the audience.
+#### Sharpshooter Exploits
+You learn certain Exploits at the Gunslinger levels noted in the table below. These don't count against your number of Exploits Known and can't be switched upon gaining a level.
+|Gunslinger Level| Exploit|
+|:---------:|:------------:|
+3rd |keen observation, steady aim
+5th |suppressing strike, take cover
+9th |thunderous shot
+
+####  Sharpshooter’s Stance
+Starting at 3rd level, you don’t have Disadvantage on ranged attack rolls as a result of the Prone condition.
+Additionally, when you have the Prone condition, you can right yourself and thereby end the condition with only 5 feet of movement. 
+#### Eagle Eye
+At 3rd level, once per turn when you miss with a ranged attack roll, you can expend one Exploit Die and add it to the attack roll, potentially causing the attack to hit.
+
+#### Camouflage
+By 6th level, you can take the Hide action even if you aren’t Heavily Obscured or behind Three-Quarters Cover or Total Cover, as long as you have the Prone condition.
+
+The Invisible condition of this Hide action ends if you don’t have the Prone condition.
+
+If you make an attack roll while hidden and the roll misses, making the attack roll doesn’t reveal
+your location.
+#### Reposition
+At 10th level, whenever a creature misses you with an attack roll, you can take a Reaction to end the Prone condition on yourself and move up to half your Speed. 
+
+#### Focused Shot
+Starting at 14th level, when you take the Attack action, you can choose to make
+only one ranged attack roll using a weapon to make a Focused Shot. 
+
+You have Advantage on this attack roll and, on a hit, score a Critical Hit. 
+{{pageNumber,auto}}
+\page
+
+### Space Cowboy
+
+Nothing matters to you more than freedom. With a
+blaster on your hip and the wide-open sky to explore,
+you no longer have to answer to any man. Conversely,
+the horrible dangers of the final frontier tend to draw gamblers and risk-takers, be they unscrupulous smugglers, bloodthirsty bounty hunters, or big damn heroes.
+
+#### Bonus Proficiencies
+When you adopt this creed at 3rd level, you gain proficiency with the animal handling skill.
+
+#### Cowboy Exploits
+You learn certain Exploits at the Gunslinger levels noted in the table below. These don't count against your number of Exploits Known and can't be switched upon gaining a level.
+|Gunslinger Level| Exploit|
+|:---------:|:------------:|
+3rd |Menacing Shout, Precision Strike
+5th |Exposing Strike, Improvised Skill
+9th |Survey Settlement
+
+
+#### Hot Shot
+Also at 3rd level, when you take the Attack action on your turn with a ranged weapon, you can use your bonus action to to power up your next attack. Whenever you hit a creature with an attack from this weapon during the Attack action, you can deal an additional die of damage to that creature. Afterward, however, your weapon is out of ammo and you can't use this feature again until the end of your next turn. A out of ammo weapon can't be fired again until the end of your next turn.
+
+#### Gun with a Name
+At 6th level, you can customize your ranged weapon to better suit the rugged lifestyle of a frontiersman. If you spend a short rest working on a ranged weapon and you gain the following benefits:
+- You can modify it such that its normal and long ranges are doubled 
+- It functions normally in adverse weather conditions, it can be fired normally underwater 
+- it can be used as a melee weapon with the statistics of a mace. 
+
+You can only have one ranged weapon modified in this way at any given time, and only you are able to use this weapon proficiently.
+
+\column
+
+#### Final Frontier
+By 10th level, the strange fighting styles of all manner of aliens no longer surprise you. You have advantage on saving throws against effects caused by aberrations, monstrosities, or oozes. 
+
+In addition, you have advantage on Charisma checks you make to interact with aberrations.
+
+#### Epic Tamer
+When you reach 14th level, you master the art of training wild animals in the farm. 
+
+You gain the ability to casty *Find Greater Steed* spell without need spell slot and components material. You can use this feature once per long rest. 
+
+While you are mounted, you have half cover.
+
+![Marisse LeCharm](https://i.imgur.com/RLyhtZ6.png) {width:635px,position:absolute,left:320px,bottom:0px,transform:scaleX(-1)}
+
+{{artist,position:absolute,top:530px,left:430px,margin-bottom:-30px
+##### Marisse LeCharm
+}}
+{{pageNumber,auto}}
+\page
+### Spellslinger
+Magic and guns aren't so different. If arcane power
+is like gunpowder and a spell is like a bullet, you are
+like a gun, directing your spells with precision at
+unfortunate targets. You mix the disciplines of gun
+and spell, sometimes loading arcane charges with
+your shots and firing streaks of lighting, frost, or
+flame in the wake of your bullet.
+
+#### Spellcasting
+When you reach 3rd level, you complement your
+bullets with the ability to cast spells.
+
+**Cantrips.** You learn finger guns and two other
+cantrips of your choice from the wizard spell list. You
+learn an additional wizard cantrip of your choice at
+10th level.
+
+**Spell Slots.** The Spellslinger Spellcasting table
+shows how many spell slots you have to cast your
+spells of 1st level and higher. To cast one of these
+spells, you must expend a slot of the spell’s level or
+higher. You regain all expended spell slots when you
+finish a long rest.
+
+**Spells Known of 1st-Level and Higher.** You
+know three 1st-level wizard spells of your choice, two
+of which you must choose from the abjuration and
+evocation spells on the wizard spell list.
+
+The Spells Known column of the Spellslinger Spellcasting table shows when you learn more wizard spells of 1st level or higher. Each of these spells must be an abjuration or evocation spell of your choice, and must be of a level for which you have spell slots. 
+
+For instance, when you reach 7th level in this class,
+you can learn one new spell of 1st or 2nd level.
+
+The spells you learn at 8th, 14th, and 20th level
+can come from any school of magic.
+
+Whenever you gain a level in this class, you can replace one of the wizard spells you know with another spell of your choice from the wizard spell list. The new spell must be of a level for which you have spell slots, and it must be an abjuration or evocation spell, unless you’re replacing the spell you gained at 8th, 14th, or 20th level.
+
+**Spellcasting Ability.** Intelligence is your
+spellcasting ability for your wizard spells. You
+use your Intelligence whenever a spell refers to
+your spellcasting ability. In addition, you use your
+Intelligence modifier when setting the saving throw
+DC for a wizard spell you cast and when making an
+attack roll with one.
+{{text-alignment:center
+**Spell save DC** = 8 + your proficiency bonus + your Intelligence modifier::
+**Spell attack modifier** = your proficiency bonus + your Intelligence modifier
+}}
+
+#### Bang, you’re dead
+At 3rd level, you can use Exploits with finger guns spell attacks. When you do so, you roll an extra exploit die for damage.
+
+\column
+
+#### Spellshot
+Beginning at 6th level, when you take the Attack action on your turn, you can replace one of the attacks with a casting of one of your Wizard cantrips that has a casting time of an action.
+
+In addition, ranged weapons you use count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.
+#### Counter-Mage
+Your experience in combating spellcasters grants you the following benefits.
+
+**Abjuration-Breaker.** Whenever you make a ranged attack roll, you temporarily disrupt protective magic affecting the target. For the duration of the attack, the effects of spells targeting the
+creature, such as Mage Armor, as well as the properties and powers of magic items worn or carried by the creature, are suppressed and don’t function. The target of the attack can’t take a Reaction to cast spells such as Shield in response to the attack or damage.
+
+**Antimagic Shot.** When you score a Critical Hit and the target is affected by your Gut Shot feature, it also impedes the target’s ability to cast spells.
+
+While the projectile is lodged in the target, it can’t cast spells. 
+
+Additionally, the target has Disadvantage on Constitution saving throws it makes to maintain Concentration.
+
+**Inured to Magic.** When you fail a saving throw against a spell or magical effect, you can take a Reaction to roll a Eploit die and add it to the roll, potentially turning the failure into a success.
+
+{{classTable,frame
+##### Spellslinger Spellcasting
+| Class  | Cantrips | Spells  |--- Spells Slots per Spell Level ---||||
+| Level ^| Known   ^| Known  ^|   1st   |   2nd   |   3rd   |   4th   |
+|:------:|:--------:|:-------:|:-------:|:-------:|:-------:|:-------:|
+|  3rd   |    3     |    3    |    2    |    —    |    —    |    —    |
+|  4th   |    3     |    4    |    3    |    —    |    —    |    —    |
+|  5th   |    3     |    4    |    3    |    —    |    —    |    —    |
+|  6th   |    4     |    4    |    3    |    —    |    —    |    —    |
+|  7th   |    5     |    5    |    4    |    2    |    —    |    —    |
+|  8th   |    5     |    6    |    4    |    2    |    —    |    —    |
+|  9th   |    6     |    6    |    4    |    2    |    —    |    —    |
+|  10th  |    6     |    7    |    4    |    3    |    —    |    —    |
+|  11th  |    7     |    8    |    4    |    3    |    —    |    —    |
+|  12th  |    8     |    8    |    4    |    3    |    —    |    —    |
+|  13th  |    9     |    9    |    4    |    3    |    3    |    —    |
+|  14th  |    10    |   10    |    4    |    3    |    3    |    —    |
+|  15th  |    10    |   10    |    4    |    3    |    3    |    —    |
+|  16th  |    11    |   11    |    4    |    3    |    3    |    —    |
+|  17th  |    12    |   11    |    4    |    3    |    3    |    —    |
+|  18th  |    12    |   11    |    4    |    3    |    3    |    —    |
+|  19th  |    13    |   12    |    4    |    3    |    3    |    1    |
+|  20th  |    13    |   13    |    4    |    3    |    3    |    1    |
+}}
+
+{{pageNumber,auto}}
+\page
+#### Improved Spellshot
+At 14th level, when you use your action to cast a spell, you can expend one exploit die as a bonus action to make one ranged attack with a ranged weapon or make a ranged spell attack using the finger guns cantrip. If the spell requires an attack roll you can choose to substitute the spell attack with a ranged attack using the ranged weapon. Add the exploit die to both the spell and weapon’s damage rolls.
+
+### The Spiral Nomad
+While some gunslingers seek power in larger calibers or faster firing rates, nomads of the Spiral Creed find it in the fundamental geometry of the world. By applying a perfect, infinite rotation to their projectiles, these gunslingers turn simple thrown objects into devastating instruments of kinetic energy. They view every toss as a mathematical equation where the solution is a lethal, spiraling impact.
+
+
+#### Spiral Nomad Exploits
+You learn certain Exploits at the Gunslinger levels noted in the table below. These don't count against your number of Exploits Known and can't be switched upon gaining a level.
+|Gunslinger Level| Exploit|
+|:---------:|:------------:|
+3rd |Crippling Strike, Trick Shot
+5th |Exposing Strike, Suppressing Strike
+9th |Thunderous Shot
+
+
+#### Kinetic Revolution
+When you adopt this creed at 3rd level, you master the art of the rotating throw. You gain the Thrown Weapon Fighting style if you do not already have it. If you do, you may choose another style from the Gunslinger list.
+
+When you make a ranged weapon attack with a thrown weapon, you can use your Dexterity modifier for the attack and damage rolls. 
+
+Additionally, the weapon immediately fly back to your hand after the attack, whether it hits or misses.
+
+#### Golden Ratio Focus
+Starting at 6th level, your eyes can perceive the "Golden Scale" in all things. As a bonus action, you can analyze a creature or object to find its center of gravity. For 1 minute, your thrown weapon attacks against that target ignore half cover and three-quarters cover.
+
+Additionally, if you hit a creature with a thrown weapon while this focus is active, you can use your reaction to cause the weapon to ricochet to another creature within 10 feet. Make a new attack roll against the second creature; on a hit, it takes damage equal to your Exploit Die.
+
+
+\column
+
+#### Rotational Friction
+At 10th level, the spin you impart is so intense it creates a vacuum of kinetic force. Whenever you hit a creature with a thrown weapon attack, you can force the target to make a Strength saving throw against your Exploit save DC. On a failure, the creature is knocked prone or pushed up to 10 feet away from you (your choice).
+
+Furthermore, your thrown weapons now count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.
+
+#### The Infinite Rotation
+By 14th level, you have touched the essence of infinite energy. As an action, you can throw a weapon with a "Perfect Spin". This attack automatically scores a Critical Hit if it hits.
+
+If the target is a creature, the spinning weapon remains lodged in them or circles them relentlessly for 1 minute. At the start of each of the target's turns, it takes necrotic damage equal to two rolls of your Exploit Die as the rotation continues to grind through them. 
+
+The target can end this effect early by using its action to make a Strength check against your Exploit save DC to stop the rotation.
+
+Once you use this feature, you can't do so again until you finish a short or long rest.
+{{pageNumber,auto}}
+\page
+### Storm Gunner
+Overkill is a silly notion. You believe that holding down
+the trigger until your opponent resembles a fine cheese isn't just effective, it's the optimal way to begin and end any engagement. Like other storm gunners, you can rain bullets down on your foes with deadly precision, and favor tactics that involve sprinting around with a machine gun above all others.
+
+#### Bullet Tempest
+Your mastery over firearms allows you to transform simple ranged firearms into automatic weapons, turning any skirmish into a storm of bullets. Choose one simple ranged weapon you are proficient with. When wielding this ranged weapon, it gains the automatic property.
+
+#### Concentrated Fire
+Starting when you choose this creed at 3rd level, you are
+surprisingly accurate, even when delivering a hail of
+gunfire. Whenever you use a ranged weapon with the Automatic property to attack with disadvantage, you gain a +2 bonus to your attack rolls.
+
+#### Bullet Hell
+Also at 3rd level, once per turn when you use a ranged weapon with the Automatic property to attack twice with disadvantage, you can instead choose to make an attack roll with disadvantage against each target with the weapon's normal range, to a maximum number of targets equal to your Intelligence modifier (minimum 1).
+
+#### Storm Bullets Exploits
+You learn certain Exploits at the Gunslinger levels noted in the table below. These don't count against your number of Exploits Known and can't be switched upon gaining a level.
+|Gunslinger Level| Exploit|
+|:---------:|:------------:|
+3rd |Disarm, Steady Aim
+5th |Dirty Hit, Suppressing Strike
+9th |Incite Violence
+
+#### Ammunition Belt
+By 6th level, you can use your action to load each firearm
+that has the Automatic property that you are holding with
+an extended belt of ammunition. 
+
+While you are holding it,
+this weapon no longer needs to be reloaded, though it
+expends ammunition as normal.
+
+\column
+
+#### Running Riot  
+Starting at 10th level, your prowess and agility in combat allow you to read the battlefield with clarity and anticipate your enemies' movements. While in combat, you can use your reaction to move up to your speed without provoking opportunity attacks from creatures you can see. 
+
+
+#### Riddle with Holes
+By 14th level, you can shape your cloud of bullets any
+way you wish. When you use a ranged weapon with the Automatic property to attack automatically, you can choose to make the attacks without disadvantage. you don't add your ability score to these attacks.
+
+Additionally, if you have an ability that allows you to target an area with weapon attacks, you can exclude any creature you choose in the area of effect from making saving throws or taking damage.
+
+{{note
+##### Automatic property 
+When you make an attack with this weapon on your turn, you can choose to make two attacks with disadvantage instead. These attacks always have disadvantage, regardless of circumstance. These attacks use double the normal amount of ammunition.
+}}
+
+{{imageMaskCorner10,--offsetX:50%,--offsetY:-30%,--rotation:0
+  ![](https://i.imgur.com/hnymg0k.png){height:52%,left:350px}
+}}
+
+
+
+{{pageNumber,auto}}
+\page
+### Trick Shot
+Accuracy means different things to different people.
+For you, true accuracy isn’t necessarily in hitting
+a target on the first shot, but might include hitting
+the mark after the bullet bounces around a dozen
+times. Your attacks are just as dangerous if they miss,
+or even after hitting their mark, as others are while
+they’re still in the air.
+#### Trick Shot Exploits
+You learn certain Exploits at the Gunslinger levels noted in the table below. These don't count against your number of Exploits Known and can't be switched upon gaining a level.
+|Gunslinger Level| Exploit|
+|:---------:|:------------:|
+3rd |blinding debris, gambler’s ploy
+5th |dirty hit, trick shot
+9th |incite violence
+
+#### Creative Trajectory
+Starting at 3rd level you begin to find ways to make
+your proyectiles travel in unexpected ways. Your ranged weapon attacks ignore half cover.
+
+#### Ricochet
+At 3rd level when you miss with a ranged weapon attack and you do not have disadvantage on the roll, you can use your bonus action to reroll the attack roll and you must use the new roll. If this causes the attack to hit, the attack only deals only half damage.
+
+#### Light Footed
+By 6th level, you're just as good at escaping from
+trouble as you are getting in to it. You ignore difficult
+terrain.
+
+#### Deft Deflectionist
+Starting at 10th level, as a reaction when an attacker
+you can see makes a ranged attack roll against you,
+you can fire a ranged weapon you are holding to deflect
+the strike. Make an attack roll. If your attack roll is
+higher than the attacker's, the attack targeting you
+has disadvantage. You must use this feature before
+you know the outcome of the roll.
+
+#### Pinbal Shot
+Starting at 14th level, when you hit a creature with
+a ranged weapon attack, once per turn you can have
+the proyectile ricochet to hit an additional target. The
+second target must be within half the weapon's range
+of the first target. Make a separate attack roll for the
+second target. 
+
+You can use this ability a number of
+times equal to your Dexterity modifier, and regain all
+expended uses when you finish a long rest.
+
+{{pageNumber,auto}}
+\page
+### Twice-Damned
+You believe that the gun is the ultimate tool of vengeance, the only means to redress the balance of blood. Maybe you were robbed, humiliated, or left for dead; maybe you were even killed, but were later returned to life with hate overflowing your heart. 
+
+#### Black Bullet
+Starting at 3rd level, whenever you deal damage to a creature using a ranged weapon attack, the creature's hit point maximum is reduced for 1 hour by an amount equal to the damage dealt. Any effect that removes a disease allows a creature's hit point maximum to return to normal before that time passes.
+
+Additionally, when you deal damage with a firearm to a creature that has less than half its maximum hit points, you can use your bonus action to deal an additional 1d8 necrotic damage. At 11th level, this damage increases to 2d6.
+
+#### Hateful Vengeance
+At 3rd level, when you make a Wisdom (Survival) check to track a specific creature that has caused you harm or suffering, you can add your Charisma modifier to the check.
+
+#### Twice-Damned Exploits
+You learn certain Exploits at the Gunslinger levels noted in the table below. These don't count against your number of Exploits Known and can't be switched upon gaining a level.
+|Gunslinger Level| Exploit|
+|:---------:|:------------:|
+3rd |Disarm, Street Smarts
+5th |Soothing Speech, Suppressing Strike
+9th |Recruit Informant
+
+#### Grim Determination
+By 6th level, nothing shakes your resolve. when you fail an Intelligence, Wisdom, or Charisma
+ability check or saving throw, you can expend one Exploit Die to add it to the roll, potentially turning it into a success. 
+
+Once you use this feature, you can’t use it again until you finish a short or long rest.
+
+#### Shotgun Interrogation
+Starting at 10th level, with a cold glare and the barrel of a gun in someone's face, you can always get the answers you want to hear. You have advantage on Charisma
+(Intimidation) checks to make while holding a firearm, and
+you can treat a roll of 10 or lower as a 10.
+
+#### Marked for Death
+By 14th level, you feel an adrenaline burst whenever you
+exact vengeance. When you roll initiative, choose one
+creature you can see within 60 feet of you. If you reduce
+that creature to 0 hit points on your turn within the next
+minute, you gain one additional action, which can be used
+to take the Attack, Dash, Dodge, Disengage, or Hide action.
+{{pageNumber,auto}}
+\page
+### Wetslinger
+Gunslingers are known for their precision, speed, and mastery over firearms, but a Wetslinger takes their craft to a whole new level—by harnessing the power of water itself. Whether through sheer force of will, arcane manipulation, or an unexplainable bond with the tides, these marksmen turn the battlefield into a raging storm, their bullets crashing down like torrential waves.
+
+A Wetslinger doesn’t need gunpowder or conventional ammunition. Instead, they shape water into deadly projectiles, striking with relentless force. Their attacks mimic the power of high-pressure jets, pushing enemies back like an unyielding tide and rendering cover meaningless. Even in the depths of the ocean, their aim remains true, unimpeded by the weight of water.
+
+With time, a Wetslinger refines their techniques, turning their shots into concussive blasts that affect entire areas and using surging currents to retreat from danger with fluid grace. At the peak of their mastery, they can conjure spectral firearms from water itself and unleash devastating tidal strikes, ensuring that nothing stands against the overwhelming force of the sea.
+#### Water Pressure attacks
+Starting at 3rd level you treat any ranged weapons you are holding as having the scatter property, and whenever you hit a creature with a ranged weapon attack that benefits from the scatter property you can force the target to make a strength saving throw. 
+
+If the target succeeds it is pushed 5 feet away from you, if it fails it
+is pushed a number of feet equal to five times your proficiency modifier.
+
+Additionally your ranged weapon attacks are not affected by being underwater.
+
+#### Water ammunition
+Also at 3rd level, you can conjure and use water instead of your normal pieces of ammunition for your attacks. When you do so you can only attack up to the weapon's normal range. When you use water as your ammunition you can ignore the loading, reload and heat properties of your weapons and the weapon's damage becomes bludgeoning.
+
+#### Splash!
+Starting at 6th level, your attacks within scatter range also gain the explosive property.
+
+#### Watery retreat
+By 10th level, you learn to use the currents of water to help you keep clear of danger. As a reaction you make when you are attacked in melee range you conjure a blast of water that propels you backwards and away from your enemy as you move up to 20 feet in a straight line without provoking attacks of opportunity. 
+
+The creature that attacked you makes a strength saving throw, taking bludgeoning damage equal to 2 rolls of your exploit die on a failure.
+
+#### Tidal Armaments
+At 14th level, your control over waters grows, and you can better infuse your attacks and weapons with it's power.
+
+All damage dice affected by scatter grow 1 more step for you.
+
+You can now also conjure any ranged weapon you are proficient with using water as a bonus action. The weapon is magical, can only use water ammunition and has a +1 modifier, and lasts until you are no longer holding it.
+
+After hitting a single creature 3 times within a minute with a ranged weapon attack, a watery cannon ball is fired towards it at the end of your turn. This effect can ignore any type of cover as long as the creature is not totally covered from the front and above. The cannon ball affects all creatures within 5 feet of the target. Affected creatures take damage equal to 2 rolls of your exploit die or half as much if they succeed a dexterity saving throw.
+{{pageNumber,auto}}
+\page
+### White Hat
+Some gunslingers live by a code and expect others to
+do the same. These gunslingers, known as white hats,
+sometimes serve as agents of local or regional law but
+never hesitate to do what’s right no matter what the
+rules say. Despite their affinity for deadly weapons,
+white hats prefer to keep their friends safe and take
+their enemies in unharmed—a preference they find
+their enemies aren’t often inclined to oblige.
+
+#### White Hat Exploits
+You learn certain Exploits at the Gunslinger levels noted in the table below. These don't count against your number of Exploits Known and can't be switched upon gaining a level.
+|Gunslinger Level| Exploit|
+|:---------:|:------------:|
+3rd |commander’s presence, first aid
+5th |heroic will, intimidating command
+9th |survey settlement
+#### Lay Down The Law
+Starting at 3rd level, you can use a bonus action and expend one exploit die to keep a keen eye out for dangers that threaten your companions. Choose an ally that you can see within 60 feet of you. That ally gains Temporary Hit Points equal to the number rolled on the exploit Die.
+
+Until the start of your next turn, if the ally is hit by an attack, you can take a
+Reaction to make a ranged attack using a weapon against the attacker.
+
+#### Steely Eyed Aura
+Also at 3rd level, you and friendly creatures within
+10 feet of you have advantage on saving throws
+against being frightened while you are conscious.
+
+#### Reach For The Skies
+At 6th level, when you score a Critical Hit against a creature, you call for the target to surrender instead of lodging a projectile in it. 
+
+The target must succeed on a Wisdom saving throw against your Exploit save DC or have the Frightened
+and Incapacitated conditions for 1 minute. 
+
+These conditions end early if the creature takes any damage, if you have the Incapacitated condition, or if you die.
+
+The creature can repeat the Wisdom saving throw at the end of each of its turns, ending the conditions on itself on a success.
+
+#### Long Arm Of The Law
+At 10th level, once per turn when you hit a Large or smaller creature
+with a ranged attack using a weapon, you can hobble the target. The creature can’t move on its next turn unless it first takes the Disengage action.
+
+Additionally, when you use your Lay Down the Law feature you gain an additional number of
+temporary hit points in your pool equal to your level in this class.
+
+\column
+
+#### Gold Star Hero
+At 14th level, your capacity for heroism increases.
+Your features from this archetype gain the following
+benefits:
+- While a creature has temporary hit points granted by your Lay Down the Law feature, it has resistance to bludgeoning, piercing, and slashing damage.
+- The range of your Steely Eyed Aura feature increases to 30 feet.
+- When a creature fails its saving throw against your Reach for the Skies feature, it has the Stunned condition instead of the Incapacitated condition.
+
+{{imageMaskCorner17,--offsetX:55%,--offsetY:-30%,--rotation:0
+  ![](https://i.imgur.com/Rguw126.png){height:60%,left:340px,top:480px}
+}}
+
+
+{{artist,position:absolute,top:480px,left:470px,margin-bottom:-30px
+##### Ricardo Martinez
+}}
+{{pageNumber,auto}}
+\page
+
+
+{{imageMaskEdge2,--offset:10%,--rotation:90
+  ![](https://i.imgur.com/XsxVV21.png){height:100%,left:-600px}
+}}
+
+
+
+\column
+
+## Risky Exploits
+Below are the Exploits available to gunslinger. If an Exploit has a prerequisite, like a minimum Ability Score or level, you can learn it at the same time you meet the prerequisites.
+:
+### 1st-Degree Exploits
+Exploits of the 1st-degree are minor techniques slightly more complicated than swinging a weapon. They can be learned by Gunslinger with modest training and have no level prerequisite.
+
+#### Alchemical Adept
+*Prerequisites: Intelligence of 11*
+
+When you make an Intelligence (Nature), Wisdom (Medicine), alchemist's supplies, or herbalism kit check, you can expend an Exploit Die and add it to your roll. You can use this Exploit after you roll, but before you know if you succeed or fail.
+
+#### Blinding Debris
+As a bonus action, you can expend an Exploit Die and force a creature within 10 feet to make a Constitution saving throw. On a failure, it takes piercing damage equal to your Exploit Die and is blinded until the start of your next turn.
+
+#### Burglar's Finesse
+*Prerequisites: Dexterity of 11*
+
+Whenever you make a Dexterity (Sleight of Hand), Dexterity (Stealth), or a thieves' or tinker's tools check, you can expend an Exploit Die and add it to your roll. You can use this Exploit after you roll, but before you know if you succeed or fail.
+
+#### Charlatan's Guile
+*Prerequisites: Dexterity or Charisma of 11*
+
+Whenever you make a Dexterity (Sleight of Hand), Charisma
+(Deception), or a Charisma (Performance) check, you can
+expend an Exploit Die and add it to your roll. You can use this Exploit after you roll, but before you know the result.
+
+#### Commander's Presence
+*Prerequisites: Intelligence or Charisma of 11*
+
+Whenever you make a Charisma (Intimidation), Charisma
+(Persuasion), or Intelligence (History) check, you can expend an Exploit Die and add it to your roll. You can use this Exploit after you roll, but before you know if you succeed or fail.
+
+#### Crippling Strike
+When you hit a creature with a weapon attack, you can
+expend an Exploit Die and force it to make a Dexterity saving throw. On a failure, it takes additional damage equal to your Exploit Die and its speed is 0 until the start of your next turn.
+
+{{pageNumber,auto}}
+\page
+
+#### Disarm
+When you hit a creature with a weapon attack, you can
+expend an Exploit Die to force it to make a Strength saving throw. On a failure, it takes additional damage equal to your Exploit Die, and it drops an item of your choice it is holding.
+
+#### Gambler's Ploy
+*Prerequisites: Charisma of 11*
+
+Whenever you make a Charisma (Deception), Charisma
+(Performance), or any gaming set check, you can expend an
+Exploit Die and add it to your roll. You can use this Exploit after you roll, but before you know if you succeed or fail.
+
+#### Keen Observation
+*Prerequisites: Intelligence or Wisdom of 11*
+
+Whenever you make an Intelligence (Investigation), Wisdom
+(Insight), or a Wisdom (Perception) check you can expend an Exploit Die and add it to your roll. You can use this Exploit after you roll, but before you know if you succeed or fail.
+
+#### Operative's Cunning
+*Prerequisites: Intelligence or Charisma of 11*
+
+When you make a Dexterity (Stealth), Charisma (Deception), a disguise kit, or a poisoner's kit check, you can expend an Exploit Die and add it to your roll. You can use this Exploit after you roll, but before you know if you succeed or fail.
+
+
+#### Precision Strike
+*Prerequisites: Dexterity of 11*
+
+When you make a weapon attack, you can expend an Exploit
+Die and add it to the attack roll. You can use this Exploit after you roll, but before you know if the attack hits or misses.
+
+#### Quick Quip
+*Prerequisites: Charisma of 11*
+
+While speaking, you can expend an Exploit Die to tell a short joke, quip, or another humorous anecdote. Creatures of your choice within 10 feet that can both hear and understand you forget everything you said during the 10 seconds proceeding this Exploit, and instead only remember your quip.
+
+Once you use this Exploit on a creature, that creature is
+immune to the effects of this Exploit for the next 24 hours.
+
+Finally, any creature that is immune to the charmed condition is immune to the effects of this Exploit.
+
+
+#### Reliable Skill
+Whenever you make an ability check using a skill or tool that you are proficient in and roll a 7 or lower on the d20, you can expend an Exploit Die to treat the d20 roll as an 8.
+
+\column
+::
+#### Roguish Charm
+*Prerequisites: Charisma of 11*
+
+As an action, you can expend an Exploit Die and force a
+creature within 10 feet that can hear and understand you to make a Wisdom saving throw. On a failed save, it is charmed by you for 1 hour, and regards you as a friendly acquaintance for the duration. Though, it will not risk its life for you. This effect immediately ends if you or your companions do anything harmful to the creature, and when the effect ends this way, the target realizes that it was deceived by you.
+
+Once a creature succeeds on its saving throw against this
+Exploit it is immune to this Exploit for the next 24 hours.
+
+
+#### Scholar's Insight
+*Prerequisites: Intelligence of 11*
+
+Whenever you make an Intelligence (Arcana), Intelligence
+(Nature), or Intelligence (Religion) check, you can expend an Exploit Die and add it to your roll. You can use this Exploit after you roll, but before you know if you succeed or fail.
+
+#### Steady Aim
+As a bonus action, you can give yourself advantage on your next attack roll on the current turn. You can use this Exploit only if you haven't moved during this turn, and after you use this Exploit, your speed is 0 until the end of the current turn.
+
+#### Street Smarts
+*Prerequisite: Charisma of 11*
+
+Whenever you make a Charisma (Investigation), Charisma
+(Persuasion), or Charisma (History) check, you can expend
+an Exploit Die and add it to the roll. You can use this Exploit after you roll, but before you know if you succeed or fail.
+:
+### 2nd-Degree Exploits
+Exploits of this degree represent the absolute peak of roguish skill that is achievable without dedicated training. 2nd-degree Exploits can be learned by any Gunslinger of 5th level or higher.
+
+#### Alchemical Oil
+*Prerequisites: 5th level, proficiency with alchemist's supplies*
+
+As an action on your turn, you can expend an Exploit Die and use your alchemist's supplies to craft a vial of Alchemical Oil, choosing acid, cold, fire, or lightning for its damage type. This Oil retains its potency until the end of your next long rest. A creature can take the Use an Object action to expend this vial and apply its contents to a weapon they are holding. For the next 10 minutes, that weapon deals the damage type you chose for that Alchemical Oil in place of its normal damage. A creature can use its action to remove the Alchemical Oil.
+
+{{pageNumber,auto}}
+\page
+
+#### Dirty Hit
+*Prerequisites: 5th level, Dexterity of 13*
+
+When you hit a creature with a weapon attack, you can expend an Exploit Die and force it to make a Constitution saving throw. On a failed save, it takes additional damage equal to your Exploit Die, and until the start of your next turn it cannot take reactions and its speed is halved.
+
+#### Exposing Strike
+*Prerequisites: 5th level*
+
+When you hit a creature with a weapon attack, you can expend an Exploit Die to temporarily weaken it. The first attack made against it before the start of your next turn has advantage and deals extra damage equal to your Exploit Die.
+
+#### Flaming Shot
+*Prerequisites: 5th level*
+
+When you make a ranged weapon attack, you can expend an
+Exploit Die to light the ammunition aflame. On hit, the target
+takes additional fire damage equal to your Exploit Die.
+If your target is a flammable object that is not being worn
+or carried, you can ignite it in place of dealing damage.
+
+#### Heroic Will
+*Prerequisites: 5th level*
+
+Whenever you are forced to make an Intelligence, Wisdom,
+or Charisma saving throw, you can expend an Exploit Die and add it to the result of your roll. You can use this Exploit after you roll, but before you know if you succeed or fail.
+
+
+#### Improvised Skill
+*Prerequisites: 5th level*
+
+Whenever you make an ability check that doesn't include your proficiency bonus, you can expend an Exploit Die and add it to your roll. You can use this Exploit after you roll, but before you know if you succeed or fail.
+
+#### Martial Focus
+*Prerequisites: 5th level*
+
+When you make a weapon attack, you can expend an Exploit Die as part of the attack to grant yourself advantage on your attack roll. You can use this Exploit after you roll, but before you know whether your attack hits or misses your target.
+
+#### Soothing Speech
+*Prerequisites: 5th level, Charisma of 13*
+
+As an action, you can expend an Exploit Die and attempt to soothe the emotions of any creature that can both hear and understand you within 20 feet, forcing them to make a Charisma saving throw. On a failed save, for the next 10 minutes, creatures become indifferent toward creatures of your choice they are currently hostile toward. This indifference ends if the target is attacked or harmed by a spell or if it witnesses any of its friends being harmed.
+When the effect ends, the creature becomes hostile again.
+
+#### Suppressing Strike
+*Prerequisites: 5th level*
+
+When you hit a creature with a weapon attack, you can expend an Exploit Die and force it to make a Constitution saving throw. On a failed save, it takes additional damage equal to your Exploit Die, and it is blinded, deafened, or
+muted (your choice) until the start of your next turn.
+
+#### Survey Dungeon
+*Prerequisite: 5th level, Dexterity or Intelligence of 13*
+
+You can expend an Exploit Die to spend 10 minutes carefully examining a room you currently occupy. At the end of the 10 minutes, you gain knowledge about three of the following:
+- One trap in the area. This includes any mechanical or natural effect that was intended to harm an intruder.
+- One active spell in the area that was cast at a level equal to your proficiency bonus or lower.
+- One secret compartment, door, or passageway.
+
+Once you use this Exploit to survey a room you must finish
+a long rest before you can use it in that location again.
+
+#### Trick Shot
+*Prerequisites: 5th level, Dexterity or Intelligence of 13*
+
+As a bonus action, you can expend an Exploit Die to make a ranged weapon attack with a finesse and thrown weapon. This ranged attack ignores the benefits of cover, so long as it can ricochet off one surface and hit a target within range. If this attack would normally have disadvantage, it does not. On hit, you add your Exploit Die to the damage roll of the attack.
+
+
+#### Take Cover
+*Prerequisites: 5th level*
+
+As a reaction when a creature you can see targets you with a ranged attack or forces you to make a Dexterity saving throw, you can expend an Exploit Die to immediately fall prone and gain temporary hit points equal to your Exploit Die.
+
+
+#### Volley
+*Prerequisites: 5th level, Dexterity of 13*
+
+As an action, you can expend an Exploit Die to fire a volley of ammunition at a point you can see within the normal range of your weapon. Creatures of your choice within 5 feet of that point must make a Dexterity Saving throw. On a failed save, they take piercing damage equal to your Exploit Die + your Dexterity modifier, and half as much damage on a success.
+You must have enough ammunition to hit each target.
+{{pageNumber,auto}}
+\page
+
+### 3rd-Degree Exploits
+These Exploits are masterful acts of subterfuge and skill, and can only be learned by Gunslinger of 9th level or higher. Each of these Exploits can only be used once per short or long rest.
+
+#### Incite Violence
+*Prerequisites: 9th level, Intelligence or Charisma of 15*
+
+As an action, you can expend an Exploit Die and whisper words that incite violence in a creature that can understand you within 5 feet. It must succeed on a Wisdom saving throw or take psychic damage equal to two rolls of your Exploit Die, and instantly use its reaction to make a melee attack against a creature of your choice within its reach. If no other creature is within its reach, the target has disadvantage on the next attack roll it makes before the start of your next turn.
+
+#### Inflame Greed
+*Prerequisites: 9th level, Intelligence or Charisma of 15*
+
+As an action, you can expend an Exploit Die and present a gem worth at least 50 gp, forcing creatures of your choice within 30 feet that can see you to make a Wisdom saving throw. On a failure, creatures are charmed for one minute, until you or your allies harm it, or it cannot see the gem.
+
+While charmed, creatures can do nothing on their turn but approach you in a calm manner. While within 5 feet of you they cannot move, and can only stare greedily at the gem.
+
+At the end of each of its turns, charmed creatures can
+repeat their saving throw, ending this effect on a success.
+
+#### Recruit Informant
+*Prerequisite: 9th level, Charisma of 15*
+
+You can expend an Exploit Die and spend 1 hour to recruit a humanoid Informant from a settlement you currently occupy. For this Exploit to work, there must be a willing humanoid, such as an urchin, criminal, thief, spy, or other rapscallion in a settlement of significant size, as determined by the DM. This Informant will not aid you in combat or risk its life for you, but it will loyally gather any information, rumors, news, and secrets from the settlement it is currently occupying.
+
+During the course of each long rest, your Informant will seek you out and deliver this information to you. Your Informant remains in your service until you dismiss it or it dies. However, you do not regain the Exploit Die spent on this Exploit until your Informant is dismissed or dies.
+
+Having more than one Informant in a settlement increases the accuracy and secrecy of information they gather for you.
+
+
+\column
+
+#### Recruit Mercenary
+*Prerequisites: 9th level, Intelligence 15*
+
+You can expend an Exploit Die and spend 1 hour to recruit a humanoid Mercenary from a settlement you currently occupy. For this Exploit to work, there must be a willing humanoid in a settlement of significant size, as determined by the DM.
+When you use this Exploit, you choose to recruit a Brute
+or a Scout, which determines certain traits in its stat block.
+The Mercenary uses the stat block below, and rolls its own initiative in combat. On its turn, it does its best to follow any orders you have given it. Other than that, it will defend itself to the best of its ability. If you fall to 0 hit points or die, they abandon you and do everything in their power to flee home.
+Once you use this Exploit in a settlement, you cannot use it there again for 7 days. You can only have one Mercenary following you at a time. Recruiting another causes any other Mercenaries to immediately abandon you and return home.
+
+
+{{monster,frame
+## Mercenary
+*medium humanoid, any alignment*
+___
+**Armor Class (Brute)** :: 18 (scale mail, shield)
+**Armor Class (Scout)** :: 15 (studded leather)
+**Hit Points**  :: 6 + five times your fighter level
+**Speed**       :: 30 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|16 (+3)|16 (+3)|13 (+1)|10 (+0)|12 (+1)| 8 (-1)|
+___
+**Saving Throws**        :: Str +6, Dex +6
+**Skills Athletics**     :: +6 (Brute), Stealth +6 (Scout)
+**Condition Immunities** :: None
+**Senses**               :: passive Perception 12
+**Languages**            :: common and one other language
+**Proficiency Bonus**    :: +3
+___
+***Hit Dice.*** The Mercenary has a number of d10 Hit
+Dice equal to your level. It also gains all the normal benefits of both short and long rests.
+:
+***Morale.*** If you fall to 0 hit points the Mercenary does everything in its power to flee and return home.
+:
+***Rough & Tumble (Brute).*** The Mercenary can use a bonus action to attempt a Shove or Grapple.
+:
+***Cunning Strike (Scout).*** If the Mercenary makes an
+attack with advantage, it deals 2d6 bonus damage.
+:
+***Slippery (Scout).*** The Mercenary can use a bonus
+action to take the Disengage or Hide action.
+### Actions
+***Battleaxe (Brute).*** *Melee Weapon Attack* +6 to hit,
+reach 5 ft., one target. *Hit* 1d8 +3 slashing damage.
+:
+***Shortbow (Scout).*** *Ranged Attack* +6 to hit, range
+80/320, one target. Hit: 1d6 +3 piercing damage.
+}}
+
+
+{{pageNumber,auto}}
+\page
+
+
+{{imageMaskEdge1,--offset:18%,--rotation:0
+  ![](https://i.imgur.com/doIXOl2.jpeg){height:40%}
+}}
+
+
+
+
+#### Survey Settlement
+*Prerequisite: 9th level, Dexterity or Charisma of 15*
+
+You can expend an Exploit Die and spend 1 hour gathering
+information on up to 1 square mile of a settlement that you currently occupy. At the end of the hour, you gain knowledge about three of the following as they relate to the area:
+- Any active factions and faction outposts within the area.
+- Prominent buildings, gathering places, and cultural sites.
+- Powerful (CR 1 or higher) politicians or military leaders.
+- Loyalties, beliefs, and fears of the local populace.
+- Secret alleyways, doors, hideouts, or storefronts.
+
+Once you use this Exploit to survey a settlement you must finish a long rest before you can use it in that location again.
+
+#### Thunderous Shot
+*Prerequisites: 9th level, Dexterity of 15*
+
+In place of an attack, you can expend an Exploit Die and fire a piece of ammunition in a straight line, forcing creatures in that line out to the normal range of the weapon to make a
+Dexterity saving throw. Creatures take your weapon's normal damage plus piercing damage equal to twice your Exploit Die on a failed save, and half as much damage on a success.
+
+\column
+
+### 4th-Degree Exploits
+Exploits of this degree are masterful skills that can only be learned by gunslinger of 13th level or higher, and each of these Exploits can only be used once per short or long rest.
+
+#### Clandestine Source
+*Prerequisites: 13th level, Intelligence or Charisma of 17*
+
+While you are in a settlement of significant size, you can expend an Exploit Die and spend 1 hour using the Thieves' Cant found in the settlement to track down a knowledgeable figure of the criminal underworld to ask questions of.
+Should the DM decide that such a figure exists within the settlement, you must approach them alone and must make a DC 15 Intelligence or Charisma saving throw (your choice) to convince them to grant you an audience. On a failed save, you are reduced to 0 hit points, and your body is left unconscious in an alleyway or gutter somewhere in that settlement.
+On a success, you have 1 minute to ask the figure up to five questions. The DM answers each question with one word, such as "yes," "no," "maybe," "never," "irrelevant," or "unclear" (if the figure does not know the answer to the question). If a one-word answer would be misleading, the DM might instead offer a short phrase as an answer.
+
+Once you use this Exploit in a settlement (successfully or unsuccessfully), you cannot use it there again for 7 full days.
+{{pageNumber,auto}}
+\page
+
+#### Equip Militia
+*Prerequisite: 13th level*
+You can expend an Exploit Die and spend 1 hour training a
+number of humanoid creatures equal to your level to fight. Creatures that spend the full hour listening and training with you gain two of the following benefits of your choice:
+- They gain proficiency with one martial weapon.
+- They gain proficiency with light armor and shields.
+- They gain temporary hit points equal to your Exploit Die.
+- They gain proficiency in one of the following skills: Animal Handling, Athletics, Medicine, Survival, or Stealth.
+- They have advantage on saving throws to resist being charmed or frightened.
+
+The benefits you choose for these creatures last until they are incapacitated, or until the end of their next long rest.
+
+#### Expert Determination
+*Prerequisites: 13th level*
+
+As an action, you can expend an Exploit Die to focus your
+mind and temporarily sharpen one of your skills. Choose a
+skill or tool that you are proficient in. For the next hour, you can add your Exploit Die to any check you make that uses the chosen skill, without expending one of your Exploit Dice.
+
+#### Fluid Movements
+*Prerequisites: 13th level, Dexterity of 17*
+As a bonus action, you can expend an Exploit Die to enter a heightened state of movement which you must concentrate
+on as if you were concentrating on a spell. For 1 minute, or until you lose concentration, you gain the following benefits:
+- Your movement is unaffected by difficult terrain.
+- You can use a bonus action on your turn to gain the benefits of both the Dash and Disengage action.
+- Spells and other magical effects can neither reduce the your speed nor cause you to be paralyzed or restrained.
+- You can spend 5 feet of movement to instantly escape from nonmagical restraints like manacles or a grapple.
+- Swimming or being underwater imposes no penaltieson your movements or your attack rolls.
+
+#### Quick Draw
+*Prerequisites: 13th level, Dexterity of 17*
+
+As a bonus action, you can expend an Exploit Die and enter into a heightened state of focus which you must concentrate on as if concentrating on a spell. For the next minute, or until you lose concentration, you can use a bonus action to make two ranged weapon attacks so long as you have ammunition. 
+
+This Exploit's effects don't stack with the swift quiver spell.
+
+\column
+
+#### Sundering Strike
+*Prerequisite: 13th level, Strength of 17*
+
+In place of an attack, you can expend an Exploit Die to strike a creation of magical force, such as a prismatic wall, resilient sphere, or forcecage. Any magic creation of 3rd-level or lower is instantly destroyed. If the target was created with a spell of 4th-level or higher, make a Strength check. The DC equals 10 + the spell’s level. On a successful check, it is dispelled.
+
+### 5th-Degree Exploits
+Exploits of the 5th-degree are devious feats that rival those of the most cunning archfey. These Exploits can only be learned by Gunslinger of 17th level or higher, and each Exploit of this level can only be used once per short or long rest.
+
+#### Contingency Plan
+*Prerequisites: 17th level, Intelligence of 19*
+
+At the end of a long rest, you can expend one of your Exploit Dice to put an undisclosed contingency plan into place. Until you activate this Exploit again you cannot regain this Exploit Die. You can only have one contingency plan at a time. As an action, you can reveal your previously undisclosed plan (which you make up at the time of its reveal) and make a DC 20 Intelligence check. You may add a skill the DM deems appropriate to your plan. On a success, your secret plans and preparations take effect perfectly as you described them. For example, you may reveal that you secretly purchased the perfect spell scroll last time you were in a town, or that you paid a mercenary band or airship to come to your rescue at this exact time. The nature and scope of your plans are up to you and the DM and should fit the tone of your game.
+
+#### Inconceivable Dodge
+*Prerequisites: 17th level, Dexterity of 19*
+
+When you take damage, you can use your reaction to expend an Exploit Die and move with supernatural agility and speed to somehow avoid the triggering damaging effect as if it never affected you at all.
+{{pageNumber,auto}}
+\page
+
+#### Mythic Focus
+*Prerequisites: 17th level*
+
+As a bonus action, you can expend an Exploit Die to enter a legendary state of focus which you must concentrate on as if you were concentrating on a spell. For 1 minute, or until you lose concentration, you gain the following benefits:
+- You gain 50 temporary hit points. If any of these remain when the effects of this Exploit end, they are lost.
+- You have advantage on any weapon attacks you make. Once per turn when you hit a target with a weapon attack,you can deal additional damage equal to your Exploit Die.
+
+- You gain a bonus to Strength, Dexterity, and Constitution saving throws equal to your Exploit Die.
+- When you take the Attack action on your turn, you can make an additional weapon attack as part of that action.
+
+When the effect ends, you can’t move or take actions until after your next turn, as a wave of lethargy sweeps over you.
+
+This Exploit doesn't stack with tenser's transformation.
+{{imageMaskEdge8,--offset:2%,--rotation:0
+  ![](https://i.imgur.com/ziNbfh5.png){height:75%,top:500px}
+}}
+

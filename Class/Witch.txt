@@ -1,0 +1,4065 @@
+```metadata
+title: Witch
+description: ''
+tags: []
+renderer: V3
+theme: 5ePHB
+
+```
+
+```css
+.page{
+	width  : 210mm;
+	height : 296.3mm;
+}
+
+css
+
+.page .columnWrapper {
+	height: 100%
+}
+
+.page .toc.wide {
+	columns: 1;
+	height: 100%;
+}
+
+.page .toc > ul > li {
+	font-weight:100;
+	margin-bottom:-2.1px;
+
+}
+
+.page .toc ul ul {
+	margin-left: 0;
+	font-weight: 5;
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```
+
+
+{{frontCover}}
+
+# Witch
+
+![background image](https://i.imgur.com/Lhc7Hqt.png){position:absolute,bottom:0,left:-650px,height:100%}
+
+\page
+{{toc,wide
+- ### [{{ Witch}}{{ 3}}](#p3)
+  -  [{{ Cursed}}{{ 3}}](#p3)
+  -  [{{ Pariahs and Outcasts}}{{ 3}}](#p3)
+  -  [{{ Familiar Masters}}{{ 3}}](#p3)
+  -  [{{ Creating a Witch}}{{ 3}}](#p3)
+- ### [{{ Class Features}}{{ 4}}](#p4)
+  -  [{{ Spellcasting}}{{ 5}}](#p5)
+  -  [{{ Witch’s Curse}}{{ 5}}](#p5)
+  -  [{{ Hexes}}{{ 6}}](#p6)
+  -  [{{ Cackle}}{{ 6}}](#p6)
+  -  [{{ Familiar}}{{ 6}}](#p6)
+  -  [{{ Witch’s Craft}}{{ 6}}](#p6)
+  -  [{{ Insidious Spell}}{{ 6}}](#p6)
+  -  [{{ Improved Familiar}}{{ 6}}](#p6)
+  -  [{{ Hastened Hex}}{{ 7}}](#p7)
+  -  [{{ Grand Hex}}{{ 7}}](#p7)
+  -  [{{ Vengeful Curse}}{{ 7}}](#p7)
+  -  [{{ Hexmaster}}{{ 7}}](#p7)
+- ### [{{ hexes}}{{ 7}}](#p7)
+  -  [{{ Grand Hexes}}{{ 10}}](#p10)
+- ### [{{ Witch’s Crafts}}{{ 13}}](#p13)
+  -  [{{ Black Magic}}{{ 13}}](#p13)
+  -  [{{ Blood Magic}}{{ 13}}](#p13)
+  -  [{{ Blue Magic}}{{ 14}}](#p14)
+  -  [{{ Disformity Magic (Exclusive)}}{{ 15}}](#p15)
+  -  [{{ Duskcaller Magic (Exclusive)}}{{ 16}}](#p16)
+  -  [{{ Fragrant Magic}}{{ 17}}](#p17)
+  -  [{{ Fruit Magic (Exclusive)}}{{ 18}}](#p18)
+  -  [{{ Gingerbread Magic}}{{ 19}}](#p19)
+  -  [{{ Green Magic}}{{ 20}}](#p20)
+  -  [{{ Lunar Magic}}{{ 21}}](#p21)
+  -  [{{ Purple Magic}}{{ 22}}](#p22)
+  -  [{{ Red Magic}}{{ 23}}](#p23)
+  -  [{{ Sky Magic}}{{ 23}}](#p23)
+  -  [{{ Steel Magic}}{{ 24}}](#p24)
+  -  [{{ Tea Magic}}{{ 25}}](#p25)
+  -  [{{ Technicolor Magic}}{{ 26}}](#p26)
+  -  [{{ White Magic}}{{ 27}}](#p27)
+- ### [{{ Familiars}}{{ 28}}](#p28)
+- ### [{{ Fruit Familiars}}{{ 40}}](#p40)
+- ### [{{ Feline Familiars}}{{ 49}}](#p49)
+}}
+
+
+
+
+
+\page
+
+## Witch 
+:
+Three old crones stoop over a boiling cauldron
+filled with all manner of bizarre filth, churning and
+bubbling with a noxious fume. In the smoke and
+vapor above the pot, the trio can make out shapes
+and figures of great import, and one cackles loudly at
+what she sees.
+A young girl sits underneath a tree, far from
+where the other children play. She glances about to
+make sure noone is watching, and snaps her fingers
+once to the empty air. After a moment of silence, a
+black cat appears around the tree’s bend and locks
+eyes with the girl, staring with a strange intelligence
+for a long moment. She gestures at one of the playing
+children, a heavy-set boy with a permanently affixed
+scowl; the cat understands. It wanders close to the
+boy, stretches its claws, and gets very low, ready to
+pounce for the boy’s eyes.
+A young elf intently mutters something
+underneath his breath each time he exhales. Visible
+only to him, a string of the foulest magic winds out
+from him and seizes a charging orc, which drops to
+its knees in agony.
+Witches are stricken by magic so dark it
+imprints a lasting shadow upon their essence.
+Through force of personality alone, they can spin
+this darkness outward, hexing creatures, casting
+manipulative spells, and even commanding a familiar
+with their thoughts.
+### Cursed
+While others are blessed with magic, witches are
+cursed by it. Afflicted by some hateful arcana,
+whether accidentally or intentionally, witches are
+twisted inside and out by its daily tortures. With
+gruesome effort, they can warp this power into spells
+to wrack others with the same torture which plagues
+them.
+### Pariahs and Outcasts
+Almost without exception, witches are feared
+and hated. They are victim to a number of
+misconceptions, usually relating them to hags and
+other evil creatures of the night. As a result, known
+witches are in great personal danger and can usually
+be found dwelling on the outskirts of civilization
+where townsfolk seldom tread. This does little to
+stop witch hunting and burnings, but provides some
+measure of safety from them.
+In reality, very few choose to become witches,
+and many of them can hide adeptly in society, using
+their magic to fill a number of roles, from seer,
+to healer, to apothecary. Being accused as a witch
+carries grave consequences, no matter the validity of
+the claim, so wise witches relocate frequently, never
+residing in one place for too long.
+
+\column
+
+### Familiar Masters
+It is rare to find a witch without his or her constant
+companion, the familiar. Though familiars might
+be conjured by other spellcasters as well, a witch’s
+familiar is ubiquitous to common folk for good
+reason. Witches command intuitive magic, and have
+a deep link to their familiars. As a result, they can
+conjure more exotic familiars, and command them
+more swiftly than other spellcasters.
+
+### Creating a Witch
+Creating a witch necessarily involves a powerful,
+malicious curse in your backstory. Who cast it? Did
+you take a curse upon yourself for power? Was your
+entire lineage cursed generations ago, leading to a
+bloodline of witches, or did another spellcaster use
+sinister, forbidden magic to curse you for life? Decide
+on the nature of your witch’s curse and think about
+how you relate to it. Do you feel like the curse was
+secretly a blessing, or does the desire for vengeance
+burn in your heart?
+What negative effects does the curse leverage
+on your personality and mind? Are you haunted
+by spirits, or is your mind plagued by destructive
+thoughts? How do you feel manipulating the power
+of this curse outwards into hexes and spells?
+Work with your GM to determine how witches
+are perceived in the world. Are they feared, burned,
+and persecuted? Are you an openly-known witch?
+Do the other characters in your party know of your
+witchhood? Some witches keep the source of their
+magic a secret, or claim to be wizards or sorcerers to
+conceal the true darkness of their magic.
+#### Quick Build
+To build a witch quickly, make Charisma your
+highest ability score, followed by Constitution. Then,
+choose the chill touch and minor illusion cantrips,
+and the spells hideous laughter and thunderwave.
+Lastly, choose the Hideous witch’s curse, and the
+hexes Evil Eye and Misfortune.
+
+{{imageMaskCorner22,--offsetX:45%,--offsetY:-73%,--rotation:0
+  ![](https://i.imgur.com/zRRVkhZ.png){height:70%,left:350px,top:550px}
+}}
+
+
+
+
+{{pageNumber,auto}}
+\page
+
+
+
+{{classTable,frame,wide
+##### The Witch
+|Level|PB  | Features| Hex   |Cantrips|Spells|1st|2nd|3rd|4th|5th|6th|7th|8th|9th|
+|     |    |         | Known^|Known  ^|Known ^|  |   |   |   |   |   |   |   |    |
+|:---:|:--:|:--------:|:----:|:--:|:--:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:--:|
+| 1st | +2 | Hexes, Spellcasting, Witch’s Curse       | 2    | 2  | 2  | 2 | — | — | — | — | — | — | — |—|
+| 2nd | +2 |  Cackle, Familiar | 3    | 2  | 3  | 3 | — | — | — | — | — | — | — |—|
+| 3rd | +2 |Witch's Craft | 3    | 2 | 4  | 4 | 2 | — | — | — | — | — | — |—|
+| 4th | +2 | Ability Score Improvement    | 3    | 3  | 5  | 4 | 3 | — | — | — | — | — | — |—|
+| 5th | +3 | Insidious Spell  | 4    | 3  | 6  | 4 | 3 | 2 | — | — | — | — | — |—|
+| 6th | +3 | Craft feature| 4    | 3 | 7  | 4 | 3 | 3 | — | — | — | — | — |—|
+| 7th | +3 | Improved Familiar | 4    | 3  | 8  | 4 | 3 | 3 | 1 | — | — | — | — |—|
+| 8th | +3 | Ability Score Improvement| 4    | 3  | 9  | 4 | 3 | 3 | 2 | — | — | — | — |—|
+| 9th | +4 | Hastened Hex | 5    | 3  | 10 | 4 | 3 | 3 | 3 | 1 | — | — | — |—|
+| 10th| +4 | Craft feature| 5    | 4  | 11 | 4 | 3 | 3 | 3 | 2 | — | — | — |—|
+| 11th| +4 | Grand Hex  | 5    | 4  | 12 | 4 | 3 | 3 | 3 | 2 | 1 | — | — |—|
+| 12th| +4 |Ability Score Improvement | 5    | 4  | 12 | 4 | 3 | 3 | 3 | 2 | 1 | — | — |—|
+| 13th| +5 | Grand Hex | 6    | 4  | 13 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | — |—|
+| 14th| +5 | Craft feature | 6    | 4  | 13 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | — |—|
+| 15th| +5 | Grand Hex| 6    | 4  | 14 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 |—|
+| 16th| +5 |Ability Score Improvement | 6    | 4  | 14 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 |—|
+| 17th| +6 | Vengeful Curse| 7    | 4  | 15 | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 |1|
+| 18th| +6 | Grand Hex  | 7    | 4  | 15 | 4 | 3 | 3 | 3 | 3 | 1 | 1 | 1 |1|
+| 19th| +6 | Ability Score Improvement | 7    | 4  | 15 | 4 | 3 | 3 | 3 | 3 | 2 | 1 | 1 |1|
+| 20th| +6 | Hexmaster| 7    | 4  | 15 | 4 | 3 | 3 | 3 | 3 | 2 | 2 | 1 |1|
+}}
+
+{{imageMaskCorner3,--offsetX:45%,--offsetY:-25%,--rotation:0
+  ![](https://www.gmbinder.com/images/uBdzeFa.jpg){height:70%,left:340px,top:480px,}
+}}
+
+
+
+## Class Features
+As a witch, you have the following class features.
+
+#### Hit Points
+
+::**Hit Dice:**  1d8 per witch level
+
+:: **Hit Points at 1st Level:** 8 + your Constitution modifier
+
+:: **Hit Points at Higher Levels:** : 1d8 (or 5) + your Constitution modifier per witch level after 1st
+
+#### Proficiencies
+
+
+:: **Armor:** Light armor
+:: **Weapons:** Simple weapons,blowguns, shortswords, and whips
+:: **Tools:** Alchemist supplies, poisoner’s kit
+
+:: **Saving Throws:** Wisdom, Charisma
+
+:: **Skills:** Choose two from Arcana, Deception, Insight, Intimidation, Persuasion, Nature, and Religion
+
+#### Equipment
+You start with the following equipment.
+- *(a)* a whip and blowgun, *(b)* a light crossbow and 20 bolts or, *(c)* any simple weapon
+
+- *(a)*  a component pouch or *(b)* an arcane focus
+- *(a)* a scholar’s pack or *(b)* a dungeoneer’s pack
+- Leather armor, any simple weapon, and a dagger
+
+Alternately if your group uses the starting wealth rule to
+purchase equipment, a witch starts with 2d4 x 10 gp.
+::::::::::::::::::::::::::::::::::::::::
+{{note
+#####  Alternative Spellcasting List
+Cantrips: can choose any conjuration, enchantment, illusion or necromancy spell, or any curse spell.
+Spells known: can choose any conjuration, enchantment, illusion or necromancy spell, or any curse spell.
+Flexible spells: You can choose a number of spells equal to your CHA modifier, these are your flexible spells. You can change your flexible spells over a day of work.
+}}
+
+
+
+{{pageNumber,auto}}
+\page
+
+
+### Spellcasting
+You have learned to mold and reshape the magic that
+curses you into spells.
+
+#### Cantrips
+You know four cantrips of your choice from the
+witch spell list. You learn additional witch cantrips of
+your choice at higher levels, as shown in the Cantrips
+Known column of the Witch table.
+
+#### Spell slots
+The Witch table shows how many spell slots you
+have to cast your spells of 1st level and higher. To
+cast one of these spells, you must expend a slot of
+the spell’s level or higher. You regain all expended
+spell slots when you finish a long rest.
+For example, if you know the 1st-level spell
+bane and have a 1st-level and a 2nd-level spell slot
+available, you can cast bane using either slot.
+#### Spells Known of 1st Level and Higher
+You know two 1st-level spells of your choice from
+the witch spell list. The Spells Known column of the
+Witch table shows when you learn more witch spells
+of your choice. Each of these spells must be of a level for which you have spell slots, as shown on the table.
+For instance, when you reach 3rd level in this
+class, you can learn one new spell of 1st or 2nd
+level. Additionally, when you gain a level
+in this class, you can choose one of the
+witch spells you know and replace it
+with another spell from the witch spell
+list, which also must be of a level for
+which you have spell slots.
+#### Spellcasting Ability
+Charisma is your spellcasting ability for your witch spells. Your magic originates deep within yourself, where your insidious curse stirs restlessly. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a witch spell you cast and when making an attack roll with one.
+
+**Spell save DC** =  8 + your proficiency bonus + your Charisma modifier
+
+**Spell attack modifier** = your proficiency bonus + your Charisma modifier
+
+{{note
+##### Hexes and magic
+A witch casts their terrible hexes as an extension
+of their curse. As their curses are magical in
+nature, their hexes are considered 0th-level
+spells for the purposes of feature and spells,
+such as counterspell or dispel magic, which
+interact with magic. Furthermore, all hexes
+cease while in the area of an antimagic field or
+similar effect.
+}}
+\column
+
+#### Ritual casting
+You can cast any witch spell you know as a ritual if
+that spell has the ritual tag.
+#### Spellcasting focus
+You can use an arcane focus as a spellcasting focus
+for your witch spells.
+
+### Witch’s Curse
+You are wracked by a terrible curse which infects your body and soul. At 1st level, choose the form that this curse takes from the options below.
+
+**Burned.** Almost all of your body has been scorched by arcane flames, leaving you with striking black scars and embers of magic that burn under the skin. As a result, you have resistance to fire damage, and you know the cantrip produce flame, which does not count against your total number of cantrips known.
+
+**Drowned.** Water fills your lungs, and yet you do not die. You can breathe air and water. Additionally, you have a swimming speed equal to your walking speed.
+
+**Feral.** Through your curse, you have forgotten the manners and customs of civilization. You have proficiency in the Survival skill. Additionally, while you aren’t wearing armor, your base Armor Class equals 13 plus your Dexterity modifier
+
+**Hideous.** Your appearance is ghastly to behold. You have proficiency in the Intimidation skill. When you roll initiative, you can choose one humanoid you can see to scare. That creature must make a Wisdom saving throw against your spell save DC or be frightened until the end of your next turn.
+
+**Hollow.** Your soul has been divorced from your body, trapping you in a limbo between life and death. When you or your familiar reduces a hostile creature to 0 hit points, you drain some of its life force, and gain temporary hit points equal to your witch level + Charisma modifier (minimum of 1).
+
+**Infested.** You are constantly followed by vermin, like insects and rats, which crawl on your skin and swarm in your wake. As a result, you are immune to being diseased. Additionally, you can command these pests as your own. Starting at 2nd level, you can choose the form of a swarm of rats for your familiar. Starting at 7th level, you can choose a swarm of insects.
+
+**Loveless.** You are cursed to never find true love. Jaded and disaffected, not even magic can turn your heart; as a result, you are immune to being charmed.
+
+**Possessed.** Your soul is occupied by a foreign spirit that sometimes tries to wrest away your consciousness. However, while you sleep, the spirit whispers magical secrets to you. You learn an additional witch spell at a level for which you have spell slots at 1st level, and again at 4th level, 8th level, and 12th level. These spells do not count against your total number of spells known.
+{{pageNumber,auto}}
+\page
+**Starving**. No matter how much you eat, food turns to ash in your mouth. Your curse nourishes you, but only at  the edge of starvation, and you are constantly wracked by pangs of hunger. You don’t need to eat or drink, but can still imbibe and benefit from potions. Additionally, you are immune to being
+poisoned.
+
+**Visions.** You are cursed to have terrible visions of the future, presaging the death of your friends, family, and yourself. However many of these visions are cruel deceptions, they are sometimes grimly accurate. You can add your Charisma modifier, in addition to your Dexterity modifier, to your initiative rolls.
+
+**Whispers.** Unseen voices murmer in your ears at all times. As such, you can telepathically speak to any creature you can see within 30 feet of you. You don’t need to share a language with the creature for it to understand your telepathy, but the creature must be able to understand at least one language.
+
+### Hexes
+You can learn a number of powerful incantations, known as hexes, derived from the same insidious magic which cursed you. At 1st level, you gain two hexes of your choice. Your hex options are detailed at the end of the class description. 
+
+When you gain certain witch levels, you gain additional hexes of your choice, as shown in the Hexes Known column of the Witch table. 
+
+Additionally, when you gain a level in this class, you can choose one of the hexes you know and replace it with another hex. Unless otherwise stated, if a hex calls for an attack roll or saving throw, it uses your spell attack bonus or spell save DC. 
+
+All hexes require verbal or somatic components (caster’s choice at the time of casting.) 
+
+Unless otherwise noted, if a hex lasts for a duration, you concentrate on it as you would a spell. You can concentrate on a hex and a spell at the same time, and you make only one Constitution saving throw to maintain your concentration on both.
+
+### Cackle
+At 2nd level, you can use your bonus action to cackle. When you do so, you extend the duration of one of Hexes by 1 round, provided the Hex has a duration of 1 round or longer and the target of the Hex is within the spell’s range.
+
+Not all witches laugh maniacally when they cackle, but all cackles require a verbal component,
+as a spell. These range from mundane curses and insults, to the murmuring of dead languages and speaking backwards. 
+
+
+
+{{note
+##### Male and Female Witches
+Witches are commonly considered to be only female,
+but in reality, male and female Witches exist in equal
+numbers. This misconception is due to the fact that
+male Witches are often called Hexers or incorrectly
+deemed Warlocks by common folk.
+}}
+
+\column
+
+### Familiar
+At 2nd level, you always have the *Find Familiar* spell prepared, and you can cast it as a Ritual in 1 minutes without spell components. The spell is improved in the following ways when you cast it.
+
+**Expanded Options.** When you cast the spell, you can choose one of the normal forms for your familiar or one of the special forms described below as long as they are 1/2 or lower
+
+**Synchronized Turns.** Your familiar takes its turn immediately before or after your turn each round (your choice).
+
+**Bound Familiar.** Your familiar uses your spell attack bonus for its attack rolls instead of its own. It also adds your proficiency bonus to its Armor Class, saving throws, and damage rolls. Its maximum hit points increase by an amount equal to twice your witch level.
+
+**Quick Attack.** Once per turn as an action or a bonus action, you can mentally command your familiar to use its reaction to make one attack.
+
+**Spell Channeling.** When you cast a spell, you can deliver it through your familiar as if it had cast the spell, even if the spell doesn’t have a range of touch.
+
+
+
+
+### Witch’s Craft
+Your knowledge of magic has culminated in learning
+a Craft, an innate variety of magic which exists apart
+from the schools of magic. When you reach 3rd level,
+choose one Witch’s Craft. Your choice grants you
+features at 3rd level, and again at 6th, 10th, and 14th
+level.
+
+If your craft grants you a hex at any level, it
+doesn't count against your total number of hexes
+known.
+
+#### Craft Spells
+Each craft is associated with a branch of arcana,
+represented by a number of spells which you learn.
+The levels of these spells are noted in the craft
+description. These spells count as witch spells for you
+and don’t count against your total number of spells
+known.
+### Insidious Spell
+Starting at 5th level, when you cast a witch spell that
+affects a creature that is under the effect of your hex,
+that creature has disadvantage on its first saving
+throw against the spell. This feature only applies to a
+hostile creature which is the sole target of your hex.
+### Improved Familiar
+At 7th level, whenever your familiar deals damage
+with an attack, it can deal your choice of Force or its normal damage type. 
+
+Additionally, you can choose any of the familiar forms described below
+{{pageNumber,auto}}
+\page
+### Hastened Hex
+At 9th level, once per turn, when you cast a Hex using your action, you can cast a Witch cantrip that has a casting time of an action as a bonus action.
+
+### Grand Hex
+By 11th level, you have perfected deeply malevolent
+forms of magic. You learn one Grand Hex, and you
+learn another at 13th, 15th, and 18th level. Grand
+hexes are detailed at the end of the class description.
+
+### Vengeful Curse
+At 17th level, When an enemy you can see within 60 feet of you deals damage that causes you or an ally you can see within 60 feet to become Bloodied, you can take a Reaction to curse the enemy. Until the end of your next turn, the creature has disadvantage on attack rolls, ability checks, and saving throws. 
+
+Once you use this feature, you can’t use it again until
+you finish a Long Rest.
+
+### Hexmaster
+By 20th level, you have mastered your foul magic.
+Humanoid creatures have disadvantage on saving
+throws against your hexes.
+
+\column
+
+## hexes
+The Hexes below are presented in alphabetical order. 
+#### Hex: Abate
+**Casting Time:**:: Action
+**Range:**:: 60 feet
+**Components:**:: V, S
+**Duration:**:: 1 round
+
+One creature you can see within range makes a Charisma
+saving throw. On a failed save. On a failed save, the creature can’t take reactions until the end of your next turn.
+
+
+#### Hex: Apathy
+**Casting Time:**:: Action
+**Range:**:: 60 feet
+**Components:**:: V, S
+**Duration:**:: 1 round
+
+One creature you can see within range makes a Charisma saving throw. On a failed save, the creature becomes Indifferent about creatures of your choice that it is Hostile toward. This indifference ends if the target takes damage or is forced to make a saving throw. 
+
+When the spell ends at the end of your next turn, the creature’s attitude returns to normal.
+
+#### Hex: Bleeding
+**Casting Time:**:: Action
+**Range:**:: 60 feet
+**Components:**:: V, S
+**Duration:**:: 1 round
+One creature you can see within range makes a Constitution saving throw. On a failed save, each time the target takes damage until the spell ends, it takes an extra 1d4 Necrotic damage. This spell ends at the end of your next turn. 
+
+#### Hex: Charm
+**Casting Time:**:: Action
+**Range:** ::60 feet
+**Components:** ::V, S
+**Duration:** ::1 round
+One creature you can see within range makes a Wisdom saving throw. It does so with Advantage if you or your allies are fighting it. On a failed save, the target has the Charmed condition until the spell ends at the end of your next turn. The spell ends early if you or your allies deal damage to the target. When the spell ends, the target knows it was Charmed by you.
+
+{{pageNumber,auto}}
+\page
+#### Hex: Disorient
+**Casting Time:**:: Action
+**Range:**:: 60 feet
+**Components:**:: V, S
+**Duration: 1**:: round
+
+One creature you can see within range makes a Constitution saving throw. On a failed save, whenever the target makes an attack roll for the spell’s duration, it must subtract 1d4 from the roll.
+
+**At Higher Levels.** The die subtracted from attack rolls changes when you reach 5th level(1d6), 11th (1d8), and 17th (1d10).
+
+#### Hex: Doomward
+**Casting Time:**:: Action
+**Range:**:: Touch
+**Components:**:: V, S
+**Duration:**:: 1 round
+You touch a willing creature. The first time the target would drop to 0 Hit Points before the spell ends at the end of your next turn, the target instead drops to 1 Hit Point, and the spell ends. This spell has no effect if you have cast this spell on the target within the past 24 hours.
+
+#### Hex: Duplicity
+**Casting Time:**:: Action
+**Range:** ::Self
+**Components:**::V, S
+**Duration:**:: 1 round
+You create an illusory duplicate of yourself, composed of shadowstuff, in your space. When a creature hits you with an attack during the spell’s duration, roll a d6. On 4 or higher, the attack strikes the duplicate instead of you and the spell ends. The duplicates otherwise ignore all other damage and effects. This spell ends at the end of your next turn.
+
+#### Hex: Evil Eye
+**Casting Time:**:: Action
+**Range:**:: 60 feet
+**Components:**:: V, S
+**Duration:**:: 1 round
+One creature you can see within range makes a Wisdom saving throw. On a failed save, the target has the Frightened condition until the spell ends at the end of your next turn.
+
+\column
+
+
+#### Hex: Garble
+**Casting Time:**:: Action
+**Range:**:: 60 feet
+**Components:**:: V, S
+**Duration:**:: 1 round
+One creature you can see within range makes a Charisma
+saving throw. On a failed save, the creature can’t speak
+coherently or cast spells with a Verbal component until
+the spell ends at the end of your next turn. 
+
+
+#### Hex: Go Unseen
+**Casting Time:**:: 1 minute
+**Range:**:: Self
+**Components:**:: V, S
+**Duration:**:: 1 round
+Repeating an ancient chant, you have the Invisible condition until the spell ends at the end of your next turn. Creatures within 10 feet of you that can hear can detect your location for the spell’s duration. The spell ends early if you make an attack roll, deal damage, or cast a spell.
+
+#### Hex: Hobble
+**Casting Time:** ::Action
+**Range:** ::60 feet
+**Components:** ::V, S
+**Duration:** :: 1 round
+One creature you can see within range makes a Strength saving throw. On a failed save, the creature’s Speed is reduced to 10 feet until the spell ends at the end of your next turn. If the creature is flying, it falls, unless it has the ability to hover.
+
+#### Hex: Mire
+**Casting Time:**:: Action
+**Range:**:: Self
+**Components:**:: V, S
+**Duration:**:: 1 round
+You transform the ground in a 30-foot Emanation originating from you into murky swamp, which is Difficult Terrain until the spell ends at the end of your next turn. This Difficult Terrain doesn’t cost you extra movement.
+{{pageNumber,auto}}
+\page
+
+#### Hex: Misfortune
+**Casting Time:**:: Action
+**Range:**:: 60 feet
+**Components:**:: V, S
+**Duration:**:: 1 round
+Choose one creature you can see within range. The target must make a Charisma saving throw. On a failed save, until the end of your next turn, the target has disadvantage on the first attack roll, saving throw, or ability check it makes.
+
+#### Hex: Obfuscate
+
+**Casting Time:**:: Action
+**Range:**:: Self
+**Components:**:: V, S
+**Duration:**:: 1 round
+You create a 20-foot Emanation of fog originating from
+you. The fog spreads around corners, and its area is
+Heavily Obscured. This fog lasts until the spell ends at the
+end of your next turn or until a strong wind (such as one
+created by Gust of Wind) disperses it, ending the spell.
+
+#### Hex: Peacebond
+**Casting Time:**:: Action
+**Range:**:: Self
+**Components:**:: V, S
+**Duration:**:: 1 round
+You create a 30-foot Emanation originating from you that locks weapons to their containers. The weapons and ammunition of each creature within the Emanation become fixed in their sheaths, quivers, or holsters until the spell ends at the end of your next turn. A creature can take a Utilize action to make a Strength (Athletics) check against your spell save DC, freeing an item from its container on a success.
+
+#### Hex: Pox
+**Casting Time:**:: Action
+**Range:**:: 10 feet
+**Components:**:: V, S
+**Duration:**:: 1 round
+
+One creature you can see within range makes a Constitution saving throw. On a failed save, the target has the Poisoned condition until the spell ends at the end of your next turn.
+
+\column
+
+#### Hex: Ruin
+**Casting Time:**:: Action
+**Range:**:: 60 feet
+**Components:**:: V, S
+**Duration:**:: 1 round
+One creature you can see within range makes a Constitution saving throw. On a failed save, the target has a −2 penalty to AC until the spell ends at the end of your next turn.
+
+**At Higher Levels.** The penalty to AC increases by 1 when you reach 5th level (−3), 11th (−4), and 17th (−5).
+
+#### Hex: Scurry
+**Casting Time:**:: Action
+**Range:**:: 60 feet
+**Components:**:: V, S
+**Duration:**:: 1 round
+
+A nonmagical object you choose sprouts legs and runs away. You can’t target an object that weighs more than 10 pounds, nor can you target one that is being worn as clothing or armor; however, you can target certain objects that are being carried, as long as they are not affixed entirely around a creature’s body and are not being held in a hand. For example, you can’t target a creature’s helmet or a sword it is wielding, but you can target a drawstring pouch it is wearing or a dagger that is sheathed at its side. The object animates, wriggles free of its owner, if it has one, sprouts two legs, and moves 30 feet in a direction you choose. At the beginning of your turn, you can choose which direction the object moves. The object has an AC of 10, if its AC was not already higher, and remains animated until the end of your next turn, or until it is picked up.
+
+#### Hex: Shriek
+**Casting Time:**:: Action
+**Range:**:: Self
+**Components:**:: V, S
+**Duration:**:: 1 round
+
+You can release a thunderous, blood-curdling screech. Each Large or smaller creature you choose within 5 feet of you is pushed 5 feet away from you.
+
+**At Higher Levels.** The push distance increases when you reach certain levels to 10 feet at 5th level, 15 feet at 11th level, and 20 feet at 17th level.
+{{pageNumber,auto}}
+\page
+#### Hex: Stupor
+**Casting Time:**:: Action
+**Range:**:: 10 feet
+**Components:**:: V, S
+**Duration:**:: 1 round
+Choose a creature you can see within range to succeed on a Wisdom saving throw. On a failed save, the target has the Incapacitated condition until the spell ends at the end of your next turn. The spell ends on a target if it takes damage or someone within 5 feet of it takes an action to shake it out of the spell’s effect. Once the spell ends on a target, it is immune to this spell for the next 24 hours.
+
+#### Hex: Tremors
+
+**Casting Time:**:: Action
+**Range:**:: Self
+**Components:**:: V, S
+**Duration:**:: 1 round
+A miniature earthquake shakes the ground in a 5-foot Emanation originating from you. Each creature on the ground in the Emanation must succeed on a Dexterity saving throw or have the Prone condition. A creature that enters the Emanation or ends its turn there must also succeed on that save or fall Prone.
+
+#### Hex: Ward
+**Casting Time:**:: Action
+**Range:**:: Touch
+**Components:**:: V, S
+**Duration:**:: 1 round
+You touch a willing creature. Each time the target takes damage before the spell ends at the end of your next turn, the damage it takes is reduced by 2.
+
+**At Higher Levels.** The damage reduction increases by 1 when you reach 5th level (−3), 11th (−4), and 17th (−5).
+
+
+\column
+
+
+### Grand Hexes
+The Grand Hexes below are presented in alphabetical order. Unless otherwise stated, if a grand hex calls for an attack roll or saving throw, it uses your spell attack bonus or spell save DC. Grand hex features do not count as hexes.
+
+
+#### Abominable Familiar
+As a  action, you can suffuse your familiar with insidious magic, transforming it into an abominable monster. This transformation lasts for 1 hour or until you lose your Concentration (as if you were concentrating on a spell). Your familiar uses the Abominable Familiar
+stat block and retains none of the benefits of the Familiar feature, except for Spell Channeling and Synchronized Turns. On its turn, the familiar can use Multiattack.
+
+Once you use this Grand Hex, you must finish a long rest before you can use it again, unless you spend a spell slot of 5th-level or higher to use it an additional time. (no action required).
+
+
+{{monster,frame
+## Abominable Familiar
+*Large Monstrosity, Unaligned*
+___
+**Armor Class** :: 13 plus your Charisma modifier
+**Hit Points**  :: 5 plus five times your Witch level (the companion has a number of Hit Dice [d8s] equal to your Witch level)
+**Speed**       :: 40 ft., Climb 40 ft
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|19 (+4)|17 (+3)|18 (+4)|10 (+0)|11 (+0)|13 (+1)|
+___
+**Condition Immunities** :: Charmed, Frightened
+**Senses**               :: Darkvision 60 ft., Passive Perception 10
+**Languages**            :: Understands the languages you know
+___
+**Rampage.** When the familiar reduces a creature to 0 Hit Points on its turn, the familiar can move up to half its Speed and make a Rend attack.
+### Actions
+***Multiattack.*** The familiar makes a number of Rend attacks equal to half your Proficiency Bonus (round down).
+:
+***Rend.*** *Melee Attack Roll:* Bonus equals your spell attack modifier, reach 5 ft. *Hit:* 1d8 + 4 plus your Charisma modifier Force damage.
+
+}}
+
+
+{{pageNumber,auto}}
+\page
+
+#### Cauldron
+You can brew potions in a bubbling cauldron using raw components scavenged from nature. 
+
+To this end, you have a pool of alchemy points equal to your witch level. 
+
+You regain all expended alchemy points when you finish a long rest. 
+
+You can spend 10 minutes and expend any number of alchemy points to brew potions. 
+
+These potions retain potency for 24 hours, after which they become inert. 
+
+If a potion calls for a saving throw, it uses your spell save DC.
+
+The potions available for you to brew are given on the Cauldron Potions table below. 
+
+#### Cauldron Potions
+{{classTable,frame
+| Potion | Alchemy Points|
+|:------------------|:-----:|
+| Potion of Animal Friendship                  | 1     |
+| Potion of Growth              | 1    |
+| Potion of Healing               | 1    |
+| Potion of Water Breathing             | 1    |
+| Oil of Slipperiness             | 2    |
+| Philter of Love| 2    |
+| Potion of Greater Healing | 2
+| Potion of Heroism | 2
+| Potion of Resistance |2
+| Potion of Clairvoyance |3
+| Potion of Diminution | 3
+| Potion of Gaseous Form |3
+}}
+
+
+
+\column
+
+#### Coven
+You can induct others into your insidious coven. By performing a special ritual over the course of 8 hours, which can be done during a long rest, you can intermingle your cursed magic with a willing creature which has the Spellcasting or Pact Magic feature. This creature enters into your coven. You can have up to two creatures other than yourself in your
+coven at one time.
+
+While two or more members of your coven are within 30 feet of one another, they gain the ability to cast additional spells, as shown on the Coven Spellcasting table. Additionally, members of your coven gain access to a shared pool of 5 spell slots—one of each level, from 1st to 5th level—which they can use to cast any spell known to them. Expended spell slots are regained when all members of the coven finish a long rest.
+
+Coven members use their own spellcasting ability to determine spell attack bonuses and spell
+save DCs. A coven member can’t cast spells of a level for which they do not have personal spell slots, even if using a higher level shared spell slot. A shared spell slot can be used, for instance, to cast a lower level spell at higher levels, but it can’t be used to cast a spell normally too high-level for a spellcaster. 
+
+##### Coven Spellcasting
+| Spell Level | Spells | 
+|:------------------|:-----:|
+| 1st                  | bane, hideous laughter     | 
+| 2nd                | invisibility, ray of enfeeblement     | 
+| 3rd              | bestow curse, counterspell     | 
+| 4th             | banishment, polymorph     | 
+| 5th             | contagion, scrying     | 
+
+
+#### Dual hex
+When you cast a hex which targets one creature, you
+can target two creatures instead. While both targets
+are under the effect of your hex, you gain the benefits
+of your Insidious Spell feature against each of them.
+
+#### Forceful personality
+Your Charisma score increases by 2, to a maximum of 22. 
+{{pageNumber,auto}}
+\page
+#### Hybrid
+As a bonus action, if your familiar is within 5 feet
+of you, you can meld with it, transforming into a
+magical hybrid. For the next minute, you gain the
+following benefits:
+
+- You gain temporary hit points equal to your familiar’s hit points.
+
+- Your Armor Class equals 10 + your Dexterity modifier + your Charisma modifier.
+
+- You gain two natural melee weapons, corresponding to your familiar’s attacks. You have proficiency with these weapons, and use Charisma for the attack and damage rolls. On a hit, these natural weapons deal 1d10 bludgeoning, piercing, or slashing damage (your choice).
+
+- You can attack twice, instead of once, when you take the Attack action on your turn. You ignore this benefit if you already have a feature, like Extra Attack, that gives you extra attacks
+
+- You can use any action or movement your familiar possesses.
+
+This transformation lasts one minute or until you dismiss it on your turn (no action required). When it ends, your familiar is dismissed, and you can’t summon it again until you finish a short or long rest unless you spend a spell slot of 5th-level or higher to use it an additional time. (no action required).
+
+
+#### Poison apple
+As an action, you can produce a magical apple out of thin air. This apple can possess whatever appearance you wish, be that a ruby red coloration, a golden skin, or the appearance of crystal. On your turn, you can use your action to eat the apple, granting you the following benefits:
+
+- You regain hit points equal to twice your witch level, plus your Charisma modifier.
+
+- You regain an expended spell slot of 5th level or lower.
+
+- You can end one of the following conditions affecting you: blinded, deafened, paralyzed, or poisoned.
+
+However, the apple is suffused with your insidious magic. If a creature other than yourself eats the apple, it does not gain any benefits and instead must make a Wisdom saving throw against your spell save DC with disadvantage. On a failed save, the creature becomes poisoned for up to 24 hours. 
+
+For each hour the creature is poisoned, it loses 4d8 hit points. This loss can’t be reduced or avoided. If this reduction causes the creature to drop to 0 hit points, the creature instead drops to 1 hit point and falls into a catatonic sleep, remaining unconscious for up to 7 days. A *remove curse* spell or similar magic can awaken this creature early. 
+
+The apple shrivels and become nonmagical if it isn’t eaten in 24 hours. 
+
+Once you produce a magic apple, you can’t produce another one until you finish a long rest.
+
+
+\column
+
+#### Possession
+As an action, your body becomes immaterial, and
+your spirit dives into a Large or smaller creature
+you can see within 10 feet of you in an attempt to
+possess it. 
+
+This target must make a Charisma saving throw. 
+
+A creature with a challenge rating greater than your witch level automatically succeeds on this save. 
+
+On a failed save, you disappear and the target becomes incapacitated and possessed; you gain control of its body but don’t deprive the target of its awareness. 
+
+While possessing the creature, you can’t be targeted by any attack, spell, or other effect. 
+
+You maintain your Intelligence, Wisdom, and Charisma ability scores and your alignment, but otherwise use the creature’s statistics. You don’t gain access to the target’s knowledge, class features, or proficiencies.
+
+For the purposes of spells and effects which
+can end possession, such as the spell dispel evil and
+good, you are treated as an undead spirit and can
+be banished from the target, returning to your own
+body, which rematerializes within 5 feet of the target.
+
+This possession lasts for 1 hour, or until the
+body drops to 0 hit points or you are forced out by a
+spell or other magical effect that ends possession.
+
+Once you use this ability, you can’t do so again until you finish a long rest. You can also restore your use  of it by expending a spell slot of 5th-level or higher to use it an additional time. (no action required)
+#### Witch's broom
+You can use your action to enchant a mundane object to fly for you. You gain a flying speed of 60 feet while holding this item with one hand, as long as you are not wearing heavy armor. 
+
+You can only enchant one object using this ability at a time. 
+
+If you target another object using this effect, the enchantment on the previous object ends.
+
+
+#### Witch's Hut
+
+You can perform a 24-hour long ritual to enchant a structure which can fit within a 15-foot cube, animating it as a Huge object, as per the *animate objects* spell. 
+
+The structure rises up on a pair of magical legs and follows your commands. The entrance to the structure is linked to an extradimensional abode, as per the magnificent mansion spell. 
+
+You can command the structure from inside this abode. If the structure is destroyed, the extradimensional abode is unharmed, but its occupants are ejected to unoccupied spaces adjacent
+to the structure.
+
+
+As an action, you can teleport the structure to an unoccupied space within 60 feet of you. 
+
+Once you teleport the structure, you can’t do it again until you finish a long rest.
+
+You can repeat the 24-hour ritual to end the
+enchantment on your previous structure and enchant
+a new one.
+{{pageNumber,auto}}
+\page
+## Witch's Crafts
+A witch’s craft is distinct from a school of magic.
+Whereas magical schools seek to categorize spells,
+crafts are defined by the use of magic, and seek to
+capture the essence of spells. There are dozens of
+varieties, from those practiced by covens in secret, to
+those plied in marketplace potion shops.
+Each craft has a number of Craft Spells. New
+spells are marked with an asterisk.
+
+### Black Magic
+Black magic is associated with hexes that cause
+pain and suffering, and spells which give rise to
+undeath. Harnessing such a craft can lend you great
+power, but inevitably carries a cost. Darkness cannot
+be contained, after all; it merely seeps forth from
+wherever it is kept.
+
+##### Black Magic Bonus Spells
+
+| Spell Level| Spells| 
+|:-----------|:-----:|
+| 1st        | exhume, inflict wounds      |
+| 2nd        | gentle repose, magic weapon     | 
+| 3rd        | animate dead, vampiric touch     |
+| 4th        | blight, death ward     | 
+| 5th        | cloudkill, contagion     | 
+
+#### Hex: Decay
+When you adopt this craft at 3rd level, You gain the *Hex: Decay*, as follows. This hex is exclusive to this subclass.
+#### Hex: Decay
+**Casting Time:**:: Action
+**Range:**:: 60 feet
+**Components:**:: V, S
+**Duration:**:: 1 round
+One creature you can see within range makes a Constitution saving throw. On a failed save, the creature takes 1d4 Necrotic damage at the start of its next turn, and its Hit Point maximum is reduced by an amount equal to the Necrotic damage taken. This reduction lasts until the spell ends at the end of your next turn. The target dies if this effect reduces its Hit Point maximum to 0.
+
+**At Higher Levels.** The damage and reduction increases by 1d4 when you reach 5th level (2d4), 11th (3d4), and 17th (4d4).
+
+
+#### Undeath Command
+Starting at 6th level, you have intertwined the magic of your familiar with the magic you use to animate the dead. When you use your bonus action to command your familiar, you can use the same
+bonus action to issue a command to any undead you control via the *animate dead* spell or similar magic.
+\column
+#### Life tether
+At 10th level, as a reaction when you take damage from a creature you can see, you can transfer some of that damage to a creature which is the sole target of your hex. You take half the damage (rounded down) and the hexed creature takes the remaining damage.
+
+Once you use this ability, you can’t use it again until you finish a short or long rest unless you expend a spell slot of 4th-level or higher to use it again.
+#### Grim Sacrifice
+Beginning at 14th level, if your familiar is within 60 feet of you, you can use your action to command it to dissolve its magical bond to this plane, which unleashes a torrent of necromantic energy. Each creature you choose within 20 feet must make a Dexterity saving throw against your spell save DC. A creature takes 8d10 necrotic damage on a failed save, or half as much on a successful one, and its hit point maximum is reduced by the amount of necrotic damage taken. A target dies if this effect reduces its hit point maximum to 0. 
+
+Once you use this ability, you can’t summon your familiar again until you finish a long rest.
+
+
+### Blood Magic
+Forbidden by most witch covens, blood magic
+centers on the use of dark spells and mortal hexes
+that draw from the spellcaster’s very essence. It is
+fundamentally more perilous than other witch crafts,
+but its many risks come with copious rewards.
+##### Blood Magic Bonus Spells
+
+| Spell Level| Spells| 
+|:-----------|:-----:|
+| 1st        | hellish rebuke, hollowing curse      |
+| 2nd        | acid arrow, hold person     | 
+| 3rd        | ruby-eye curse, vampiric touch     |
+| 4th        | blight, dominate beast     | 
+| 5th        | cloudkill, dominate person     | 
+
+#### Hex: Blood Curse
+At 3rd level, You gain the *Hex: Blood Curse*, as follows. This hex is exclusive to this subclass.
+#### Hex: Blood Curse
+**Casting Time:**:: Action
+**Range:**:: 60 feet
+**Components:**:: V, S
+**Duration:**:: 1 round
+You mark a creature you can see within range with a sinister blood curse. The target makes a Constitution saving throw. On a failed save, the target is on the brink of death until the spell ends at the end of your next turn. 
+
+If the creature at any point in this duration is missing any of its Hit Points and has fewer than 10 Hit Points, it immediately drops to 0 Hit Points.
+
+**At Higher Levels.** The threshold of Hit Points under which the target drops to 0 Hit Points increases by 10 when you reach levels 5 (20), 11 (30), and 17 (40).
+{{pageNumber,auto}}
+\page
+#### Novice hemomancy
+Also at 3rd level, when you cast a spell which
+requires material components that do not have
+a specific cost, you can replace the material
+components with a drop of blood. 
+
+#### Arcane bloodletting
+Lastly at 3rd level, you can impel your magic with a
+measure of your own blood. When you cast a spell
+that has a casting time of 1 action, you can choose
+to lose 5 hit points to change the casting time to 1
+bonus action for this casting.
+
+You can use this feature a number of times equal
+to your Charisma modifier (a minimum of once). You
+regain all expended uses when you finish a long rest.
+
+#### Deathseeker
+At 6th level, you can detect the location of each creature within 60 feet of you that is missing any of its Hit Points, even if such a creature has the Invisible condition.
+
+
+Additionally, you have Advantage on ability checks you make to track any creature that you or your familiar has damaged within the last 24 hours.
+
+
+#### Hemonmantic Recovery
+Beginning at 10th level, you can perform a blood
+ritual to bolster your magic. Once per day when you
+finish a short rest, you can spend hit dice to recover
+expended spell slots. The cost for each spell slot is
+given on the table below. You can’t use this ability to
+recover spell slots of 6th level or higher. 
+| Spell Level| Hit dice
+|:-----------|:-----:|
+| 1st        | 2|
+| 2nd        | 3| 
+| 3rd        | 5|
+| 4th        | 6| 
+| 5th        | 7 
+ 
+#### Sanguine
+By 14th level, You can wield your own blood like a vicious lash. When you cast a spell with a spell slot that deals damage to a creature that is the sole target of your Hex, you can choose to lose Hit Points to increase the amount of damage dealt.
+
+For every 5 Hit Points you lose, you can deal an extra 2d8 Necrotic damage to the creature, to a maximum of 6d8 damage. This Hit Point loss can’t be reduced or avoided. 
+
+\column
+
+### Blue Magic
+Compared to all other crafts of magic, blue magic is
+unique, in that it reflects the essence of magic itself.
+Witches that specialize in blue magic forgo the ability
+to learn magic normally, instead adopting magic only
+by absorbing the energy of spells that affect them and
+letting the arcana imprint upon their souls.
+
+
+#### Blue Magic Spells
+Beginning at 3rd level, the only way you can learn new
+spells is to experience them. Unlike other witches, you
+no longer learn new spells as you grow in level (though
+you retain the spells you have already learned). 
+
+When a spell is cast on you, you are in the area of a spell’s
+effect, or you are targeted by the effect of a spell, and
+you experience any effect of the spell, you can use your
+reaction to learn that spell. You do not learn a spell if
+you are required to make a saving throw, you succeed,
+and the spell has no effect on you.
+
+The Cantrips Known and the Spells Known
+columns of the Witch table shows how the maximum
+number of cantrips and spells of 1st level or higher you
+can learn through Blue Magic. The number of spells
+of 1st level or higher that you can learn increases by
+an additional 4 at 3rd level (8 spells known), and an
+additional 2 at 5th level (12 spells known), 7th (16
+spells known), and 9th level (20 spells known).
+
+The spells learned need not be from the Witch
+spell list. You can use your action to forget a spell you
+know.
+
+#### Arcane Awareness
+At 3rd level, You always have the *Detect Magic* spell prepared and can cast it at will. 
+
+Additionally, while this spell is active, you can use a Bonus Action to detect if a creature you can see within 60 feet of you can cast spells. 
+
+#### Blue Magic trait
+Also at 6th level, you gain an uncanny ability to mimic other people. As an action, you can choose a willing creature you can see within 60 feet and gain one item of your choice that they possess from the following list (even if they only possess it temporarily):
+- One special sense, such as darkvision or tremorsense.
+- One movement speed, such as a swim or climb speed.
+- One skill, tool, or instrument proficiency.
+- One damage resistance.
+- Their accent, verbal tics, and mannerisms.
+
+You can keep this trait as long as you are within 60 feet of the target, or until you use this ability again.
+
+
+
+{{pageNumber,auto}}
+\page
+#### Turquoise Efficiency
+By 6th level, you have learned to be frugal with the
+magical energy you absorb from spells. You have
+advantage on saving throws you make against spells
+that you know.
+In addition, if you succeed a saving throw against
+a spell that you know, you can regain an expended
+spell slot of the same level. Once you regain a spell slot
+in this manner, you can’t do so again until you finish a
+long rest.
+
+#### Evolved Copycat
+At 10th level, you have learned to magically copy the abilities of monsters for later study and use. If a non-humanoid creature damages you or forces you to make a saving throw against a special ability, attack, or another feature, you can use your reaction to store the knowledge of that ability, attack, or feature.
+
+This ability can’t be used to copy or store spells or the effects of spellcasting. Stored abilities, attacks, and features use your Spell save DC. You can store a number of abilities equal to your Intelligence modifier.
+
+If you are at your maximum capacity of stored abilities when you use this reaction, you can choose to forget one stored ability, attack, or feature as part of this reaction.
+
+As an action, you can unleash a stored ability, attack, or feature, using it as the original creature would have, but originating from you. To use a stored ability in this way, you must expend a spell slot of a level equal to half the original creature's CR (rounded down, minimum of 1st level). Once used, that ability, attack, or feature is instantly expended.
+
+
+#### Cerulean Reflection
+Beginning at 14th level, you can use your body as
+a conduit to transmit magic back at other casters.
+When you are subjected to a spell that allows you to
+make a saving throw to take only half damage, you
+instead take no damage if you succeed on the saving
+throw, and only half damage if you fail. 
+
+If you succeed the saving throw by 10 or more, you can use your reaction to cast the spell back at the caster, as though it originated from you, turning the caster into the target.
+
+Once you reflect a spell in this way, you can’t do so again until you finish a long rest.
+
+\column
+### Disformity Magic
+Those who wield Disformity Magic embrace the forbidden curse of Chaos, warping reality and minds alike. They are conduits of the Warp, spreading corruption and reshaping the world in their heretical image.
+
+Marked as heretics by the zealous, these witches see Chaos not as damnation, but as liberation. They twist divine laws, pierce the veil between realms, and bend the Warp to their will, walking the fine line between madness and mastery.
+
+#### Heretic Comfort
+
+At 3rd level, you become more comfortable and aware of the power granted by heretical forces. You have advantage on Charisma (Persuasion) or Charisma (Deception) checks when attempting to convince a creature that what they consider forbidden knowledge is merely a misunderstood aspect of their religious dogma. Additionally you learn Deep Speech language.
+
+#### Immaterium Influence
+When you adopt this craft at 3rd level, you allow the influence of Chaos to pierce the veil of the material plane and taint the souls of those nearby.
+
+As an action, you conjure a 15-foot-radius, 15-foot-high cylinder of empyreal corruption centered on yourself. The zone lasts for up to 1 minute or until you use this feature again, whichever comes first. You can’t have more than one zone active at a time—if you conjure a new zone, the previous one immediately vanishes.
+
+While within this area, creatures suffer the following effects:
+
+**Warped Vitality.** When a creature inside the area would regain hit points, it instead takes psychic damage equal to half the amount it would have healed. This effect bypasses resistance to psychic damage.
+
+**Clouded Focus.** Creatures have disadvantage on Constitution saving throws made to maintain concentration on spells.
+
+Once you use this feature, you can’t use it again until you finish a short or long rest. You can also restore its use by expending a spell slot of 1st level or higher.
+
+
+#### Warp Movement
+
+By 6th level, your attunement to Chaos becomes more refined, allowing you to momentarily slip into the Warp to bypass physical obstacles.
+
+As an action, you and your familiar take on an ethereal form until the end of your turn, allowing you to move through solid objects and walls. However:
+
+You can pass through a maximum of 5 feet of solid material.
+
+If you end your movement inside a solid object, you are pushed out to the nearest unoccupied space and take 1d10 force damage.
+
+
+
+
+{{pageNumber,auto}}
+\page
+#### Chaos’Helping Hand
+
+At 10th level, you can cast *Infernal Calling* without expending a spell slot or requiring material components. Once you use this feature, you must finish a long rest before using it again.
+
+
+#### Warp Incursion
+
+At 14th level, your mastery of the Warp allows you to tear open reality, forcing a Warp Incursion into your current plane.
+
+When you use Hex: Immaterium Influence, the barrier between worlds weakens further, creating the following additional effects:
+
+**Slowed Minds.** Any creature that starts its turn inside the area must succeed on a Wisdom saving throw or be affected by the Slow spell until the start of its next turn.
+
+**Selective Protection.** You can choose any number of friendly creatures in the area to be immune to its negative effects.
+
+**Surge of Chaos.** When a chosen ally regains hit points from any source, they unleash a psychic shockwave. Every hostile creature inside the area takes psychic damage equal half of the amount of healing received.
+
+### Duskcaller Magic
+{{pageNumber,auto}}
+\page
+### Fragrant Magic
+Magic based on the swirling smoke of strongsmelling herbs has been practiced since the time of ancient wood elves. Today, the discipline, a mix of aromatherapy and mystical arcana, is kept alive by the so-called “perfumed witches”, who can purify the body and still the mind with their collection of fragrances and herbal smokes. Their fragrant magic, however, is not always evident. Sometimes, it would appear their magic is more about relaxation and meditation, while other times, they summon foul clouds which disorientate and kill.
+
+#### Fragrant Magic Bonus Spells
+| Spell Level| Spells| 
+|:-----------|:-----:|
+1st| color spray, fog cloud
+2nd| calm emotions, enhance ability
+3rd| gaseous form, stinking cloud
+4th| compulsion, hallucinatory terrain
+5th| cloudkill, hallow
+
+#### Fragrant Aura
+When you choose this craft at 3rd level, you master a hex that generates aromatic scents. As an action, you can emanate a fragrant aura in a 30-foot radius sphere centered on yourself, which lasts for 1 minute, until you use this feature again to choose a different effect or you dismiss it (no action required). This Emanation has no effect on creatures that don’t need to breathe.
+When you create the aura, choose one of the following scents:
+
+**Frankincense.** Each creature you choose within
+the aura has advantage on Wisdom checks and saving
+throws. Additionally, fiends and undead creatures
+within the area within the aura have disadvantage on
+attack rolls and saving throws.
+
+**Smelling Salts.** Each Unconscious creature you choose within the Emanation is awakened if it has at least 1 Hit Point. Additionally, each creature in the Emanation has Advantage on saving throws it makes to avoid or end the Charmed condition and can’t be magically put to sleep.
+
+**Sulfur.** Each creature you choose within the aura
+has disadvantage on Constitution checks and saving
+throws.
+
+#### Smoke Rings
+Also at 3rd level, whenever you create smoke, such as
+when you burn herbs or incense, you can shape it in
+any manner you choose in the brief moments before it
+floats away.
+
+\column
+
+#### Aromatherapy
+At 6th level, when you cast a Witch spell, you can burn a stick of incense to cast it without any Verbal, Somatic, or Material components. If the spell requires Material components
+that have a cost specified in the spell, you must burn incense of equal value. A Witch spell you cast in this way can’t be affected by *Counterspell*.
+
+A block of incense is worth 2 gp and contains 10 sticks of incense, each worth 2 sp. More exotic or valuable varieties of incense exist, and can be purchased to replace more expensive material components.
+
+#### Dizzying Fog
+Beginning at 10th level, as an action, ou can release a 20-foot radius
+Emanation of multi-hued smoke originating from you.
+The Emanation is Heavily Obscured, but dissipates fully at the end of your turn. Each creature you choose within the area must succeed on a Wisdom saving throw or have the Poisoned condition for up to 1 minute. 
+
+At the end of each of its turns, a Poisoned creature repeats the save, ending the effect on itself on a success.
+
+Once you use this feature, you can’t use it again until you finish a Short or Long rest.
+#### Olfactory Aurora
+When you reach 14th level, you are constantly
+surrounded by a flowery fog that puts your allies into
+a positive state of mind. Whenever a friendly creature
+within 30 feet of you makes an attack roll, ability
+check, or saving throw, they can add a d4 to the roll.
+{{pageNumber,auto}}
+\page
+### Fruit Magic
+Witches who follow the path of Fruit Magic blend nature’s sweetness with arcane curses. Channeling power through magical fruits and sentient familiars shaped like berries and citrus, they are whimsical, nurturing—and deeply dangerous.
+
+
+
+#### Fruit Magic Bonus Spells
+| Spell Level| Spells| 
+|:-----------|:-----:|
+1st|	*goodberry, purify food and drink*
+2nd|	*bloom, Locate animals or plants*
+3rd|	*create food and water, speak with plants*
+4th|	*grasping vine, guardian of nature*
+5th|	*arcane capacitator, commune with nature*
+
+#### Hex: Magical Fruit
+Starting when you choose this craft at 3rd level, You gain the *Hex: Magical Fruit*, as follows. This hex is exclusive to this subclass.
+
+#### Hex: Magical Fruit
+**Casting Time:**:: 1 action
+**Range:**:: Touch
+**Components:**:: V, S
+**Duration:**:: 1 round
+
+You conjure a magical fruit imbued with a mystical effect. Choose one of the following effects when you cast this hex:
+
+- A creature that eats the fruit can add 1d6 to its next attack roll or saving throw within 1 minute.
+
+- When thrown as an improvised weapon (range 20/60), the fruit explodes in a puff of sticky pulp. The target must succeed on a Dexterity saving throw or fall Prone, and takes 1d6 bludgeoning damage on a failed save.
+
+- The fruit can be eaten to gain temporary hit points equal to 1d6 + your Charisma modifier.
+
+A creature that eats a magical fruit can’t benefit from eating another one until 1 hour has passed.
+
+**At Higher Levels.** The d6 used by each effect increases to 2d6 at 5th level, 3d6 at 11th level, and 4d6 at 17th level.
+
+
+
+
+
+#### Edible Companion
+
+Also at 3rd level, your familiars are living fruits. As an action, you can eat your Fruit Familiar. When you do, for the next minute, you can use any feature your familiar possesses and your next spells deal additional damage equal to your Charisma modifier.
+
+This bonus damage applies only once per spell. If a spell involves multiple attacks rolls, the bonus applies to only one of those attacks, chosen by you.
+
+Your familiar is dismissed when consumed and cannot be summoned again until you finish a short or long rest. 
+
+You can also restore its use by expending a spell slot of 1st level or higher.
+
+
+\column
+
+
+#### Fruit Synergy
+Starting at 6th level, consuming your magical creations floods your body with arcane nutrients. When you eat a Fruit Familiar, you enter a state of heightened magical flow for 1 minute.
+
+During this time, when a creature rolls a 1 on a saving throw against one of your spells, it automatically fails the save and takes twice the number of damage dice dealt by the spell.
+
+The additional damage only applies to the creature that rolled a 1 or a 2.
+
+Additionally, your spell attacks score a critical hit on a roll of 19 or 20 and creatures have disadvantage on the first saving throw they make against each of your Hexes.
+
+
+#### Dragon Fruit
+At 10th level, once per long rest, you can use your action to summon a powerful ***Dragon Fruit*** Familiar, a majestic and glowing embodiment of your magical craft. 
+
+It lasts for 1 hour, counts as a Fruit Familiar for all your abilities, and uses the stat block provided below. 
+
+While the Dragon Fruit Familiar is summoned, you can still have one additional Fruit Familiar active at the same time.
+
+
+#### Fruit Ascension
+When you reach 14th level, you permanently gain the benefits of one magical fruit per long rest. At the end of a long rest, choose one of the following effects to apply to yourself until your next long rest:
+
+- **Fortifying Snack.** Gain resistance to piercing, slashing, bludgeoning, poison and necrotic damage.
+
+- **Energizing Bite.**  Your base walking speed increases by 10 ft., and you have advantage on Dexterity saving throws.
+
+- **Cherry Flavor**. You can’t be surprised and have advantage on Charisma and Wisdom checks.
+
+Additionally, once per long rest, when you consume a Fruit Familiar, you may immediately cast a Witch spell of 5th level or lower without using a spell slot.
+
+{{note
+##### Hybrid Fruit
+
+If you use the Hybrid Grand Hex and merge with your Fruit Familiar, it counts as consuming the familiar for the purposes of features such as Edible Companion and Fruit Synergy. 
+
+When Hybrid ends, the familiar is considered dismissed and follows Hybrid resummoning rules.
+
+}}
+{{pageNumber,auto}}
+\page
+### Gingerbread Magic
+Witches that learn the fine details of Gingerbread
+Magic become masters in all things confectionery.
+Some witches, particularly those with a sweet tooth of
+their own, use their magic to bring joy to others: for
+example, turning pebbles into gumdrops, and giving
+them to children. Evil gingerbread witches, however,
+have a penchant for cruelty, and use their delectable
+powers to tempt others into traps, or to transform their
+valuables into sweet treats.
+#### Gingerbread Magic Bonus Spells
+Spell Level| Spells
+:-:|:-:
+1st| hideous laughter, sleep
+2nd| arcane lock, protection from poison
+3rd| create food and water, tiny hut
+4th| confusion, hallucinatory terrain
+5th| animate objects, dream
+#### Hex: Sweet Tooth
+Starting when you choose this craft at 3rd level, You gain the *Hex: Sweet Tooth*, as follows. This hex is exclusive to this subclass.
+
+#### Hex: Sweet Tooth
+**Casting Time:**:: Action
+**Range:** ::Touch
+**Components:** ::V, S
+**Duration:**:: 1 round
+You touch a nonmagical object within range that isn’t being worn or carried and that can fit within a 1-foot cube. It transforms into an edible candy replica. You choose the type of candy it is made out of, such as gingerbread, candy cane, licorice, or a combination of various candies. If the candy is not eaten or destroyed by the end of your next turn when the spell ends, it reverts to its original material. 
+
+Once the spell ends on a target, it is immune to this spell for 1 minute.
+
+
+
+#### Gingerbread Familiar
+Also at 3rd level, when you summon your familiar,
+you can conjure a version of it made from gingerbread.
+Your gingerbread familiar has the same statistics as it
+normally would, but it has blindsight with a range of
+10 feet and the following traits:
+
+**Distracting Aroma.** A hostile creature that is
+within 5 feet of the familiar has disadvantage on attack
+rolls against creatures other than it.
+
+**Blindsight.** Your familiar has Blindsight with a
+range of 10 feet.
+
+**Fragile.** Your familiar only adds your witch level,
+instead of twice your witch level, to its maximum hit
+points. 
+
+#### Sugar Rush
+By 6th level, as a bonus action, you can give an ally you touch a burst of quicklyfading energy. The creature can take the Dash action or Disengage action as a bonus action on its next turn.
+\column
+#### Sugar-Coat
+Starting at 10th level, when an attacker that you can see hits you
+with an attack roll using a weapon, you can take a Reaction to transform its weapon into a harmless duplicate made of candy. You choose the type of candy it is made out of, whether it be
+marshmallow, cotton candy, or gingerbread. 
+
+You take no damage from the attack. The weapon remains transformed and unable to deal damage until the end of the attacker’s turn. The attacker can make attacks using
+other weapons or Unarmed Strikes as normal.
+
+Once you use this ability, you can’t use it again until you finish a short or long rest unless you expend a spell slot of 3th-level or higher to use it again.
+#### Candy Land
+By 14th level, as an action, you can transform an area into a field of confectionary delights. Choose a point you can see within 120 feet. For 1 minute, a 30-foot-radius Sphere of magic centered on that point transforms every nonmagical object entirely within the area that isn’t being worn or carried into an edible candy replica. Structures become gingerbread houses, trees are made of chocolate, and so on. The GM decides the type of candy into which
+objects are transformed. Candy objects have no damage threshold and Vulnerability to all damage. If a candy object is not eaten by the end of the duration, it reverts to its original material.
+
+Additionally, inside this area, everything appears to be joyous and colorful; the grass is made of licorice and the clouds are made of candy floss. Whenever you begin your
+turn in the area, you and your familiar each regain 5 Hit Points. You don’t gain this benefit if you have 0 Hit Points and your familiar doesn’t gain this benefit if it is dismissed.
+
+Once you use this ability, you can’t use it again until you finish a Long Rest.
+{{pageNumber,auto}}
+\page
+### Green Magic
+Plants, nature, and things that grow are the
+domain of green magic. Normally a type of arcana
+championed by druids, some witches have a close tie
+to the powers of green magic, and can coax plants
+and animals into their bidding.
+
+##### Green Magic Bonus Spells
+
+| Spell Level| Spells| 
+|:-----------|:-----:|
+| 1st        | entangle, goodberry      |
+| 2nd        | barkskin, beast sense     | 
+| 3rd        | conjure animals, plant growth     |
+| 4th        | conjure woodland beings, stoneskin     | 
+| 5th        | awaken, tree stride     | 
+
+#### Elder tongue
+Starting when you choose this craft at 3rd level, you know the speech of the forest. 
+
+As a bonus action, you can attune yourself to the forest, granting you the ability to speak with beasts and plants in a limited manner. 
+
+Most beasts and plants lack the intelligence to convey or understand sophisticated concepts, but could relay what they have seen or heard in the recent past.
+
+While you can speak with them, you have advantage on all Charisma checks you make to influence beasts and plants.
+
+#### Primal ally
+Also at 3rd level, whenever you summon your
+familiar, you conjure one that is hardier than normal.
+Add three times your witch level, instead of twice
+your witch level, to your familiar’s maximum hit
+points.
+
+#### Twin familiar
+By 6th level, when you summon your familiar,
+you can divide its spirit into two bodies. 
+
+When
+summoned this way, your familiar is two identical
+creatures which share a single pool of hit points.
+
+Your twin familiars roll only once for initiative and
+act on subsequent turns. 
+
+You can use your bonus action to command one twin to attack and your
+action to command the other to attack. 
+
+A spell or feature which targets or dismisses your familiar
+affects both twins. 
+
+
+\column
+
+
+#### Vital nourishment 
+By 10th level, you exude an aura of Green Magic that restores and reinvigorates life around you. When you finish a long rest, plant life within 120 feet of where you finished your long rest grows as if a month had passed with abundant food, water, and other necessities. If the plants would produce fruits, berries, or vegetables, the plantsgrow enough food to feed six creatures for one day.
+
+Additionally, choose up to six creatures you can see at the end of the rest. Those creatures each gain Temporary Hit Points equal to your Witch level + your Charisma modifier. You can also end one of the following conditions affecting each creature: Blinded, Deafened, Paralyzed, or Poisoned.
+
+
+#### Sacrificial familiar
+At 14th level, Whenever you are targeted by an attack while your familiar is within 5 feet of you, you can take a Reaction to command it to dive in the way of the attack, causing the attack to target your familiar instead.
+
+You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain all expended uses when you finish a Long Rest.
+
+{{pageNumber,auto}}
+\page
+### Lunar Magic
+The moon is a potent symbol for many witches, especially
+those who are forced to practice their art incognito. To
+them, it represents a guiding light in the darkness, a
+confidant or keeper of secrets, and a link to the powerful
+natural forces that govern time and tide. Lunar witches are
+the masters of the night: shadowy, quiet, and exceptionally
+difficult to pin down.
+
+##### Lunar Magic Bonus Spells
+| Spell Level| Spells| 
+|:-----------|:-----:|
+1st| faerie fire, sleep
+3rd| darkvision, moonbeam
+5th| hypnotic pattern, nondetection
+7th| confusion, private sanctum
+9th| dream, seeming
+
+
+#### Moonsight
+At 3rd level, you gain Darkvision with a range of 60 feet. If you already have Darkvision when you gain this feature, its range increases by 60 feet.
+
+#### Hexlight
+When you join this craft at 3rd level, you can cast *Moonbeam* once without a spell slot, and you regain the ability to cast it in this way when you finish a Long Rest.
+
+Whenever you start casting the spell, you can modify it so that the spell’s duration becomes 1 round, ending at the end of your next turn. 
+
+When you Cackle, the spell’s duration extends by 1 round, up to a maximum of 1 minute, and you can use the spell’s action to move the beam as a part of the same Bonus Action.
+
+
+#### Under Cover of Darkness
+By 6th level, you and your familiar can attempt to hide when Lightly Obscured. Additionally, you can add your Charisma modifier to any Dexterity (Stealth) check you make as a part of the Hide action (minimum bonus of +1).
+
+\column
+{{note
+##### Moon Phases
+Each phase of the moon lasts approximately 10 days, but this duration might vary in different campaign settings, as determined by the GM.
+1d6| Moon Phase
+:--:|:--:
+1–2|Crescent Moon
+3–4| Full Moon
+5–6| New Moon
+}}
+
+
+#### Blessing of the Moon
+At 10th level, when you finish a Long Rest, you gain a blessing based on a phase of the moon. You can choose the blessing of any moon phase, and the blessing is empowered if it’s the moon’s current phase. The GM determines the current phase, or determines it randomly on the Moon Phases table.
+
+You can use the benefit of your blessing once and regain the ability to do so when you finish a Long Rest.
+
+You can also restore you expend a spell slot of 5th-level or higher to use it again.
+
+**Crescent Moon.** When an enemy you can see within 30 feet of you moves, you can take a Reaction to teleport up to 30 feet to an unoccupied location you can see. If the moon is currently a crescent moon, you can teleport up to 60 feet.
+
+**Full Moon.** When you fail a saving throw, you can take a Reaction to reroll it with a bonus equal to your half your Witch level. You must use the new roll. If the moon is currently a full moon, you add your Witch level, instead of half your Witch level, to the roll.
+
+**New Moon.** When a creature you can see hits you with an attack roll, you can take a Reaction to impose a −5 penalty to the roll, potentially causing the attack to miss you. If the moon is currently a new moon, you impose a −10 penalty to the attack roll.
+
+#### Blood Moon Beam
+At 14th level, whenever you cast *Moonbeam*, the spell creates a 15-foot-radius Cylinder. If you reduce an enemy to 0 Hit Points using the spell, the area expands to a 20-foot-radius Cylinder for the duration of the spell.
+{{imageMaskEdge1,--offset:30%,--rotation:0
+  ![](https://cdnb.artstation.com/p/assets/images/images/010/453/539/large/lucas-torquato-hex-doombringer-eparch-of-souls-set-release-2018-03-12.jpg?1524515878){height:100%,bottom:-300px}
+}}
+
+{{pageNumber,auto}}
+\page
+
+### Purple Magic
+Purple magic holds sway over the domains of
+illusions and enchantments that take hold over
+people’s minds, and anything that is not quite as it
+seems. Practitioners of this form of magic are puppet
+masters, shaping the apparent reality of those around
+them to their advantage.
+
+
+##### Purple Magic Bonus Spells
+| Spell Level| Spells| 
+|:-----------|:-----:|
+| 1st        | charm person, silent image      |
+| 2nd        | enthrall, invisibility     | 
+| 3rd        | hypnotic pattern, major image     |
+| 4th        | confusion, private sanctum     | 
+| 5th        | modify memory, seeming    | 
+
+#### Hex: Hallucination
+Starting at 3rd level, you can infect the minds of
+other creatures. As an action, choose one creature
+you can see within 60 feet to make a Wisdom saving
+throw. A creature that is immune to being charmed
+automatically succeeds on this saving throw. On a failed save, the target’s perspective of the world distorts into a horrific and alien place. The creature has a −1 penalty on all attack rolls and ability checks it makes.
+
+Whenever the creature begins its turn, the
+penalty on all attack rolls and ability checks increases
+by 1, up to a maximum penalty of −5. This effect lasts
+until the end of your next turn.
+
+#### False authority
+By 6th level, as an action, you can wrap yourself in an illusory air of expectation. Any creature which sees you perceives you as a figure of authority. A blacksmith might see you as a guild master, whereas a soldier might see you as a captain. The changes perceived by a viewer fail to hold up to physical inspection. 
+
+This illusion lasts for 1 hour or until you end it on your turn (no action required). To discern that you are disguised, a creature can use its action to inspect your appearance and must succeed on an Intelligence (Investigation) check against your spell save DC.
+
+Once you use this ability, you can’t use it again until you finish a short or long rest unless you expend a spell slot of 2th-level or higher to use it again.
+
+\column
+
+#### Deceitful transposition
+Starting at 10th level, you can use your bonus action to create an illusory disguise over two creatures within 60 feet of you, making it seem as if they have teleported and switched places.
+
+The disguise makes it seem that the creatures are in one another’s spaces, moving all sounds, smells, and other effects caused by each creature to their correct points of origin. Creatures under the effect of the disguise do not perceive any part of the illusion.
+
+A creature can use its action to examine a magically disguised creature and make an
+Intelligence (Investigation) check against your spell save DC. On a success, the creature can see both illusory creatures for what they are.
+
+This illusion lasts for 1 minute, and ends early when one of the illusory creatures takes damage, or if one of the creatures performs any physical interaction which reveals itself to be an illusion.
+
+Once you use this ability, you can’t use it again until you finish a long rest unless you expend a spell slot of 3th-level or higher to use it again.
+
+#### Waking nightmare
+By 14th level, you can warp everything a creature sees into a hellscape, full of terrible creatures that wish them harm. When a creature fails its saving throw against your *Hex: Hallucination* cantrip, you can further distort its mind, causing it to lose the ability to distinguish friend from foe, regarding all creatures it sees as enemies until the hex ends. Whenever the hexed creature chooses a target for an attack, spell, or other ability, it must choose the target at random from among the creatures it can see within range.
+
+The hexed creature must always use its reaction to make an opportunity attack, if a creature provokes one.
+
+This effect ends after 1 minute. 
+
+Once you use this ability, you can’t use it again until you finish a long rest unless you expend a spell slot of 4th-level or higher to use it again.
+
+
+![cat warrior](https://i.imgur.com/213G73T.png) {width:525px,position:absolute,left:400px}
+
+{{artist,position:relative,top:30px,left:90px,margin-bottom:-30px
+##### Guppy
+}}
+
+{{pageNumber,auto}}
+\page
+### Red Magic
+Arcane magic tied to channeling the elements is
+deemed red magic, and is extremely hazardous when
+used. Witches that specialize in red magic are among
+the deadliest spellcasters in existence, channeling
+their curse into unhindered arcane wrath.
+
+##### Red Magic Bonus Spells
+
+| Spell Level| Spells| 
+|:-----------|:-----:|
+| 1st        | burning hands, magic missile     |
+| 2nd        | acid arrow, scorching ray   | 
+| 3rd        | fireball, protection from energy     |
+| 4th        | ice storm, wall of fire     | 
+| 5th        | cone of cold, telekinesis    | 
+
+#### Hex: Imperil
+Starting at 3rd level, You gain the *Hex: Imperil*, as follows. This hex is exclusive to this subclass.
+#### Hex: Imperil
+**Casting Time:**:: Action
+**Range:**:: 60 feet
+**Components:**:: V, S
+**Duration:**:: 1 round
+One creature you can see within range makes a Constitution saving throw. Choose one damage type. On a failed save, if the target has Resistance to the chosen damage type, it loses that Resistance. If it has Immunity to that damage type, it instead has Resistance. The spell ends at the end of your next turn.
+#### Convolute Energy
+At 6th level, whenever you cast a spell that deals acid,
+cold, fire, lightning, poison, or thunder damage, you
+can gain resistance to that damage type until the end
+of your next turn.
+
+#### Invulnerability
+Beginning at 10th level, when an attacker that you can see hits you with an attack, you can use
+your reaction to briefly become invulnerable. Subtract 50 from the damage dealt, to a
+minimum of 0.
+
+Once you use this ability, you can’t use it again until you finish a long rest. You can also restore your use of it by expending a spell slot of 4th-level or higher to use it again.
+
+#### Elemental annihilation
+Starting at 14th level, when you cast a witch spell which deals acid, cold, fire, lightning, or thunder damage, you can expend another spell slot of equal or higher level to maximize the damage dealt.
+
+Once you use this ability, you can’t use it again until you finish a long rest.
+
+\column
+
+### Sky Magic
+Although all witches appreciate the value of a good
+broom of flying, the Sky Magic craft takes things to
+another level. Known colloquially as “cloud witches”,
+they spend as much time aloft as they do on the
+ground, claiming that the thrill of flight is the only
+thing that helps them forget the pain and loneliness
+that comes with a witch’s curse.
+
+#### Sky Magic Bonus Spells
+Spell Level| Spells
+:-:|:-:
+1st| feather fall, fog cloud
+2nd| gust of wind, misty step
+3rd| call lightning, fly
+4th| hallucinatory terrain, ice storm
+5th| cloudkill, commune with nature
+
+#### Feathered Heels
+When you adopt this craft at 3rd level, you can twist a hex to hold you aloft. When you cast a Hex or a spell using a spell slot, you gain a Fly Speed equal to your Speed until the end of your turn.
+
+Additionally, you can cast *Feather Fall*, targeting yourself only without a spell slot.
+#### Corvid Familiar
+At 6th level, your witch’s familiar becomes a monstrous
+hybrid, with black feathers and beady eyes. It gains a
+flying speed of 50 feet (unless it already has a faster
+flying speed), the ability to speak Common and the
+following traits:
+
+**Aerial Agility.** While the familiar is flying, it has a
++2 bonus to its AC.
+
+**Flyby.** The target doesn’t provoke Opportunity Attacks when it flies out of an enemy’s reach.
+
+#### Vortex
+At 10th level, As a Bonus Action, you can create a 10-foot Emanation of twisting wind originating from you. The Emanation lasts for 1 minute or until you dismiss it (no action required). 
+
+Once you use this feature, you can’t use it again until you finish a Short or Long Rest. You can also restore your use of it by expending a spell slot of 3th-level or higher to use it again.
+
+**Difficult Terrain.** The Emanation is Difficult Terrain for creatures you choose.
+
+**Disadvantage for Ranged Attacks.** Ranged attacks through the Emanation have Disadvantage. Heavy projectiles, such as boulders and ballista bolts, are unaffected.
+
+**Disperse Gasses.** The Emanation disperses gasses andvapor within its area.
+
+**Windswept.** Small or smaller flying creatures can’t move through the Emanation.
+
+#### Cloud Dancer
+When you reach 14th level, your affinity for the
+skies grants you a supernatural grace while airborne.
+Whenever you are flying, falling, or levitating and are hit by an attack, you can roll a d4. On a 4, the attack misses you.
+
+{{pageNumber,auto}}
+\page
+### Steel Magic
+Secret covens throughout the Material
+Plane practice their magic by drawing
+spells into their blades. Maniacally
+cackling and whirling their way across
+the battlefield, these witches weave their
+curses into a bloody tapestry whenever
+they bring their steel to bear.
+
+
+
+##### Steel Magic Bonus Spells
+
+| Spell Level| Spells| 
+|:-----------|:-----:|
+| 1st        | heroism, shield     |
+| 2nd        | heat metal, magic weapon  | 
+| 3rd        | blink, haste     |
+| 4th        | death ward, freedom of movement     | 
+| 5th        | flame strike, telekinesis    | 
+
+
+#### Martial Training
+When you adopt this craft at 3rd level, you gain proficiency with Martial weapons that don’t
+have the Heavy property and proficiency with Medium armor and Shields.
+
+#### Soulsword
+Also at 3rd level, as a Bonus Action, you can draw the essence of your familiar into a Melee weapon that you are holding, manifesting in a cloak of green flame. This weapon becomes your Soulsword weapon. Your familiar is temporarily dismissed and reappears 5 feet of you or in
+the nearest unoccupied space if that space is occupied when this effect ends at the end of your next turn. You gain the following benefits:
+
+**Bonus Damage.** When you hit with your Soulsword weapon, the target takes an extra 1d6 damage. This damage is your choice of Force, Necrotic, or Radiant.
+
+**Cackling Killer.** When you Cackle, you can extend the duration of this feature by 1 round.
+
+**Charismatic Attacks.** You can use your Charisma modifier instead of your Strength or Dexterity modifier for the attack and damage rolls of your Soulsword weapon. You can cause the weapon to deal Force, Necrotic, or Radiant damage instead of its normal damage type.
+
+**Spellcasting Focus**. You can use your soulsword
+weapon as a Spellcasting Focus.
+
+#### Cackling killer
+At 6th level, you can attack twice instead of once whenever you take
+the Attack action on your turn.
+
+In addition, you can cast one of your cantrips (including your Hexes) that has a casting time of an action in place of one of those attacks.
+
+\column
+
+#### Insidious Attack
+Starting at 10th level, once on each of your turns when you hit a creature with your Soulsword weapon, you can expend a level 5 or lower spell slot to deal extra damage equal to 1d8 per level of the spell slot. 
+
+This damage is your choice of Force, Necrotic, or Radiant
+#### Hexplate
+Starting at 14th level, you have Resistance to Bludgeoning, Piercing, and Slashing damage dealt by an enemy that is the sole target of your Hex.
+{{pageNumber,auto}}
+\page
+### Tea Magic
+Tea witches are among the calmest and friendliest of
+witches, radiating warmth and contentment despite
+their hideous faces and hollow souls. At their very
+worst, they can be cranky (if forced to drink their tea
+in a hurry), or twitchy (after too much tea), but even
+then, they are likely to look for peaceful solutions to
+their problems.
+
+##### Tea Magic Bonus Spells
+
+| Spell Level| Spells| 
+|:-----------|:-----:|
+| 1st        | hideous laughter, sanctuary     |
+| 2nd        | augury, calm emotions  | 
+| 3rd        | clairvoyance, sending     |
+| 4th        | divination, private sanctum   | 
+| 5th        | legend lore, scrying    | 
+
+#### Tasseography
+Starting when you choose this craft at 3rd level, you
+can see glimpses of the future in your tea leaves. As a Bonus Action, roll a d20, and record the number rolled. This is a fortelling roll. Before the start of your next turn, you can replace any attack roll, saving throw, or ability check made by you or a creature you can see within 60 feet with this roll.
+
+You must choose to do so before the roll. 
+
+You can use this feature a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a Long Rest. 
+#### Tea Ceremony
+Also at 3rd level, you can magically conjure enough tea for you and your allies whenever you take a short or long rest. A creature who drinks this tea loses one additional level of exhaustion during that rest period.
+
+#### Shapes and omens
+By 6th level, you can see deeper glimpses into the
+future through your tea leaves. When you finish a
+long rest, you can examine the shape of your tea
+leaves. The GM tells you a shape which hints at
+future events. For example, if you see a tower in
+your tea leaves, you might encounter a wizard on
+the following day. If you see a serpent, you might
+encounter a liar or a monster.
+
+\column
+
+#### Herbal remedy
+At 10th level, when a creature drinks your tea as a part of your Tea Ceremony, it can gain one of the following benefits of its choice. Once it gains a benefit from this feature, it can’t do
+so again until it finishes a Long Rest.
+
+**Invigoration.** The creature gains Temporary Hit Points equal to your Witch level.
+
+**Purification.** The creature has Resistance to Poison damage and also has Advantage on saving throws it makes to avoid or end the Poisoned condition on itself. This benefit lasts until the creature finishes a Short or Long Rest.
+
+**Restoration.** The creature gains the benefits of either the *Lesser Restoration* or the *Greater Restoration* spell.
+
+#### Invigorate
+By 14th level, as a bonus action, you can give yourself or a friendly creature you can see within 5 feet of you a temporary rush of energy by drinking an energizing cup of tea. On the target’s next turn, the target can take one additional action on top of its regular action and a possible bonus action.
+
+Once you use this ability, you must finish a long rest before using it again.
+
+Additionally, you regain all expended uses of your Tasseography feature when you roll Initiative
+
+{{pageNumber,auto}}
+\page
+
+### Technicolor Magic 
+Technicolor Magic witches draw their power from
+the friendships they find around them. They have
+a penchant for collecting adorable animals of all
+shapes and sizes, which they will never endanger, no
+matter how dire the situation. Above all, Technicolor
+witches are defined by their relentlessly positive
+outlook, which empowers their arcana and spurs on
+their allies.
+##### Technicolor Magic Bonus Spells
+
+| Spell Level| Spells| 
+|:-----------|:-----:|
+| 1st        | color spray, speak with animals |
+| 2nd        | animal messenger, enhance ability  | 
+| 3rd        | fly, speak with plants     |
+| 4th        | freedom of movement, locate creature   | 
+| 5th        | animate objects, telepathic bond    | 
+
+#### Animal friends
+Starting when you choose this craft at 3rd level, you have Advantage on Wisdom (Animal Handling)
+checks you make to befriend Beasts. 
+
+Additionally, you gain a bonus to checks using this skill equal to your Charisma modifier (minimum bonus of +1) if the creature is Small or smaller. If you adopt a Beast as a pet, you can temporarily dismiss it into an extradimensional space, as you would a familiar.
+
+#### Hex: Musical Interlude 
+At 3rd level, you gain the *Hex: Musical Interlude*, as follows. This hex is exclusive to this subclass
+
+#### Hex: Musical Interlude
+
+**Casting Time:**:: Action
+**Range:**:: Self
+**Components:**:: V, S
+**Duration:**:: 1 round
+
+With an uplifting speech or an encouraging musical number, each creature you choose in a 30-foot
+Emanation originating from you gains 1d6 Temporary Hit Points. 
+
+These Temporary Hit Points last until this spell ends at the end of your next turn, but vanish early for a creature that ends its turn outside of the Emanation.
+
+**At Higher Levels.** The Temporary Hit Points increase by 1d6 when you reach 5th level (2d6), 11th (3d6), and 17th (4d6).
+
+\column
+
+#### Friendship Bracelet
+Beginning at 6th level, as an action, you can weave a small magical bracelet of string, beads, or some other inexpensive material. You can have a number of these bracelets up to your Charisma modifier (minimum of one). If you make another one, you must render an existing bracelet nonmagical. 
+
+A creature wearing one of your bracelets gains the following benefits.
+
+**Helping Hand.** You can take the Help action as a Bonus Action to assist a creature wearing one of your bracelets. 
+
+**Sense Location.** You can always determine the location of a creature wearing one of these bracelets, as long as you and it are on the same plane of existence. 
+
+**Targetable.** Even if you can’t see the creature, you can target it with spells and effects as if you could see it.
+
+#### Positivity 
+Starting at 10th level, You can leverage your bonds of friendship for protection.
+
+When an attacker that you can see hits you with an attack, you can take a Reaction to gain a bonus to your Armor Class equal to the number of friendly creatures within 5 feet of you (maximum of +10), potentially causing the attack to miss you instead.
+
+
+Once you use this ability, you can’t use it again until you finish a long rest. You can also restore your use of it by expending a spell slot of 3th-level or higher to use it again.
+
+
+
+#### Redemptive arc
+Beginning at 14th level, you can redeem your foes,
+instead of slaying them. When a hostile creature you
+can see is reduced to 0 hit points, you can use your
+reaction to protect the creature from harm, causing
+it to fall unconscious.
+
+The condition ends early for it if it regains any Hit Points.
+
+When the creature awakens, any magical effect causing
+it to be Charmed, cursed, Frightened, or possessed ends.
+Furthermore, the creature becomes Friendly to you and
+your allies.
+
+Once you use this feature, you can’t use it again until
+you finish a Long Rest.
+
+{{pageNumber,auto}}
+\page
+
+### White Magic
+White magic is fundamentally good and benevolent
+for all living things. Witches that adopt this craft,
+in spite of the hateful curse that infects them, often
+dedicate themselves to healing and caretaking, with
+the intent of bettering the world.
+##### White Magic Bonus Spells
+
+| Spell Level| Spells| 
+|:-----------|:-----:|
+| 1st        | bless, cure wounds |
+| 2nd        | lesser restoration, prayer of healing  | 
+| 3rd        | beacon of hope, revivify   |
+| 4th        | death ward, guardian of faith  | 
+| 5th        | mass cure wounds, raise dead | 
+
+#### Remedy
+At 3rd level, You have a reservoir of healing magic represented by a pool of d6s. The number of dice in this pool equals your Witch level.
+
+As an Action or a Bonus Action, you can heal yourself or one creature you can see within 60 feet of yourself, expending one or more dice from the pool. 
+
+You can expend a maximum number of dice equal to your Charisma modifier (minimum of one). Roll the dice you expend, and add your Charisma modifier to the roll if you use this feature as a Magic action, restoring a number of Hit Points equal to the total.
+
+Your pool regains all expended dice when you finish a Long Rest.
+
+#### Talisman of protection
+At 6th level, you can craft a magical talisman that wards off harm.
+
+Creating a talisman takes 1 hour of work, which can be done during a Short or a Long Rest. You can only have one of these talismans at a time; crafting a new talisman causes the previous one to become mundane.
+
+Any creature wearing the talisman adds a d4 to all saving throws it makes.
+
+#### Benevolent surge
+At 10th level, when you, your familiar, or an ally you can see within 30 feet of you takes damage, you can take a Reaction to cause that creature to regain a number of Hit Points equal to
+1d10 + your Charisma modifier.
+
+Once you use this feature, you can’t use it again until you finish a Short or Long Rest. You can also restore your use of it by expending a spell slot of 3th-level or higher to use it again.
+
+#### Witch's gift
+Starting at 14th level, whenever you cast a spell or use a Witch feature that restores a creature’s Hit Points, that creature gains a +3 bonus to its Armor Class until the end of your next turn.
+
+![Annie](https://i.imgur.com/iYqZ8zE.png) {width:525px,position:absolute,left:400px,bottom:0px,transform:scaleX(1)}
+
+{{artist,position:absolute,top:800px,left:450px
+##### Annie
+}}
+
+{{pageNumber,auto}}
+\page
+## Familiars
+The idea of a witch is inseparable from their familiar.
+
+The fluidity and ease by which they command a
+summoned companion makes it almost an extension
+of the witch’s self; a second set of eyes and a willing
+set of claws for any dangerous situation. 
+
+And while many witches opt to summon inconspicuous familiars, like cats, frogs, and owls, even more gather their focus while conjuring to bring forth creatures from the furthest reaches of the multiverse or to bestow sentience on an inanimate object.
+
+\column
+
+### Art Elemental
+
+Often referred to as a “living expression." an art elemental is an aspect of creativity and emotion given physical. To create an art elemental mascot, a mage draws power from a blend of all the natural elements, extracting their vibrant colors to craft a swirling outer shell before imbuing its core with a planar spirit. 
+
+As creatures of both precise elemental study and rebellious expression, art elementals can both wreak elemental destruction and emotionally captivate the creatures around them.
+{{monster,frame
+## Art Elemental
+*Small Elemental, Typically Neutral*
+___
+**Armor Class** :: 11 (natural armor)
+**Hit Points**  :: 7 (2d4 + 2)
+**Speed**       :: 30 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+| 6 (-2)|13 (+1)|12 (+1)|8 (-1)|11 (+0)|15 (+2)|
+___
+**Skills** :: Performance +4
+**Damage Resistances**:: cold, fire
+**Damage Immunities** :: poison
+**Condition Immunities** :: poisoned
+**Senses** :: passive Perception 10
+**Languages** :: understands the languages of its creator but can’t speak
+**Challenge**:: 1/4 (50 XP)
+
+___
+***Death Burst.*** When the elemental dies, it explodes in a burst of colored light. Each creature within 5 feet of the elemental must succeed on a DC 11 Constitution saving throw or be blinded for 1 minute. A blinded creature can repeat the save at the end of each of its turns, ending the effect on itself on a success.
+### Actions
+***Melancholic Bolt.*** *Ranged Weapon Attack:* +3 to hit, range 30 ft., one target. *Hit:* 6 (2d4 + 1) cold damage.
+:
+***Captivating Artistry (1/Day).*** The elemental targets one creature it can see within 30 feet of itself. The target must succeed on a DC 12 Charisma saving throw or be charmed for 1 minute. 
+
+The charmed target can repeat the save at the end of each of its turns, ending the effect on itself on a success.
+}}
+
+![Art](https://5e.tools/img/bestiary/SCC/Art%20Elemental%20Mascot.webp) {position:absolute,width:580px,right:300px,top:500px}
+
+
+{{pageNumber,auto}}
+\page
+### Brass Dragon Wyrmling
+Even the smallest of dragons are loathed to be
+summoned by mortal spellcasters, with the exception
+of brass dragons, which crave adventure and
+interaction outside of their lonesome lairs. Therefore,
+brass dragon wyrmlings can be conjured as familiars
+by witches seeking a powerful companion.
+
+
+
+{{monster,frame
+## Brass Dragon Wyrmling
+*Medium dragon, chaotic good*
+___
+**Armor Class** :: 16 (natural armor)
+**Hit Points**  :: 16 (3d8 + 3)
+**Speed**       :: 30 ft., burrow 15 ft., fly 60 ft
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|15 (+2)|10 (+0)|13 (+1)|10 (+0)|11 (+0)|13 (+1)|
+___
+**Saving Throws** :: Dex +2, Con +3, Wis +2, Cha +3
+**Skills** :: Perception +4, Stealth +2
+**Damage Immunities** :: fire
+**Senses** :: blindsight 10 ft., darkvision 60 ft., passive Perception 14
+**Languages** ::Draconic
+**Challenge** :: 1 (200 XP)
+___
+### Actions
+***Bite.*** *Melee Weapon Attack:* +4 to hit, reach 5ft., one target. *Hit* 7 (1d10 + 2) piercing damage. 
+}}
+
+
+![Dragon Wyrm](https://imgur.com/U5uoYvj.png) {position:absolute,top:550px,right:430px,width:480px,mix-blend-mode:multiply}
+
+\column
+
+### Death Snail
+A death snail is formed from a vile concoction of
+forest troll bone meal, giant eagle blood, and goblin
+bone meal, sealed up in a hollowed-out efreet horn,
+and sealed shut with an ettercap tongue. The resulting
+monstrosity possesses a dull intelligence, but its only
+impulse is to slay all creatures other than its master.
+
+{{monster,frame
+## Death Snail
+*Tiny monstrosity, neutral evil*
+___
+**Armor Class** :: 14 (natural armor)
+**Hit Points**  :: 11 (2d4 + 6)
+**Speed**       :: 10 ft., climb 10 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|14 (+2)|6 (-2)|16 (+3)|10 (+0)|11 (+0)|6 (-2)|
+___
+**Damage Resistance** :: fire
+**Senses** :: blindsight 30 ft. (blind beyond this radius), passive Perception 10
+**Languages** :: —
+**Challenge** :: 1/4 (50 XP)
+___
+### Actions
+***Leech.*** *Melee Weapon Attack:* +4 to hit, reach 5
+ft., one target. *Hit* 4 (1d4 + 2) piercing damage
+plus 4 (1d8) poison damage. The target must
+succeed on a DC 13 Constitution saving throw or
+be poisoned for 1 minute. The creature can repeat
+the saving throw at the end of each of its turns,
+ending the effect on itself on a success. 
+}}
+
+{{imageMaskCorner25,--offsetX:50%,--offsetY:-50%,--rotation:0
+  ![](https://imgur.com/7pkVTCl.png){height:55%,right:-30px}
+}}
+
+
+
+{{pageNumber,auto}}
+\page
+
+### Flying Book
+Little can be said about the flying book that is not
+readily apparent. Though it is indistinguishable from
+an arcanist’s spellbook while motionless, this animated
+arcane tome can flutter through the air at a moment’s
+notice, using its cover as rudimentary wings. Flying
+books are playful, and enjoy the sensation of being
+written in.
+
+
+{{monster,frame
+## Flying Book
+*Tiny construct, unaligned*
+___
+**Armor Class** :: 13 (natural armor)
+**Hit Points**  :: 2 (1d4)
+**Speed**       :: 0 ft., fly 30 ft. (hover)
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|3 (-4)|15 (+2)|11 (+0)|1 (–5)|4 (–3)|1 (–5)|
+___
+**Damage Immunities** :: poison, psychic
+**Damage Vulnerabilities** :: fire
+**Condition Immunities** :: blinded, charmed, deafened, frightened, paralyzed, petrified, poisoned
+**Senses** :: blindsight 60 ft. (blind beyond this radius), passive Perception 7
+**Languages** :: —
+**Challenge** :: 0 (10 XP)
+___
+***Antimagic Susceptibility.*** The flying book is
+incapacitated while in the area of an antimagic
+field. If targeted by dispel magic, the flying
+books must succeed on a Constitution saving
+throw against the caster’s spell save DC or fall
+unconscious for 1 minute.
+:
+***False Appearance.*** While the flying book remains
+motionless, it is indistinguishable from a normal
+book.
+
+### Actions
+***Slam.*** *Melee Weapon Attack:* +0 to hit, reach 5
+ft., one target. *Hit:* 1 bludgeoning damage.
+}}
+
+{{imageMaskCorner6,--offsetX:-45%,--offsetY:-40%,--rotation:0
+  ![](https://imgur.com/LoB4hth.png){height:40%,left:-100px}
+}}
+
+\column
+
+### Fractal
+To an untrained eye, a fractals looks like a creature made from facets of hard light. But arithmancers know that these fractals are actually living equations: artificial life forms created by extrapolating magic from the mathematical patterns in nature.
+
+Because of their arithmetic basis, Fractal can alter both their size and density. 
+
+{{monster,frame
+## Fractal
+*Small Construct, Typically Neutral*
+___
+**Armor Class** :: 12 (natural armor)
+**Hit Points**  :: 14 (4d6)
+**Speed**       :: 30 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|12 (+1)|14 (+2)|11 (+0)|7 (–2)|10 (+0)|5 (–3)|
+___
+**Damage Immunities** :: poison
+**Condition Immunities** :: poisoned
+**Senses** :: passive Perception 10
+**Languages** :: —
+**Challenge** :: 1/4 (50 XP)
+___
+***Relative Density.*** The fractal can move through creatures and objects as if they were difficult terrain. It takes 5 (1d1O) force damage if it ends its turn inside an object.
+
+### Actions
+***Quantum Strike.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3 (1d4) force damage.
+:
+***Augment.*** The fractal’s size increases by one category. While the fractal is Medium or bigger, it makes Strength checks and Strength saving throws with advantage. The fractal can become no larger than Huge via this action.
+:
+***Diminish.*** The fractal’s size decreases by one category. While the fractal is Tiny, it makes attack rolls, Dexterity checks, and Dexterity saving throws with advantage. The fractal can become no smaller than 1 foot in height via this action.
+}}
+
+![Fractal](https://5e.tools/img/bestiary/SCC/Fractal%20Mascot.webp) {margin-left:-300px,margin-top:660px,width:400px,transform:scaleX(-1)}
+{{pageNumber,auto}}
+\page
+
+### Fright
+Hauntings can usually be attributed to the usual
+spectral suspects: ghosts, specters, shadows, and
+poltergeists. But benign hauntings, where the restless
+spirit merely plays tricks on the living, is usually caused
+by a fright. These spirits are usually the artifacts of
+children or entertainers, clinging to the afterlife for
+company and a semblance of affection, and are as such
+preoccupied with fun. They never willingly harm others
+when they haunt a house, and will serve any master
+that conjures them, if only for the sake of inclusion.
+
+{{monster,frame
+## Fright
+*Small undead, chaotic neutral*
+___
+**Armor Class** :: 12 (natural armor)
+**Hit Points**  :: 14 (4d6)
+**Speed**       :: 0 ft., fly 40 ft. (hover)
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|1 (–5)|14 (+2)|10 (+0)|10 (+0)|9 (–1)|13 (+1)|
+___
+**Damage Resistances** :: acid, cold, fire, lightning, necrotic, thunder; bludgeoning, piercing, and slashing from nonmagical weapons
+**Damage Immunities** :: poison
+**Condition Immunities** :: charmed, exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious
+**Senses** :: darkvision 60 ft., passive Perception 9
+**Languages** :: understands all languages it knew in life but can’t speak
+**Challenge** :: 1 (200 XP)
+___
+
+***Incorporeal Movement.*** The fright can move
+through other creatures and objects as if they were
+difficult terrain. It takes 5 (1d10) force damage if it
+ends its turn inside an object.
+### Actions
+***Life Drain.*** *Melee Spell Attack:* +4 to hit, reach
+5 ft., one creature. *Hit:* 9 (2d8) necrotic damage.
+The target must succeed on a DC 10 Constitution
+saving throw or its hit point maximum is reduced
+by an amount equal to the damage taken. This
+reduction lasts until the creature finishes a long
+rest. The target dies if this effect reduces its hit
+point maximum to 0.
+}}
+
+![Fright](https://imgur.com/HdpER2I.png) {position:absolute,top:700px,right:430px,width:480px,mix-blend-mode:multiply}
+
+\column
+
+### Grep
+A grep is an underground scavenger, known for using
+its keen vision, acute hearing, and silent flight to trick
+and steal from travelers, hoarding its possessions in
+well-hidden troves. Arcanists use greps as messengers
+and scouts, but they excel as retrievers; a grep can be  given the name of an important object and sent to find
+it, returning a short time later with its prize.
+
+{{monster,frame
+## Grep
+*Tiny monstrosity, neutral*
+___
+**Armor Class** :: 15 (natural armor)
+**Hit Points**  :: 19 (6d4 + 4)
+**Speed**       :: 15 ft., fly 50 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|3 (–4)|18 (+4)|13 (+1)|13 (+1)|15 (+2)|10 (+0)|
+___
+**Skills** :: Perception +4, Sleight of Hand +6, Stealth +6
+**Condition Immunities** :: poisoned
+**Senses** :: darkvision 60 ft., passive Perception 12
+**Languages** :: Understands Common and Undercommon but can’t speak
+**Challenge** :: 1 (200 XP)
+___
+
+***Ambusher.*** The grep has advantage on attack rolls
+against any creature it has surprised.
+:
+***Keen Hearing and Smell.*** The grep has advantage
+on Wisdom (Perception) checks that rely on
+hearing or smell.
+:
+***Mimicry.*** The grep can mimic animal sounds and
+humanoid voices. A creature that hears the sounds
+can tell they are imitations with a successful DC 14
+Wisdom (Insight) check.
+### Actions
+***Claw.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft.,
+one target. *Hit:* 7 (1d4 + 4) slashing damage.
+}}
+{{imageMaskCorner25,--offsetX:50%,--offsetY:-62%,--rotation:0
+  ![](https://imgur.com/13K8gj0.png){height:40%,left:250px}
+}}
+
+
+{{pageNumber,auto}}
+\page
+### Homunculus
+A homunculus is an alchemical creation fashioned by spellcasters to act as a servant, emissary, and messenger. Because they are telepathically bonded to their masters, homunculi can share in their master’s knowledge, andcommunicate with them at extreme distances.
+
+{{monster,frame
+## Homunculus
+*Tiny construct, neutral*
+___
+**Armor Class** :: 13 (natural armor)
+**Hit Points**  :: 5 (2d4)
+**Speed**       :: 20 ft., fly 40 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|4 (–3)|15 (+2)|11 (+0)|10 (+0)|10 (+0)|7 (–2)|
+___
+**Damage Immunities**:: poison
+**Damage Vulnerabilities**:: fire
+**Condition Immunities**:: charmed, poisoned
+**Senses** :: darkvision 60 ft., passive Perception 10
+**Languages** :: understands the languages of its creator but can’t speak
+**Challenge** :: 0 (10 XP)
+___
+
+***Telepathic Bond.*** While the homunculus is on
+the same plane of existence as its master, it can
+magically convey what it senses to its master, and
+the two can communicate telepathically.
+### Actions
+***Bite.*** *Melee Weapon Attack:* +4 to hit, reach 5
+ft., one creature. *Hit:* 1 piercing damage, and the
+target must succeed on a DC 10 Constitution
+saving throw or be poisoned for 1 minute. If
+the saving throw fails by 5 or more, the target
+is instead poisoned for 5 (1d10) minutes and
+unconscious while poisoned in this way.
+}}
+![Imgur](https://imgur.com/LiELBqf.png){width:500px,position:absolute,left:-150px,bottom:0px,transform:scaleX(1)}
+
+
+\column
+### Inkling
+Squelching slightly as they wriggle through the air, inklings serve as the mascots for witchs.
+
+These living blobs of shadowy ink are often summoned by professors who require assistance in their writing workshops—the inklings provide endless ink—or by lonely students hoping for company as they study. 
+
+However, inklings can just as readily support mages in combat, disrupting opponents’ sight.
+
+{{monster,frame
+## Inkling
+*Tiny Ooze, Typically Neutral*
+___
+**Armor Class** :: 13 (natural armor)
+**Hit Points**  :: 8 (2d4+2)
+**Speed**       :: 10 ft., fly 30 ft. (hover)
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|8 (–1)|16 (+3)|14 (+2)|6 (-2)|7(-2)|11 (+1)|
+___
+**Skills** ::Stealth +5
+**Damage Immunities**:: psychic
+**Condition Immunities**:: blinded, charmed, deafened, prone
+**Senses**:: blindsight 60 ft., passive Perception 8
+**Languages**:: —
+**Challenge**:: 1/4 (50 XP)
+___
+***Amorphous.*** The inkling can move through a space as narrow
+as 1 inch wide without squeezing.
+### Actions
+***Blot.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5 (1 d4 + 3) psychic damage.
+:
+***Ink Spray (1/Day).*** The inkling sprays viscous ink at one creature within 15 feet of itself. The target must succeed on a DC 12 Constitution saving throw or be blinded until the end of the inkling’s next turn..
+}}
+![Imgur](https://5e.tools/img/bestiary/SCC/Inkling%20Mascot.webp){width:400px,position:absolute,left:450px,bottom:0px,transform:scaleX(1)}
+
+
+{{pageNumber,auto}}
+\page
+### Imp
+Vile, manipulative, and capricious, imps are among the lesser devils, and will proudly serve any master which summons them. With the ability to transform into small beasts, an imp might make a capable spy or informant, but can never be relied upon for more substantial tasks.
+
+{{monster,frame
+## Imp
+*Tiny fiend (devil, shapechanger), lawful evil*
+___
+**Armor Class** :: 13 (natural armor)
+**Hit Points**  :: 10 (3d4 + 3)
+**Speed**       :: 20 ft., fly 40 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|6 (–2)|17 (+3)|13 (+1)|11 (+0)|12 (+1)|14 (+2)|
+___
+**Skills**:: Deception +4, Insight +3, Persuasion +4, Stealth +5
+**Damage Resistances** :: cold; bludgeoning, piercing, and slashing from nonmagical weapons that aren’t silvered
+**Damage Immunities** :: fire, poison
+**Condition Immunities** :: poisoned
+**Senses** :: darkvision 120 ft., passive Perception 11
+**Languages** :: Infernal, Common
+**Challenge** :: 1 (200 XP)
+___
+
+***Shapechanger.*** The imp can use its action to polymorph into a beast form that resembles a rat (speed 20 ft.), a raven (20 ft., fly 60 ft.), or a spider (20 ft., climb 20 ft.), or back into its true form. Its statistics are the same in each form, except for the speed changes noted. Any equipment it is wearing or carrying isn’t transformed. It reverts to its true form if it dies.
+:
+***Devil’s Sight.*** Magical darkness doesn’t impede the imp’s darkvision.
+:
+***Magic Resistance.*** The imp has advantage on saving throws against spells and other magical effects.
+### Actions
+***Sting (Bite in Beast Form).*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5 (1d4 + 3) piercing damage, and the target must make on a DC 11 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one.
+:
+***Invisibility.*** The imp magically turns invisible until it attacks or until its concentration ends (as if concentrating on a spell). Any equipment the imp wears or carries is invisible with it.
+}}
+![Imp](https://imgur.com/VDgTRTq.png){width:300px,position:absolute,left:50px,bottom:-20px,transform:scaleX(-1),mix-blend-mode:multiply}
+
+\column
+### Mock
+The diminutive relative of the mimic, the mock is a tiny shapechanger that replicates small, valuable objects to lure in its victims. In the desert, a mock might take the form of a canteen of precious water, and in a dungeon, it may replicate a sizeable jewel or a spare gold piece. If an adventurer is caught by surprise, a mock is just as dangerous as its larger relatives, for can hide in far less conspicuous places.
+
+{{monster,frame
+## Mock
+*Tiny monstrosity (shapechanger), neutral*
+___
+**Armor Class** :: 11 (natural armor)
+**Hit Points**  :: 9 (2d4 + 4)
+**Speed**       :: 15 ft
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|9 (–1)|11 (+0)|14 (+2)|4 (-3)|13 (+1)|6 (–2)|
+___
+**Skills**:: Stealth +4
+**Damage Resistances**:: acid
+**Condition Immunities**:: prone
+**Senses** ::darkvision 60 ft., passive Perception 11
+**Languages**:: —
+**Challenge**:: 1/2 (100 XP)
+___
+
+***Shapechanger.*** The mimic can use its action to polymorph into an object or back into its true, amorphous form. It can only take the appearance of Tiny objects and prefers the form of gold coins and jewels. Its statistics are the same in each form. Any equipment it is wearing or carrying isn’t transformed. It reverts to its true form if it dies.
+:
+***Adhesive (Object Form Only).*** The mimic adheres to anything that touches it. A creature which picks up the mimic can’t drop it unless it succeeds a DC 9 Strength check, made with disadvantage. The mimic can only adhere to one creature at a time. The mimic has advantage on attack rolls against any creature adhered to it.
+:
+***False Appearance (Object Form Only).*** While the mimic remains motionless, it is indistinguishable from an ordinary object.
+### Actions
+***Bite.*** *Melee Weapon Attack:* +1 to hit, reach 5 ft., one target. *Hit:* 2 (1d6 − 1) piercing damage plus 3 (1d6) acid damage. If the mimic is in object form, the target is subjected to its Adhesive trait.
+}}
+
+{{imageMaskCorner21,--offsetX:56%,--offsetY:-70%,--rotation:0
+  ![](https://imgur.com/z2N8lIw.png){height:30%,left:400px}
+}}
+
+
+{{pageNumber,auto}}
+\page
+
+### Moon Jelly
+Though incapable of surviving on land, moon jellies are favored for their bioluminescence by witches that intend to explore deep underwater.
+
+{{monster,frame
+## Moon Jelly
+*Tiny beast, Unaligned*
+___
+**Armor Class** :: 11 (natural armor)
+**Hit Points**  :: 1 (1d4 - 1)
+**Speed**       :: 0 ft., swim 25 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|1 (–5)|13 (+1)|8 (–1)|2 (–4)|11 (+0)|3 (–4)|
+___
+
+**Senses** :: darkvision 60 ft., passive Perception 10
+**Languages**:: —
+**Challenge**:: 0 (10 XP)
+___
+
+***Bioluminescence.*** The moon jelly sheds dim light in a 10-foot radius.
+:
+***Water Breathing.*** The moon jelly can only breathe underwater.
+}}
+{{imageMaskCorner10,--offsetX:-50%,--offsetY:-20%,--rotation:0
+  ![](https://imgur.com/tfQzFL5.png){height:60%,left:-50px}
+}}
+
+\column
+
+### Pet Rock
+Widely considered to be the perfect familiar, requiring
+no food or water and possessing extremely high
+natural defenses, a pet rock can be conjured by
+most spellcasters. Though it does not act with any
+agility (indeed, it does not move at all), it can make a
+formidable weapon when thrown.
+:::::::::::::::::
+{{monster,frame
+## Pet Rock
+*Tiny elemental, unaligned*
+___
+**Armor Class** :: 15 (natural armor)
+**Hit Points**  :: 5 (1d4 + 3)
+**Speed**       :: 5ft, burrow 5ft
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|1 (–5)|1 (–5)|16 (+3)|1 (–5)|5 (–3)|1 (–5)|
+___
+**Damage Vulnerability**:: thunder
+**Damage Immunities**:: necrotic, poison, psychic, slashing
+**Damage Resistances**:: bludgeoning, cold, fire, lightning, piercing, radiant
+**Condition Immunities**:: charmed, exhausted, frightened, paralyzed, petrified, poisoned, prone, unconscious
+**Senses**:: tremorsense 10ft, passive Perception 5
+**Languages**:: —
+**Challenge**:: 0 (10 XP)
+___
+
+***False Appearance.*** The pet rock is indistinguishable from an ordinary rock with a face drawn on it.
+:
+***Just a Rock.*** The pet rock counts as an object for the purposes of spells and magical effects.
+
+Additionally, the rock cannot take actions that are not specified in its statistics.
+### Actions
+***Become stone.***
+The rock becomes an actual, ordinary stone until the end of its next turn. While turned into stone in this way, a creature is an object and no longer a creature, gains immunity to all damage unless it is greater than 20, becomes blind and deaf beyond 5ft, it's speed becomes 0, it's speed cannot be increased and the only action it can take is Become stone to extend the duration.
+
+Additionally, that rock's drawn face fades away while transformed.
+}}
+![Rock](https://imgur.com/TIawVhj.png){width:400px,position:absolute,left:370px,bottom:655px,transform:scaleX(-1)}
+{{pageNumber,auto}}
+\page
+### Pest
+Grumpy, spiky, and generally irritating, pest mascots inhabit the muggy bayou of Sedgemoor. 
+
+However, these ferret-sized swamp creatures hold deep wells of life essence, making them convenient fuel sources for the magic.
+{{monster,frame
+## Pest
+
+*Tiny Monstrosity, Unaligned*
+___
+**Armor Class** :: 13 (natural armor)
+**Hit Points**  :: 14 (4d4+3)
+**Speed**       :: 30 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|11 (+0)|14 (+2)|17 (+3)|5 (–5)|13 (+1)|4 (-3)|
+___
+**Senses**:: darkvision 60 ft., passive Perception 13
+**Languages**:: understands Common but can't speak 
+**Challenge**:: 0 (10 XP)
+___
+***Regeneration.*** The pest regains 5 hit points at the start of its turn if it has at least 1 hit point. If it takes fire damage, this trait doesn’t function at the start of the pest’s next turn.
+:
+***Spiny Hide.*** At the start of each of its turns, the pest deals 2 (1d4) piercing damage to any creature grappling it or that it is grappling.
+### Actions
+***Bite.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4 (ld4 + 2) piercing damage.
+}}
+
+![Pest](https://5e.tools/img/bestiary/SCC/Pest%20Mascot.webp){width:440px,position:absolute,left:-20px,bottom:0px,transform:scaleX(-1)}
+\column
+
+### Poro
+Poros are tiny, fluffy creatures with round bodies, stubby legs, and a heart-shaped tongue that instantly endears them to anyone who meets them. Originating from the icy Freljord, these magical beings are the embodiment of innocence and curiosity, thriving on affection and snacks. A Poro familiar forms a deep bond with its master, offering unwavering companionship and joy.
+
+{{monster,frame
+## Poro
+
+*Tiny beast, chaotic good*
+___
+**Armor Class** :: 12 (natural armor)
+**Hit Points**  :: 2 (1d4)
+**Speed**       :: 30 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|4 (–3)|15 (+2)|10 (+0)|1 (–5)|10 (+0)|12 (+1)|
+___
+**Senses**:: passive Perception 10
+**Languages**:: understands Common but can't speak 
+**Challenge**:: 0 (10 XP)
+___
+***Adorable Presence.*** Creatures that can see the Poro must succeed on a DC 10 Wisdom saving throw the first time they attack it during combat. On a failure, the creature must choose a different target or waste the attack. On a success, they are immune to this effect for 24 hours. 
+:
+***Heartfelt Bond.*** A creature that spends a short rest feeding and petting the Poro gains 1d4 temporary hit points.
+
+### Actions
+***Lick.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 1 bludgeoning damage
+}}
+{{imageMaskCorner21,--offsetX:56%,--offsetY:-55%,--rotation:0
+  ![](https://imgur.com/yn2yWVI.png){height:60%,left:416px,top:610px}
+}}
+
+
+
+{{pageNumber,auto}}
+\page
+### Pseudodragon
+It’s generally inadvisable to confuse a true dragon for their pseudodragon cousins. Whereas all true dragons can summon forth a destructive breath from their fundamentum, pseudodragons are merely equipped with a stinger of sleep-inducing poison and grow only as large as cats.
+
+
+{{monster,frame
+## Pseudodragon
+*Tiny dragon, neutral good*
+___
+**Armor Class** :: 13 (natural armor)
+**Hit Points**  :: 7 (2d4 + 2)
+**Speed**       :: 15 ft., fly 60 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|6 (–2)|15 (+2)|13 (+1)|10 (+0)|12 (+1)|10 (+0)|
+___
+**Skills** ::Perception +3, Stealth +4
+**Senses** ::blindsight 10 ft., darkvision 60 ft., passive Perception 13
+**Languages** ::understands Common and Draconic but can’t speak.
+___
+
+***Keen Senses.*** The pseudodragon has advantage
+on Wisdom (Perception) checks that rely on sight,
+hearing, or smell.
+:
+***Magic Resistance.*** The pseudodragon has
+advantage on saving throws against spells and
+other magical effects.
+:
+***Limited Telepathy.*** The pseudodragon can
+magically communicate simple ideas, emotions,
+and images telepathically with any creature within
+100 feet of it that can understand a language.
+### Actions
+***Bite.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft.,
+one target. *Hit:* 4 (1d4 + 2) piercing damage.
+:
+***Sting.*** *Melee Weapon Attack:* +4 to hit, reach
+5 ft., one creature. *Hit:* 4 (1d4 + 2) piercing
+damage, and the target must succeed on a DC 11
+Constitution saving throw or become poisoned for
+1 hour. If the saving throw fails by 5 or more, the
+target falls unconscious for the same duration, or
+until it takes damage or another creature uses an
+action to shake it awake.
+}}
+
+![Pseudodragon](https://imgur.com/7T4ASFp.png){width:400px,position:absolute,left:0px,bottom:30px,transform:scaleX(-1),mix-blend-mode:multiply}
+
+\column
+### Quasit
+Cowardly and deceptive, a quasit is one of the lowliest of demons, and will serve any evil master, albeit unwillingly. When they actually perform their duties, instead of procrastinating or shirking responsibility, quasits are exceptional familiars, capable of taking the form of beasts, turning invisible, and poisoning their victims.
+
+
+{{monster,frame
+## Quasit
+*Tiny fiend (demon, shapechanger), chaotic evil*
+___
+**Armor Class** :: 13 (natural armor)
+**Hit Points**  :: 7 (3d4)
+**Speed**       :: 40 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|5 (–3)|17 (+3)|10 (+0)|7 (–2)|10 (+0)|10 (+0)|
+___
+**Skills** :: Stealth +5
+**Damage Resistances**:: cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical weapons
+**Damage Immunities**:: poison
+**Condition Immunities**:: poisoned
+**Senses** :: darkvision 120 ft., passive Perception 10
+**Languages** ::Abyssal, Common
+**Challenge**:: 1 (200 XP)
+___
+***Shapechanger.*** The quasit can use its action to
+polymorph into a beast form that resembles a
+bat (speed 10 ft. fly 40 ft.), a centipede (40 ft.,
+climb 40 ft.), or a toad (40 ft., swim 40 ft.), or back
+into its true form. Its statistics are the same in
+each form, except for the speed changes noted.
+Any equipment it is wearing or carrying isn’t
+transformed. It reverts to its true form if it dies.
+:
+***Magic Resistance.*** The quasit has advantage on
+saving throws against spells and other magical
+effects.
+### Actions
+***Claws (Bite in Beast Form).*** *Melee Weapon
+Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5
+(1d4 + 3) piercing damage, and the target must
+succeed on a DC 10 Constitution saving throw
+or take 5 (2d4) poison damage and become
+poisoned for 1 minute. The target can repeat the
+saving throw at the end of each of its turns, ending
+the effect on itself on a success.
+:
+***Scare (1/Day).*** One creature of the quasit’s
+choice within 20 feet of it must succeed on a DC
+10 Wisdom saving throw or be frightened for 1
+minute. The target can repeat the saving throw at
+the end of each of its turns, with disadvantage if
+the quasit is within line of sight, ending the effect
+on itself on a success.
+:
+***Invisibility.*** The quasit magically turns invisible
+until it attacks or uses Scare, or until its
+concentration ends (as if concentrating on a spell).
+Any equipment the quasit wears or carries is
+invisible with it.
+}}
+
+![Quasit](https://imgur.com/fxfrH8T.png){width:300px,position:absolute,left:500px,bottom:-130px,transform:scaleX(-1)}
+{{pageNumber,auto}}
+\page
+### Rag Dolls
+Crudely constructed, but oddly endearing, rag dolls are constructs formed from children’s toys, stuffed with soft material and adorned with smiling faces. Besides being generally comforting to have around, spellcasters favor rag dolls as familiars for their fairly durable construction and inconspicuous nature; nobody questions a discarded doll, after all.
+
+::::::::::::::
+{{monster,frame
+## Rag Doll
+*Tiny construct, neutral good*
+___
+**Armor Class** :: 11 (natural armor)
+**Hit Points**  :: 2 (1d4)
+**Speed**       :: 20 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|4 (–3)|12 (+1)|10 (+0)|3 (–4)|5 (–3)|16 (+3)|
+___
+**Skills** :: Persuasion +5, Stealth +5
+**Damage Immunities**:: poison, bludgeoning from nonmagical weapons
+**Condition Vulnerabilities**:: Fire
+**Senses** :: darkvision 60 ft., passive Perception 7
+**Languages** :: —
+**Challenge**:: 0 (10 XP)
+___
+***False Appearance.*** While the rag doll remains
+motionless, it is indistinguishable from a normal
+stuffed toy.
+:
+***Mimicry.*** The rag doll can mimic simple sounds
+it has heard, such as a person whispering, a baby
+crying, or an animal chittering. A creature that
+hears the sounds can tell they are imitations with a
+successful DC 10 Wisdom (Insight) check.
+### Actions
+***Headbutt.*** *Melee Weapon Attack:* +0 to hit, reach
+5 ft., one target. *Hit:* 1 bludgeoning damage.
+}}
+![Dolls](https://imgur.com/o4SZ87L.png){width:400px,position:absolute,left:-100px,bottom:700px,transform:scaleX(-1)}
+
+\column
+### Spirit Statue 
+
+To enhance their studies of the past, Lorehold students often call upon the spirits of dead creatures.
+
+Witches seeking longer-term assistance from ancient spirits have learned to house these spirits in statues, giving them a more permanent residence from which to assist the living.
+
+Some of these spirit statues bond with and mentor a specific witches, but most serve in a variety of roles for numerous individuals, ranging from research colleagues to martial tacticians.
+
+{{monster,frame
+## Spirit Statue 
+*Medium construct, neutral good*
+___
+**Armor Class** :: 11 (natural armor)
+**Hit Points**  :: 14 (4d4+4)
+**Speed**       :: 30 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|14 (+2)|9 (-1)|15 (+2)|12 (+1)|13 (+1)|8 (-1)|
+___
+  **Skills** :: Arcana +5, History +5, Perception +3
+**Senses** :: passive Perception 13
+**Languages** :: Common
+**Challenge**:: 1/4 (50 XP)
+___
+***Silent Watcher.*** While the Spirit Statue remains motionless, it is indistinguishable from an ordinary decorative statue.
+### Actions
+***Slam.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) bludgeoning damage.
+:
+***Counsel ofthe Past (2/Day).*** The spirit statue touches one creature. Once within the next 10 minutes, that creature can roll a d4 and add the number rolled to one ability check of its choice, immediately after rolling the d20.
+}}
+
+
+![Dolls](https://5e.tools/img/bestiary/SCC/Spirit%20Statue%20Mascot.webp){width:600px,position:absolute,left:300px,bottom:0px,transform:scaleX(-1)}
+
+
+{{pageNumber,auto}}
+\page
+### Sprite
+In stark contrast to the capricious and fun-loving
+pixies, spites are tiny, but hearty warriors of the fey,
+which protect the forest with their lives. If conjured, a
+sprite will serve any master that honors their ways, but
+will abandon any master they deem cowardly.
+
+
+{{monster,frame
+## Sprite
+*Tiny fey, neutral good*
+___
+**Armor Class** :: 15 (leather armor)
+**Hit Points**  :: 2 (1d4)
+**Speed**       :: 10 ft., fly 40 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|3 (–4)|18 (+4)|10 (+0)|14 (+2)|13 (+1)|11 (+0)|
+___
+**Skills** :: Perception +3, Stealth +8
+**Senses** :: passive Perception 13
+**Languages** :: Common, Elvish, Sylvan
+**Challenge**:: 1/4 (50 XP)
+___
+### Actions
+***Longsword.*** *Melee Weapon Attack:* +2 to hit,
+reach 5 ft., one target. *Hit:* 1 slashing damage.
+:
+***Shortbow.*** *Ranged Weapon Attack:* +6 to hit,
+range 40/160 ft., one target. *Hit:* 1 piercing
+damage, and the target must succeed on a DC 10
+Constitution saving throw or become poisoned
+for 1 minute. If its saving throw result is 5 or lower,
+the poisoned target falls unconscious for the
+same duration, or until it takes damage or another
+creature takes an action to shake it awake.
+:
+***Heart Sight.*** The sprite touches a creature and
+magically knows the creature’s current emotional
+state. If the target fails a DC 10 Charisma saving
+throw, the sprite also knows the creature’s
+alignment. Celestials, fiends, and undead
+automatically fail the saving throw.
+:
+***Invisibility.*** The sprite magically turns invisible until it attacks or casts a spell, or until its concentration ends (as if concentrating on a spell). Any equipment the sprite wears or carries is invisible with it
+}}
+![Sprite](https://imgur.com/BF7VFmp.png){width:400px,position:absolute,left:0px,bottom:0px,transform:scaleX(-1)}
+
+
+\column
+### Tin Soldier
+Full of ticking clockwork and mechanical gizmos,
+tin soldiers are mechanical creations fashioned by
+arcanists as servants and messengers. With some
+patience and skill, almost anyone can build a tin
+soldier, but spellcasters have long devised methods to
+conjure them wholesale from the Plane of Law’s excess
+energies.
+
+{{monster,frame
+## Tin Soldier
+
+*Tiny construct, lawful neutral*
+___
+**Armor Class** :: 14 (natural armor)
+**Hit Points**  :: 3 (1d4+1)
+**Speed**       :: 30 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|7 (–2)|12 (+1)|12 (+1)|5 (–3)|10 (+0)|10 (+0)|
+___
+**Skills** :: Perception +2
+**Damage Immunities**:: poison
+**Senses** :: darkvision 60 ft., passive Perception 12
+**Languages** :: —
+**Challenge**:: 0 (10 XP)
+___
+***False Appearance.*** While the tin soldier remains
+motionless, it is indistinguishable from a normal
+toy.
+:
+***Formation.*** The tin soldier has advantage on
+attack rolls when it is within 5 feet of another tin
+soldier.
+### Actions
+***Bayonet.*** *Melee Weapon Attack:* +0 to hit, reach 5
+ft., one target. *Hit:* 1 piercing damage.
+:
+***Rifle (Recharge 6).*** *Ranged Weapon Attack:* +3
+to hit, range 20/60 ft., one target. *Hit:* 2 (1d4)
+piercing damage.
+}}
+
+![Sprite](https://5e.tools/img/bestiary/WBtW/Tin%20Soldier.webp){width:500px,position:absolute,left:300px,bottom:0px,transform:scaleX(1)}
+
+
+
+{{pageNumber,auto}}
+\page
+### Winter Wolf Pup
+When fully grown, a winter wolf is an apex predator
+of the snow, a terror of teeth and fur, stalking the
+tundra in packs. But before they develop their fearsome
+freezing breath, winter wolf pups are far more amicable
+(perhaps because they have yet to realize the scope of
+their own might), and will dutifully follow a master that
+feeds them well and treats them with respect.
+
+
+
+{{monster,frame
+## Winter Wolf Pup
+
+*Tiny monstrosity, neutral evil*
+___
+**Armor Class** :: 13 (natural armor)
+**Hit Points**  :: 2 (1d4)
+**Speed**       :: 45 ft
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|5 (–3)|12 (+1)|11 (+0)|4 (–3)|12 (+1)|7 (–2)|
+___
+**Damage Resistance**:: cold
+**Skills**:: Perception +3, Stealth +3
+**Senses**:: passive Perception 13
+**Languages**:: —
+**Challenge**:: 0 (10 XP)
+___
+***Snow Camouflage.*** The pup has advantage on Dexterity (Stealth) checks made to hide in snowy
+terrain.
+### Actions
+***Bite.*** *Melee Weapon Attack:* +0 to hit, reach 5 ft.,
+one target. *Hit:* 1 piercing damage.
+}}
+
+![Pseudodragon](https://imgur.com/EEfQDei.png){width:500px,position:absolute,left:-100px,bottom:0px,transform:scaleX(1),mix-blend-mode:darken}
+\column
+
+### Yarn Golem
+The greatest of golems are formed of iron, stone, and
+clay, but the least of them are constructed of yarn.
+Balled and sewn into a vaguely humanoid shape,
+yarn golems are among the first animated objects
+that arcanists learn to create, practicing with them
+obsessively until they master the basics and move onto
+more rigid materials. Yarn golems are friendly and
+playful, but risk foolishly unraveling themselves if they
+catch on sharp objects.
+
+
+{{monster,frame
+## Yarn Golem
+
+*Tiny construct, chaotic neutral*
+___
+**Armor Class** :: 12 (natural armor)
+**Hit Points**  :: 2 (1d4)
+**Speed**       :: 30 ft
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|8 (–1)|15 (+2)|10 (+0)|1 (–5)|10 (+0)|8 (–1)|
+___
+**Damage Resistance**:: piercing
+**Senses**:: passive Perception 10
+**Languages**:: —
+**Challenge**:: 0 (10 XP)
+___
+***False Appearance.*** While the golem remains
+motionless, it is indistinguishable from a normal
+ball of yarn.
+:
+***Mutable Form.*** Whenever a spell or effect would
+alter the golem’s form, the effect works as normal,
+except that the new form is always made out of a
+tangle of yarn.
+### Actions
+***Tangle.*** *Melee Weapon Attack:* +4 to hit, reach 5
+ft., one target. *Hit:* The target is restrained (escape
+DC 12).
+}}
+
+![Yarn Golem](https://imgur.com/C1WAukF.png){width:500px,position:absolute,left:300px,bottom:0px,transform:scaleX(1)}
+
+{{pageNumber,auto}}
+\page
+
+## Fruit Familiars
+On the lush and enchanted Yumm Island, not all creatures are bloodthirsty pepper-onis or marzipanthers that prey on foodfolk.
+
+These creatures are far more than simple summons or pets—they are loyal companions deeply tied to the natural magic of the land. Some are carefully cultivated in enchanted orchards, while others spring from ancient trees that bloom only under the full moon. No matter their origin, fruit familiars form powerful bonds with those who care for them, grow with them, and understand their rhythms.
+
+### Allibulette
+An Allibulette’s life begins not in darkness, but in flavor.
+These curious creatures are born beneath the soil in lush vegetable gardens, particularly where scallions grow wild and undisturbed. Unlike their fearsome bulette cousins, allibulettes prefer loose, fertile earth rich with nutrients and spice.
+
+What makes them unique is their sprout-like dorsal fin: a vibrant green stalk that breaks the surface like a spring onion. This “false sprout” fools foragers and gardeners alike, who may tug on what they believe to be a fresh scallion—only to find themselves face-to-face with a grumpy, half-buried allibulette.
+
+Young allibulettes are skittish and burrow quickly at any sound, but adults grow bold and territorial. Their heads are bulbous and layered like the base of a scallion, with tough outer plates and a faint herbal scent that intensifies when they’re angry (or hungry).
+
+Some druids claim the allibulette is nature’s revenge on overharvesting. Others say it’s just what happens when you leave a bulette egg too close to a spice rack.
+
+{{monster,frame
+## Allibulette
+*Medium beast (Fruit), unaligned*
+___
+**Armor Class** :: 14 (Natural Armor)
+**Hit Points**  :: 13 (2d8+4)
+**Speed**       :: 30 ft., Burrow 10 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|13 (+1)|8 (-1)|15 (+2)|2 (-4)|12 (+1)|6 (-2)|
+___
+**Senses** :: Darkvision 30 Ft., Tremorsense 30 Ft, passive Perception 10
+**Languages**  :: understand the languages of its creator but can’t speak
+**Challenge**  :: 1 (200 XP)
+___
+
+***Keen Smell.*** The allibulette has advantage on Wisdom (Perception) checks that rely on smell.
+### Actions
+***Bite.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* (1d6 + 1) piercing damage.
+:
+***Claws.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* (2d4 + 1) slashing damage.
+}}
+
+![Allibulette](http://i.imgur.com/2okQBFL.png) {position:absolute,top:500px,right:0px,width:580px}
+
+{{pageNumber,auto}}
+\page
+### Apericot
+Apericots love tropical fruits, especially bananas and mangos, so much so that they venture out from the treetops to steal any fruit that they find. 
+
+Many a merchant has been devastated to find their wagonload of bananas stolen overnight, and tourists carrying mangos are sometimes accosted by dozens of apericots in a mob.
+
+
+{{monster,frame
+## Apericot
+*Tiny beast (Fruit), unaligned*
+___
+**Armor Class** :: 12 (Natural Armor)
+**Hit Points**  :: 3 (1d4 + 1)
+**Speed**       :: 30 ft., climb 30 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|6 (−2)|14 (+2)|13 (+1)|7 (−2)|8 (−1)|11 (+0)|
+___
+**Skills** :: Acrobatics +4
+**Senses** :: passive Perception 9
+**Languages**  :: —
+**Challenge**  :: 1/8 (25 XP)
+___
+
+### Actions
+***Bite.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4 (1d4 + 2) piercing damage.
+:
+***Rock.*** *Ranged Weapon Attack:* +4 to hit, reach 30/90 ft., one target. *Hit:* 4 (1d4 + 2) bludgeoning damage.
+}}
+
+![Apericot](http://i.imgur.com/D0T94NM.png) {position:absolute,top:750px,right:430px,width:380px}
+
+\column
+
+### Avogato
+ 
+Lets to its own devices, an avogato will lounge around the house for eighteen hours a day and mercilessly pester its master for food and affection the remaining six hours. 
+
+There’s no understating how fond owners are of their green feline friends, for when an avogto wishes to turn on the charm, it’s hard to resist, even if it does have a propensity for sharpening its claws on its owner.
+
+{{monster,frame
+## Avogato
+*Tiny beast (Fruit), unaligned*
+___
+**Armor Class** :: 12 (Natural Armor)
+**Hit Points**  :: 4 (2d4)
+**Speed**       :: 30 ft., climb 20 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|3 (−4)|15 (+2)|10 (+0)|7 (−2)|12 (+1)|14 (+2)|
+___
+**Skills** :: Perception +3, Stealth +4
+**Senses** :: passive Perception 13
+**Languages**  :: —
+**Challenge**  :: 1/8 (25 XP)
+___
+***Keen Smell.*** The avogato has advantage on Wisdom (Perception) checks that rely on smell.
+:
+***Uncanny Luck.*** When the avogato rolls a 1 or 2 on an attack roll, ability check or saving throw, it can reroll the die and must use the new roll.
+### Actions
+***Claws.*** *Melee Weapon Attack:* +0 to hit, reach 5 ft., one target. *Hit:* 1 slashing damage.
+}}
+
+![Apericot](http://i.imgur.com/ddpPnLI.png) {position:absolute,top:700px,right:30px,width:380px}
+{{pageNumber,auto}}
+\page
+### Bananaconda
+Like its namesake, a bananaconda’s life starts with banana trees. Bananacondas lay clutches of eggs on the limbs of banana trees, where they hatch camouflaged among bunches of bananas. 
+
+The color is a tell-tale sign that a clutch of young bananacondas might dwell on a tree. While bananas ripen from a green color into a pleasant yellow, young bananacondas are always a perfect yellow hue.
+
+{{monster,frame
+## Bananaconda
+*Tiny beast (Fruit), unaligned*
+___
+**Armor Class** :: 13 (Natural Armor)
+**Hit Points**  :: 3 (1d4 + 1)
+**Speed**       :: 30 ft., climb 30 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|4 (−3)|14 (+2)|12 (+1)|2 (−5)|13 (+1)|11 (+0)|
+___
+**Skills** :: Stealth +4
+**Senses** :: blindsight 10 ft., passive Perception 11
+**Languages**  :: —
+**Challenge**  :: 1/8 (25 XP)
+___
+***False Appearance.*** While the bananaconda remains motionless, it is indistinguishable from an ordinary banana.
+:
+***Sweet Scent.*** The bananaconda exudes asickly sweet smell of fruit. Any beast that has an Intelligence score of 3 or less that is within 10 feet of the bananaconda has disadvantage on Wisdom (Perception) checks made to perceive any creature other than the bananaconda. If a creature takes damage from the bananaconda, it is immune to the bananaconda’s Sweet Scent for the next 24 hours.
+
+### Actions
+***Bite.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4 (1d4 + 2) piercing damage.
+}}
+![Bananaconda](http://i.imgur.com/09GqPwY.png) {position:absolute,top:700px,right:430px,width:380px}
+
+\column
+### Cocobra
+
+Unlike other snakes, the cocobra never fully grows out of the egg from which it hatches. Instead, the hard shell’s fragments are attached to the skin and grow with the snake, gaining the characteristic heft and hair of a coconut shell by adulthood. At any time, the cocobra can retreat within this shell, which provides considerable defense against predators and camouflage against prey.
+
+Only creatures massive enough to crush a coconut underfoot or swallow one whole can prey on a
+cocobra once it is within its shell. And only prey smart enough to notice a strangely placed coconut know to give it a wide berth.
+
+{{monster,frame
+## Cocobra
+*Tiny beast (Fruit), unaligned*
+___
+**Armor Class** :: 15 (Natural Armor)
+**Hit Points**  :: 17 (5d6)
+**Speed**       :: 30 ft., climb 30 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|13 (+1)|14 (+2)|12 (+1)|2 (−5)|13 (+1)|11 (+0)|
+___
+**Skills** :: Perception +4, Stealth +4
+**Senses** :: blindsight 10 ft., passive Perception 14
+**Languages**  :: —
+**Challenge**  :: 1 (200 XP)
+___
+***False Appearance.*** While the cocobra remains motionless, it is indistinguishable from an ordinary coconut.
+
+### Actions
+***Bite.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage.
+:
+***Constrict.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one creature. *Hit:* 4 (1d6 + 1) bludgeoning damage, and the target is grappled (escape DC 11). 
+Until this grapple ends, the creature is restrained, and the cocobra can’t constrict another target.
+:
+***Shell.*** The cocobra retreats into its armored shell until the start of its next turn. While within its shell, the cocobra has resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks, its speed is halved, and it has disadvantage on Dexterity saving throws
+}}
+
+![Cocobra](http://i.imgur.com/farMiuk.png) {position:absolute,top:810px,right:30px,width:300px}
+
+{{pageNumber,auto}}
+\page
+### Dragonfruits
+Dragonfruits are ancient creatures native to the archipelago of Y’ummm, with some scholars hypothesising that they were the first sapient beings to inhabit it.
+
+Either way, they acted as Y’ummm’s stewards for centuries, until the arrival of the first Humanoid races. 
+
+Y’ummmite history tells of how the leader of these prospective settlers impressed the noble dragonfruits with her wisdom and benevolence, earning a place for her people in the archipelago and becoming their firstqueen. Her descendants sit on the throne to this day, and the dragonfruit remains the sigil of the royal house of Y’ummm.
+
+\column
+
+{{monster,frame
+## Dragon Fruit 
+*Large Dragon (Fruit), Lawful Good*
+___
+**Armor Class** :: 13 (Natural Armor)
+**Hit Points**  :: 5 plus five times your Witch level (the Dragon Fruit has a number of Hit Dice [d8s] equal to your Witch level)
+**Speed**       :: 20 ft., burrow 20 ft., climb 20 ft., fly 30 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|16 (+3)|9 (-1)|14 (+2)|5 (-3)|11 (+0)|12 (+1)|
+___
+**Saving Throws**:: Str +5, Con +4
+**Skills** :: Stealth +1, Survival +2
+**Senses**               :: darkvision 60 ft., passive Perception 10
+**Languages**            :: Understand the languages of its creator but can’t speak
+**Challenge**            :: 2 (450 XP)
+___
+***Thick Peel.*** The dragonfruit’s scales form a layer of sturdy peel, which grants it a +1 bonus to AC.
+
+Once on each turn, if the dragonfruit takes 10 or more slashing damage in a single instance, this bonus is reduced by 3 (minimum of 0).
+
+### Actions
+***Bite.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) 
+:
+***Fruit Breath (Recharge 5-6).*** The dragonfruit uses one of the following breath weapons.
+:
+***Digestive Juice.*** The dragonfruit exhales a mixture of citrus and pineapple juice in a 15-foot cone. Each creature in that area must make a DC 15 Dexterity saving throw. On a failed save, a creature takes 16 (4d6) acid damage. 
+
+On a successful save, a creature takes half as much damage.
+:
+***Golden DeVicious.*** The dragonfruit exhales a barrage of apple seeds in a 30-foot line that is 5 feet wide. Each creature in that line must make a DC 15 Dexterity saving throw, taking 12 (3d6) piercing damage plus 4 (1d6) poison damage on a failed save, or half as
+much damage on a successful one.
+}}
+
+
+
+![Dragonfruits](http://i.imgur.com/BtajloV.png) {position:absolute,top:250px,right:250px,width:900px}
+
+{{pageNumber,auto}}
+\page
+### Garlicanthrope
+Garlicanthropes are notorious for yipping loudly at every opportunity— when someone is at the door, when a squirrel walks by, or just when they just feel like it—but they never fail to bay and growl when a shapechanger is near. 
+
+Somehow, these garlic puppers can sniff out the likes of vampires and werewolves, no matter how well they are hidden. This is among the only times the otherwise peaceful garlicanthropes will bear their teeth or attempt to bite someone.
+
+{{monster,frame
+## Garlicanthrope
+*Tiny beast (Fruit), unaligned*
+___
+**Armor Class** :: 12 (Natural Armor)
+**Hit Points**  :: 5 (2d4)
+**Speed**       :: 30 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|8 (−1)|12 (+1)|12 (+1)|3 (−4)|12 (+1)|7 (−2)|
+___
+**Skills** :: Perception +3, Stealth +3
+**Senses** :: blindsight 10 ft., passive Perception 11
+**Languages**  :: —
+**Challenge**  :: 1/8 (25 XP)
+___
+***Keen Smell.*** The garlicanthrope has advantage on Wisdom (Perception) checks that rely on smell.
+:
+***Pungent.*** Each creature other than the garlicanthrope within 15 feet of it has disadvantage on Wisdom (Perception) checks that rely on smell.
+:
+***Shapechanger Detection.*** The garlicanthrope can sense the location of shapechangers within 30 feet of it.
+
+### Actions
+***Bite.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3 (1d4 + 1) piercing damage.
+}}
+
+![Garlicanthrope](http://i.imgur.com/DzReCBS.png) {position:absolute,top:800px,right:430px,width:300px}
+\column
+### Growleek
+Growleeks love to chase, and seem tailor-built for speed. Its lean body, long snout, and slender legs turn it into a dart when it drops into a full sprint. Only its green tuft of a tail refuses to narrow out in the name of aerodynamics. However, this does little to discourage the dog’s fondness for chasing prey.
+
+Some growleek owners will write off the canine’s idiosyncrasies as that of an overeager hunting dog, but the more common explanation is that growleeks just aren’t terribly smart. They have a tendency to sprint after unassuming avogatos, manically chirp at odd noises, and howl on random occasions. They even make themselves dizzy chasing their enormous tails. All that being said, it doesn’t matter that they’re sort of dumb—growleeks are bright-eyed, loyal, and friendly, which makes them excellent pets.
+
+{{monster,frame
+## Growleek
+*Medium beast (Fruit), unaligned*
+___
+**Armor Class** :: 13 (Natural Armor)
+**Hit Points**  :: 20 (3d8)
+**Speed**       :: 40 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|10 (+0)|16 (+3)|14 (+2)|5 (−3)|13 (+1)|7 (−2)|
+___
+**Skills** :: Perception +3, Stealth +5
+**Senses** :: passive Perception 13
+**Languages**  :: —
+**Challenge**  :: 1 (200 XP)
+___
+***Chase.*** The growleek can take the Dash action as a bonus action.
+:
+***Keen Hearing.*** The growleek has advantage on Wisdom (Perception) checks that rely on hearing.
+
+### Actions
+***Bite.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 1) piercing damage.
+### Reactions
+
+***Tail Decoy (1/Day).*** When the growleek is hit by a melee weapon attack from a creature it can see, it can move 10 feet without provoking opportunity attacks and cause the attack to strike its tail instead. Part of the tail breaks off and the attack automatically misses.
+}}
+
+
+![Growleek](http://i.imgur.com/4eeSwSM.png) {position:absolute,top:840px,right:30px,width:400px}
+{{pageNumber,auto}}
+\page
+
+### Horseradish
+Larger than a jam barrel and nearly as stubborn as a raw onion, horseradishes are sturdy, tuberous beasts of burden that serve as the main riding mounts across Yumm Island. Though they resemble oversized radishes with stout legs and leafy manes, don’t be fooled — horseradishes can easily carry a full-grown foodfolk and their gear across frosting-dusted trails and granulated sugar fields. They're known for their steady pace, reliable endurance, and surprising bursts of speed when they catch the scent of mustard.
+
+Traditionally raised in the northern Jellyfarms, horseradishes also plow sweetcorn fields and pull marmalade wagons when not on the road. While not the cuddliest creatures, some riders claim a deep bond can form — especially if you bring them salty snacks.
+
+{{monster,frame
+## Horseradish
+*Large beast (Fruit), unaligned*
+___
+**Armor Class** :: 10 (Natural Armor)
+**Hit Points**  :: 13 (2d10 + 2)
+**Speed**       :: 60 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|16 (+3)|10 (+0)|13 (+1)|2 (−4)|10 (+0)|9 (−1)|
+___
+**Senses** :: passive Perception 10
+**Languages**  :: —
+**Challenge**  :: 1 (200 XP)
+___
+### Actions
+***Hooves.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 11 (2d6 + 3) bludgeoning damage.
+}}
+
+![Horseradish](http://i.imgur.com/s7Ogokx.png) {position:absolute,top:650px,right:430px,width:400px}
+\column
+
+
+### Mangorilla
+The noble mangorilla lives in the treetops of Yumm Island alongside its smaller cousin, the apericot. While the apericot relies on acrobatics and speed to escape predators, the mangorilla utilizes brute strength.
+
+The mangorilla towers over most foodfolk and can hold its own against any predator found in the jungle (except perhaps the marizpanther), and as such, lives a solitary, relatively peaceful life.
+
+Perhaps because they have little to fear, mangorillas are curious and affable creatures who will come down from their treetop homes to investigate foodfolk visitors and even mingle among them for a while.
+
+
+{{monster,frame
+## Mangorilla
+*Medium beast (Fruit), unaligned*
+___
+**Armor Class** :: 10 (Natural Armor)
+**Hit Points**  :: 11 (2d8 + 2)
+**Speed**       :: 40 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|16 (+3)|14 (+2)|14 (+2)|10 (+0)|10 (+0)|10 (+0)|
+___
+**Skills** :: Athletics +5, Intimidation +3
+**Senses** :: passive Perception 10
+**Languages**  :: understands Common but can’t speak
+**Challenge**  :: 1 (200 XP)
+___
+
+***Powerful Build.*** The mangorilla is considered to be one size larger for the purpose of determining its carrying capacity and the weight it can push, drag, or lift.
+:
+***Sign Language.*** The mangorilla is capable of communicating simple ideas and emotions through rudimentary sign language.
+
+### Actions
+***Fist.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7 (1d8 + 3) bludgeoning damage.
+:
+***Rock.*** *Ranged Weapon Attack:* +5 to hit, reach 30/90 ft., one target. *Hit:* 4 (1d8 + 3) bludgeoning damage
+}}
+
+![Mangorilla](http://i.imgur.com/MnjLK93.png) {position:absolute,top:770px,right:30px,width:300px}
+{{pageNumber,auto}}
+\page
+
+### Ponyradish
+
+The ponyradish of Yumm Island is a close analogue to riding horses elsewhere, with the notable
+difference that a horseradish is a large radish-like creature. 
+
+Their vegetable-ness aside, ponyradishes are fine work animals, suitable for long journeys across the island and agricultural work. And unlike pony-shaped animal crackers, ponyradishes are wide enough to ride! Today, horseradishes are the predominant mode of quick transport across Yumm Island in places unreachable by train.
+{{monster,frame
+## Ponyradish
+*Medium beast (Fruit), unaligned*
+___
+**Armor Class** :: 10 (Natural Armor)
+**Hit Points**  :: 11 (2d8 + 2)
+**Speed**       :: 40 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|14 (+2)|10 (+0)|13 (+1)|2 (−4)|10 (+0)|9 (−1)|
+___
+**Senses** :: passive Perception 10
+**Languages**  :: —
+**Challenge**  :: 1/8 (25 XP)
+___
+### Actions
+***Hooves.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7 (2d4 + 2) bludgeoning damage.
+}}
+
+
+![Mangorilla](http://i.imgur.com/TA0Cvcy.png) {position:absolute,top:580px,right:30px,width:500px}
+{{pageNumber,auto}}
+\page
+### Scoopling
+Scooplings can be animated with a bit of talent, as many aspiring mages know, but they also might spontaneously spring to life when an ice cream cone is dropped and someone is very sad about that. 
+
+Not every dropped ice cream turns into a scoopling, no matter how many tears are shed, but every once in a while a spark of magic finds the discarded cone and animates it into a new friend. Companions by nature, scooplings imprint on the first person they see and live solely to brighten their day. Mages find that this makes them ideal familiars, while laymen find a loyal pet to rival avogatos and garlicanthrope. And they never melt!
+
+
+{{monster,frame
+## Scoopling
+*Tiny elemental (Fruit), unaligned*
+___
+**Armor Class** :: 12 (Natural Armor)
+**Hit Points**  :: 4 (1d4 + 2)
+**Speed**       :: 20 ft., climb 20 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|14 (+2)|10 (+0)|13 (+1)|2 (−4)|10 (+0)|9 (−1)|
+___
+**Damage Immunities** :: cold, poison
+**Condition Immunities** :: poisoned
+**Senses** :: passive Perception 10
+**Languages**  :: —
+**Challenge**  :: 1/8 (25 XP)
+___
+
+***Melty.*** The scoopling can spend 10 feet of its movement to cover a 5-foot square area in sticky melted ice cream. This area is difficult terrain for 1 hour or until it is cleaned with a gallon of water.
+
+### Actions
+***Bite.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3 (1d4 + 1) cold damage.
+}}
+![Scoopling](http://i.imgur.com/BYxopmq.png) {position:absolute,top:750px,right:430px,width:350px}
+\column
+### Soft Servant
+Soft servants are created by spellcasters—usually lazy wizards—to handle mundane tasks, as well as to act as scouts, messengers, and assistants. In many ways, the creation of a soft servant is an upgrade to the unseen servant spell utilized by many spellcasters.
+
+The soft servant is more permanent and capable but hampered somewhat by its lumbering pace and sometimes sticky secretions. When needed, a soft servant can also be called to defend their master. Though it isn’t skilled with weapons, a dozen or more servants can be summoned at once, creating a wall of ice cream between a spellcaster and their foes.
+
+{{monster,frame
+## Soft Servant
+*Small elemental (Fruit), unaligned*
+___
+**Armor Class** :: 12 (Natural Armor)
+**Hit Points**  :: 14 (4d6)
+**Speed**       :: 20 ft., climb 20 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|8 (-1)|8 (-1)|14 (+2)|16 (+3)|10 (+0)|10 (+0)|
+___
+**Damage Immunities** :: cold
+**Condition Immunities** ::  charmed, exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious
+**Senses** :: passive Perception 10
+**Languages**  :: understand the languages of its creator but can’t speak
+**Challenge**  :: 1 (200 XP)
+___
+
+***Amorphous.*** The soft servant can move through a space as narrow as 1 inch wide without squeezing
+
+### Actions
+***Frozen Touch.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) cold damage.
+:
+***Ray of Frost.*** *Ranged Spell Attack:* +5 to hit, range 60 ft., one target. *Hit:* 5 (1d8) cold damage
+}}
+
+![Soft Servant](http://i.imgur.com/teWlbLq.png) {position:absolute,top:700px,right:30px,width:300px}
+{{pageNumber,auto}}
+\page
+### Susheep
+Susheep can be found frolicking in verdant, riverside hills and grassy dunes all across
+Y’ummm. As long as there’s a body of water and plenty of vegetation nearby, chances are you’ll find one of these creatures happily munching away at the local plantlife. They are divided into three subspecies, which can be told apart by the type of fish on their back:
+
+tuna susheep tend to be larger and sturdier than their counterparts, salmon susheep are the best swimmers and climbers, and halibut susheep are smaller and flatter, allowing them to squeeze into tight spaces. These docile creatures are slow to agitate, but will fight tooth and hoof to defend their territory and those they care about.
+
+{{monster,frame
+## Susheep
+*Small Beast (Fruit), unaligned*
+___
+**Armor Class** :: 13 (Natural Armor)
+**Hit Points**  :: 4 (1d4 + 2)
+**Speed**       :: 30 ft., climb 15 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|15 (+2)|13 (+1)|14 (+2)|6 (-2)|12 (+1)|7 (-2)|
+___
+**Senses** :: passive Perception 11
+**Languages**  :: —
+**Challenge**  :: 1/8 (25 XP)
+___
+
+***Calm Demeanour.*** The susheep has disadvantage on its first initiative roll after each long rest.
+:
+***Cleansing Ginger.*** When the susheep fails a saving throw against becoming blinded, charmed, deafened, frightened, paralysed, poisoned, or stunned, it can use its reaction to repeat the saving throw with advantage.
+:
+***Salty Soy.*** When a creature moves to a space within 10 feet of the susheep, the susheep can use its reaction to spew dark soy sauce onto its eyes. The creature must succeed on a Dexterity saving throw or be blinded until the end of its turn
+:
+***Spicy Wasabi.*** When a creature within 5 feet of the susheep hits it with an attack, the susheep can use its reaction to release a small cloud of wasabi fumes. The creature must make a Constitution saving throw, taking 10 (3d6) fire damage on a failed save, or half as much damage on a successful one.
+
+### Actions
+***Headbutt.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4 (1d4 + 2) bludgeoning damage.
+}}
+
+![Susheep](http://i.imgur.com/MjosBe0.png) {position:absolute,top:700px,right:30px,width:300px}
+
+{{pageNumber,auto}}
+\page
+## Feline Familiars
+A wayward adventurer who comes face-to-face with
+a feline from this book might have a faint heart when
+it comes to subduing their foe. Who can blame them,
+when batcat and catki seem divinely inspired to melt
+hearts? In these situations, the adventurer might try
+to scare their foe off or befriend it, though the latter
+option is undoubtedly preferred among ailurophiles.
+
+
+### Cathulhu 
+Even terrors from beyond the stars must have abominable house pets. Cathulhus may very well be just that, for, as an ancient text says, "That is not dead which can eternal meow, for with strange kitties, even gods may bow".
+
+Like many aberrations, the cathulhu can trace its origins to the alien corruption of a distant, eldritch realm. These cats are not only altered by this otherworldly corruption, showing the tell-tale signs of mutations and psionic powers, they have fundamentally become outsiders to the natural world, and should be regarded as such.
+
+Wherever these
+abominations originated, they now choose to dwell
+far from the light of the surface, principally in the
+depths of the ocean or in the lowest chambers of
+dungeons and caves. Cathulhus are exceptionally
+agile underwater, pouncing from the ocean floor to
+entangle prey in their tentacles. Like a few notable
+abominations, these tentacles extract their victim's
+brains, a delicacy for cathulhus. When an ambush
+won't suffice, they can rely on a burst of psionic
+power to slow their prey to a crawl for an easy meal.
+
+
+\column
+
+
+{{monster,frame
+## Cathulhu
+*Medium aberration, neutral evil*
+___
+**Armor Class** :: 12 (Natural Armor)
+**Hit Points**  :: 22 (4d8 + 4)
+**Speed**       :: 30 ft., swim 30 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|14 (+2)|13 (+1)|12 (+1)|13 (+1)|10 (+0)|11 (+0)|
+___
+**Skills** :: Perception +2, Stealth +3
+**Senses** :: darkvision 120 ft., passive Perception 12
+**Languages**  :: understand the languages of its creator but can’t speak
+**Challenge**  :: 1 (200 XP)
+___
+
+
+### Actions
+***Claws.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) slashing damage.
+:
+***Tentacles.*** *Melee Weapon Attack:* +4 to hit, range 60 ft., one creature. *Hit:* 5 (1d6 + 2) bludgeoning damage
+}}
+
+![homebrew mug](http://i.imgur.com/BzoKCEU.png) {position:absolute,top:650px,right:-0px,width:780px}
+
+{{pageNumber,auto}}
+\page
+### Cat of war
+The most dangerous beasts in the world are those bred by humans for war. Nature has no demand for teeth and claws which can rip through metal, or predators more concerned with killing than eating, but humans have engineered these traits into beasts regardless, producing vicious cats of war.
+
+Cats of war, often simply called "warcats, are trained to unleash the feral instincts of their mighty ancestors, the sabretoothed tigers, on the battlefield. With this training,
+and the advantages of human-made barding and enchanted claws, cats of war can overcome almost any land animal in their weight class. Equally comfortable operating alone or in packs, cats of war
+are nonetheless reliant on direction from a humanoid
+handler. Over the years, these felines have been bred
+for obedience rather than intelligence and, for all
+their strength, they lack much feline canny.
+
+Nothing is more singularly effective at disrupting enemy troops than a pack of bloodthirsty warcats. With lightning speed and measured precision, a pack of cats can rip into their targets before they have a chance to react. Cats of war are disinclined to toy with their prey, and so tear into throats or slash through arteries to minimize the risk to themselves.
+
+Set loose in the wild or abandoned by their human owners, cats of war grow into shaggy, savage beasts. Their wicked teeth and feline agility let them prey on creatures many times their size, even including giants. Because they were bred by humans, these feral monsters are fearless around humanoids and undaunted by everything else, so everything in the natural world has grown to fear this new invasive apex predator.
+
+{{monster,frame
+## Cat of war
+*Medium beast, unaligned*
+___
+**Armor Class** :: 11 (Natural Armor)
+**Hit Points**  :: 16 (3d8 + 3)
+**Speed**       :: 35 ft., climb 25 ft., swim 25 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+14 (+2)| 12 (+1)| 12 (+1)| 2(-4)| 10 (+0)| 7(-2)
+___
+**Skills** :: Acrobatics +3, Athletics +4, Perception +2, Stealth +3
+**Senses** :: passive Perception 12
+**Languages**  :: understand the languages of its creator but can’t speak
+**Challenge**  :: 1 (200 XP)
+___
+
+**Keen Smell.** The cat has advantage on Wisdom (Perception) checks that rely on smell.
+:
+**Pack Tactics.** The cat has advantage on attack rolls against a creature if at least one of the cat's allies is within 5 feet of the creature and the ally isn't incapacitated.
+### Actions
+***Bite.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage.
+
+}}
+
+
+![homebrew mug](http://i.imgur.com/j4pjTRL.png) {position:absolute,top:650px,right:-0px,width:780px}
+
+{{pageNumber,auto}}
+\page
+### Copycat
+A copycat is a very specialized mimic, not unlike the
+portrait-like acrylick, the humanoid manic, or the
+all-too-real mimic book. Its great difference lies in its
+ability to imitate a natural feline's movements in ways
+that none of its kin could ever hope to match. The
+aloofness of cats provides a perfect cloak for copycats
+to quietly integrate among farmsteads, villages, and
+cities, leaving their future victims unsuspecting until
+their last terrible moments.
+
+For every mimic successfully taking down an unwary dungeon
+delver, there is another being bested by a cautious
+adventurer. Copycats improve their odds by targeting
+a generally less savvy demographic: townsfolk. They
+appear in or around homes, businesses, or mansions,
+ingratiating themselves while avoiding being
+touched. Seeming to all observers to be a lost pet
+or perhaps a lucky new friend, the copycat will wait
+for a victim to be asleep and alone before attacking
+them at their most helpless. A copycat that remains
+undetected can discreetly pick off a household, or
+even an entire residential block.
+
+Safely identifying a copycat requires careful attention to its routine and
+observation of minor unusual details. These may
+include a lack of shed fur, a disinterest in offered
+food, a contempt for even the notion of physical
+contact, and a silent, calculated regard of the
+creatures around it, any one of which is distressingly catlike on its own.
+Speedily identifying one, however, needs
+only that someone touch it-the results
+should be quite unambiguous as its
+sticky, amorphous form attacks with a
+flurry of pseudopods.
+
+One dead giveaway of a copycat
+is that, while it might appear perfectly
+convincing to people, it fails to deceive
+actual house cats for even a moment. Cats
+can sense that something is deeply wrong
+about the copycat, even when there are no
+outward signs, and avoid it at all costs.
+
+
+{{monster,frame
+## Copycat
+*Small monstrosity (shapechanger), neutral*
+___
+**Armor Class** :: 11 (Natural Armor)
+**Hit Points**  :: 12 (4d6)
+**Speed**       :: 35 ft., climb 30 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+14 (+2)| 12 (+1) |11 (+0)| 7(-2)| 10 (+0)| 8 (-1)|
+___
+**Skills** :: Perception +2, Stealth +3
+**Damage Immunities**:: acid
+**Condition Immunities**:: prone
+**Senses** :: darkvision 60 ft., passive Perception 12
+**Languages**  :: understand the languages of its creator but can’t speak
+**Challenge**  :: 1/8 (25 XP)
+___
+
+**Shapechanger.** The copycat can use its action to polymorph into a Small or Tiny cat, or back into its
+true, amorphous form. Other than its size, its statistics are the same in both forms. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.
+:
+**Adhesive.** The copycat adheres to anything that touches it. A creature which touches the copycat
+becomes stuck to it until it uses its action to make a successful DC 10 Strength check, made with disadvantage. The copycat can only adhere to one creature at a time. The copycat has advantage on attack rolls against any creature adhered to it.
+### Actions
+***Pseudopod.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4 (1d4 + 2) bludgeoning damage. The target is subjected to the copycat's Adhesive trait.
+
+}}
+
+
+![homebrew mug](http://i.imgur.com/UIfSpOM.png) {position:absolute,top:530px,right:-100px,width:780px}
+
+
+
+
+{{pageNumber,auto}}
+\page
+### Longcats
+A rarity these days, longcats are mirthful creatures from ancient times who bring delight and fortune to the righteous, and terrible wrath upon the corrupt.
+
+Longcats possess an incorruptible moral code and eyes which can plumb the depths of mortal hearts. If they find earnest goodness in someone, they might make a spectacular, if fleeting, ally for them. However, longcats are quick to attack gnolls, trolls, cruel lords, and others known to spread misery. Their very eyes which scan for moral fiber can unleash fiery rays, and their breath steals one's balance. Evil spellcasters, specifically, know to avoid longcats, as the tricksy felines know an ancient secret for turning magic back on its caster.
+
+Though longcats might resemble serpents, they trace their lineage and their mystical powers to the Upper Planes. In the world's halcyon days, they and their magical kin were once as abundant as frogs and vines, and ancient peoples worshipped them as lucky spirits. As centuries passed, however, attention to
+these creatures declined, and longcats and their ilk disappeared into the far-off corners of existence.
+Though seldom seen now, their appearances to the pure of heart are no less blissful than in days gone.
+
+
+
+{{monster,frame
+## Longcats
+*Medium celestial, lawful good*
+___
+**Armor Class** :: 13 (Natural Armor)
+**Hit Points**  :: 13 (3d8)
+**Speed**       :: 30 ft., climb 30 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+12 (+1)| 15 (+2)| 12 (+1)| 6 (-2)| 14 (+2)| 14 (+2)
+___
+**Skills** :: Perception +4, Stealth +4
+**Condition Immunities**:: grappled, prone
+**Senses** :: passive Perception 14
+**Languages**  :: understand the languages of its creator and Celestial but can’t speak
+**Challenge**  :: 1/4 (50 XP)
+___
+
+### Actions
+***Constrict.*** *Melee Weapon Attack:* +4 to hit, reach 10 ft., one target. *Hit:* 4 (1d4 + 2) bludgeoning damage and the target is grappled (escape DC 12). The longcat can grapple only one creature at a time.
+
+}}
+
+![homebrew mug](http://i.imgur.com/PNZ2B71.png) {position:absolute,top:530px,right:-250px,width:780px}
+
+
+{{pageNumber,auto}}
+\page
+### Nyctosphinx
+A lesser-known variety of sphinx, the nyctosphinx
+is often taken to be a sinister creature; in truth, any
+sphinx can be terrible and cruel to those it judges
+unworthy, and a nyctosphinx is no different. Perching
+high atop city buildings and towers at night, they
+will, when the mood is favorable, barter secrets with
+those willing to scale the heights to find them. When
+it is unfavorable, a nyctosphinx has little qualm
+dragging interlopers off their perch to be dashed
+against the streets far below.
+
+A nyctosphinx
+treasures knowledge of all kinds and accumulates
+a veritable library of stories from places even
+thousands of miles away. They are attracted to the
+activity and learning found in cities, though they
+prefer to lurk in the city's high perches with the
+stillness of night. Haughty and capricious, they are
+only happy to share secrets of lost lands or distant
+treasures in exchange for knowledge they deem
+equally valuable or esoteric. While not above the
+occasional lie of omission or misleading turn of phrase, nyctosphinxes consider an outright lie
+beneath them. It is said that a nyctosphinx attacking
+in the night can be placated by telling it a riddle;
+allegedly, they will sit thoughtfully to consider until
+they have an answer, and if dawn comes first, they
+will beg the answer and leave in peace.
+
+Some adventurers have
+success finding nychtosphinxes by carefully watching
+city skylines at sundown, searching for shapes too
+large to be birds settling on the highest buildings.
+However, a nyctosphinx is just as likely to enter
+a city by day in the form of an ordinary-looking
+black cat. Some will take up residence in bookstores
+and libraries-anywhere they might learn new and
+interesting secrets or stories, masquerading as an
+ordinary shop pet for years at a time. Common
+superstition suggests that cities with increased
+nyctosphinx sightings are in their last doomed years,
+attracting creatures eager to learn of the coming
+demise firsthand.
+
+{{monster,frame
+## Nyctosphinx
+*Medium monstrosity, lawful neutral*
+___
+**Armor Class** :: 12 (Natural Armor)
+**Hit Points**  :: 14 (3d8)
+**Speed**       :: 35 ft., fly 60 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+14 (+2)| 15 (+2)| 12 (+1)| 6 (-2)| 15 (+2)| 13 (+1)
+___
+**Skills** :: Arcana +4, Deception +3, History +4, Perception +4
+**Condition Immunities**:: charmed
+**Senses** :: darkvision 120 ft., passive Perception 14
+**Languages**  :: understand the languages of its creator but can’t speak
+**Challenge**  :: 1/8 (25 XP)
+___
+**Inscrutable.** The sphinx is immune to any effect that
+would sense its emotions or read its thoughts, as well
+as any divination spell that it refuses. Wisdom (Insight)
+checks made to ascertain the sphinx's intentions or
+sincerity have disadvantage.
+:
+**Sunlight sensitivity.** While in sunlight, the sphinx has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
+### Actions
+***Claw.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) slashing damage.
+:
+***Change shape.*** The sphinx magically polymorphs into a Tiny cat or back to its true form. Other than its size, its statistics are the same in both forms.
+}}
+
+
+
+![homebrew mug](http://i.imgur.com/SHPVnNQ.png) {position:absolute,top:530px,right:-100px,width:580px}
+
+
+
+{{pageNumber,auto}}
+\page
+### Psycats
+The haunting, enigmatic psycat is often but a distant
+observer of our realm, an ethereal watcher bearing
+strange psychic powers. Despite this, it is an object
+of fascination and a symbol of the supernatural.
+
+Psycats drift at the
+borders of the Ethereal Plane and other
+planes of existence, fading into and out
+of reality at their leisure. They might
+visit distant Elemental Planes or even
+various afterlifes in their travels, but
+they remain distant and curiously
+observing, choosing to intervene only rarely. Most often,apsycat can be spotted hovering
+far offjust before sunrise, or in the moments
+preceding someone's disastrous end.
+For reasons known only to them, psycats will
+occasionally follow one person or a group for
+many months at a time. Perhaps it is because they
+pick favorites in who they observe, or perhaps it is
+because they see some dramatic event looming in
+their future.
+
+Owing to its third eye, the
+psycat sees all things with a supernatural prescience.
+Mystics and soothsayers are known to leave out
+saucers of milk in hard-to-reach places on the off
+chance it attracts one of these seemingly all-knowing
+creatures. However, psycats are notoriously cryptic,
+issuing prophecies of vague and foreboding portent
+that have little in the way of actionable information.
+They invariably turn out to be true, or near enough
+to convince believers, but many are so abstract that
+it's impossible to know if they're nonsense.
+
+Psycats possess powerful psychic abilities, above
+and beyond their windows of sight into the future.
+Most obviously, they can hover, hurl objects about
+telekinetically, and speak using only their minds, but
+they also command a host of other psionic powers
+used to deter and destroy would-be predators.
+
+{{monster,frame
+## Psycats
+*Small monstrosity, neutral*
+___
+**Armor Class** :: 12 (Natural Armor)
+**Hit Points**  :: 9 (2d6 + 2)
+**Speed**       :: 30 ft., fly 50 ft. (hover)
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+8 (-1)| 14 (+2)| 12 (+1)| 14 (+2)| 16 (+3)| 10 (+0)
+___
+**Skills** :: Insight +5, Perception +5, Stealth +4
+**Condition Immunities**:: charmed, frightened
+**Senses** :: darkvision 120 ft., passive Perception 15
+**Languages**  :: understand the languages of its creator but can’t speak, telepathy 120 ft.
+**Challenge**  :: 1/8 (25 XP)
+___
+**Innate Spellcasting.** The psycat's innate spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). It can innately cast the following spells, requiring no components:
+
+At will: mage hand (the hand is invisible), minor illusion
+1/day each: invisibility (self only)
+### Actions
+***Perception Ray.*** *Ranged Spell Attack:* +4 to hit, range 120 ft., one target. *Hit:* 3 (1d6) psychic damage and the target can neither see nor hear the psycat until the end of its next turn.
+
+}}
+
+![homebrew mug](http://i.imgur.com/qBsVuUb.png) {position:absolute,top:530px,right:-0px,width:680px}
+
+{{pageNumber,auto}}
+\page
+### Purrberus
+The elusive purrberus is a great, three-headed cat the
+size of a small dragon and every bit as formidable.
+Nesting deep in ancient jungles where trees grow
+to the size of towers, a purrberus leads a solitary
+life (save for its other heads), climbing high in the
+treetops to hunt such unusual game as roc eggs and
+lizardfolk.
+
+A purrberus is often the
+appointed protector of a site precious to deities of
+the hunt or the forest. They loom above enchanted
+groves or amongst lost ruins, investigating any signs
+of trespass. By nature, a purrberus will retreat to the
+jungle canopy once it senses itself on the losing end
+of a scuffle. However, in service to a greater power, it
+will fight unflinchingly until it has served its purpose,
+whether that be to test the mettle of those who must
+prove themselves worthy or until its last breath to
+defend its charge. Those who kill a deity's chosen
+purrberus will quickly find they have drawn a great
+and relentless ire upon themselves.
+
+For all its raw strength, a
+purrberus poses less threat to hapless discoverers
+than one might assume. A canny observer might spot
+one far up in the trees, chittering amongst its heads
+about how it might regard its new interlopers. Those that pose little threat
+may be approached by the creature
+and regarded affectionately, as
+though they were kittens that can't
+be relied upon to hunt for their
+own food. A guardian purrberus
+may understand simple phrases in
+Celestial or another of its deity's
+languages, but its willingness
+to heed any commands it may
+recognize is another matter entirely.
+
+
+{{monster,frame
+## Purrberus
+*Large monstrosity, unaligned*
+___
+**Armor Class** :: 13 (Natural Armor)
+**Hit Points**  :: 19 (2d12 + 6)
+**Speed**       :: 30 ft., climb 25 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+12 (+1)| 17 (+3)| 16 (+3)| 3 (-4)| 12 (+1)| 6 (-2)
+___
+**Skills** :: Perception +3, Stealth +5
+**Senses** :: passive Perception 13
+**Languages**  :: understand the languages of its creator but can’t speak
+**Challenge**  :: 1 (200 XP)
+___
+**Three-headed.** The purrberus has advantage on Wisdom (Perception) checks and on saving throws against being blinded, charmed, deafened, frightened, stunned, or knocked unconscious.
+### Actions
+***Claw.*** *Melee Weapon Attack:* +5 to hit, reach 10 ft., one target. *Hit:* 4 (1d4 + 3) slashing damage and the target is pulled 5 feet toward it.
+:
+***Bite.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 3) piercing damage and the target is pulled 5 feet toward it.
+}}
+
+![homebrew mug](http://i.imgur.com/5Z5mwO3.png) {position:absolute,top:550px,right:-0px,width:780px}
+
+
+{{pageNumber,auto}}
+\page
+### Sovereign catterfly
+When a catapillar grows to its full size and finds a cozy hole (or a naturally-occuring cardboard box) to slumber in, it may sometimes begin the process of catamorphosis: creating a rigid cocoon around itself and emerging weeks later as a beautiful sovereign catterfly! These nimble flying insects are among the most majestic, and indeed, regal, felines in the entire animal kingdom.
+
+Whereas the humble, squishy catapillar eats and sleeps among patches of wild giant catnip, the nimble catterfly drinks nectar from the catnip flowers and spreads the plant's pollen. This process represents an intricate symbiosis between the catterfly and the giant catnip rarely found in nature among magical beasts.
+
+
+When threatened by its numerous predators, the catterfly has but two
+options: take swift flight or confront its foe with a cloud of paralytic wing scales. This latter ability reflects that catterfly wings are extremely poisonous, a trait inherited from its time as a catapillar. When dozens or more catterflies travel in a flock, however, their paralytic clouds transform from an irritant into a poisonous dust storm, paralyzing and poisoning pests which might dwell among the giant catnip fields. These beasts in turn fertilize the ground and allow the giant catnip plants to attain their legendary size.
+
+Sovereign catterflies are often spotted near fey bridges and among forests
+frequented by the fey. Fairies simply enjoy the company of the flying, furry catterflies in their forests, and so leave out cups of nectar to attract them. When sprites take to hunting catterflies or
+dryads shoo them out of the area, local fairies are known to declare all out war until their catterflies are shown proper deference.
+
+{{monster,frame
+## Sovereign catterfly
+*Medium beast, unaligned*
+___
+**Armor Class** :: 11 (Natural Armor)
+**Hit Points**  :: 11 (2d8 + 2)
+**Speed**       :: 20 ft., Fly 40 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+10 (+0)| 15 (+2)| 12 (+1) |3 (-4)| 10 (+0)| 14 (+2)
+___
+**Skills** :: Acrobatics +6, Perception +2
+**Damage Immunities**:: poison
+**Condition Immunities**:: paralyzed, poisoned
+**Senses** :: darkvision 60 ft., passive Perception 10
+**Languages**  :: understand the languages of its creator but can’t speak
+**Challenge**  :: 1/8 (25 XP)
+___
+**Flyby.** The catterfly doesn't provoke opportunity attacks when it flies out of an enemy's reach.
+### Actions
+***Claw.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 3) piercing damage.
+}}
+
+![homebrew mug](http://i.imgur.com/IW8c6fD.png) {position:absolute,top:550px,right:-0px,width:380px}
+
+
+
+{{pageNumber,auto}}
+\page
+### Spider-cat
+Bringing to bear the predatory instincts of two of
+nature's most proficient predators, the arachnus-catus
+-known simply as the spider-cat-is an eight-legged
+terror to all manner of rodents and vermin.
+
+Spider felines thrive in
+the verdant safety of forests, where they spin elaborate
+webs and wait patiently for prey to arrive. Anything
+from rabbits to small deer can find themselves
+entangled in the spider-cat's web, before suffering a
+paralytic bite that gradually renders them immobile.
+Only recently have some spider-cats abandoned
+their longtime forest habitats in favor of the shaded
+refuge of cities. There, they can find no more perfect
+a hunting ground than the attics, basements, and
+sewers in which small rodents (and all manner of
+housepets) dwell. Unlike normal house spiders,
+however, spider-cats' webs can entangle people
+many times their size, making them a dangerous
+nuisance that, left unchecked, can quickly evolve
+into an infestation. On the bright side, an infestation
+of spider cats does wonders for stamping out other
+vermin which might plague a city, with the downside
+being that spider-cats are undoubtedly worse.
+
+Citing the longunderstood history of the owlbear, natural scholars
+are quick to assume that a wizard was responsible
+for the creation of the spider-cat. It is more likely,
+however, though undoubtedly less fantastic, that this
+forest predator evolved like any other creature. Surely,
+the greatest mystery that looms over the spider-cat is
+whether it is, in fact, horrific or strangely adorable.
+
+{{monster,frame
+## Spider-cat
+*Small beast, neutral*
+___
+**Armor Class** :: 12 (Natural Armor)
+**Hit Points**  :: 14 (4d6)
+**Speed**       :: 40 ft., climb 40 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+8 (-1) |15 (+2)| 12 (+1)| 6 (-2)| 14 (+2)| 7 (-2)
+___
+**Skills** :: Perception +4, Stealth +4
+**Senses** :: blindsight 10 ft., darkvision 60 ft., passive Perception 14
+**Languages**  :: understand the languages of its creator but can’t speak
+**Challenge**  :: 1 (200 XP)
+___
+**Spider climb.** The spider-cat can climb difficult surfaces, including upside down and on ceilings, without needing to make an ability check.
+:
+**Web Sense.** While in contact with a web, the spidercat knows the exact location of any other creature in contact with the same web.
+:
+**Web Walker.** The spider-cat ignores movement restrictions caused by webbing.
+### Actions
+***Bite.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4 (1d4 + 3) poison damage.
+}}
+
+![homebrew mug](http://i.imgur.com/IV8ARIG.png) {position:absolute,top:550px,right:-0px,width:580px}
+
+
+
+{{pageNumber,auto}}
+\page
+
+### Winged cat
+
+Slightly larger than an average housecat, winged cats
+are prized for their ability to bring all the grace of
+their earthbound counterparts to the air. Native to
+the most temperate regions near deserts, they are
+popular animal companions to rangers of the area.
+
+They are swift and individualistic creatures, making
+poor pets for all but the most experienced trainers, as
+they are eager to claw fixtures low and high, and tire
+of indoor confinement after a matter of hours.
+
+Winged cats are not disloyal
+travelling companions, but they do tend to test the
+limits of acceptable distance from their masters,
+straying high into trees or flying ahead just to the
+edge of sight. Even dutiful owners will find their
+winged cat gone for minutes on end, especially
+during travel through unfamiliar land. They are
+quintessentially curious beasts, stopping to rest
+beside or on their masters for only a few hours at a
+time, generally during the heat of the day.
+
+Due to their novelty, winged cats can be found periodically at
+markets in virtually every corner of the world.
+
+Demand for them has spurred both breeders and
+poachers alike, for good or for ill. Any long-term
+confinement, whether in a small shipping crate or
+even homes too small to fly in, can be disastrous for
+their long-term health. After a few months, their rear
+wings will begin to curl painfully on themselves as
+the muscles atrophy-a perennially loud and anxious
+winged cat is a sure sign of an overly long captivity.
+
+{{monster,frame
+## Winged cat
+*Small beast, unaligned*
+___
+**Armor Class** :: 13 (Natural Armor)
+**Hit Points**  :: 7 (2d6)
+**Speed**       :: 40 ft., climb 30 ft., fly 50 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+7 (-2)| 17 (+3) |10 (+0)| 3 (-4)| 12 (+1)| 11 (+1)
+___
+**Skills** :: Perception +3, Stealth +5
+**Senses** :: passive Perception 13
+**Languages**  :: understand the languages of its creator but can’t speak
+**Challenge**  :: 1/4 (50 XP)
+___
+**Keen Smell.** The winged cat has advantage on Wisdom (Perception) checks that rely on smell.
+### Actions
+***Bite.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 2d4 slashing damage.
+}}
+
+![homebrew mug](http://i.imgur.com/76hIUqk.png) {position:absolute,top:50px,right:-50px,width:480px}
+

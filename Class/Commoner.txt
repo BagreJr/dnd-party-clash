@@ -1,0 +1,654 @@
+```metadata
+title: Commoner
+description: ''
+tags: []
+systems: []
+renderer: V3
+theme: 5ePHB
+
+```
+
+```css
+.page{
+	width  : 210mm;
+	height : 296.3mm;
+}
+
+css
+
+.page .columnWrapper {
+	height: 100%
+}
+
+.page .toc.wide {
+	columns: 1;
+	height: 100%;
+}
+
+.page .toc > ul > li {
+	font-weight:100;
+	margin-bottom:-2.1px;
+
+}
+
+.page .toc ul ul {
+	margin-left: 0;
+	font-weight: 5;
+	color: black;
+}
+
+
+
+```
+
+{{frontCover}}
+
+# Commoner
+
+
+![background image](https://i.imgur.com/HbJ2XTf.jpeg){position:absolute,bottom:0,left:0,height:100%}
+
+\page
+{{toc,wide
+# Contents
+
+- ### [{{ The Commoner}}{{ 3}}](#p3)
+  -  [{{ People of the Land}}{{ 3}}](#p3)
+  -  [{{ Humility & Grit}}{{ 3}}](#p3)
+  -  [{{ Creating a Commoner}}{{ 3}}](#p3)
+  -  [{{ Common Superstition}}{{ 3}}](#p3)
+  -  [{{ Class Features}}{{ 4}}](#p4)
+  -  [{{ Grit}}{{ 4}}](#p4)
+  -  [{{ Rough & Ready}}{{ 4}}](#p4)
+  -  [{{ Trade}}{{ 5}}](#p5)
+  -  [{{ Old Reliable}}{{ 5}}](#p5)
+  -  [{{ Tall Tales}}{{ 5}}](#p5)
+  -  [{{ Ability Score Improvement}}{{ 5}}](#p5)
+  -  [{{ Gumption}}{{ 5}}](#p5)
+  -  [{{ Weather the Storm}}{{ 5}}](#p5)
+  -  [{{ Know-How}}{{ 5}}](#p5)
+  -  [{{ True Grit}}{{ 5}}](#p5)
+  -  [{{ Common No More}}{{ 5}}](#p5)
+- ### [{{ Trades}}{{ 6}}](#p6)
+  -  [{{ Drunkard}}{{ 6}}](#p6)
+  -  [{{ Farmer}}{{ 7}}](#p7)
+  -  [{{ Innkeeper}}{{ 8}}](#p8)
+  -  [{{ Laborer}}{{ 8}}](#p8)
+  -  [{{ Old Timer}}{{ 9}}](#p9)
+  -  [{{ Servitor}}{{ 10}}](#p10)
+  -  [{{ Town Guard}}{{ 11}}](#p11)
+- ### [{{ Tall Tales}}{{ 12}}](#p12)
+}}
+
+\page
+
+
+## The Commoner
+A sunburned halfling farmer griped his
+trusty shovel as he pat his prized hog on
+its head. The farmer and his strangely loyal
+pig were all that stood between his family
+farm and the goblins encroaching from the
+nearby forest. As the latest party of goblin
+marauders emerged from the wood, the hog
+charged forward to defend its homestead.
+
+The half-orc innkeeper surveyed his pub
+for what would be the last time. As he looked
+over the smoldering remains of his town, he made
+a vow to whatever gods were listening. He would
+avenge his fellow villagers, but more importantly,
+he would get revenge on the bandits who destroyed
+the pub that had been in his family for generations.
+
+The hulking dwarf woman wiped the sweat from her
+brow as she admired her hard day's work. She had finally
+laid the final stones for the wall that would protect the new
+settlement her clan had established outside the mountains. As she surveyed her work, satisfaction turned to anger. On the horizon, she saw the banners of the hobgoblin legion that had razed her previous home. She would not run again. As the horns bellowed in the distance she hefted her hammer.
+
+The folk described above are all Commoners, simple folk of the land. Sometimes, if there are no heroes to be found, these folk are forced to take up arms to defend their homes.
+
+### People of the Land
+Folk of the land, Commoners rely on the land under their feet to eke out a living. Finding work as farmers, herdsmen, and laborers, most commoners live a simple, yet exhausting life. Though, their labor-intensive lives make Commoners some
+of the most resilient folk out there. They may not be the best looking or the most intelligent, but once a Commoner makes up their mind, there is nothing that can get in their way.
+
+### Humility & Grit
+Commoners are many things, but above all they are humble. Relying on each year's harvest to make it through the winter, Commoners are no strangers to hardship. Most of the simple folk have experienced a great deal of difficulty in their lives: plague and disease, droughts and flooding, roving bands of orcs, and horrible monsters. Despite all of their struggles and hardship, Commoners have the grit to press on with life.
+
+\column
+
+### Creating a Commoner
+When creating a Commoner, make sure to ask yourself, "why am I not just playing a class from the Player's Handbook?" Commoners are just that, common. They are not meant for adventure, and if you insist on playing as a Commoner, you are most likely going to be killed by the first rat you fight in a tavern basement. Should you somehow survive past the first monster encounter, consider why this character is still one of the common folk instead of a Fighter, Bard, or Barbarian.
+
+In fact, I'm not at all certain why I decided to give this class the ability to make it past level 1, let alone all the way up to level 11! If you've made it this far you have probably made up your mind on playing a Commoner. Good luck and enjoy!
+    
+### Common Superstition
+Commoners aren't the brightest folk, and they often hold
+to varying superstitions based on where they are from.
+
+d6|	Superstition
+:-:|:-:
+1|	You refuse to step on cracks between floor boards or between the stones that line the roads for fear that your mother will break her back.
+2|	If you sneeze that means someone, somewhere is planning to kill you.
+3|	The real king died many years ago, but he was replaced by a secret council of lizardfolk.
+4|	Your town drunk was convinced that you were all part of a made-up game played by alien beings... and you are starting to believe him
+5|	You always sleep with a bag over your head for fear you soul will slip out in your sleep
+6|	You know for a fact that real adventurers will eat part of any monster they slay.
+
+#### Quick Build
+You can make a Commoner by using this suggestion: Don't.
+
+If you insist on playing a Commoner, make Constitution your highest ability score, followed by your Wisdom. Second, choose either the folk hero or guild artisan background.
+{{note
+##### Multiclassing and the Commoner
+If your group uses the optional multiclassing rule, here's what you need to know if you choose to take your first level in the Commoner class.
+
+**Ability Score Minimum.** As a multiclass character, you must have at least a Constitution score of 13 to take a level in Commoner, or to take a level in another class if you are already a Commoner.
+
+**Proficiencies.** If Commoner isn't your initial class, here are the proficiencies you gain when you take your first level as a Commoner: nothing!
+}}
+
+{{pageNumber,auto}}
+\page
+
+
+
+### Class Features
+
+As a Commoner , you gain the following class features
+
+#### Hit Points
+**Hit Dice:**                    :: 1d8 per commoner level
+**Hit Points at 1st Level:**     :: 8 + your Constitution modifier
+**Hit Points at Higher Levels:** :: 1d8 (or 5) + your Constitution modifier per commoner level after 1st
+
+#### Proficiencies
+**Armor:**   :: Light armor
+**Weapons:** :: Clubs, daggers, quarterstaffs, slings, and improvised weapons
+**Tools:**   :: One set of artisan's tools of your choice
+
+**Saving Throws:** :: Strength, Constitution
+**Skills:**        :: Choose two of the following: Animal Handling, Athletics, Insight, Persuasion, Religion, and Survival
+
+
+#### Equipment
+
+As a Commoner, you start with the following equipment:
+
+- *(a)* leather armor or *(b)* a cloak, a sling, 20 rocks
+- *(a)* a club and dagger or *(b)* a quarterstaff
+
+
+\column
+
+{{classTable,frame,decoration
+##### The Commoner
+| Level | Proficiency | Features     |  Tall|
+|      ^| Bonus      ^|             ^| Tales|
+|:-----:|:--:|:---------------------:|:----:|
+|  1st  | +2 | Grit, Rough & Ready, Trade|—|
+|  2nd  | +2 | Old Reliable, Tall Tales|2|
+|  3rd  | +2 | Trade Feature|2|
+|  4th  | +2 | Ability Score Improvement |3|
+|  5th  | +3 | Gumption|3|
+|  6th  | +3 | Weather the Storm|4|
+|  7th  | +3 | Know-How|4|
+|  8th  | +3 | Ability Score Improvement|4|
+|  9th  | +4 | True Grit |5|
+| 10th  | +4 | Trade Feature|5|
+| 11th  | +4 | Common No More|5|
+}}
+
+### Grit
+You have grown accustomed to a life of hardship. At 1st level, you gain a pool of Grit Dice, which are d4s, to represent your determination in the face of adversity. Whenever you make an attack roll, ability check, or saving throw, you can expend Grit Dice up to your Wisdom modifier (minimum of 1), roll them, and add the total result to your roll. You can expend Grit Dice after you roll, but before you know if you succeed or fail.
+
+You have a total number of Grit Dice in this pool equal to 1 + your Commoner level. You regain all of your expended Grit Dice each time you complete a short or long rest.
+
+### Rough & Ready
+You may not be the quickest on your feet, the strongest, or the most educated, but the hardships you have lived through have made you especially hardy. Starting from 1st level, you can use your Constitution, in place of Dexterity, when you calculate your Armor Class when you are wearing armor.
+
+Moreover, when you are wearing no armor, your Armor Class is equal to 10 + your Constitution modifier.
+{{imageMaskEdge6,--offset:35%,--rotation:0
+  ![](https://www.gmbinder.com/images/euc2OMz.jpg){height:100%,top:100px}
+}}
+
+
+
+{{pageNumber,auto}}
+\page
+
+### Trade
+Also at 1st level, you choose a Trade from the list below that best represents your livelihood and how you spend your days.
+
+The Trade you choose grants you features at 1st level, and again when you reach 3rd, and 10th level in this class.
+
+### Old Reliable
+You may not be able to conjure wondrous spells or wield the deadly weapons of war, but you know the tools of your Trade like the back of your hand. At 2nd level, you choose one tool or weapon proficiency you gained through your Trade. That tool or weapon becomes your Old Reliable, and you can use your intuitive understanding of it to wield it as a weapon.
+
+If you choose a tool proficiency, you can wield tools from that set as improvised weapons that deals 1d6 bludgeoning, piercing, or slashing damage on hit. If you choose a weapon, its damage die becomes 1d6 if it was not already larger.
+
+### Tall Tales
+As one of the common folk, you have heard many legends
+and stories throughout your life that contain small bits
+of wisdom. Should you somehow reach 2nd level, you
+learn two Tall Tales of your choice from the list at the
+end of this class description. The Tall Tales column of
+the Commoner table shows when you are able to learn
+more Tall Tales of your choice.
+
+When you gain a Commoner level, you can replace one
+Tall Tale you know with another Tall Tale of your choice.
+
+### Ability Score Improvement
+If you survive to reach 4th level, and again at 8th level, you can increase one ability score of your choice by 2, or two ability scores by 1. As normal, you can't increase one of
+your ability scores above 20 using this feature.
+
+If your game uses the optional rule for Feats, you are not eligible to take a Feat in place of an Ability Score Increase.
+
+### Gumption
+You are finally starting to get the hang of adventuring life and can apply your Grit in combat. Starting at 5th level, when you hit with an Old Reliable attack, you can expend Grit Dice, roll them, and add the result to your damage roll.
+
+Your harsh life has also thickened your skin. Whenever you take damage, you can use your reaction to expend a Grit Die and reduce the incoming damage by an amount equal to your Grit Die roll + your Constitution modifier (minimum of +1).
+
+\column
+
+### Weather the Storm
+You may not be able to dodge or deflect incoming blows very well, but you can take a hit better than most. Beginning at 6th level, when you are subjected to a spell or another effect that allows you to make a Constitution saving throw to take only half damage, you take no damage if you succeed on your saving throw, and only half damage on a failure.
+
+### Know-How
+You can offer your simple wisdom to others. Beginning at 7th level, when a creature that can hear you within 30 feet makes an ability check or saving throw, you can use your reaction to add your Wisdom modifier (minimum of +1) to its roll.
+
+You can use this reaction a number of times equal to your Wisdom modifier (minimum of once), and you regain all of your expended uses when you finish a long rest.
+
+### True Grit
+Your experience adventuring has toughened your resolve and ability to withstand any hardship you may face. Beginning at 9th level, when you begin your turn with no Grit Dice left in your pool, you instantly regain one expended Grit Die.
+
+### Common No More
+You have achieved the utmost pinnacle of what a Commoner can be. Upon reaching 11th level, your Grit Dice become d6s.
+
+You also take one level in another class of your choice, ignoring the normal multiclassing requirements for it. If the class grants you the Spellcasting feature, you can use your Wisdom in place of the normal spellcasting modifier.
+
+Your 11th level in Commoner doesn't count against your total character level. For example, if you played to 20th level you could have 11 Commoner levels and 10 Bard levels.
+
+{{note
+##### Not So Common Adventurers
+If you've made it this far into the commoner class you may be thinking, "where are levels 12 to 20?" The answer is a simple one, they don't exist!
+
+Commoners are just that, common. If a player somehow survived all the way to 11th level with their Commoner character then congratulations, it is time to multiclass into a different class.
+
+
+}}
+
+
+{{pageNumber,auto}}
+\page
+
+## Trades
+Choose the Trade below to best represents your livelihood.
+### Drunkard
+Every town has one, the good-for-nothing nincompoop always
+found on the floor of the tavern (or just outside of it). Known
+as Drunkards, these Commoners don't pursue honest trades,
+and instead spend their time cajoling, gambling, and reveling.
+
+
+#### Stumbling Steps
+At 1st level, your constant consumption of alcohol allows you move with a
+strange unpredictability. You can take the Dash or Disengage
+action as a bonus action your turn, and opportunity attacks
+against you are made with disadvantage.
+#### Tavern Regular
+Also at 1st level, you spend all of your time in one tavern or another, and have
+picked up some skills along the way. You gain proficiency in
+brewer's supplies and three gaming sets of your choice.
+You also gain proficiency with improvised weapons, and
+can use improvised weapons as an Old Reliable at 2nd level.
+#### Bar Breath
+Begining 3rd level, the putrid contents of your stomach allow you to regurgitate
+disgusting effects. As an action, you can expend Grit Dice to
+reproduce the spells from the table below, using Constitution
+as the spellcasting modifier and your mouth as a spellcasting
+focus. The number of Grit Dice are indicated in the table:
+
+Grit Dice| Spell Effects
+:-:|:-:
+1| acid splash , poison spray
+3| caustic brew , fog cloud, grease
+6| acid arrow, ray of sickness, web
+8| fear, stinking cloud
+
+**Saving Throws.** Some Bar Breath spells require the target
+to make a saving throw to resist their effects. Based on your
+Constitution, their saving throw DC is calculated as follows:
+
+**Bar Breath save DC** = 8 + your proficiency bonus + your Constitution modifier.
+#### Iron Stomach
+Also at 3rd level, your lifestyle has hardened your body to all but the harshest drink. You gain resistance to both acid and poison damage, and you are immune to the Poisoned condition.
+
+If you manage to reach 10th level, you gain immunity to poison damage and resistance to necrotic damage.
+
+\column
+
+#### Inscrutable
+
+Starting 10th level, your mad movements and alcohol-fueled fancies have made your mind an impregnable fortress. Whenever you are forced to make an Intelligence, Wisdom, or Charisma saving throw you can make a Constitution saving throw instead.
+
+The Grit Die cost of your Bar Breath spells is also reduced by 1, to a minimum of 0 Grit Dice to reproduce the Cantrips.
+
+{{pageNumber,auto}}
+\page
+
+### Farmer
+You are a farmer, the true salt of the earth that brings forth a bountiful harvest each season. You know all there is to know about cultivating crops, livestock, and child-rearing - but little else. With your farmer's tools and trusty Loyal Livestock at your side, you are ready to face the adventuring life!
+
+#### Loyal Livestock
+At 1st level, you have convinced a farm animal to adventure at your side. Your Loyal Livestock is friendly to you and your allies and obeys your commands. It uses the Loyal Livestock stat block, which uses your proficiency bonus in several places.
+
+You choose either Male or Female for the gender of your Loyal Livestock, which affects the abilities it has in its stat block. If you acquire a farm animal of the other gender, you can train it to be your Loyal Livestock over the course of a long rest. You can only have one Loyal Livestock at a time, and training a second causes the first to forget its training.
+
+In combat, your Loyal Livestock acts during your turn. It can move and use its reaction on its own, but it only takes the Dodge action unless you use a bonus action on your turn to command it to take an action from its stat block, or another action. If you are incapacitated, your Loyal Livestock can take any action of its choice to defend you to the best of its ability.
+
+Should your Loyal Livestock fall to 0 hit points, it makes death saving throws like a player character would.
+If it dies, you can train any farm animal you can buy, borrow, or steal to be your Loyal Livestock over the course of an hour, which can take place during a short or long rest.
+
+#### Green Thumb
+At 1st level, you know your way around a farm. You gain proficiency in Animal Handling, Nature, and farmer's tools. Farmer's tools include hoes, plows, rakes, scythes, shovels, and simple instruments to predict weather.
+
+Also, whenever you would normally make an Intelligence (Nature) check, you can make a Wisdom (Nature) check in its place.
+
+#### Fresh Produce
+Begining 3rd level, you always seem to have samples of produce. 
+
+As an action, you can expend one Grit Die and reach into your bag to pull out a piece of Produce.
+As part of that action, you can eat it, or feed it to a willing and conscious creature within your reach.
+
+Upon consumption, a creature gains temporary hit points equal to your Grit Die + your Wisdom modifier.
+
+\column
+
+#### Prizewinner
+Starting 10th level, you may not be wealthy, powerful, or intelligent, but your produce is bountiful. You gain the benefits listed below:
+
+- Your Livestock Companion grows from Medium to Large in size, and its hit points and hit point maximum increase by an amount equal to your Commoner level.
+
+- When you command your Livestock Companion to use its Stomp attack, it can Stomp twice instead of once.
+
+- If you spend 8 hours or more working up to one square mile of viable farmland, the land you work gains the effects of the 8-hour casting of the plant growth spell.
+
+{{monster,frame
+## Loyal Livestock
+*Medium Beast, Unaligned*
+___
+**Armor Class** :: 10 + PB (natural armor)
+**Hit Points**  :: 7 + Six times your Commoner level
+**Speed**       :: 30 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|16 (+3)|10 (+0)|18 (+4)|4 (-3)|10 (+0)|4 (-3)|
+___
+**Senses**               :: passive Perception 10
+**Languages**            :: ─
+___
+***Beast of Burden.*** Your Livestock counts as one size larger when determining its carrying capacity and the weight it can push, drag, lift, or pull.
+:
+***Farmer's Bond.*** You add your PB to any ability check or saving throw that your Livestock makes.
+:
+***Hit Dice.*** Your Livestock has a total number of d12 Hit Dice equal to your Commoner level. It also gains all the normal benefits of both short and long rests.
+:
+***Charge (Male Only).*** If your Livestock moves 20 feet toward a creature that is its size or smaller, and hits it with a Stomp, it must succeed on a Strength saving throw (DC equals 11 + PB) or be knocked prone.
+:
+***Mother's Milk (Female Only).*** At the end of a long rest, your Livestock produces PB bottles of milk, which restore 2d4+PB hit points when consumed.
+### Actions
+***Stomp.*** *Melee Weapon Attack:* +3 +PB to hit, reach 5 ft., one target. *Hit:* 2d4 +3 bludgeoning damage.
+}}
+
+{{pageNumber,auto}}
+\page
+
+### Innkeeper
+Innkeepers usually find themselves at the epicenter of their small villages. With a quick wit and a keen ear for gossip, an Innkeeper is adept at navigating the complex social structure of small towns and villages. Armed with their country charm and a few coins, these affable folk can befriend anyone.
+
+#### Country Charm
+At 1st level, when you need to convince a rough customer of something you can lace your speech with country wit to charm friend and foe alike. As an action, you can spend Grit Dice to mimic the effect of one of the spells on the table below. It specifies how many Grit Dice you must spend to mimic each spell.
+
+Grit Dice|	Spell Effects
+:-:|:-:
+1|	*friends, guidance, vicious mockery*
+3|	*charm person, heroism, hideous laughter*
+6|	*calm emotions, enthrall, suggestion*
+8|	*catnap, enemies abound*
+  
+***Saving Throws.*** Some Country Charm spells require your target to make a saving throw to resist their effects. Based on your Wisdom, their saving throw DC is calculated as follows:
+
+**Country Charm save DC** = 8 + your proficiency bonus + your Wisdom modifier.
+
+#### Rustic Hospitality
+At 1st level, you have spent many years comforting guests with
+full pints and open ears. When you adopt this Trade you gain proficiency in Insight, brewer's supplies, and cook's utensils. Whenever you make an ability check with these proficiencies, you can treat a roll of 7 or lower on the d20 as an 8.
+
+#### Storyteller
+Starting 3rd level, you have heard every story under the sun from your patrons, though you do have trouble remembering them all. Whenever you finish a long rest in a tavern or inn, you can replace one Tall Tale you know with another Tall Tale of your choice.
+
+#### Full Belly Bravery
+begining 10th level, you can inspire heroism with nothing more than food, drink, and a story. You, and any creature that completes a short or long rest with you, gains temporary hit points equal to your Commoner level + your Wisdom modifier (minimum of 1).
+
+While a creature has these temporary hit points it cannot be charmed or frightened, and it gains a bonus to its saving throws equal to your Wisdom modifier (minimum of +1).
+
+Finally, the Grit Die cost of your Country Charm spell effects are reduced by 1 (to a minimum cost of 0 Grit Dice).
+
+\column
+### Laborer
+Strong as oxen, laborers are any Commoner that use their skills to keep their village running. Carpenters, woodsmen, masons, and blacksmiths are all considered laborers. Often experts in their chosen tools (and little else), a true laborer isn't afraid to put their body on the line to see a task through to its end. When you need a tough job done right, a laborer is the Commoner you need on your side.
+
+#### Bulky
+At 1st level, spending your days in manual labor has made you strong and hardy like the great beasts of the fields. At 1st level, and each time you gain a level in this class, both your hit points and maximum hit points each increase by 1.
+
+You also count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.
+
+#### True Craftsman
+At 1st level, as a laborer, you are skilled with large physical tools. You gain proficiency with mauls, warhammers, greataxes, and battleaxes. However, these weapons you have trained with resemble simple tools rather than true weapons of war
+
+You also gain proficiency with two of the following tools: carpenter's, mason's, smith's, or woodcarver's tools. When you make an ability check that uses these tool proficiencies you can add double your proficiency bonus to your roll.
+
+#### Construction
+By 3rd level, you can use your knowledge of construction to create
+simple structures of wood, stone, and iron. While you
+have access to your True Craftsman tools and their
+associated materials, you can build fortifications.
+
+For every 10 minutes you spend, you create one
+simple Medium structure made mostly from wood
+or stone. These structures have an Armor Class
+and hit points equal to 10 + your Commoner level.
+
+#### Master Laborer
+Starting 10th level, you are a laborer of great renown, though you are skilled with little else. While you have access to your True Craftsman tools and their associated materials, you can spend 10 minutes to replicate the effects of the passwall or wall of stone spell.
+
+Any structures that you create with this feature are non-magical in nature and permanent.
+
+Once you use this feature to produce the effect of either spell you must finish a short or long rest before you can use it again. If you have no uses of this feature remaining you can expend 5 Grit Dice to use this feature again.
+
+{{pageNumber,auto}}
+\page
+{{note
+##### Laborers of the World
+Laborers are one of the most common types of Commoner found in the world, and their choice of True Craftsman tools determines what sort of labor they do:
+
+**Carpernter's.** Wheelwrights, builders, roofers, carpenters, and thatchers.
+
+**Mason's.** Architects, bricklayers, ditch diggers, builders, and stonemasons.
+
+**Smith's.** Blacksmiths, locksmiths, armorers, and sword smiths.
+
+**Woodcarver's.** Woodsmen, fletchers, basket weavers, lumberjacks.
+}}
+
+### Old Timer
+You are a grizzled elder of your town or village who has seen an uncountable number of winters. Though your exact age escapes you, it is safe to say you are the oldest living person in your town. With your many years comes wisdom, but also a heavy dislike for anything that appears to be new.
+
+#### Village Elder
+By 1st level, over the years you picked up a unique amount of country wisdom. You gain proficiency in one type of artisan's tools of your choice, and you learn to speak a number of languages equal to your Wisdom modifier (minimum of 1).
+
+#### Sage Advice
+At 1st level, you have learned many things over the years, and can't help but share this knowledge, even when it isn't wanted. You gain proficiency in History, and when you make an Intelligence (History) check you can add your Wisdom modifier (minimum of +1) to your roll.
+You also learn the guidance spell, and Wisdom is your spellcasting modifier for it.
+
+\column
+
+#### Rustic Spellcasting
+
+At 3rd level, you can draw on your knowledge of the natural world to perform minor magic spells, much like a Druid does:
+
+**Spell Slots.** At 3rd level, you gain two 1st-level spell slots. To cast a Druid spell that you have prepared, you expend one of these spell slots. You regain all spell slots when you finish a short or long rest. As you gain levels, your spell slots grow in level, as shown on the Old Timer Magic table above.
+
+**Prepared Spells.** At the end of a long rest, you prepare a list of spells that are available for you to cast from the Druid spell list. You can prepare a number of spells equal to your Wisdom modifier + half your Commoner level. Spells you prepare must be of a level for which you have spell slots.
+
+**Spellcasting Ability.** Wisdom is your spellcasting ability for your Druid spells as you use the knowledge you have gained over your many years to perform your spells. You use your Wisdom when a spell refers to your spellcasting ability, setting the saving throw DC, or making a spell attack roll.
+
+**Spell save DC** = 8 + your proficiency bonus + your Wisdom modifier
+
+**Spell attack modifier** = your proficiency bonus + your Wisdom modifier
+{{classTable,frame,
+##### Old Timer Magic
+Level|	Spell Slots|	Slot Level
+:-:|:-:|:-:
+3rd|	2|	1st
+4th|	2|	1st
+5th|	2|	1st
+6th|	2|	1st
+7th|	2|	2nd
+8th|	2|	2nd
+9th|	2|	2nd
+10th|	2|	2nd
+11th|	2|	2nd
+}}
+#### Rustic Knowledge
+Starting 10th level, your rustic magic is more flexible than that of classically trained mages. You can change your list of prepared Druid spells each time you complete a short or long rest.
+{{pageNumber,auto}}
+\page
+### Servitor
+Servitors are the grim fate of countless souls in the Imperium—humans stripped of will, lobotomized, and fused with crude machinery to serve as living tools. They are not people as much as they are mechanisms, each reduced to a function: to build, to carry, to kill, or to obey. To play as a Servitor is to embody the tragic shell of a human, a being who is both flesh and machine, clumsy in spirit yet relentless in task.
+#### Cogitator Implants
+Starting 1st level, your productivity was below optimal levels so by declare of the administration your mind has been hollowed and rewired with crude augmetics, leaving little room for fear or doubt and more space to work.
+
+You gain proficiency in Arcana (or Technology) and one artisan’s tool of your choice.
+
+
+When you make an Intelligence check that involves calculation, logic, or mechanical function, you may spend 1 Grit to treat any roll of 9 or lower on the d20 as a 10.
+
+
+Your damaged psyche makes you unsettling to other people. You have disadvantage on Charisma (Persuasion) checks, but you have advantage on saving throws against being charmed.
+
+
+#### Integrated Tool
+At 3rd level your flesh has been replaced with crude machinery, built to work until it breaks.
+You can choose between one artisan’s tool, music instrument or other type of tool to be permanently grafted into your body so it can aid you to meet your work quota. You cannot be separated from it, and it never counts against the tools you carry. You can also use it as an improvised melee weapon that deals 1d6 bludgeoning or slashing damage (chosen when you take this feature).
+
+
+As a bonus action, you may enter a Servitor Subroutine. For 1 minute, you move and act with mechanical determination: you gain advantage on Strength checks made to lift, carry, push, or demolish objects. Once you use this feature, you cannot use it again until you finish a short or long rest.
+
+
+\column
+
+#### Machine Flesh
+Starting 10th level, your flesh is no longer truly your own; it is a husk, sustained by the harsh mercy of crude bionics, rusting pistons, and whirring cogitators. Your life persists only because the will of the machine moves you where the flesh would falter. Your ruined body shrugs off what would kill mortals. You gain resistance to necrotic damage and advantage on saving throws against poison and exhaustion.
+
+Additionally, your mechanical nature can be rewritten. At the end of each long rest, your internal programming is reconfigured through buzzing implants and crude re-wiring. Choose one tool proficiency or one simple weapon; until the end of your next long rest, you are considered proficient with it, as if the knowledge had been etched directly into your neural cortex.
+
+{{pageNumber,auto}}
+\page
+### Town Guard
+You are the shield that protects your town from terrible trolls, the spear that keeps the darkness at bay, you stand watch in the midnight hours when all are asleep and evil lurks about, you are the noblest of Commoners, the Town Guard.
+
+#### Militia Training
+At 1st level, you have spent days learning the weapons of war that you may stand in defense of your village. You gain proficiency in medium armor, shields, and a single martial weapon of your choice. However, this martial weapon cannot have the heavy, finesse, special, or the two-handed property.
+
+#### Simple Exploits
+At 1st level, you wield the armaments of war as well as anyone who first picked up a spear three days ago. You learn a number of 1st-degree Exploits from those available to the Fighter equal to your Wisdom modifier (minimum of 1 Exploit).
+
+**Grit Dice.** In order to use one of the Exploits you know you must expend one of your Grit Dice as part of the attack. If an Exploit you know requires you to roll an Exploit Die as part of its effect, you roll your Grit Die in its place.
+
+**Saving Throws.** If an Exploit requires a creature to make a saving throw, the saving throw DC is calculated as follows:
+
+::**Exploit save DC** = 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice).
+
+#### Lieutenant Guard
+By 3rd level, your skill in battle puts the other part-time Town Guards in your village to shame.
+
+Whenever you make an attack with your Old Reliable weapon, you gain a bonus to your attack and damage roll equal to one roll of your Grit Die.
+
+#### Elite Guardsman
+Starting 10th level, you are the champion of your small town or hamlet, and folk have started to wonder if you'll leave to join the local platoon of soldiers! You learn two 2nd-degree Exploits of your choice from those available to the Alternate Fighter.
+
+In addition, any attacks you make with your Old Reliable weapon score a critical hit on a roll of 19 or 20 on the d20.
+
+{{imageMaskEdge1,--offset:5%,--rotation:270
+  ![](https://www.gmbinder.com/images/ZtWtcit.jpg){height:100%}
+}}
+
+
+
+{{pageNumber,auto}}
+\page
+## Tall Tales
+Listed below are the Tall Tales available to a Commoner. Each time you gain a level in this class you can replace one of the Tall Tales you know with another Tall Tale of your choice, losing all the benefits and skills of the Tall Tale you replaced.
+
+##### Tale of the Big Fish
+A friend once told you the tale of their uncle who pulled a sea monster out of the ocean. You gain proficiency with fishing tackle and water vehicles, and if you have access to a body of water you can feed yourself and your companions for a day.
+
+Once a day, you can tell your fish story to willing listeners. Those listeners become friendly toward you, though their continued amicability on their part depends on your actions.
+
+##### Tale of the Boisterous Bard
+When you were a young child you loved the tale of a Bard who traveled from town to town singing songs of heroes. You gain proficiency in Performance and one musical instrument.
+
+When you travel to a new town you can always find a place to shelter you so long as you perform there each night.
+
+##### Tale of the Crooked Con Artist
+You know the story of the con man who pulled the wool over the eyes of your village. You gain proficiency in Deception and with disguise kits, and you make Wisdom (Deception) checks in place of the normal Charisma (Deception) checks.
+
+Also, over a long rest, you can create a second identity that includes a disguise that allows you to assume that persona.
+
+##### Tale of the Fearless Farmer
+Your parents have passed down the story of a farmer from your village who many years ago stood up to a great tyrant. You gain proficiency with a martial
+melee weapon of your choice that
+lacks the heavy, finesse, special,
+or two-handed properties.
+
+Also, when you tell this tale, common folk will offer you foodand shelter, though they won't
+risk their lives for you.
+
+##### Tale of the Menacing Mercenary Company
+Your friends always told the story of a savage company of
+mercenaries who roam the land.
+
+You gain proficiency in shields and a gaming set of your choice.
+
+You have also learned enough to pose as one of its members and gain any of the benefits offered to members.
+{{note
+##### Other Tall Tales
+The Tall Tales listed here are based on Backgrounds. To create custom Tall Tales, select one proficiency, one Background feature, and write an outlandish story to explain it all!
+}}
+
+
+
+
+##### Tale of the Harrowing Haunt
+The old crone in your town told you tales of the ghastly and grim monsters that used to haunt the village graveyard. You gain proficiency in Religion and Intimidation, and you can use this Tale to make Wisdom (Intimidation) checks.
+
+Also, whenever you make an Intelligence check to recall information about evil or undead creatures, or necromancy magic, you can add your Wisdom modifier to your roll.
+
+##### Tale of the Midnight Thief
+Your cousin's neighbor once told you the tale of the world's greatest thief. Whenever you enter a new settlement, you are able to identify a den of criminal activity or thieves' guild.
+
+Also, you gain proficiency with thieves' tools and gain the ability to identify, read, and communicate in Thieves' Cant.
+
+##### Tale of the Unfortunate Orphan
+Your parents always scared you with the tale of a child left to live alone on the streets of a big city. You have acquired a pet mouse like the child in the story. Your mouse is trained to obey simple commands and carry out simple tasks.
+
+You also have advantage on ability checks made to find hidden routes, passages, and hideouts in towns and cities.
+
+##### Tale of the Wandering Woodsman
+Your grandmother told you stories of the woodsmen that protect your town from monsters. You gain proficiency with shortbows and in your choice of Perception or Survival.
+
+Also, provided the land is not barren, you can hunt for enough wild game to feedup to five creatures.

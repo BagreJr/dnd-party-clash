@@ -1,0 +1,1808 @@
+```metadata
+title: Vagabond
+description: ''
+tags: []
+renderer: V3
+theme: 5ePHB
+snippets:
+  - name: brew_snippets
+    subsnippets:
+      - name: example snippet
+        gen: >-
+
+          The text between `\snippet title` lines will become a snippet of name
+          `title` as this example provides.
+
+
+          This snippet is accessible in the brew tab, and will be inherited if
+          the brew is used as a theme.
+
+```
+
+```css
+.page{
+	width  : 210mm;
+	height : 296.3mm;
+}
+
+css
+
+.page .columnWrapper {
+	height: 100%
+}
+
+.page .toc.wide {
+	columns: 1;
+	height: 100%;
+}
+
+.page .toc > ul > li {
+	font-weight:100;
+	margin-bottom:-2.1px;
+
+}
+
+.page .toc ul ul {
+	margin-left: 0;
+	font-weight: 50;
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+```
+
+{{frontCover}}
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+# Vagabond
+
+
+![background image](https://i.imgur.com/Cr877on.jpg){position:absolute,bottom:-210px,left:0,height:128%}
+\page
+{{toc,wide
+- ### [{{ Vagabond}}{{ 3}}](#p3)
+  -  [{{ Endless Wanderers}}{{ 3}}](#p3)
+  -  [{{ Desperate Maneuvers}}{{ 3}}](#p3)
+  -  [{{ Creating a Vagabond}}{{ 3}}](#p3)
+- ### [{{ Class Features}}{{ 4}}](#p4)
+  -  [{{ Wanderer’s Secret}}{{ 5}}](#p5)
+  -  [{{ Battle Tactics}}{{ 6}}](#p6)
+  -  [{{ Ambush Reflexes}}{{ 6}}](#p6)
+  -  [{{ Breather}}{{ 6}}](#p6)
+  -  [{{ Wanderer’s Road}}{{ 6}}](#p6)
+  -  [{{ Overexertion}}{{ 6}}](#p6)
+  -  [{{ Ability Score Improvement}}{{ 6}}](#p6)
+  -  [{{ Extra Attack}}{{ 6}}](#p6)
+  -  [{{ Bulwark}}{{ 6}}](#p6)
+  -  [{{ Desperate Survival}}{{ 6}}](#p6)
+  -  [{{ Last Stand}}{{ 6}}](#p6)
+  -  [{{ Desperate Fury}}{{ 6}}](#p6)
+  -  [{{ Tenacity}}{{ 6}}](#p6)
+  -  [{{ Desperate Attack}}{{ 7}}](#p7)
+  -  [{{ Deft Maneuver}}{{ 7}}](#p7)
+  -  [{{ Wayworn}}{{ 7}}](#p7)
+  -  [{{ Martial Recovery}}{{ 7}}](#p7)
+- ### [{{ Maneuvers}}{{ 7}}](#p7)
+- ### [{{ Wanderer’s Roads}}{{ 10}}](#p10)
+  -  [{{ Adrenaline Junkie}}{{ 10}}](#p10)
+  -  [{{ Brigand}}{{ 11}}](#p11)
+  -  [{{ Experiment X}}{{ 12}}](#p12)
+  -  [{{ Feylost}}{{ 13}}](#p13)
+  -  [{{ Gourmand}}{{ 14}}](#p14)
+  -  [{{ Heretic}}{{ 15}}](#p15)
+  -  [{{ Houndmaster}}{{ 16}}](#p16)
+-  [{{ Iron Grip}}{{ 17}}](#p17)
+-  [{{ Jaeger}}{{ 18}}](#p18)
+- [{{ Justicar}}{{ 19}}](#p19)
+-  [{{ Knight Errant}}{{ 20}}](#p20)
+-  [{{ Mage Brand}}{{ 21}}](#p21)
+- [{{ Marauder}}{{ 22}}](#p22)
+-  [{{ Mindblade}}{{ 23}}](#p23)
+-  [{{ Plague Doctor}}{{ 24}}](#p24)
+-  [{{ Pugilist}}{{ 25}}](#p25)
+-  [{{ Rōnin}}{{ 26}}](#p26)
+-  [{{ Sanguine Chapter}}{{ 27}}](#p27)
+-  [{{ Troubadour}}{{ 28}}](#p28)
+- [{{ Way of the Twelfth House}}{{ 29}}](#p29)
+}}
+
+
+
+\page
+## Vagabond
+Peals of thunder and sheets of rainfall batter a lone
+traveler on a forest road. In a flash of lightning, a
+half-dozen hooded bandits emerge from the treeline,
+brandishing crossbows and shouting demands. Weary
+but unfazed, the traveler draws a longsword and plunges
+into an exotic stance, sweeping through the brigands with
+terrible speed.
+
+On another road, caustic bile drips from a behir’s
+teeth as it surveys its latest victim—its next meal. The elf
+adorned in patchwork armor, beaten and bruised, snaps
+awake and seizes a cracked floor tile with both hands.
+Wild desperation in her eyes, the elf drives the tile into the
+behir’s skull over and over, carving a path toward salvation.
+No matter where they’re going or what they’re
+running from, a vagabond’s only home is the open road.
+
+The peril of their journey would leave most dead on the
+roadside, but the vagabond endures, driven by a desperate
+will to survive and a mastery of fierce combat maneuvers.
+
+### Endless Wanderers
+Vagabonds are constantly on the road, drifting between
+taverns and backwoods villages on an endless, wandering
+journey. Some choose the unrooted lifestyle, but many
+more were driven from their homes, never to return.
+Whether a particular vagabond is a dangerous fugitive,
+penniless vagrant, or devout pilgrim is a secret known
+only to them. After all, anonymity is a precious boon for
+the road-weary.
+
+Many vagabonds prefer to travel alone, but just as
+many find themselves in the company of adventurers.
+There is safety in numbers, after all, and a lifestyle of
+questing and dungeon-delving rarely lets one settle in one
+place for long.
+
+### Desperate Maneuvers
+The long miles of their journeys instill a feeling of
+desperation in vagabonds. They’re desperate to continue,
+to reach their destinations. But most of all, they’re
+desperate to survive. When a vagabond is backed into a
+corner, they fight like a crazed animal, slashing wildly,
+biting and scratching if necessary.
+
+But they also learn more practical tools for survival.
+Vagabonds are experts at performing maneuvers picked
+up from traveling companions and warriors they
+encounter on their globe-spanning travels. Those that fail
+to master these exotic fighting styles end their wanderings
+early, dead on the roadside.
+
+When other means fail, vagabonds can always find
+short-term employment as sellswords or bodyguards, for
+few can match their experience in perilous combat with
+equal vigor.
+
+\column
+### Creating a Vagabond
+As you create your vagabond, consider why your
+character has taken to the road. Do you one day wish to
+return home? Consult the options in the Wander’s Secret
+feature for ideas. Also consider how your journey has
+shaped your character so far. Do you take joy in finding
+companionship wherever you travel, or do you prefer
+anonymity underneath a drawn hood? Are you roadweary from your travels or does seeing a new horizon
+invigorate you each day?
+Who taught you how to wield a weapon, and who
+trained you in the deeper arts of battle tactics? You might
+be self-trained, learning through near-death experiences
+and careful observation of others. Or you might have had a
+tutor, even several of them, whose teachings have resulted
+in your unique fighting style. Were you a dangerous
+combatant before you left home, or are your fearsome
+maneuvers a survival mechanism learned on the road?
+
+#### Quick Build
+You can make a vagabond quickly by following these suggestions. First, make Strength or Dexterity your highest ability score, depending on whether you want to focus on melee weapons or on a combination of archery and finesse weapons. Your next-highest score should be Constitution, or Charisma if you plan to take a subclass,
+such as Mage Brand, that employs spellcasting or other magical abilities. 
+
+Finally, choose any background,
+preferably one that ties into your choice for your Wanderer’s Secret feature.
+
+{{imageMaskCorner31,--offsetX:75%,--offsetY:-30%,--rotation:0
+  ![](https://i.imgur.com/WxxUhoU.png){height:100%,left:350px,top:450px}
+}}
+
+
+
+
+{{pageNumber,auto}}
+\page
+{{classTable,frame,decoration,wide
+##### The Vagabond
+| Level | Proficiency Bonus | Features | Maneuvers  |Battle Dice|
+|:-----:|:-----------------:|:---------|:---------------------:|:-:|
+|  1st  |  +2  | Wanderer’s Secret, Battle Tactics|          3     |2d6|
+|  2nd  |  +2  | Breather, Desperate Survival     |          4     |2d6|
+|  3rd  |  +2  | Wanderer’s Road, Overexertion    |          5     |3d6|
+|  4th  |  +2  | Ability Score Improvement        |          5     |3d6|
+|  5th  |  +3  | Extra Attack                     |          5     |3d8|
+|  6th  |  +3  | Wanderer’s Road feature          |          6     |3d8|
+|  7th  |  +3  | Bulwark                          |          6     |4d8|
+|  8th  |  +3  | Ability Score Improvement        |          6     |4d8|
+|  9th  |  +4  | Last Stand, Desperate Survival   |          7     |5d8|
+| 10th  |  +4  | Wanderer’s Road feature          |          7     |5d8|
+| 11th  |  +4  | Desperate Fury                   |          7     |5d10|
+| 12th  |  +4  | Ability Score Improvement        |          8     |5d10|
+| 13th  |  +5  | Tenacity                         |          8     |6d10|
+| 14th  |  +5  | Wanderer’s Road feature          |          8     |6d10|
+| 15th  |  +5  | Desperate Attack                 |          9     |7d10|
+| 16th  |  +5  | Ability Score Improvement        |          9     |7d10|
+| 17th  |  +6  | Deft Maneuver                    |          9     |7d12|
+| 18th  |  +6  | Wayworn                          |         10     |7d12|
+| 19th  |  +6  | Ability Score Improvement        |         10     |8d12|
+| 20th  |  +6  | Martial Recovery                 |         10     |8d12|
+}}
+
+
+
+
+## Class Features
+
+#### Hit Points
+**Hit Dice:**                    :: 1d10 per vagabond level
+**Hit Points at 1st Level:**     :: 10 + your Constitution modifier
+**Hit Points at Higher Levels:** :: 1d10 (or 6) + your Constitution modifier per vagabond level after 1st
+
+#### Proficiencies
+**Armor:**   :: Light armor and Shields
+**Weapons:** :: Simple and Martial weapons
+**Tools:**   :: None
+
+**Saving Throws:** :: Strength and Constitution
+**Skills:**        :: Choose two from:  Acrobatics, Animal Handling, Athletics, Deception, Insight, Intimidation, Perception, Stealth, and Survival
+
+
+#### Equipment
+You start with the following equipment.
+
+- *(a)* a Greatsword or *(b)* 4 Handaxes
+- *(a)* a shortbow and 20 arrows or *(b)* 2 Scimitars
+- Studded Leather Armor and an explorer’s pack
+- A trinket from your home.
+
+Alternatively, you may start with 4d4 × 10 gp to buy your own equipment.
+
+{{imageMaskEdge5,--offset:5%,--rotation:270
+  ![](https://i.imgur.com/jEulLJl.png){height:110%,left:350px}
+}}
+
+
+{{note
+##### Bloodied
+If you have half your Hit Points or fewer, you’re Bloodied, which has no game effect on its own but which might trigger other game effects.
+}}
+
+
+
+{{pageNumber,auto}}
+\page
+### Wanderer’s Secret
+For a reason that you keep utterly secret, you have committed to a life of endless travel. Choose this secret from the following options.
+
+**Avenger.** You are on a mission to exact vengeance. You gain a bonus to Initiative rolls equal to your
+Constitution modifier (minimum bonus of +1).
+
+Additionally, choose up to five specific creatures that you wish to seek revenge against. You must know
+these creatures’ names or must otherwise have enough information to identify them. Your attacks with weapons
+and Unarmed Strikes against the chosen creatures has a bonus on damage rolls equal to your proficiency bonus.
+
+**Bohemian.** Wanderlust is in your bones; you couldn’t stay in one place for too long if you tried. You
+ignore nonmagical difficult terrain. 
+
+Additionally, you can communicate simple ideas to any creature that understands at least one language using universal gestures and some creativity.
+
+**Dying.** A terminal, possibly magical, affliction has gripped you. When you roll Initiative and aren’t Bloodied, you can drop to a number of Hit Points equal to half your maximum and become Bloodied. 
+
+Additionally, you have Advantage on Death Saving Throws.
+
+**Explorer.** Consulting vague maps and ancient texts, you have embarked upon an expedition to find a mythical
+location or chart a distant corner of the world. You gain proficiency in the Survival skill and with cartographer’s tools and navigator’s tools. 
+
+Additionally, you learn one language of your choice.
+
+
+**Faction Agent.** You are secretly a member of an organization, such as a Thieves’ Guild or a secret society. 
+You gain proficiency and Expertise with any skill of your choice.
+
+Additionally, you gain proficiency in one tool and learn one language of your choice.
+
+**False Identity.** You magically conceal your true appearance. You can cast *Disguise Self* at will.
+
+When you cast the spell using this secret, you can only change your appearance to match a pre-established second identity. 
+
+Whenever you gain a Vagabond level, you can change how this second identity looks when you cast the spell in this way.
+
+Additionally, when you choose this secret, choose one falsehood about yourself. This falsehood can be a single
+lie or an entire false history. You never need to make a *Deception* check for this falsehood.
+
+**Fugitive.** You are being hunted. You might be fleeing the authorities, a wayward assassin, or a supernatural
+force. Your Speed increases by 5 feet. 
+
+Additionally, once per turn, you can give a creature Disadvantage on an Opportunity Attack it makes against you.
+
+\column
+
+**Ghost.** You are dead, as far as anyone knows. If you can keep moving and remain anonymous, no one will
+be the wiser. You gain proficiency in the *Deception* skill.
+
+Additionally, while you are Bloodied, your movement speed increases by 10 feet, and you can move through the space of hostile creatures
+
+**Heretic.** You hold a forbidden belief or honor a sinister deity. You gain proficiency in the *Arcana* and *Religion* skills. 
+
+You also learn two cantrips of your choice from the Warlock spell list. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this secret (choose the ability when you select the secret).
+
+**Hunted.** You are pursued by those who would kill you on sight or drag you to an ill-fated end. You might
+be on the run from the law, a wayward assassin, or a supernatural force. This constant threat grants you a +5
+bonus to your passive Wisdom (Perception) score and allows you to instantly awaken whenever a creature moves
+within 30 feet of you.
+
+**Monstrous.** You conceal an abominable side that emerges when you’re injured. You might be afflicted with lycanthropy, an eldritch curse, or vampirism. You have Darkvision with a range of 60 feet. If you already have 
+Darkvision, its range increases by 60 feet. 
+
+Additionally, while you are Bloodied, your size is Large and you haveb Advantage on Strength checks and saving throws.
+
+**Nobility.** You are of noble descent, now disgraced or disowned. You gain proficiency in the History and
+Persuasion skills. 
+
+Additionally, you can take the Influence action as a Bonus Action.
+
+**Pilgrim.** Your journey is to a remote holy site, both as a test of faith and in search of enlightenment. You
+gain proficiency in the *Religion* skill. 
+
+Additionally, you learn the *light* and *spare the dying* cantrips. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this feature (choose when you select this motive).
+
+**Seeker.** You are searching for something or someone that is precious to you, such as a loved one or a powerful
+magic item. You have advantage on ability checks you make to gather information about the object of your search.
+
+Additionally, you can take the Search action as a bonus action.
+
+**Vagrant.** You are penniless and just trying to get by. Because you are beneath the notice of most people, you never need to make a Stealth check to move unnoticed while traveling alone in public spaces. This anonymity
+fails if your conduct draws undue attention to yourself.
+
+Additionally, you can perfectly conceal one-handed weapons on your person.
+
+{{pageNumber,auto}}
+\page
+### Battle Tactics
+In your endless wandering, you have adopted a handful of
+maneuvers from traveling companions and foes that are
+fueled by special dice called battle dice.
+#### Battle Dice
+You have two battle dice, which are d8s. A battle die is
+expended when you use it. Your battle die changes and
+more battle dice become available when you reach certain
+levels in this class, as shown on the Vagabond table.
+You regain all of your expended battle dice when you
+finish a short or long rest, or when you roll initiative.
+Once per turn, you can use a maneuver of your
+choice. Maneuvers typically expend a battle die, but
+you don’t add this battle die to the maneuver’s attack or
+damage roll unless otherwise noted.
+#### Maneuvers
+You learn two maneuvers of your choice, which are
+detailed at the end of the class description. You gain additional maneuvers as you gain levels in this class, as shown in the Maneuvers Known column of the Vagabond
+table. 
+
+When you gain a level in this class, you can choose one of the maneuvers you know and replace it with
+another maneuver that you could learn at that level.
+
+#### Saving Throws
+Some of your maneuvers require the target to make a
+saving throw to resist the maneuver’s effects. The saving
+throw DC is calculated as follows:
+
+:: **Maneuver save DC** = 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice)
+
+### Ambush Reflexes
+Beginning at 2nd level, you can sense ambushes moments before they happen. You can’t be surprised while you
+are conscious. 
+
+Additionally, when you roll initiative, you can move up to your walking speed without provoking opportunity attacks.
+
+### Breather
+Also at 2nd level, you can take a breather, 1 minute of downtime during which you compose yourself and mend
+your wounds. When you do so, you can expend one Hit Die to regain hit points as if you finished a short rest.
+
+
+### Wanderer’s Road
+By 3rd level, you adopt the mannerisms, style, and skills of an archetypal wanderer, embodied by a wanderer’s road. These subclasses are detailed at the end of the class description. The road you choose grants you features at 3rd level and again at 6th, 10th, and 14th level. 
+
+\column
+
+### Overexertion
+Also 3rd level, if you have no Battle Dice remaining, you can regain one Battle Die to immediately expend it and use a maneuver or Vagabond feature. 
+
+When you do so, you take Necrotic damage equal to one roll of the Battle Die. This damage ignores your Resistance and Immunity, and bypasses your Temporary Hit Points.
+
+### Ability Score Improvement
+When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.
+
+### Extra Attack
+Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.
+
+### Bulwark
+At 7th level, your overwhelming strength makes you an unmovable force. When you are subjected to an effect that requires a Strength saving throw, or when you would become grappled, restrained, knocked prone, or be moved against your will, you take no damage and are unaffected on a successful saving throw. 
+
+On a failed saving throw, you take only half the damage or suffer a reduced effect. You can’t use this feature if you are incapacitated.
+
+
+### Desperate Survival
+By 9th level, you have a knack for evading lethal blows. While you are Bloodied, Critical Hits against you instead miss unless you have the Incapacitated condition. 
+
+### Last Stand
+Also 9th level, when you are reduced to 0 Hit Points and not killed outright, you can drop to 1 Hit Point instead, and you regain a number of Hit Points equal to twice your Vagabond level.
+
+Once you use this feature, you can’t use it again until you finish a Long Rest.
+
+### Desperate Fury
+At 11th level, while you are Bloodied, your attacks with weapons and Unarmed Strikes deal an extra 1d8 damage on a hit. The damage is the same type dealt by the weapon or Unarmed Strike.
+
+### Tenacity
+At 13th level, if you fail a saving throw to avoid or end a condition on yourself, you can expend one Battle Die to reroll the save and add the Battle Die to the roll. You must use the new roll.
+
+{{pageNumber,auto}}
+\page
+### Desperate Attack
+By 15th level, you are most dangerous when backed into a corner. If you have no more than half your hit points left, you have advantage on weapon attack rolls.
+
+### Deft Maneuver
+Beginning at 17th level, you gain a special additional Bonus Action that you can take once on each of your turns. You can take this special Bonus Action only to use a maneuver.
+
+### Wayworn
+Starting at 18th level, your long years on the road have left you bone-weary, but always ready for danger. You are always considered Bloodied for the purpose of your Vagabond features.
+
+### Martial Recovery
+By 20th level, You can take a Bonus Action to regain all of your expended Battle Dice.
+
+Once you use this feature, you can’t use it again until you finish a Short or Long Rest.
+{{imageMaskCorner17,--offsetX:-55%,--offsetY:-30%,--rotation:0
+  ![](https://i.imgur.com/VPChxGN.png){height:100%,top:450px,right:150px}
+}}
+
+
+
+\column
+## Maneuvers
+The vagabond can spend battle dice to utilize special maneuvers listed in this section. They are presented in order of prerequisite level. If a maneuver has prerequisites, you must meet them to learn it. You can learn the maneuver at the same time that you meet its prerequisites.
+
+A level prerequisite refers to your level in this class.
+#### Aerial Vault
+
+When you make a jump, you can expend a Battle die to double your jumping distance for that jump, and you can ignore difficult terrain until the end of your turn.
+
+When you use this Maneuver, the maximum distance you can jump isn't limited by your walking speed.
+#### Battle Edge
+When you hit a creature with an attack using Strength or Dexterity, you can expend one Battle Die as a Bonus
+Action to improve the damage roll. Add the Battle die and your Strength or Dexterity modifier (whichever you don’t already add, minimum of 1) to the attack’s damage roll. 
+
+#### Bear Hug
+Immediately after you hit a creature with a melee attack on your turn, you can expend one battle die as a bonus
+action to attempt to grapple the target. 
+
+Add the battle die to the Strength (Athletics) check. 
+
+If you successfully grapple the target, it takes bludgeoning damage equal to the battle die’s roll + your Strength modifier.
+
+#### Bull Rush
+If you move at least 10 feet in a straight line toward a target immediately before hitting it with a melee attack
+roll, you can expend one Battle Die as a Bonus Action to perform a Bull Rush. 
+
+The target takes extra Bludgeoning damage equal to the roll of the Battle Die, and must succeed on a Strength saving throw or be pushed 10 feet away from you and have the Prone condition.
+
+#### Challenge
+When you hit a creature with an attack using a Melee weapon or an Unarmed Strike, you can expend one Battle
+Die as a Bonus Action to goad the target into attacking you. 
+
+Add the Battle Die to the attack’s damage roll. 
+
+Until the start of your next turn, the target has Disadvantage on attack rolls against creatures other than you while you are within 5 feet of the target.
+
+#### Cleave
+Once on each of your turns, when you reduce a hostile creature to 0 hit points or score a critical hit with a melee weapon attack, you can expend a battle die to move up to 15 feet and make another melee weapon attack as part of the same action. On a hit, you add the battle die to the attack’s damage roll.
+{{pageNumber,auto}}
+\page
+#### Dig Deep
+As a Bonus Action, you can expend one Battle Die to gain Temporary Hit Points equal to the number rolled on the die plus your Constitution modifier.
+
+#### Dodge Roll
+You can expend one Battle Die as a Bonus Action to move up to 15 feet and reload any Ranged weapon you are holding. This movement doesn’t provoke Opportunity Attacks and is unaffected by Difficult Terrain.
+
+#### Eagle Eye
+Once per turn when you miss with a ranged attack roll, you can expend one Battle Die and add it to the attack
+roll, potentially causing the attack to hit.
+
+####  Effortless Dodge
+As a Bonus Action, you can expend one Battle Die to take the Disengage or Dodge action. You can’t use this
+maneuver while wearing Medium or Heavy armor.
+
+#### Heel-Cutter
+When you hit a creature with an attack using a Melee weapon or an Unarmed Strike, you can expend one Battle Die as a Bonus Action to prevent the target from escaping.
+
+Add the Battle Die to the attack’s damage roll. 
+
+The target must succeed on a Strength saving throw or its Speed becomes 0 until the end of its next turn.
+
+#### Horrific Strike
+When you hit a creature with an attack using a Melee weapon or an Unarmed Strike, you can expend one Battle Die as a Bonus Action to terrify the target. Add the Battle Dice to the attack’s damage roll. 
+
+The target has the Frightened condition until the end of your next turn.
+
+#### Iron Wall
+As a bonus action, you can expend a battle die to fortify yourself. The next time you are hit by an attack within the next minute, roll the battle die. 
+
+You gain a bonus to your Armor Class against the attack equal to half the number rolled on the battle die, rounded down (to a minimum of +1), potentially causing the attack to miss you. You must be wearing heavy armor to use this maneuver.
+
+#### Knack
+When you fail an ability check using a skill in which you have proficiency, you can expend one Battle Die to add it to the roll, potentially turning it into a success. You can only use this maneuver once per turn.
+
+#### Lightning Reflexes
+After you regain battle dice when rolling initiative, you can immediately expend one battle die and add it to
+your initiative roll, provided you aren’t incapacitated or surprised.
+
+\column
+
+#### Rampage
+Once on each of your turns, immediately after you reduce an enemy to 0 Hit Points or score a Critical Hit with a
+melee attack roll, you can expend one Battle Die to move up to your Speed and make a melee attack (no action required). On a hit, you add the Battle Die to the attack’s damage roll.
+
+#### Skirmish
+When you make an attack using a weapon, you can expend one Battle Die as a Bonus Action to make an
+attack using a weapon later on the same turn. One attack must be a melee attack roll and the other must be a ranged attack roll.
+
+#### Staggering Strike
+When you hit a creature with an attack using a Melee weapon or an Unarmed Strike, you can expend one Battle
+Die as a Bonus Action to daze the target.
+
+Add the Battle Die to the attack’s damage roll. 
+
+The target subtracts the Battle Die from the next attack roll it makes before the end of your next turn.
+
+#### Viper Strike
+When you make a weapon attack on your turn, you can expend one battle die as a bonus action to extend the strike’s distance. If it is a melee attack, increase your reach by 5 feet for that attack. If it is a ranged attack, increase the attack’s range by 30 feet for that attack. 
+
+Additionally, if the attack hits, the target can’t take reactions until the start of its next turn.
+
+#### Blinding Attack
+*Prerequisite: 5th level*::
+You can use your action to make a weapon attack against a
+creature, attempting to temporarily blind it. On a hit, you
+expend three battle dice and add them to the damage roll.
+
+The target you hit must succeed on a Constitution saving
+throw or be blinded for up to 1 minute. A creature blinded
+by this maneuver makes another Constitution saving
+throw at the end of each of its turns. On a successful save,
+it is no longer blinded.
+
+#### Coup de Grace
+*Prerequisite: 5th level*::
+You can use your action to make a melee weapon attack
+against a creature that is missing any of its hit points. 
+
+On a hit, you expend up to three battle dice and add them to
+the damage roll. If this attack reduces the target to 0 hit
+points, this maneuver expends no battle dice.
+{{pageNumber,auto}}
+\page
+#### Ruinous Blow
+*Prerequisite: 5th level*::
+You can use your action and make a melee weapon attack
+against a target that has natural armor or is wearing
+armor, attempting to sunder its defenses. On a hit, you
+expend three battle dice and add them to the damage roll.
+The target you hit suffers a −3 penalty to its Armor Class.
+
+The penalty imposed by this maneuver is cumulative if a
+creature is affected by it multiple times. Armor reduced to
+an AC of 10 in this way is destroyed. A creature can repair
+its armor or heal the damage dealt to its natural armor
+over the course of a long rest.
+
+#### Volley
+*Prerequisite: 5th level*::
+You can use your action and expend three or more battle
+dice to make a ranged weapon attack against a number of
+creatures up to the number of battle dice expended. 
+
+Each target must be within 10 feet of a point you can see within
+your weapon’s range. 
+
+You must have ammunition for each target, as normal, and you make a separate attack roll for
+each target. On a hit, add a battle die to the damage roll.
+
+#### Whirlwind Attack
+*Prerequisite: 5th level*::
+You can use your action and expend three or more battle
+dice to make a melee attack against a number of creatures
+within 5 feet of you, up to the number of battle dice
+expended, with a separate attack roll for each target. 
+
+On a hit, add a battle die to the damage roll.
+
+#### Wounding Strike
+*Prerequisite: 5th level*::
+
+When you hit a creature with an attack using a weapon
+or Unarmed Strike, you can expend two Battle Dice as a
+Bonus Action to deal the target a bleeding wound. Add
+the Battle Dice to the attack’s damage roll. A creature
+with a bleeding wound can’t regain Hit Points and takes
+Necrotic damage equal to a roll of your Battle Die for each
+of its wounds at the start of each of its turns. This damage
+ignores Resistance and Immunity. A creature can take an
+action to staunch all of its bleeding wounds.
+
+#### Critical Strike
+*Prerequisite: 11th level*::
+You can use your action to aim for a foe’s vital areas. Choose how many battle dice to expend on a hit, up to
+five, and make a weapon attack against a target. 
+
+For each battle die, the number you must roll on the d20 to score a
+critical hit decreases by 2. 
+
+For example, if you expend five battle dice, you score a critical hit on a roll of 10–20. On a
+critical hit, expend the chosen number of battle dice and add half of them, rounded down, to the damage roll.
+
+\column
+
+#### Flourish
+*Prerequisite: 11th level*::
+You can use your action to perform a graceful maneuver
+with a melee weapon you are holding. Make a weapon
+attack against a creature. On a hit, expend up to five
+battle dice and add any number of them to the damage
+roll. Additionally, you can choose to inflict one of the
+following effects, plus an additional effect for each die you
+didn’t add to the damage roll:
+- If the target is Large or smaller, you knock it prone or push it 15 feet away from you.
+- If the target can make multiple attacks on its turn, it can make one fewer than normal, to a minimum of one.
+- The target has disadvantage on the next attack roll, ability check, or saving throw it makes.
+- The target can’t take reactions until the start of its next turn. If it has Legendary Actions, it can take one fewer before the start of its next turn.
+- The target drops one item of your choice that it’s holding. The object lands at its feet.
+#### Focused Assault
+*Prerequisite: 11th level*::
+You can use your action to initiate a series of rapid strikes. Make a weapon attack against a creature. On a hit, you can expend one battle die to attack the target again. 
+
+You can continue expending battle dice and attacking the target, up to a maximum of five attacks, until you miss.
+
+On each hit after the first, add a battle die to the damage roll.
+#### Stunning Blow
+*Prerequisite: 11th level*::
+You can use your action to make a weapon attack against a creature, attempting to stun it with the force of the
+blow. On a hit, you expend five battle dice and add them to the damage roll. The target you hit must succeed on a Constitution saving throw or be stunned for up to 1 minute. A creature stunned by this maneuver makes another Constitution saving throw at the end of each of its turns. On a successful save, it is no longer stunned.
+
+{{pageNumber,auto}}
+\page
+## Wanderer’s Roads
+No two vagabonds embark on the same journey; no two roads are the same. However, the destinations sometimes rhyme. Each of a vagabond’s choices on their endless journey is a fork in the road that shapes them. Each mile
+hardens them a bit more. 
+
+Ultimately, a vagabond’s choices and skills converge on an archetypal expression, that of a wanderer’s road. This road represents how the vagabond chooses to travel, what they value most, and lines they will never cross. 
+
+### Adrenaline Junkie
+Adrenaline Junkies live for the thrill, taking on increasingly death-defying stunts until they grow bored
+of it all or it kills them. Some subscribe to a grim fatalism, whereas others indulge in excitement-laden decadence.
+
+#### Adrenaline
+Starting when you set out on this road at 3rd level, whenever you begin your turn while you are Bloodied,
+you gain a special Battle Die, an Adrenaline Battle Die, which is a d6. 
+
+You can only have one such Battle Die at a time, which is lost if you are no longer Bloodied.
+
+#### Stim Potion
+Also at 3rd level, when you finish a Long Rest, you can brew a number of Stim Potions, invigorating concoctions of herbs, equal to your Proficiency Bonus. These potions retain potency until you finish a Long Rest, after which they become inert.
+
+When you drink a Stim Potion as a Bonus Action and at the start of each of your subsequent turns for 1 minute, you can choose one of the following benefits (no action required). 
+
+When you use one of these benefits, you take Necrotic damage equal to one roll of your Battle Die. This damage ignores Resistance and Immunity and bypasses Temporary Hit Points.
+
+**Bullet Time.** The next attack made against you before the start of your next turn has Disadvantage. 
+
+**Hyper Focus.** You have Advantage on the next attack roll you make before the end of your turn.
+
+**Rush.** You take the Dash or Disengage action (no action required).
+\column
+#### Danger Sense
+
+By 6th level, you have a second sense for danger, allowing you to dodge away at the last possible moment. You have advantage on Dexterity saving throws against effects that you can see, such as traps and spells. 
+
+To gain this benefit, you can’t be blinded, deafened, or incapacitated.
+
+#### Daredevil
+By 10th level, while you are Bloodied,  you gain temporary hit points equal to half your vagabond level + your Constitution modifier whenever a creature you can see misses you with an attack or you succeed on a saving throw against a spell or magical effect and take no damage.
+
+
+#### Adrenaline High
+Starting at 14th level, your Adrenaline Battle Dice are d8s.
+
+Additionally, you gain two Adrenaline Battle Dice at the start of each of your turns while you are Bloodied and one Adrenaline Battle Die while you aren’t Bloodied.
+
+
+{{imageMaskCorner1,--offsetX:35%,--offsetY:-20%,--rotation:0
+  ![](https://i.imgur.com/gHKermb.png){height:70%,left:380px,top:400px}
+}}
+
+{{pageNumber,auto}}
+\page
+### Brigand
+Brigands encompass all manner of highwaymen, pirates,
+raiders, and other dastardly folk. No tactic, no matter how
+heinous, is off the table for a band of brigands, whether
+that means roadside ambushes or taking hostages at
+knifepoint. Ultimately, most brigands are driven to their
+thievery through desperation; it is fitting that they leave
+others as few choices as were afforded to them.
+
+#### Maneuver: Ruthless Ambusher
+Starting when you set out on this road at 3rd level, when you roll Initiative, you can expend one Battle Die
+immediately after regaining your Battle Dice to draw up to two weapons and make one weapon attack. You can’t use this maneuver if you have the Incapacitated condition.
+
+#### Craven
+Also at 3rd level, when a creature you can see misses you with a melee attack, you can use your reaction to move 5 feet without provoking opportunity attacks.
+
+#### Take Hostage
+Beginning at 6th level, When you hit a Medium or smaller creature with an attack using a melee weapon or an Unarmed Strike and reduce the target to a number of Hit Points less than or equal to twice your Vagabond level, you can take a Bonus Action to hold the target hostage. 
+
+While held hostage, the target has the Grappled and Incapacitated conditions.
+
+While holding a creature hostage, you have ThreeQuarters cover. Attacks that miss you hit the hostage instead. 
+
+Additionally, you have Advantage on Charisma (Intimidation) checks against the hostage’s allies.
+
+You can take a Reaction in response to any creature’s action to release the hostage or attack it with a weapon
+you are holding. 
+
+#### Underhanded Blow
+By 10th level, when you hit a creature with an attack roll, you can give the target Disadvantage on attacks it makes before the start of your next turn.
+
+Once you use this feature, you can’t use it again until you roll Initiative or finish a Short or Long Rest.
+
+#### Cutthroat
+Starting at 14th level, ruthlessness is second-nature to you. When you hit a creature with an attack roll and roll the highest number on any damage die, you can roll that damage die again and add it to the damage, rolling again if it is the highest number, and so on. You can roll each damage die up to a maximum of four times.
+
+
+{{imageMaskEdge4,--offset:7%,--rotation:270
+  ![](https://i.imgur.com/uSvpkGj.png){height:101%,left:150px}
+}}
+
+
+{{pageNumber,auto}}
+\page
+### Experiment X
+In a secret laboratory, unscrupulous magical scientists
+meddle in the affairs of gods. Their subjects are tormented
+with arcane serums and invasive tests until their very
+genetics give way and unlock untold power.
+
+You were one such experiment, now escaped. Though
+you might not recall the faces of your captors, you know
+what they did to you and that you’ll never be the same.
+
+
+#### Mutation
+Starting when you set out on this road at 3rd level, you gain one of the following mutations of your choice. 
+
+Whenever you gain a Vagabond level, you can replace the chosen mutation with a different one.
+
+**Acid Spit.** When you take the Attack action on your
+turn, you can replace one of your attacks with a lob of
+acid from your mouth. This is a special ranged attack with
+a range of 60 feet. You are proficient with it, and you use
+your Dexterity modifier for its attack and damage rolls.
+On a hit, the target takes 1d8 Acid damage. This damage
+increases by 1d8 when you reach character levels 5 (2d8),
+11 (3d8), and 17 (4d8).
+
+**Adamantine Claws.** You have retractable metal claws embedded in your hands. These claws use the statistics of Scimitars. Whenever you would normally be able to draw a weapon, you can extend the claws from one or both of your hands, and you can retract them when you could normally stow a weapon. You can’t be disarmed of these claws. You can’t hold or otherwise manipulate a weapon, Shield, or other object with a hand that has extended claws.
+
+You have a damage rolls with the claws when you reach certain Vagabond levels. This bonus is +1 at level 5, +2 at level 11, and +3 at level 17.
+
+**Extra Limbs.** You have a second pair of arms beneath your normal arms. These arms are fully functional and
+can be used to hold weapons and Shields (allowing you to wield two Two-Handed weapons, or four one-handed weapons), perform Somatic components of spells, and perform other actions, though the arms themselves don’t grant you any additional actions.
+
+
+#### Bloody Rampage
+Also at 3rd level, you learn the Rampage maneuver. If you already know it, you learn a different maneuver of your choice.
+
+Additionally, you can use Rampage when you deal damage that causes a creature to become Bloodied.
+
+\column
+
+#### Arcane Mutation
+Beginning at 6th level, you gain one of the following mutations of your choice.
+
+Whenever you gain a Vagabond level, you can replace the chosen mutation with a different one.
+
+**Invisibility.** As a Bonus Action, you can expend one Battle Die to cast *Invisibility* on yourself without a spell slot. When you cast the spell in this way, its duration becomes 1 minute for that casting.
+
+**Spider Climb.** As a Bonus Action, you can expend one Battle Die to cast Spider Climb on yourself without a spell slot. When you cast the spell in this way, its duration becomes 10 minutes for that casting.
+
+**Telepathy.** You have telepathy with a range of 30 feet
+
+Additionally, as a Bonus Action, you can expend one Battle Die to cast Detect Thoughts without a spell slot
+
+
+#### Exoskeleton
+By 10th level, your skin becomes supernaturally tough. When you’re hit by an attack while you’re Bloodied, any Bludgeoning, Piercing, and Slashing damage dealt to you by that attack is reduced by an amount equal to your Constitution modifier.
+
+#### Apex Mutation
+Starting at 14th level, you gain one of the following mutations of your choice.
+
+Whenever you gain a Vagabond level, you can replace the
+chosen mutation with a different one.
+
+**Accelerated Metabolism.** As a Bonus Action, you can expend 3 Battle Dice to cast Haste on yourself without a
+spell slot.
+
+**Energy Blast.** As a action, you can expend 3 Battle Dice to unleash a burst of arcane energy. Choose
+the area this energy takes: a 30-foot Cone, a 20-foot Emanation originating from you, or a 60-foot-long,
+5-foot-wide Line. Each creature in the area makes a Dexterity saving throw against your Maneuver save
+DC, taking 8d8 damage on a failed save or half as much damage on a successful one. 
+
+The damage is Acid, Cold, Fire, Lightning, Poison, or Thunder (choose each time you use this benefit).
+
+**Monstrous Transformation.** As a Bonus Action, you can expend 3 Battle Dice to shape-shift into a monstrous
+form for 1 minute. While shape-shifted, your type is Monstrosity and your Strength and Dexterity scores are 24.
+{{pageNumber,auto}}
+\page
+### Feylost
+The Feywild is a labyrinth of winding, magical paths,
+leading to delightful glades and nightmarish grottos alike.
+Mortals that wander there often become lost, vanishing
+for decades before returning without having aged a day.
+However, they return with infectious fey enchantments
+that sometimes overwhelm their minds and the minds of
+those nearby.
+
+#### Fey Moods
+Starting when you set out on this road at 3rd level, your time in the Feywild has afflicted you with magical mood swings known as Fey Moods that overtake you in desperate situations. 
+
+When you take damage that causes you to become Bloodied, roll on
+the Fey Moods table. 
+
+This mood lasts for 1 minute or until you are no longer Bloodied.
+
+##### Fey Moods
+d8| Effect
+:-:|:-:
+1| **Arrogant.** Enemies within 5 feet of you have Disadvantage on attack rolls against targets other than you.
+2| **Elated.** At the start of each of your turns, you gain Temporary Hit Points equal to your Constitution modifier.
+3| **Fearful.** Opportunity Attacks have Disadvantage against you.
+4| **Forlorn.** When a creature you can see hits an ally within 5 feet of you with an attack roll, you can take a Reaction to force the attack to hit you instead.
+5| **Manic.** When you roll a 1 on the d20 for a D20 Test, the roll becomes a 20.
+6| **Paranoid.** You have Advantage on Dexterity ability checks and saving throws.
+7| **Serene.** You have Advantage on Intelligence, Wisdom, and Charisma saving throws.
+8| **Spiteful.** When a creature deals damage to you, the next time you hit that creature with an attack before the end of your next turn, the target takes an extra 1d8 Force damage.
+
+#### Maneuver: Frenzied Strike
+Also at 3rd level, when you hit a creature with an attack using a Melee weapon or an Unarmed Strike, you can expend one Battle Die as a Bonus Action to infect the target’s mind. 
+
+The creature has the Frenzied condition until the end of its next turn.
+
+A creature with the Frenzied condition loses the ability to distinguish between friend and foe, regarding
+all creatures it can see as enemies. While Frenzied, the creature chooses the targets for its attacks, spells, and abilities randomly from among the creatures it can see within range, and it must make an Opportunity Attack if any creature provokes one.
+
+\column
+
+#### Misty Pathways
+By 6th level, you can cast *Misty Step* without a spell slot.
+
+Once you use this feature, you can’t use it again until you finish a Short or Long Rest unless you expend one Battle Die (no action required) to restore your use of it.
+
+#### Irresistible Mood
+Starting at 10th level, when a creature deals damage to you that causes you to become Bloodied, you can take a Reaction to give the creature the Charmed or Frightened condition for 1 minute. 
+
+The Charmed or Frightened target makes a Wisdom saving throw against your Maneuver save DC at the end of each of its turns, ending the condition on itself on a success.
+
+#### Mercurial
+By 14th level, as a Bonus Action, you can expend one Battle Die to activate any Fey Mood option of your choice. This mood lasts for 1 minute.
+
+If you already have a Fey Mood active or you become Bloodied while this mood is active, you can have both moods active at once.
+
+{{imageMaskCorner7,--offsetX:45%,--offsetY:-27%,--rotation:50
+  ![](https://i.imgur.com/6AKBfIR.png){height:70%,left:370px,top:500px}
+}}
+
+
+
+{{pageNumber,auto}}
+\page
+
+### Gourmand
+Gormands travel the land in search of the perfect flavor.
+To this end, they scrounge up rare ingredients from far-off
+continents, hunt monsters for unique proteins, and tinker
+with their recipes wherever they travel.
+
+
+#### Fine Cuisine
+Starting when you set out on this road at 3rd level, your culinary experience grants you gain proficiency with Cook’s Utensils if you don’t already have it.
+
+Additonally, you can cast *Gentle Repose* but only as a Ritual. Wisdom is your spellcasting ability for it.
+
+#### Monster Meal
+Also at 3rd level, as part of a Long Rest, you can prepare and eat a special
+meal if you have ingredients and Cook’s Utensils on hand.
+
+You can prepare enough food for a number of creatures equal to half your Vagabond level plus your Constitution
+modifier. A creature that eats the food gains Temporary Hit Points equal to one roll of your Battle Die plus your Constitution modifier without expending it.
+
+If you add ingredients taken from a monster, a creature that eats the meal also gains a related benefit
+as shown on the Monster Meal table until it finishes a Long Rest. You can add up to three monster ingredients
+to a single meal and gain the benefits of each. 
+
+Generally, the amount of ingredients you can harvest from a single monster’s corpse is sufficient for one meal.
+
+##### Monster Meal
+Creature Type| Benefit
+:-:|:-:
+*Aberration*| **Strange Sushi.** Any Critical Hit against you becomes a normal hit.
+*Celestial*| **Heavenly Trifle.** The creature can add 1d4 to attack rolls and saving throws it makes.
+*Dragon*| **Wyvern Wings.** The creature has a +2 bonus to AC.
+*Elemental*| **Maelstrom Stew.** The creature’s Speed increases by 10 feet.
+*Fey*| **Pixie Sticks.** The creature has Immunity to the Charmed and Frightened conditions. 
+*Fiend*| **Diablo Barbeque.** The creature has Resistance to Cold and Fire damage.
+*Giant*| **Colossal Steak.** The creature has Advantage on ability checks and saving throws using Strength.
+*Monstrosity* | **Dire Sandwich.** The target's Hit Point maximum and current Hit Points increase by 5 for the duration.
+*Ooze*| **Gelatinous Soup.** The creature has Blindsight with a range of 10 feet.
+*Plant*| **Treant Salad.** Difficult Terrain doesn’t cost the creature extra movement.
+
+\column
+
+#### Maneuver: Carve
+At 6th level, when you hit a creature with an attack using a weapon or Unarmed Strike, you can expend two Battle Dice as a
+Bonus Action to attempt to butcher the target. Add the Battle Dice to the attack’s damage roll. 
+
+If the creature’s type is listed on the Monster Meal table, you gain the related benefit for 1 hour.
+
+#### Quick Snack
+By 10th level, at the start of each of your turns, you can eat a snack to use your Breather (no action required).
+
+Once you use this feature, you can’t use it again until you finish a Short or Long Rest. You can also restore your use of it by expending one Battle Die (no action required).
+
+#### Gourmet Ingredients
+Starting at 14th level, when you prepare your Monster Meal, you can choose one of the following benefits for each creature that eats the meal until it finishes a Long Rest.
+
+**Hero Sauce.** The creature gains advantage on the first ability check, attack roll or saving throw. It can have this instance at one time.
+
+**Munchkin Spice.** The creature chooses one of its ability scores, which increases by 2, to a maximum of 22.
+
+**Wish Bone.** The creature can cast one spell of level 5 or lower that has a casting time of an action without a spell slot.
+
+{{imageMaskCorner2,--offsetX:40%,--offsetY:-34%,--rotation:0
+  ![](https://i.imgur.com/2VYtl8K.png){height:60%,left:250px,top:550px}
+}}
+
+{{pageNumber,auto}}
+\page
+### Heretic
+The Heretic road are despised by both religious organizations and their adherents. In a world where acts of faith are required to harness divine powers, these jaegers instead rip these powers from the very gods, tearing away their divine fabric. Through blasphemous rituals, strange ingestions, and direct grafting of powers onto their souls, heretics bind the powers of greater beings to their will. This is a path that calls for a certain madness that is only found in the most ardent of hunters, those who feel the burning need to reach the pinnacle of power and will do anything to achieve it. Some seek such power for its own sake, but most want it to put an end to the nightmare.
+
+#### Heretic Magic
+Starting when you set out on this road at 3rd level, you bend dark powers to your service
+through blasphemous occult rituals, making them your
+own. You gain the ability to cast spells.
+
+**Cantrips.** You learn two cantrips of your choice from the warlock spell list. You learn an additional warlock cantrip of your choice at 10th level.
+
+**Spell Slots.** The Heretic Spellcasting table shows how many spell slots you have, as well as the level of those spell slots.
+
+All of your spell slots are of the same level. To cast one
+of your warlock spells of 1st level or higher, you must
+expend a spell slot. You regain all expended spell slots
+when you finish a short or long rest.
+
+**Spells Known of 1st Level and Higher.**
+ At 3rd level, you know two 1st-level spells of your choice
+from the warlock spell list. The Spells Known column of
+the Heretic Spellcasting table shows when you learn a
+new spell of your choice from the warlock spell list. A
+spell you choose must be of a level you can cast.
+
+Additionally, when you finish a long rest, you can choose
+one of the warlock spells you know and replace it with
+another spell from the warlock spell list, which also must
+be of a level for which you have spell slots.
+
+**Spellcasting Ability.** Intelligence is your spellcasting ability for your warlock spells, since you learn your spells through study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability. 
+
+In addition, you use your Intelligence modifier when setting the saving throw DC for a warlock spell you cast and when making an attack roll with one.
+:
+**Spell save DC** = 8 + your Intelligence modifier + your proficiency bonus
+:
+**Spell attack modifier** = your Intelligence modifier + your proficiency bonus
+
+\column
+
+{{classTable,frame
+##### Heretic Spellcasting
+| Vagabond| Cantrip| Spells |Max Slot  | 
+| Level|  Known |Known |Level| 
+|:------:|:-:|:--------:|:-------:|
+|  3rd   | 2  | 3     |    1    | 
+|  4th   | 2  | 4     |    1    |
+|  5th   | 2  | 4     |    2    |
+|  6th   | 2  | 4     |    2    | 
+|  7th   | 2  | 5     |    2    |
+|  8th   | 2  | 6     |    2    |
+|  9th   | 2  | 6     |    2    |
+|  10th  | 3  | 7     |    2    | 
+|  11th  | 3  | 8     |    2    |   
+|  12th  | 3  | 8     |    2    |  
+|  13th  | 3  | 9     |    2    |  
+|  14th  | 3  | 9     |    2    |  
+|  15th  | 3  | 10    |    2    |  
+|  16th  | 3  | 11    |    2    |
+|  17th  | 3  | 11    |    2    | 
+|  18th  | 3  | 11    |    2    | 
+|  19th  | 3  | 12    |    2    |  
+|  20th  | 3  | 13    |    2    |
+}}
+
+
+#### Maneuver: Arcane Arts
+Also at 3rd level, you learn the following maneuver:
+When you cast a cantrip or a spell of 1st level or higher, you can expend a battle die to make a single weapon attack as a bonus action.
+
+#### Shrouded Steps
+At 6th level, when you use a vagabond feature, a Maneuver, Cantrip or Spells that allows you to move, you can teleport the  distance moved instead. 
+
+#### Mystical Momentum
+Beginning at 10th level, when you expend a spell slot, you gain a number of battle die equal to the level of the spell slot expended.
+
+#### Heretic Strike
+Beginning at 14 level, when you take the Attack action on your turn, you can replace one of the attacks with a casting of one of your spells that has a casting time of an action.
+
+{{pageNumber,auto}}
+\page
+### Houndmaster
+Stretching ever onward, the road is grueling and
+unforgiving. But, as houndmasters know, it need not be
+lonely. A single dog, mankind’s most loyal companion,
+can make all the difference in the world. Houndmasters
+are never found without their dogs, who both serve as
+inseparable companions and fearsome defenders as the
+need arises.
+
+#### Maneuver: Sick ‘Em!
+Also at 3rd level, you learn the following maneuver:
+As a bonus action, you can expend a battle die to command your hound to attack a creature you can see
+within 40 feet of it. 
+
+The hound moves up to its speed and makes one Bite attack against the target, adding the battle die to its attack roll.
+
+#### Desperate Companion
+Also at 3rd level, your hound will stop at nothing to protect you. If you have no more than half your hit points left, your hound has advantage on weapon attack rolls.
+
+#### Faithful Hound
+Starting when you set out on this road at 3rd level, you
+always have your loyal hound at your side. Your hound’s
+statistics improve as you gain levels in this class.
+
+**Commanding Your Hound.** In combat, your hound acts during your turn. It can move and use its Reaction on
+its own, but the only action it takes is the Dodge action unless you take a Bonus Action to command it to take an
+action in its stat block or some other action. If you have the Incapacitated condition, the hound acts on its own
+and isn’t limited to the Dodge action.
+
+**Hit Points.** For each vagabond level you gain after 3rd, your hound gains an additional Hit Die and increases
+its hit points accordingly.
+
+If the hound drops to 0 Hit Points, it has the Unconscious condition until you finish a Long Rest or it regains any Hit Points. 
+
+When you finish a Short or Long Rest, it regains all of its Hit Points and loses this condition. See the sidebar “Does the Dog Die?” for information about losing or replacing your hound. 
+
+{{note
+##### Does the Dog Die?
+Your hound isn’t just a minion to be sacrificed in combat. It’s your most loyal companion and an integral component of your playstyle. 
+
+Therefore, discuss with your GM how to handle losing your dog.
+
+It might be narratively impossible to lose your dog. Or the kidnapping or death of your dog might represent a pivotal moment in your story. 
+
+You may even want to adopt another subclass, such as Adrenaline Junkie, during your dog’s absence.
+}}
+
+\column
+
+{{monster,frame
+## Hound
+*Medium or Small Beast, Unaligned*
+___
+**Armor Class** :: 12 + your Strength or Dexterity modifier 
+**Hit Points**  :: 6 plus six times your Vagabond level (the hound has a number of Hit Dice [d8s] equal to your Vagabond level)
+**Speed**       :: 40 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|13 (+1)|14 (+2)|12 (+1)|3 (-4)|12 (+1)|7 (-2)|
+___
+**Skills** :: Perception +3, Survival +3
+**Senses**               :: Passive Perception 13
+**Languages**            :: None
+**CR**:: None (XP 0; PB equals your Proficiency Bonus)
+___
+***Good Dog.*** The hound adds your Proficiency Bonus to any ability check or saving throw it makes.
+:
+***Pack Tactics.*** The hound has Advantage on attack rolls against a creature if at least one of the hound’s allies is within 5 feet of the creature and the ally doesn’t have the Incapacitated condition.
+### Actions
+***Bite.*** *Melee Weapon Attack:* Bonus equals your Strength or
+Dexterity modifier plus your Proficiency Bonus to hit, reach 5 ft., one target. *Hit:* 1d6 plus your Strength or Dexterity modifier Piercing damage. If the target is a Medium or smaller creature, it has the Prone condition.
+
+}}
+
+
+#### Hound’s Instincts
+By 6th level, your hound can pick up a scent and follow it for miles. The hound has Blindsight with a range of 30 feet.
+
+Additionally, the hound can sense if a creature is possessed, magically disguised, or shape-shifted.
+
+
+#### Loyal Redirection
+By 10th level, you would put your life on the line for your hound. When a creature you can see hits your hound while it is within 5 feet of yourself with an attack roll, you can take a Reaction to force the attack to hit you instead.
+
+Alternatively, your hound can take a Reaction to use this feature to cause an attack that hits you to hit it instead.
+
+#### Old Dog, New Tricks
+Starting at 14th level, your dog has learned how to perform dangerous combat maneuvers.
+
+**Battle Dice.** Your hound has two battle dice, which are d12s. A battle die is expended when your hound uses
+it. It regains all of its expended battle dice when it finishes a short or long rest, or when it rolls initiative.
+
+**Maneuvers.** Your dog knows two of your maneuvers that don’t have a prerequisite. If a maneuver you use requires a target to make a saving throw to resist the maneuver’s effects, the saving throw DC equals your Maneuver save DC.
+{{pageNumber,auto}}
+\page
+### Iron Grip
+Some vagabonds survive the road by learning that steel is not always the surest weapon. A blade can be parried, a spell can be dodged, and an arrow can miss its mark, but a hand around the throat, a knee across the spine, or a shoulder driven into the ribs is harder to ignore.
+
+Iron Grips are wrestlers, bounty hunters, pit fighters, prison-breakers, and back-alley enforcers who learned to end fights by denying enemies the ability to fight back. They do not merely grapple foes; they drag them, pin them, choke them, and turn their own bodies into living cages.
+
+#### Clinch Fighter
+
+Starting when you set out on this road at 3rd level, your body becomes a weapon suited for close-quarters control. You gain proficiency in the Athletics skill. If you already have proficiency in it, you instead gain Expertise in Athletics.
+
+
+Additionally, you count as one size larger when determining the size of creatures you can grapple or shove.
+
+
+#### Maneuver: Iron Clinch
+Also at 3rd level, when you hit a creature with a melee weapon attack or an Unarmed Strike on your turn, you can expend one Battle Die as a Bonus Action to seize the target.
+Add the Battle Die to the attack’s damage roll, and the target must succeed on a Strength saving throw against your Maneuver save DC or have the Grappled condition. If the target is already Grappled by you, it instead has the Prone condition on a failed save.
+
+While a creature is Grappled by you in this way, you can use Strength instead of Dexterity to determine your Armor Class against attacks made by that creature, provided you aren’t wearing Heavy armor.
+
+#### Roadside Takedown
+Beginning at 6th level, your grapples become violent transitions rather than simple holds. Once on each of your turns, when you move a creature Grappled by you at least 5 feet, you can deal Bludgeoning damage to it equal to one roll of your Battle Die without expending it.
+Additionally, when a creature Grappled by you misses you with a melee attack, you can take a Reaction to slam it against the ground, a wall, or another hard surface. The creature takes Bludgeoning damage equal to your Strength modifier plus your Proficiency Bonus, and you can move it 5 feet to an unoccupied space within your reach.
+
+\column
+
+#### Pin to the Earth
+By 10th level, you can turn a grapple into a brutal pin. When a creature Grappled by you has the Prone condition, you can use a Bonus Action to pin it. The target must succeed on a Strength or Dexterity saving throw against your Maneuver save DC, its choice, or have the Restrained condition until your grapple ends.
+
+A creature Restrained in this way can repeat the saving throw at the end of each of its turns, ending the Restrained condition on itself on a success. The condition also ends early if you move more than half your Speed on your turn, if you are Incapacitated, or if the target is no longer Grappled by you.
+While you are Bloodied, a creature has Disadvantage on saving throws it makes to resist or end this feature.
+
+#### Human Cage
+Starting at 14th level, your grip becomes nearly impossible to break. When a creature Grappled by you attempts to escape your grapple and fails, you regain one expended Battle Die. You can regain only one Battle Die per turn in this way.
+Additionally, when a creature within your reach moves willingly, teleports, or is moved by a magical effect, you can take a Reaction and expend one Battle Die to attempt to stop it. The creature must make a Strength saving throw against your Maneuver save DC. On a failed save, its movement or teleportation fails, it remains in its current space, and it has the Grappled condition if it is a valid target for your grapple.
+If the creature was already Grappled by you, add the Battle Die to the next damage roll you make against it before the end of your next turn.
+
+
+{{pageNumber,auto}}
+\page
+### Jaeger
+Jaegers are defined by their efficiency in battle, using
+their mastery over both steel and gunpowder to lay
+waste to all who oppose them. More than just soldiers,
+their skills represent the last wall of defense of a world
+fated to extinction; they are unstoppable and
+unbreakable. They strike fear in the heart of their foes,
+and bring hope to those they protect.
+
+#### Maneuver: Dodge Step
+Starting when you set out on this road at 3rd level, As a reaction to being attacked by a creature you can see, if your speed is not 0, you can expend a battle die to move 5 feet without provoking opportunity attacks and make a Dexterity saving throw with a DС equal to the attacker's attack roll.
+
+On a success, you evade completely and take no damage. On a failure, you halve the attack's damage against you.
+
+#### Maneuver: Weapon Parry
+
+Also at 3rd level, as a reaction to being hit by a creature you can see within range of a weapon you are holding, you can expend a battle die to make a special weapon attack against that creature. 
+
+This attack does no damage, but instead blocks an amount of damage from the incoming attack equal to the weapon's damage roll, unless your attack roll is a 1. 
+
+On a 20, any weapon damage dice are rolled twice, and if this total fully blocks the incoming attack, the target is can't attack until the start of its next turn.
+
+#### Counter Strike
+Starting at 6th level, when you use the *Maneuver: Weapon Parry*, your damage roll increases by an amount
+equal to half your level in this class. 
+
+If the amount of damage you block exceeds the damage their attack would deal, and your attack roll would hit their AC, the target takes damage equal to the remainder of the damage roll.
+
+#### Unencumbered Movement
+Also at 6th level, while you are wearing light armor or no armor, your speed increases by 10 feet, and the distance you can move when using the *Maneuver: Dodge Step* increases by 5 feet.
+
+#### Encircling Strike
+At 10th level, if you move to the opposite side of a creature from where you started your turn, or are
+directly on the opposite side of a creature from an allied creature of yours, you deal extra damage to the target equal to your Battle die the first time you hit it with a melee weapon attack.
+
+Additionally, you ignore difficult terrain, can pass through hostile creatures, and don't need to spend extra movement to climb or swim.
+
+\column
+
+#### Lethal Tempo
+Starting at 14th level, the first time you hit a creature on your turn, you gain a battle die. You gain 1 additional battle die any time you reduce a creature to 0 hit points.
+
+
+
+{{pageNumber,auto}}
+\page
+### Justicar
+The Order of Justicars were once the long arm of kings and courts, patrolling the outer-edges of kingdoms to enforce laws and mete out justice. Now, however, they are a relic of a bygone age, replaced by the governance of smaller watchtowers and keeps on the frontier.
+
+Only a handful of the original justicars remain, but are supplemented by ever-growing ranks of vigilantes who
+don their hoods and wear their badges to serve up their own brand of justice.
+
+You might be a true justicar, imbued with the authority of a king or governor, or a lawless vigilante
+wearing the veneer of one. To criminals and ner-do-wells, there’s no difference—justicars mean trouble.
+
+#### Voice of Authority
+Starting when you set out on this road at 3rd level, you bear the badge and hood of a justicar. Common folk
+defer to you in matters of law, especially in times of crisis. 
+
+As a result, you have advantage on any Charisma (Intimidation) or Charisma (Persuasion) check you make to convince someone that you have authority to investigate crimes, proclaim judgment, or deliver punishment.
+
+\column
+
+#### Maneuver: Mark of Judgment
+Also at 3rd level, you learn the following maneuver:
+
+You can expend a battle die as a bonus action to place a mark of judgment on a creature you can see within 30
+feet of you. This mark lasts for 1 minute and ends early if the target dies or you use this maneuver again to mark a different creature. Whenever you make an attack roll against the marked creature, you can roll a d4 and add it to the attack roll.
+
+Beginning at 11th level, you can add a d6 to the attack roll.
+
+
+
+#### Implacable Soul
+Beginning at 6th level, you are immune to being charmed or frightened (your choice).
+
+#### Interdict
+Beginning at 10th level, if a hostile creature you can see takes a legendary or lair action, you can intercede and
+prevent that action from happening (no reaction required). 
+
+Once you use this ability, you can’t use it again until you finish a short or long rest.
+
+#### Righteous Retribution
+Starting at 14th level, when a friendly creature you can see within 5 feet of you is hit by an attack, you can use your reaction to make a melee weapon attack against the attacking creature, if the attacker is within your weapon’s reach.
+{{imageMaskEdge7,--offset:10%,--rotation:0
+  ![](https://i.imgur.com/0apd3J1.png){height:50%}
+}}
+
+
+
+
+{{pageNumber,auto}}
+\page
+### Knight Errant
+Knights that have failed, forsaken, or betrayed their masters are known as Knights Errant. Though they no longer follow the dictates of a lord, these knights are usually reluctant to abandon their vows of ethics entirely. 
+
+Many wander the lands seeking out honorable quests and worthy adversaries, for disgraced knights are knights nonetheless. 
+
+#### Bonus Proficiency
+Starting when you set out on this path at 3rd level, you gain proficiency in one of the following skills of your choice: *History*, *Insight*, or *Persuasion*.
+
+Additionally, when you roll Initiative, you gain Temporary Hit Points equal to your Vagabond level.
+
+#### Maneuver: Knight’s Challenge
+Also 3rd level, you learn the Challenge maneuver. If you already know this maneuver, you learn a different maneuver of your choice for which you meet the prerequisites.
+
+When you use your Challenge maneuver, you can choose for it to last for 1 minute, instead of until the end of your next turn. When you do so, the effect ends early if you use this maneuver again, if you make an attack roll or cast a spell targeting any enemy other than the target, if an ally damages the target, or if you end your turn more than 30 feet away from the target.
+
+
+#### Questing Vow
+Starting at 6th level, you can appoint yourself to complete an honorable quest with an unbreakable vow. You can
+swear this vow over the course of a long rest. This vow lasts until you complete the associated quest or the GM
+declares that the quest is unfulfillable. When you choose your specific quest, it must be honorable, specific, and
+reasonably achievable. Furthermore, it should fit the archetype of the Cup, the Blade, or the Heart, and the
+GM must approve your quest. 
+
+If your quest doesn’t fit one of these archetypes, the GM chooses which benefit you receive while embarking on this quest.
+
+**The Blade.** You have embarked on a quest to slay a specific creature or best a specific rival combatant.
+Whenever you roll initiative to battle this creature or one or more of its allies, you gain an extra battle die, which lasts until it is expended or the combat ends.
+
+**The Cup.** You have sworn a vow to seek out an object, be it an artifact, a remedy, or a symbolic item. Whenever you engage in a course of activity that brings you closer to your chosen item, with the GM’s permission, you can gain Advantage.
+
+**The Heart.** You have dedicated yourself to winning someone’s favor. You have advantage on Charisma checks made to interact with this creature.
+
+
+\column
+
+
+#### Redirection
+By 10th level, you can protect the unwary in the midst of combat. When a friendly creature within 5 feet of you
+is targeted by an attack while you are within the attack’s range or reach, you can use your reaction to change the target of the attack to you instead.
+
+You have resistance to bludgeoning, piercing, and slashing damage dealt by this attack.
+
+#### Surge of Valor
+Starting at 14th level, you can use a bonus action to summon up a well of determination. Until the start of
+your next turn, whenever you make an attack roll, ability check, or saving throw, you can roll a battle die without
+expending it and add it to the roll.
+
+Additionally, whenever you take damage from a hostile creature before the start of your next turn, you can roll a
+battle die without expending it and add your Constitution modifier. Reduce the damage taken by that total.
+
+Once you use this feature, you can’t use it again until you finish a short or long rest.
+
+{{imageMaskCorner7,--offsetX:44%,--offsetY:-30%,--rotation:20
+  ![](https://i.imgur.com/B05OYhX.png){height:60%,left:300px,top:500px}
+}}
+
+
+{{pageNumber,auto}}
+\page
+### Mage Brand
+Searing runes and arcane geometry into one’s skin is an agonizing practice known as spellbranding. Though it was once used by tyrannical giants to imbue their conscripts with a mote of magical potential, spellbranding has long since been disparaged in polite society. However, a few that are willing and desperate enough to burn themselves with magical runes might still utilize that magic today.
+
+The so-called “Mage Brands” need none of a mage’s intellect or a priest’s faith; they need only tenacity and a
+tolerance for pain.
+
+#### Spellbranding
+Starting when you set out on this road at 3rd level, you have been taught the agonizing magic of spellbranding.
+
+**Cantrips.** You know two cantrips of your choice from the Sorcerer spell list.  Whenever you gain a Vagabond level, you can replace one of these cantrips with another cantrip of your choice from the Sorcerer spell list.
+
+When you reach Vagabond level 10, you learn another Sorcerer cantrip of your choice.
+
+**Spellbrand Spellcasting.** To cast one of your  1st level Sorcerer spells, you expend Battle Dice to create a spell
+slot for that spell, which is immediately expended to cast it. The spell slot’s level equals the number of Battle Dice expended to create it, up to a maximum of what’s shown in the Max Slot Level column of the Mage Brand
+Spellcasting table for your level.
+
+**Casting Spells of 1st-Level or Higher.** You prepare the list
+of spells 1st Level or higher that are available for you to cast with this feature. To start, choose three level 1 spells from the Sorcerer spell list.
+
+The number of spells on your list increases as you gain Vagabond levels, as shown in the Prepared Spells column of the Mage Brand Spellcasting table. Whenever that number increases, choose additional spells from the Sorcerer spell list until the number of spells on your list matches the number on the table. The chosen spells must be of a level no higher than what’s shown in the table’s Max Slot Level column for your level.
+
+**Early Ending.** When you roll Initiative, all of your ongoing spells end.
+
+**Changing Your Prepared Spells.** Whenever you gain a Vagabond level, you can replace one spell on your list with another Sorcerer spell of the same level.
+
+**Spellcasting Ability.** Charisma is your spellcasting ability for your Sorcerer spells.
+
+#### Arcane Synesthesia
+Also at 3rd level, due to your spellbrands, you can smell and taste the lingering evidence of magic. You can instantly *identify* a creature that has cast a spell within the last 24 hours. 
+
+If you touch an object, you can sense if it is a magic item, but not its properties.
+
+\column
+
+#### Arcane Strike
+Beginning at 6th level, when you take the Attack action on your turn, you can replace one of the attacks with a casting of one of your Sorcerer cantrips that has a casting time of an action.
+
+#### Desperate Ward
+By 10th level, you have Advantage on saving throws against spells and other magical effects while you are Bloodied.
+
+
+#### Imprinted Spellscar
+Beginning at 14th level, when a spell is cast that targets you, or you are in the area of a spell’s effect, you can temporarily learn that spell if it is of 5th lever or lower, marking it on your skin as a faint spellbrand. You can’t use this ability to learn a spell that had no effect on you, even if it forced you to make a saving throw against it.
+
+Once before you finish a long rest, you can cast this spell as a branded spell by expending a number of battle
+dice equal to the spell’s level.
+
+
+You can have a number of spell imprints up to your Charisma modifier at one time.
+{{classTable,frame
+##### Spellbranding Spellcasting
+| Vagabond  | Spells  |--- Spells Slots per Spell Level ---||||
+| Level ^| Known  ^|   1st   |   2nd   |   3rd   |   4th   |
+|:------:|:--------:|:-------:|:-------:|:-------:|:-------:|
+|  3rd   |    3     |    2    |    —    |    —    |    —    |
+|  4th   |    4     |    3    |    —    |    —    |    —    |
+|  5th   |    5     |    3    |    —    |    —    |    —    |
+|  6th   |    5     |    3    |    —    |    —    |    —    |
+|  7th   |    6     |    4    |    2    |    —    |    —    |
+|  8th   |    6     |    4    |    2    |    —    |    —    |
+|  9th   |    7     |    4    |    2    |    —    |    —    |
+|  10th  |    7     |    4    |    3    |    —    |    —    |
+|  11th  |    8     |    4    |    3    |    —    |    —    |
+|  12th  |    8     |    4    |    3    |    —    |    —    |
+|  13th  |    9     |    4    |    3    |    2    |    —    | 
+|  14th  |    9     |    4    |    3    |    2    |    —    | 
+|  15th  |    10    |    4    |    3    |    2    |    —    | 
+|  16th  |    10    |    4    |    3    |    3    |    —    | 
+|  17th  |    11    |    4    |    3    |    3    |    —    |
+|  18th  |    11    |    4    |    3    |    3    |    —    |
+|  19th  |    12    |    4    |    3    |    3    |    1    | 
+|  20th  |    12    |    4    |    3    |    3    |    1    | 
+}}
+
+{{pageNumber,auto}}
+\page
+###  Marauder
+A Marauder road embodies raw slaughter. Vengeance, wrath, and death, all rolled into one swing that never ceases, endlessly scything through monsters, leaving a bloody wake of destruction. Each marauder is a symbol of the Chapter's determination and ferocity, striking fear into the hearts of their enemies
+with every swing oftheir weapon. 
+
+They are unstoppable warriors, driven by a thirst for vengeance and the need to protect humanity from the monstrous hordes.
+
+#### Maneuver: Great Cleave
+
+Starting when you set out on this road at 3rd level, when you hit a creature with an attack using a weapon with the two-handed property, you can expend all of your battle dice. 
+
+When you do so, the attack deals extra damage equal to 1 battle die to the target, and you cleave a number of adjacent targets within reach equal to the number of dice expended.
+
+Make a melee weapon attack against each creature targeted. 
+
+You regain 1 battle die for each creature this reduces to 0 hit points, up to your maximum number of battle die.
+
+Additionally, your total number of battle dice increases by 1.
+
+#### Marauder Armor
+Also at 3rd level, so long as you aren’t wearing armor, your Armor Class is equal to 10 + your Dexterity modifier + your Constitution modifier. You can use a shield with this feature.
+
+
+#### Leap Attack
+At 7th level, once per turn, if you move more than 15 feet toward a creature or fall 10 feet or more
+immediately before making a weapon attack against them, you deal extra damage on a hit equal to your
+Battle die.
+
+When falling, you can make this attack prior to hitting the ground if there is a target creature in range where you would fall. 
+
+On a hit, any falling damage you take is reduced by half, and you do not fall prone from the fall.
+
+#### Titanic Strength
+Starting at 10th level, your strength is so great that you can wield a two-handed weapon in one hand, and can use two-weapon fighting even when the weapons you are wielding aren't light including using two-handed weapons.
+
+If you use two hands to wield a two-handed weapon, your attacks with it deal extra damage equal to half
+your Strength modifier (rounded up) on a hit.
+
+\column
+
+#### Fell the Leviathan
+Starting at 14th level, whenever you use a Maneuver, the target must succeed on a Strength saving throw against your Maneuver save DC or be knocked prone. 
+
+Creatures that are Large or larger have disadvantage on this saving throw.
+{{pageNumber,auto}}
+\page
+### Mindblade
+Sometimes severing the bond of trust between enemies is more effective than severing their heads from their bodies. 
+
+Mindblades, fortunately, are quite capable of both as they focus their psionic talents towards instigating foes against each other. Such vagabonds often find themselves outcast communities that become paranoid after witnessing the blatant mental manipulations they are capable of.
+
+#### Mind’s Edge
+Starting when you set out on this road at 3rd level, you can change any damage dealt by your maneuvers to be psychic instead of their normal type. Creatures have disadvantage on Constitution saving throws to maintain their concentration against this damage.
+
+As a bonus action, you can create a mental link with a creature you can see within 60 feet. This lasts until you create another mental link or the creature moves beyond 60 feet from you. You and the linked creature can speak telepathically to each other in a language you share.
+
+#### Psionic Strike
+Also at 3rd level, you learn the Viper Strike maneuver. If you already know this maneuver, you learn a different maneuver of your choice. The maneuver doesn’t count against your number of maneuvers known.
+
+When you use the Viper Strike maneuver and hit with it, you can choose to create a mental link with the target to prevent it from using reactions for up to 1 minute, instead of until the start of its next turn. 
+
+This effect ends early if the mental link ends, as per your Mind’s Edge feature. For the duration of this maneuver, you can use your reaction to force the linked creature to make an opportunity attack when a creature leaves its reach.
+
+Beginning at 11th level, your Viper Strike maneuver also adds the battle die to its damage.
+
+#### Third Eye
+At 6th level, you open your third eye and gain blindsight in a 10-foot radius. If you have a mental link with a creature within your blindsight (per your Mind’s Edge feature), you can also read their surface thoughts.
+
+#### Empathic Projection
+At 10th level, you are resistant to psychic damage. When you start your turn charmed or frightened, you can expend a battle die to transfer one effect on yourself subjecting you to those conditions to a creature you have a mental link with.
+
+The effect remains transferred to the linked creature until the link or the effect ends. 
+
+If the linked creature is the source of the effect, you become what it is charmed or frightened by instead of itself.
+
+
+\column
+
+#### Ascended Consciousness
+At 14th level, you can maintain up to two mental links at the same time, instead of one. When you create a mental link beyond this limit, you choose which of the current links to end.
+
+Additionally, your Psionic Strike no longer uses your reaction to force a linked creature to make an opportunity attack, however linked creatures are still limited to one opportunity attack between their turns.
+
+
+
+
+{{pageNumber,auto}}
+\page
+### Plague Doctor
+As maladies sweep the countryside, plague doctors follow close behind. Wielding brutal medical instruments and techniques to balance the humors, plague doctors inspire hope and fear in equal measure. 
+
+
+#### Physician
+
+Your medical studies have taught you to bloodlet patients and balance their humors, you have proficiency and
+Expertise in the *Medicine* skill.
+
+Additionally, you can take the Search action to determine if a creature you can see within 30 feet of yourself has the Poisoned condition, is Bloodied, or is afflicted by a magical contagion. You sense the source of the Poisoned condition, the nature of its wounds, and the magical contagion in each case.
+
+#### Maneuver: Remedy
+Also 3rd level, as a Bonus Action on your turn, you can expend one Battle Die to choose one ally within 5 feet of yourself.
+That creature regains Hit Points equal to two rolls of your Battle Die plus your Constitution modifier. 
+
+Additionally, you can end one of the following conditions on the ally: Blinded, Deafened, Paralyzed, or Poisoned.
+
+
+#### Imbalance Humors
+Starting at 6th level, once on each of your turns when you hit a creature with an attack using a weapon or Unarmed Strike, you can imbalance its humors using one of the following options.
+
+Once you use this feature, you can’t use it again until you finish a Short or Long Rest unless you expend one Battle
+Die (no action required) to restore your use of it.
+
+**Choleric.** Until the start of your next turn, the target has Advantage on attack rolls and attack rolls against it also have Advantage.
+
+**Melancholic.** The target has Disadvantage on the next ability check or attack roll it makes before the start of your next turn.
+
+**Phlegmatic.** The target can’t make Opportunity attacks until the start of its turn.
+
+**Sanguine.** The next time the target takes damage before the start of your next turn, it takes extra Necrotic damage equal to one roll of your Battle Die without expending it.
+
+#### Analgesic Remedy
+
+By 10th level, when you use your Remedy maneuver, you can give yourself or the ally Temporary Hit Points equal to your Vagabond level.
+
+\column
+
+#### Bloodletting
+Beginning at 14th level, you learn the Wounding Strike maneuver. If you already know it, you learn a different maneuver of your choice.
+
+You can use your Wounding Strike maneuver by expending 1–3 Battle Dice. 
+
+You add only one Battle Die to the attack’s damage roll, but the target gains a number of bleeding wounds equal to the number of Battle Dice expended.
+
+{{pageNumber,auto}}
+\page
+### Pugilist
+Knuckles crack and a meaty fist rears back to crush bone. Pugilists are hand-to-hand brawlers with a tolerance for
+pain and a willingness to inflict it at a moment’s notice. 
+
+Unlike martial artists that emphasize speed and precision, Pugilists leverage brute force in their blows. Why strike
+several times when once will do?
+
+#### Hand-to-Hand
+Starting when you set out on this road at 3rd level, your body is a deadly weapon, more dangerous and versatile
+than any sword or arrow. You gain the following benefits:
+- Your unarmed strikes deal 1d6 bludgeoning damage. This damage increases to 1d8 when you reach 5th level, 1d10 when you reach 11th level, and 1d12 when you reach 17th level.
+- The first creature you hit on each of your turns with an unarmed strike takes extra damage equal to a roll of your unarmed strike damage die.
+- Whenever you use Battle Tactics to add a battle die to the damage roll of an unarmed strike and you roll a 1 or 2 on the battle die, you don’t expend the die.
+
+Starting at 6th level, your unarmed strikes are considered magical for the purpose of overcoming resistance and
+immunity to nonmagical attacks and damage.
+
+#### Thick-Skulled
+Also at 3rd level, when you take damage, you can take a Reaction and expend one Battle Die to reduce the damage taken by the number rolled on the Battle Die.
+
+#### Intimidating Blow
+Starting at 6th level, you learn the Horrific Strike maneuver. 
+
+If you already know it, you learn a different maneuver of your choice. 
+
+When you use Horrific Strike, you can perform a frightening display in a 10-foot Emanation originating from you. 
+
+Each creature you choose in the Emanation must succeed on a Wisdom saving throw against your Maneuver save DC or have the Frightened condition until the start of your next turn.
+
+\column
+
+#### Desperate Endurance
+Beginning at 10th level, when you fail a saving throw while you are Bloodied, you can choose to succeed instead.
+
+Once you use this feature, you can’t use it again until you finish a Long Rest.
+
+
+#### Maneuver: Knockout
+Beginning at 14th level, when you hit a creature with an Unarmed Strike, you can expend three Battle Dice as a Bonus Action to attempt to knock the target out. Add the Battle Dice to the attack’s
+damage roll. 
+
+If the target has fewer Hit Points than three times your Vagabond level after taking damage, it has the Unconscious condition until it regains any Hit Points or finishes a Long Rest.
+{{pageNumber,auto}}
+\page
+### Rōnin
+You were once an honorable blademaster without peer. But those days are long gone. Disgraced and despised, people know you only as a dangerous swordmaster— someone to be feared. 
+
+You may search for purpose, a way to redeem the black mark on your honor, or simply to survive another day in your endless journey. Perhaps your broken vows still guide you, or perhaps you have abandoned all semblance of honor; only your conduct and your blade define you.
+
+#### Infamy
+Starting when you set out on this road at 3rd level, your violent reputation precedes you and gives you the following benefits. Choose the *Deception* or *Intimidation* skill. You gain proficiency and Expertise in the chosen skill. 
+
+#### Maneuver: Grudge
+Also at 3rd level, you learn the following maneuver:
+
+As a bonus action, you can expend a battle die to mark a creature that has dealt damage to you or a friendly creature with a grudge. This grudge lasts for 1 minute, or until you use this maneuver again.
+
+At the start of each of your turns while the creature is marked, you gain a grudge battle die, which is a d6. You can only have one of these battle dice at a time. You can only use your grudge battle die to either fuel maneuvers targeting the marked creature.
+
+#### Lone Wolf
+By 6th level, you’re used to being outnumbered. When you roll initiative and there are more hostile creatures than friendly creatures in the initiative order, you have advantage on the roll.
+
+Additionally, other creatures don’t gain advantage on attack rolls against you as a result of the Ambusher, Blood Frenzy, Grappler, or Pack Tactics traits, nor do they gain advantage as a result of the Help action. Furthermore, circumstances such as enemies flanking or surrounding you don’t grant other creatures advantage on attack rolls against you.
+
+#### Killing Stroke
+Starting at 10th level, when a creature you can see within 5 feet of yourself makes an attack against you, you can take a Reaction to make one attack with a Melee weapon against the attacker.
+
+You can draw a weapon as a part of this Reaction. Resolve your attack before the triggering attack. On a hit, the triggering attack automatically misses you.
+
+Once you use this feature, you can’t use it again until you finish a Short or Long Rest unless you expend two
+Battle Dice (no action required) to restore your use of it.
+
+#### Swordmaster
+By 14th level, your skill with a blade has no equal. Once per turn when you miss with an attack roll, you can repeat that attack against the same target.
+
+{{pageNumber,auto}}
+\page
+
+### Sanguine Chapter
+In order to strengthen themselves, vagabond of the
+Sanguine Chapter rely on the essential essence that is
+blood. They achieve resilient states of unnatural life and
+feed their powers with the fruits of their violence.
+
+Although some may consider them to be monsters in
+and of themselves, when faced with the horrors that
+lurk in the dark recesses of the world, sentiment
+quickly changes. 
+
+A vagabond's abilities can hold the line
+and preserve the tenuous flame of life when it should
+have long since been extinguished, keeping themselves
+and their allies alive while draining the strength of their
+adversaries in an endless crimson parade of blood.
+
+#### Maneuver: Blood Drain 
+Starting when you set out on this road at 3rd level, you gain the ability to draw power from the flowing blood of your foes. You learn the following maneuver: 
+
+As a bonus action, you can expend all of your Battle dice to drain the blood of a creature within 5 feet of you magically consuming its vitality as your own. 
+
+The target must make a Constitution saving throw against your Maneuver save DC. 
+
+On a failed save, it takes necrotic damage equal to the number rolled on each of the expended Battle dice. 
+
+On successful save, it takes half as much damage.
+
+Success or failure, you regain hit points equal to half the necrotic damage dealt.
+
+If the target has half its maximum hit points or fewer after taking the damage from this
+Maneuver or if you use this Maneuver against a creaturesuffering from an effect that makes it bleed, you regain 1 Battle die. 
+
+#### Crimson Rage
+Also at 3rd level, when you become bloodied (have half your maximum hit points or fewer), you regain 1 Battle die. You cannot benefit from this feature again for 1 minute.
+
+#### Blood Hex
+Starting at 6th level, when you use your Maneuver: Blood Drain  and the target fails its saving throw, you can invoke a blood hex, selecting one of the following effects:
+- **Blood Puppet.** The target must use its reaction to move up to 5 feet in a direction of your choice.
+
+- **Bound Blood.** The target's speed is reduced by half until the start of your next turn.
+
+- **Burning Blood.** The target takes fire damage equal to half the necrotic damage dealt.
+
+\column
+
+#### Empowered Blood Hex
+Starting at 10th level, you can invoke more powerful blood hexes. You gain the following options, each of which are improved versions of the hexes granted by Blood Hex, but cost 3 Battle die to invoke.
+
+- **Blood Puppet (Empowered).** The target must use its reaction to move up to 5 feet and make a single weapon attack against a creature of your choice.
+
+- **Bound Blood (Empowered).** The target is restrained until the start of your next turn.
+
+- **Burning Blood (Empowered).** At the start of each of its turns, the target takes fire damage equal to the necrotic damage dealt. The target can repeat the saving throw it made against the Maneuver: Blood Drain at the end of each of its turns, ending the effect on a success.
+
+#### Blood Frenzy
+Starting at 14th level, while bloodied  you gain the following the benefits:
+- Your speed is increased by 20 feet.
+- When you take the attack action, the number of attacks you make increases to three.
+- As a reaction to being reduced to 0 hit points but not killed outright, you can expend 3 Battle Die to drop to 1 hit point instead.
+
+
+
+{{pageNumber,auto}}
+\page
+### Troubadour
+
+A lyre, a flute, or perhaps a set of bagpipes at their side, a Troubadour sets out on the open road, playing music
+wherever they go. 
+
+While Troubadours often travel in musical troupes, they might also ply their trade alone, wandering between taverns and street corners in search of an audience, coin, and perhaps fame.
+
+#### Folk Musician
+Starting when you set out on this road at 3rd level, you gain proficiency and Expertise in the Performance skill and you gain proficiency with two Musical Instruments of your choice. 
+
+Additionally, you know enough smatterings of languages that you can communicate simple ideas to any creature that understands at least one language. Doing so takes twice as long as communicating normally.
+
+#### Maneuver: Inspiring Tune
+Also at 3rd level, you learn the following maneuver:
+
+As a bonus action, you can inspire an ally. Choose a friendly creature other than yourself within 60 feet of you that can see or hear you and give it one of your unexpended battle dice. The creature can expend the battle die and add it to an attack roll, ability check, or saving throw it makes before the start of your next turn.
+
+The creature can wait until after it rolls the d20 before deciding to use the battle die, but must decide before the GM says whether the roll succeeds or fails.
+
+#### Maneuver: Fast Friends
+Beginning at 6th level, your learn the following maneuver:
+As an action, you can attempt to befriend a creature you can see within 30 feet that can hear or see you. Expend one battle die, or three battle dice if you or your companions are fighting it. 
+
+The creature must succeed on a Wisdom saving throw or be charmed by you for 1 minute or until it takes damage. While it is charmed by you, it is friendly to you and other creatures you designate.
+
+#### Scathing Retort
+Starting at 10th level, when a creature you can see within 60 feet of yourself misses you with an attack roll or forces you to make a saving throw and you succeed, you can take a Reaction to insult the creature. 
+
+The target takes Psychic damage equal to 1d10 plus half your Vagabond level (round down).
+
+#### Marvelous Troupe
+At 14th level, when you use your Inspiring Tune maneuver, you can target a number of allies up to your Charisma modifier.
+
+Each chosen ally gains a Battle Die.
+{{pageNumber,auto}}
+\page
+
+### Way of the Twelfth House
+Vagabonds of the Twelfth House are masters of a deadly, beautiful art. Often found guarding the final thresholds of sacred places or wandering through desolate gardens, these warriors utilize "Blood Roses" and toxic pollens to lay waste to their foes. To a follower of the Twelfth House, battle is not merely a struggle for survival—it is a performance of lethal elegance.
+
+
+#### Poison Garden
+Starting when you set out on this road at 3rd level, you gain proficiency in the Nature and Survival skills. Additionally, you are immune to the Poisoned condition and have resistance to Poison damage.
+
+#### Maneuver: Royal Demon Rose
+Also at 3rd level, you learn to scatter petals that dull the senses of your enemies. You learn the following maneuver:
+
+When you take the Attack action, you can expend one Battle Die to toss a crimson rose at a creature within 30 feet. The target must make a Constitution saving throw against your Maneuver save DC. On a failure, the target takes Poison damage equal to your Battle Die and has Disadvantage on attack rolls and ability checks until the start of your next turn as its senses are clouded by a sweet fragrance.
+
+#### Piranha Rose
+By 6th level, you can manifest black roses that devour everything they touch. Once on each of your turns, when you hit a creature with a weapon attack, you can deal an extra 1d8 Piercing damage. 
+
+Additionally, you can use your Reaction when a creature hits you with a melee attack to retaliate with a swarm of Piranha Roses. The attacker must make a Dexterity saving throw against your Maneuver save DC. On a failure, the attacker takes Piercing damage equal to your Vagabond level, and if they are wearing nonmagical armor, it takes a permanent and cumulative -1 penalty to AC. 
+
+The maximum reduction to a single creature's AC through this feature cannot exceed your Proficiency Bonus.
+
+
+#### Fragrant Blood
+At 10th level, your very blood has become toxic to others. While you are Bloodied, any creature that starts its turn within 5 feet of you or hits you with a melee attack must succeed on a Constitution saving throw or become Poisoned until the end of its next turn. 
+
+Furthermore, you can use your Bonus Action to exhale a cloud of pollen, granting you the benefits of the *Invisibility* spell until the start of your next turn. Once you use this feature, you can’t use it again until you finish a Short or Long Rest. 
+
+You can also restore your use of it by expending one Battle Die (no action required).
+
+
+\column
+
+#### Bloody Rose
+Starting at 14th level, you master your ultimate technique: the white rose that drains the heart's blood. As an action, you can expend three Battle Dice to throw a single white rose at a creature you can see within 60 feet. Make a ranged weapon attack. 
+
+On a hit, the rose pins itself to the target’s chest and turns red as it absorbs their life, the target takes Necrotic damage equal to four rolls of your Battle Die. The target's hit point maximum is reduced by an amount equal to the damage taken and you regain hit points equal to the damage dealt.
+
+If this damage reduces the creature to 0 hit points, you regain all expended Battle Dice.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

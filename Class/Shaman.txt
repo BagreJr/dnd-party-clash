@@ -1,0 +1,1795 @@
+```metadata
+title: Shaman
+description: ''
+tags: []
+systems: []
+renderer: V3
+theme: 5ePHB
+snippets:
+  - name: brew_snippets
+    subsnippets:
+      - name: example snippet
+        gen: >-
+
+          The text between `\snippet title` lines will become a snippet of name
+          `title` as this example provides.
+
+
+          This snippet is accessible in the brew tab, and will be inherited if
+          the brew is used as a theme.
+
+```
+
+```css
+.page{
+	width  : 210mm;
+	height : 296.3mm;
+}
+
+css
+
+.page .columnWrapper {
+	height: 100%
+}
+
+.page .toc.wide {
+	columns: 1;
+	height: 100%;
+}
+
+.page .toc > ul > li {
+	font-weight:100;
+	margin-bottom:-2.1px;
+
+}
+
+.page .toc ul ul {
+	margin-left: 0;
+	font-weight: 50;
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
+```
+
+{{frontCover}}
+
+{{logo ![](/assets/naturalCritLogoRed.svg)}}
+:::::::::::::::::::::::
+# Shaman
+
+___
+
+
+![background image](https://www.gmbinder.com/images/uVJOFhz.jpg){position:absolute,bottom:0,left:-370px,height:100%}
+\page
+{{toc,wide
+
+- ### [{{ Shaman}}{{ 3}}](#p3)
+  -  [{{ Ancient Power}}{{ 3}}](#p3)
+  -  [{{ Spiritual Balance}}{{ 3}}](#p3)
+  -  [{{ Creating Your Shaman}}{{ 3}}](#p3)
+- ### [{{ Class Features}}{{ 4}}](#p4)
+  -  [{{ Sacred Focus}}{{ 5}}](#p5)
+  -  [{{ Totem Spirits}}{{ 5}}](#p5)
+  -  [{{ Conduit Magic}}{{ 6}}](#p6)
+  -  [{{ Spirituality}}{{ 6}}](#p6)
+  -  [{{ Ability Score Improvement}}{{ 6}}](#p6)
+  -  [{{ Totemic Versatility}}{{ 6}}](#p6)
+  -  [{{ Elder Spirit}}{{ 6}}](#p6)
+  -  [{{ Spiritual Ascension}}{{ 6}}](#p6)
+- ### [{{ Elder Spirits}}{{ 7}}](#p7)
+- ### [{{ Spirituality}}{{ 8}}](#p8)
+  -  [{{ Astrologer}}{{ 8}}](#p8)
+  -  [{{ Blood Priest}}{{ 9}}](#p9)
+  -  [{{ Curse Binder}}{{ 10}}](#p10)
+  -  [{{ Demoniac}}{{ 11}}](#p11)
+  -  [{{ Elementalist}}{{ 12}}](#p12)
+  -  [{{ Far Seer}}{{ 13}}](#p13)
+  -  [{{ Ethereal Gateway}}{{ 14}}](#p14)
+  -  [{{ Idolater}}{{ 15}}](#p15)
+  -  [{{ Spirit Guide}}{{ 16}}](#p16)
+  -  [{{ Spirit Warrior}}{{ 17}}](#p17)
+  -  [{{ Windcaller}}{{ 18}}](#p18)
+  -  [{{ Wild Heart}}{{ 19}}](#p19)
+  -  [{{ Witch Doctor}}{{ 21}}](#p21)
+  -  [{{ Wyrmbound}}{{ 22}}](#p22)
+- ### [{{ Totem Spirits}}{{ 24}}](#p24)
+}}
+
+
+
+\page
+
+## Shaman
+The half-orc silently moved
+through the forest, her tattoos
+shimmering in the moonlight.
+Gripping the ancestral war club
+of her tribe, she called upon the
+Spirits of previous champions to
+empower her strikes. A cold fell
+over her foes' camp as the half-orc
+walked into its midst. Those who
+had dared to steal lumber from
+from the ancestral forest of her
+people would pay in blood.
+
+A hunched, elder halfling clung
+to his walking stick as the massive
+ogre charged toward him. Just before
+the foe fell upon him, the elder embraced
+the Spirit of the Great Beast and shifted into
+a supernaturally massive bear. The two collided
+with great force, but only one would survive. The eyes
+of the great bear flashed with a momentary pale light
+and as suddenly as it had appeared, an elderly halfling
+stood in its place, his eyes glowing with pale light.
+
+The thin elf stood on a cliff overlooking the great battle
+below. The great dragon had all but decimated the battalion of guards that had come to defend their home. A single man stood and thrust his spear toward the terrifying wyrm, but before the dragon could deflect the blow, the elf unleashed a powerful Spirit from within one of her Totems. In an instant, the Spirit had enveloped the dragon, temporarily sapping its strength. In its feeble state, the spear pierced the dragon's heart, ending its campaign of terror. The elf made her way back to her solitary cave, content knowing that the town she guarded in secret would be safe for another season.
+
+The three characters above are examples of the spiritual conduits known as Shamans. Using ancient knowledge they are able to bind and channel the power of mystical Spirits.
+
+### Ancient Power
+Before celestials took notice of mortals and bestowed power on Clerics and Paladins, Shamans served peoples as guides and protectors. Using ancient rituals, Shamans would bind Spirits to Totems, small objects of spiritual significance, and channel that power for good of their people. This ancient art was passed from elder to elder in a continuous chain, down to the Shamans of today. Those who bind theses Spirits are part of a tradition stretching back to the dawn of time.
+
+### Spiritual Balance
+Shamans spend their lives maintaining the delicate balance between the physical mortal world, and the ethereal world of Spirits. They are trained to recognize the Spirits that indwell every living thing and use this spiritual sight to protect those they love from sinister Spirits who seek to destroy all life.
+
+Sometimes, Shamans will seek out Spirits of love and life that willingly bind themselves to Totems so that they may aid the Shaman in their spiritual warfare. Other malevolent and vile Spirits are bound to Totems against their will and used by Shamans to help defeat other Spirits of destruction.
+
+### Creating Your Shaman
+When creating your Shaman, consider how you first learned to wield the power of Spirits. Were you trained from birth to become the next elder of your people, destined to inherit the power of your ancestors? Were you raised by a vile hag, and taught to manipulate Spirits of darkness and death to curse and hex your foes? Or did you study under an ancient hermit, learning to draw upon the spiritual power within in all living things in order to heal the spiritually and physically broken?
+
+No matter the origin, you should decide how your Shaman views the spiritual world. Have they dedicated themselves to maintaining a balance between the physical and ethereal? Or, do they view Spirits as tools to be bound and used, sources of power that Shamans can wield however they choose?
+
+
+#### Quick Build
+You can make a Shaman quickly by using these suggestions. First, make Wisdom your highest ability score followed by Constitution. Second, choose the Hermit background. Last, choose the Body Sacred Focus and take Totem of the Bear and Totem of the Mountain as your Bound Totems.
+
+{{note
+##### Multiclassing and the Shaman
+If your group uses the rule on multiclassing in the Player's Handbook, here's what you need to know if you choose the Shaman as one of your classes.
+
+**Ability Score Minimum.** As a multiclass character, you must have a minimum Wisdom score of 13 to take your first level as a Shaman, or to take a level in another class if you are already a Shaman.
+
+**Proficiencies Gained.** If Shaman isn't your initial class, you gain proficiency in simple weapons and light armor when you take your first Shaman level.
+
+**Spellcasting.** If you have a feature from another class that allows you to learn and cast spells, you can use your Conduit Magic spell slots to cast the spells you gained through that feature, and you can use those spell slots to cast your Shaman spells.
+}}
+
+
+
+{{pageNumber,auto}}
+\page
+{{classTable,frame,decoration,wide
+##### The Haberdasher
+| Level | PB | Features                    | Bound Spirit|Cantrips Know|Spell Slots|Slot Level|
+|:-----:|:--:|:----------------------------|:-----------:|:-----------:|:---------:|:--------:|
+|  1st  |  +2| Sacred Focus, Totem Spirits | 2|— |—|—
+|  2nd  |  +2| Conduit Magic, Spirituality |2|2|2|1st
+|  3rd  |  +2| —                           |3|2|2|2nd
+|  4th  |  +2| Ability Score Improvement   |3|3|2|2nd
+|  5th  |  +3| Totemic Versatility         |4|3|2|3rd
+|  6th  |  +3| 	Spirituality Feature       |4|3|2|3rd
+|  7th  |  +3| —                           |5|3|2|4th
+|  8th  |  +3| Ability Score Improvement   |5|3|2|4th
+|  9th  |  +4| —                           |6|3|2|5th
+| 10th  |  +4| 	Spirituality Feature       |6|4|2|5th
+| 11th  |  +4| Elder Spirit (6th-level)    |6|4|3|5th
+| 12th  |  +4| Ability Score Improvement   |7|4|3|5th
+| 13th  |  +5| Elder Spirit (7th-level)    |7|4|3|5th
+| 14th  |  +5| 	Spirituality Feature       |7|4|3|5th
+| 15th  |  +5| Elder Spirit (8th-level)    |8|4|3|5th
+| 16th  |  +5| Ability Score Improvement   |8|4|3|5th
+| 17th  |  +6| Elder Spirit (9th-level)    |8|4|4|5th
+| 18th  |  +6| —                           |9|4|4|5th
+| 19th  |  +6| Ability Score Improvement   |9|4|4|5th
+| 20th  |  +6| Spiritual Ascension         |9|4|4|5th
+}}
+
+
+
+
+## Class Features
+
+As a shaman, you gain the following class features.
+
+#### Hit Points
+**Hit Dice:**                    :: 1d8 per Shaman level
+**Hit Points at 1st Level:**     :: 8 + your Constitution modifier.
+**Hit Points at Higher Levels:** :: 1d8 (or 5) + your Constitution modifier per Shaman level after 1st
+
+#### Proficiencies
+**Armor:**   :: Light armor, shields
+**Weapons:** :: Simple weapons, blow guns, nets.
+**Tools:**   :: None
+
+**Saving Throws:** :: Wisdom, Charisma
+**Skills:**        :: Choose two from Animal Handling, Arcana, Insight, Medicine, Nature, Performance, or Religion
+
+#### Equipment
+As a Shaman, you start with the following equipment, in addition to the equipment granted by your backround:
+
+- *(a)* a quarterstaff or *(b)* any simple weapon
+- *(a)* a shortbow and 20 arrows or *(b)* 5 javelins
+- *(a)* a priest's pack or *(b)* an explorer's pack
+- Leather armor and one object used as a Totem.
+
+
+{{imageMaskCorner9,--offsetX:55%,--offsetY:-15%,--rotation:0
+  ![](https://www.gmbinder.com/images/9EOYqj9.jpeg){height:100%,left:-150px,top:150px}
+}}
+
+
+
+{{pageNumber,auto}}
+\page
+### Sacred Focus
+In order to channel the supernatural power of spirits without being consumed, Shamans must draw this wondrous power through the strongest aspect of themselves. At 1st level, you choose a Sacred Focus from the options listed below.
+
+Once it is chosen, your Sacred Focus cannot be changed.
+
+#### Body
+You channel spiritual power through your body, bending Spirits to your will with physical might. When you choose this Sacred Focus your hit point maximum increases by 1, and it increases by 1 again each time you gain a level.
+
+#### Heart
+You channel spiritual power into your heart and overwhelm Spirits with powerful emotions. You gain proficiency in both Intimidation and Persuasion, and you can use your Wisdom, in place of Charisma, for any ability checks with those skills.
+
+#### Mind
+You channel spiritual power through your mind, manipulating the Spirits with your keen wit. Whenever you make an ability check or a saving throw that uses your Intelligence score, you can choose to use your Wisdom score instead.
+
+#### Soul
+You channel spiritual power through your soul, your serenity soothes Spirits and wards you from harm. While not wearing armor or wielding a shield, your Armor Class is equal to 10 + your Dexterity modifier + your Wisdom modifier.
+
+\column
+
+### Totem Spirits
+At 1st level, you learn to bind primal Totem Spirits to sacred Totems so that you may safely channel their mystical abilities. Any Tiny object can of your choice be a Totem, but most often they are objects reminiscent of the Spirit bound within.
+
+Your Totems and their abilities use the rules detailed here:
+
+#### Bound Spirits
+At 1st level, you bind two Totem Spirits of your choice from the list at the end of the class. At certain Shaman levels you bind additional Totem Spirits, as shown in the Bound Spirits column of the Shaman table. If a Spirit has prerequisites, you can bind it at the same time you meet its prerequisites.
+
+When you gain a Shaman level, you can replace one Totem Spirit you currently have bound with another of your choice.
+
+#### Saving Throws
+If a Totem requires a target to make a saving throw, the DC equals 8 + your proficiency bonus + your Wisdom modifier.
+
+#### Totemic Assault
+As an action, you can command the Spirits bound within one of your Totems to swarm one creature you can see within 60 feet of you. That creature must succeed on a Charisma saving throw or take 1d8 necrotic damage.
+
+The Spirits swarm around this creature until it is slain, it moves more than 60 feet away, or you use Totemic Assault on another target. While they swarm, you can use a bonus action on subsequent turns to force it to make this Charisma saving throw again. You can only use Totemic Assault once per turn.
+
+The damage dealt by your Totemic Assault increases at 5th level (2d8), at 11th level (3d8), and finally at 17th level (4d8).
+
+
+
+{{pageNumber,auto}}
+\page
+### Conduit Magic
+At 2nd level, you learn to call on the spiritual energies present in all things to cast spells. You gain the following features:
+
+#### Cantrips
+At 2nd level, you learn two Cantrips of your choice from the Shaman spell list. You learn an additional Shaman Cantrip of your choice when you reach 4th level, and again at 10th level.
+
+#### Spell Slots
+The Shaman table above shows the number of spell slots you have to cast your Shaman spells of 1st through 5th-level. The Slot Level column of the Shaman table also shows the level of all of your spell slots. To cast a Shaman spell of 1st-level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.
+
+For example, at 5th level, you have two 3rd-level spell slots. To cast the 1st-level spell cure wounds, you must expend one of your 3rd-level spell slots, and cast cure wounds at 3rd-level.
+
+#### Preparing & Casting Spells
+You prepare the list of spells that are available for you to cast, choosing from the Shaman spell list. When you do, choose a number of Shaman spells equal to your Shaman level + your Wisdom modifier (a minimum of 1). Spells you prepare must be of a level equal to your Slot Level or lower.
+
+For example, as a 5th level Shaman with a Wisdom of 18, you prepare nine spells of your choice of 3rd-level or lower from the Shaman spell list. Casting a spell doesn't remove it from your list of prepared spells. During a long rest, you can change your list of prepared spells by meditating: 1 minute per spell level for each new spell you are preparing.
+
+#### Spellcasting Ability
+As you draw your magic from your understanding of Spirits, Wisdom is your spellcasting ability for your Shaman spells. You use Wisdom if a spell refers to your spellcasting ability, setting a saving throw DC, or making a spell attack roll:
+
+**Spell save DC** = 8 + your proficiency bonus + your Wisdom modifier
+
+**Spell attack modifier** = your proficiency bonus + your Wisdom modifier
+
+#### Ritual Casting
+You can cast the Ritual version of any Shaman spell that you have prepared so long as the spell has the Ritual tag.
+
+#### Spellcasting Focus
+You can use any Totem to which you have bound a Spirit as the spellcasting focus for your Shaman spells.
+
+
+\column
+
+### Spirituality
+At 2nd level, choose the Spirituality which best represents the disciplines and rites you use to channel spirits.
+Your Spirituality grants you features at 2nd level, and again when you reach 6th, 10th, and 14th level in this class.
+
+#### Spirituality Spells
+Each Spirituality has a list of spells you always have prepared once you reach the Shaman levels noted in your Spirituality's description. They count as Shaman spells for you, but they do not count against the number of spells you prepare each day.
+
+### Ability Score Improvement
+When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or two ability scores by 1. As normal, you can't increase one of your ability scores above 20 using this feature.
+
+### Totemic Versatility
+At 5th level, your ability to connect with and channel the spirit world increases. During a long rest, you can perform a 1-hour ritual to replace one of your current bound Spirit Totems with another of your choice, for which you meet all prerequisites.
+
+### Elder Spirit
+Your ever-deepening connection to the world of Spirits allows you to conjure and bind powerful Elder Spirits to Totems. At 11th level, choose one Elder Spirit to bind to a Totem. It does not count against your total number of Bound Totems.
+
+Each Elder Spirit includes a list of Elder Spells that you learn at the Shaman levels listed in its description. They do not count against the spells you prepare each day.
+
+Once you reach the levels in your Elder Spirit's description, you can cast each of these spells once between each long rest at its lowest level, without expending a spell slot.
+
+You can use your Totemic Versatility feature to replace your Elder Spirit with another Elder Spirit of your choice. Though, if you replace your Elder Spirit with another Spirit, you only know the Elder Spells of your current Elder Spirit.
+
+### Spiritual Ascension
+You have transcended the need for a corporeal form. At 20th level, your physical body no longer ages, and you are immune to all disease, the Poisoned condition, and poison damage.
+
+Also, when you are reduced to 0 hit points, you can release the Spirit bound within one Totem to instead fall to a number of hit points equal to your Shaman level. You then lose access to the abilities of that Totem until you complete a long rest.
+{{pageNumber,auto}}
+\page
+## Elder Spirits
+Below is the list of Elder Spirits available to Shamans to bind to their will. Shamans can cast each spell once between each long rest, at its lowest level, without expending a spell slot.
+
+You can use Totemic Versatility to change your Elder Spirit.
+
+#### Elder Spirit of Death
+Spirits of Death are drawn from the Shadowfell, the Hells, or the Abyss. They lend Shamans their powerful sinister magic.
+
+Shaman Level|	Spell
+|:-----:|:--:|
+11th|	harm
+13th|	finger of death
+15th|	Abi-Dalzim's Horrid Wilting
+17th|	power word: kill
+
+#### Elder Spirit of the Fissure
+Spirits of Fissure are conjured from the realms on the Plane of Earth. They lend Shamans the unyielding power of stone.
+
+Shaman Level|	Spell
+|:-:|:-:|
+11th|	Bones of the Earth
+13th|	symbol
+15th|	earthquake
+17th|	invulnerability
+
+#### Elder Spirit of the Inferno
+Spirits of the Inferno are summoned from the great Plane of Fire. They grant Shamans overwhelming destructive power.
+
+Shaman Level|	Spell
+|:-:|:-:|
+11th|	magma burst
+13th|	fire storm
+15th|	incendiary cloud
+17th|	meteor swarm
+
+
+#### Elder Spirit of Life
+Spirits of Life come to aid Shamans from the upper planes or the Feywild. They bless Shamans with mystic healing magic.
+
+Shaman Level|	Spell
+|:-----:|:--:|
+11th|	heal
+13th|	regenerate
+15th|	holy aura
+17th|	power word: heal
+
+#### Elder Spirit of the Moon
+Spirits of the Moon can be summoned from the Astral Sea or Ethereal Plane. They grant Shamans their mystical abilities.
+
+Shaman Level|	Spell
+|:-----:|:--:|
+11th|	cometfall
+13th|	reverse gravity
+15th|	antimagic field
+17th|	astral projection
+
+#### Elder Spirit of the Mystic
+Spirits of Mystics are souls of powerful Shamans that come to offer aid. They awaken a Shaman's true spiritual potential.
+
+Shaman Level|	Spell
+|:-:|:-:|
+11th|	true seeing
+13th|	divine word
+15th|	dominate monster
+17th|	foresight
+
+#### Elder Spirit of the Sea
+Spirits of the Sea are called up from the depths of the Plane of Water. They bestow Shamans with frigid ethereal magics.
+
+Shaman Level|	Spell
+|:-:|:-:|
+11th|	frost aura
+13th|	etherealness
+15th|	tsunami
+17th|	blizzard
+
+
+#### Elder Spirit of the Storm
+Spirits of the Storm are drawn from the great tempests of the Plane of Air. They lend Shamans the chaotic magic of storms.
+
+Shaman Level|	Spell
+|:-:|:-:|
+11th|	chain lightning
+13th|	whirlwind
+15th|	control weather
+17th|	storm of vengeance
+
+#### Elder Spirit of the Sun
+Spirits of the Sun are drawn from places of powerful radiant magic. They lend Shamans restorative and purifying power.
+
+Shaman Level|	Spell
+|:-----:|:--:|
+11th|	sunbeam
+13th|	resurrection
+15th|	sunburst
+17th|	true resurrection
+
+#### Elder Spirit of the Void
+Spirits of the Void are called from outer realms beyond the known planes. They grant Shamans dark aberrant magick.
+
+Shaman Level|	Spell
+|:-----:|:--:|
+11th|	soul cage 
+13th|	prismatic spray
+15th|	maddening darkness
+17th|	psychic scream
+
+    
+
+
+
+
+
+
+
+
+
+{{pageNumber,auto}}
+\page
+
+## Spirituality
+Choose the Spirituality that best represents the disciplines and rites your Shaman uses to channel their mystical power.
+
+### Astrologer
+Since the earliest days of civilization, mortals have looked to stars for guidance. Drawing upon the Spirits that move these celestial bodies, Astrologer Shamans can channel the radiant power of the great Constellations that guide the mortal world.
+
+#### Astrologer Spells
+You always have certain spells prepared at the Shaman levels in the table below. The spells count as Shaman spells for you, but they do not count against the spells you prepare each day:
+
+Shaman Level|	Spell
+|:-----:|:--:|
+2nd|	ceremony, guiding bolt
+3rd|	augury, moonbeam
+5th|	daylight, hypnotic pattern
+7th|	divination, guardian of faith
+9th|	commune, wall of light 
+
+#### Celestial Guidance
+At 2nd level, the great Constellations of the night sky guide you and reveal the past. You gain proficiency in History. Whenever you make a History check related to legend or myth, you use Wisdom in place of Intelligence and add double your proficiency bonus.
+
+Finally, you cannot become lost, even by magical means, so long as you can see the stars of the night sky.
+
+\column
+
+#### Totemic Radiance
+Also 2nd level, you bind the radiant Spirits of the Heavens to your Totems. Your Totemic Assault now deals radiant damage, and when a creature fails its saving throw, you apply the effects of one of the Constellations below until the start of your next turn:
+
+**Champion.** The creature has disadvantage on all attacks it makes against one creature of your choice within 30 feet of it.
+
+**Leviathan.** Totemic Assault uses d12s for its damage dice.
+
+**Maiden.** The creature emits bright light in a 5-foot radius, and has disadvantage on any ability check it makes to Hide.
+
+**Sage.** The creature must subtract 1d4 from the next ability check or saving throw that it is forced to make.
+
+
+#### Lure of the Heavens
+By 6th level, your connection to Celestial Spirits draws you upward from the ground. You walk 1-inch off the ground and therefore do not leave tracks. You can use this ability to walk over liquids and dangerous surfaces without touching the ground.
+
+
+
+#### Celestial Surge
+Starting at 10th level, the spiritual energy channeled through your totems becomes more volatile and potent. Whenever a creature takes damage from your Totemic Assault or any other feature granted by your totems, you roll one additional die of that totem's damage type.
+
+#### Radiant Burst
+Finally at 14th level, you can channel the full radiant might of the stars above. You learn the crown of stars spell and it counts as a Shaman spell for you. 
+
+You can cast it once between each long rest, at 7th-level without expending a spell slot.
+
+You can also apply two Constellation effects to a creature when it fails its saving throw against Totemic Assault.
+
+{{imageMaskEdge8,--offset:25%,--rotation:0
+  ![](https://www.gmbinder.com/images/mHH3kBn.jpeg){height:60%,top:720px,left:-140px}
+}}
+
+
+
+
+{{pageNumber,auto}}
+\page
+### Blood Priest
+In ancient days, elder Shamans communed with Spirits that desired mortal blood above all. Over time, the Spirits taught the first Blood Priests the dark secrets of blood magic, and in return, they offered these elder Spirits the blood of their foes.
+
+#### Blood Priest Spells
+You always have certain spells prepared at the Shaman levels in the table below. The spells count as Shaman spells for you, but they do not count against the spells you prepare each day:
+
+Shaman Level|	Spell
+|:-----:|:--:|
+2nd|	false life, ray of sickness
+3rd|	hold person, ray of enfeeblement
+5th|	bestow curse, slow
+7th|	death ward, dominate creature
+9th|	contagion, hold monster
+#### Blood Totems
+At 2nd level, ancient Spirits have taught you to siphon life-blood and bind its spiritual power to Blood Totems using the rules below:
+
+**Bound Totems.** You start with a single Blood Totem that does not count against your total number of Bound Totems. However, at the end of a long rest, you can forgo any number of Bound Totems to instead create that many Blood Totems.
+
+**Harvesting.** When you deal necrotic, piercing, or slashing damage to a creature within 10 feet of you, you can choose to harvest its blood, causing one Blood Totem you are holding to gain hit points equal to half the damage dealt. This ability has no effect on Constructs, Undead, or creatures without blood.
+
+**Hit Points.** Blood Totems can store up to 25 hit points at one time. If a Blood Totem is at its maximum hit points, you can expend all its hit points to cast one of your Blood Priest spells at your Slot Level, without expending a slot or the spell's normal material components.
+
+When you finish a long rest, unused hit points stored within Blood Totems
+lose their magic and are dispelled.
+
+\column
+
+#### Cruel Implements
+Also 2nd level, you have learned to use particular weapons to better harvest the life-blood of your foes. You gain proficiency with all melee weapons that deal piercing or slashing damage.
+
+
+#### Extra Attack
+Starting at 6th level, you can attack twice, instead of once, whenever you take the Attack action on your turn. Moreover, if you use your action to cast a Shaman spell or use Totemic Assault, you can make a single melee weapon attack as a bonus action.
+
+Attacks with your Cruel Implements also count as magical for overcoming resistances and immunities.
+
+Additionally,  whenever you take damage while you are holding a Blood Totem, you can use a reaction to cause it to take the damage in your place. Should this reduce a Blood Totem to zero hit points, you take any remaining damage.
+
+#### Sanguine Curse
+By 10th level, spirits that hunger for mortal vitality empower your magick. When you expend a Blood Totem to cast a Blood Priest spell, you can force the target to make a Constitution saving throw in place of the normal saving throw for that spell. If you have hit points harvested from the target of the spell in that Blood Totem, it makes this saving throw with disadvantage.
+
+Also, when a creature takes damage from Totemic Assault, you can harvest hit points regardless of its distance from you.
+
+#### Crimson Ascendant
+Finally at 14th level, you have stained your soul with the blood of mortals in order to satisfy the hunger of dark Spirits. Whenever you damage a creature with a Cruel Implement, hit points you harvest for your Blood Totems are no longer halved.
+You also start with three Blood Totems before you must forgo Bound Totems to create Blood Totems.
+
+
+{{pageNumber,auto}}
+\page
+### Curse Binder
+While most Shamans use the power of Spirits to work magic and heal the sick, some twist this connection, binding sinister Spirits to enemies. Known as Curse Binders, these Shamans wield the sinister spiritual power present in the world. Often apprentices of hags or entities from the Shadowfell, they use ancient techniques to afflict their foes with hexes and curses.
+
+#### Curse Binder Spells
+You always have certain spells prepared at the Shaman levels in the table below. The spells count as Shaman spells for you, but they do not count against the spells you prepare each day:
+
+Shaman Level|	Spell
+|:-----:|:--:|
+2nd|	bane, cause fear 
+3rd|	blindness/deafness, ray of enfeeblement
+5th|	bestow curse, vampiric touch
+7th|	blight, phantasmal killer
+9th|	contagion, enervation
+
+#### Evil Eye
+At 2nd level, you can curse with a glance. When a creature that you can see within 60 feet hits with an attack roll, or succeeds on an ability check or saving throw, you can use a reaction to roll 1d4 and subtract it from its roll, possibly causing it to fail.
+
+You can use this reaction a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a long rest.
+
+\column
+
+#### Totemic Curse
+Also 2nd level, you bind Spirits of pain, suffering, and despair to inflict upon your foes. Whenever a creature fails its saving throw against Totemic Assault, you inflict one of the following conditions on it until the beginning of your next turn:
+
+Its speed is halved and it cannot take reactions.
+It cannot regain hit points, and whenever it takes damage it takes an additional 1d4 necrotic damage.
+It is Blinded to anything more than 15 feet away from it.
+
+
+#### Sinister Vitality
+By 6th level, sinister spirits drain life from your foes. Whenever you deal necrotic damage to a creature with Totemic Assault, you gain temporary hit points equal to half the necrotic damage dealt.
+
+This has no effect on Constructs or Undead creatures.
+
+#### Occult Ward
+Starting at 10th level, your familiarity with foul magick and sinister curses protect you from similar effects. You gain resistance to both poison and necrotic damage, and have advantage on saving throws to resist the Charmed and Frightened conditions.
+
+Also, when you succeed on a saving throw to resist being Charmed or Frightened, you can use your reaction to target your attacker with Totemic Assault.
+
+#### Foul Conjuration
+Finally at 14th level, you have reached the apex of sinister shamanism, the ability to create corporeal bodies for vile Spirits you bind. Once per long rest, you can cast create undead ll at 6th-level without expending a spell slot or providing the material components.
+
+Any Undead creatures that you create with this feature crumble to dust at the end of your next long rest.
+{{pageNumber,auto}}
+\page
+### Demoniac
+While many Shamans treat with dark Spirits when it serves
+their needs, those known as Demoniacs seeks out the Spirits
+of darkness and fury and welcome them into their soul. They
+commune with these sinister Spirits, and draw out the power
+of the most potent within them to transform into a horrifying
+Demoniac, a fusion of mortal flesh and demonic Spirit.
+
+
+#### Demoniac Spells
+You always have certain spells prepared at the Shaman levels in the table below. The spells count as Shaman spells for you, but they do not count against the spells you prepare each day:
+
+Shaman Level|	Spell
+|:-----:|:--:|
+2nd| hellish rebuke, searing smite
+3rd| scorching ray, shadowblade
+5th| fireball, haste
+7th| blight, wall of fire
+9th| cloudkill, infernal calling
+
+#### Totemic Possession
+At 2nd level, you have entwined your very soul with a powerful spirit of the
+lower planes. As a bonus action, you can give yourself over to
+this Spirit and transform into a Demoniac, which grants you
+the following benefits for 1 minute:
+
+- Your appearance is twisted into an evil mockery of you.
+- Your unarmed strikes deal 1d6 necrotic or fire damage on hit, and you can add your Wisdom to damage rolls. The damage of these unarmed strikes increases to 1d8 if you have two free hands.
+- You gain temporary hit points equal to your Shaman level.
+- Your walking speed increases by 10 feet.
+
+This transformation ends early if you are incapacitated, or
+if you end it with your bonus action. You can transform once
+per short or long rest at no cost, after which, you must spend
+a Conduit Magic spell slot to transform again.
+
+
+#### Extra Attack
+By 6th level, you can attack twice, instead of once, whenever you take the
+Attack action on your turn. Moreover, if you use your action to
+cast a Shaman spell or use Totemic Assault, you can make a
+single unarmed strike as a bonus action on that turn.
+
+#### Furious Transformation
+Also at 6th level, the power you can draw from your dark Spirit has increased.
+When you are in your Demoniac form you are resistant to all non-magical bludgeoning, piercing, and slashing damage, and when you transform you gain the benefits of the Dash action.
+
+\column
+
+#### Demonic Retribution
+Starting at 10th level, the power of the sinister Spirit bonded to you drives you to
+slay any who dare to strike you. When a creature you can see
+hits you with a melee attack, you can use a reaction to make a
+single unarmed strike against that creature.
+
+If you are in your Demoniac form you can instead use this
+reaction to target your attacker with Totemic Assault.
+
+#### Spirit of Fury
+Finally at 14th level, you have bonded completely with the dark Spirit inside your
+soul, and can draw out its full power. You can transform into
+your Demoniac form at-will, though you only gain temporary
+hit points the first time you transform, or when you expend a
+Conduit Magic spell slot to transform.
+
+Lastly, your Demoniac form gains additional benefits:
+
+- You gain resistance to fire and poison damage, and to all magical bludgeoning, piercing, and slashing damage.
+- Your unarmed strikes deal 1d10 damage on hit, or 2d6 damage on hit if you have two free hands.
+- When you reduce a creature to 0 hit points, your speed is doubled and you have advantage on unarmed strike attack rolls until the end of your current turn.
+
+{{pageNumber,auto}}
+\page
+### Elementalist
+Some Shamans gain their abilities while living near places of raw elemental power: active volcanoes, amongst the sands of blazing deserts, atop frigid mountain peaks, or on the stormy coasts of the ocean. Known as Elementalists, these Shamans learn to draw out the most destructive Elemental Spirits and channel them to devastating effect against their enemies.
+
+#### Elemental Sage
+
+At 2nd level, the primordial Spirits of nature have taught you the secrets of elemental mastery. During a long rest, you can perform a 1-hour ritual to attune to an Elemental Spirit until the end of your next long rest, choosing Air, Earth, Fire, or Water.
+
+This Elemental Spirit grants you resistance to, and affinity with the type of damage associated with it, as shown below:
+
+Element|	Air|	Earth|	Fire|	Water
+:-:|:-:|:-:|:-:|:-:
+Damage|	 thunder|bludgeoning|fire|cold   
+
+
+The Elemental Spirit you are attuned to infuses your Totems with its destructive power. Your Totemic Assault gains all the benefits below associated with your current Elemental Spirit:
+
+**Air.** Totemic Assault deals thunder damage, and on a failed save, the target is moved up to 15 feet in a straight line.
+
+**Earth.** Totemic Assault deals bludgeoning damage, and on a failed save, a Larger or smaller creature is knocked prone.
+
+**Fire.** Totemic Assault deals fire damage, and the damage dice of Totemic Assault become d12s.
+
+**Water.** Totemic Assault deals cold damage, and on a failed save, until the start of your next turn the creature cannot take reactions and its speed is reduced by 10 feet.
+
+#### Elementalist Spells
+You always have spells associated with the Elemental Spirit that you are attuned to prepared at the Shaman levels in the table below. The spells count as Shaman spells for you, but they do not count against the spells you prepare each day:
+
+
+Shaman Level|	Air Spells|	Earth Spells|	Fire Spells|	Water Spells
+:-:|:-:|:-:|:-:|:-:
+2nd|	thunderwave|	earth tremor |	burning hands|	torrent
+3rd|	shatter|	earthen grasp|flaming sphere|	snowball swarm 
+5th|	lightning bolt|	erupting earth |	fireball|	tidal wave 
+7th|	storm sphere|	pillars of earth|	wall of fire|	ice storm
+9th|	control winds|wall of stone|	immolation|	cone of cold
+
+
+
+\column
+
+
+
+#### Elemental Wrath
+At 6th level, the power you draw from the Elemental Spirits has grown. You bind a Spirit of Wrath, but it does not count against your total number of Bound Spirits. You can also apply the Spirit of Wrath bonus damage to any Shaman spell or feature that deals the damage type of your Elemental Spirit.
+
+If you already had a Spirit of Wrath as one of your Bound Totems, you can bind another Totem Spirit of your choice so long as you also meet the prerequisites for that Totem Spirit.
+
+
+#### Elemental Empowerment
+Also at 6th level, you gain the benefits below that correspond to your current Elemental Spirit:
+
+**Air.** You can take the Dash action as a bonus action.
+Whenever you take the Dash action, opportunity attacks
+are made with disadvantage against you.
+
+**Earth.** Whenever you are forced to make a Strength
+ability check or saving throw, you gain a bonus to your
+roll equal to your Wisdom modifier (a minimum of +1).
+
+**Fire.** When you are forced to make a saving throw to
+resist being Charmed or Frightened, you can add your Wisdom modifier (a minimum of +1) to your roll.
+
+**Water.** You gain a swimming speed equal to your
+walking speed. You can also hold your breath
+underwater for up to 1 hour. If you already
+have a swimming speed, you can Dash as a
+bonus action while you are swimming.
+
+#### Primordial Conduit
+by 10th level, your power rivals native Spirits of
+the four Elemental Planes. Once
+between each short or long rest,
+you can cast one Elementalist
+Spells at the level of your Conduit
+Magic spell slots, without expending a spell slot.
+
+Also, whenever you deal the damage type of your
+Elemental Spirit, you gain temporary hit points equal
+to half the damage dealt to a single target.
+
+#### Master of the Elements
+
+Finally at 14th level, as a bonus action, you can draw Spirits of all four elements into yourself, gaining the following benefits for 1 minute:
+
+- You gain a flying speed equal to your walking speed.
+- You resist bludgeoning, cold, fire, and thunder damage.
+- When a creature moves within 10 feet or hits you with an attack, you can use a reaction to force it to make Dexterity saving throw or suffer the effects of your Totemic Assault.
+- When you use Totemic Assault, you can choose which of the four Elemental effects it imposes on a failed save.
+
+This transformation ends early if you are incapacitated or use your bonus action to end it. You can use this feature once per long rest at no cost, after that you must spend a Conduit Magic spell slots to use this feature again.
+
+
+{{pageNumber,auto}}
+\page
+### Far Seer
+Many Shamans initially discover their connection to the spirit world when they perform rituals to divine the future. Should these amateur spiritualists pursue this connection they learn to channel Spirits as a Far Seer, a Shaman who can glimpse both past and future, and use spiritual power to alter Fate.
+
+#### Far Seer Spells
+You always have certain spells prepared at the Shaman levels in the table below. The spells count as Shaman spells for you, but they do not count against the spells you prepare each day:
+
+Shaman Level|	Spell
+|:-----:|:--:|
+2nd|	comprehend languages, detect magic
+3rd|	augury, detect thoughts
+5th|	clairvoyance, tongues
+7th|	arcane eye, divination
+9th|	contact other plane, scrying
+
+#### Spirits of Fate
+At 2nd level, you have learned to bind minor Spirits of Fate and unleash them to influence the world around you in minor ways. Each time you finish a short or long rest, roll two d4s, your Fate Dice, and record the numbers you rolled.
+
+When you or a creature you can see within 60 feet makes an ability check, attack roll, or saving throw, you can use your reaction to apply one of these Fate Dice to the roll, adding or subtracting it from the result. You can use this reaction after you know the result of the roll, but before you know if the
+roll would be a success or failure.
+
+Each Fate Die can be used only once, and any unused Fate Dice are lost at the end of a short or long rest.
+
+At certain Shaman levels, your Fate Dice grow: at 6th level (d6), 10th level (d8), and 14th level (d10).
+
+#### Totemic Ritualist
+Also 2nd level, the Spirits bound within your Totems to enhance your ritual magic. When you cast the Ritual version of a Shaman spell, you can use a Totem in place of any material component that is not consumed. When you do, the Ritual version of that spell only takes 1 additional minute, instead of 10 minutes.
+
+Also, whenever you cast a divination spell and use a Totem as the spellcasting focus, the Totem can replace any material components with a gold value so long as it is not consumed.
+
+#### Ascended Awareness
+by 6th level, the Spirits of Fate constantly whisper secrets to you, filling your mind with constant glimpses of the near future. So long as you are not incapacitated you cannot be surprised, and you add your Wisdom modifier (minimum of +1) to initiative rolls.
+
+\column
+
+#### Certain Fate
+At 10th level, the future is fickle and constantly changing, but once you glimpse something, it nearly always comes to pass. When you use your reaction to add a Fate Die to a roll and it does not change the outcome of that roll, the Die is not expended.
+
+For example, if you subtracted a Fate Die from an foe's saving throw and it still succeeded on its saving throw, your Fate Die would not be expended.
+
+#### Tip the Scales
+Finally at 14th level,  you can effect Fate in ways that rival elder Spirits, if only in small moments. When a creature you can see within 60 feet finishes its turn, you can use your reaction to expend one of your Fate Dice, and force the creature to repeat that turn.
+
+Anything that happened during its turn is undone, and the target must repeat its turn exactly, taking the same exact
+course of action, but any dice rolled on that turn are rolled again, and all creatures use the new results.
+
+
+
+{{pageNumber,auto}}
+\page
+### Ethereal Gateway
+Shamans of the Ethereal Gateway open themselves up to the
+other side, serving as a doorway for Minor Spirits to enter the
+material plane. They channel the Minor Spirits to harry foes
+and hinder their movements. Eventually, they learn to control
+a swarm of these Minor Spirits to serve their every whim.
+Shaman Level Feature
+
+
+
+
+
+#### Gateway Spells
+You always have certain spells prepared at the Shaman levels
+in the table below. The spells count as Shaman spells for you,
+but they don't count against the spells you prepare each day:
+Shaman Level|	Spell
+|:-----:|:--:|
+2nd| find familiar, unseen servant
+3rd| healing spirit , warding wind
+5th| crusader's mantle, spirit guardians
+7th| divination, guardian of faith
+9th| arcane hand, wall of light
+
+#### Totemic Gateway
+At 2nd level, you spiritually position yourself to serve as a gateway to the
+other side, conjuring Minor Spirits to empower your Totemic
+Assault and harry your foes. When you use Totemic Assault it
+deals radiant damage, and its damage dice become d8s.
+
+Moreover, when a creature fails its saving throw against
+your Totemic Assault, a Minor Spirit Clings to it, reducing its
+speed by 5 feet. Multiple Minor Spirits can cling to a creature
+at one time, up to your Wisdom modifier (a minimum of 1).
+
+The Minor Spirits are incorporeal and cannot be targeted.
+They cling to creatures until you target another creature with
+Totemic Assault, the creature moves more then 60 feet away
+from you, or you use your bonus action to banish these Minor
+Spirits, dealing 1d8 radiant damage per Minor Spirit.
+
+Finally, when you use a bonus action to banish these Minor
+Spirits you can expend a Conduit Magic spell slot, to cause
+the effect to deal a bonus 1d8 radiant damage per slot level.
+
+#### Empowered Spirits
+By 6th level, the potency of the Spirits you draw through you has grown.
+The damage dice of your Totemic Assault become d10s.
+Also, when you use your bonus action to banish the Minor
+Spirits on a creature, other creatures within 5 feet of it must
+succeed on a Dexterity saving throw against your Spell save
+DC or take the same amount of radiant damage.
+Finally, each Minor Spirit that clings to a creature reduces
+its speed by 10 feet.
+
+\column
+
+#### Major Spirit
+Starting at 10th level, you can open yourself fully to draw powerful Spirits to your
+side. You learn the *summon celestial* spell. You can cast
+*summon celestial* once per long rest without expending
+a spell slot or requiring normal material components. When
+you cast it in this way, its duration is reduced to 1 minute.
+
+When you have no uses of this feature remaining, you can
+expend a Conduit Magic spell slot to cast this spell again.
+
+#### Gateway Spellcasting
+Also at 10th level, you empower your magic with Minor Spirits. Whenever you
+damage a creature with a Shaman spell, you can cause one
+of your Minor Spirits to cling to it.
+
+Your Minor Spirits can still only cling to one creature.
+
+#### Ethereal Flood
+Finally at 14th level, your spirit is a vast opening to the other side. When you use
+Totemic Assault, you can target two creatures within range.
+Targeting another creature with Totemic Assault no longer
+causes your Minor Spirits to stop clinging to targets.
+
+Lastly, whenever you use your bonus action to banish the
+Minor Spirits clinging to a creature, the range of Empowered
+Spirits increases to creatures of your choice within 30 feet.
+
+
+{{pageNumber,auto}}
+\page
+
+
+
+
+### Idolater
+Since the dawn of time mortal Shamans have used the magic of idolatry to force powerful Spirits to carry out their bidding. Using ancient magic, they bind spiritual entities within Idols, and once bound, focus their spiritual power on friend and foe.
+
+#### Idolater Spells
+You always have certain spells prepared at the Shaman levels in the table below. The spells count as Shaman spells for you, but they do not count against the spells you prepare each day:
+
+Shaman Level|	Spell
+|:-----:|:--:|
+2nd|	bless, fog cloud
+3rd|	healing spirit, spike growth
+5th|	beacon of hope, sleet storm
+7th|	accursed touch, aura of life
+9th|	antilife shell, create construct 
+
+#### Totemic Idol
+At 2nd level, you have learned to craft powerful Idols. You gain proficiency in mason's tools, and over the course of 1 hour, which can be during a short or long rest, you can craft an Idol. You can only have one Idol. Crafting another destroys all other Idols.
+
+The Idol is a Small stone object with an Armor Class equal to your Shaman Spell save DC and hit points equal to 10 + your Shaman level. It is resistant to non-magical
+bludgeoning, piercing, and slashing damage.
+
+As an action, you can plant this Idol on a flat, unoccupied surface and cast a Shaman spell with a casting time of one action or bonus action that requires concentration. 
+
+The effect of the spell occurs as normal, but you do not need to concentrate on it.
+
+If the spell has a target of self, the effect of the spell is centered on the Idol.
+
+The spell is active until that Idol is destroyed, or you use your action to move it. If a target of the spell moves more than 60 feet away from the Idol, the effects of the spell end for it.
+
+#### Spiritual Vortex
+At 6th level, your Totemic Idol magnifies your spiritual power. While your stone Idol is planted in the ground, you can target it with your Totemic Assault. In place of its normal effects, all creatures of your choice within 20 feet of the Idol must make a Charisma saving throw or suffer the effects of Totemic Assault.
+
+In addition, while planted, your Totemic Idol is immune to all non-magical bludgeoning, piercing, and slashing damage.
+
+\column
+
+#### Guardian Idol
+By 10th level, in times of great need, the Spirits within your Totemic Idol can be called to your aid. As an action, you can cast the create construct ll spell on your Totemic Idol, giving it life. When you do so, the spell gains the following benefits:
+
+- You do not expend a spell slot, but the spell is cast at the level of your Conduit Magic spell slots.
+- The Idol replaces the spell's normal material components.
+- The spell does not require your concentration.
+- You can use Spiritual Vortex on the Guardian Idol.
+- The Guardian Idol gains temporary hit points equal to the hit points your Totemic Idol had when you cast this spell.
+
+When this spell ends or your Guardian Idol is destroyed, your Totemic Idol is destroyed along with it, and you can only have a single instance of create construct active at a time.
+
+#### High Idolater
+Finally at 14th level, you have mastered the ancient and powerful magic of Idols. You can have up to two Totemic Idols at once, though each Idol must be crafted individually. They can also both be active at one time, each concentrating on a single spell. You can only have one Guardian Idol.
+
+Finally, when one of your Idols or a Guardian Idol is destroyed, creatures of your choice within 30 feet of it must succeed on a Dexterity saving throw against your Shaman Spell save DC or suffer the effects of Totemic Assault. On a success, they suffer half damage, but none of the additional effects.
+{{pageNumber,auto}}
+\page
+### Spirit Guide
+While most Shamans bind many Spirits, Shamans known
+as Spirit Guides form a single bond with their Geist Spirit.
+Often the Spirits of departed Shamans, Geists increase
+in power alongside the Shaman they are bound to, and
+can even channel the power bound within Totems.
+
+#### Totemic Bond
+At 2nd level, you forged a bond with unique Spirit known as a Geist. Your Geist is friendly to you and your allies, and it obeys your commands. It uses the Geist stat block, which uses your Shaman Spell save DC and your proficiency bonus (PB) in several places.
+
+**Conjuring the Geist.** During a long rest, you can perform a 1-hour ritual to conjure your Geist Spirit, or restore your current Geist to its full hit points. If the Geist is reduced to 0 hit points it is banished to the Etheral Plane. As an action, you expend a Conduit magic spell slot to conjure your Geist, restoring it to its full hit points in an unoccupied space within 5 feet.
+
+**Combat.** The Geist acts during your turn. It can move and use its reaction on its own, but it only takes the Dodge action unless you use your bonus action to command it to take one of the actions listed in its stat block, or another action.
+
+#### Spirit Guide Spells
+You always have certain spells prepared at Shaman levels in the table below. They count as Shaman spells for you,
+but do not count against the spells you prepare each day:
+
+Shaman Level|	Spells
+|:-----:|:-----:|
+2nd|	ghastly flight ll, shield of faith
+3rd|	spiritual weapon, warding bond
+5th|	spectral passage ll, spirit guardians
+7th|	death ward ll, guardian of faith
+9th|	arcane hand, wall of light XGE
+
+#### Spectral Empowerment
+At 6th level, as a bonus action, you can touch your Geist to merge with it and gain the benefits of the spectral passage spell. When the spell ends, you and your Geist instantly separate.
+
+#### Soul Bound
+By 10th level, the bond you share with your Geist allows you to seamlessly change places. As a bonus action, you can switch places with your Geist so long as it is within 120 feet and you can see it.
+
+You can use this feature as a reaction if you or your Geist takes damage. You switch, and the other takes the damage.
+
+\column
+
+#### Ethereal Mastery
+Finally at 14th level, you unleash the full power of your Geist. It can fly as normal, and it is always under the effect of the spectral passage spell.
+
+Lastly, when you use Spectral Empowerment, the effect does not require concentration, and you gain resistance to all
+    damage except for force, psychic, radiant, and thunder.
+    
+    
+    
+{{monster,frame
+## Geist Spirit
+*Medium Undead*
+___
+**Armor Class** :: 13 + PB (Natural Armor)
+**Hit Points**  :: 5 + five times your Shaman level
+**Speed**       :: 0 ft., fly 30 ft. (hover)
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|6 (-2)|14 (+2)|11 (+0)|8 (-1)	|16 (+3)|13 (+1)|
+___
+**Languages**:: understands any languages its Spirit Guide speaks, but the Geist cannot speak itself.
+___
+***Conduit.*** Whenever you cast a Shaman spell, you can choose for the spell to originate from the Geist.
+:
+***Ethereal Bond.*** You add your PB to any ability check
+or saving throw that the Geist is forced to make.
+:
+***Ghastly Glide.*** Even though the Geist has a fly speed, it can only fly a maximum of 10 feet above a surface.
+:
+***Totem Bearer.*** When you conjure your Geist, you can transfer any number of your Bound Totems to it. The Geist gains the benefits of the Totems, and you lose their benefits until the end of your next long rest.
+### Actions
+***Spectral Grasp.*** *Melee Spell Attack:* your Spell Attack Modifier to hit, reach 5 ft., one target. *Hit:* The target suffers the effects of your Totemic Assault
+}}
+
+
+{{pageNumber,auto}}
+\page
+### Spirit Warrior
+Serving as the guardians of sacred groves and places of great spiritual power, Spirit Warriors draw on the power of ancient Spirits to enhance their physical form. When they allow these incorporeal beings to walk the world through their physical bodies, they gain increased physical and martial abilities.
+
+#### Ancestral Knowledge
+At 2nd level, when you adopt this Spirituality, Spirits of ancient warriors grant you their lifetimes' worth of combat experience. You gain proficiency with medium armor and martial weapons.
+
+
+#### Spirit Warrior Spells
+2nd-level Spirit Warrior Spirituality feature
+You always have certain spells prepared at the Shaman levels in the table below. The spells count as Shaman spells for you, but they do not count against the spells you prepare each day:
+
+Shaman Level|	Spell
+|:-----:|:--:|
+2nd|	heroism, shield of faith
+3rd|	compelled duel ll, totemic cowl ll
+5th|	clairvoyance, spirit shroud *
+7th|	guardian of faith, staggering smite ll
+9th|	contact other plane, steel wind strike ll
+
+#### Totemic Weapon
+
+Also 2nd level, you bind warrior Spirits to your weapons. During the course of a long rest, you can perform a 1-hour ritual to bind one of the Spirits below to a melee weapon you are holding. The weapon gains the benefits of the chosen Spirit until you use this ritual again.
+
+Addtionally, you can add your Wisdom modifier to damage rolls with this Totemic Weapon, and its attacks count as magical for overcoming resistance and immunity.
+
+##### Spirit of Challenge
+This Spirit compels foes to fight. When you hit a creature with this weapon, it
+has disadvantage on attacks it makes against creatures other than you until the start of your next turn.
+
+##### Spirit of Draining
+This Spirit siphons life from others to restore you. Once per turn when you hit a creature with this weapon, you can deal necrotic damage, and you gain temporary hit points equal to your Wisdom modifier (min. of 1).
+
+##### Spirit of Might
+This Spirit fortifies your body. When youare wielding this weapon you add your Wisdom modifier (minimum of +1) to any Strength and Constitution based ability checks or saving throws you make.
+
+\column
+
+#### Extra Attack
+
+Starting at 6th level, you can attack twice, instead of once, whenever you take the Attack action on your turn. Moreover, if you use your action to cast a Shaman spell or use Totemic Assault, you can make an attack with your Totemic Weapon as a bonus action.
+
+#### Warrior of the Grave
+
+By 10th level, the warrior Spirits that indwell you fortify you against bodily harm. After you take damage, you can use your reaction to gain temporary hit points equal to the damage taken.
+
+You can use this reaction a number of times equal to your Wisdom modifier (a minimum of once), and you regain all of your expended uses when you complete a long rest.
+
+#### Spiritual Champion
+Finally at 14th level, you can offer the Spirits full control over you, granting you temporary mystical power. As a bonus action, you can enter a possessed state, gaining the following benefits for 1 minute:
+
+- You can take the Dash action as a bonus action.
+- You gain resistance to all bludgeoning, piercing, and slashing damage from non-silvered attacks.
+- Once per turn when you hit a creautre with your Totemic Weapon, you can apply the effects of Totemic Assault.
+
+Once you use this feature you must finish a short or long rest before you can use it again. If you have no uses left, you can expend a Conduit Magic slot to use this feature again.
+{{pageNumber,auto}}
+\page
+
+### Windcaller
+You have bound yourself to the many Spirits of the Winds and
+Sky. These fleeting Spirits lift your steps, and harry those that
+would do you harm. While they are not deadly by themselves,
+the winds are treacherous and can blow any who disrespect
+them into harms way. You are a master of the winds, and use
+them to direct the flow of battles around you.
+Shaman Level Feature
+
+
+#### Windcaller Spells
+You always have certain spells prepared at the Shaman levels
+in the table below. The spells count as Shaman spells for you,
+but they don't count against the spells you prepare each day:
+
+Shaman Level|	Spell
+|:-----:|:--:|
+2nd| fog cloud, jump
+3rd| gust of wind, warding wind
+5th| fly, wind wall
+7th| freedom of movement, summon elemental (air)
+9th| cloudkill, control winds
+
+#### Totemic Winds
+At 2nd level, your connection to Spirits of the Air calls them to aid you.
+You can choose for Totemic Assault to deal thunder damage,
+and when a creature fails its saving throw against it, you can
+move it in a straight line a number of feet equal to five times
+your Wisdom modifier (minimum of 5 feet). This distance is
+halved for each size the creature is above Medium.
+
+Moreover, whenever you cast gust of wind, the gust does
+not need to originate from you and originates from a point of
+your choice within 30 feet. Also, when you cast gust of wind,
+you create an additional gust of wind effect for each slot level
+above 2nd. You can move all the gusts as one bonus action.
+
+#### Swirling Vortex
+Starting at 6th level, as an action, you can momentarily surround yourself with a
+vortex of Air Spirits out to a radius of 15 feet. Creatures of
+your choice in that area must make a Strength saving throw
+against your Spell save DC or be pushed in a line directly
+away from you until they are outside the vortex.
+
+You can use this feature a number of times equal to your
+Wisdom modifier (a minimum of once). You regain expended
+uses when you finish a long rest. If you have no uses left, you
+can expend a Conduit Magic slot to use it again.
+
+#### Zephyr Steps
+By 10th level, spirits of the Air carry you swiftly out of harms way. You can
+take the Dash, Disengage, or Dodge action as a bonus action
+on each of your turns. You also have advantage on saves to
+resist being knocked prone or moved against your will.
+
+
+In addition, the radius of Swirling Vortex becomes 25 feet.
+
+#### Wings of Wind
+Finally at 14th level, you are one with the spirits of the many winds. You gain a 60-
+foot flying speed, and while you are flying, opportunity attacks
+against you are made with disadvantage.
+
+
+You also learn the wind walk spell, and you can cast it once
+per long rest without expending a spell slot.
+
+
+
+
+{{pageNumber,auto}}
+\page
+### Wild Heart
+Often raised by, or closely with, wild beasts, Shamans known as Wild Hearts develop an intense spiritual connection with the wild. This intense devotion, when combined with spiritual power, allows a Wild Heart to transform into the Great Beast, the legendary guardian Spirit of all wild plants and animals.
+
+
+#### Totemic Wild Shape
+At 2nd level, as a bonus action, you can transform and take on the
+shape of the Great Beast, the legendary guardian of all
+wild creatures. The Great Beast uses the rules below:
+
+**Stat Block.** Your game statistics are replaced by those
+in the Great Beast stat block. It uses your Spell save DC
+and proficiency bonus (PB). While transformed you retain your alignment, personality, hit points, all skill and saving throw proficiencies, and your Intelligence, Wisdom, and Charisma scores. You also determine its appearance.
+
+**Temporary Hit Points.** When you transform, you gain temporary hit points equal to twice your Shaman level, and they last for the duration of your current transformation.
+
+**Equipment.** Any natural or unrefined equipment you are wearing or carrying, such as objects made of wood, animal parts, or other natural materials, can merge with your Great Beast form. Any metal or other highly processed equipment, such as metal weapons or armor, fall to the ground.
+
+**Features.** You retain the benefits of all features from your class, player race, and other sources, and can still use them if the Beast is physically capable of doing so. However, you lose any special senses, unless the Beast also has that sense.
+
+You can still use Totemic Assault and any abilities you gain from your Totems while you are in your Great Beast form.
+
+**Casting Spells.** You cannot cast spells in your Great Beast form. However, you can maintain concentration on spells or other abilities used before you transformed.
+
+**Duration & Uses.** You can remain in Great Beast form
+for 1 hour. Your transformation ends early if you end it as a
+bonus action or if you are reduced to 0 hit points.
+
+You can transform into the Great Beast once between each short or long rest. If you have no uses left, you can expend a Conduit Magic spell slot to transform again.
+
+\column
+
+#### Wild Heart Spells
+You always have certain spells prepared at the Shaman levels in the table below. The spells count as Shaman spells for you, but they do not count against the spells you prepare each day:
+
+Shaman Level|	Spell
+|:-----:|:--:|
+2nd|	animal friendship, jump ll
+3rd|	conjure beast ll, locate creature ll
+5th|	fear, haste
+7th|	dominate creature ll, freedom of movement
+9th|	hold monster, tree stride
+
+#### Bestial Adaptation
+
+Also at 2nd level, your time spent in the wilds has given you bestial qualities. Your speed increases by 10 feet, and you gain both a climbing speed and a swimming speed equal to your walking speed.
+
+{{monster,frame
+## Great Beast
+*Medium Beast*
+___
+**Armor Class** :: 13 + PB (Natural Armor)
+**Speed**       :: 40 ft.
+___
+|  STR  |  DEX  |  CON  |
+|:-----:|:-----:|:-----:|
+|18 (+4)|14 (+2)|15 (+2)|
+___
+**Senses**:: darkvision 60 ft.
+___
+***Bestial Traits.*** Each transformation, the Great Beast gains a number of Bestial Traits from the list at the end of this Spirituality equal to your Slot Level.
+:
+***Primal Fury.*** When the Great Beast makes an ability check or saving throw that uses Strength, Dexterity, or Constitution, it adds your PB to its roll.
+### Actions
+***Bite.*** *Melee Attack:* Spell Attack Modifier to hit, reach 5 ft., one target. *Hit:* 1d6 + Wisdom modifier piercing
+:
+***Claw.*** *Melee Weapon Attack:* Spell Attack Modifier to hit, reach 5 ft., one target. *Hit:* 1d10 + Wisdom modifier slashing. 
+
+}}
+
+{{pageNumber,auto}}
+\page
+#### Savage Strikes
+Starting at 6th level, the primeval power of the wilds empowers your Great Beast. When you take the Attack action in Great Beast form, you can make two Natural Weapon attacks instead of one.
+
+Moreover, your Natural Weapon attacks
+in Great Beast form ignore resistances and
+immunities to nonmagical attacks and damage.
+
+#### Mythic Resilience
+By 10th level, spirits of the wild infuse your Great Beast, shielding it from harm. While you are in Great Beast form, you are resistant
+to all bludgeoning, piercing, and slashing damage.
+
+#### Legendary Guardian
+Finally at 14th level, you have mastered the Great Beast transformation. While
+in your Great Beast Form, you can use your bonus action
+to replace one of your Bestial Traits with another.
+
+## Bestial Traits
+Below is the list of Bestial Traits that Shamans choose
+from each time they transform into the Great Beast:
+
+#### Aggressive
+The Great Beast can take the Dash action as a bonus
+action, so long as it ends this movement closer to a
+hostile creature that it can see, hear, smell, or sense.
+
+#### Amphibious
+The Great Beast can breathe both air and water, and
+it gains a swimming speed equal to its walking speed.
+
+#### Charge
+If the Great Beast moves at least 20 ft. in a straight line
+then hits a creature smaller than it with its Claw, it deals a bonus 1d6 damage and the creature is knocked prone.
+
+#### Hardened Shell
+The Great Beast gains a +2 bonus to its Armor Class, but its movement speed is reduced by 10 feet.
+
+#### Keen Senses
+If the Great Beast makes a Wisdom ability check that uses its sense of hearing, sight, or smell, it has advantage on the roll.
+
+#### Large Frame
+The Great Beast becomes a Large creature. If it is ridden as
+a mount, the Great Beast can act independently of its rider.
+
+#### Mighty Leap
+Once per turn, the Great Beast can use a bonus action to expend 5 feet of its movement to do a long jump of 20 feet
+or a standing jump of 10 feet, without a running start.
+
+\column
+
+#### Natural Camouflage
+The Great Beast has advantage on any Dexterity (Stealth) checks it makes to Hide while in natural environments.
+
+#### Pack Tactics
+The Great Beast has advantage on all attack rolls against creatures if one of the Great Beast's conscious allies is also
+    within 5 feet of the Great Beast's target.
+
+#### Powerful Build
+The Great Beast counts as one size larger when determining creatures it can grapple, and the weight it can move or lift. Its movement also is not halved while it is grappling creatures.
+
+#### Savage Grip
+The Great Beast gains a climbing speed equal to its walking speed, and it can climb sheer surfaces and upside down on ceilings without making an ability check. The Great Beast also has advantage on saving throws to resist being moved against its will, grappled, restrained, or knocked prone.
+
+#### Strong Jaws
+When the Great Beast hits a creature smaller than it with its Bite attack, it can grapple the creature in its jaws (escape DC equals your Spell save DC). While grappling a creature, the Great Beast cannot use its Bite on other targets, but it deals
+a bonus 1d6 damage to the grappled creature with its Bite.
+
+#### Thermal Vision
+The Great Beast is always aware of the exact location of all warm-blooded creatures that are within 60 feet of it.
+
+#### Thick Hide
+Whenever the Great Beast takes damage it reduces it by its Constitution modifier (2). This feature cannot reduce force, psychic, or radiant damage.
+
+
+{{pageNumber,auto}}
+\page
+
+### Witch Doctor
+Long before celestials took notice of mortals, Witch Doctors wandered the land, providing spiritual healing and medicine. Working in tandem with Spirits of Life, Witch Doctors heal the wounded and grant their allies mystical abilities. These sages are peaceful in nature and can often be found traveling the wilds tending to the spiritual needs of those they meet.
+
+#### Witch Doctor Spells
+You always have certain spells prepared at the Shaman levels in the table below. The spells count as Shaman spells for you, but they do not count against the spells you prepare each day:
+
+Shaman Level|	Spell
+|:-----:|:--:|
+2nd|	bless, detect poison & disease
+3rd|	restoration, warding bond
+5th|	beacon of hope, revivify
+7th|	aura of life, death ward
+9th|	creation, reincarnate
+
+#### Life Bearer
+At 2nd level, you can channel spirits of abundance and life to heal others. Your Totemic Assault deals radiant damage to creatures.
+
+Also, when you use Totemic Assault, you can cause Spirits to heal instead of harm. When you do so, the target does not need to make a saving throw, and instead it regains hit points equal to 2d4 + your Wisdom modifier (a minimum of 1).
+
+This feature cannot restore hit points to Constructs or Undead creatures.
+
+You can use this feature to heal a creature a number of times equal to your Shaman level, and you regain all of your expended uses when you finish a long rest.
+
+#### Totemic Blessing
+Also 2nd level, your selfless Spirituality has taught you to bind the Spirits of light and life to others. During a long rest, you can perform a special 1-hour ritual on a willing creature you touch, binding one of your Bound Totems to it. It gains benefits of the Totem and you lose them until the end of your next long rest.
+
+At certain Shaman levels, the number of Totems you can bind to other creatures during this ritual grows: two Totems at 6th level, three at 10th level, and four at 14th level. You can only bind a maximum of one Totem to a creature at a time.
+
+#### Benevolent Bearing
+By 6th level, benevolent Spirits protect you as you perform selfless acts. When you use your action to cast a Witch Doctor Spell, or to restore hit points, you gain the benefits of the Dodge action.
+
+\column
+
+#### Selfless Ward
+Starting at 10th level, your spiritual power grows as you pour yourself out to others. For each Totem that you have bound to a creature other than yourself, you gain a +1 bonus to saving throws and you gain resistance to one damage type of your choice.
+
+#### Spiritual Awakening
+Finally at 14th level, your spiritual practice fills you with an overabundance of life. When you cast revivify, it gains a range of 30 feet, and you do not need to provide its material component. Moreover, when you cast revivify, the target regains hit points equal to twice your Shaman level and can immediately stand up.
+
+  Finally, when you would make a death saving throw, you
+  can expend one Conduit Magic spell slot to cast revivify on
+    yourself, gaining the benefits above.
+{{pageNumber,auto}}
+\page
+### Wyrmbound
+Unknown to most, many of the most potent Spirits are those of long-dead dragons. In their undying desire to influence the material plane, for good or ill, these Draconic Spirits attach to worthy Shamans, transforming them into the Wyrmbound.
+
+#### Draconic Conduit
+2nd-level Wyrmbound Spirituality feature
+The Draconic Spirit bound to your soul grants you mystical power. You can speak, read, and write Draconic. Whenever you make a Charisma check to interact with a Dragon, you add your Wisdom modifier (minimum of +1) to your roll.
+
+#### Totemic Wyrmshape
+2nd-level Wyrmbound Spirituality feature
+As a bonus action, you can fuse with your Draconic Spirit
+to transform into a Spirit Dragon, using the rules below:
+
+**Stat Block.** Your game statistics are replaced by those in the Spirit Dragon stat block. It uses your Spell save DC and proficiency bonus (PB). While transformed you retain your alignment, personality, hit points, all skill and saving throw proficiencies, and your Intelligence, Wisdom, and Charisma scores. You also determine its appearance.
+
+**Temporary Hit Points.** When you transform, you gain temporary hit points equal to your Shaman level, and they last for the duration of your current transformation.
+
+**Equipment.** Any natural or unrefined equipment you are wearing or carrying, such as objects made of wood, animal parts, or other natural materials, can merge with your Spirit Dragon form. Metal or other highly processed equipment, such as metal weapons or armor, fall to the ground.
+
+**Features.** You retain the benefits of all features from your class, player race, and other sources, and can still use them if the Spirit Dragon is physically capable of doing so. However, you lose any special senses, unless it also has that sense.
+
+You can still use Totemic Assault and any abilities you gain from your Bound Totems while in your Spirit Dragon form.
+
+**Casting Spells.** You can't cast spells in your Spirit Dragon form. However, you can maintain concentration on spells or other abilities used before you transformed.
+
+**Duration & Uses.** You can remain in Spirit Dragon form for 1 minute. Your transformation ends early if you end it as a bonus action or if you are reduced to 0 hit points.
+
+You can transform into a Spirit Dragon once between each short or long rest. If you have no uses left, you can expend a Conduit Magic spell slot to transform again.
+
+\column
+
+#### Wyrmbound Spells
+2nd-level Wyrmbound Spirituality feature
+You always have certain spells prepared at the Shaman levels in the table below. The spells count as Shaman spells for you, but they do not count against the spells you prepare each day:
+
+Shaman Level|	Spell
+|:-----:|:--:|
+2nd|	chromatic orb, command
+3rd|	dragon's breath, suggestion
+5th|	fear, spectral passage
+7th|	dominate creature, polymorph
+9th|	geas, Summon Draconic Spirit
+
+
+{{monster,frame
+## Spirit Dragon
+*Large Dragon*
+___
+**Armor Class** :: 14 + PB (Natural Armor)
+**Speed**       :: 10 ft., fly 30 ft.
+___
+|  STR  |  DEX  |  CON  |
+|:-----:|:-----:|:-----:|
+|8 (-1) |18 (+4)|12 (+1)|
+___
+**Damage Resistances**:: necrotic, poison
+**Senses**:: blindsight 10 ft., darkvision 60 ft.
+**Languages**:: Draconic
+___
+***Ethereal Agility.*** Whenever the Spirit Dragon makes
+an ability check or saving throw that uses Dexterity,
+it can add your Wisdom modifier to the result.
+:
+***Serpentine.*** The thin, serpentine body of the Spirit Dragon counts as Medium for the purposes of its carrying capacity, the spaces it can move through, and all features except for the space it occupies.
+### Actions
+***Spectral Slash.*** *Melee Attack:* Spell Attack Modifier to hit, reach 5 ft., one target. *Hit:* 2d4 + Wisdom modifier necrotic
+:
+***Spirit Breath.*** The Spirit Dragon forces creatures in a 30-foot line to make a Dexterity saving throw. They suffer the effects of Totemic Assault on a failure, and take half damage from Totemic Assault on a success but suffer no additional Totemic Assault effects.
+
+}}
+
+
+#### Ancient Fury
+By 6th level, the ferocity of your Draconic Spirit has grown. Whenever you take the Attack action as a Spirit Dragon, you can make two Spectral Slash attacks instead of one. You can replace one of these attacks with your Spirit Breath.
+
+Moreover, when you use your action in Spirit Dragon form to use Totemic Assault, you can make a single Spectral Slash attack as a bonus action on that turn.
+
+#### Serpentine Speed
+At 10th level, your movements are enhanced by the power of your Draconic Spirit. You can take the Dash action as a bonus action. When you do so, opportunity attacks against you have disadvantage.
+{{pageNumber,auto}}
+\page
+#### Flawless Conduit
+At 14th level, our physical form can handle the full might of the Draconic Spirit you commune with. You can transform into your Spirit Dragon form at will. Though, you only gain the temporary hit points once per short or long rest, or if you expend a Conduit Magic spell slot to transform again.
+
+#### Exalted Spirit Dragon
+Finally at 14th level, you can draw on the full power of your Spirit Dragon, if only briefly. Once per long rest, you can transform into an Exalted Spirit Dragon for 1 minute, using the Exalted Spirit Dragon stat block on this page. Each time you transform, you choose if you become Large or Huge.
+
+additionally, while you are in your Exalted Spirit Dragon form, you can cast Shaman spells as normal.
+
+\column
+
+{{monster,frame
+## Exalted Spirit Dragon
+*Large or Huge Dragon*
+___
+**Armor Class** :: 15 + PB (Natural Armor)
+**Speed**       :: 30 ft., fly 60 ft.
+___
+|  STR  |  DEX  |  CON  |
+|:-----:|:-----:|:-----:|
+|12 (+1) |20 (+5)|16 (+3)|
+___
+**Damage Resistances**:: necrotic, poison, bludgeoning, piercing, and slashing
+**Senses**:: blindsight 20 ft., darkvision 120 ft.
+**Languages**:: Draconic
+___
+***Ethereal Agility.*** Whenever the Spirit Dragon makes
+an ability check or saving throw that uses Dexterity,
+it can add your Wisdom modifier to the result.
+:
+***Serpentine.*** The thin, serpentine body of the Spirit Dragon counts as Medium for the purposes of its carrying capacity, the spaces it can move through, and all features except for the space it occupies.
+### Actions
+***Spectral Slash.*** *Melee Attack:* Spell Attack Modifier to hit, reach 5 ft., one target. *Hit:* 2d6  + Wisdom modifier necrotic
+:
+***Spirit Breath.*** The Spirit Dragon forces all creatures in a 60-foot line or a 30-foot cone to make a Dexterity saving throw. On a failed save, they suffer the effects of your Totemic Assault. On a success, targets suffer half the damage of Totemic Assault, but not effects.
+
+}}
+
+{{imageMaskEdge8,--offset:0%,--rotation:0
+  ![](https://www.gmbinder.com/images/t4N6pzx.jpeg){height:56%}
+}}
+
+
+
+
+{{pageNumber,auto}}
+\page
+## Totem Spirits
+Below is the list of Totems that a Shaman can learn to bind wild Spirits to their will. If a Totem has a prerequisite, like a Shaman level or Sacred Focus, you can learn that Totem at the same time that you meet any prerequisites it may have.
+
+Totems use your Shaman Spell save DC for saving throws, and your Shaman level for any references to level.
+
+
+#### Spirit of the Autumn Wind
+You bind a minor Spirit of Death that comes at the changing of the seasons. When you deal damage to a creature with a weapon attack or with Totemic Assault, it cannot regain hit points until the beginning of your next turn.
+
+#### Spirit of the Bear
+You bind a minor Bestial Spirit granting you the ferocity of a bear. As a bonus action, you can sprout (or retract) ethereal claws from your fingers. Unarmed strikes with these claws use Wisdom, in place of Strength for the attack and damage rolls. On hit, they deal 1d6 slashing damage.
+
+Should you have two free hands, this d6 becomes a d8.
+
+#### Spirit of the Bog
+*Prerequisite: Mind Sacred Focus*::
+You bind a minor Spirit of Deception to guard your mind. Any attempt to read your thoughts, emotions, alignment, or target you with an Insight check or a divination spell instantly fails.
+
+You are aware that you are targeted by such an ability, but not its source, and you can allow them to work on you.
+
+#### Spirit of the Eagle
+You bind a minor Bestial Spirit which grants you the sight of the eagles. You gain proficiency in Perception, and you have advantage on Wisdom (Perception) checks that rely on sight.
+
+#### Spirit of the Earthquake
+You bind a Spirit of Earth that grants you destructive power. Once per turn when you hit with a melee weapon attack, you deal a bonus 1d6 damage of your weapon's type.
+
+This damage bonus increases at certain levels: at 5th level (1d8), 11th level (1d10), and 17th level (1d12).
+
+#### Spirit of Forest
+*Prerequisites: Heart Sacred Focus*::
+You bind a minor Woodland Spirit that allows you to converse with wild creatures in your own tongue. You are always under the effect of speak with animals while you are conscious.
+
+Starting at 7th level, you are also always under the effects of speak with plants while you are conscious.
+
+\column
+
+#### Spirit of the Harvest
+*Prerequisites: Soul Sacred Focus*::
+You bind a minor Spirit of wild growth and bounty. Each time you finish short or long rest, you instantly cast the goodberry ll spell without expending a spell slot or material components.
+
+The berries from this spell last until the end of your next short or long rest, at which point they dissolve into ash.
+
+#### Spirit of the Hound
+You bind a minor Bestial Spirit that grants you the senses of hounds. You gain proficiency in Survival and have advantage on Wisdom (Survival) checks while in natural environments.
+
+#### Spirit of the Mountain
+*Prerequisites: Body Sacred Focus*::
+You bind a minor Spirit of Earth that hardens your skin like that of solid rock. So long as you are not wearing any armor or wielding a shield, your Armor Class is equal to 13 + your Constitution modifier (minimum of 0).
+
+#### Spirit of the Panther
+You bind a minor Bestial Spirit that grants you the steps of a panther. You gain proficiency in Stealth, and have advantage on Dexterity (Stealth) checks to hide in natural environments.
+
+#### Spirit of the Squall
+You bind a minor Spirit of Air to lends deadly speed to your strikes. When you miss with a weapon attack, you can use a bonus action to make a single attack against that creature.
+
+#### Spirit of the Stream
+You bind a minor Spirit of Water that grants you a protective aqueous coating. You have advantage on any ability check or saving throw you make to resist being grappled, restrained,
+or stunned, and you can hold your breath for up to 1 hour.
+
+#### Spirit of the Rains
+You bind a minor Spirit of Water that washes toxins away like rain. You gain resistance to acid and poison damage, and you have advantage on saving throws to resist being Poisoned.
+
+#### Spirit of Twilight
+You bind a minor Spirit of Shadow that grants you enhanced sight in the darkness. You gain Darkvision out to a radius of 120 feet, within which you can see in dim light as if it were bright light, and in darkness as if it were dim light.
+
+At 7th level, you can see in magic dim light and darkness.
+{{pageNumber,auto}}
+\page
+#### Spirit of the Waves
+You bind a minor Spirit of Water that allows you to shift like the sea. Once between each short or long rest, you can use a reaction to halve one instance of damage you would take.
+
+You can use this reaction twice between each rest at 9th level, and three times between each rest at 18th level.
+
+#### Spirit of the Winds
+You bind a minor Spirit of Air that lends speed to your steps with mighty gusts. Your walking speed increases by 5 feet.
+
+This bonus to your speed increases at 5th level (10 feet), 11th level (15 feet), and finally at 17th level (20 feet).
+
+#### Spirit of the Bloom
+*Prerequisite: 5th-level Shaman, Soul Sacred Focus*::
+You bind a Spirit of Verdant Growth that enriches the lands around you. Once between each short or long rest, you can cast the plant growth spell without expending a spell slot.
+
+Starting at 9th level, the 8-hour version of the plant growth spell takes effect on the land surrounding you each time you take a long rest, unless you wish to withhold this effect.
+
+#### Spirit of Destruction
+*Prerequisite: 5th-level Shaman*::
+You bind a Spirit of the Elements to lend you its destructive power. Once per turn, when you hit with a melee attack, you can expend a Conduit Magic spell slot to deal bonus cold, fire, lightning, or thunder damage equal to 1d8 per Slot Level.
+
+#### Spirit of Growth
+*Prerequisite: 5th-level Shaman, Body Sacred Focus*::
+You bind a Spirit of Verdant Growth to temporarily increase your size. Once between each short or long rest, you can cast the 'enlarge' version of the enlarge/reduce spell, on yourself wihtout expending a spell slot or requiring concentration.
+
+#### Spirit of the Grave
+*Prerequisite: 5th-level Shaman*::
+You bind a Spirit of Death which you can summon to your service. Once per long rest, you can expend a Conduit Magic spell slot to cast animate dead ll. This Totem replaces the normal material components of the spell.
+
+At 15th level, you use this between each short or long rest.
+
+#### Spirit of Light
+*Prerequisite: 5th-level Shaman*::
+You bind a Spirit of Radiance that restores your spirit when you heal others. Whenever you restore hit points to another creature with a Shaman spell or feature you gain temporary hit points equal to your Wisdom modifier (minimum of 1).
+
+#### Spirit of Mirth
+*Prerequisite: 5th-level Shaman, Heart Sacred Focus*::
+You bind a Spirit of Revelry that grants you its vigor. Once between each short or long rest, you can use a bonus action to gain temporary hit points equal to your Shaman level.
+
+You can use this feature twice between each rest at 12th level, and three times between each rest at 18th level.
+
+#### Spirit of Secrets
+*Prerequisite: 5th-level Shaman, Mind Sacred Focus*::
+You bind a Spirit of Knowledge that lets peer into the minds of others. Once between each short or long rest, you can cast the detect thoughts spell without expending a spell slot, or the normal verbal or somatic components of the spell.
+
+#### Spirit of the Swamp
+*Prerequisite: 5th-level Shaman*::
+You bind a Spirit of Disease to poison foes. When a creature fails its saving throw against Totemic Assault, you can reduce the damage by 1d8 and cause the target to be Poisoned
+until the beginning of your next turn.
+
+#### Spirit of the Wilds
+*Prerequisite: 5th-level Shaman*::
+You bind a Spirit of the Wilderness which you can call to your aid. Once per long rest, you can expend a Conduit Magic spell slot to cast the conjure beast ll spell. Its Totem replaces the normal material components of this spell.
+
+At 15th level, you use this between each short or long rest.
+
+#### Spirit of Wrath
+*Prerequisite: 5th-level Shaman*::
+You bind a Spirit of Anger which you unleash upon your foes. You can add your Wisdom modifier (a minimum of +1) to the damage roll of Totemic Assault when a creature fails its save.
+
+{{pageNumber,auto}}
+\page
+#### Spirit of Blight
+*Prerequisite: 7th-level Shaman*::
+You bind a minor Spirit of Disease to infect foes. When you cast a Shaman spell or use Totemic Assault, you can choose for it to deal poison damage in place of its normal damage.
+
+If you deal poison damage with Totemic Assault, you can reduce its damage by 1d8 and force the creature to make a Constitution saving throw instead of Charisma. On a failed save, it is blinded until the beginning of your next turn.
+
+#### Spirit of Corrosion
+*Prerequisite: 7th-level Shaman*::
+You bind a minor Spirit of Entropy to dissolve foes. When you cast a Shaman spell or use Totemic Assault, you can cause it to deal acid damage in place of its normal damage.
+
+When you deal acid damage with Totemic Assault, you can reduce the damage by 1d8 to reduce the target's Armor Class is by 2 (to a minimum of 10) until the start of your next turn.
+
+#### Spirit of Drought
+*Prerequisite: 7th-level Shaman*::
+You bind a minor Spirit of Fire to burn your foes. When you cast a Shaman spell or use Totemic Assault, you can choose for it to deal fire damage in place of its normal damage.
+
+When you deal fire damage with Totemic Assault, you can reduce the damage by 1d8 to cause all targets within 5 feet of the target to take fire damage equal to your Wisdom modifier.
+
+#### Spirit of Frost
+*Prerequisite: 7th-level Shaman*::
+You bind a minor Spirit of Ice to freeze your foes. When you cast a Shaman spell or use Totemic Assault, you can choose for it to deal cold damage in place of its normal damage.
+
+If you deal cold damage with Totemic Assault, you can reduce its damage by 1d8 and force the creature to make a Strength saving throw instead of Charisma. On a failure, its
+    speed is reduced to 0 until the start of your next turn.
+#### Spirit of the Hunt
+*Prerequisite: 7th-level Shaman*::
+You bind a Spirit of the Wild Hunt to enhance your ferocity in battle. Once per turn, when you attack a target that is within 5 feet of one of your allies, you have advantage on your roll.
+
+\column
+
+#### Spirit of Lightning
+*Prerequisite: 7th-level Shaman*::
+You bind a minor Spirit of Storms to assault foes. When you cast a Shaman spell or use Totemic Assault, you can cause it to deal lightning damage in place of its normal damage.
+
+When you deal lighting damage with Totemic Assault, the creature can't take reactions until the start of your next turn.
+
+
+#### Spirit of the Ooze
+*Prerequisite: 7th-level Shaman*::
+You bind a Spirit of Water that allows your body to flow like water. As a bonus action, you can cause your body to become pliable (or return to normal). In this state, you can expend 5 feet of movement to automatically escape from non-magical restraints or grapples, and you can move through spaces as narrow as 1 inch without having to squeeze.
+
+
+#### Spirit of the River
+*Prerequisite: 7th-level Shaman*::
+You bind a Spirit of Water that allows you to live underwater. You can breathe both air and water, and you gain a swimming speed equal to your walking speed.
+
+
+
+#### Spirit of Servitude
+*Prerequisite: 7th-level Shaman*::
+You bind a minor Spirit of Loyalty to serve you in all things. The Totem you bind this Spirit to is always under the effects of the tiny servant XGE spell. Should the Totem be reduced to zero hit points, it regenerates at the end of your next rest.
+
+
+
+
+{{pageNumber,auto}}
+\page
+
+#### Spirit of the Cave
+*Prerequisite: 9th-level Shaman*::
+You bind a Spirit of Earth that lends you its connection to the ground. While you are touching the ground with a bare feet or hand, you gain tremorsense out to a 30-foot radius, allowing
+  you to sense the presence of any creatures or objects that
+      are touching the ground within the area.
+      
+####  Spirit of the Dawn
+*Prerequisite: 9th-level Shaman*::
+You bind a Spirit of Life which can shield mortals from death. At the end of each long rest, you cast the death ward ll spell on one creature you touch, without expending a spell slot.    
+
+
+#### Spirit of Dread
+*Prerequisite: 9th-level Shaman, Mind Sacred Focus*::
+You bind a sinister Spirit of Fear to unleash upon your foes. When you use Totemic Assault, you can force the creature to make an Intelligence saving throw in place of Charisma. On a failure, you can reduce the damage by 2d8 to cause the target to be Frightened of you until the start of your next turn.
+
+#### Spirit of Harmony
+*Prerequisite: 9th-level Shaman, Soul Sacred Focus*::
+You bind a Spirit of Friendship which calms your foes. When a creature fails its saving throw against Totemic Assault, you can choose to deal no damage and instead inflict the effects of the calm emotions spell until the start of your next turn.
+
+
+#### Spirit of Midnight
+*Prerequisite: 9th-level Shaman*::
+You bind a sinister spirit which you can call to you. Once per long rest, you can expend a Conduit Magic spell slot to cast the summon shadowspawn TCE spell. Its Totem replaces the normal material components of this spell.
+
+At 15th level, you use this between each short or long rest.
+
+
+#### Spirit of the Rockslide
+*Prerequisite: 9th-level Shaman, Body Sacred Focus*::
+You bind a Spirit of Elemental Destruction to crush your foes. Whenever you use Totemic Assault, you can force the target to make a Strength saving throw in place of Charisma. On a failed save, the target suffers the normal damage of Totemic Assault and is knocked prone.
+
+
+
+#### Spirit of Serenity
+*Prerequisite: 9th-level Shaman, Heart Sacred Focus*::
+You bind a Spirit of Serenity to still your inner self. Whenever you are forced make a saving throw to resist being Charmed or Frightened, or to resist the effects of an enchantment spell, you have advantage on your roll.
+
+
+#### Spirit of Sunlight
+*Prerequisite: 9th-level Shaman*::
+You bind a Spirit of Radiance to help you find success when you fail. Once per long rest when you fail a saving throw, you can choose to re-roll, possibly turning failure into success.
+
+At 15th level you can do so twice between each long rest.
+
+#### Spirit of Vengeance
+*Prerequisite: 9th-level Shaman*::
+You bind a vengeful Fey Spirit which you can call to your aid. Once per long rest, you can expend one Conduit Magic spell slot to cast the conjure fey ll spell. This Totem replaces the normal material components of this spell.
+
+At 15th level, you use this between each short or long rest.
+
+
+
+#### Spirit of the Vine
+*Prerequisite: 9th-level Shaman*::
+You bind a Spirit of Growth which lends you its wild power to restrain your foes. You can cast the ensnaring strike ll spell at 1st-level, at will, without expending a spell slot.
+
+
+{{pageNumber,auto}}
+\page
+
+
+#### Spirit of Awakening
+*Prerequisite: 15th-level Shaman, Mind Sacred Focus*::
+You bind an ancient Spirit of Ascended Consciousness. You can sense the presence of any creature within 120 feet of you so long as it has an Intelligence of 4 or higher. You can also
+    communicate telepathically with these creatures.
+
+#### Spirit of Bedrock
+*Prerequisite: 15th-level Shaman, Body Sacred Focus*::
+You bind an ancient Spirit of Earth which infuses your body with its resilience. Whenever you take damage, you reduce it by your Wisdom modifier (minimum of 1). Any force, necrotic, psychic, thunder, or radiant damage ignores this feature.
+
+#### Spirit of Binding
+*Prerequisite: 15th-level Shaman*::
+You can quickly bind a natural Spirit to regain some of your lost power. Once between each long rest, you can use your action to regain one expended Conduit Magic spell slot.
+
+#### Spirit of the Eclipse
+*Prerequisite: 15th-level Shaman*::
+You bind a powerful Spirit of Darkness that wards you from the arcane. You gain resistance to all damage from spells.
+
+#### Spirit of the Elements
+*Prerequisite: 15th-level Shaman*::
+You bind a powerful Elemental Spirit to you. Once between each short or long rest, you can expend a Conduit Magic spell slot to cast the conjure elemental ll spell. Its Totem replaces the normal material components of this spell.
+
+#### Spirit of the Guardian
+*Prerequisite: 15th-level Shaman*::
+You bind a powerful Guardian Spirit to come to your defense. Once per short or long rest, you can expend a Conduit Magic spell slot to cast the create construct ll spell as an action. This Totem replaces the normal material components of this spell.
+
+When you cast create construct ll in this way, it crumbles into dust and stone after 1 hour.
+
+#### Spirit of Judgment
+*Prerequisite: 15th-level Shaman*::
+You bind a heavenly spirit which comes to your aid. Once per short or long rest, you can expend a Conduit Magic spell slot to cast the conjure celestial ll spell. Its Totem replaces the normal material components of this spell.
+
+\column
+
+#### Spirit of Peace
+*Prerequisite: 15th-level Shaman, Soul Sacred Focus*::
+You bind an ancient Spirit of Life which deters your enemies. At the end of each short or long rest, you gain the benefits of the sanctuary spell, which last until the end of your next short or long rest, or until you break the spell as normal.
+
+#### Spirit of Purgation
+*Prerequisite: 15th-level Shaman*::
+You bind an infernal spirit to unleash on your foes. Once per short or long rest, you can expend a Conduit Magic spell slot to cast the conjure fiend ll spell, using its Totem in place of the spell's normal material components.
+
+#### Spirit of Majesty
+*Prerequisite: 15th-level Shaman, Heart Sacred Focus*::
+You bind an ancient Fey Spirit of royalty that you can unleash to humble your enemies. As an action, you force creatures of your choice within 30 feet that can see or hear you to make a Wisdom saving throw. On a failure, they instantly fall prone. Creatures immune to the Charmed condition have advantage on this Wisdom saving throw.
+
+You can use this feature once per long rest at no cost, but you can expend a Conduit Magic spell slot to use it again.
+
+#### Spirit of the Sapling
+*Prerequisite: 15th-level Shaman*::
+You bind a powerful Spirit of Verdant Growth which blesses your body with wondrous regeneration. If you begin your turn with less than half your hit points, but at least 1 hit point, you instantly regain hit points equal to your Wisdom modifier.
+
+#### Spirit of the Skies
+*Prerequisite: 15th-level Shaman*::
+You bind a powerful Spirit of Air which propels you through the skies. You gain a flying speed equal to your walking speed. Whenever you take falling damage, you reduce the damage by an amount equal to your Shaman level.

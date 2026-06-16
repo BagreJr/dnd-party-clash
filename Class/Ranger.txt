@@ -1,0 +1,2754 @@
+```metadata
+title: Ranger
+description: ''
+tags: []
+renderer: V3
+theme: 5ePHB
+
+```
+
+```css
+.page{
+	width  : 210mm;
+	height : 296.3mm;
+}
+
+css
+
+.page .columnWrapper {
+	height: 100%
+}
+
+.page .toc.wide {
+	columns: 1;
+	height: 100%;
+}
+
+.page .toc > ul > li {
+	font-weight:100;
+	margin-bottom:-2.1px;
+
+}
+
+.page .toc ul ul {
+	margin-left: 0;
+	font-weight: 50;
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+```
+
+{{frontCover}}
+
+{{logo ![](/assets/naturalCritLogoRed.svg)}}
+
+# Ranger
+
+![background image](https://assetsio.gnwcdn.com/dungeons-and-dragons-art-22.jpg?width=1920&height=1920&fit=bounds&quality=80&format=jpg&auto=webp){position:absolute,bottom:0,left:-1050px,height:100%}
+
+\page
+{{toc,wide
+  - #### [{{ Ranger}}{{ 3}}](#p3)
+    -  [{{ Defenders of Balance}}{{ 3}}](#p3)
+    -  [{{ Prepared for Anything}}{{ 3}}](#p3)
+    -  [{{ Creating Your Ranger}}{{ 3}}](#p3)
+  - #### [{{ Class Features}}{{ 4}}](#p4)
+    -  [{{ Survivalist Knacks}}{{ 5}}](#p5)
+    -  [{{ Wilderness Expertise}}{{ 5}}](#p5)
+    -  [{{ Fighting Style}}{{ 5}}](#p5)
+    -  [{{ Spellcasting}}{{ 6}}](#p6)
+    -  [{{ Favored Foe}}{{ 6}}](#p6)
+    -  [{{ Ranger Archetype}}{{ 6}}](#p6)
+    -  [{{ Ability Score Improvement}}{{ 6}}](#p6)
+    -  [{{ Extra Attack}}{{ 6}}](#p6)
+    -  [{{ Adaptable}}{{ 6}}](#p6)
+    -  [{{ Feral Senses}}{{ 6}}](#p6)
+    -  [{{ Foe Slayer}}{{ 6}}](#p6)
+  - #### [{{ Ranger Archetype}}{{ 7}}](#p7)
+  -  [{{ Beastborne}}{{ 7}}](#p7)
+  -  [{{ Beast Master}}{{ 8}}](#p8)
+  -  [{{ Bounty Hunter}}{{ 9}}](#p9)
+  -  [{{ Buccaneer}}{{ 10}}](#p10)
+  -  [{{ Crystal Guardian (Exclusive)}}{{ 11}}](#p11)
+  -  [{{ Deadeye Sniper}}{{ 12}}](#p12)
+  -  [{{ Death hunter}}{{ 13}}](#p13)
+  -  [{{ Drakewarden}}{{ 14}}](#p14)
+  -  [{{ Druidic Guardian}}{{ 15}}](#p15)
+  -  [{{ Dunestrider}}{{ 16}}](#p16)
+  -  [{{ Fey Wanderer}}{{ 16}}](#p16)
+  -  [{{ Freerunner}}{{ 17}}](#p17)
+  -  [{{ Gloom Stalker}}{{ 18}}](#p18)
+  -  [{{ Grim Warden}}{{ 19}}](#p19)
+  -  [{{ Horizon Walker}}{{ 19}}](#p19)
+  -  [{{ Highwayman}}{{ 20}}](#p20)
+  -  [{{ Hunter}}{{ 21}}](#p21)
+  -  [{{ Monster Slayer}}{{ 22}}](#p22)
+  -  [{{ Ninth House Guardian}}{{ 22}}](#p22)
+  -  [{{ Nomad}}{{ 23}}](#p23)
+  -  [{{ Reconnaissance Scout}}{{ 24}}](#p24)
+  -  [{{ Ronin}}{{ 25}}](#p25)
+  -  [{{ Skysworn}}{{ 26}}](#p26)
+  -  [{{ Slime Rancher}}{{ 27}}](#p27)
+  -  [{{ Shadowbane}}{{ 29}}](#p29)
+  -  [{{ Spiritbound}}{{ 29}}](#p29)
+  -  [{{ Spellbreaker}}{{ 30}}](#p30)
+  -  [{{ Stargazer}}{{ 31}}](#p31)
+  -  [{{ Stormchaser}}{{ 32}}](#p32)
+  -  [{{ Swarmkeeper}}{{ 33}}](#p33)
+  -  [{{ Torturer Conclave}}{{ 34}}](#p34)
+  -  [{{ Trapper}}{{ 36}}](#p36)
+- ###### [{{ Ranger Traps}}{{ 38}}](#p38)
+  -  [{{ Vigilante}}{{ 40}}](#p40)
+  -  [{{ Wrangler}}{{ 41}}](#p41)
+- ### [{{ Survivalist Knacks}}{{ 42}}](#p42)
+}}
+
+
+
+
+
+\page
+## Ranger
+As the graying man made his
+way through the underbrush of the
+forest his faded green cloak made him
+nearly invisible. The monstrously large
+troll he had been stalking through the
+night had finally stopped to rest. As the
+great brute lay down to sleep, the silent
+green shape emerged from the trees to
+snuff out the life of the hideous monster.
+As the massive blue dragon descended
+upon the small town, a small half-elven man
+rolled out of the path of a blast of lightning.
+With the small hairs on the back of their neck
+still standing up from the residual electricity,
+the practiced hunter knocked an arrow and let
+it fly in the direction of the terrible beast. As the
+dart struck true, the dragon let out a horrible roar and
+plummeted to the ground where it lay in a broken heap.
+As the massive owlbear slowly lumbered toward the tiny
+hamlet that she called home, a small halfling girl whistled to
+her companion in the brush. At her signal, a giant hound that
+seemed to be more fur than anything else leaped out from
+hiding and stood defiantly in front of the owlbear. Distracted
+by her partner, the owlbear was caught completely unawares
+by the diminutive ranger. Once their foe was unconscious, the
+halfling and her dog released the great owlbear miles away
+where it could live without menacing the town they protected.
+The three adventurers described above are considered
+Rangers, wild warriors and defenders of the natural world.
+### Defenders of Balance
+Rangers spend their lives between two worlds. On one hand,
+they stand as guardians of civilization, protecting those who
+dwell on the edges of society. On the other, rangers are expert
+survivalists, deeply acquainted with the flora and fauna of the
+natural world. Rangers protect the balance between society
+and the wilderness. When a wild creature wanders from its
+natural habitat, Rangers will track it down before they can
+harm innocent farmers and travelers. When people encroach
+upon the wilderness, Rangers will push back against industry
+and expansion that doesn't respect the natural balance.
+Rangers dedicate their lives to guarding the places where
+civilization and the wilderness meet, never fully joining either
+of the worlds that they spend their lives defending.
+
+\column
+
+### Prepared for Anything
+Ready to face any challenge, Rangers are survivalists at their
+core. The wilderness is a harsh place, and those who cannot
+adapt to their surroundings die. In the wild, Rangers learn to
+be adaptable. Drawing on their knowledge of the natural
+world, their connection to primal magic and the skills passed
+down to them by their mentors, there is rarely a challenge a
+Ranger cannot overcome with enough time to prepare.
+Each Ranger has their own philosophy on how they fit into
+the interconnected web that is the natural world. Some view
+themselves as apex predators, using their marital skills and
+ruthless hunting abilities to keep the wild in line. Others see
+themselves as humble servants of nature that serve the wild.
+
+### Creating Your Ranger
+Consider the nature of your Ranger's training. Did you train
+with a mentor, wandering the wilds together, learning all you
+could? Or did you forge your primal connection to the natural
+world on your own? What is it that motivates your Ranger?
+Do you have a vendetta against a certain type of monster? Are
+you a warrior of the wild who feels more comfortable in the
+silence of the forest than in city streets or sleepy towns?
+No matter their origin, almost all Rangers take up a life of
+adventuring to impart their knowledge of the wild to the next
+generation. Often, in their later years, these wild warriors will
+take on an apprentice, passing on all they know and so that
+the safety of the wilderness is secured for years to come.
+#### Quick Build
+You can make a Ranger quickly by using these suggestions.
+First, make Dexterity your highest ability score, followed by
+your Wisdom. Second, choose the outlander background.
+
+
+
+
+{{pageNumber,auto}}
+\page
+
+{{classTable,frame,decoration,wide
+##### The Ranger
+| Level | Proficiency | Features     | Favored| --- Spell Slots Per Spell Level ---||||| Knacks   |
+|      ^| Bonus      ^|             ^| Foe    |1st |2nd |3rd |4th |5th | Known    |
+|:-----:|:-----------:|:-------------|:------:|:--:|:--:|:--:|:--:|:--:|:--------:|
+|  1st  | +2 | Survivalist Knacks, Wilderness Expertise    |   —    | —  | —  | —  | —  | —  |    2     |
+|  2nd  | +2 | Fighting Style, Favored Foe, Spellcasting |   d4    | 2  | —  | —  | —  | —  |    2     |
+|  3rd  | +2 | Ranger Archetype     |   d4    | 4  | —  | —  | —  | —  |    3     |
+|  4th  | +2 | Ability Score Improvement         |   d4    | 4  | —  | —  | —  | —  |    3     |
+|  5th  | +3 | Extra Attack       |   d4    | 4  | 3  | —  | —  | —  |    3     |
+|  6th  | +3 | Favored Foe Improvement     |   d6    | 4  | 3  | —  | —  | —  |    4     |
+|  7th  | +3 | Ranger Archetype Feature  |   d6    | 4  | 3  | —  | —  | —  |    4     |
+|  8th  | +3 | Ability Score Improvement  |   d6    | 4  | 3  | —  | —  | —  |    4     |
+|  9th  | +4 | Wilderness Expertise |   d6    | 4  | 3  | 2  | —  | —  |    5     |
+| 10th  | +4 | Favored Foe Improvement   |   d8    | 4  | 3  | 2  | —  | —  |    5     |
+| 11th  | +4 | Adaptable, Ranger Archetype Feature       |   d8    | 4  | 3  | 3  | —  | —  |    5     |
+| 12th  | +4 | Ability Score Improvement     |  d8    | 4  | 3  | 3  | —  | —  |    6     |
+| 13th  | +5 | ─      |   d8    | 4  | 3  | 3  | 3  | —  |    6     |
+| 14th  | +5 | Favored Foe Improvement   |   d10    | 4  | 3  | 3  | 3  | —  |    7     |
+| 15th  | +5 | Ranger Archetype Feature     |   d10    | 4  | 3  | 3  | 3  | —  |    7     |
+| 16th  | +5 | Ability Score Improvement       |   d10    | 4  | 3  | 3  | 3  | —  |    8     |
+| 17th  | +6 | Favored Foe Improvement     |   d10    | 4  | 3  | 3  | 3  | 1  |    8     |
+| 18th  | +6 | Feral Senses  |   d12    | 4  | 3  | 3  | 3  | 1  |    9     |
+| 19th  | +6 | Ability Score Improvement     |   d12    | 4  | 3  | 3  | 3  | 2  |    9     |
+| 20th  | +6 | Foe Slayer       |   d12    | 4  | 3  | 3  | 3  | 2  |    10    |
+}}
+
+## Class Features
+
+#### Hit Points
+**Hit Dice:**                    :: 1d10 per ranger level
+**Hit Points at 1st Level:**     :: 10 + your Constitution modifier
+**Hit Points at Higher Levels:** :: 1d10 (or 6) + your Constitution modifier per ranger level after 1st
+
+#### Proficiencies
+**Armor:**   :: Light armor, medium armor, shields
+**Weapons:** :: Simple weapons, martial weaponss
+**Tools:**   :: None
+
+**Saving Throws:** :: Strength, Dexterity
+**Skills:**        :: Choose three from Animal Handling, Athletics,History, Insight, Investigation, Medicine, Nature,Perception, Stealth, and Survival
+
+#### Equipment
+You start with the following equipment, in addition to the equipment granted by your background:
+- (a) chain shirt and a shield or (b) leather armor 
+- (a) two shortswords or (b) two simple melee weapons 
+- (a) a longbow and 20 arrows or (b) a martial weapon 
+- (a) a dungeoneer's pack or (b) an explorer's pack
+
+
+
+{{imageMaskEdge1,--offset:2%,--rotation:270
+  ![](https://i0.wp.com/dmdave.com/wp-content/uploads/2019/03/shutterstock_1195843726-3715553856-1552621307563.jpg?w=983&ssl=1p){height:100%}
+}}
+![Lady Ginebra](https://i.imgur.com/XOzwVPC.png) {width:465px,position:absolute,bottom:0px,left:420px}
+
+{{artist,position:absolute,top:1000px,left:310px,margin-bottom:-30px
+##### Lady Ginebra
+}}
+
+
+{{pageNumber,auto}}
+\page
+### Survivalist Knacks
+In the wild, you have gathered bits of primal knowledge that bolster your exploration, hunting, and tracking skills, known as Survivalist Knacks. At 1st level, you learn two Knacks of your choice from the list at the end of this class description.
+
+You learn additional Knacks as you gain Ranger levels, as shown in the Knacks Known column on the Ranger table.
+
+Each time you gain a level in this class, you can choose one Survivalist Knack you know and replace it with another Knack of your choice for which you meet the prerequisites.
+
+### Wilderness Expertise
+Your skill in the wild is without peer. At 1st level, choose one of your skill proficiencies you gained from the Ranger class skill list. Your proficiency bonus is doubled for any ability check you make that uses that skill. You also learn to speak, read, and write one additional language of your choice. Most Rangers learn the language spoken by the enemies they hunt.
+At 9th level, you select another Ranger class skill you are proficient in to gain the benefits of this feature, and you learn to speak, read, and write another language of your choice.
+
+
+### Fighting Style
+Your skill in battle surpasses that of most warriors. At 2nd level, you gain a Fighting Style of your choice from the list below. You can't learn a Fighting Style more than once, even if another feature allows you to learn another Fighting Style.
+
+#### Archery
+You gain a +2 bonus to attack rolls with ranged weapons.
+#### Defensive Fighting
+While wearing armor or wielding a shield, you gain a +1 bonus to your Armor Class.
+#### Druidic Warrior
+You learn two cantrips of your choice from the Druid spell list. They count as Ranger spells for you, and Wisdom is your spellcasting ability for them. Whenever you gain a level in this class, you can replace one of these cantrips with another cantrip of your choice from the Druid spell list.
+#### Dual Wielding
+When you take the Attack action while two-weapon fighting, you can make a single additional attack with your off-hand weapon as part of your action instead of your bonus action, adding your ability modifier to the damage of this attack.
+
+
+
+#### Dueling
+When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with it.
+#### Featherweight Fighting
+While you are wielding only light weapons and nothing else, your speed increases by 10 feet and you gain a +1 bonus to damage rolls with your light weapons, so long as you are not wearing medium or heavy armor, or wielding a shield.
+#### Marine Fighting
+So long as you are not wearing medium or heavy armor, or wielding a shield, you have a swimming speed equal to your walking speed, and you gain a +1 bonus to your Armor Class.
+#### Melee Marksman
+Having a hostile creature within 5 feet of you doesn't impose disadvantage on your ranged weapon attacks, so long as you are attacking a creature within 5 feet. 
+
+When you make a ranged weapon attack against a creature within 5 feet, you can use your bonus action to make a melee attack against it with your ranged weapon. On hit, you deal bludgeoning damage equal to 1d4 + your Strength modifier.
+
+#### Mountaineer
+When you are not wearing medium or heavy armor or using a shield, you have a climbing speed equal to your walking speed, and you gain a +1 bonus to your Armor Class.
+#### Mounted Warrior
+While you are riding a controlled mount, both you and your mount gain a +1 bonus to your Armor Class, and you can use a bonus action on your turn to command your mount to take one action from its stat block.
+#### Strongbow
+You can use your Strength score, in place of Dexterity, for your attack and damage rolls with longbows and shortbows.
+#### Thrown Weapon Fighting
+You can draw a weapon that has the thrown property as part of the attack you make with the weapon. Moreover, whenever you hit with a ranged weapon attack using a thrown weapon, you gain a +2 bonus to the damage roll of that attack.
+#### Unarmed Fighting
+Your unarmed strikes can deal bludgeoning damage equal to 1d6 + your Strength modifier on a hit. If you have two free hands when you make the attack roll, the d6 becomes a d8. At the beginning of each of your turns, you can deal 1d4 bludgeoning damage to one creature you are grappling.
+#### Versatile Fighting
+While wielding a single versatile weapon and no shield, you can choose to wield your weapon one or two-handed until the start of your next turn. When wielding it one-handed you gain a +1 bonus to attack rolls and to your Armor Class. When wielding it two-handed you gain a +2 bonus to your damage rolls.
+{{pageNumber,auto}}
+\page
+
+### Spellcasting
+Also at 2nd level, you learn to draw upon the primal magic of the natural world to enhance your survival and combat skills.
+#### Preparing and Casting Spells
+The Ranger table above shows how many spell slots you have to cast spells. To cast a Ranger spell of 1st-level or higher, you must expend a slot of the spell's level or higher. You regain all of your expended spell slots when you finish a long rest.
+At the end of each long rest, you prepare a list of spells that are available for you to cast. Choose a number of spells equal to your Wisdom modifier + half Ranger level, rounded down. The spells must all be from the Ranger spell list at the end of this class, and be of a level for which you have spell slots.
+For example, as a 5th level ranger with 14 Wisdom, you can prepare any four spells of 1st or 2nd-level and cast each spell any number of times by using a 1st or 2nd-level slot.
+#### Spellcasting Ability
+Wisdom is your spellcasting ability for Ranger spells as you draw magic from your connection to nature. You use your Wisdom when a Ranger spell refers to your spellcasting ability, and you use your Wisdom modifier whenever you set the saving throw DC or make a spell attack roll for one of your Ranger spells.
+
+{{text-align:center
+**Spell save DC**:: = 8 + your proficiency bonus + your Wisdom modifier
+
+**Spell attack modifier**:: = your proficiency bonus + your Wisdom modifier
+}}
+
+#### Spellcasting Focus
+You can use a druidic focus as a spellcasting focus for your ranger spells. See the Player’s Handbook for examples.
+
+#### Ritual Casting
+Your knowledge of the natural world allows you to draw out its innate magic. You can cast any Ranger spell that you have prepared as a ritual so long as that spell has the ritual tag.
+
+### Favored Foe
+You hunt as the creatures of the wild. Beginning at 2nd level, you can use a bonus action to mark a creature you can see as your Favored Foe, granting you the benefits below for 1 hour, until the creature is slain, or you mark another creature:
+
+Each time you hit the creature with a weapon attack you deal bonus damage equal to your Favored Foe die. This die begins as d4 and changes as you gain Ranger levels,
+as shown in the Favored Foe column of the Ranger table. You have advantage on Wisdom (Perception) and Wisdom (Survival) checks you make to locate or track the creature. You can mark a creature this way a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a long rest. If you have no uses of this feature remaining, you can expend a spell slot of 1st-level or higher to use this feature one additional time.
+At certain Ranger levels, the duration of your Favored Foe mark increases: at 6th level (8 hours), 10th level (24 hours), 14th level (1 week), and finally at 17th level (indefinite).
+
+
+
+### Ranger Archetype
+At 3rd level, you choose an Archetype from the list below that best represents the training and skills of your Ranger.
+The Ranger Archetype you choose grants you features at 3rd level, and again when you reach 7th, 11th, and 15th level.
+
+#### Archetype Spells
+Each Ranger Archetype has a list of Archetype Spells that you always have prepared once you reach the Ranger levels noted in your Archetype's description. Your Archetype Spells count as Ranger spells for you, but they do not count against your total number of spells that you can prepare each day.
+
+### Ability Score Improvement
+When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or two ability scores by 1. As normal, you can't increase one of your ability scores above 20 using this feature.
+### Extra Attack
+Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn. Moreover, if you use your action to cast a Ranger spell, you can make one weapon attack as a bonus action on that turn.
+### Adaptable
+Your time in the wilderness has taught you that anything that doesn't change dies. Starting at 11th level, when you finish a long rest, you can replace one Knack you know with another Knack of your choice, so long as you meet its prerequisites.
+### Feral Senses
+You hunt as an apex predator, never losing track of your prey. Starting at 18th level, you cannot have disadvantage on any attack roll you make that targets a creature within 30 feet of you or a creature that is marked as your Favored Foe.
+
+### Foe Slayer
+You are a Ranger of mythic skill, rivaling the great huntsmen of legend. At 20th level, when you hit your Favored Foe with a weapon attack, you can immediately end the mark and cause that attack to deal maximum damage instead of rolling. 
+
+If the damage from this attack reduces the target to 50 hit points or fewer, it is instantly reduced to 0 hit points.
+
+Once you use this feature you must finish a short or long rest before you can use it again.
+{{pageNumber,auto}}
+\page
+## Ranger Archetype
+
+### Beastborne
+Whether by infected bite or insidious curse, your blood was marked by the indelible stain of beasthood, a curse of lycanthropy. A new form, a primal, bestial self lies just beneath your skin, awaiting the allure of blood and the thrill of a hunt to emerge in a terrible spectacle. Perhaps, if you can avoid the violence of combat or the siren call of moonlight, you can resist the lycanthropic urge. Or perhaps you see the infection as a blessing, a fearsome weapon, with claws that rend and teeth that bite.
+
+
+#### Beastborne Spells
+You always have the spells from the table below prepared once you reach certain levels in this class. See the Ranger Archetype class feature for how Archetype Spells work.
+|Ranger Level| Spell|
+|:---------:|:------------:|
+3rd |beast bond, longstrider
+5th |barkskin, locate animal or plants
+9th |conjure animals, plybrachia
+13th |dominte besat, polymorph
+17th |commune with nature, steel wind strike 
+
+
+
+
+#### Shapechanger
+Beginning when you choose this archetype at 3rd level, your body is stained by a lycanthropic curse, which struggles to escape from you at all times. You gain the shapechanger subtype; your true form is a ghastly hybrid of beast and man. Additionally, you gain the following abilities:
+
+**Darkvision.** You gain darkvision out to a range of 60 feet. If you already have darkvision from your race, its range increases by 30 feet.
+
+**Keen Smell.** You have advantage on Wisdom (Perception) checks that rely on smell.
+
+\column
+#### Bestial Aspect
+At 3rd level, as blood is shed, you gradually lose control and slip into a beastlike form, ravenous and hungry for carnage. Whenever you take damage or deal damage to a hostile creature with an attack, add the total number together; this is your damage pool. You gain a bonus to your damage rolls, as well as additional beastlike abilities, according to your total damage pool, as shown on the Bestial Aspect table.
+
+After 1 minute of taking and dealing no damage, reset your damage pool to 0.
+
+
+#### Wolfbane Fury
+Starting at 7th level, you can whip yourself into a lycanthropic fury. As a bonus action, you can roll 4d6 and add the total to your damage pool.
+
+Once you use this ability, you can’t use it again until you finish a short or long rest.
+#### Howling Carnage
+Beginning at 11th level, whenever your damage pool exceeds 50, you attack three times with your claws, instead of twice, whenever you take the Attack action on your turn.
+#### Relentless Bloodlust
+By 15th level, not even death can hold back your transformation. When you are reduced to 0 hit points and are not killed outright, you can choose to drop to 1 hit point instead. Add the total damage you would have taken to your damage pool. Once you use this ability, you can’t use it again until you finish a long rest.
+
+{{wide,descriptive
+##### Bestial Aspect
+|Damage | Damage| |
+|Pool | Bonus| Ability|
+|:---------:|:------------:|:------------:|
+0 |—| —
+10| +2| You sprout a set of vicious claws, which are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.
+20| +2| You gain resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons that aren’t silvered.
+30| +2| Your movement speed increases by 10 feet.
+40| +3| You gain blindsight with a range of 10 feet.
+50| +3| You gain a climbing speed equal to your movement speed.
+70| +3| Your movement speed increases by an additional 10 feet (20 feet total).
+100| +3| Your claws deal an additional 1d6 slashing damage on a hit.
+}}
+
+{{pageNumber,auto}}
+\page
+### Beast Master
+Some Rangers that develop intense bonds with nature have been known to attract the attention of guardian spirits known as Primal Beasts. Primal Beasts fight side by side with their partners, changing their shape to face the challenge at hand.
+
+
+#### Beast Master Spells
+You always have the spells from the table below prepared
+once you reach certain levels in this class. See the Ranger
+Archetype class feature for how Archetype Spells work.
+|Ranger Level| Spell|
+|:---------:|:------------:|
+3rd |beast bond, speak with animals
+5th |beast sense, warding bond
+9th |haste, protection from energy
+13th |death ward, freedom of movement
+17th |awaken, commune with nature
+
+
+#### Primal Companion
+At 3rd level, You have formed a bond with a Primal Beast. You choose its stat block from one of the options at the end of this class: the Beast of the Cave, Land, Sea, or Sky. The Primal Beast stat blocks use your proficiency bonus (PB) in several places.
+
+The Primal Beast is friendly to you and your allies and obeys your commands. In combat, it acts on your turn. It can move and use its reaction on its own, but it can only take the Dodge action unless you use a bonus action to order it to take an action from its stat block, or another combat action. If you are incapacitated, your Primal Beast can act on its own.
+
+If your Primal Beast has died within the last hour, you can use your action to touch it and expend a spell slot of 1st-level or higher to return it to life with its maximum hit points.
+
+During a long rest, you can spend 1 hour performing a ritual that causes your Primal Beast to take on a new form, choosing a new stat block and appearance for it.
+#### Exceptional Training
+At 7th level, As a reaction, you and your Primal Beast can grant the other advantage on any saving throw they are forced to make, so long as you can see and are within 30 feet of each other.
+
+Also, your Beast's attacks count as magical for the sake of overcoming resistance and immunity to non-magical attacks.
+#### Bestial Fury
+At 11th level, When you command your Beast to take the Attack action, it can make two natural weapon attacks as part of that action.
+#### Primal Bond
+At, level 15th The bond with your Primal Beast has reached its apex. When you cast a Ranger spell that targets yourself, your Beast also gains the benefits as long as it is within 30 feet of you.
+
+{{monster,frame
+## Beast of the Cave
+*Medium Beast, Neutral*
+___
+**Armor Class**:: 13 + PB (natural armor)
+**Hit Points**:: 5 + five times your Ranger level (your Primal Beast has a number of d8 Hit Dice equal to your Ranger level)
+**Speed**:: 30 ft., burrow 10 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|14 (+2)|14 (+2)|13 (+1)|8  (-1)|14 (+2)|11 (+0)|
+___
+**Senses**               :: darkvision 120 ft., passive Perception 12
+**Languages**            :: understands the languages you speak
+___
+***Tremorsense.*** Your Beast knows the location of anything in contact with the ground within 30 feet.
+:
+***Primal Bond.*** You can add your PB to any ability check or saving throw that your Beast makes.
+### Actions
+***Claw.*** *Melee Weapon Attack:* your Spell Attack
+Modifier to hit, reach 5 ft., one target. *Hit:* 1d6 +2 + PB piercing or slashing damage (your choice). 
+}}
+{{monster,frame
+## Beast of the Land
+*Medium Beast, Neutral*
+___
+**Armor Class**:: 13 + PB (natural armor)
+**Hit Points**:: 5 + five times your Ranger level (your Primal Beast has a number of d8 Hit Dice equal to your Ranger level)
+**Speed**:: 40 ft., climb 40 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|14 (+2)|14 (+2)|15 (+2)|8  (-1)|14 (+2)|11 (+0)|
+___
+**Senses**               :: darkvision 60 ft., passive Perception 12
+**Languages**            :: understands the languages you speak
+___
+***Charge.*** If your Beast moves at least 20 feet toward a target and then hits it with a Maul attack on the same turn, the target takes extra slashing damage equal to your Favored Foe die. If the target is Large or smaller, it must succeed on a Strength saving throw against your Spell Save DC or be fall prone.
+:
+***Primal Bond.*** You can add your PB to any ability check or saving throw that your Beast makes.
+### Actions
+***Maul.*** *Melee Weapon Attack:* your Spell Attack
+Modifier to hit, reach 5 ft., one target. *Hit:* 1d8 +2 + PB piercing or slashing damage (your choice). 
+}}
+
+{{pageNumber,auto}}
+\page
+
+{{monster,frame
+## Beast of the Sea
+*Medium Beast, Neutral*
+___
+**Armor Class**:: 13 + PB (natural armor)
+**Hit Points**:: 5 + five times your Ranger level (your Primal Beast has a number of d8 Hit Dice equal to your Ranger level)
+**Speed**:: 10 ft., swim 60 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|14 (+2)|14 (+2)|13 (+1)|8  (-1)|14 (+2)|11 (+0)|
+___
+**Senses**               :: darkvision 60 ft., passive Perception 12
+**Languages**            :: understands the languages you speak
+___
+***Amphibious.*** Your Beast can breathe air and water.
+:
+***Binding Strike.*** When  your Beast hits a Large or smaller creature with it's Pseudopod, it can choose to grapple the target (escape DC equal to your spell save DC). Until this grapple ends, your Beast can't use it's Pseudopod attack on another target.
+:
+***Primal Bond.*** You can add your PB to any ability check or saving throw that your Beast makes.
+### Actions
+***Pseudopod.*** *Melee Weapon Attack:* your Spell Attack
+Modifier to hit, reach 5 ft., one target. *Hit:* 1d6 +2 + PB bludgeoning or piercing damage (your choice). 
+}}
+{{monster,frame
+## Beast of the Sky
+*Small Beast, Neutral*
+___
+**Armor Class**:: 13 + PB (natural armor)
+**Hit Points**:: 4 + five times your Ranger level (your Primal Beast has a number of d6 Hit Dice equal to your Ranger level)
+**Speed**:: 10 ft., fly 60 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|6 (-2)|16 (+3)|13 (+1)|8  (-1)|14 (+2)|11 (+0)|
+___
+**Senses**               :: darkvision 60 ft., passive Perception 12
+**Languages**            :: understands the languages you speak
+___
+***Flyby.*** Your Beast doesn't provoke opportunity attacks when it flies out of an enemy's reach.
+:
+***Primal Bond.*** You can add your PB to any ability check or saving throw that your Beast makes.
+### Actions
+***Shred.*** *Melee Weapon Attack:* your Spell Attack
+Modifier to hit, reach 5 ft., one target. *Hit:* 1d4 +3 + PB piercing or slashing damage (your choice). 
+}}
+
+\column
+
+### Bounty Hunter
+Bounty Hunters protect humanoids from their own. Trained
+to hunt in cities and towns, they can track their prey through
+the dark alleyways and underbellies of any town or city.
+Trained to use various martial techniques, these rangers can
+confidently confront and subdue any dangerous humanoid.
+#### Dead or Alive
+*3rd-level Bounty Hunter feature*::
+When you make a Strength (Athletics) check to grapple or
+shove your Favored Foe, you gain a bonus to your roll equal
+to one roll of your Favored Foe die.
+Also, being within 5 feet of a hostile creature does not
+impose disadvantage on your ranged attack rolls with nets.
+#### Ear to the Ground
+*3rd-level Bounty Hunter feature*::
+Your line of work has granted you a unique familiarity with the underbelly of the civilized world. You can speak in, read, decipher, decode, and write in Thieves' Cant.
+
+Also, once you finish a long rest in a settlement, you have advantage on ability checks to gather information on that settlement and its culture, factions, or important figures.
+
+
+#### Martial Exploits
+*3rd-level Bounty Hunter feature*:: 
+You have studied various martial exploits to better counter the humanoids you hunt. You gain the following features:
+
+**Exploit Dice.** The Bounty Hunter Exploits table shows how many Exploit Dice you have to use Exploits. To use an Exploit, you expend an Exploit Die, and you regain all your expended Exploit Dice when you finish a short or long rest.
+
+**High Degree.** Your Ranger level limits the technicality of the Exploits you are able to perform. This limit is reflected in the High Degree column of the Bounty Hunter Exploits table.
+
+**Exploits.** You learn two Martial Exploits of your choice from those available to the Alternate Fighter. You can only use one Exploit per ability check, attack, or saving throw. When you gain a Ranger level, you can replace one Exploit you know with another Martial Exploit of your choice.
+
+**Saving Throws.** If an Exploit requires a creature to make a saving throw, the saving throw DC is calculated as follows:
+
+**Exploit save DC** = 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice).
+
+{{pageNumber,auto}}
+\page
+
+{{classTable
+##### Bounty Hunter Exploits
+| Class  | Exploits | Exploit | Exploit |   High  |
+| Level  | Known    | Die     |   Dice  |  Degree |
+|:------:|:--------:|:-------:|:-------:|:-------:|
+|  3rd   |    2     |   d4    |    2    |   1st   |
+|  4th   |    2     |   d4    |    2    |   1st   |
+|  5th   |    3     |   d4    |    2    |   1st   |
+|  6th   |    3     |   d4    |    2    |   1st   |
+|  7th   |    4     |   d6    |    3    |   2nd   |
+|  8th   |    4     |   d6    |    3    |   2nd   |
+|  9th   |    4     |   d6    |    3    |   2nd   |
+|  10th  |    4     |   d6    |    3    |   2nd   |
+|  11th  |    5     |   d6    |    3    |   2nd   |
+|  12th  |    5     |   d6    |    3    |   2nd   |
+|  13th  |    5     |   d6    |    3    |   2nd   |
+|  14th  |    5     |   d6    |    3    |   2nd   |
+|  15th  |    6     |   d8    |    4    |   3rd   |
+|  16th  |    6     |   d8    |    4    |   3rd   |
+|  17th  |    6     |   d8    |    4    |   3rd   |
+|  18th  |    6     |   d8    |    4    |   3rd   |
+|  19th  |    7     |   d8    |    4    |   3rd   |
+|  20th  |    7     |   d8    |    4    |   3rd   |
+}}
+
+
+#### Cunning Technique
+*7th-level Bounty Hunter feature*::
+Your martial skills are especially potent when used against your chosen foe. Once per turn, when you force your Favored Foe to make a saving throw to resist the effects of an Exploit, you can force it to make its saving throw with disadvantage.
+#### Unwavering
+*11th-level Bounty Hunter feature*::
+You are a master of disabling foes. When your Favored Foe misses you with a melee attack, you can force it to make a Dexterity saving throw against your Exploit Save DC as a reaction. On a failed save, it suffers one of the following:
+- You can knock it prone if it is Large or smaller.
+- You can automatically grapple it if you have a free hand.
+- You can make a single melee weapon attack against it.
+#### Most Dangerous Game
+*15th-level Bounty Hunter feature*::
+Your nearly supernatural instincts allow you to predict your enemy's attacks. Once per turn when you take damage from your Favored Foe, you can reduce the damage you would take by an amount equal to one roll of your Favored Foe die.
+
+\column
+
+### Buccaneer
+Combining their survival skills, an affinity for nature magic, and passion for the high seas, Buccaneers are Rangers who feel more at home on the water than on solid ground. Serving as sailors, pirates, marines, or privateers, they are often one of the most valuable crew members on board their vessels. How did you come to sail the seas? Were you pressed into the service of a pirate captain, or have you sworn to kill a certain sea monster?
+#### Buccaneer Spells
+*3rd-level Buccaneer feature*::
+You always have the spells from the table below prepared once you reach certain levels in this class. See the Ranger Archetype class feature for how Archetype Spells work.
+|Ranger Level| Spell|
+|:---------:|:------------:|
+3rd |compelled duel, fog cloud
+5th |gust of wind, locate object
+9th |call lightning, water breathing
+13th |control water, watery sphere
+17th |control winds, maelstrom
+#### Mariner's Eye
+*3rd-level Buccaneer feature*::
+Your sight has become especially keen. Whenever you make a Wisdom (Perception) check that relies on your sense of sight, you can treat a roll of 7 or lower on the d20 as an 8.
+
+Also, when you make a weapon attack against a Favored Foe that is swimming, you have advantage on your attack roll.
+
+#### Sea Legs
+*3rd-level Buccaneer feature*::
+The time you have spent at sea has granted you abilities that land-locked Rangers lack. You gain the following benefits:
+- You gain the Mariner Fighting Style. If you already know this Fighting Style you learn another Fighting Style of your choice from those available to the Ranger class.
+- You can hold your breath underwater for a number of minutes equal to 10 + your Constitution modifier.
+- You have advantage on saving throws to resist being knocked prone or moved against your will.
+
+{{pageNumber,auto}}
+\page
+#### Deep Sea Diver
+*7th-level Buccaneer feature*::
+You have to spend significant time underwater. You can cast water breathing, targeting only yourself, without expending a spell slot. Once you cast water breathing in this way you must finish a long rest before you can do so again.
+
+Moreover, whenever you cast water breathing, the targets of the spell gain the following additional benefits:
+- They gain resistance to cold damage.
+- They gain a swimming speed equal to their walking speed. If the target already has a swimming speed, it can take the Dash action as a bonus action while it is swimming.
+- They gain darkvision out to a 60-foot radius. If the target already has darkvision, its radius increases by 30 feet.
+#### Wrath of the Waves
+*11th-level Buccaneer feature*::
+You carry the magic of the high seas whether you are on sea or land. Once per turn when you hit a creature with a weapon attack, you can imbue your strike with watery magic. When you do, the creature takes additional cold damage equal to one roll of your Favored Foe die, and it must succeed on a Strength saving throw against your Spell Save DC or be knocked back from you 10 feet in a straight line.
+
+Any creature that is at least one size larger than you has advantage on its Strength saving throw.
+
+#### Watery Resilience
+*15th-level Buccaneer feature*::
+When you are hit by an attack, you can use your reaction to temporarily take on a liquid watery form, gaining resistance to all damage from the triggering attack. As part of the same reaction, you can immediately move up to your full movement speed without provoking opportunity attacks.
+
+You can use this reaction a number of times equal to your Wisdom modifier (minimum of once), and you regain all of your expended uses when you finish a long rest. If you have no uses remaining, you can expend a spell slot of 1st-level or higher to use this reaction on additional time.
+
+
+\column
+### Crystal Guardian
+There are places in the Feywild where crystals grow as tall
+as trees, shining with vibrant color and powerful magic.
+These stones are prized as spell components, arcane foci,
+ornaments, and tools of healing. The latter aspect is of
+particular interest to rangers, who often find themselves
+alone in the wilderness, needing to treat wounds or cure
+illnesses without access to clerical magic or alchemical
+potions. In these situations, knowledge of crystal magic is
+invaluable, so it is no surprise that fey rangers have spent
+thousands of years perfecting it.
+
+#### Crystal Healing Surge
+At 3rd level, your studies into crystal healing give you the ability to accelerate a creature’s natural healing using crystals you gather from the environment. You have 3 healing crystals. 
+As a bonus action on your turn, you can expend one of your healing crystals to enable a creature
+you can see within 30 feet to roll one of their hit dice. 
+They recover a number of hit points equal to the roll, plus their Constitution modifier plus your Wisdom modifier. 
+You regain all expended crystals when you complete a long rest.
+
+#### Crystal Spells
+You always have the spells from the table listed below prepared once you reach certain Ranger levels. See the Archetype class feature for how Archetype Spells work.
+|Ranger Level| Spell|
+|:---------:|:------------:|
+3rd| alarm, faerie fire
+5th| blur, Hold Person
+9th| remove curse, dispel magic
+13th| arcane eye, faithful hound
+17th| dawn, wall of light
+
+#### Protective Crystals
+By 7th level, you have mastered the use of crystals as
+protective charms. You are immune to all disease. 
+
+Also,
+you can use a reaction when you are hit by an attack to
+expend one healing crystal and increase your AC by 5
+until the start of your next turn.
+
+#### Soulstone
+When you reach 11th level, you gain the ability to channel the life energy of
+a creature through a special crystal called a soulstone. Whenever you hit a creature with a weapon attack, you regain hit points equal to your Wisdom modifier.
+
+#### Diamond and Black Onyx
+By 15th level, your healing crystals give you ultimate
+power over life and death. You can cast the spell raise dead
+once without expending a spell slot or spell components,
+and you regain the ability to do so when you finish a long
+rest. 
+Furthermore, this spell counts as a ranger spell for you.
+
+ Additionally, you have resistance to necrotic damage and
+your hit point maximum cannot be reduced
+{{pageNumber,auto}}
+\page
+### Deadeye Sniper
+The distant cough of a concussion rifle, the wet thud of
+an impact, and an extremely recent widow screaming in
+terror: these are usually the only sounds indicating that a
+deadeye sniper has paid a visit. Such rangers are infamous
+for their uncanny accuracy with a blaster at all ranges, but
+prefer to be far away from their targets, carefully lining
+up crosshairs before pulling the trigger. If at all possible,
+a sniper is an unseen foe, using range and stealth in equal
+measure to pick off their foes.
+
+
+
+#### No-Scope
+When you choose this archetype at 3rd level, you ignore the Loading property of weapons you wield.
+
+#### One Shot, One Kill
+Also at 3rd level, you begin to practice a style of combat that promotes precision over volume of attacks. Once per turn when you hit a creature with a weapon attack, you can deal an additional 1d8 damage to the target if you haven't moved since the beginning of your last turn.
+
+#### Concealed Position
+At 7th level, given enough time, you can prepare hidden
+sniper nests. A sniper nest takes 10 minutes to construct
+and occupies a 10-foot square area. While inside the
+nest, you have three-quarters cover and can see out of it
+unhindered. Neither you nor the nest can be seen by any
+creature or sensor more than 30 feet away, even if you
+make an attack from inside, though you can still be heard
+and detected by divination spells that penetrate more
+than one inch of solid material. A creature within 10 feet
+of the nest can detect its presence with an Intelligence
+(Investigation) check against your spell save DC. Once
+you leave a nest, you can't benefit from it again.
+
+#### Overwatch
+Beginning at 11th level, if you are wielding a ranged
+weapon, and a hostile creature that you can see moves into
+or within the normal range of that weapon, you can use
+your reaction to make an opportunity attack against that
+creature using your ranged weapon.
+#### Disappear
+By 15th level, you are a true master of stealth, capable of
+fading into thin air. As a reaction when you take damage,
+you can use this ability to move up to 5 feet without
+provoking opportunity attacks and become invisible until
+the beginning of your next turn.
+
+You can use this ability a number of times equal to
+your Wisdom modifier (minimum 1), and regain all
+expended uses when you finish a long rest.
+{{pageNumber,auto}}
+\page
+### Death hunter
+Death Hunters are rangers who embrace the power of necromancy, drawing strength from the line between life and death. They use their mastery over undeath to manipulate their enemies and bolster their survivability, commanding the restless dead and channeling necrotic energies to devastating effect.
+
+#### Mark of the Grave
+Starting at 3rd level, your bond with death transforms the way you hunt. You learn the Hunter’s Mark spell if you don’t already know it. When you cast Hunter's Mark, the damage it deals changes to necrotic. 
+
+Additionally, whenever you deal damage to a marked target, you regain hit points equal to half the necrotic damage dealt.
+
+Furthermore, when a humanoid marked by your Hunter’s Mark dies, you can use your reaction to animate its corpse for 1 minute.
+
+The animated corpse uses the zombie statistics and acts on its own initiative count, targeting the nearest hostile creature it can see with melee attacks or dashing if it can't reach any targets. The corpse cannot take other actions. After 1 hour the magic fades and the corpse is turned back into an ordinary corpse.
+
+#### Tongue of the Death 
+At 3rd level, you learn the *Speak with Dead* spell. It counts as a ranger spell for you, and you can cast it once without expending a spell slot. You regain the ability to cast it this way when you finish a long rest.
+
+#### Death hunter Spells
+You always have the spells from the table listed below prepared once you reach certain Ranger levels. See the Archetype class feature for how Archetype Spells work.
+|Ranger Level| Spell|
+|:---------:|:------------:|
+3rd| False Life, Gahoul's Shrieking Skull
+5th| Gentle Repose, Hold Person
+9th| Animate Dead, Feign Death
+13th| Grasp Of The Grave, Death Ward
+17th| Darkbolt, Dominate Person
+
+#### Necrotic Brand 
+
+Your connection to necrotic energy deepens, enhancing your Hunter's Mark. Starting at 7th level, when you deal damage to a creature marked by your *Hunter’s Mark*, the attack deals additional necrotic damage equal to your proficiency bonus.
+
+This bonus damage stacks with the normal damage from *Hunter's Mark* and applies to every attack you make against the marked target.
+
+\column
+
+
+#### Grim Resurgence
+Your bond with undeath allows you to cling to life through your creations. Starting at 11th level, if you are reduced to 0 hit points while you have an undead creature animated by you within 60 feet of you, you can use your reaction to siphon its animating energy. Instead of falling unconscious, you drop to 1 hit point.
+
+When you use this feature, the undead creature immediately the magic fades and the corpse is turned back into an ordinary corpse, ending its animation. 
+
+Once you use this feature, you cannot do so again until you finish a long rest.
+
+#### Deathly Apex
+At 15th level, your mastery over death reaches its peak, granting you unparalleled control over necrotic energy and the undead. You gain resistance to necrotic damage.
+
+Also, when you strike a creature marked by your *Hunter's Mark*, the target must succeed on a Wisdom saving throw  or feel the inescapable grip of death upon them. On a failure, the target becomes frightened of you until the end of your next turn.
+
+{{pageNumber,auto}}
+\page
+### Drakewarden
+Your connection to the natural world takes the shape of a draconic spirit, which can appear physically as a drake. As your powers expand, your drake also grows, evolving from a small four-legged companion into a majestic winged creature large and strong enough for you to ride. Along this journey, you gain an increasing share of the awe-inspiring power of dragons.
+
+#### Draconic Gift
+
+At level 3rd The bond you share with your drake creates a connection to dragonkind, granting you understanding and empowering your presence. You gain the following benefits:
+
+**Thaumaturgy.** You learn the thaumaturgy cantrip, which is a ranger spell for you.
+
+**Tongue of Dragons.** You learn to speak, read, and write Draconic or one other language of your choice.
+
+#### Drakewarden Spells
+
+Starting 3rd-level, you always have the spells from the table below prepared once you reach certain levels in this class. See the Ranger Archetype class feature for how Archetype Spells work.
+|Ranger Level| Spell|
+|:---------:|:------------:|
+3rd| absorb elements, command
+5th| dragon's breath, warding bond
+9th| elemental weapon, fear
+13th| dominate beast, elemental bane
+17th| awaken, dominate person
+#### Drake Companion
+At level 3rd as an action, you can magically summon the drake that is bound to you. It appears in an unoccupied space of your choice within 30 feet of you.
+
+The drake is friendly to you and your companions, and it obeys your commands. See its game statistics in the accompanying Drake Companion stat block, which uses your proficiency bonus (PB) in several places. Whenever you summon the drake, choose a damage type listed in its Draconic Essence trait. You can determine the cosmetic characteristics of the drake, such as its color, its scale texture, or any visible effect of its Draconic Essence; your choice has no effect on its game statistics.
+
+In combat, the drake shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are incapacitated, the drake can take any action of its choice, not just Dodge.
+
+The drake remains until it is reduced to 0 hit points, until you use this feature to summon the drake again, or until you die. Anything the drake was wearing or carrying is left behind when the drake vanishes.
+
+Once you summon the drake, you can’t do so again until you finish a long rest, unless you expend a spell slot of 1st level or higher to summon it.
+
+
+{{monster,frame
+## Drake Companion
+*Small Dragon*
+___
+**Armor Class** :: 14 + PB (natural armor)
+**Hit Points**  :: 5 + five times your ranger level (the drake has a number of Hit Dice (d10s) equal to your ranger level)
+**Speed**       :: 30ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|16 (+3)|12 (+1)|15 (+2)|8 (+2)|14 (+2)|8 (-1)|
+___
+
+**Saving Throws**        :: Dex +1 plus PB, Wis +2 plus PB
+**Damage Immunities** :: determined by the drake’s Draconic Essence trait
+**Senses**               :: darkvision 60 ft., passive Perception 12
+**Languages**            :: Draconic
+**Challenge**            :: **— Proficiency Bonus (PB)** equals your bonus
+___
+***Draconic Essence.*** When you summon the drake, choose a damage type: acid, cold, fire, lightning, or poison. The chosen type determines the drake’s damage immunity and the damage of its Infused Strikes trait.
+:
+
+### Actions
+***Bite.*** *Melee Weapon Attack:* +3 plus PB to hit, reach 5 ft., one target. Hit: 1d6 plus PB piercing damage.
+:
+
+### Reactions
+***Infused Strikes.*** When another creature within 30 feet of the drake that it can see hits a target with a weapon attack, the drake infuses the strike with its essence, causing the target to take an extra 1d6 damage of the type determined by its Draconic Essence.
+}}
+
+#### Bond of Fang and Scale
+*7th-Level Drakewarden Feature*::
+The bond you share with your drake intensifies, protecting you and stoking the drake’s fury. When you summon your drake, it grows wings on its back and gains a flying speed equal to its walking speed.
+
+In addition, while your drake is summoned, you and the drake gain the following benefits:
+
+**Drake Mount.** The drake grows to Medium size. Reflecting your special bond, you can use the drake as a mount if your size is Medium or smaller.
+While you are riding your drake, it can’t use the flying speed of this feature.
+
+**Magic Fang.** The drake’s Bite attack deals an extra 1d6 damage of the type chosen for the drake’s Draconic Essence.
+
+**Resistance.** You gain resistance to the damage type chosen for the drake’s Draconic Essence.
+
+{{pageNumber,auto}}
+\page
+
+#### Drake’s Breath
+*11th-Level Drakewarden Feature*::
+As an action, you can exhale a 30-foot cone of damaging breath or cause your drake to exhale it. Choose acid, cold, fire, lightning, or poison damage (your choice doesn’t have to match your drake’s Draconic Essence). Each creature in the cone must make a Dexterity saving throw against your spell save DC, taking 8d6 damage on a failed save, or half as much damage on a successful one.
+
+This damage increases to 10d6 when you reach 15th level in this class.
+
+Once you use this feature, you can’t do so again until you finish a long rest, unless you expend a spell slot of 3rd level or higher to use it again.
+#### Perfected Bond
+*15th-Level Drakewarden Feature*::
+Your bond to your drake reaches the pinnacle of its power. While your drake is summoned, you and the drake gain the following benefits:
+
+**Empowered Bite.** The drake’s Bite attack deals an extra 1d6 damage of the type chosen for its Draconic Essence (for a total of 2d6 extra damage).
+
+**Large Drake.** The drake grows to Large size. When you ride your drake, it is no longer prohibited from using the flying speed of Bond of Fang and Scale.
+
+**Reflexive Resistance.** When either you or the drake takes damage while you’re within 30 feet of each other, you can use your reaction to give yourself or the drake resistance to that instance of damage. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.
+### Druidic Guardian
+While most Rangers stand with one foot in the wild and one in the civilized world, some side firmly with the natural world. When cities and settlements encroach on ancient groves and wild forests, the Rangers known as Druidic Guardians stand as defenders of the wild. Drawing upon primeval magic, these warriors use the power of nature to defend their homes.
+#### Druidic Guardian Spells
+*3rd-level Druidic Guardian feature*::
+You always have the spells from the table below prepared once you reach certain levels in this class. See the Ranger Archetype class feature for how Archetype Spells work.
+|Ranger Level| Spell|
+|:---------:|:------------:|
+3rd |ensnaring strike, entangle
+5th |alter self, spike growth
+9th |erupting earth, plant growth
+13th |grasping vine, guardian of nature
+17th |tree stride, wrath of nature
+
+\column
+
+#### Limited Wild Shape
+*3rd-level Druidic Guardian feature*::
+You can draw on primal nature magic to take the shape of beasts, much like a Druid does. You gain the ability to Wild Shape. As a bonus action on your turn, you can assume the form of any beast that you have physically touched.
+
+Your Ranger level determines the maximum CR of beasts that you can transform into, as shown in the table below. You must follow all the other rules for Wild Shape as detailed in the Wild Shape feature description for the Druid class.
+|Level|Max CR|Limitations|Example|
+|:-:|:------------:|:------------:|:------------:|
+3rd | 0 | No Flying or Swimming Speed | Deer 
+7th | 1/4 | No Flying speed | Octopus
+11th | 1/2 | — | Hawk
+15th | 1 | — | Gian Eagle
+
+You can stay in Wild Shape for up to one hour, at which point you revert to your normal form. You can revert to your normal form earlier if you use a bonus action to do so, or if you fall unconscious, you drop to 0 hit points, or you die.
+
+Once you use your Wild Shape you must complete a short or long rest before you can use it again, unless you expend a spell slot of 1st-level or higher to use Wild Shape again.
+#### Wild Bound
+*7th-level Druidic Guardian feature*::
+The Druidic magic you wield has permeated body and spirit. You learn Druidic, the secret language of the Druids. You can speak the language and use it to leave hidden messages. While speaking Druidic, you gain the benefits of speak with animals.
+Also, your attacks in your Wild Shape beast forms count as magical for overcoming any resistances or immunities to non-magical attacks and damage.
+
+
+#### Empowered Shapes
+*11th-level Druidic Guardian feature*::
+You have learned to empower your Wild Shape with the Druidic magic you wield. When you use Wild Shape, you can expend a spell slot of 1st-level or higher to transform into a beast with a CR equal to or lower than the level of the spell slot you expended to transform.
+Once you use this feature you must finish a short or long rest before you can use it to empower your Wild Shape again.
+#### housand Forms
+*15th-level Druidic Guardian feature*::
+You are so in tune with your abilities that you can change your form in subtle ways at will. You can cast alter self at will, targeting only yourself, without expending a spell slot.
+
+{{pageNumber,auto}}
+\page
+
+### Dunestrider
+While all Rangers have the skills necessary to live out in the wilderness, those known as Dunestriders are the true masters of survival. These rugged wanderers have adapted to live in the harshest lands imaginable; arid deserts, frozen tundra, great alpine heights, and magical wastelands. These survivalists combine a talent for illusion magic and protective gear to survive in all but the most extreme hostile conditions.
+#### Dunestrider Spells
+At 3rd level, you always have the spells from the table below prepared once you reach certain levels in this class. See the Ranger Archetype class feature for how Archetype Spells work.
+|Ranger Level| Spell|
+|:---------:|:------------:|
+3rd |absorb elements, silent image
+5th |invisibility, mirror image
+9th |wall of sand , major image
+13th |greater invisibility, hallucinatory terrain
+17th |commune with nature, mislead
+#### Wilderness Adept
+At 3rd level, you are able to survive the most inhospitable environments. You learn one of the following Knacks of your choice: Alpine Adept, Arctic Adept, Desert Adept, or Jungle Adept. You learn another Knack from this list at 7th, 11th, and 15th levels.
+
+The Knacks you learn through this feature do not count against your total number of Knacks Known. Also, when you gain a Ranger level, you can only replace a Knack you learned through this feature with another Knack from the list above.
+
+
+#### Wasteland Weaver
+At 3rd level, you have mastered an ancient pattern of weaving and enhancing clothing, that when worn, enables a near-supernatural level of survivability. You gain proficiency with weaver's tools, and you can add double your proficiency bonus to any check you make that uses your weaver's tools.
+
+At the end of each long rest, you can use weaver's tools to enhance one set of clothing or cloak. While a creature wears this enhanced garment it gains the following benefits:
+- It gains a bonus to Dexterity (Stealth) checks to hide in wasteland and wilderness equal to your Favored Foe die.
+- It requires one-quarter as much water in order to survive.
+- It has advantage on saving throws to resist the effects of harsh environments and subsequent exhaustion levels.
+
+During each long rest, you must spend time maintaining any garments you have enhanced or they lose any beneficial properties. You can maintain a total number of enhanced garments equal to your Wisdom modifier (minimum of 1).
+#### Rugged Resilience
+At 7th level, you imbue the mystical weave of your enhanced garments with illusion magic. A creature wearing one of your enhanced garments can use a bonus action to cast invisibility on itself.
+
+It can do so three times, but when the last use is expended, the garment loses any beneficial properties. Your enhanced garments regain all uses of this feature when you spend time during a long rest maintaining your enhanced garments.
+#### Illusory Strikes
+At 11th level, you can use potent illusion magic to enhance your combat abilities. When you take the Attack action on your turn, you can use a bonus action to create an Illusory Duplicate of yourself in an unoccupied space you can see within 30 feet.
+
+Your Illusory Duplicate instantly makes one weapon attack with an illusory version of your weapon against a target of your choice within its range. On hit, it deals force damage in place of your weapon's normal damage and disappears.
+
+#### Illusory Transposition
+At 15th level, your skill with illusions has greatly increased. You can use a bonus action to create your Illusory Duplicate even when you do not take the Attack action. Your Illusory Duplicate must still make a weapon attack when it appears.
+
+Immediately after your Illusory Duplicate makes an attack, you can teleport, instantly switching places with your Illusory Duplicate, without provoking opportunity attacks.
+### Fey Wanderer
+A fey mystique surrounds you, thanks to the boon of an archfey, the shining fruit you ate from a talking tree, the magic spring you swam in, or some other auspicious event. However you acquired your fey magic, you are now a Fey Wanderer, a ranger who represents both the mortal and the fey realms. As you wander the multiverse, your joyful laughter brightens the hearts of the downtrodden, and your martial prowess strikes terror in your foes, for great is the mirth of the fey and dreadful is their fury.
+
+#### Fey Wanderer Magic
+You always have the spells from the table below prepared once you reach certain levels in this class. See the Ranger Archetype class feature for how Archetype Spells work.
+|Ranger Level| Spell|
+|:---------:|:------------:|
+3rd| cause fear , charm person
+5th| enthrall, misty step
+9th| dispel magic, fear
+13th| charm monster , dimension door
+17th| geas, mislead
+{{pageNumber,auto}}
+\page
+
+#### Dreadful Strikes
+By 3rd level, once per turn when you hit a creature with a weapon attack, you can deal additional psychic damage to the target equal to one roll of your Favored Foe die.
+
+Moreover, when you mark a creature as your Favored Foe, you can choose for the bonus damage to by psychic damage.
+#### Otherworldly Glamour
+Additionally at 3rd level, your fey qualities give you a supernatural charm. As a result, whenever you make a Charisma check, you gain a bonus to the check equal to your Wisdom modifier (minimum of +1).
+
+In addition, you gain proficiency in one of the following skills of your choice: Deception, Performance, or Persuasion.
+
+#### Beguiling Twist
+Beginning at 7th level, the magic of the Feywild guards your mind. You have advantage on saving throws against being charmed or frightened.
+
+In addition, whenever you or a creature you can see within 120 feet of you succeeds on a saving throw against being charmed or frightened, you can use your reaction to force a different creature you can see within 120 feet of you to make a Wisdom saving throw against your spell save DC. If the save fails, the target is charmed or frightened by you (your choice) for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a successful save.
+#### Fey Reinforcements
+At 11th level, the royal courts of the Feywild have blessed you with the assistance of fey beings: you know the spell Summon Fey. It doesn't count against the number of ranger spells you know, and you can cast it without a material component. You can also cast it once without using a spell slot, and you regain the ability to do so when you finish a long rest.
+
+Whenever you start casting the spell, you can modify it so that it doesn't require concentration. If you do so, the spell's duration becomes 1 minute for that casting.
+
+#### Misty Wanderer
+When you reach 15th level, you can slip in and out of the Feywild to move in a blink of an eye: you can cast Misty Step without expending a spell slot. You can do so a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a long rest.
+
+In addition, whenever you cast Misty Step, you can bring along one willing creature you can see within 5 feet of you. That creature teleports to an unoccupied space of your choice within 5 feet of your destination space.
+\column
+
+
+### Freerunner
+Agile, evasive, and unmoored from the constraints that slow down other rangers, the archetypal freerunner is supremely nimble and capable of crossing terrain as quickly as possible. They accomplish this through a skilled combination of dashing, leaping, and nimbly climbing, that guides them down clever paths through their environments. Moreover, an adept freerunner can convert the momentum from their gymnastics into deadly force, crushing their enemies with exceptional impact from unexpected directions.
+
+A freerunner is most at home in a city or in the treetops of a great forest, for their unique movement requires a place that is steeped with complex geometry which reaches high into the sky. Of course, even on flat terrain, a freerunner's agility is not to be underestimated, for they can dive through a giant's legs or scurry up its back with ease.
+
+#### Freerunning
+Starting when you choose this archetype at 3rd level, you have trained extensively to move freely over and through any terrain using only the abilities of the body. You have advantage on Dexterity (Acrobatics) checks made to navigate obstacles while running and can use Dexterity in place of Strength when making a Strength (Athletics) check to climb, jump, or swing on a rope.
+
+Additionally, you have mastered a number of techniques. You can use your freerunning techniques a number of times equal to your Dexterity modifier, and regain all expended uses when you finish a short or long rest. While in your favored terrain, using a technique does not count against your total number of uses.
+
+**Slide.** As a bonus action, you can move up to 10 feet without spending movement through another creature’s space or squeeze up to 10 feet through a smaller space.
+
+**Tumble.** As a bonus action, you can nimbly jump, dive, or roll up to 10 feet in a straight line without spending movement. During this movement, any attacks of opportunity made against you have disadvantage.
+
+**Wall Run.** As a bonus action, you can choose to run along a vertical surface as part of your
+movement. Until the end of your turn, you gain a climb speed equal to your walking speed. If you jump while running along a wall, you can complete the distance of your jump, even if doing so would exceed your movement speed.
+{{pageNumber,auto}}
+\page
+
+#### Freerunner Magic
+*3rd-level Freerunner feature*::
+You always have the spells from the table below prepared once you reach certain levels in this class. See the Ranger Archetype class feature for how Archetype Spells work.
+|Ranger Level| Spell|
+|:---------:|:------------:|
+3rd| longstrider, zephyr strike
+5th| blur, spider climb
+9th| after image, water walk
+13th| aura of evasion, freedom of movement 
+17th| far step, skill empowerment
+#### Momentum
+At 3rd level, if you move through a hostile creature’s space, leave a creature’s reach, or move at least 15 feet, you deal an additional 1d6 damage on the next weapon attack you make on your turn.
+#### Evasive Fighter
+Beginning at 7th level, when you use a freerunning technique, you gain a +2 bonus to your AC until the beginning of your next turn.
+#### Hit Hard, Hit Fast
+Starting at 11th level, the additional damage from your Momentum feature increases to 2d6.
+
+
+#### Nimble Dodge
+At 15th level, when a spell or other effect would have you make a saving throw due to being in an area of effect, you can use your reaction to move up to half your movement speed, potentially moving you outside the effect’s area.
+### Gloom Stalker
+Gloom stalkers are at home in the darkest places: deep under the earth, in gloomy alleyways, in primeval forests, and wherever else the light dims. Most folk enter such places with trepidation, but a gloom stalker ventures boldly into the darkness, seeking to ambush threats before they can reach the broader world. Such rangers are often found in the Underdark, but they will go any place where evil lurks in the shadows.
+
+#### Gloom Stalker Spells
+You always have the spells from the table below prepared once you reach certain levels in this class. See the Ranger Archetype class feature for how Archetype Spells work.
+|Ranger Level| Spell|
+|:---------:|:------------:|
+3rd| cause fear , disguise self
+5th| darkness, rope trick
+9th| fear, nondetection
+13th| greater invisibility, phantasmal killer
+17th| mislead, seeming
+\column
+
+
+#### Dread Ambusher
+Starting 3rd level, during the first turn you take in combat, your walking speed increases by 10 feet, which lasts until the end of that turn. If you take the Attack action on that turn, you can make an additional weapon attack as part of that action. If it hits, the target takes bonus damage equal to one roll of your Favored Foe die.
+
+In addition, when you roll initiative and aren't surprised, you roll your Favored Foe die and add it to your initiative rolls.
+#### Umbral Sight
+At 3rd level, you gain darkvision out to a range of 60 feet. If you already have darkvision from your race, its range increases by 30 feet.
+
+You are also adept at evading creatures that rely on darkvision. While in darkness, you are invisible to any creature that relies on darkvision to see you in that darkness.
+
+#### Iron Mind
+By 7th level, you have honed your ability to resist the mind- altering powers of your prey. You gain proficiency in Wisdom saving throws. If you already have this proficiency, you instead gain proficiency in Intelligence or Charisma saving throws (your choice).
+#### Stalker's Flurry
+At 11th level, you learn to attack with such unexpected speed that you can turn a miss into another strike. Once on each of your turns when you miss with a weapon attack, you can make another weapon attack as part of the same action.
+#### Shadowy Dodge
+Starting at 15th level, you can dodge in unforeseen ways, with wisps of supernatural shadow around you. Whenever a creature makes an attack roll against you and doesn't have advantage on the roll, you can use your reaction to impose disadvantage on it. You must use this feature before you know the outcome of the attack roll.
+{{pageNumber,auto}}
+\page
+### Grim Warden
+Sometimes it takes a monster to destroy a monster. Rangers that take up the mantle of the Grim Warden undergo a dark alchemical ritual, known as the Warden's Rite, that enhances their physical abilities. They sacrifice any chance they have at a normal life by mingling their blood with that of monsters, in order to gain dark, unnatural power to destroy their foes.
+
+#### Grim Warden Spells
+You always have the spells from the table below prepared once you reach certain levels in this class. See the Ranger Archetype class feature for how Archetype Spells work.
+|Ranger Level| Spell|
+|:---------:|:------------:|
+3rd |bane, hex
+5th |hold person, shadow blade
+9th |bestow curse, vampiric touch
+13th |blight, shadow of moil
+17th |enervation, hold monster
+#### Warden's Rite
+Starting 3rd level, you have survived the Warden's Rite, an alchemical ritual that suffuses your blood with sinister magic. You gain proficiency with alchemist's supplies and in the Religion skill.
+
+Also, whenever you make an Intelligence (Religion) check related to fiends, undead, or necromancy magic you gain a bonus to your roll equal to one roll of your Favored Foe die.
+
+
+#### Crimson Brand
+At 3rd level, the sinister magic within your blood allows you to enhance your strikes with your own life force. When you hit a Favored Foe with a weapon attack, you can expend a Hit Die to cause all the damage of your attack to become necrotic, and to deal bonus necrotic damage equal to a roll of your Hit Die. Any necrotic damage dealt by this feature ignores resistance to necrotic damage, and can treat immunity to necrotic damage as resistance.
+
+Lastly, when you use Crimson Brand against a fiend or undead creature, you can maximize the necrotic damage roll of your Hit Die in place of rolling.
+#### Dark Augmentation
+At 7th level, sinister magic enhances your physical capability. Whenever you make a Strength, Dexterity, or Constitution ability check, you gain a bonus to your roll equal to one roll of your Favored Foe die, and your walking speed increases by 5 feet.
+#### Greater Crimson Brand
+At 11th level, once per turn, when you hit a creature with a melee weapon attack, you can deal an additional 1d10 necrotic damage to it.
+
+\column
+
+#### Sanguine Mastery
+At 15th level, the magic of your Warden's Rite manifests its full potential. You have advantage on saving throws to resist the frightened condition, and you are always under the effects of protection from good and evil while you are conscious.
+### Horizon Walker
+Horizon walkers guard the world against threats that originate from other planes or that seek to ravage the mortal realm with otherworldly magic. They seek out planar portals and keep watch over them, venturing to the Inner Planes and the Outer Planes as needed to pursue their foes. These rangers are also friends to any forces in the multiverse – especially benevolent dragons, fey, and elementals – that work to preserve life and the order of the planes.
+
+#### Horizon Walker Magic
+Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Horizon Walker Spells table. The spell counts as a ranger spell for you, but it doesn’t count against the number of ranger spells you know.
+
+
+#### Horizon Walker Spells
+|Ranger Level| Spell|
+|:---------:|:------------:|
+3rd| alarm, protection from evil and good
+5th| misty step, rope trick
+9th| haste, magic circle
+13th| banishment, dimension door
+17th| banishing smite, teleportation circle
+#### Detect Portal
+At 3rd level, as an action, you can detect the distance and direction of any planar portals within a number of miles equal to your level.
+
+Once you successfully use this feature to locate a planar portal, you must finish a short or long rest before you can use it again. When you have no uses remaining, you can expend a spell slot of 1st-level or higher to use this feature again.
+#### Planar Warrior
+At 3rd level, as a bonus action, choose a creature you can see within 30 feet. The next time you hit that creature on this turn with a weapon attack, all damage dealt by the attack becomes force damage, and the creature takes additional force damage equal to two rolls of your Favored Foe die.
+#### Ethereal Step
+At 7th level, you learn to step through the Ethereal Plane. As a bonus action on your turn, you can cast the Etherealness spell with this feature, without expending a spell slot, but the spell ends at the end of the current turn.
+
+Once you use this feature, you can’t use it again until you finish a short or long rest.
+{{pageNumber,auto}}
+\page
+#### Distant Strike
+At 11th level, you gain the ability to pass between the planes in a blink of an eye. When you use the Attack action, you can teleport up to 10 feet before each attack to an unoccupied space you can see.
+
+If you attack at least two different creatures with the action, you can make one additional attack with it against a third creature.
+#### Spectral Defense
+At 15th level, your ability to move between planes enables you to slip through the planar boundaries to lessen the harm done to you during battle. When you take damage from an attack, you can use your reaction to give yourself resistance to all of that attack's damage on this turn.
+
+### Highwayman
+For bandits, bank robbers, and green-clad folk heroes, there’s no better way to make money than robbing nobles at knifepoint, especially in caravans. None are more prosperous at roadside robbery, perhaps, than highwaymen, who leverage their stealth and numbers to steal anything they wish, before escaping into the trees with their bounty. A team of bandits work in smooth coordination, watching each other's backs in a choreographed theater of shouting, looting, and cutting down anyone who runs.
+#### Nobody Move!
+Beginning when you choose this archetype at 3rd level, you’ve taken to working with a team of accomplices to rob lucrative, well-defended targets, like caravans, banks, and groups of unsuspecting nobles. When a creature you can see provokes an opportunity attack from a friendly creature, you can use your reaction to make an opportunity attack against it using a ranged or melee weapon. This attack occurs before the provoking creature moves and before the friendly creature can make an opportunity attack.
+#### Highwayman Spells
+You always have the spells from the table below prepared once you reach certain levels in this class. See the Ranger Archetype class feature for how Archetype Spells work.
+|Ranger Level| Spell|
+|:---------:|:------------:|
+3rd |chameleon, snare
+5th |cordon of arrows, pass without trace
+9th |conjure barrage, flame arrows
+13th |deathward, grasping vine
+17th |conjure volley, hold monster
+#### Merry Confederates
+At 3rd level, when you and two or more friendly creatures hide in preparation for an ambush, you and any friendly creatures hiding with you have advantage on your Dexterity (Stealth) checks.
+
+\column
+
+#### Vantage Point
+By 7th level, you can quickly scale walls to gain a perch above your foes. Climbing no longer costs you extra movement. In addition, by climbing at half speed, you can climb up difficult surfaces (such as vertical walls) without making an ability check.
+
+#### No Seriously, Don't Move!
+Beginning at 11th level, your jumpy, shoot-themin- the-back philosophy has started to show dividends. You can make two attacks with a ranged or melee weapon, instead of one, when you make an opportunity attack.
+#### Get Out Of Dodge
+By 15th level, you’ll escape the long arm of the law or die trying. When you take the Disengage action on your turn, you gain two of the following benefits as a part of that action:
+- You gain the benefits of the Dash action.
+- You can take the Use an Object action.
+- You can make one weapon attack against a creature you can see.
+- You can attempt to shove a creature.
+- You take half damage from falling and your jump distance doubles until the start of your next turn.
+
+
+
+
+
+{{pageNumber,auto}}
+\page
+### Hunter
+Rangers are as varied as the lands that they hail from. Some use their knowledge of the wilderness to become guides and naturalists. Others use their skills to become trackers or traders. Some wander the countryside, while others stand as guardians of sacred forests. While they fulfill various roles, deep down inside every Ranger beats the heart of a Hunter.
+
+Marauding hordes of Orcs, vile trolls, great and terrible dragons, or great beasts of the wild, it matters not to a true Hunter. They always find a way to overcome their quarry.
+#### Hunter Spells
+You always have the spells from the table below prepared once you reach certain levels in this class. See the Ranger Archetype class feature for how Archetype Spells work.
+|Ranger Level| Spell|
+|:---------:|:------------:|
+3rd |expeditious retreat, snare
+5th |cordon of arrows, pass without trace
+9th |conjure barrage, nondetection
+13th |freedom of movement, locate creature
+17th |conjure volley, swift quiver
+
+#### Hunter's Prey
+At 3rd level, you are ruthless in pursuing your chosen prey. You gain the features below, but once you use one of these features you cannot use another until the beginning of your next turn:
+
+**Cripple.** When you hit a Favored Foe with a weapon attack, you can force it to make a Dexterity saving throw against your Spell Save DC. On a failed save, its speed is reduced to 0 until the beginning of your next turn.
+
+**Flurry.** When you hit your Favored Foe with a weapon attack, you can make an additional weapon attack with the same weapon against another creature within 5 feet of your Favored Foe and within the weapon's range.
+
+**Focus.** When you hit your Favored Foe with a weapon attack and it has fewer then its maximum hit points, you can double your Favored Foe damage bonus against it.
+#### Defensive Tactics
+At 7th level, you have trained to defend yourself against your prey. You gain one of the features below of your choice:
+
+**Counter.** When a creature that is at least one size larger than you hits or misses you with an attack, you can use a reaction to make one weapon attack against it.
+
+**Nimble.** Opportunity attacks against you are made at disadvantage, and if your Favored Foe makes an opportunity attack against you it misses unless they roll a critical hit.
+
+**Iron Will.** When you are forced to make a saving throw to resist being charmed, frightened, or stunned, you gain a bonus to your roll equal to one roll of your Favored Foe die.
+#### Flexible Hunter
+At 11th level, at the end of a long rest you can do one of the following:
+- Replace your Fighting Style with another Fighting Style, choosing from those available to the Ranger class.
+- Replace your Defensive Tactics feature with another feature of your choice from Defensive Tactics.
+
+
+#### Multiattack
+At 11th level, you are adept at destroying your prey and any creatures that would stand with them. You gain the following features:
+
+**Volley.** As an action, you can make a ranged attack against your Favored Foe and any number of creatures within 10 feet of it, so long as the targets are also within the range of your weapon. You must roll a separate attack roll for each target, and you must have ammunition for each individual attack.
+
+**Whirlwind Attack.** As an action, you make a melee attack against your Favored Foe and any number of other creatures within range. Make a separate attack roll for each target.
+#### Superior Defense
+At 15th level, you have mastered defending yourself from those that you have marked as your prey. You gain the following features:
+
+**Evasion.** When your Favored Foe subjects you to an effect that allows you to make a Dexterity saving throw to take half damage, such as you instead take no damage if you succeed on a saving throw, and only half damage if you fail
+
+**Uncanny Dodge.** When your Favored Foe hits you with an attack, you can use a reaction to halve the damage you take.
+
+
+
+{{pageNumber,auto}}
+\page
+
+### Monster Slayer
+You have dedicated yourself to hunting down creatures of the night and wielders of grim magic. A monster slayer seeks out vampires, dragons, evil fey, fiends, and other magical threats.
+#### Monster Slayer Magic
+Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Monster Slayer Spells table. The spell counts as a ranger spell for you, but it doesn't count against the number of ranger spells you know.
+#### Monster Slayer Spells
+Ranger Level| Spells
+|:---------:|:------------:|
+3rd|ensnaring strike, protection from evil and good
+5th |hod person, zone of truth
+9th |ice claw prison, magic circle
+13th |banishment, dominate beast
+17th |hold monster, wrath of nature
+#### Hunter's Sense
+At 3rd level, you gain the ability to peer at a creature and magically discern how best to hurt it. As an action, choose one creature you can see within 60 feet of you. You immediately learn whether the creature has any damage immunities, resistances, or vulnerabilities and what they are. If the creature is hidden from divination magic, you sense that it has no damage immunities, resistances, or vulnerabilities.
+
+You can use this feature a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses of it when you finish a long rest.
+
+#### Slayer's Prey
+Starting at 3rd level, you can focus your ire on one foe, increasing the harm you inflict on it. You can roll your favored foe die twice when you hit a marked creature with a weapon attack. 
+
+This benefit lasts until you finish a short or long rest. It ends early if you designate a different creature.
+
+
+
+#### Supernatural Defense
+At 7th level, you gain extra resilience against your prey’s assaults on your mind and body. Whenever favored foe forces you to make a saving throw and whenever you make an ability check to escape that target's grapple, add your favored foe die to your roll.
+#### Magic-User's Nemesis
+At 11th level, you gain the ability to thwart someone else's magic. When you see a creature casting a spell or teleporting within 60 feet of you, you can use your reaction to try to magically foil it. The creature must succeed on a Wisdom saving throw against your spell save DC, or its spell or teleport fails and is wasted.
+
+Once you use this feature, you can't use it again until you finish a short or long rest.
+
+\column
+
+#### Slayer's Counter
+At 15th level, you gain the ability to counterattack when your prey tries to sabotage you. If the target of your Slayer’s Prey forces you to make a saving throw, you can use your reaction to make one weapon attack against the quarry. You make this attack immediately before making the saving throw. If the attack hits, your save automatically succeeds, in addition to the attack’s normal effects.
+
+
+
+### Ninth House Guardian
+The Ninth House Guardians are rangers who draw their power from the constellations themselves. Entrusted with the protection of sacred sanctuaries and the legacy of ancient heroes, these warriors are known for their unwavering justice and their ability to fire arrows that shine like the sun. They do not just hunt; they execute the divine will of the stars, ensuring that the light never fades from the world.
+
+#### Ninth House Spells
+ You always have the spells from the table below prepared once you reach certain levels in this class. These count as Ranger spells for you but do not count against your total number of spells prepared.
+|Ranger Level| Spell|
+|:---------:|:------------:|
+3rd| guiding bolt, longstrider
+5th| branding smite, warding bond
+9th| haste, lightning bolt
+13th| death ward, freedom of movement
+17th| dawn, steel wind strike
+
+
+#### Golden Wings of Justice
+ Starting at 3rd level, you manifest the spiritual essence of the Archer’s wings. Your walking speed increases by 10 feet.
+ 
+Additionally, once per turn, when you hit a creature with a ranged weapon attack, you can deal additional radiant damage equal to one roll of your Favored Foe die.
+
+#### Atomic Thunderstrike
+ Beginning at 7th level, you can infuse your arrows with the explosive power of a supernova. As an action, you fire a single arrow that erupts in a 20-foot-radius sphere centered on the target. 
+ 
+ The target and each creature in the area must make a Dexterity saving throw against your Spell Save DC. On a failure, a creature takes radiant damage equal to 4d8 + your Wisdom modifier and is knocked prone.
+ 
+ You can use this feature a number of times equal to your Wisdom modifier, regaining all uses after a long rest.
+
+{{pageNumber,auto}}
+\page
+#### Light Speed Reflexes
+ At 11th level, you move with the fluidity of starlight. When you take the Attack action, you can teleport up to 10 feet before each attack to an unoccupied space you can see. 
+ 
+ Additionally, if you miss with a weapon attack, you can make another weapon attack as part of the same action.
+ 
+You only can use this feature once per turn.
+
+#### Final Legacy: The Golden Arrow
+ By 15th level, you can concentrate all your life force into a single, unstoppable shot. When you hit your Favored Foe with a ranged weapon attack, you can choose to make it a Legacy Strike. The attack deals maximum damage instead of rolling.
+
+If this damage reduces the target to 50 hit points or fewer, it is instantly reduced to 0 as the golden arrow pierces its soul.
+
+Once you use this feature, you must finish a long rest before you can use it again.
+
+### Nomad
+Whether by birth, happenstance, or a ritual, the mind of every Nomad has been connected to the mystical web of knowledge known as the Noosphere. This psionic link allows Nomads to access knowledge from far-off places and distant lives.
+
+
+#### Expunging Strikes
+At 3rd level you can imbue your strikes with psionic energy to disrupt your foe's memory. Once per turn when you hit a Favored Foe with a weapon attack, you can force it to make an Intelligence saving throw against your Spell Save DC. On a failed save, all damage dealt by your attack becomes psychic damage, and the creature cannot see, hear, smell, or sense you in any way until the start of your next turn.
+#### Mystic Knowledge
+At 3rd level you can use your connection to the Noosphere to draw knowledge from Nomads past and present. When you finish a long rest, you gain proficiency in one skill or tool, or learn to speak, read, and write one language of your choice. You retain that proficiency or language until you finish a long rest. When you reach 11th level, you gain two proficiencies or languages from this feature at the end of a long rest.
+
+
+#### Nomad Spells
+You always have the spells from the table listed below prepared once you reach certain Ranger levels. See the Archetype class feature for how Archetype Spells work.
+|Ranger Level| Spell|
+|:---------:|:------------:|
+3rd| comprehend languages, disguise self
+5th| detect thoughts, misty step
+9th| clairvoyance, tongues
+13th| dimension door, divination
+17th| commune, seeming
+#### Nomadic Step
+At 7th level, you can merge your consciousness with the Noosphere to avoid harm. As a reaction when you are hit by an attack, you can disappear into the Noosphere, causing the attack to miss. You then instantly reappear in an unoccupied space that you occupied at some point since the start of your previous turn.
+
+You can use this reaction a number of times equal to your Wisdom modifier (minimum of once), and you regain all of your expended uses when you finish a long rest. When you have no uses remaining, you can expend a spell slot of 1st-level or higher to use this reaction one additional time.
+
+#### Strange Movement
+At 11th level, As an action, you can expend your remaining movement to instead teleport a number of feet equal to your remaining movement, appearing in an unoccupied space you can see.
+#### Mystical Burst
+At 15th level, when you travel through the Noosphere you can assault your foes with the residual psionic power. When you teleport with a Nomad Spell or Nomad feature, you can force creatures of your choice within 10 feet of the point you appear to make an Intelligence saving throw against your Spell Save DC. They take psychic damage equal to one roll of your Favored Foe die on a failed save, and half as much on a successful one.
+{{pageNumber,auto}}
+\page
+
+
+### Reconnaissance Scout
+Reconnaissance scout assume leadership of these landing parties, guiding them through formidable and unfamiliar terrains, abandoned vessels, and perilous battlegrounds. They possess a unique mastery of discerning imminent threats and employ every available resource to ensure survival in the face of danger.
+
+#### Reconnaissance Familiar
+Upon reaching 3rd level, you attain a mystical bond with a familiar creature, specifically trained for reconnaissance. This familiar takes the form of a small airborne creature, and you possess a magical item known as a "Familiar Controller" which is attuned to it.
+
+As an action, you can direct your familiar to ascend to its maximum height, allowing it to survey the surroundings for potential threats. This heightened awareness grants you advantage on initiative rolls against any adversaries that your familiar spots. 
+
+Your familiar continues its vigilant watch from above until you issue the command for it to return to your side.
+
+#### Dodge Roll
+Beginning at 7th level, you can use your bonus action to move up to 15 feet. This movement doesn't provoke opportunity attacks, ignores difficult terrain, and can move you through hostile creature’s spaces, as long as you do
+not end your movement there.
+
+You can use this ability a number of times equal to your Dexterity modifier, and regain all expended uses when you finish a long rest.
+
+
+#### Piercing Arcane Burst
+Upon reaching the 11th level of mastery, you harness your blaster's energy with arcane precision. As an action, you concentrate your power to unleash a focused blast, searing through your foes. This energetic surge forms a 5-foot wide beam, extending in a chosen direction to the blaster's maximum range. Each being caught within the beam's path must make a Dexterity saving throw (DC equals 8 + your proficiency bonus + your Dexterity modifier). Those who falter endure the full brunt of the blaster's potency, while the nimble suffer only half the damage on a successful evasion.
+
+#### Energized Warding Garb
+Upon attaining the 15th echelon of your journey, you drape yourself in an intricate ensemble of advanced energy-infused armor. This resplendent attire forms an impervious barrier against harm. The ethereal shield bestows upon you resistance to one of the following primordial elements: cold, fire, lightning, necrotic, or radiant. At your command, you can shift this mystical safeguard's affinity with a swift bonus action.
+
+\column
+
+
+#### Familiar Controller
+*Wondrous item, common (requires attunement)*::
+
+This set of arcane engravings, meticulously inscribed onto a gauntlet, seamlessly merged with a mystic tablet imparts upon you dominion over an enchanted familiar.Each engravement is tethered to your a reconnaissance spirit. 
+
+While attuned to the controller, you can use your bonus
+action to command the reconnaissance familiar to use its reaction to move to a location within 60 feet of you and use an action it is capable of. Unless commanded, reconnaissance familiar do not act. You can also use your action to see and hear through its sensor array until the start of your next turn, gaining the benefit of the familiar’s special senses, but becoming blind and deaf with regard to your own senses during that time.
+
+
+{{monster,frame
+## Reconnaissance Familiar
+*Tiny construct, unaligned*
+___
+**Armor Class** :: 12 (natural armor)
+**Hit Points**  :: 5 (2d4)
+**Speed**       :: 0 ft., fly 40 ft. (hover)
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|7 (-2) |14 (+2)|10 (+0)|4 (–3) |9 (+0) |3 (–4) |
+___
+**Damage Immunities** :: poison, psychic
+**Condition Immunities** :: blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned, prone
+**Senses**               :: blindsight 60 ft. (blind beyond this radius), passive Perception 9
+**Languages**            :: —
+**Challenge**:: 0 (10 XP)
+___
+
+***Follow Protocol.*** Unless commanded to do otherwise, the drone follows its master, staying in the master's space, or as nearby as possible. The drone can move on its master's turn in order to follow in this way.
+
+
+### Actions
+***Surveillance Protocol.*** The familiar creates a holographic marker above one target it can see within 60 feet until the beginning of the familiar’s next turn. For that duration, attacks against the target can’t have disadvantage (unless the disadvantage is due to the Automatic property), and the target has disadvantage on checks made to hide.
+}}
+
+{{pageNumber,auto}}
+\page
+### Ronin
+The ronin are masterless, wandering warriors, beholden
+to no code but their own. No two are the same, each with
+their own tale that led them down the warrior’s path. They
+are masters of many weapons, striking with blade and arrow
+in a spectacle of blinding speed and accuracy. Some ronin
+use their power to protect the vulnerable—vigilantes doing
+what they see as right, no matter the cost. Others pursue
+their own ends, unfettered by the consequences of their actions. Ronin are dangerous combatants, hardened survivors,
+and above all things, free.
+
+{{note
+##### Drawing and Stowing Weapons
+Creatures can draw or stow one weapon as part of an ‘object interaction’ on their turn, but drawing a second weapon requires an action. Ronin ranger’s Slash Draw feature allows them to draw or stow a weapon twice on their turn, without requiring an action to do so.
+}}
+
+
+#### Slash Draw
+*3rd-Level Ronin Feature*::
+
+You have mastered the art of striking with sudden, explosive
+power at any moment. The first time each turn that you hit
+a creature with a melee weapon attack using a weapon you
+drew that turn, the attack deals an extra 1d6 damage of that
+weapon’s type. This extra damage increases to 1d8 when you
+reach 11th level in this class.
+
+In addition, once per turn, you can draw or stow one weapon, provided you aren’t incapacitated (no action required).
+
+#### Wandering Magic
+*3rd-Level Ronin Feature*::
+You learn an additional spell when you reach certain levels in this class, as shown in the Wandering Magic Spells table.
+Each spell counts as a ranger spell for you, but it doesn’t
+count against the number of ranger spells you know. 
+
+|Ranger Level| Spell|
+|:---------:|:------------:|
+3rd |expeditious retreat, fog cloud
+5th |blur,misty step
+9th |remove curse, wind wall
+13th |death ward, freedom of movement
+17th |legend lore, steel wind strike
+
+#### Masterless
+*3rd-Level Ronin Feature*::
+You are a solitary warrior, shackled by no code or authority beyond your own. Whenever you make a saving throw to avoid or end the charmed condition on yourself, roll a d6 and add the number rolled to the saving throw
+
+\column
+#### Cleaving Parry
+*7th-Level Ronin Feature*::
+When a creature makes a weapon attack against
+you while you have a stowed melee weapon and
+a free hand, you can use your reaction to attempt to parry that blow, drawing your stowed
+weapon as you do so. Your AC increases by an
+amount equal to your Dexterity or Strength
+modifier (your choice) against that attack,
+and you gain temporary hit points equal
+to your proficiency bonus + your Wisdom
+modifier (minimum 1). After the attack
+hits or misses, you can then stow that
+weapon as a part of this reaction.
+
+#### Multi-Weapon Mastery
+*11th-Level Ronin Feature*::
+You have advantage on the first melee weapon attack you
+make each turn, as well as advantage on the first ranged
+weapon attack you make each turn.
+In addition, being within 5 feet of a hostile creature
+doesn’t impose disadvantage on your ranged attack rolls.
+
+#### Relentless Onslaught
+*15th-Level Ronin Feature*::
+The speed and ferocity of your onslaught is legendary. When
+you take the Attack action, each time you score a critical hit
+or reduce a creature to 0 hit points as part of that action, you
+can make one additional weapon attack. You can make up to
+three additional attacks with this feature per turn.
+
+{{pageNumber,auto}}
+\page
+### Skysworn
+While most Rangers are masters of the terrestrial wilderness those known as Skysworn defend the great open skies. Often organized in small fraternities, this order of Rangers master a style of elemental magic that grants power over air. These aerial Rangers use this elemental air magic to empower their attacks, enhance their skills, and even to take flight.
+
+
+#### Skysworn Armor
+At 3rd level, you have enchanted your armor with the power of elemental air. Over the course of 1 hour, which can be during a short or long rest, you can enchant a set of light armor that you touch, transforming into a set of Skysworn Armor.
+
+You can only have one set of Skysworn Armor at a time.
+
+Enchanting another set immediately dispels the benefits for any previous set. Only you can wear and benefit from a set of Skysworn Armor, and it grants you the following benefits:
+
+- The Armor has a number of Charges equal to 1 + your Wisdom modifier (minimum of 2), and it regains all of its expended charges when you finish a short or long rest.
+- As a bonus action, you can expend 1 Charge to fly in a straight line up to 30-feet. Creatures in your flight path must make a Dexterity saving throw. They take thunder damage equal to three rolls of your Favored Foe die on a failed save, and half as much damage on a success.
+- This flight does not count against your total movement.
+- You can cast feather fall without expending a spell slot.
+- You can add your Wisdom modifier (minimum of +1) to any Dexterity (Acrobatics) checks you make.
+
+When your Skysworn Armor has no Charges remaining,
+you can use an action to touch the Armor and expend a spell slot, and it regains a number of Charges equal to the level of the spell slot you expended, up to its maximum Charges.
+
+#### Skysworn Spells
+At 3rd level, you always have the spells from the table below prepared once you reach certain levels in this class. 
+Ranger Level| Spell
+:-:|:-:
+2nd| fog cloud, feather fall
+5th| gust of wind, warding wind
+9th| lightning bolt, wind wall
+13th| death ward, ice storm
+17th| far step, maelstrom
+
+\column
+
+#### Storm Strike
+At 3rd level, you can empower your strikes with the thunderous elemental magic you wield. When you hit your Favored Foe, you can expend a Charge from your Skysworn Armor to deal additional thunder damage to your target equal to three rolls of your Favored Foe die.
+
+#### Tempestuous Magics
+By 7th level, you have enchanted your Skysworn Armor with tempestuous magics. 
+
+While your Skysworn Armor has at least 1 Charge, it grants you a 40-foot flying speed, and you add your Wisdom modifier (minimum of +1) to your Dexterity saving throws.
+
+#### Thunderous Flight
+At 11th level, you can channel the thunderous might of the greatest storms.
+
+When you expend a Charge of your Skysworn Armor to fly in
+a straight line, you add your Wisdom modifier to the thunder damage you deal to targets. Moreover, any Large or smaller creature that fails its Dexterity saving throw falls prone.
+
+In addition, when you are flying with your Skysworn Armor,
+any opportunity attacks made against you have disadvantage.
+
+#### Sonic Eruption
+At 15th level, you can erupt with a burst of thunderous force. As an action, you can expend Charges of your Skysworn Armor (up to your Wisdom modifier) to emit a burst of thunderous force, forcing targets of your choice within 60 feet to make a Constitution saving throw. 
+
+They take thunder damage equal to two rolls of your Favored Foe die for each Charge expended on a failed save, and half as much thunder damage on a success. Huge or smaller creatures that fail are also knocked prone.
+
+Finally, the flying speed granted by your Skysworn Armor increases to 60 feet so long as it has at least 1 Charge.
+
+{{pageNumber,auto}}
+\page
+### Slime Rancher
+Slime Rancher Conclave have learned to harness the unique properties of specialized oozes. These creatures serve as both ammunition and loyal companions, enhancing the ranger’s combat versatility. As they grow in skill, these rangers develop a deep bond with their oozes, even learning to integrate them into their defenses, gaining increased protection and adaptability in battle.
+
+
+#### Slime Rancher Conclave Magic
+
+Starting at 3rd level, your study and experience with Laticifex
+Oozes has taught you additional spells when you reach certain
+levels with this class, as shown in the Slinglash Conclave Spells
+table. The spell counts as a ranger spell for you, but doesn’t
+count against the number of ranger spells you know. If the spell
+is of a level higher than you have spell slots for, you may cast it once per long rest without requiring a spell slot.
+Ranger Level| Spells
+:-:|:-:
+3rd| *Catapult*
+5th| *Darkness*
+9th| *Meld into Stone*
+13th| *Black Tentacles*
+17th| *Conjure Volley*
+
+#### Ooze Companion
+At 3rd level, you have acquired a Ooze companion. The statistics for this creature differ from the normal stat block for a Ooze. Instead, use the Ooze stat block for this creature.
+
+When you form the bond with your ooze, its essence becomes infused into an object of your choosing no bigger than a foot in size in any dimension. This item is known as an Oozehaven, and it most commonly takes the form of a flask. When your ooze companion is reduced to 0 hit points, it quickly evaporates into nothingness. You may create a new body for your ooze by focusing on its Oozehaven during a long rest. Similarly, you may restore your Ooze companion to full hit points by focusing on
+their Oozehaven during a short rest. 
+
+When you do so, spend any number and level of spell slots. Your ooze regains 1d8 plus your Wisdom modifier hit points for every level of spell slot spent.
+
+If the Oozehaven is destroyed, you may create another by
+concentrating on both a new object and your ooze for 1 hour.
+If both your ooze and the Oozehaven are destroyed, you may
+form a bond with a new Ooze by spending 8 hours to
+bond with it, during which you infuse a new Oozehaven with
+its essence. You may only possess one Oozehaven and ooze
+companion at any time.
+
+Your ooze companion takes its turn at the same initiative step
+you do. Your ooze obeys all of your commands to the best of its
+ability. If you are incapacitated or absent, your ooze acts on its own, focusing on protecting you and itself.
+
+{{monster,frame
+
+## Ooze
+*Medium Ooze, Unaligned*
+___
+**Armor Class** :: 8 (Natural Armor)
+**Hit Points**  :: see Bonded Companion below
+**Speed**       :: 30ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|14 (+2)|3 (-4)|20 (+5)|1 (-5)|6 (-0)|5 (-5)|
+___
+**Condition Immunities** :: Blinded, Charmed, Deafened, Exhaustion, Frightened, Prone
+**Senses**               :: Blindsight 60 ft. (blind beyond this radius), Passive Perception 8
+**Languages**            :: None
+
+___
+***Bonded Companion.*** The maximum Hit Points of this creature are equal to its player companion’s level multiplied by 10. 
+
+Similarly, its attack roll bonus and save DC are equal to its companion’s spell attack bonus and spell save DC.
+:
+***Adhesive Body.*** The ooze can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
+:
+
+***Fluorescent Essence.*** The ooze can cause itself to emit low light in a 30-foot radius. It can either begin or end this effect as a bonus action.
+### Actions
+***Pseudopod.*** *Melee Weapon Attack:* your Spell Attack Modifier to hit, reach 5ft., one target. 1d6 + 2 + PB bludgeoning damage
+}}
+
+{{pageNumber,auto}}
+\page
+
+#### Slime Ammunition
+At 3rd level, your ooze companion serves not only as a valuable ally, but a source of potent ammunition to empower your attacks. While your ooze is within 5 feet of you, you may use any of the actions below. Each action has a cost associated with it which is subtracted from your ooze when you use the action.
+
+- **Luminous Splatter (1 Hit Point).** You fire a glob of ooze in which you imbue a minor magical charge. Choose a spot on an object or structure you can see within 150 feet, the glob hits that point creating a splatter 2 feet in radius which glows with dim light out to 30 feet. You caninstead target a creature with this action, in which case make an attack roll against the target’s Armor Class to determine if the glob hits its target.
+- **Hobbling Wrap (5 Hit Points).** Make an attack roll against a creature within range of your weapon. On a hit, the attack deals normal damage and if the creature is Large or smaller, they are grappled until freed as the ooze wraps around their feet, binding them. A creature can use an action to freeing itself.
+- **Gagging Glob (5 Hit Points).** Make an attack roll against a Large or smaller creature within range of your weapon. On a hit, the creature becomes gagged by the hunk of ooze. While gagged, the creature can only speak in unintelligible mumbles and cannot satisfy the verbal component for casting spells. A creature can use an action to removing the gag on a success.
+- **Restraining Shot (10 Hit Points).** Make an attack roll against a creature within range of your weapon. On a hit, the attack deals normal damage and if the creature is Large or smaller, they are restrained until freed as the ooze wraps around their limbs. An affected creature can use an action to freeing itself on a success
+
+\column
+
+#### Slime Armor
+Starting at 7th level, you have learned to merge with your ooze companion, using its unique properties to enhance your defense.
+
+As a bonus action, while your ooze is within 5 feet of you, you can envelop yourself in it, forming a protective layer. While merged this way, your ooze absorbs all damage you would take in your stead.
+
+While wearing the ooze as armor, you gain the following benefits:
+
+- Resistance to bludgeoning, piercing, and slashing damage.
+- Blindsight up to 60 feet.
+- Immunity to being charmed, frightened, or knocked prone.
+
+However, while encased, you cannot perform the verbal components of spells. Your ooze is considered an item you are wearing rather than a creature. If the ooze's hit points are reduced to zero, it separates from you and reverts to a creature with 0 hit points. You can also end the effect as a bonus action, returning your ooze to its normal form.
+
+
+
+#### Glossbite Lashes
+Starting at 11th level, you have learned to manipulate your ooze companion into extending tendrils that serve as versatile weapons.
+
+If your ooze is within 5 feet of you and not acting as armor, you can siphon 10 hit points from it to form flexible lash-like weapons attached to your forearms. If you are currently merged with your ooze, you instead sacrifice 10 temporary hit points to create them.
+
+These Tetherstrike Lashes function as light and finesse melee weapons with a reach of 20 feet, dealing 1d8 damage on a hit. You can choose to deal slashing or necrotic damage with each attack. Additionally, if you hit a creature with one or more attacks using these lashes, it takes an additional 1d8 slashing damage at the end of your turn.
+
+These tendrils can adhere to surfaces and objects at will, allowing you to use them to grapple or retrieve small items within 20 feet.
+
+While wielding these weapons, your hands remain occupied, preventing you from holding other weapons or shields, but you can still perform somatic components for spellcasting. You may dismiss the lashes at any time on your turn.
+
+
+
+#### Satiny Shield
+At 15th level, you have mastered using your ooze companion as a living shield against incoming threats.
+
+When you fail a saving throw and your ooze is within 5 feet of you, you can subtract 10 hit points from your companion to reroll the saving throw. If you do, you gain a +2 bonus to the result.
+
+{{pageNumber,auto}}
+\page
+### Shadowbane
+Every culture tells stories of evil spirits and monsters that live just beyond the walls of civilization. Thanks to the quiet vigilance of dedicated Rangers, these terrible monsters remain nothing more than a story. These guardian Rangers take up the mantle of Shadowbane, vowing to protect the innocent from the things of the night. They seek out vampires, evil fey, spirits, werewolves, and other vile creatures and destroy them without hesitation.
+#### Slayer's Insight
+*3rd-level Shadowbane feature*::
+You have a keen eye for the weak points of foes. When you roll initiative, so long as you are not surprised, you can use your reaction to mark one creature that you can see as your Favored Foe.
+Moreover, when you mark a creature as your Favored Foe you immediately learn if it has any damage immunities resistances, or vulnerabilities and what they are. If it is hidden from divination magic, such as by a nondetection spell you sense that the creature has no immunities, resistances, or vulnerabilities.
+#### Shadowbane Spells
+*3rd-level Shadowbane feature*::
+You always have the spells from the table below prepared once you reach certain levels in this class. See the Ranger Archetype class feature for how Archetype Spells work.
+|Ranger Level| Spell|
+|:---------:|:------------:|
+3rd |compelled duel, protection from evil/good
+5th |see invisibility, zone of truth
+9th |magic circle, protection from energy
+13th |banishment, faithful hound
+17th |dispel evil and good, hold monster
+#### Iron Focus
+*7th-level Shadowbane feature*::
+When your Favored Foe forces you to make a saving throw, you gain a bonus to your roll equal to your Favored Foe die.
+
+#### Bane of Darkness
+*11th-level Shadowbane feature*::
+Your hatred for evil empowers your weapons. Once per turn when you hit a creature with a weapon attack, you can deal additional radiant damage equal to your Favored Foe die.
+#### Ruthless Counter
+*15th-level Shadowbane feature*::
+If your Favored Foe forces you to make a saving throw, casts a spell, or attempts to teleport, you can use your reaction to make a single weapon attack against it using a weapon you are holding. On hit, you automatically succeed on the saving throw, or its spell or teleport automatically fails.
+### Spiritbound
+Spiritbound rangers forge a pact with invisible
+nature spirits that embody the power of mountains,
+rivers, and forests. Often, these spirits claw at the
+material world and seek vengeance upon those that
+despoil their domains. Spiritbound rangers are an
+implement for their fury.
+Rangers of this archetype strive to achieve
+balance with the natural world and preserve its
+majesty. Doing so is a constant struggle, in which
+the spiritbound can find wisdom and companionship
+within their spirit ally.
+
+
+#### Spiritbound Spells
+You always have the spells from the table below prepared once you reach certain levels in this class. See the Ranger Archetype class feature for how Archetype Spells work.
+|Ranger Level| Spell|
+|:---------:|:------------:|
+3rd |entangle, sanctuary
+5th |animal messenger, pass without trace
+9th |protection from energy, plant growth
+13th |death ward, polymorph
+17th |awaken, commune with nature
+
+#### Nature Spirit
+Also at 3rd level, you are bonded to a nature spirit,
+a manifestation of nature’s wrath. In its natural
+state, the spirit is a Tiny wisp that hovers around
+you. However, you can cause the spirit to take on an
+animal form by attuning to an icon when you finish a
+long rest. You can also change its form as an action
+by expending a spell slot of 1st level or higher.
+No matter what form the spirit takes, it is intangible
+and invulnerable.
+Your icons can be animal parts, such as bones,
+fur, and feathers, a set of elaborate masks, or simple
+wooden carvings of animals. The spirit grants the
+following benefits based on its form:
+
+**Bear.** You have advantage on Strength (Athletics) checks you make to grapple.
+
+**Bull.** You can take the Dash action as a bonus action. When you do so, your movement until the end of your turn must be in a straight line in the same direction.
+
+**Cat.** When you fall and aren’t incapacitated, you can subtract up to 60 feet from the fall when calculating falling damage.
+
+**Eagle.** As an action, you can command the spirit to fly up to 60 feet while you can see through its eyes until the start of your next turn. During this time, you are blind with regard to your own senses.
+
+At the end of your next turn, your spirit returns to your side unless you take this action again. Your spirit also returns to your side if it is ever more than 120 feet away from you.
+
+**Fox.** The first 5 feet you move on each of your
+turns doesn’t provoke opportunity attacks.
+Owl. You gain darkvision out to a range of 60
+feet. If you already have darkvision from another
+source, its range increases by 30 feet.
+
+
+{{pageNumber,auto}}
+\page
+#### Spirit Fang
+At 3rd level, you can command the nature spirit to
+appear next to a creature within 60 feet of you that
+you can see and make an attack. Make a spell attack
+roll against the target. On a hit, the target takes 1d8
+force damage.
+
+When you reach 11th level, you can add your Wisdom modifier to the damage roll.
+#### Animal Aspect
+Starting at 7th level, when your spirit takes on an
+animal form, you gain a bonus to one of your ability
+scores. This bonus is +4 if the ability score is 14 or
+lower, or +2, up to a maximum of 20, otherwise. The
+ability score that gains a bonus depends upon the
+spirit’s animal form, as shown on the Animal Ability
+Score table.
+
+If you gain a bonus to your Constitution score
+using this feature, you gain temporary hit points
+instead of increasing your hit point maximum
+or current hit points. For a +2 bonus, you gain
+temporary hit points equal to your level. For a +4
+bonus, you gain temporary hit points equal to twice
+your level. These temporary hit points last until you
+increase a different ability score using this feature.
+##### Animal Ability Score
+Animal| Form Ability Score
+:-:|:-:
+Bear| Constitution
+Bull| Strength
+Cat| Dexterity
+Eagle| Charisma
+Fox| Intelligence
+Owl| Wisdom
+
+#### Spirit Cyclone
+Beginning at 11th level, you can use your action
+to evoke all of your nature spirit’s aspects at once.
+Your nature spirit manifests itself at a point you can
+see within 30 feet of you as a whirlwind of spectral
+animals occupying an 15-foot-radius, 30-foot high
+cylinder. As a part of the action used to manifest
+this whirlwind and as a bonus action on subsequent
+turns, you can move the whirlwind 30 feet to a
+location you choose. When a creature other than
+yourself enters the area for the first time on a turn or
+starts its turn there, it must make a Wisdom saving
+throw against your spell save DC, taking 6d8 force
+damage on a failed save, or half as much damage on
+a successful one.
+
+While your spirit is manifested in this way, you
+lose the benefit of your Nature Spirit feature and
+can’t use your Spirit Fang feature, though you still
+retain the ability score bonus of your Animal Aspect.
+The whirlwind lasts for 1 minute or until
+you lose your concentration on it (as if you were
+concentrating on a spell). 
+
+Once you use this feature, you can’t use it again until you finish a long rest, unless you expend a 3rd-level spell slot to use it again.
+
+\column
+
+#### Ward of the Wilds
+Starting at 15th level, when an attacker that you
+can see hits you with an attack, you can use your
+reaction to cause the spirit to intercede. Subtract 1d8 + your Wisdom modifier from the damage roll. If this
+reduction exceeds the damage dealt by the attack, the
+attacker takes force damage equal to the difference.
+### Spellbreaker
+Spellbreakers are a small but dedicated fraternity of Rangers that specialize in hunting mages who use their arcane power for evil. While most pursue the life of a Spellbreaker for noble reasons, there are some who seek to destroy anyone with the potential to use magic. Most Spellbreakers work in secrecy, only striking when success is a certainty. When one wrong move could end in disintegration, there is no room for error.
+
+
+#### Spellbreaker Spells
+You always have the spells from the table below prepared once you reach certain levels in this class. See the Ranger Archetype class feature for how Archetype Spells work.
+|Ranger Level| Spell|
+|:---------:|:------------:|
+3rd |absorb elements , detect magic
+5th |blindness/deafness, silence
+9th |counterspell, dispel magic
+13th |arcane eye, resilient sphere
+17th |dispel evil and good, wall of force
+
+#### Spellsight
+
+At 3rd level, you have learned to detect the innate arcane potential of others. When you mark a creature as your Favored Foe you instantly learn its spellcasting ability (if it has one) and the level of the highest spell that it has the ability to cast. If the creature is hidden from divination magic, such as a nondetection spell, it appears as if it cannot cast spells.
+
+
+#### Reflect Spell
+At 3rd level, you can cast absorb elements at 1st-level, without expending a spell slot a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses of this feature when you finish a long rest.
+
+After you cast absorb elements, if your next melee weapon attack is against the creature whose spell you absorbed, you treat the absorb elements damage as its maximum amount.
+#### Arcane Defense
+At 7th level, whenever you are forced to make a saving throw to resist a spell or another magical effect, you gain a bonus to your roll equal to your Wisdom modifier (minimum of +1).
+{{pageNumber,auto}}
+\page
+#### Mage Breaker
+At 11th level, you are a hunter of mages. When you mark a spellcaster as your Favored Foe, you gain the following additional benefits:
+- Your weapon attacks against it deal force damage.
+- When you damage it, it has disadvantage on any saving throw it makes to maintain concentration on any spells.
+- When you hit it with a weapon attack, you can expend a spell slot to deal additional force damage equal to one roll of your Favored Foe bonus per level of the slot you expend.
+#### Mantle of the Master
+At 15th level, your training as a Spellbreaker has reached its apex. You are resistant to all damage from spells and other magical effects.
+### Stargazer
+Mortals have always looked to the stars to tell stories of the past, omens for the present, and some believe that by observing motions of the heavenly bodies one can even predict the fates of others. Stargazers spend their lives studying stars and constellations, and learn to draw on their radiant power to vanquish their foes.
+
+#### Celestial Guidance
+*3rd-level Stargazer feature*::
+The great constellations of the night sky guide your life. You gain proficiency with navigator's tools, and you cannot become lost, even by magical means, so long as you can see the stars or the night sky.
+
+Also, each time you finish a long rest, you can attune yourself to one of the Constellations from the table below. While attuned, you have both the cantrip and 1st-level spell that correspond to that Constellation prepared. Both become Ranger spells for you, but they don't count against the total number of Ranger spells that you can prepare each day.
+
+You can cast your Constellation spell at 1st-level without expending a spell slot or material components a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a long rest.
+|Constellation| Cantrip| 1st-level Spell|
+|:---------:|:------------:|:---------:|
+Adder| viscous mockery |inflict wounds
+Eagle| gust |zephyr strike
+Elephant| guidance |bless
+Hare| minor illusion| longstrider
+Stag| shillelagh |compelled duel
+Turtle| resistance| shield
+Wolf| primal savagery| guiding bolt
+
+\column
+
+#### Stargazer Spells
+*3rd-level Stargazer feature*::
+You always have the spells from the table below prepared once you reach certain levels in this class. See the Ranger Archetype class feature for how Archetype Spells work.
+|Ranger Level| Spell|
+|:---------:|:------------:|
+3rd| Constellation Spells
+5th| mind spike, moonbeam
+9th| beacon of hope, clairvoyance
+13th| divination, guardian of faith
+17th| dawn, wall of light
+#### Threads of Fate
+*7th-level Stargazer feature*::
+You can use the insights you gain from the stars to twist the threads of fate. As a reaction when you, or another creature you can see within 30 feet, makes an ability check or saving throw, you can add your Wisdom modifier (minimum of +1) to the result of the roll. You can use this reaction after the roll, but before you know if the roll succeeds or fails.
+
+You can use this reaction a number of times equal to your Wisdom modifier (minimum of once), and you regain all of your expended uses when you finish a long rest.
+
+#### Starlight Strikes
+*11th-level Stargazer feature*::
+As a bonus action on your turn, you can enter a trance that allows the celestial bodies of the night to guide your attacks. This trance lasts for 1 minute, or until you are incapacitated. When you roll a 9 or lower on the d20 for an attack roll while you are in this trance, you can treat the roll as a 10. You can do so no more than once per turn.
+
+Once you use this ability you must finish a long rest before you can use it again. When you have no uses remaining, you can expend a spell slot of 3rd-level or higher to use it again.
+#### Resplendent Soul
+*15th-level Stargazer feature*::
+Your very being is suffused with starlight. When a creature you can see within 30 feet hits you with an attack, you can use your reaction to release a targeted flash of light, forcing the attacker to make a Constitution saving throw against your Spell Save DC. On a failed save, the target takes 3d10 radiant damage and is blinded until the start of its next turn. On a successful save, it takes half damage and is not blinded.
+
+You can use this reaction a number of times equal to your Wisdom modifier (minimum of once), and you regain all of your expended uses when you finish a long rest. When you have no uses remaining, you can expend a spell slot of 1st- level or higher to use this reaction one additional time.
+{{pageNumber,auto}}
+\page
+
+### Stormchaser
+Born of thunder and tempered by lightning, the Stormwrought ranger channels the wild and chaotic fury of the skies into every strike. As battle rages, they build a charge of raw static energy, releasing it in devastating bursts that dance between enemies like chain lightning. Whether caught in a raging tempest or standing beneath clear skies, becomes the storm.
+
+
+#### Gathering Storm
+At 3rd level, you have a static die which you can use to empower your actions. It is tied to your static buildup, and you gain 1 point of static buildup each time one of certain conditions is met. If your static buildup doesn't increase for a minute it is lost.
+
+Your maximum static buildup increases when you reach certain levels in this class. your static buildup increases when:
+- You make an attack
+- You cast a spell
+- You are attacked
+- You make a strength or dexterity saving throw
+- You deal non lightning damage. (Once per source of damage)
+- You take or deal lightning damage.
+- You make an athletics check.
+- You take the dash or disengage action.
+- You start your turn in a storm (up to a third of your maximum)
+
+##### Static die progression
+
+|Static buildup|Damage Die|
+:-:|:-:
+0|1d1 
+10|1d4
+20|1d6
+30|1d8
+40|1d10
+50|2d6
+60|2d8
+70|2d10
+80|3d8
+90|3d10
+100|3d12
+
+##### Maximum Static per level
+Ranger Level| Maximum Static
+:-:|:-:
+3rd| 30
+7th| 50
+11th| 70
+15th| 100
+
+{{note
+##### Storm discharge
+You lose 10 static buildup if at 10 or higher. The target creature or object takes lightning damage equal to a roll of your static die. If possible, an electric arc jumps to another creature within 15 feet. The new target makes a dexterity saving throw taking damage equal to a step down from your static die and it repeats until it cannot jump or it has reached the lowest die possible.
+}}
+
+#### Stormchaser Spells
+You always have the spells from the table below prepared once you reach certain levels in this class. See the Ranger Archetype class feature for how Archetype Spells work.
+|Ranger Level| Spell|
+|:---------:|:------------:|
+3rd| *Fog Cloud, Witch Bolt*
+5th| *Arc of Lightning, Lightning Spear*
+9th| *Call Lightning, Lightning Bolt*
+13th| *Scintillating Sphere, Storm Sphere*
+17th| *Maelstrom, Thunderbolt*
+#### Stormborn
+Starting at 3rd level, once per turn when you deal damage with an attack you can invoke the relentless fury of the storm to strike it, causing a storm discharge targeting whatever took the damage. 
+
+Additionally, when you are in a storm, your static buildup can be no lower than 10. Depending on the severity of the storm your dm may increase this number. 
+
+#### Crackling skin
+By 7th level, when you are hit by an attack, as a reaction, you can release lightning all around you. Creatures of your choice within 5ft make a dexterity saving throw, taking lightning damage equal to a roll of your favored foe die or half as much on a success. This can cause a storm discharge targeting a single affected creature. A creature that passes this saving throw also takes half damage from a storm discharge if you cause one.
+
+You also gain resistance to lightning damage.
+
+
+#### Lightning Conduit
+Starting at 11th level, you learn how to make some otherwise mundane attacks be benefitted by your storm. If you have at least 10 static buildup you can choose for your favored foe feature to do lightning damage instead, and any time you deal damage you deal 1 extra point of lightning damage.
+
+Once per short rest, you can cast any of the storm spells without spending a spell slot by spending static buildup equal to 10 times the spell's level.
+
+#### Stormbringer
+When you reach 15th level you unlock the mightiest secrets of the storm within you.
+
+When you reach your maximum static buildup you enter the awakened storm state.
+
+While in this state you no longer gain nor lose static buildup as usual, instead you lose 20 points at the end of each of your turns.
+You regain the use of lightning conduit if you had used it before.
+
+{{pageNumber,auto}}
+\page
+### Swarmkeeper
+Feeling a deep connection to the environment around them, some rangers reach out through their magical connection to the world and bond with a swarm of nature spirits. The swarm becomes a potent force in battle, as well as helpful company for the ranger. Some Swarmkeepers are outcasts or hermits, keeping to themselves and their attendant swarms rather than dealing with the discomfort of others. Other Swarmkeepers enjoy building vibrant communities that work for the mutual benefit of all those they consider part of their swarm.
+#### Swarmkeeper Spells
+*3rd-level Swarmkeeper feature*::
+You always have the spells from the table below prepared once you reach certain levels in this class. See the Ranger Archetype class feature for how Archetype Spells work.
+|Ranger Level| Spell|
+|:---------:|:------------:|
+3rd| mage hand, entangle, faerie fire
+5th| spider climb, web
+9th| fly, gaseous form
+13th| arcane eye, giant insect
+17th| arcane hand, insect plague
+
+#### Gathered Swarm
+At 3rd level, a swarm of intangible nature spirits has bonded itself to you and can assist you in battle. Until you die, the swarm remains in your space, crawling on you or flying and skittering around you within your space. You determine its appearance, or you generate its appearance by rolling on the Swarm Appearance table.
+##### Swarm Appearance
+|d4 |Appearance|
+|:---------:|:------------:|
+1| Swarming insects
+2| Miniature twig blights
+3| Fluttering birds
+4| Playful pixies
+
+Once per turn, after you hit a creature with a weapon attack, your swarm can assist you in one of the following ways: 
+- It takes piercing damage equal to your Favored Foe die. 
+- It must succeed on a Strength saving throw against your Spell Save DC or be moved up to 15 feet horizontally. 
+- You move 5 feet horizontally in a direction of your choice.
+
+\column
+
+#### Writhing Tide
+Beginning at 7th level, you can condense part of your swarm into a focused mass that lifts you up. As a bonus action, you gain a flying speed of 10 feet and can hover. This effect lasts for 1 minute or until you are incapacitated.
+
+You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.
+#### Mighty Swarm
+*11th-level Swarmkeeper feature*::
+Your Gathered Swarm grows mightier in the following ways:
+- If a creature fails its saving throw against being moved by your Gathered Swarm, you can also knock it prone.
+- When you are moved by your Gathered Swarm, you gain the benefits of half cover until the start of your next turn.
+
+
+#### Swarming Dispersal
+When you reach 15th level, you can discorporate into your swarm, avoiding danger. When you take damage, you can use your reaction to give yourself resistance to that damage. You vanish into your swarm and then teleport to an unoccupied space that you can see within 30 feet of you, where you reappear with the swarm. You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.
+{{pageNumber,auto}}
+\page
+### Torturer Conclave
+Enshrouded within the radiance of Luyarnha, a conclave of rangers lies concealed, their solemn duty vowed to the preservation of peace within the walls, regardless of the means. Ever vigilant against the insidious advance of the scourge, they have honed their inquisitorial craft, recognizing the importance of early prevention of this plague, achieved by finding and interrogating victims, and even potential victims, before signs of sickness manifest themselves.
+
+In the throes of battle, these rangers bring their torturous expertise with them, employing it with merciless precision to break their enemies, methodically subjecting them to unspeakable agony. They do not recoil from these savage tactics, for they understand that failure means death or a fate grimmer still. They show no mercy to their foes, for they are well aware that none would be extended to them in kind.
+
+
+
+#### Tools of the Trade
+Starting at 3rd level, you've learned to interrogate and
+use implements of torture. You gain proficiency with
+torture tools and Insight checks, and your proficiency
+bonus is doubled for any ability check you make that
+uses them.
+
+{{note
+##### Torture Tools
+This satchel contains various small implements that can bludgeon, cut, and pierce in ways designed to maximize pain. Meant to extract the truth, many use these tools with far more nefarious intentions.
+Proficiency with these tools grants the following benefits:
+
+**Exhaustion.** Using these tools for 1 hour on a restrained creature causes them to gain 1 level of
+exhaustion, after which you must make a Dexterity (torture tools) check. The DC is equal to 20 - the creature's Constitution modifier. On a failure, the creature takes 10 points of your choice of
+bludgeoning, piercing, or slashing damage.
+
+**Intimidation.** When you make an Intimidation check against a creature whom you used these tools against, you gain a bonus equal to your proficiency bonus + twice the level of exhaustion the creature has.
+
+**Cost:** 50 gp/Weight: 10 lb
+}}
+
+{{note
+##### Disclaimer: 
+Please be advised that while some may
+use torture as a plot device or as a means of
+gathering information, it is a sensitive and disturbing
+topic. While the use of torture can be integral to the
+story being told, which is why it is included in this
+book, it is important to ensure that everyone at the
+table comes to an agreement regarding its use prior
+to the session beginning, and if it's included, whether
+descriptions should fade to black or be more detailed.
+}}
+
+
+\column
+
+#### Torturer Techniques
+Also at 3rd level, you learn to use techniques. Unlike
+others who require patience and careful preparation, you
+employ techniques that are fueled by your magic, letting
+you make use of torture tools even in the midst of hunts.
+You can use each technique twice and regain the ability
+to do so again when you finish a long rest, or when you
+expend a spell slot of 1st level or higher to reuse it.
+
+**Techniques.** When you make a melee weapon attack against a creature while you have torture tools in one hand (or a free hand and the presence of torture tools at your disposal, such as strapped around your leg), as part of that attack, you can use a technique to enhance it in some way. You must use the technique before the attack roll is made, and regardless of the outcome, the use or the spell slot is expended. You can only use a technique once per turn, though you can use multiple different techniques in the same turn, and you can only use one technique per attack.
+
+**Empowered Techniques.** At certain levels in this class,
+you gain the ability to empower your torturer
+techniques using magic. When you expend a spell slot
+to use a technique, you inflict extra damage, and the
+target suffers a penalty to saving throws it makes
+against the technique, as shown on the following table.
+You can't empower a technique using a spell slot of a level you haven't unlocked, even if you have higher level spell slots (e.g., through multiclassing or items).
+
+|Ranger |Spell Slot|Extra|Saving Throw|
+|Level |Unlocked|Damage|Penalty|
+|:---:|:---:|:---:|:---:|
+|3rd|1st|Wisdom modifier|-1d4
+|5th|2nd|2 x Wisdom modifier|-2d4
+|9th|3rd|3 x Wisdom modifier|-3d4
+|13th|4th|4 x Wisdom modifier|-4d4
+|17th|5th|5 x Wisdom modifier|-5d4
+
+Additionally, the first two times you use a technique
+after you finish a long rest, you can expend a spell slot
+of 1st level or higher, in which case the technique is
+empowered as if you had expended a spell slot one
+level higher (up to a maximum of the highest spell slot
+you've unlocked).
+
+**Saving Throws.** Some of your techniques require your
+target to make a saving throw to resist the technique's
+effects. The saving throw DC is calculated as follows:
+
+**Technique save DC** = 8 + your proficiency bonus + your Wisdom modifier
+{{pageNumber,auto}}
+\page
+#### Techniques
+At 3rd level, you learn each of the following techniques. At higher levels,these techniques are improved.
+
+**Combing.** You scrape, tear, and flay the victim's flesh. On a hit, the
+target takes an extra 1d12 slashing damage.
+
+Starting at 7th level, if you damage a target two rounds in a row with this technique, it must make a Constitution saving throw against your technique save DC. On a failure, you tear away so much flesh that its body starts to bleed. It takes 1d8 necrotic damage at the start of each of its turns (this damage can't be reduced or ignored in any way) for 1 minute. A bleeding creature can repeat the saving throw at the end of each of its turns, ending the effect on a success.
+
+Any extra damage from empowering this technique also applies to this necrotic damage. A creature can't suffer multiple instances of this effect at once.
+
+**Enucleation.** You aim a vicious strike at the target's eye, reducing their vision to a macabre blur. On a hit, the target takes an extra 1d6 of the weapon's damage type and must succeed on a Constitution saving throw or have disadvantage on Perception checks and be blinded beyond 60 feet for 1 minute. Any healing ends this effect. The target can repeat this saving throw with disadvantage at the end of each of its turns, ending the effect on a success.
+
+Starting at 11th level, if the target fails its saving throw against this technique two rounds in a row, it becomes blinded for 1 minute. Creatures with more than 2 eyes have advantage on this saving throw. The target can repeat this saving throw at the end of each  of its turns, ending the effect on a success.
+
+**Hamstrinring.** You slash at the tendons. On a hit, the target takes an extra 1d8 slashing damage and must succeed on a Constitution saving throw or have its speed reduced to 0 until the start of your next turn.
+
+Starting at 7th level, if the target fails its saving throw against this technique two rounds in a row, you sever its tendons, and its walking speed becomes 0 for 1 minute. The target can repeat this saving throw at the end of each of its turns, ending the effect on a success.
+
+
+
+**Nerve Scraping.**
+You damage the target's nerves, causing its body to
+writhe in pain. On a hit, it takes an extra 1d8 psychic
+damage. The target must then succeed on a
+Constitution saving throw or lose its grip on reality; until the start of your next turn, it must use its action before moving on each of its turns to make a melee attack against a randomly determined creature within its reach other than itself. If no creature is within its reach, it acts as normal, though still can't  discern allies and enemies, and if it makes an attack, it randomly determines a target within its reach or range other than itself.
+
+Starting at 11th level, if the target fails its saving throw against this technique two rounds in a row, it suffers a 1d4 penalty to its attack rolls and saving throws for 1 minute. The target can repeat this saving throw at the end of each of its turns, ending the effect on a success.
+
+**Throat Chop.** You hit the target's throat, impairing its ability to breathe and speak. On a
+hit, the target takes an extra 1d8 bludgeoning damage and can't speak or use the verbal components of spells until the start of your next turn.
+
+Starting at 11th level, if you hit a target two rounds in a row with this technique, it must make a Constitution saving throw against your technique save DC. On a failure, the pain shocks the target, which becomes stunned until the end of your next turn.
+
+**Tympanic Rupture** You slam the target's ears in an attempt to destabilize it. On a hit, the target takes an extra 1d10 bludgeoning damage and must succeed on a Constitution saving throw or become deafened for 1 minute. A deafened creature can repeat the saving throw at the end of each
+of its turns, ending the effect on a success.
+
+Starting at 7th level, if the target fails its saving throw against this technique two rounds in a row, it is disoriented for the duration. While disoriented, the target can't take reactions.
+
+#### Corrupt mind
+
+By 7th level, you've seen the worst depravities that
+plague this world and have committed most of them.
+You are immune to the frightened condition and gain
+resistance to psychic damage.
+
+In addition, if a creature attempts to read your mind or telepathically talk to you against your will, it must first make a Wisdom saving throw against your technique save DC. On a failure, it witnesses the horrors within your mind and fails to communicate with you, taking psychic damage equal to your level.
+
+On a success, it must repeat the saving throw after each minute spent reading your mind or telepathically talking to you against your will.
+
+
+#### Veil of Pain
+Starting at 11th level, when you damage a creature with your torturer techniques, you can attempt to
+rattle its mind with the pain. It must succeed on a Wisdom saving throw against your technique save DC
+or start dissociating your presence, you become heavily obscured to it for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on a success.
+
+You can use this feature a number of times equal to your Wisdom modifier (minimum 1) and regain all
+expended uses when you finish a long rest.
+
+#### Mental Agony
+At 15th level, you know how to cause pain to your quarry both physically and mentally. When a creature
+that you can see within 60 feet of you that failed its saving throw against one of your torturer techniques since the start of your last turn makes a Wisdom, Charisma, or Intelligence saving throw, you can use your reaction to flourish your blades, smile, or perform a similar terrifying display, imposing a -1d10 penalty to the saving throw. Creatures that are immune to the frightened condition are immune to this effect.
+{{pageNumber,auto}}
+\page
+### Trapper
+
+Through careful preparation, trappers can create both physical and magical traps to ensnare, explode, or enrapture those unlucky enough to find themselves in their vicinity. Trappers are found in all terrains where there are creatures to be hunted. With tact and guile as their companions, a trapper can lay low even the mightiest of prized beasts.
+
+#### Trapper’s Tools
+
+At 3rd level, having learnt how to create traps, you’ve gained an understanding of how to thwart the traps of others. You gain proficiency with thieves’ tools and you add double your proficiency bonus to any ability check you make using those tools to disarm or manipulate a trap.
+
+#### Trapped Weapons
+
+At 3rd level, when you finish a short or long rest, you can augment one weapon or up to twenty pieces of ammunition that you are holding with a concealed, magical augmentation. You decide whether the augmentation deals acid, cold, fire, or lightning damage. The augmentation lasts until you finish a short or long rest. Once per turn, when you hit a target with a weapon attack using the augmented weapon or ammunition, you can activate the concealed augment (no action required). The target of your attack takes 1d8 extra damage of the associated type. At 11th level, you can augment one additional item or up to 20 additional pieces of ammunition when you finish a short or long rest, and the damage increases to 2d8.
+
+#### Set Trap
+
+At 3rd level, and later at 5th, 9th, 13th, and 17th level, you learn how to make new traps, as detailed on the Trapper Traps table, below.
+
+**Physical Traps.** Creating a physical trap takes 1 hour (which can be done during a short or long rest) and uses trap-making materials (valued in gp) specified in the trap’s description. After a physical trap activates, its materials are consumed and the trap can’t be used again. However, over the course of 10 minutes, you can salvage half the trap-making materials used in the physical trap’s construction if it hasn’t activated yet.
+
+**Magical Traps.** Immediately after you finish a long rest, you can create magical traps—up to a number equal to your Wisdom modifier (minimum 1)—choosing from the options in the Ranger Traps. Some of these traps require you to expend spell slots in their creation. When you finish a long rest, all undeployed magical traps lose their effects.
+
+\column
+
+While a physical trap’s description specifies how it is activated, you have flexibility in activating your magical traps. When you deploy a magical trap, you can choose a size of creature and a distance of up to 30 feet. When a creature of that size or larger comes within the specified distance, the trap activates. As another option, you can intentionally activate a magical trap within 150 feet of you using a bonus action or a reaction (with no specific trigger).
+
+#### Trapper Traps
+
+|Ranger Level|Trap Options|
+|:---:|---|
+|3rd|bear trap *P*, tanglevine *M*, snare trap *P*, solestriker *M*|
+|5th|immolation *M*, miasma *M*, soulbind *M*, pit trap *P*|
+|9th|bewilderment *M*, net trap P, thunder charge *M*|
+|13th|catapult trap *P*, infection *M*, snapfrost *M*|
+|17th|banisher *M*, gravity well *M*|
+
+*‘P’ indicates physical; ‘M’ indicates magical*
+:
+**Deploying a Trap.** 
+As an action, you can throw a trap you have created to an unoccupied space you can see on the ground within 30 feet of you, where it arms itself at the start of your next turn. A trap deployed in this way is plainly visible to all creatures. Over the course of 1 minute, you can conceal a trap. A concealed trap can be noticed by a creature that uses its action to make a Wisdom (Perception) check against your ranger save DC and succeeds.
+
+**Disarming a Trap.**  Attempting to move an armed trap causes it to activate, unleashing its effects. A creature within reach of a trap can use its action to make a Dexterity (thieves’ tools) check (for physical traps) or a spellcasting ability (Arcana) check (for magical traps) against your ranger save DC. On a success, the trap is disarmed. On a failure, the trap activates and the creature has disadvantage on any saving throw it makes to resist the trap’s effects. As an action, you can remotely disarm one of your traps that is within 150 feet of you.
+
+**Trap Effects.**  Spell effects created by a trap don’t require concentration. When a trap calls for a saving throw, the DC equals your ranger spell save DC. You can have multiple traps deployed, but any attempt to deploy a magical trap whose centre is within 40 feet of the centre of another magical trap fails. Creatures with truesight or that are under the influence of the detect magic spell can notice a magical trap’s presence, even if it has been concealed.
+{{note
+##### Trap-Making Materials
+1 gp worth of trap-making materials weighs 1 lb.
+}}
+
+
+{{pageNumber,auto}}
+\page
+
+#### Tracker
+Starting 7th level, you are an expert at detecting and obscuring tracks. When you make an ability check to find or follow tracks, you can add your proficiency bonus to the result of the check, even if you aren’t proficient in the relevant skill. If you are already proficient in the relevant skill, your proficiency bonus is doubled for
+that check.
+
+#### Trapper’s Avoidance
+At 7th level, the merest hiss of escaping air, depression of a tile, or scent of ozone is all the warning you need to avoid traps’ effects. When you are subjected to a trap’s activation effect that allows you to make a saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail. 
+
+In addition, if a trap makes an attack roll against you, that attack roll has disadvantage. 
+
+This feature doesn’t function against a trap’s ongoing effects. For example, you can mitigate the effect of a poisonous cloud as it is being released by holding your breath or covering your skin, but on subsequent rounds, the cloud’s saving throw would affect you as normal on a success or failure.
+
+#### Leave No Trace
+By 11th level, you’ve learnt to use magic to hide traps, allowing them to be concealed in the heat of battle. When you deploy a trap, you can expend a spell slot of 1st level or higher to disguise the trap with illusion magic, causing it to become invisible the moment it leaves your hands. Creatures don’t see where the trap lands and, if it’s a physical trap, have disadvantage on saving throws made to avoid the trap’s effects. 
+
+In addition, you learn the invisibility spell, which  counts as a ranger spell for you, but doesn’t count against the number of ranger spells you know. You can cast it once without using a spell slot, and you regain the ability to cast it in this way when you finish a short or long rest.
+
+#### Booby Trap
+At 15th level, you trap your own body against unexpected demise. When you finish a long rest, you can choose one of the following magical effects with which to augment your body until you finish a long rest. 
+
+After triggering an effect that activates when you are reduced to 0 hit points, that effect can’t trigger again until you finish a long rest.
+
+**Defibrillate.** Once per turn, when a creature hits you with a melee attack, you can trigger an electrical discharge (no action required). The creature is unable to take reactions until the start of its next turn unless it is immune to lightning damage, and you can immediately move up to 10 feet without provoking opportunity attacks.
+
+After you move using this feature, you can’t do so again until the start of your next turn.
+
+When you are reduced to 0 hit points and not
+killed outright, you can instead drop to 1 hit point
+and immediately take an extra turn, interrupting
+the current turn. If you don’t regain any hit points
+before the end of your next turn, you drop to 0 hit
+points, fall unconscious, and begin making death
+saving throws as normal.
+
+**Dissolve.** Once per turn, when a creature within 5 feet of you hits you with a melee attack, you can trigger a spurt of acid to coat its weapon or limb (no action required). If the melee attack was a spell attack or made with a natural weapon, the creature takes 1d6 acid damage. If the result of the attack roll meets your AC and is made with a ferrous, non-magical, non-natural weapon, the acid causes the metal to weaken and the weapon is destroyed.
+
+When you are reduced to 0 hit points, all your
+concealed acid charges gush outward. Each creature within 10 feet of you must make a Dexterity saving throw against your ranger spell save DC.
+
+On a failed save, a creature takes 10d4 acid damage and an additional 5d4 acid damage at the start of each of its turns for the next minute until it uses an action to wipe itself clean. In addition, on a failure, if the creature rolled a 1 on the d20 for its saving throw and is wearing nonmagical, ferrous armour, the armour seizes. While wearing the armour, the creature’s speed is halved, its AC is reduced by 2, and it has disadvantage on Dexterity saving throws.
+
+**Entomb.** Once per turn, when a creature within
+5 feet of you hits you with a melee attack, you can
+trigger a burst of cold that ripples along the attacker’s limb (no action required). The creature takes
+1d4 cold damage and its speed is reduced by 15
+feet until the end of its next turn unless it is immune to cold damage.
+When you are reduced to 0 hit points, you become entombed in a block of clear ice that has AC
+15, 100 hit points, immunity to cold damage, and
+vulnerability to fire damage. This icy block lasts
+for 1 minute or until it is destroyed. While the ice
+persists, you have total cover against all effects and
+you don’t make death saving throws. If you regain 1
+or more hit points, the icy block melts at the start of
+your next turn.
+
+**Self-Destruct**. Once per turn, when a creature
+within 5 feet of you hits you with a melee attack,
+you can cause a small, shaped charge to detonate
+(no action required). You take 1 fire damage and
+the creature takes 1d8 fire damage.
+When you are reduced to 0 hit points, you erupt
+in an immense ball of fire and immediately fail one
+death saving throw. Each creature within 20 feet of
+you must make a Dexterity saving throw against
+your ranger spell save DC. A creature takes 14d6
+fire damage on a failed saving throw, or half as
+much damage on a successful one.
+
+
+{{pageNumber,auto}}
+\page
+## Ranger Traps
+
+The Set Trap feature lets you use a variety of physical and magical traps. Each trap requires you to be a certain ranger level before you can create it. The traps are presented here by level.
+
+#### Bear Trap
+*3rd-level ranger; physical; 4 gp of trap-making materials*
+:
+You trap a 5-foot square with a mechanical, toothy-jawed trap. When a Large or smaller creature enters the trapped area, the trap activates and the creature must succeed on a Dexterity saving throw or take 2d8 piercing damage, and its speed becomes 0 feet unless it’s immune to being grappled. A creature can use its action to make a Strength (Athletics) check against your ranger save DC, freeing the trapped creature on a success.
+
+#### Tanglevine
+*3rd-level ranger; magical; 1st-level spell slot*
+:
+When activated, twisted, knotting roots burst through the ground, creating an effect identical to the entangle spell within a 20-foot-radius circle centred on the trap for the next minute.
+
+#### Snare Trap
+*3rd-level ranger; physical; 2 gp of trap-making materials*
+:
+The bear trap’s non-lethal cousin, the snare trap, tangles a creature’s feet, causing it to fall. You trap a 5-foot square with ropes and vines. When a Large or smaller creature moves into the trapped area, the trap activates and the creature must succeed on a Strength saving throw or be knocked prone, and its speed becomes 0 feet unless it’s immune to being grappled. A creature can use its action to make a Strength (Athletics) check against your ranger save DC, freeing the trapped creature on a success.
+
+#### Solestriker
+*3rd-level ranger; magical; 1st-level spell slot*
+:
+When activated, hard spikes and thorns sprout in a 20-foot-radius circle centred on the trap, creating an effect identical to the spike growth spell for the next minute.
+
+#### Immolation
+*5th-level ranger; magical; 2nd-level spell slot*
+:
+When activated, a 20-foot-radius sphere of flame erupts, centred on the trap. Each creature in the area when the trap detonates must make a Dexterity saving throw, taking 6d6 fire damage on a failure, or half as much damage on a success.
+
+\column
+
+#### Miasma
+*5th-level ranger; magical; 2nd-level spell slot*
+:
+When activated, a 20-foot-radius sphere centred on the trap fills with gas for the next minute or until strong wind disperses it. The gas spreads around corners, lightly obscures the area, and penetrates through creatures’ skin, affecting them even if they hold their breath or don’t need to breathe. When a creature enters the area for the first time on its turn or starts its turn there, it must make a Constitution saving throw. On a failure, a creature takes 3d6 poison damage and becomes poisoned until the start of its next turn. On a success, a creature takes half as much damage and isn’t poisoned. While poisoned in this way, a creature has disadvantage on saving throws it makes to maintain its concentration.
+
+#### Soulbind
+*5th-level ranger; magical; 2nd-level spell slot*
+:
+When activated, there is a flare of brilliant octarine light, and each creature in a 20-foot-radius sphere centred on the trap must succeed on a Charisma saving throw or become soulbound, as per the preserve spell. In addition, while a creature is soulbound in this way, it can’t benefit from being invisible. Creatures possessing robust or more powerful essence within their bodies (typically, those of CR 7 or higher) automatically succeed on this saving throw. You can expend a spell slot of 4th level or higher when you create this trap instead of a 2nd-level slot. When you do so, creatures with robust or less powerful essence (typically CR 11 or lower) must make the saving throw, while creatures with potent or more powerful essence automatically succeed.
+
+#### Pit Trap
+*5th-level ranger; physical; 2 gp of trap-making materials*
+:
+ Because of their nature, pit traps are deployed in the space in which they are created as soon as their construction is finished, and can’t be moved. After the trap activates, you can spend 1 minute recovering it, allowing it to be used again. You dig a 7-foot-deep hole in dirt, or another diggable surface, in a 5-foot square. You can choose to fill the pit with sharpened stakes, spikes, or any other sharp materials. When a Medium or smaller creature moves into the trapped area, it must make a Dexterity saving throw. On a failure, it falls into the pit, where it lands prone, taking 4d8 piercing damage if the trap is filled with spikes. On a success, it avoids the trap, falling prone in the nearest unoccupied space to the trap. A creature that succeeds on the save by 5 or more doesn’t fall prone.
+
+{{pageNumber,auto}}
+\page
+
+#### Bewilderment
+*9th-level ranger; magical; 3rd-level spell slot*
+
+When activated, horrifying illusions abound and psychic energy twists the minds of creatures. Each creature in a 20-foot-radius sphere centred on the trap must make a Wisdom saving throw. On a failure, a creature takes 3d10 psychic damage and becomes affected, as per the confusion spell for the next minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+
+#### Net Trap
+*9th-level ranger; physical; 10 gp of trap-making materials*
+
+With a large, concealed net of rope or vines, and an apparatus hidden in branches or a cave’s ceiling, you create a 20-foot square trapped area. Choose a 5-foot square within the trapped area to act as the trigger. When a Small or larger creature enters this square, the trap activates and each creature in the area must succeed on a Dexterity saving throw or be restrained and hoisted 20 feet up into the air (or as high as the canopy/ceiling allows). A creature can use its action to make a Strength check against your ranger save DC, freeing itself or another creature within its reach on a success. Dealing 5 slashing damage to the net (AC 10) ends the effect and destroys the net. If there is a Huge or larger creature in the trapped area when it triggers, the trap breaks and has no effect.
+
+#### Thunder Charge
+*9th-level ranger; magical; 3rd-level spell slot*
+
+When activated, a 30-foot-radius sphere centred on the trap erupts with deafening thunder. Each creature in the area must succeed on a Constitution saving throw or take 8d6 thunder damage and be deafened for the next minute. The noise can be heard 2,000 feet away, or even further in echoey locations or underwater.
+
+#### Catapult Trap
+*13th-level ranger; physical; 15 gp of trap-making materials*
+
+Because of their nature, catapult traps are deployed
+in the space in which they are created as soon as
+their construction is finished, and can’t be moved.
+With bent trees, springs, or elastic rope, you
+create a 20-foot square of tension. Choose a 5-foot
+square within the trapped area to act as the trigger.
+When a Small or larger creature enters this square,
+the trap activates and each creature in the area must
+make a Dexterity saving throw. On a success, a
+creature can use its reaction to move up to its speed
+so that it is no longer in the area. If it’s still in the
+area, it is affected as if it failed its save. A creature
+that fails the saving throw is flung 60 feet in a direction you decide when you deploy the trap, landing
+prone and taking 6d10 bludgeoning damage.
+If there is a Gargantuan creature in the trapped
+area when it triggers, the trap breaks and has no
+effect.
+
+\column
+
+#### Infection
+*13th-level ranger; magical; 4th-level spell slot*
+:
+When you create this trap, choose one of the
+diseases from the contagion spell. When activated, pustulant boils grow and erupt on surfaces in a
+20-foot-radius sphere centred on the trap. Each
+creature in the area must make a Constitution
+saving throw. On a failure, a creature is affected as
+if hit by the attack in the contagion spell (using the
+disease you chose).
+
+#### Snapfrost
+*13th-level ranger; magical; 4th-level spell slot*
+:
+When activated, the area within a 20-foot-radius
+sphere centred on the trap suddenly drops to a
+debilitatingly low temperature for the next minute.
+When a creature enters the area for the first time
+on its turn or starts its turn there, it must make a Constitution saving throw. On a failure, a creature
+takes 6d6 cold damage and, until the start of its
+next turn, its speed is halved and it can’t take reactions. On a success, a creature takes half as much
+damage and isn’t otherwise affected.
+
+#### Banisher
+*17th-level ranger; magical; 5th-level spell slot*
+:
+When activated, a 10-foot-radius sphere centred on the trap flares into life, attempting to suck
+all creatures in it into a harmless demiplane. Each
+creature in the area when the trap activates must
+succeed on a Charisma saving throw or be transported to the demiplane for the next minute. At
+the end of this minute, the creature reappears in the
+space it left, or in the nearest unoccupied space if
+that space is occupied.
+
+#### Gravity Well
+*17th-level ranger; magical; 5th-level spell slot*
+:
+When activated, gravity begins accumulating in
+a 30-foot-radius circle centred on the trap. The
+trapped area becomes difficult terrain until the end
+of the ranger’s next turn. Each creature in the area
+when the trap activates must succeed on a Dexterity saving throw or be knocked prone. Furthermore, each creature in the area that is concentrating
+must make a Constitution saving throw. On a
+failed save, the creature’s concentration is broken.
+A creature that starts its turn in the area must
+succeed on a Strength saving throw or take 2d8
+force damage and be pulled 15 feet towards the
+trap’s centre.
+At the end of the ranger’s next turn, the gravity
+reaches a critical mass and each creature in the area
+must make a Strength saving throw. On a failure,
+a creature is knocked prone, pulled to the trap’s
+centre, and takes 6d8 force damage. On a success,
+a creature isn’t knocked prone or moved, and takes
+half as much force damage.
+{{pageNumber,auto}}
+\page
+### Vigilante
+When evildoers run rampant and the city calls out for justice, vigilantes rise to the occasion. Clad in a larger-than-life persona, capped off with a cape, mask, pair of tights, or some combination thereof, vigilantes embark on a crusade against villainy in all its forms. Many vigilantes are beacons of hope, dispatching bows with fighting prowess and dramatic flair, while other paint themselves as brooding antiheroes, out for themselves and seeking some kind of vengeance against the criminal underworld.
+#### Heroic Magic
+Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Heroic Spells table. The spell counts as a ranger spell for you, but it doesn’t count against the number of ranger spells you know.
+Ranger Level| Spell
+|:---------:|:------------:|
+3rd| jump, longstrider
+5th| alter self, enhance ability
+9th| fly, protection from energy
+13th| aura of evasion, private sanctum
+17th| dispel evil and good, passwall
+#### Masked Persona
+At 3rd level, you assume a costumed alter ego to conceal your identity as a crime fighter. While wearing a mask or costume, your AC equals 10 + your Wisdom modifier + your Dexterity modifier.
+d8| Costume
+|:---------:|:------------:|
+1| Domino mask
+2| Animal gimmick
+3| Embarrassingly tight spandex
+4| An accessory, such as a pair of spectacles, which doesn’t adequately conceal your face
+5| Pots and pans, which make you look like an iron golem
+6| Nothing, sans one article of clothing for modesty
+7| Normal clothing in bright hues
+8| Dramatic cape and cowl
+
+#### Hand-To-Hand
+At 3rd level, you have learned to fight using nothing but your bare hands and an array of “Pows” and “Blams.” You gain the following benefits while you are unarmored or wearing only light armor:
+- You can use Dexterity instead of Strength for the attack and damage rolls of your unarmed strikes.
+- Your unarmed strikes use your favored foe  die for damage.
+- When you hit a creature with an unarmed strike, you can use your bonus action to deal an additional unarmed strike damage die to the damage roll.
+
+
+{{imageMaskCenter6,--offsetX:45%,--offsetY:-20%,--rotation:0
+  ![](https://i.imgur.com/MjZvRWs.jpeg){height:71%,left:290px,bottom:-150px}
+}}
+
+
+
+\column
+
+#### Flashbang
+Starting 7th level, you carry a number of flashpaper bombs for quick escapes and dramatic entrances. As a bonus action, you throw a concussive bomb at your feet, disorienting and distracting nearby foes. Each creature within 5 feet of you can't take reactions until the start of its next turn.
+#### Biff! Bam! Pow!
+Beginning at 11th level, you can unleash a barrage of punches in the name of justice! Whenever you make an unarmed strike on your turn, you can choose to make two unarmed strikes with disadvantage. These attacks always have disadvantage, regardless of circumstance.
+#### Catchfrase!
+By 15th level, your personal catchphrase has gained supernatural levels of cultural cache. You can utter your catchphrase whenever you hit a creature with an attack roll, beat a creature in an opposed Strength, Dexterity, or Constitution check, or when you succeed on a saving throw. Until the beginning of your next turn, you have resistance to all damage, and can add your Wisdom modifier to damage rolls.
+
+Once you use this ability, you can't use it again until you score a critical hit or finish a short or long rest.
+
+
+
+{{pageNumber,auto}}
+\page
+### Wrangler
+While most Rangers have some skill with animals, those who pursue the life of a Wrangler are true masters at taming wild beasts. Drawing upon their intimate understanding of animal behavior, they tame and control all sorts of fantastical beasts. Rugged and wild, Wranglers are always on the hunt for ever more strange and exotic creatures to tame and befriend.
+
+
+#### Wrangler Spells
+You always have the spells from the table below prepared once you reach certain levels in this class. See the Ranger Archetype class feature for how Archetype Spells work.
+|Ranger Level| Spell|
+|:---------:|:------------:|
+3rd| charm person, command
+5th| calm emotions, summon beast
+9th| conjure animals, slow
+13th| charm monster, dominate beast
+17th| awaken, hold monster
+#### Monster Tamer
+*3rd-level Wrangler feature*::
+Your intimate understanding of animal behaviors and habits grants you certain benefits. You gain the following features:
+- Your weapon attacks against beasts and monstrosities score a critical hit on a roll of 19 or 20 on the d20.
+- You have advantage on Strength (Athletics) checks to grapple, climb, or wrestle beasts and monstrosities.
+- Any enchantment spell you have prepared that targets humanoids can also target beasts and monstrosities.
+
+\column
+
+#### Bring to Heel
+*7th-level Wrangler feature*::
+You can bend creatures of the wild to your will. When a beast or monstrosity that is charmed by you makes a saving throw to end the charmed condition, you can use your reaction to force it to make that saving throw with disadvantage.
+
+You can also command the monsters you tame. Any beast or monstrosity charmed by you acts during your turn for the duration of your charm, and if you are within 30 feet and the creature can hear you, you can use your action to command it to take one of the actions from its stat block.
+#### Master Tamer
+*11th-level Wrangler feature*::
+Your abilities are nearly supernatural Your Wrangler features now affect celestials, dragons, fey, fiends, giants, and plants with an Intelligence score less than or equal to your level.
+
+Also, you can command any beast or monstrosity charmed by you to take an action from its stat block as a bonus action.
+
+#### Wrangler of Legends
+*15th-level Wrangler feature*::
+Once you charm a creature, there is little it can do to escape. Any enchantment spells you cast on beasts and monstrosities last until your concentration is broken.
+
+Also, short and long rests do not break your concentration on enchantment spells you cast on beasts or monstrosities.
+
+
+
+
+{{pageNumber,auto}}
+\page
+## Survivalist Knacks
+Below are the Knacks available to a Ranger. If a Knack has
+a prerequisite, like your Ranger level or another Knack, you
+can learn it at the same time that you meet the prerequisites.
+
+#### Alpine Adept
+*Prerequisite: 6th-level Ranger*::
+You are amazingly surefooted. You gain a 30-foot climbing speed, and you can use your reaction to reduce any falling damage you take by an amount equal to your Ranger level. If you already have a climbing speed it increases by 10 feet.
+#### Aquatic Adept
+*Prerequisite: 6th-level Ranger*::
+You can swim through the water like a native creature of the sea. You gain a 30-foot swimming speed, and while you are underwater, you can hold your breath for up to 1 hour. If you already have a swimming speed it increases by 10 feet.
+#### Arctic Adept
+*Prerequisite: 6th-level Ranger*::
+You have adapted to the frozen tundra. You gain resistance to cold damage. Also, you and creatures of your choice who travel with you (maximum 10), have advantage on saving throws to resist the negative effects of arctic environments.
+#### Desert Adept
+*Prerequisite: 6th-level Ranger*::
+You have adapted to scorching deserts. You gain resistance to fire damage. Also, you and creatures of your choice who travel with you (maximum 10), have advantage on saving throws to resist the negative effects of desert environments.
+#### Explorer I
+Whenever you make a Wisdom (Survival) check to navigate in the wild, forage for food and water, or to avoid becoming lost, you can treat a roll of 7 or lower on the d20 as an 8.
+
+\column
+#### Explorer II
+*Prerequisite: 6th-level Ranger, Explorer I*::
+At the end of a long rest, you can attune to your surrounding environment. Examples include, but are not limited to: arctic, coastal, desert, forest, grassland, mountain, or swamp. While in your attuned environment you gain the following benefits:
+- You have advantage on Intelligence and Wisdom checks related to the native plants, animals, or ecosystem.
+- You find twice as much food when foraging or hunting.
+- You cannot be surprised unless you are incapacitated.
+- You gain a bonus to your initiative rolls equal to your Wisdom modifier (minimum of +1).
+#### Fell Handed I
+*Prerequisite: 6th-level Ranger*:: 
+When you score a critical hit with a weapon attack against a creature, you have advantage on the next attack you make against that creature before the end of your next turn.
+#### Fell Handed II
+*Prerequisite: 9th-level Ranger, Fell Handed I*:: 
+When you score a critical hit against a creature, your critical hit range for attack rolls against that creature expands by 1. For example, if you score a critical hit against a creature for the first time, you then score a critical hit on a roll of 19 or 20 when you make an attack roll against the creature.
+#### Herbalist I
+You have a deep knowledge of plants and their healing properties. You have advantage on Intelligence (Nature) checks to identify the medicinal properties of plants, and Wisdom (Medicine) checks made to stabilize creatures.
+#### Herbalist II
+*Prerequisite: 3rd-level Ranger, Herbalist I*::
+You have learned to use natural plants and herbs to create healing potions. You gain proficiency with herbalism kits. At the end of a long rest, you can use a herbalism kit to create a potion of healing. It retains its potency for a number of days equal to your proficiency bonus, after which it spoils.
+#### Herbalist III
+*Prerequisite: 6th-level Ranger, Herbalist I, II*::
+When you take a short rest, you and any friendly creatures who rest with you, regain an additional 1d8 hit points as long
+as they expend at least one Hit Die to regain hit points. 
+
+{{pageNumber,auto}}
+\page
+#### Natural Regeneration
+*Prerequisite: 14th-level Ranger*::
+During a short rest, you can recover spell slots of a combined level equal to your Wisdom modifier. Once you do, you must finish a long rest before you can use this feature again.
+#### Jungle Adept
+*Prerequisite: 6th-level Ranger*::
+You have adapted to the jungles. You gain resistance to poison damage. Also, you and creatures of your choice who travel with you (maximum 10) have advantage on saving throws to resist negative effects of jungle environments.
+#### Ranger Knight I
+Though you spend your time in the wilderness you still have some military training. You gain proficiency in heavy armor.
+#### Ranger Knight II
+*Prerequisite: 3rd-level Ranger*::
+Though you are a warrior of the wild you understand chivalry and politics. Whenever you make an Intelligence (History) or Charisma (Persuasion) check you gain a bonus to the roll equal to your Wisdom modifier (minimum of +1)
+#### Rider I
+Whenever you make a Wisdom (Animal Handling) check to control, train, or tame a mount, you can treat a roll of 7 or lower on a d20 as an 8. Also, dismounting from a trained mount only costs you 5 feet of movement.
+#### Rider II
+*Prerequisite: 3rd-level Ranger, Rider I*::
+You have trained to fight from your mount. You gain the Mounted Warrior Fighting Style. If you already know this Fighting Style you learn another Ranger Fighting Style of your choice. Also, you can ride mounts that are your size or larger.
+#### Rider III
+*Prerequisite: 6th-level Ranger, Rider I, II*::
+You are a master of mounted combat. When you are riding mount and it is hit by an attack, you can use a reaction to become the target of that attack instead.
+
+Also, if your mount makes a saving throw while you ride it, you can use your reaction to grant it advantage on its roll.
+
+\column
+#### Slayer I
+*Prerequisite: 3rd-level Ranger*::
+When you hit a creature with a weapon attack you can mark it as your Favored Foe as part of the same attack, and apply your Favored Foe damage bonus to the damage roll.
+
+Moreover, whenever you make a Wisdom (Perception) or a Wisdom (Survival) check to locate or track your Favored Foe, you can treat a roll of 7 or lower on the d20 as an 8.
+#### Slayer II
+*Prerequisite: 6th-level Ranger, Slayer I*::
+Your tracking abilities have become supernaturally accurate. You always know the exact direction and distance of your Favored Foe while you are on the same plane of existence.
+#### Slayer III
+*Prerequisite: 14th-level Ranger, Slayer I, II*::
+Once per turn, when you hit your Favored Foe with a weapon attack, you can force it to make a Constitution saving throw against your Spell Save DC. On a failed save, the creature is blinded, deafened, frightened, muted, poisoned, or restrained (your choice) until the beginning of your next turn.
+#### Stalker I
+You are a master at covering your tracks. While moving at a normal pace, you and any creatures of your choice who travel with you (maximum 10), produce no tracks nor scent, and cannot be tracked by mundane means unless you wish to be.
+#### Stalker II
+*Prerequisite: 3rd-level Ranger, Stalker I*::
+You have learned to hunt your prey while remaining unseen. You can take the Hide action as a bonus action on your turn.
+#### Stalker III
+*Prerequisite: 9th-level Ranger, Stalker I, II*::
+You cannot be tracked, even by magic. You are always under the effects of the nondetection spell, and you can't be tracked by divination magic or magical means unless you wish to be.
+#### Stalker IV
+*Prerequisite: 14th-level Ranger, Stalker I, II, III*::
+You can ward yourself to briefly disappear from sight. When you take the Hide action, you, along with anything you are wearing or carrying, become invisible until the start of your next turn. This ends early if you attack or cast a spell.
+
+{{pageNumber,auto}}
+\page
+#### Strider I
+You ignore the effects of difficult terrain imposed by natural environments, such as undergrowth, snow, or marshlands.
+
+Also, you and creatures of your choice who travel with you (maximum 10) don't have travel slowed by difficult terrain.
+#### Strider II
+*Prerequisite: 3rd-level Ranger, Strider I*::
+Once in your sights, you pursue your quarries relentlessly. You can take the Dash action as a bonus action on your turn.
+#### Strider III
+*Prerequisite: 6th-level Ranger, Strider I, II*::
+You can surmount almost any obstacle that would block your path. Your base walking speed increases by 10 feet, and you ignore the effects of difficult terrain imposed by spells, magical phenomena, and any other magical effect.
+#### Strider IV
+*Prerequisite: 14th-level Ranger, Strider I, II, III*::
+You move through the world unhindered by even the most powerful magic and restraints. You are always under the effects of the freedom of movement spell while conscious.
+#### Survivor I
+*Prerequisite: 6th-level Ranger*::
+Your time in the wilds has hardened your body. As a bonus action on your turn, you can grant yourself temporary hit points equal to your Constitution modifier (minimum of 1).
+#### Survivor II
+*Prerequisite: 9th-level Ranger, Survivor I*::
+Your body can rapidly recover from injury. When you expend a Hit Die to regain hit points, you regain additional hit points equal to your Wisdom modifier (minimum of 1 hit point).
+#### Survivor III
+*Prerequisite: 14th-level Ranger, Survivor I, II*::
+You persevere even in the face of death. When you make a death saving throw, you can add your Wisdom modifier to the roll (minimum of +1). If the result of your roll is 20 or higher, you treat it as if you had rolled a 20 on the d20.
+
+\column
+#### Trapper
+As an action, you can set a hidden trap made out of natural materials in an adjacent 5-foot space. The first creature to move into the area must succeed on a Dexterity saving throw against your Spell Save DC or become restrained. A creature repeats its saving throw at the start of each turn, ending the effect on a success. A creature can detect a trap by succeeding on an Intelligence (Investigation) check against your Spell Save DC. You can have a number of active traps equal to your Wisdom modifier (minimum of 1 trap).
+#### Underground Adept
+*Prerequisite: 6th-level Ranger*::
+You are especially skilled at navigating the winding tunnels under the earth. You gain darkvision out to a range of 60 feet. If you already have darkvision its range increases by 60 feet.
+
+Also, you can close your eyes and gain tremmorsense in a 60-foot radius. Within that radius, you can sense anything touching the ground. This special sense lasts for 1 minute, or until you open your eyes. Once you use this action you must finish a short or long rest before you can use it again.
+#### Wild Insights I
+You have a way with wild animals. You can communicate simple ideas to beasts using sounds and gestures.
+
+Also, whenever you make a Wisdom (Animal Handling) check that targets an animal or beast that is friendly toward you, you can treat a roll of 7 or lower on the d20 at 8.
+#### Wild Insights II
+*Prerequisite: 3rd-level Ranger, Wild Insight I*::
+You have bound yourself with a minor nature spirit. You learn the find familiar spell. It counts as a Ranger spell for you, you always have it prepared, but it doesn't count against the total number of spells you prepare each day. When you cast this spell your summoned familiar is always a fey creature.
+#### Wild Insights III
+*Prerequisite: 9th-level Ranger, Wild Insight I*::
+The power of your nature spirit grows. When you cast find familiar, it can take the form of any beast of CR 1/2 or lower.
+
+{{pageNumber,auto}}
+\page
+{{imageMaskEdge1,--offset:3%,--rotation:90
+  ![](https://www.gmbinder.com/images/EjUBBhi.jpeg){height:101%,left:-240px}
+}}
+
+
+
+\column
+
+#### Woodsman I
+You are familiar with forests, trees, and timber of all kinds. You gain proficiency with woodcarver's tools, and you have advantage on any Intelligence (Nature) checks to identify, recall information, and construct things from wood.
+
+Also, if you hit a tree, raw timber, or a wooden structure with a melee weapon attack, it is an automatic critical hit.
+#### Woodsman II
+*Prerequisite: 3rd-level Ranger, Woodsman I*::
+You can identify the strengths and weak points of wooden objects and creatures. You gain the following benefits:
+- You gain proficiency with carpenter's tools. Anything you construct from wood has twice as many hit points.
+- At the end of each long rest, if you have timber available, you can craft a total number of clubs, greatclubs, javelins, and quarterstaffs equal to your proficiency bonus. When you hit a plant or wooden construct with a battleaxe or greataxe, you score a critical hit on a roll of 19 or 20.

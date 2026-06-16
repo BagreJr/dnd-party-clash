@@ -1,0 +1,2907 @@
+```metadata
+title: Razas
+description: ''
+tags: []
+renderer: V3
+theme: 5ePHB
+
+```
+
+```css
+.page{
+	width  : 210mm;
+	height : 296.3mm;
+}
+
+css
+
+.page .columnWrapper {
+	height: 100%
+}
+
+.page .toc.wide {
+	columns: 1;
+	height: 100%;
+}
+
+.page .toc > ul > li {
+	font-weight:100;
+	margin-bottom:-2.1px;
+
+}
+
+.page .toc ul ul {
+	margin-left: 0;
+	font-weight: 5;
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```
+
+{{frontCover}}
+
+{{logo ![](/assets/naturalCritLogoRed.svg)}}
+
+# Razas
+
+![background image](https://i.imgur.com/sOCMoB2.jpg){position:absolute,bottom:0,left:-550px,height:100%}
+
+\page
+
+{{toc,wide
+# Contents
+
+- ### [{{ Chapter 2: Races}}{{ 3}}](#p3)
+- #### [{{ Common Races}}{{ 3}}](#p3)
+  - [{{ Dragonborn}}{{ 3}}](#p3)
+  - [{{ Dwarf}}{{ 4}}](#p4)
+  - [{{ Elf}}{{ 5}}](#p5)
+  - [{{ Gnome}}{{ 7}}](#p7)
+  - [{{ Halfling}}{{ 8}}](#p8)
+  - [{{ Half-Elf}}{{ 9}}](#p9)
+  - [{{ Half-Orc}}{{ 10}}](#p10)
+  - [{{ Human}}{{ 11}}](#p11)
+  - [{{ Tiefling}}{{ 12}}](#p12)
+- #### [{{ Fantastical Races}}{{ 14}}](#p14)
+  - [{{ Aarakocra}}{{ 14}}](#p14)
+  - [{{ Aasimar}}{{ 15}}](#p15)
+  - [{{ Amoeboid}}{{ 16}}](#p16)
+  - [{{ Avia-Ra}}{{ 17}}](#p17)
+  - [{{ Bugbear}}{{ 18}}](#p18)
+  - [{{ Centaur}}{{ 19}}](#p19)
+  - [{{ Changeling}}{{ 20}}](#p20)
+  - [{{ Fairy}}{{ 21}}](#p21)
+  - [{{ Firbolg}}{{ 22}}](#p22)
+  - [{{ Genasi}}{{ 23}}](#p23)
+  - [{{ Geppettin}}{{ 24}}](#p24)
+  - [{{ Githyanki}}{{ 25}}](#p25)
+  - [{{ Githzerai}}{{ 26}}](#p26)
+  - [{{ Goblin}}{{ 27}}](#p27)
+  - [{{ Goliath}}{{ 28}}](#p28)
+  - [{{ Grungs}}{{ 29}}](#p29)
+  - [{{ Half-aasimar}}{{ 30}}](#p30)
+  - [{{ Harengons}}{{ 31}}](#p31)
+  - [{{ Hobgoblin}}{{ 32}}](#p32)
+  - [{{ Kenku}}{{ 33}}](#p33)
+  - [{{ Kobold}}{{ 34}}](#p34)
+  - [{{ Leonin}}{{ 35}}](#p35)
+  - [{{ Lizardfolk}}{{ 36}}](#p36)
+  - [{{ Mandrake}}{{ 37}}](#p37)
+  - [{{ Merfolk}}{{ 38}}](#p38)
+  - [{{ Minotaur}}{{ 39}}](#p39)
+  - [{{ Mousefolk}}{{ 40}}](#p40)
+  - [{{ Nautilid}}{{ 41}}](#p41)
+  - [{{ Orc}}{{ 42}}](#p42)
+  - [{{ Owlin}}{{ 43}}](#p43)
+  - [{{ Reborn}}{{ 44}}](#p44)
+  - [{{ Satyr}}{{ 45}}](#p45)
+  - [{{ Skathári}}{{ 46}}](#p46)
+  - [{{ Shifter}}{{ 47}}](#p47)
+  - [{{ Spirithost}}{{ 48}}](#p48)
+  - [{{ Tabaxi}}{{ 49}}](#p49)
+  - [{{ Tortle}}{{ 50}}](#p50)
+  - [{{ Triton}}{{ 51}}](#p51)
+  - [{{ Treant}}{{ 52}}](#p52)
+  - [{{ Vect}}{{ 53}}](#p53)
+  - [{{ Warforged}}{{ 54}}](#p54)
+  - [{{ Wrothian}}{{ 55}}](#p55)
+  - [{{ Yuan-Ti Pure Blood}}{{ 56}}](#p56)
+- #### [{{ Transform Races}}{{ 57}}](#p57)
+  - [{{ Treant Transformation}}{{ 57}}](#p57)
+  - [{{ Vampire spawn Transformation}}{{ 57}}](#p57)
+  - [{{ Vampire Transformation}}{{ 58}}](#p58)
+  - [{{ Vampire Lord Transformation}}{{ 58}}](#p58)
+  - [{{ Undead Transformation}}{{ 59}}](#p59)
+  - [{{ Werebeast Transformation}}{{ 59}}](#p59)
+}}
+
+
+
+
+{{pageNumber,auto}}
+\page
+# Chapter 2: Races
+
+## Common Races
+   
+### Dragonborn
+*Source: PHB*
+
+The ancestors of dragonborn hatched from the eggs of chromatic and metallic dragons. One story holds that these eggs were blessed by the dragon gods Bahamut and Tiamat, who wanted to populate the multiverse with people created in their image. Another story claims that dragons created the first dragonborn without the gods’ blessings. Whatever their origin, dragonborn have made homes for themselves on the Material Plane.
+
+Dragonborn look like wingless, bipedal dragons - scaly, bright-eyed, and thick-boned with horns on their heads - and their coloration and other features are reminiscent of their draconic ancestors.
+
+As a dragonborn, you gain the following traits.
+
+**Ability Score Increase.** Your Strength score increases by 2, and your Charisma score increases by 1.
+
+**Age.** Young dragonborn grow quickly. They walk hours after hatching, attain the size and development of a 10-year-old human child by the age of 3, and reach adulthood by 15. They live to be around 80.
+
+**Size.** Dragonborn are taller and heavier than humans, standing well over 6 feet tall and averaging almost 250 pounds. Your size is Medium.
+
+**Speed.** Your base walking speed is 30 feet.
+
+**Draconic Ancestry.** You have draconic ancestry. Choose one type of dragon from the Draconic Ancestry table. Your breath weapon and damage resistance are determined by the dragon type, as shown in the table.
+
+\column
+
+#### Draconic Ancestry
+
+| Dragon | Damage Type | Breath Weapon |
+|:----:|:------------:|:------------
+|Black   |Acid  |5 by 30 ft. line (Dex. save)
+|Blue   |Lightning  |5 by 30 ft. line (Dex. save)
+|Brass   | Fire |5 by 30 ft. line (Dex. save)
+|Bronze   |Lightning  |5 by 30 ft. line (Dex. save)
+|Copper   |Acid  |5 by 30 ft. line (Dex. save)
+|Gold   |Fire  |	15 ft. cone (Dex. save)
+|Green   |Poison  |	15 ft. cone (Dex. save)
+|Red   | Fire |	15 ft. cone (Dex. save)
+|Silver   |	Cold  |	15 ft. cone (Dex. save)
+|White   |	Cold  |	15 ft. cone (Dex. save)
+
+**Breath Weapon.** You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation. When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. After you use your breath weapon, you can’t use it again until you complete a short or long rest.
+
+**Damage Resistance.** You have resistance to the damage type associated with your draconic ancestry.
+
+**Languages.** You can speak, read, and write Common and Draconic. Draconic is thought to be one of the oldest languages and is often used in the study of magic. The language sounds harsh to most other creatures and includes numerous hard consonants and sibilants.
+
+
+{{imageMaskEdge1,--offset:20%,--rotation:0
+  ![The Roman Theater at Taormina, 1828, by Louise-Joséphine sarazin de Belmont](https://i.imgur.com/e1mxrKq.jpg){width:101%,bottom:-60%}
+}}
+
+
+
+{{pageNumber,auto}}
+\page
+
+### Dwarf
+Kingdoms rich in ancient grandeur, halls carved into the roots of mountains, the echoing of picks and hammers in deep mines and blazing forges,  acommitment to clan and tradition, and a burning hatred of goblins and orcs – these common threads unite all dwarves.
+
+As a dwarf, you gain the following traits.
+
+**Ability Score Increase.** Your Constitution score increases by 2.
+
+**Age.** Dwarves mature at the same rate as humans, but they're considered young until they reach the age of 50, On average, they live about 350 years.
+
+**Size.** Dwarves stand between 4 and 5 feet tall and average about 150 pounds. Your size is Medium.
+
+**Speed.** Your base walking speed is 25 feet. Your speed is not reduced by wearing heavy armor.
+
+**Dwarven Resilience.** You have advantage on saving throws against poison, and you have resistance against poison damage.
+
+**Dwarven Combat Training.** You have proficiency with the battleaxe, handaxe, throwing hammer, and warhammer.
+
+**Tool Proficiency.** You gain proficiency with the artisan's tools of your choice: smith's tooIs, brewer's supplies, or mason's tools.
+
+**Stonecunning.** Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.
+
+**Languages.** You can speak, read, and write Common and Dwarvish. Dwarvish is full of hard consonants and guttural sounds, and those characteristics spill over into whatever other language a dwarf might speak.
+
+**Subrace.** You can choose between hill, mountain, or gray dwarf.
+
+#### Dune Dwarf
+*Source: Zaman's Guide to the End of Time*
+
+**Ability Score Increase.** Your Wisdom score increases by 1.
+
+**Desertborn.** You have Resistance to Fire damage.
+
+**Dunedelver.** You have a Burrow Speed of 15 feet. This Speed is increased to 30 feet while burrowing through sand. You also ignore Difficult Terrain composed of sand, gravel, or other loose earthen ground. 
+
+**Emotional Bloodletting.** While you are Charmed or Frightened, you can use an action to vent
+your emotions, ending the condition and gaining 1d10 Temporary Hit Points. Once you use this action, you can’t use it again until you finish a Short or Long Rest.
+
+\column
+
+#### Hill Dwarf
+*Source: PHB*
+
+**Ability Score Increase.** Your Wisdom score increases by 1.
+
+**Dwarven Toughness.** Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.
+
+
+#### Mountain Dwarf
+*Source: PHB* 
+
+**Ability Score Increase.** Your Strength score increases by 2.
+
+**Dwarven Armor Training.** You have proficiency with light and medium armor.
+
+#### Duergar
+
+**Ability Score Increase.** Your Strength score increases by 1.
+
+**Superior Darkvision.** You have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+
+**Extra Language.** You can speak, read, and write Undercommon.
+
+**Duergar Resilience.** You have advantage on saving throws against illusions and against being charmed or paralyzed.
+
+**Duergar Magic.**  When you reach 3rd level, you can cast the *enlarge/reduce* spell on yourself once with this trait, using only the spell's enlarge option. When you reach 5th level, you can cast the *invisibility* spell on yourself once with this trait. 
+
+You don't need material components for either spell, and you can't cast them while you're in direct sunlight, although sunlight has no effect on them once cast. You regain the ability to cast these spells with this trait when you finish a long rest. Intelligence is your spellcasting ability for these spells. 
+
+**Sunlight Sensitivity.**  You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight. 
+
+{{imageMaskCorner1,--offsetX:30%,--offsetY:-50%,--rotation:0
+  ![The Roman Theater at Taormina, 1828, by Louise-Joséphine sarazin de Belmont](https://i.imgur.com/MwBURLc.jpeg){height:70%,right:-50px,top:750px}
+}}
+
+
+
+
+
+
+{{pageNumber,auto}}
+\page
+
+### Elf
+As an elf, you gain the following traits:
+
+**Ability Score Increase.** Your Dexterity score increases by 2.
+
+**Age.** Although elves reach physical maturity at about the same age as humans, the elven understanding of adulthood goes beyond physical growth to encompass worldly experience. An elf typically claims adulthood and an adult name around the age of 100 and can live to be 750 years old.
+
+**Size.** Elves range from under 5 to over 6 feet tall and have slender builds. Your size is Medium.
+
+**Speed.** Your base walking speed is 30 feet.
+
+**Darkvision.** Accustomed to twilit forests and the nightsky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+
+**Fey Ancestry.** You have advantage on saving throws against being charmed, and magic can't put you to sleep.
+
+**Trance.** Elves do not sleep. Instead they meditate deeply, remaining semi-conscious, for 4 hours a day. The Common word for this meditation is "trance". While meditating, you dream after a fashion; such dreams are actually mental exercises that have become reflexive after years of practice. After resting in this way,you gain the same benefit a human would from 8 hours of sleep.
+
+**Keen Senses.** You have proficiency in the Perception skill.
+
+**Languages.** You can speak, read, and write Common and Elven
+
+**Subrace.** Elves divide between high elves, wood elves, drows, eladrin, sea elves, shadar-kai, and pallid elves.
+
+#### High Elf
+*Source: PHB* 
+
+**Ability Score Increase.** Your Intelligence score increases by 1.
+
+**Cantrip.** You know one cantrip of your choice from the Wizard spell list. Intelligence is your spellcasting ability for it.
+
+**Elf Weapon Training.** You have proficiency with the longsword, shortsword, shortbow, and longbow.
+
+**Extra Language.** You can read, speak, and write one additional language of your choice.
+
+
+#### Wood Elf
+*Source: PHB*
+
+**Ability Score Increase.** Your Wisdom score increases by 1.
+
+**Elf Weapon Training.** You have proficiency with the longsword, shortsword, shortbow, and longbow.
+
+**Fleet of Foot.** Your base walking speed increases to 35 feet.
+
+**Mask of the Wild.** You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.
+
+
+#### Drow
+*Source: PHB*
+
+**Ability Score Increase.** Your Charisma score increases by 1.
+
+**Superior Darkvision.** You have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+
+**Sunlight Sensitivity.**  You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight. 
+
+**Drow Magic.** You know the *dancing lights* cantrip. When you reach 3rd level, you can cast the *faerie fire* spell once per day. When you reath 5th level, you can also cast the *darkness* spell once perday. Charisma is your spellcasting ability for these spells.
+
+**Drow Weapon Trining.** You have proficiency with rapiers, shortswords, and hand crossbows.
+
+{{imageMaskCorner15,--offsetX:50%,--offsetY:-25%,--rotation:0
+  ![The Roman Theater at Taormina, 1828, by Louise-Joséphine sarazin de Belmont](https://i.imgur.com/V9yrTmY.jpeg){height:80%,right:-160px,top:380px}
+}}
+
+
+
+{{pageNumber,auto}}
+\page
+#### Eladrin
+*Source: Mordenkainen's Tome of Foes*
+  
+- **Autumn** is the season of peace and goodwill, when summer's harvest is shared with all.
+- **Winter** is the season of contemplation and dolor, when the vibrant energy of the world slumbers.
+- **Spring** is the season of cheerfulness and celebration, marked by merriment as winter's sorrow passes.
+- **Summer** is the season of boldness and aggression. a time of unfettered energy.
+
+**Ability Score Increase.** Your Charisma score increases by 1.
+
+**Fey Ancestry.** You have advantage on saving throws against being charmed, and magic can't put you to sleep.
+
+**Darkvision.** You have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+
+**Eladrin Magic.** You know the *druidcraft* cantrip. When you reach 3rd level, and again when you reach 5th level, you learn additional spells which you can cast once per day. These spells depend on your eladrin's season:
+
+- **Autumn.** You learn the *goodberry* spell at 3rd level, and the *barkskin* spell at 5th level.
+- **Winter.** You learn the *fog cloud* spell at 3rd level, and the *spike growth* spell at 5th level.
+- **Spring.** You learn the *Tasha's hideous laughter* spell at 3rd level, and the *suggestion* spell at 5th level.
+- **Summer.** You learn the *color spray* spell at 3rd level, and the *moonbeam* spell at 5th level.
+
+Wisdom is your spellcasting ability for these spells. 
+
+**Fey Step.** As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. Once you use this trait, you can't do so again until you finish a short or long rest.
+
+When you reach 3rd level, your Fey Step gains an additional effect based on your season; if the effect requires a saving throw, the DC equals 8 + your proficiency bonus + your Charisma modifier.
+
+- **Autumn.** Immediately after you use your Fey Step, up to two creatures of your choice that you can see within 10 feet of you must succeed on a Wisdom saving throw or be charmed by you for 1 minute, or until you or your companions deal any damage to it.
+- **Winter.** When you use your Fey Step, one creature of your choice that you can see within 5 feet of you before you teleport must succeed on a Wisdom savin throw or be frightened of you until the end of your next turn.
+- **Spring.** When you use your Fey Step, you can touch one willing creature within 5 feet of you. That creature then teleports instead of you, appearing in an unoccupied space of your choice that you can see within 30 feet of you.
+- **Summer.** Immediately after you use your Fey Step, each creature of your choice that you can see within 5 feet of you takes fire damage equal to your Charisma modifier (minimum of 1 damage).
+
+#### Sea Elf
+*Source: Mordenkainen's Tome of Foes*
+
+**Ability Score Increase.** Your Constitution score increases by 1.
+
+**Sea Elf Training.** You have proficiency with the spear, trident, light crossbow, and net.
+
+**Child of the Sea.** You have a swimming speed of 30 feet, and you can breathe air and water.
+
+**Friend of the Sea.** Using gestures and sounds, you can communicate simple ideas with any beast that has an innate swimming speed.
+
+**Languages.** You can speak, read, and write Aquan.
+
+#### Shadar-Kai
+*Source: Mordenkainen's Tome of Foes*
+
+**Ability Score Increase.** Your Constitution score increases by 1.
+
+**Necrotic Resistance.** You have resistance to necrotic damage.
+
+**Blessing of the Raven Queen.** As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. Once you use this trait, you can't do so again until you finish a long rest. Starting at 3rd level, you also gain resistance to all damage when you teleport using this trait. The resistance lasts until the start of your next turn. During that time, you appear ghostly and translucent.
+
+#### Pallid Elf
+*Source: Explorer's Guide to Wildemount*
+
+**Ability Score Increase.** Your Wisdom score increases by 1.
+
+**Incisive Sense.** You have advantage on Investigation and Insight checks.
+
+**Blessing of the Moonweaver.** You know the Light cantrip. When you reach 3rd level, you can cast Sleep once, and it recharges after a long rest. When you reach 5th level, you can cast Invisibility (Self Only) once, and it recharges after a long rest. You do not need the material components required of the spells. Wisdom is your spellcasting ability for these spells.
+{{pageNumber,auto}}
+\page
+### Gnome
+A constant hum of busy activity pervades the warrens and neighborhoods where gnomes form their close-knit communities. Louder sounds punctuate the hum: a crunch of grinding gears here, a minor explosion there, a yelp of surprise or triumph, and especially bursts of laughter. Gnomes take delight in life, enjoying every moment of invention, exploration, investigation, creation, and play.
+
+As a gnome, you gain the following traits
+    
+**Ability Score Increase.** Your Intelligence score increases by 2.
+
+**Age.** Gnomes mature at the same rate as humans, and most are expected to settle into adult life around the age of 40. They can live to 350 years on average, but it's not too uncommon for them to reach 500 years of age.
+
+**Size.** Gnomes are between 3 and 4 feet tall and weigh around 40 pounds. Your size is Small.
+
+**Speed.** Your base walking speed is 25 feet.
+
+**Darkvision.** Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+
+**Gnome Cunning.** You have advantage on all Intelligence, Wisdom, and Charisma saves against magic.
+
+**Languages.** You can read, speak, and write Common and Gnomish.
+
+**Subraces.** Gnomes divide between Rock gnomes, forest gnomes, and Svirfneblins.
+  
+\column
+
+#### Forest Gnome
+*Source: PHB*
+
+**Ability Score Increase.** Your Dexterity score increases by 1.
+  
+**Natural Illusionist.** You know the Minor Illusion cantrip. Intelligence is your spellcasting modifier for it.
+  
+**Speak with Small Beasts.** Through sound and gestures, you may communicate simple ideas with Small or smaller beasts.
+  
+#### Rock Gnome
+*Source: PHB*
+
+**Ability Score Increase.** Your Constitution score increases by 1.
+  
+**Artificer's Lore.** Whenever you make an Intelligence (History) check related to magical, alchemical, or technological items, you can add twice your proficiency bonus instead of any other proficiency bonus that may apply.
+  
+**Tinker.** You have proficiency with artisan tools (tinker's tools). Using those tools, you can spend 1 hour and 10 gp worth of materials to construct a Tiny clockwork device (AC 5, 1 hp). The device ceases to function after 24 hours (unless you spend 1 hour repairing it to keep the device functioning), or when you use your action to dismantle it; at that time, you can reclaim the materials used to create it. You can have up to three such devices active at a time. When you create a device, choose one of the following options:
+
+- **Clockwork Toy.** This toy is a clockwork animal, monster, or person, such as a frog, mouse, bird, dragon, or soldier. When placed on the ground, the toy moves 5 feet across the ground on each of your turns in a random direction. It makes noises as appropriate to the creature it represents.
+- **Fire Starter.** The device produces a miniature flame, which you can use to light a candle, torch, or campfire. Using the device requires your action.
+- **Music Box.** When opened, this music box plays a single song at a moderate volume. The box stops playing when it reaches the song's end or when it is closed.
+  
+At your DM's discretion, you may make other objects with effects similar in power to these. The Prestidigitation cantrip is a good baseline for such effects. 
+  
+#### Svirfneblin (Deep Gnome)
+*Source: Elemental Evil Player's Compendium*
+<br><br>    
+
+**Ability Score Increase.** Your Dexterity score increases by 1.
+  
+**Superior Darkvision.** Your darkvision has a radius of 120 feet.
+  
+**Stone Camouflage.** You have advantage on Dexterity (stealth) checks to hide in rocky terrain. 
+
+![Bird with autumn foliage by L. Prang & Co.](https://i.imgur.com/6kC0LxL.jpeg) {position:absolute,width:395px,bottom:-30px,mix-blend-mode:multiply,left:0px}
+{{pageNumber,auto}}
+\page
+### Halfling
+The comforts of home are the goals of most halflings' lives: a place to settle in peace and quiet, far from marauding monsters and clashing armies. Others form nomadic bands that travel constantly, lured by the open road and the wide horizon to discover the wonders of new lands and peoples. Halflings work readily with others, and they are loyal to their friends, whether halfling or otherwise. They can display remarkable ferocity when their friends, families, or communities are threatened.
+
+As a halfling, you gain the following traits.
+
+**Ability Score Increase:** Your Dexterity score increases by 2.
+
+**Age:** A halfling reaches adulthood at the age of 20 and generally lives into the middle of his or her second century.
+
+**Size:** Halflings average about 3 feet tall and weigh about 40 pounds. Your size is Small.
+
+**Speed:** Your base walking speed is 25 feet.
+
+**Lucky:** When you roll a 1 on the d20 for an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll.
+
+**Brave:** You have advantage on saving throws against being frightened.
+
+**Halfling Nimbleness:** You can move through the space of any creature that is of a size larger than yours.
+
+**Languages:** You can speak, read, and write Common and Halfling. The Halfling language isn’t secret, but halflings are loath to share it with others. They write very little, so they don’t have a rich body of literature. Their oral tradition, however, is very strong. Almost all halflings speak Common to converse with the people in whose lands they dwell or through which they are traveling.
+
+**Subrace:** Halfling divide between the more common lightfoot and stout halflings, or the more rare ghostwise and lotusden halfling.
+
+\column
+
+#### Lightfoot Halfling
+*Source: PHB*
+
+**Ability Score Increase.**
+Your Charisma score increases by 1.
+
+**Naturally Stealthy.**
+You can attempt to hide even when you are obscured only by a creature that is at least one size larger than you.
+
+#### Stout Halfling
+*Source: PHB*
+
+**Ability Score Increase.**
+Your Constitution score increases by 1.
+
+**Stout Resilience.**
+You are naturally adapted to extreme temperatures and you can survive without food for a week without penalties.
+
+#### Ghostwise Halfling
+*Source: Sword Coast Adventurer's Guide*
+
+**Ability Score Increase.** Your Wisdom score increases by 1.
+
+**Silent Speech.** You can speak telepathically to any creature within 30 feet of you. The creature understands you only if the two of you share a language. You can speak telepathically in this way to one creature at a time.
+
+#### Lotusden Halfling 
+*Source: Explorer's Guide to Wildemount*
+
+**Ability Score Increase.** Your Wisdom score increases by 1.
+
+**Children of the Woods.** You know the Druidcraft Cantrip. At 3rd level, you can cast the Entangle spell once per long rest. At 5th level, you can cast Spike Growth spell once per long rest. These spells don't require the material components normally required. Wisdom is your spellcasting ability for these spells.
+
+**Timberwalk.** Ability checks made to track you are at disadvantage and you can move through difficult terrain made of non-magical plants and overgrowth without expending extra movement.
+
+{{imageMaskEdge1,--offset:20%,--rotation:0
+  ![The Roman Theater at Taormina, 1828, by Louise-Joséphine sarazin de Belmont](https://i.imgur.com/otOxvaX.jpeg){width:100%,bottom:-65%}
+}}
+
+
+
+{{pageNumber,auto}}
+\page
+### Half-Elf
+*Source: PHB*
+
+Walking in two worlds but truly belonging to neither, half-elves combine what some say are the best qualities of their elf and human parents: human curiosity, inventiveness, and ambition tempered by the refined senses, love of nature, and artistic tastes of the elves.
+
+As a half-elf, you gain the following traits.
+
+**Ability Score Increase.** Your Charisma score increases by 2, and two other ability scores of your choice increase by 1.
+
+**Age.** Half-elves mature at the same rate humans do and reach adulthood around the age of 20. They live much longer than humans, however, often exceeding 180 years.
+
+**Size.** Half-elves are about the same size as humans, ranging from 5 to 6 feet tall. Your size is Medium.
+
+**Speed.** Your base walking speed is 30 feet.
+
+**Languages.** You can speak, read, and write Common, Elvish, and one extra language of your choice.
+
+**Half-Elf Versatility.** Choose one of the following traits:
+
+- **Skill Versatility (General).** You gain proficiency in two skills of your choice.
+
+- **Elf Weapon Training (High or Wood Elf Heritage).** You have proficiency with the longsword, shortsword, shortbow, and longbow.
+
+- **Cantrip (High Elf Heritage).** You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it.
+
+- **Fleet of Foot (Wood Elf Heritage).** Your base walking speed increases to 35 feet.
+
+- **Mask of the Wild (Wood Elf Heritage).** You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.
+
+- **Drow Magic (Dark Elf Heritage).** You know the Dancing Lights cantrip. When you reach 3rd level, you can cast Faerie Fire once, and it recharges after a long rest. When you reach 5th level, you can cast Darkness once, and it recharges after a long rest. Charisma is your spellcasting ability for these spells.
+
+- **Swim Speed (Aquatic Elf Heritage).** You have a swimming speed of 30 feet
+
+
+{{imageMaskEdge8,--offset:10%,--rotation:270
+  ![The Roman Theater at Taormina, 1828, by Louise-Joséphine sarazin de Belmont](https://i.imgur.com/1IwlC9K.jpeg){height:100%,left:150px}
+}}
+
+
+
+
+{{pageNumber,auto}}
+\page
+
+\column
+{{imageMaskEdge1,--offset:2%,--rotation:90
+  ![The Roman Theater at Taormina, 1828, by Louise-Joséphine sarazin de Belmont](https://i.imgur.com/eGXoHbv.jpeg){height:100%,left:-420px}
+}}
+
+
+### Half-Orc
+*Source: PHB*
+
+When alliances between humans and orcs are sealed by marriages, half-orcs are born. Some half-orcs rise to become proud chiefs of orc tribes, their human blood giving them an edge over their full-blooded orc rivals. Some venture into the world to prove their worth among humans and other more civilized races. Many of these become adventurers, achieving greatness for their mighty deeds and notoriety for their barbaric customs and savage fury.
+
+Your half-orc character has certain traits deriving from your orc ancestry.
+
+**Ability Score lncrease.** Your Strength score inereases by 2, and your Constitution score inereases by I.
+
+**Age.** Half-orcs mature a tittle faster than humans, reaching adulthood around age 14. They age noticeably faster and rarely live longer than 75 years.
+
+**Size.** Half-orcs are somewhat larger and bulkier than humans, and they range from 5 to well over 6 feet tall. Your size is Medium.
+
+**Speed.** Your base walking speed is 30 feet.
+
+**Darkvision.** Thanks to your orc blood, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+
+**Menacing.** You gain proficieney in the Intimidation skill.
+
+**Relentless Endurance.** When you are reduced to O hit points but not killed outright. you can drop to 1 hit point instead. You can't use this feature again until you finish a long rest.
+
+**Savage Attacks.** When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit.
+
+**Languages.** You can speak. read, and write Common and Orc. Orc is a harsh, grating language with hard consonants. It has no script of its own but is written in the Dwarvish script.
+{{pageNumber,auto}}
+\page
+
+### Human
+*Source: PHB*
+
+In the reckonings of most worlds, humans are the youngest of the common races, late to arrive on the world scene and short-lived in comparison to dwarves, elves, and dragons. Perhaps it is because of their shorter lives that they strive to achieve as much as they can in the years they are given. Or maybe they feel they have something to prove to the elder races, and that's why they build their mighty empires on the foundation of conquest and trade. Whatever drives them, humans are the innovators, the achievers, and the pioneers of the worlds.
+
+As a human, you gain the following traits.
+
+**Ability Score Increase:** Your Intelligence score increases by 2, and the other scores each increasy by 1.
+
+**Age:** Humans reach adulthood in their late teens and live less than a century.
+
+**Size:** Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium.
+
+**Speed:** Your base walking speed is 30 feet.
+
+**Languages:** You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including
+obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on.
+
+**Skilled:** You gain proficiency in a skill or tool of your choice.
+
+{{imageMaskEdge1,--offset:10%,--rotation:0
+  ![The Roman Theater at Taormina, 1828, by Louise-Joséphine sarazin de Belmont](https://i.imgur.com/XHQe4v7.jpeg){width:100%,bottom:-3%}
+}}
+
+
+
+
+{{pageNumber,auto}}
+\page
+### Tiefling
+
+To be greeted with stares and whispers, to suffer violence and insult on the street, to see mistrust and fear in every eye: this is the lot of the tiefling. And to twist the knife, tieflings know that this is because a pact struck generations ago infused the essence of Asmodeus, overlord of the Nine Hells into their bloodline. Their appearance and their nature are not their fault but the result of an ancient sin, for which they and their children and their children's children will always be held accountable.
+
+As a tiefling, you gain the following traits.
+
+**Ability Score Increase.** Your Charisma score increases by 2.
+
+**Age.** Tieflings mature at the same rate as humans but live a few years longer.
+
+**Size.** Tieflings are about the same size and build as humans. Your size is Medium.
+
+**Speed.** Your base walking speed is 30 feet.
+
+**Darkvision.** Thanks to your infernal heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.
+
+**Hellish Resistance.** You have resistance to fire damage.
+
+**Languages.** You can speak, read, and write Common and Infernal.
+
+#### Bloodline of Asmodeus
+*Source: PHB*
+
+**Ability Score Increase.** Your Intelligence score increases by 1.
+
+**Infernal Legacy.** You know the Thaumaturgy cantrip. Once you reach 3rd level, you can cast the Hellish Rebuke spell once as a 2nd-level spell. Once you reach 5th level, you can also cast the Darkness spell once. You must finish a long rest to cast these spells again with this trait. Charisma is your spellcasting ability for these spells.
+
+#### Bloodline of Baalzebul
+*Source: Mordenkainen's Tome of Foes*
+
+**Ability Score Increase.** Your Intelligence score increases by 1.
+
+**Legacy of Maladomini.** You know the Thaumaturgy cantrip. Once you reach 3rd level, you can cast the Ray of Sickness spell once as a 2nd-level spell. Once you reach 5th level, you can also cast the Crown of Madness spell once. You must finish a long rest to cast these spells again with this trait. Charisma is your spellcasting ability for these spells.
+
+\column
+
+#### Bloodline of Dispater
+*Source: Mordenkainen's Tome of Foes*
+
+**Ability Score Increase.** Your Dexterity score increases by 1.
+
+**Legacy of Dis.** You know the Thaumaturgy cantrip. Once you reach 3rd level, you can cast the Disguise Self spell once as a 2nd-level spell. Once you reach 5th level, you can also cast the Detect Thoughts spell once. You must finish a long rest to cast these spells again with this trait. Charisma is your spellcasting ability for these spells.
+
+
+#### Bloodline of Fierna
+*Source: Mordenkainen's Tome of Foes*
+
+**Ability Score Increase.** Your Wisdom score increases by 1.
+
+**Legacy of Phlegethos.** You know the Friends cantrip. Once you reach 3rd level, you can cast the Charm Person spell once as a 2nd-level spell. Once you reach 5th level, you can also cast the Suggestion spell once. You must finish a long rest to cast these spells again with this trait. Charisma is your spellcasting ability for these spells.
+
+#### Bloodline of Glasya
+*Source: Mordenkainen's Tome of Foes*
+
+**Ability Score Increase.** Your Dexterity score increases by 1.
+
+**Legacy of Malbolge.** You know the Minor Illusion cantrip. Once you reach 3rd level, you can cast the Disguise Self spell once as a 2nd-level spell. Once you reach 5th level, you can also cast the Invisibility spell once as a 2nd-level spell. You must finish a long rest to cast these spells again with this trait. Charisma is your spellcasting ability for these spells.
+
+#### Bloodline of Levistus
+*Source: Mordenkainen's Tome of Foes*
+
+**Ability Score Increase.** Your Constitution score increases by 1.
+
+**Legacy of Stygia.** You know the Ray of Frost cantrip. Once you reach 3rd level, you can cast the Armor of Agathys spell once as a 2nd-level spell. Once you reach 5th level, you can also cast the Darkness spell once. You must finish a long rest to cast these spells again with this trait. Charisma is your spellcasting ability for these spells.
+
+#### Bloodline of Mammon
+*Source: Mordenkainen's Tome of Foes*
+
+**Ability Score Increase.** Your Intelligence score increases by 1.
+
+**Legacy of Minauros.** You know the Mage Hand cantrip. Once you reach 3rd level, you can cast the Tenser's Floating Disk spell once as a 2nd-level spell. Once you reach 5th level, you can also cast the Arcane Lock spell once. You must finish a long rest to cast these spells again with this trait. Charisma is your spellcasting ability for these spells.
+
+
+{{pageNumber,auto}}
+\page
+#### Bloodline of Mephistopheles
+*Source: Mordenkainen's Tome of Foes*
+
+**Ability Score Increase.** Your Intelligence score increases by 1.
+
+**Legacy of Cania.** You know the Mage Hand cantrip. Once you reach 3rd level, you can cast the Burning Hands spell once as a 2nd-level spell. Once you reach 5th level, you can also cast the Flame Blade spell once as a 3rd-level spell. You must finish a long rest to cast these spells again with this trait. Charisma is your spellcasting ability for these spells.
+#### Bloodline of Zariel
+*Source: Mordenkainen's Tome of Foes*
+
+**Ability Score Increase.** Your Strength score increases by 1.
+
+**Legacy of Avernus.** You know the Thaumaturgy cantrip. Once you reach 3rd level, you can cast the Searing Smite spell once as a 2nd-level spell. Once you reach 5th level, you can also cast the Branding Smite spell once as a 3rd-level spell. You must finish a long rest to cast these spells again with this trait. Charisma is your spellcasting ability for these spells.
+
+#### Tiefling Variants
+*Source: Sword Coast Adventurer's Guide*
+
+Since not all tieflings are of the blood of Asmodeus, some have traits that differ from those in the Player's Handbook. The Dungeon Master may permit the following variants for your tiefling character, although Devil's Tongue, Hellfire, and Winged are mutually exclusive.
+
+- **Appearance.** Your tiefling might not look like other tieflings. Rather than having the physical characteristics described in the Player's Handbook, choose 1d4 + 1 of the following features: small horns; fangs or sharp teeth; a forked tongue; catlike eyes; six fingers on each hand; goat-like legs; cloven hoofs; a forked tail; leathery or scaly skin; red or dark blue skin; cast no shadow or reflection; exude a smell of brimstone.
+- **Feral.** Your Intelligence score increases by 1, and your Dexterity score increases by 2. This trait replaces the Ability Score Increase trait
+
+- **Devil's Tongue.** You know the Vicious Mockery cantrip. Once you reach 3rd level, you can cast the Charm Person spell once as a 2nd-level spell. Once you reach 5th level, you can also cast the Enthrall spell once. You must finish a long rest to cast these spells again with this trait. Charisma is your spellcasting ability for these spells. This trait replaces the Infernal Legacy trait
+- **Hellfire.** Once you reach 3rd level, you can cast the Burning Hands spell once as a 2nd-level spell. This trait replaces the Hellish Rebuke spell of the Infernal Legacy trait.
+- **Winged.** You have bat-like wings sprouting from your shoulders. You have a flying speed of 30 feet while you aren’t wearing heavy armor. This trait replaces the Infernal Legacy trait.
+
+
+{{imageMaskEdge8,--offset:10%,--rotation:270
+  ![The Roman Theater at Taormina, 1828, by Louise-Joséphine sarazin de Belmont](https://i.imgur.com/xNsiqA5.jpeg){height:100%,left:100px}
+}}
+
+
+
+{{pageNumber,auto}}
+\page
+
+## Fantastical Races
+
+### Aarakocra
+*Source: Elemental Evil Player's Compendium* 
+
+A winged people who originated on the Elemental Plane of Air, aarakocra soar through the sky wherever they wander. The first aarakocra served the Wind Dukes of Aaqa — mighty beings of air — and were imbued with a measure of their masters’ power over winds. Their descendants still command echoes of that power.
+
+From below, aarakocra look like large birds and thus are sometimes called birdfolk. Only when they roost on a branch or walk across the ground is their Humanoid nature clear. Standing upright, aarakocra are typically about 5 feet tall, and they have long, narrow legs that taper to sharp talons. Feathers cover their bodies — usually red, orange, yellow, brown, or gray. Their heads are also avian, often resembling those of parrots or eagles.
+
+As an aarakocra you gain the following traits.
+
+**Ability Score Increase.** Your Dexterity score increases by 2, and your Wisdom score increases by 1.
+
+**Age.** Aarakocra reach maturity by age 3. Compared to humans, aarakocra don’t usually live longer than 30 years.
+
+**Size.** Aarakocra are about 5 feet tall. They have thin, lightweight bodies that weigh between 80 and 100 pounds. Your size is Medium.
+
+**Speed.** Your base walking speed is 25 feet.
+
+**Flight.** You have a flying speed of 50 feet. To use this speed, you can’t be wearing medium or heavy armor.
+
+**Talons.** You are proficient with your unarmed strikes, which deal 1d4 slashing damage on a hit.
+
+**Languages.** You can speak, read, and write Common, Aarakocra, and Auran.
+
+{{imageMaskEdge4,--offset:5%,--rotation:270
+  ![The Roman Theater at Taormina, 1828, by Louise-Joséphine sarazin de Belmont](https://i.imgur.com/sezmMaA.jpeg){height:100%,left:270px}
+}}
+
+
+
+
+{{pageNumber,auto}}
+\page
+### Aasimar 
+*Source: Volo's Guide to Monsters*  
+
+Whether descended from a celestial being or infused with heavenly power, aasimar are mortals who carry a spark of the Upper Planes within their souls. They can fan that spark to bring light, ease wounds, and unleash the fury of the heavens.
+
+Aasimar can arise among any population of mortals. They resemble their parents, but they live for up to 160 years and often have features that hint at their celestial heritage. These often begin subtle and become more obvious when the aasimar gains the ability to reveal their full celestial nature.
+
+As an aasimar, you gain the folowing traits.
+
+**Ability Score Increase.** Your Charisma score increases by 2.
+
+**Age.** Aasimar mature at the same rate as humans, but they can live up to 160 years.
+
+**Size.** Aasimar have the same range of height and weight as humans. Your size is Medium.
+
+**Speed.** Your base walking speed is 30 feet.
+
+**Darkvision.** Blessed with a radiant soul, your vision can easily cut through darkness. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+
+**Celestial Resistance.** You have resistance to necrotic damage and radiant damage.
+
+**Healing Hands.** As an action, you can touch a creature and cause it to regain a number of hit points equal to your level. Once you use this trait, you can't use it again until you finish a long rest.
+
+**Light Bearer.** You know the Light cantrip. Charisma is your spellcasting ability for it.
+
+**Languages.** You can speak, read, and write Common and Celestial.
+
+#### Protector Aasimar
+
+**Ability Score Increase.** Your Wisdom score increases by 1.
+
+**Radiant Soul.** Starting at 3rd level, you can use your action to unleash the divine energy within yourself, causing your eyes to glimmer and two luminous, incorporeal wings to sprout from your back.
+
+- Your transformation lasts for 1 minute or until you end it as a bonus action. During it, you have a flying speed of 30 feet, and once on each of your turns, you can deal extra radiant damage to one target when you deal damage to it with an attack or a spell. The extra radiant damage equals your level.
+- Once you use this trait, you can't use it again until you finish a long rest.
+
+\column
+
+#### Scourge Aasimar
+
+**Ability Score Increase.** Your Constitution score increases by 1.
+
+**Radiant Consumption.** Starting at 3rd level, you can use your action to unleash the divine energy within yourself, causing a searing light to radiate from you, pour out of your eyes and mouth, and threaten to char you.
+
+- Your transformation lasts for 1 minute or until you end it as a bonus action. During it, you shed bright light in a 10-foot radius and dim light for an additional 10 feet, and at the end of each of your turns, you and each creature within 10 feet of you take radiant damage equal to half your level (rounded up). In addition, once on each of your turns, you can deal extra radiant damage to one target when you deal damage to it with an attack or a spell. The extra radiant damage equals your level.
+- Once you use this trait, you can't use it again until you finish a long rest.
+
+#### Fallen Aasimar
+
+**Ability Score Increase.** Your Strength score increases by 1.
+
+**Necrotic Shroud.** Starting at 3rd level, you can use your action to unleash the divine energy within yourself, causing your eyes to turn into pools of darkness and two skeletal, ghostly, flightless wings to sprout from your back. The instant you transform, other creatures within 10 feet of you that can see you must each succeed on a Charisma saving throw (DC 8 + your proficiency bonus + your Charisma modifier) or become frightened of you until the end of your next turn.
+
+- Your transformation lasts for 1 minute or until you end it as a bonus action. During it, once on each of your turns, you can deal extra necrotic damage to one target when you deal damage to it with an attack or a spell. The extra necrotic damage equals your level.
+- Once you use this trait, you can't use it again until you finish a long rest.
+
+
+{{imageMaskCorner15,--offsetX:50%,--offsetY:-60%,--rotation:180
+  ![The Roman Theater at Taormina, 1828, by Louise-Joséphine sarazin de Belmont](https://i.imgur.com/E1jlokc.jpeg){height:60%,top:800px,left:360px}
+}}
+
+
+
+
+
+
+{{pageNumber,auto}}
+\page
+### Amoeboid
+*Source: Dark Matter* 
+
+Amoeboid bodies are composed of a translucent jelly-like substance with a complex network of nerves visible throughout, emitting a dim light. They range in color from blues and purples to bubblegum pink, with scintillating rainbows in between. Within an amoeboid’s head floats a large, brain-like nucleus surrounded by five radially-spaced eyespots—their unearthly equivalent of a face. An amoeboid can take a genetic imprint of a creature they touch, molding into an inexact copy, visible made of the same jelly material. When in this form, they can speak the language of their subject and move in much the same way, allowing them to empathize with virtually any creature. No one is sure exactly how the bizarre anatomy of the amoeboids originated, for they predate most other races. The elves believe that they must have evolved on a rogue world, flung into deep space by some catastrophic event, whereas the avia-ra maintain that they must be the result of long-term Void radiation. Perhaps the amoeboids were warped so intensely by the Void they were left as mere genetic sludge, lacking any true shape.
+
+As an amoeboid, your bizarre anatomy grants you the following racial traits:
+
+**Ability Score Increase.** Your Intelligence score increases by 2, and your Constitution score increases by 1.
+
+**Age.** Amoeboids swiftly reach maturity, growing to full size in a mere 3 years, and have especially long lifespans, living as long as 200 to 300 years.
+
+**Size.** Amoeboids have a roughly similar mass to other humanoid creatures and stand 4 to 5 feet tall. Your size is Medium.
+
+**Speed.** Your base walking speed is 30 feet.
+
+**Flexible Form.** You can use your action to stretch, compress, and mold your body into a myriad of shapes.
+
+You can transform into any static form that you choose that is no larger than 8 feet in any dimension. When you assume this form, you can replicate something’s basic shape but not its color, texture, moving parts, or fine details. You can’t change your body’s volume, nor can you move, attack, or cast spells while you’re transformed into a static shape.
+
+You can also use your action to touch a living creature and assume its general form. Your size and other statistics don’t change. You gain the ability to speak and understand that creature’s language, and if the target has a burrowing, climbing, or swimming speed, you gain those with the
+same speed, up to a maximum of 40 feet.
+
+Your transformation ends after 1 hour, or when you choose to end it on your turn (no action required). If you transform into a form incapable of wearing armor, your armor falls off. You can only take actions while you’re transformed if you are in the form of a creature, and you can only take actions that creature would be able to take.
+
+**Amorphous.** You can compress your body enough to squeeze through a 1-inch wide space. You can't expand inside a space that offers any resistance.
+
+**Reform.** Whenever you take bludgeoning, piercing, or slashing damage from a nonmagical weapon and don't drop to 0 hit points, you can use your reaction to
+immediately regain 1d4 hit points, up to a maximum of the amount of damage taken.
+
+**Languages.** You can speak, read, and write Common and Amoeboid. Most creatures are only able to approximate speaking Amoeboid, for its burbling words are made using the amoeboid’s fluid body. If you are transformed into a creature that has a language, you can speak and understand that language.
+
+
+![Amoeboid](https://i.imgur.com/20k61Bf.jpeg) {position:absolute,width:525px,mix-blend-mode:multiply,right:0px,left:350px}
+{{pageNumber,auto}}
+\page
+
+### Avia-Ra
+*Source: Dark Matter* 
+
+Depictions of the avia-ra can be found in the ruins of ancient cultures throughout the galaxy. Often, but not always, they are portrayed as divinity manifest: godlike travelers from the heavens. Avia-Ra travel to more undeveloped worlds as evangelists of their solar religion—the Sun Above—and remain long enough to build an enduring civilization in their wake.
+
+Some races consider the avia-ra an ancient and wise people, committed to the tenets of their religion. Others cast them as charlatans and false prophets, who routinely prey upon low worlds and defenseless peoples. The truth depends largely on perspective, but the avia-ra themselves aren’t a monolith. Many have forsaken their faith or live agnostically, and the rest pledge varying devotion to the Sun Above.
+
+Though different avia-ra families may have different bird heads, all avia-ra have the following racial traits:
+
+**Ability Score Increase.** Your Wisdom score increases by 2, and your Dexterity score increases by 1.
+
+**Age.** Avia-Ra are long lived, and due to their long lives, they have been revered as gods by more primitive beings. They reach maturity at roughly 30 years of age, and can live as long as 500 years.
+
+**Size.** Avia-Ra stand between 5 and 6 feet in height, and weigh roughly 120 to 170 pounds. Your size is Medium.
+
+**Speed.** You have a base walking speed of 30 feet.
+
+**Darkvision.** Thanks to the rituals of your ancestors, the light of the sun dances in your eyes and grants you superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.
+
+**Avia-Ra Weapon Training.** You have proficiency with staff, scimitar, shortbow, spear, and whip.
+
+**Doctrine.** You have proficiency in the Religion skill.
+
+**Blessings of the Sun.** You can cast the spell bless, targeting only yourself, without using a spell slot. Wisdom is your spellcasting ability for this spell. For the spell’s duration, if you roll a 4 on the d4 that you add to an attack roll or saving throw, you gain advantage on that attack roll or saving throw.
+Once you use this trait, you can’t use it again until you finish a long rest.
+
+**Sun’s Chosen.** You know the sacred flame and thaumaturgy cantrips. Wisdom is your spellcasting ability for these spells. Languages. You can speak, read, and write Common and Avia-Ra. Avia-Ra is a language filled with soft consonants and long vowel sounds. Its written form uses the Celestial script.
+
+{{imageMaskEdge8,--offset:10%,--rotation:270
+  ![The Roman Theater at Taormina, 1828, by Louise-Joséphine sarazin de Belmont](https://i.imgur.com/UjkDCLR.jpeg){height:100%,left:240px}
+}}
+
+
+
+
+
+
+{{pageNumber,auto}}
+\page
+{{imageMaskEdge1,--offset:10%,--rotation:90
+  ![The Roman Theater at Taormina, 1828, by Louise-Joséphine sarazin de Belmont](https://i.imgur.com/364aVvg.jpeg){height:101%,left:-240px,bottom:-1px}
+}}
+
+
+
+\column
+
+### Bugbear
+*Source: Volo's Guide to Monsters* 
+
+Neither bugs nor bears, bugbears are the hulking cousins of goblins and hobgoblins. With roots in the Feywild, early bugbears resided in hidden places, in hard-to-reach and shadowed spaces. Long ago and from out of the corner of your eye, they came to the Material Plane, urged to spread throughout the multiverse by the conquering god Maglubiyet. Centuries later, they still bear a fey gift for lurking just out of sight, and many of them have sneaked away from that god’s influence.
+
+They are long of limb and covered in coarse hair, with wedge-shaped ears and pointed teeth. Despite their formidable build, bugbears are quiet skulkers, thanks to a fey magic that allows them to hide in spaces seemingly too small for them.
+
+Bugbears rely on stealth and strength to attack, preferring to operate at night. When they're not in battle, bugbears spend much of their time resting or dozing, and bully weaker creatures into doing their bidding. From the viewpoint of the rest of the world, their aggression and savagery are thankfully offset by their rarity and lethargy.
+
+As a bugbear, you gain the following traits.
+
+**Ability Score Increase.** Your Strength score increases by 2, and your Dexterity score increases by 1.
+
+**Age.** Bugbears reach adulthood at age 16 and live up to 80 years.
+
+**Size.** Bugbears are between 6 and 8 feet tall and weigh between 250 and 350 pounds. Your size is Medium.
+
+**Speed.** Your base walking speed is 30 feet.
+
+**Darkvision.** You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+
+**Long-Limbed.** When you make a melee attack on your turn, your reach for it is 5 feet greater than normal.
+
+
+**Powerful Build.** You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.
+
+**Sneaky.** You are proficient in the Stealth skill.
+
+**Surprise Attack.** If you surprise a creature and hit it with an attack on your first turn in combat, the attack deals an extra 2d6 damage to it. You can use this trait only once per combat.
+
+**Languages.** You can speak, read, and write Common and Goblin.
+
+
+
+
+
+
+{{pageNumber,auto}}
+\page
+### Centaur
+*Source: Monsters of the Multiverse* 
+
+Centaurs gallop throughout the multiverse and trace their origins to many different realms. The centaurs presented here hail from the Feywild and mystically resonate with the natural world. From the waist up, they resemble elves, displaying all the elf varieties of skin tone. From the waist down, they have the bodies of horses.
+
+Centaurs have the upper bodies, down to the waist, of muscular humans, displaying all the human variety of skin tones and features. Their ears are slightly pointed, but their faces are wider and squarer than those of elves. Below the waist, they have the bodies of small horses, with a similar range of coloration - from various s hades of chestnut or bay to dappled or even zebra like striped patterns. Most centaurs style their hair and their tails in a similar way. Selesnya centaurs favor long, flowing hair. Gruul centaurs cut their hair in rough. spiky styles.
+
+The upper bodies of centaurs are comparable to human torsos in size, and their lower equine bodies average about 4 feet tall al the withers. Though they are smaller than a human rider mounted on a horse, they fill similar roles as cavalry warriors. messengers, outriders, and scouts.
+
+As a Centaur, you gain the following traits.
+
+**Ability Score Increase.** Your Strength score increases by 2, and your Wisdom score increases by 1.
+
+**Age.** Centaurs mature and age at about the same rate as humans
+
+**Size.** Your size is Medium.
+
+**Speed.** Your walking speed is 40 feet.
+
+**Charge.** If you move at least 30 feet straight toward a target and then hit it with a melee weapon attack on the same turn, you can immediately follow that attack with a bonus action, making one attack against the target with your hooves.
+
+**Equine Build.** You count as one size larger when determining your carrying capacity and the weight you can push or drag.
+
+In addition, any climb that requires hands and feet is especially difficult for you because of your equine legs. When you make such a climb, each foot of movement costs you 4 extra feet instead of the normal 1 extra foot.
+
+**Hooves.** You have hooves that you can use to make unarmed strikes. When you hit with them, the strike deals 1d6 + your Strength modifier bludgeoning damage, instead of the bludgeoning damage normal for an unarmed strike.
+
+**Natural Affinity.** You have proficiency in one of the following skills: Animal Handling, Medicine, Nature, or Survival.
+
+**Languages.** You can speak, read, and write Common and Sylvan.
+
+
+{{imageMaskEdge8,--offset:10%,--rotation:270
+  ![The Roman Theater at Taormina, 1828, by Louise-Joséphine sarazin de Belmont](https://i.imgur.com/zxKd9wg.jpeg){height:101%,left:250px,bottom:-1px}
+}}
+
+
+
+
+
+{{pageNumber,auto}}
+\page
+### Changeling
+*Source: Monsters of the Multiverse* 
+
+With ever-changing appearances, changelings reside in many societies undetected. Each changeling can supernaturally adopt any face they like. For some changelings, a new face is only a disguise. For other changelings, a new face may reveal an aspect of their soul.
+
+The first changelings in the multiverse appeared in the Feywild, and the wondrous, mutable essence of that plane lingers in changelings today even in those changelings who have never set foot in the fey realm. Each changeling decides how to use their shape-shifting ability, channeling either the peril or the joy of the Feywild. Sometimes they adopt new forms for the sake of mischief or malice, and other times they don a new identity to right wrongs or delight the downtrodden.
+
+In their true form, changelings appear faded, their features almost devoid of detail. It is rare to see a changeling in that form, for a typical changeling changes their shape the way others might change clothes. A casual shape is called a mask. A mask can be used to express a mood or to serve a specific purpose and then might never be used again. However, many changelings develop identities that have more depth, crafting whole personas complete with histories and beliefs. A changeling adventurer might have personas for many situations, including negotiation, investigation, and combat.
+
+Personas can be shared by multiple changelings; a community might be home to three healer changelings, with whoever is on duty adopting the persona of Andrea, the gentle physician. Personas can even be passed down through a family, allowing a younger changeling to take advantage of contacts established by the persona’s previous users.
+
+As a Changeling, you gain the following traits.
+
+**Ability Score Increase.** Your Charisma score increases by 2. In addition, one other ability score of your choice increases by 1.
+
+**Age.** Changelings mature slightly faster than humans but share a similar lifespan — typically a century or less. While a changeling can transform to conceal their age, the effects of aging affect them similarly to humans.
+
+**Size.** In their natural forms, changelings average between 5 to 6 feet in height, with a slender build. Your size is Medium.
+
+**Speed.** Your base walking speed is 30 feet.
+
+\column
+
+**Shapechanger.** As an action, you can change your appearance and your voice. You determine the specifics of the changes, including your coloration, hair length, and sex. You can also adjust your height and weight, but not so much that your size changes. You can make yourself appear as a member of another race, though none of your game statistics change. You can't duplicate the appearance of a creature, and you must adopt a form that has the same basic arrangement of limbs that you have. Your clothing and equipment aren't changed by this trait.
+You stay in the new form until you use an action to revert to your true form or until you die.
+
+**Changeling Instincts.** You gain proficiency with two of the following skills of your choice: Deception, Insight, Intimidation, and Persuasion.
+
+**Languages.** You can speak, read, and write Common and two other languages of your choice.
+
+
+{{imageMaskCorner12,--offsetX:50%,--offsetY:-30%,--rotation:0
+  ![The Roman Theater at Taormina, 1828, by Louise-Joséphine sarazin de Belmont](https://i.imgur.com/MaagVln.jpeg){height:70%,left:350px,top:450px}
+}}
+
+
+
+
+
+
+{{pageNumber,auto}}
+\page
+### Fairy
+
+*Source: Monsters of the Multiverse* 
+
+The Feywild is home to many fantastic peoples, including fairies. Fairies are a wee folk, but not nearly as much so as their pixie and sprite friends. The first fairies spoke Elvish, Goblin, or Sylvan, and encounters with human visitors prompted many of them to learn Common as well.
+
+Infused with the magic of the Feywild, most fairies look like Small elves with insectile wings, but each fairy has a special physical characteristic that sets the fairy apart. For your fairy, roll on the Fey Characteristics table or choose an option from it. You’re also free to come up with your own characteristic if none of the suggestions below fit your character.
+
+As a Fairy, you gain the following traits.
+
+##### Fey Characteristics
+d8|	Characteristic
+:-:|:-:
+1|	Your wings are like those of a bird.
+2|	You have shimmering, multicolored skin.
+3|	You have exceptionally large ears.
+4|	A glittering mist constantly surrounds you.
+5|	You have a small spectral horn on your forehead, like a little unicorn horn.
+6|	Your legs are insectile.
+7|	You smell like fresh brownies.
+8|	A noticeable, harmless chill surrounds you.
+
+**Ability Score Increase.** Increase one ability score by 2, and increase a different one by 1.
+
+**Languages.** You can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character.
+
+**Age.** Fairies have a life span of about a century.
+
+**Size.** You are Small.
+
+**Speed.** Your walking speed is 30 feet.
+
+**Fairy Magic.** You know the *Druidcraft* cantrip. Starting at 3rd level, you can cast the *Faerie Fire* spell with this trait. Starting at 5th level, you can also cast the *Enlarge/Reduce* spell with this trait. 
+
+Once you cast *Faerie Fir*e or *Enlarge/Reduce* with this trait, you can't cast that spell with it again until you finish a long rest. 
+
+You can also cast either of those spells using any spell slots you have of the appropriate level. Charisma is your spellcasting ability for these spells when you cast them with this trait.
+
+**Flight.** Because of your wings, you have a flying speed equal to your walking speed. You can't use this flying speed if you're wearing medium or heavy armor.
+
+
+{{imageMaskEdge8,--offset:10%,--rotation:270
+  ![The Roman Theater at Taormina, 1828, by Louise-Joséphine sarazin de Belmont](https://i.imgur.com/70QX0P9.jpeg){height:100%}
+}}
+
+
+
+
+
+
+{{pageNumber,auto}}
+\page
+
+### Firbolg
+*Source: Volo's Guide to Monsters*
+
+Distant cousins of giants, the first firbolgs wandered the primeval forests of the multiverse, and the magic of those forests entwined itself with the firbolgs’ souls. Centuries later, that magic still thrums inside a firbolg, even one who has never lived under the boughs of a great forest.
+
+A firbolg’s magic is an obscuring sort, which allowed their ancestors to pass through a forest without disturbing it. So deep is the connection between a firbolg and the wild places of the world that they can communicate with flora and fauna.
+
+As a firbolg, you gain the following traits.
+
+**Ability Score Increase.** Your Wisdom score increases by 2, and your Strength score increases by 1.
+
+**Age.** As humanoids related to the fey, firbolg have long lifespans. A firbolg reaches adulthood around 30, and the oldest of them can live for 500 years.
+
+**Size.** Firbolg are between 7 and 8 feet tall and weigh between 240 and 300 pounds. Your size is Medium.
+
+**Speed.** Your base walking speed is 30 feet.
+
+**Firbolg Magic.** You can cast detect magic and disguise self with this trait, using Wisdom as your spell casting ability for them. Once you cast either spell, you can't cast it again with this trait until you finish a short or long rest. When you use this version of disguise self, you can seem up to 3 feet shorter than normal, allowing you to more easily blend in with humans and elves.
+
+**Hidden Step.** As a bonus action, you can magically turn invisible until the start of your next turn or until you attack, make a damage roll, or force someone to make a saving throw. Once you use this trait, you can't use it again until you finish a short or long rest.
+
+**Powerful Build.** You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.
+
+**Speech of Beast and Leaf.** You have the ability to communicate in a limited manner with beasts and plants. They can understand the meaning of your words, though you have no special ability to understand them in return. You have advantage on all Charisma checks you make to influence them.
+
+**Languages.** You can speak, read, and write Common, Elvish, and Giant.
+
+{{imageMaskEdge8,--offset:10%,--rotation:270
+  ![The Roman Theater at Taormina, 1828, by Louise-Joséphine sarazin de Belmont](https://i.imgur.com/zFjt9dK.jpeg){height:100%,left:250px}
+}}
+
+
+
+{{pageNumber,auto}}
+\page
+### Genasi
+*Source: Elemental Evil Player's Compendium* 
+
+Tracing their ancestry to the genies of the Elemental Planes, each genasi can tap into the power of one of the elements. Air, earth, fire, and water — these are the four pillars of the Material Plane and the four types of genasi. Some genasi are direct descendants of a genie, while others were born to non-genasi parents who lived near a place suffused by a genie’s magic.
+
+As a genasi, you gain the following traits.
+
+**Ability Score Increase.** Your Constitution score increases by 2.
+  
+**Age.** Genasi mature at about the same rate as humans and reach adulthood in their late teens. They live somewhat longer than humans do, up to 120 years.
+  
+**Size.** Genasi are as varied as their mortal parents but are generally built like humans, standing anywhere from 5 feet to over 6 feet tall. Your size is Medium.
+  
+**Speed.** Your base walking speed is 30 feet.
+  
+**Languages.** You can speak, read, and write Common and Primordial. Primordial is a guttural language, filled with harsh syllables and hard consonants.
+
+#### Air
+
+Air genasi are descended from djinn, the genies of the Elemental Plane of Air. Embodying many of the airy traits of their otherworldly ancestors, air genasi can draw upon their connection to the winds.
+
+**Ability Score Increase.**
+Your Dexterity score increases by 1.
+
+**Unending Breath.**
+You can hold your breath indefinitely while you’re not incapacitated.
+
+**Mingle with the Wind.**
+You can cast the levitate spell once with this trait, requiring no material components, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for this spell.
+\column
+#### Earth
+
+Tracing their ancestry to dao, the genies of the Elemental Plane of Earth, earth genasi inherit dao’s steadfast strength and control over earth.
+
+**Ability Score Increase.** Your Strength score increases by 1.
+
+**Earth Walk.** You can move across difficult terrain made of earth or stone without expending extra movement.
+
+**Merge with Stone.** You can cast the pass without trace spell once with this trait, requiring no material components, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for this spell.
+
+
+
+#### Fire
+
+Descended from efreet, the genies of the Elemental Plane of Fire, fire genasi channel the flamboyant and often destructive nature of flame. 
+
+**Ability Score Increase.** Your Intelligence score increases by 1.
+
+**Darkvision.** You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. Your ties to the Elemental Plane of Fire make your darkvision unusual: everything you see in darkness is in a shade of red.
+
+**Fire Resistance.** You have resistance to fire damage.
+
+**Reach to the Blaze.** You know the Produce Flame cantrip. Once you reach 3rd level, you can cast the Burning Hands spell once with this trait as a 1st-level spell, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for these spells.
+ 
+#### Water
+
+Water genasi descend from marids, aquatic genies from the Elemental Plane of Water. Water genasi are perfectly suited to life underwater and carry the power of the waves inside themselves.
+
+**Ability Score Increase.** Your Wisdom score increases by 1.
+
+**Acid Resistance.** You have resistance to acid damage.
+
+**Amphibious.** You can breathe air and water.
+
+**Swim.** You have a swimming speed of 30 feet.
+
+**Call to the Wave.** You know the Shape Water cantrip. When you reach 3rd level, you can cast the Create or Destroy Water spell as a 2nd-level spell once with this trait, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for these spells.
+
+{{imageMaskCorner1,--offsetX:-35%,--offsetY:-45%,--rotation:0
+  ![The Roman Theater at Taormina, 1828, by Louise-Joséphine sarazin de Belmont](https://i.imgur.com/M1RNG08.jpeg){height:55%,bottom:-170px}
+}}
+
+
+{{pageNumber,auto}}
+\page
+### Geppettin 
+*Source: Valda's Spire of Secrets*
+
+As a geppettin, you have the following racial traits:
+
+**Ability Score Increase.** Your Dexterity score increases by 1, and your Charisma score increases by 1.
+
+**Age.** As constructs, geppettin do not age, and are mature as soon as they become sentient.
+
+**Alignment.** Geppettin, as varied as they are, run the gamut of alignments: Raggedies are generally good, bisques tend towards evil, and marionettes are usually in between.
+
+**Speed.** Your base walking speed is 25 feet.
+
+**Size.** Geppettin are Small creatures, rarely breaking 3 feet in height.
+
+**Darkvision.** Geppettin have superior vision in dim light and darkness. You can see in dim light within 60 feet of you as if it was bright light, and darkness as if it was dim light. You can't discern color in darkness, only shades of gray.
+
+**Construct Anatomy.** Even though you were constructed, you are a living creature. You are immune to nonmagical diseases. You do not need to eat or breathe, but you can ingest food and drink if you wish. Instead of sleeping, you enter an inactive state for 4 hours each day. You do not dream in this state; you are fully aware of your surroundings and notice approaching enemies and other events as normal. You can still be placed into a torpor by sleepinducing magic.
+
+**Innocuous.** Geppettin are generally indistinguishable from non-living dolls of the same type. Because of that, they can be very stealthy when required. You have advantage on Charisma (Deception) checks you make to appear as a
+mundane toy. 
+
+**Languages.** Geppettin can read and write Common as well as one other language based on their creator's race (your choice).
+
+**Subrace.** Geppettin are divided into subraces based on material. Choose bisque, marionette, or raggedy for your subrace.
+\column
+#### Bisque
+
+**Ability Score Increase.** Your Constitution score increases by 1.
+
+**China Doll.** Any Wisdom (Insight) check made to discern your true emotions has disadvantage. 
+
+**Surprise Attack.** Bisque know that their small size and natural stealth lead to being very efficient stalkers. If you surprise a creature and hit it with an attack on your first turn in combat, the attack deals an extra 2d6 damage to it. You can use this trait only once per combat.
+
+**Terrifying.** Your lifeless eyes and face tend to instill fear in people, often without even trying. You gain proficiency in the Intimidation skill, and have advantage on any Charisma (Intimidation) rolls in which you are attempting to scare someone that was not initially aware you are alive.
+
+
+
+#### Marionette
+
+**Ability Score Increase.** Your Dexterity score further increases by 1.
+
+**Clipped Strings.** You can manipulate your old strings, using them to attack. When you make a melee attack with a light weapon on your turn, the weapon gains the Reach property if it didn't already have it.
+
+**Pantomime.** Fitted with strings, all marionettes are taught to dance. You gain proficiency in the Performance skill, and have advantage on Charisma (Performance) checks made to dance.
+
+#### Raggedy
+
+**Ability Score Increase.** Your Charisma score further increases by 1.
+
+**Adorable.** Raggedy, before coming to life, were designed to be appealing to children. As such, you gain proficiency in the Persuasion skill, and have advantage on Charisma (Persuasion) rolls you make against children or other humanoids that are fond of cute things.
+
+**Stuffed with Fluff.** Raggedy are filled with a lightweight, soft material. When you take bludgeoning damage, you can use your reaction to gain resistance to the damage, and you are also knocked 5 feet away from the source of the damage.
+
+![Horacio](https://i.imgur.com/CstEGvp.png) {position:absolute,bottom:-40px,right:-70px,transform:scaleX(-1),width:700px}
+
+{{artist,position:absolute,top:800px,left:250px,margin-bottom:-30px
+##### Horacio
+}}
+{{pageNumber,auto}}
+\page
+### Githyanki 
+
+*Source: Mordenkainen's Tome of Foes* 
+
+Once members of a people who escaped servitude to mind flayers, githyanki split from their cousins, githzerai, and fled to the Astral Plane. In that timeless, silvery realm, githyanki honed their psionic powers and built a great city called Tu’narath. They have since spread throughout the multiverse, starting in outposts outside the Astral Plane, called creches, where time passes and their children can reach adulthood.
+
+A lanky people with skin tones of yellows, greens, and browns, githyanki complement their physical prowess with psionic might, instilled in them by mind flayers and cultivated over eons in the Astral Plane. Now all githyanki can use their psychic bond with that plane to access splinters of knowledge left behind by beings who travel, live, and die among the silver astral clouds.
+
+Githyanki who reside in the Astral Plane can live indefinitely.
+
+As a githyanki, you gain the following traits.
+
+****Ability Score Increase.**** Your Strength score increases by 2, and your Intelligence score increases by 1.
+
+**Age.** Gith reach adulthood in their late teens and live for about a century.
+
+**Size.** Gith are taller and leaner than humans, with most a slender 6 feet in 
+
+**Speed.** Your base walking speed is 30 feet.
+
+**Decadent Mastery.** You learn one language of your choice, and you are proficient with one skill or tool of your choice. 
+
+**Martial Prodigy**. You are proficient with light and medium armor and with shortswords, longswords, and greatswords.
+
+**Githyanki Psionics.** You know the Mage Hand cantrip, and the hand is invisible when you cast the cantrip with this trait. When you reach 3rd level, you can cast the Jump spell once with this trait, and you regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the Misty Step spell once with this trait, and you regain the ability to do so when you finish a long rest.
+
+Intelligence is your spellcasting ability for these spells. When you cast them with this trait, they don't require components.
+
+**Languages.** You can speak, read, and write Common and Gith.
+
+{{imageMaskEdge8,--offset:6%,--rotation:270
+  ![The Roman Theater at Taormina, 1828, by Louise-Joséphine sarazin de Belmont](https://i.imgur.com/zdiVYW4.jpeg){height:101%,left:70px,bottom:-1px}
+}}
+
+
+
+
+
+
+
+{{pageNumber,auto}}
+\page
+{{imageMaskEdge1,--offset:5%,--rotation:90
+  ![The Roman Theater at Taormina, 1828, by Louise-Joséphine sarazin de Belmont](https://i.imgur.com/xAm7xmT.jpeg){height:101%,left:-100px,bottom:-1px}
+}}
+
+\column
+
+
+
+### Githzerai
+*Source: Mordenkainen's Tome of Foes*
+
+Githzerai migrated to the Everchanging Chaos of Limbo after the ancient schism that split their ancestors from their cousins, githyanki. Limbo is a roiling maelstrom of matter and energy, collapsing and reforming without purpose or direction, until a creature exerts deliberate will to stabilize it. Through their potent psionic power, githzerai carved a home for themselves amid the chaos. As the ages passed, githzerai explorers ranged out to other planes and worlds of the multiverse.
+
+Githzerai are generally slender, with speckled skin in shades of yellow, green, or brown. Eons of cultivating their mental powers within the endless chaos of Limbo have imbued githzerai with the ability to shape psionic energy to protect themselves and probe minds.
+
+As a githzerai, you gain the following traits.
+
+**Ability Score Increase.** Your Wisdom score increases by 2, and your Intelligence score increases by 1.
+
+**Age.** Gith reach adulthood in their late teens and live for about a century.
+
+**Size.** Gith are taller and leaner than humans, with most a slender 6 feet in 
+
+**Speed.** Your base walking speed is 30 feet.
+
+**Mental Discipline.** You have advantage on saving throws against the charmed and frightened conditions. Under the tutelage of monastic masters, githzerai learn to govern their own minds.
+
+**Githzerai Psionics.** You know the Mage Hand cantrip, and the hand is invisible when you cast the cantrip with this trait.
+When you reach 3rd level, you can cast the Shield spell once with this trait, and you regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the Detect Thoughts spell once with this trait, and you regain the ability to do so when you finish a long rest.
+
+Wisdom is your spellcasting ability for these spells. When you cast them with this trait, they don't require components.
+
+**Languages.** You can speak, read, and write Common and Gith. 
+
+
+
+
+{{pageNumber,auto}}
+\page
+### Goblin
+*Source: Volo's Guide to Monsters* 
+
+A subterranean folk, goblins can be found in every corner of the multiverse, often beside their bugbear and hobgoblin kin. Long before the god Maglubiyet conquered them, early goblins served in the court of the Queen of Air and Darkness, one of the Feywild’s archfey. Goblins thrived in her dangerous domain thanks to a special boon from her—a supernatural knack for finding the weak spots in foes larger than themselves and for getting out of trouble. 
+
+Goblins brought this fey boon with them to worlds across the Material Plane, even if they don’t remember the fey realm they inhabited before Maglubiyet’s rise. Now many goblins pursue their own destinies, escaping the plots of both archfey and gods.
+
+As a goblin, you gain the following traits.
+
+**Ability Score Increase.** Your Dexterity score increases by 2, and your Constitution score increases by 1.
+
+**Age.** Goblins reach adulthood at age 8 and live up to 60 years.
+
+**Size.** Goblins are between 3 and 4 feet tall and weigh between 40 and 80 pounds. Your size is Small.
+
+**Speed.** Your base walking speed is 30 feet.
+
+**Darkvision.** You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+
+
+**Fury of the Small.** When you damage a creature with an attack or a spell and the creature's size is larger than yours, you can cause the attack or spell to deal extra damage to the creature. The extra damage equals your level. Once you use this trait, you can't use it again until you finish a short or long rest.
+
+**Nimble Escape.** You can take the Disengage or Hide action as a bonus action on each of your turns.
+
+**Languages.** You can speak, read, and write Common and Goblin.
+
+
+{{imageMaskEdge3,--offset:6%,--rotation:270
+  ![The Roman Theater at Taormina, 1828, by Louise-Joséphine sarazin de Belmont](https://i.imgur.com/WtEK7ku.jpeg){height:101%,left:70px,bottom:-1px}
+}}
+
+
+
+
+{{pageNumber,auto}}
+\page
+### Goliath
+*Source: Elemental Evil Player's Compendium*
+
+The first goliaths lived on the highest mountain peaks — far above the tree line, where the air is thin and frigid winds howl. Distantly related to giants and infused with the supernatural essence of their ancestors’ mountainous home, goliaths stand between 7 and 8 feet tall and have a wide array of skin tones resembling different types of stone.
+
+At the highest mountain peaks dwell the reclusive goliaths, wandering a bleak realm of rock, wind, and cold. Their bodies look as if they are carved from mountain stone and give them great physical power. Their hearts are infused with the cold regard of their frigid realm, leaving each goliath with the responsibility to earn a place in the tribe or die trying.
+
+\column
+
+As a goliath you gain the following traits.
+
+**Ability Score Increase.** Your Strength score increases by 2, and your Constitution score increases by 1.
+
+**Age.** Goliaths have lifespans comparable to humans. They enter adulthood in their late teens and usually live less than a century.
+
+**Size.** Goliaths are between 7 and 8 feet tall and weigh between 280 and 340 pounds. Your size is Medium.
+
+**Speed.** Your base walking speed is 30 feet.
+
+**Natural Athlete.** You have proficiency in the Athletics skill.
+
+**Stone's Endurance.** You can focus yourself to occasionally shrug off injury. When you take damage, you can use your reaction to roll a d12. Add your Constitution modifier to the number rolled, and reduce the damage by that total. After you use this trait, you can’t use it again until you finish a short or long rest.
+
+**Powerful Build.** You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.
+
+**Mountain Born.** You have resistance to cold damage. You’re also acclimated to high altitude, including elevations above 20,000 feet.
+
+**Languages.** You can speak, read, and write Common and Giant.
+
+
+{{imageMaskEdge3,--offset:5%,--rotation:0
+  ![The Roman Theater at Taormina, 1828, by Louise-Joséphine sarazin de Belmont](https://i.imgur.com/NXciOds.jpeg){height:100%,left:0px,bottom:-400px}
+}}
+{{pageNumber,auto}}
+\page
+### Grungs
+*Source: One Grung Above, Extra Life 2017*::
+
+Grungs are aggressive froglike humanoids found in rain forests and tropical jungles. They are fiercely territorial and see themselves as superior to most other creatures.
+
+Grung society is a caste system. Each caste lays eggs in a separate hatching pool, and juvenile grungs join their caste upon emergence from the hatchery. All grungs are a dull greenish gray when they are born, but each individual takes on the color of its caste as it grows to adulthood. From lowest to highest caste, grungs can be green, blue, purple, red, orange, or gold.
+
+All grungs secrete a substance that is harmless to them but poisonous to other creatures. A grung also uses venom to poison its weapons. Grungs are always on the lookout for creatures they can capture and enslave. Grungs use slaves for all manner of menial tasks, but mostly they just like bossing them around. Slaves are fed mildly poisoned food to keep them lethargic and compliant. A creature afflicted in this way over a long period of time becomes a shell of its former self and can be restored to normalcy only by magic. Being amphibious, grungs require water to live; any grung that fails to immerse itself in water for at least 1 hour during a day becomes quite exhausted.
+
+A grung normally remains in its caste for life. On rare occasions, an individual that distinguishes itself with great deeds can earn an invitation to join a higher caste. Through a combination of herbal tonics and ritual magic, an elevated grung changes color and is inducted into its new caste in the same way that a juvenile of the caste would be. From then on, the grung and its progeny are members of the higher caste.
+
+**Ability Score Increase.** Your Dexterity score increases by 2 and your Constitution score increases by 1.
+
+**Age.** Grungs mature to adulthood in a single year, but have been known to live up to 50 years.
+
+**Arboreal Alertness.** You have proficiency in the Perception skill.
+
+**Size.** Grungs stand between 2 ½ and 3 ½ feet tall and average about 30 pounds. Your size is Small.
+
+**Speed.** You have a walking speed of 25 feet. Your sticky finger and toe pads give you a climb speed of 25 feet.
+
+**Amphibious.** You can breathe air and water.
+
+**Poison Immunity.** You are immune to poison damage and the poisoned condition.
+
+\column
+
+**Poisonous Skin.** Any creature that grapples you or otherwise comes into direct contact with your skin must succeed on a DC 12 Constitution saving throw or become poisoned for 1 minute. A poisoned creature no longer in direct contact with you can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+
+You can also apply this poison to any piercing weapon as part of an attack with that weapon, though when you hit the poison reacts differently. The target must succeed on a DC 12 Constitution saving throw or take 2d4 poison damage.
+
+**Standing Leap.** Your long jump is up to 25 feet and your high jump is up to 15 feet, with or without a running start.
+
+**Water Dependency.** If you fail to immerse yourself in water for at least 1 hour during a day, you suffer 1 level of exhaustion at the end of that day. You can recover from this exhaustion only through magic or by immersing yourself in water for at least 1 hour.
+
+**Languages.** You can speak, read, and write Grung.
+
+
+{{imageMaskCorner15,--offsetX:50%,--offsetY:-30%,--rotation:0
+  ![The Roman Theater at Taormina, 1828, by Louise-Joséphine sarazin de Belmont](https://i.imgur.com/7MqiF1V.jpeg){height:100%,left:200px,top:450px}
+}}
+
+
+{{pageNumber,auto}}
+\page
+### Half-aasimar
+*Source: Doce Caballeros*
+
+Touched by the Divine, Grounded in Mortality.
+
+The Half-Aasimar are rare individuals born from the union of a celestial-descended Aasimar and a mortal parent, or in rarer cases, through a direct but diluted celestial blessing upon a bloodline. Unlike their full Aasimar kin, who often feel like visitors from another realm, Half-Aasimar are firmly rooted in the material world. They possess a duality of spirit—the burning intensity of the Upper Planes tempered by the grit and ambition of their mortal heritage.
+
+In the world, they are often viewed as living bridges. Their presence is marked by a subtle radiance: perhaps their eyes carry a metallic sheen of gold or silver, or their voice resonates with a harmonic quality that commands attention. They do not merely represent the divine; they humanize it.
+
+As a Half-aasimar you gain the following traits.
+
+**Ability Score Increase.** Your Strength score increases by 1, and your Charisma score increases by 2.
+
+**Age.** Aasimar mature at the same rate as the race they were born to, but can live up to 160 years longer.
+
+**Size.** Your size is medium.
+
+**Speed.** Your base walking speed is 30 feet.
+
+**Flight.** You have a flying speed of 50 feet. To use this speed, you can’t be wearing medium or heavy armor. You can’t manifest your wings while wearing armor unless the armor is made to accommodate them, and clothing not made to accommodate your wings might be destroyed when you manifest them.
+
+**Languages.** You can speak, read, and write Common and Celestial.
+
+{{imageMaskEdge1,--offset:10%,--rotation:0
+  ![The Roman Theater at Taormina, 1828, by Louise-Joséphine sarazin de Belmont](https://i.imgur.com/0KdzoIp.jpeg){width:100%,bottom:-20%}
+}}
+
+
+
+{{pageNumber,auto}}
+\page
+
+### Harengons
+*Source: The Wild Beyond the Witchlight*
+
+Harengons originated in the Feywild, where they spoke Sylvan and embodied the spirit of freedom and travel. In time, these rabbitfolk hopped into other worlds, bringing the fey realm's exuberance with them and learning new languages as they went.
+
+Harengons are bipedal, with the characteristic long feet of the rabbits they resemble and fur in a variety of colors. They share the keen senses and powerful legs of leporine creatures and are full of energy, like a wound-up spring. Harengons are blessed with a little fey luck, and they often find themselves a few fortunate feet away from dangers during adventures.
+
+As a Harengons you gain the following traits.
+
+**Ability Score Increase.** Your Dexterity score increases by 2.
+
+**Creature Type.** You are a Humanoid.
+
+**Size.** You are Medium or Small. You choose the size when you select this race.
+
+**Speed.** Your walking speed is 30 feet.
+
+**Hare-Trigger.** You can add your proficiency bonus to your initiative rolls.
+Leporine Senses. You have proficiency in the Perception skill.
+
+**Lucky Footwork.** When you fail a Dexterity saving throw, you can use your reaction to roll a d4 and add it to the save, potentially turning the failure into a success. You can't use this reaction if you're prone or your speed is 0.
+
+**Rabbit Hop.** As a bonus action, you can jump a number of feet equal to five times your proficiency bonus, without provoking opportunity attacks. You can use this trait only if your speed is greater than 0. You can use it a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.
+
+**Languages.** Your character can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character.
+
+
+{{imageMaskEdge8,--offset:10%,--rotation:270
+  ![The Roman Theater at Taormina, 1828, by Louise-Joséphine sarazin de Belmont](https://i.imgur.com/unIAfCk.jpeg){height:100%}
+}}
+
+
+
+
+{{pageNumber,auto}}
+\page
+
+{{imageMaskEdge1,--offset:10%,--rotation:90
+  ![The Roman Theater at Taormina, 1828, by Louise-Joséphine sarazin de Belmont](https://i.imgur.com/qKOtxgK.jpeg){height:110%,left:-300px,bottom:-50px}
+}}
+
+\column
+
+### Hobgoblin
+*Source: Volo's Guide to Monsters* 
+
+Hobgoblins trace their origins to the ancient courts of the Feywild, where they first appeared with their goblin and bugbear kin. Many of them were driven from the Feywild by the conquering god Maglubiyet, who marshaled them as soldiers, but the fey realm left its mark; wherever they are in the multiverse, they continue to channel an aspect of the Feywild’s rule of reciprocity, which creates a mystical bond between the giver and the receiver of a gift.
+
+On some worlds, such bonds lead hobgoblins to form communities with deep ties to one another. In Eberron and the Forgotten Realms, vast hobgoblin legions have emerged, with ranks of devoted soldiers famed for their unity.
+
+Hobgoblins are generally taller than their goblin cousins but not quite as big as bugbears. They have curved, pointed ears and noses that turn bright red or blue during displays of emotion.
+
+As a hobgoblin, you gain the follwing traits.
+
+**Ability Score Increase.** Your Constitution score increases by 2, and your Intelligence score increases by 1.
+
+**Age.** Hobgoblins mature at the same rate as humans and have lifespans similar in length to theirs.
+
+**Size.** Hobgoblins are between 5 and 6 feet tall and weigh between 150 and 200 pounds. Your size is Medium.
+
+**Speed.** Your base walking speed is 30 feet.
+
+**Darkvision.** You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+  
+
+**Martial Training.** You are proficient with two martial weapons of your choice and with light armor.
+
+**Saving Face.** Hobgoblins are careful not to show weakness in front of their allies, for fear of losing status.
+
+
+If you miss with an attack roll or fail an ability check or a saving throw, you can gain a bonus to the roll equal to the number of allies you can see within 30 feet of you (maximum bonus of +5). Once you use this trait, you can't use it again until you finish a short or long rest.
+
+**Languages.** You can speak, read, and write Common and Goblin.
+
+
+
+{{pageNumber,auto}}
+\page
+
+### Kenku
+*Source: Volo's Guide to Monsters*
+
+Feathered folk who resemble ravens, kenku are blessed with keen observation and supernaturally accurate memories. None of them can remember the origin of the first kenku, however, and they often joke that there are as many kenku origin stories as there are kenku. Some of them paint their genesis as a curse, being a flightless bird people doomed to mimic other people’s creations. 
+
+Other kenku recite cryptic but beautiful poems about their advent being a blessed event in which they were sent into the multiverse to observe and catalog its many wonders.
+
+Whatever their true origin, kenku are most often found in the Shadowfell and the Material Plane, and they tend to have the coloration typical of ravens.
+
+As a kenku, you gain the following traits.
+
+**Ability Scare Increase.** Your Dexterity score increases by 2, and your Wisdom score increases by 1.
+
+**Age.** Kenku have shorter lifespans than humans. They reach maturity at about 12 years old and can live to 60.
+
+**Size.** Kenku are around 5 feet tall and weigh between 90 and 120 pounds. Your size is Medium.
+
+**Speed.** Your base walking speed is 30 feet.
+
+**Expert Forgery.** You can duplicate other creatures' handwriting and craftwork. You have advantage on all checks made to produce forgeries or duplicates of existing objects.
+
+**Kenku Training.** You are proficient in your choice of two of the following skills: Acrobatics, Deception, Stealth, and Sleight of Hand.
+
+**Mimicry.** You can mimic sounds you have heard, including voices. A creature that hears the sounds you make can tell they are imitations with a successful Wisdom (Insight) check opposed by your Charisma (Deception) check.
+
+**Languages.** You can read and write Common and Auran, but you can speak only by using your Mimicry trait.
+
+{{imageMaskEdge8,--offset:10%,--rotation:270
+  ![The Roman Theater at Taormina, 1828, by Louise-Joséphine sarazin de Belmont](https://i.imgur.com/M60U7Ki.jpeg){height:100%,left:250px}
+}}
+
+
+
+{{pageNumber,auto}}
+\page
+{{imageMaskEdge5,--offset:10%,--rotation:180
+  ![The Roman Theater at Taormina, 1828, by Louise-Joséphine sarazin de Belmont](https://i.imgur.com/cha43YF.jpeg){width:100%,top:0%}
+}}
+
+
+:::::::::::::::::::::::::::::::::::::
+### Kobold
+*Source: Volo's Guide to Monsters* 
+
+Some of the smallest draconic creatures in the multiverse, kobolds display their draconic ancestry in the glint of their scales and in their roars. Legends tell of the first kobolds emerging from the Underdark near the lairs of the earliest dragons. In some lands, kobolds serve chromatic or metallic dragons — even worshiping them as divine beings. In other places, kobolds know too well how dangerous those dragons can be and help others defend against draconic destruction.
+
+Whatever their relationship to dragons, kobold scales tend to be rust colored, although the occasional kobold sports a scale color more akin to that of a chromatic or a metallic dragon. A kobold’s cry can express a range of emotion: anger, resolve, elation, fear, and more. Regardless of the emotion expressed, their cry resonates with draconic power.
+
+
+\column
+:::::::::::::::::::::::::::::::::::::
+As a kobold, you gain the following traits.
+
+**Ability Score Increase.** Your Dexterity score increases by 2, and your Strength score is reduced by 2.
+
+**Age.** Kobolds reach adulthood at age 6 and can live up to 120 years but rarely do so.
+
+**Size.** Kobolds are between 2 and 3 feet tall and weigh between 25 and 35 pounds. Your size is Small.
+
+**Speed.** Your base walking speed is 30 feet.
+
+**Darkvision.** You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+
+**Grovel, Cower, and Beg.** As an action on your turn, you can cower pathetically to distract nearby foes. Until the end of your next turn, your allies gain advantage on attack rolls against enemies within 10 feet of you that can see you. Once you use this trait, you can't use it again until you finish a short or long rest.
+
+**Pack Tactics.** You have advantage on an attack roll against a creature if at least one of your allies is within 5 feet of the creature and the ally isn't incapacitated.
+
+**Sunlight Sensitivity.** You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight. 
+  
+**Languages.** You can speak, read, and write Common and Draconic.
+
+
+
+{{pageNumber,auto}}
+\page
+
+### Leonin
+*Source: Mythic Odysseys of Theros*
+
+The leonin guard the shining lands of Oreskos, a golden plain where even the gods rarely trespass. Prides of these nomadic, lion-like humanoids rarely interact with other peoples, having all they need in their shimmering homeland and knowing the treachery of strangers. Still, some leonin wonder what lies beyond Oreskos’s border mountains and seek to test themselves in a wider world.
+
+As a leonin, you gain the following traits.
+
+**Ability Score Increase.** Your Constitution score increases by 2, and your Strength score increases by 1.
+
+**Age.** Leonin mature and age at about the same rate as humans.
+
+**Size.** Leonin are typically over 6 feet tall, with some standing over 7 feet. Your size is Medium.
+
+**Speed.** Your base walking speed is 35 feet.
+
+**Darkvision.** You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.
+
+**Claws.** Your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you can deal slashing damage equal to 1d4 + your Strength modifier.
+
+**Hunter's Instincts.** You have proficiency in one of the following skills of your choice: Athletics, Intimidation, Perception, or Survival.
+
+**Daunting Roar.** As a bonus action, you can let out an especially menacing roar. Creatures of your choice within 10 feet of you that can hear you must succeed on a Wisdom saving throw or become frightened of you until the end of your next turn. The DC of the save equals 8 + your proficiency bonus + your Constitution modifier. Once you use this trait, you can't use it again until you finish a short or long rest.
+
+**Languages.** You can speak, read, and write Common and Leonin.
+
+{{imageMaskEdge8,--offset:10%,--rotation:270
+  ![The Roman Theater at Taormina, 1828, by Louise-Joséphine sarazin de Belmont](https://i.imgur.com/duWCtPc.jpeg){height:100%,left:250px}
+}}
+
+
+
+
+
+{{pageNumber,auto}}
+\page
+
+{{imageMaskEdge1,--offset:10%,--rotation:90
+  ![The Roman Theater at Taormina, 1828, by Louise-Joséphine sarazin de Belmont](https://i.imgur.com/0CfgC8W.jpeg){height:101%,left:-250px,bottom:-1px}
+}}
+
+
+
+
+\column
+
+### Lizardfolk
+*Source: Volo's Guide to Monsters*
+
+The saurian lizardfolk are thought by some sages to be distant cousins of dragonborn and kobolds. Despite their resemblance to those other scaled folk, however, lizardfolk are their own people and have lived on the worlds of the Material Plane since the worlds’ creation. 
+
+Gifted by the gods with remarkable physical defenses and a mystical connection to the natural world, lizardfolk can survive with just their wits in situations that would be deadly for other folk. Because of that fact, many lizardfolk myths state that their people were placed by the gods in the Material Plane to guard its natural wonders.
+
+Lizardfolk have colorful scales and exhibit a wide array of scale patterns. Their individual facial features are as varied as those of lizards.
+
+As a lizardfolk, you gain the following traits.
+
+**Ability Score Increase.** Your Constitution score increase by 2, and your Wisdom score increases by 1.
+
+**Age.** Lizardfolk reach maturity around age 14 and rarely live longer than 60 years.
+
+**Size.** Lizardfolk are a little bulkier and taller than humans, and their colorful frills make them appear even larger. Your size is Medium.
+
+**Speed.** Your base walking speed is 30 feet, and you have a swimming speed of 30 feet.
+
+**Bite.** Your fanged maw is a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.
+
+
+**Cunning Artisan.** As part of a short rest, you can harvest bone and hide from a slain beast, construct, dragon, monstrosity, or plant creature of size Small or larger to create one of the following items: a shield, a club, a javelin, or 1d4 darts or blowgun needles. To use this trait, you need a blade, such as a dagger, or appropriate artisan's tools, such as leatherworker's tools.
+
+**Hold Breath.** You can hold your breath for up to 15 minutes at a time.
+
+
+**Hunter's Lore.** You gain proficiency with two of the following skills of your choice: Animal Handling, Nature, Perception, Stealth, and Survival.
+
+**Natural Armor.** You have tough, scaly skin. When you aren't wearing armor, your AC is 13 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor.
+
+**Hungry Jaws.** In battle, you can throw yourself into a vicious feeding frenzy. As a bonus action, you can make a special attack with your bite. If the attack hits, it deals its normal damage, and you gain temporary hit points (minimum of 1) equal to your Constitution modifier, and you can't use this trait again until you finish a short or long rest.
+
+**Languages.** You can speak, read, and write Common and Draconic.
+
+{{pageNumber,auto}}
+\page
+### Mandrake 
+*Source: Valda's Spire of Secrets*
+With a skin of thick bark and leaves growing at their
+extremities, you could be forgiven for believing that
+mandrakes are simply bizarre plants, treants, or
+animated trees. This might even be partially true: it
+seems that mandrakes originated from some plant
+ancestor, but through strange magic or stranger
+evolution, they have become something midway
+between animal and plant.
+
+
+Because you are neither beast nor plant, you have the following characteristics:
+
+**Ability Score Increase.** Your Wisdom score increases by 2.
+
+**Age.** Mandrakes must grow undisturbed for a year and a day before they are harvested. They then mature in a decade and live for centuries, growing wider, with more gnarled bark as they age.
+
+**Alignment.** Mandrakes are known to keep centuries-old concords known only to the oldest of creatures. Though they stay neutral in most matters, they tend to lean toward lawful alignments.
+
+**Size.** Mandrakes usually stand tall and slim, usually almost seven feet high, with spring mandrakes being smaller and winter mandrakes being slightly larger, and often hunched over. Your size is Medium.
+
+**Speed.** Your base walking speed is 30 feet.
+
+**Plant Nature.** Even though you are not fully a plant, you still possess many of the same traits as one. As long as you are within direct sunlight for at least 4 hours a day, you do not need to eat. Additionally, you can breathe through your leaves and extremities and can absorb water and nutrients through your feet. Even if you are not proficient in Stealth, you can add your proficiency bonus to Dexterity (Stealth) checks that you make to hide in natural environments, such as forests.
+
+
+**Root Magic.** You know the shillelagh cantrip and can target yourself with the spell, treating one of your limbs as a club instead of an unarmed strike. When you reach 3rd level, you can cast the goodberry spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the barkskin spell once with this trait and regain the ability to do so when you finish a long rest. Wisdom is your spellcasting ability for these spells.
+
+**Languages.** You can speak, read, and write Common. You can also communicate simple ideas to nonmagical plants and can question plants about events that occurred nearby during the past day, gaining information about creatures that hav passed, weather, and other circumstances.
+
+**Seasonal Subrace.** Depending on the season in which mandrakes are harvested, they take on vastly different characteristics when they mature. Pick one seasonal subrace from Spring, Summer, Autumn, and Winter.
+
+\column
+
+#### Spring
+
+**Ability Score Increase.** Your Dexterity score increases by 1.
+
+**Sprightly Movement.** Your base movement speed increases by 5 feet.
+
+**Storm Resistance.** You have resistance to lightning damage.
+
+
+
+#### Summer
+
+**Ability Score Increase.** Your Strength score
+increases by 1.
+
+**Deep Roots.** As long as your feet are on natural ground, you have advantage on Strength saving throws and on all ability checks you make to resist being pushed, shoved, knocked prone, or otherwise moved involuntarily.
+
+**Wildfire Resistance.** You have resistance to fire damage.
+
+#### Autumn
+
+**Ability Score Increase.** Your Charisma score increases by 1.
+
+**Abundance.** You gain the ability to cast the goodberry spell, as per your Root Magic trait, when you choose this subrace at 1st level, rather than at 3rd level. When you cast this spell using this trait, each creature that consumes a berry regains hit points equal to your proficiency bonus.
+
+**Toxin Resistance.** You have resistance to poison damage.
+
+
+#### Winter
+
+**Ability Score Increase.** Your Constitution score increases by 1.
+
+**Frost Resistance.** You have resistance to cold damage.
+
+**Powerful Build.** You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.
+
+
+{{imageMaskCorner12,--offsetX:50%,--offsetY:-50%,--rotation:0
+  ![The Roman Theater at Taormina, 1828, by Louise-Joséphine sarazin de Belmont](https://i.imgur.com/2SlyXAt.jpeg){height:70%,bottom:-300px,left:260px}
+}}
+
+
+
+
+
+{{pageNumber,auto}}
+\page
+
+### Merfolk
+*Source: Mythic Odysseys of Theros*
+
+Merfolk are an amphibious race, born and at home in the water but comfortable on dry land. Humanoid in form, they have skin of ivory, silver, russet, blue, or deep purple. Long fins extend from the backs of their forearms and calves, and their fingers and toes are webbed. The hairlike growths on their heads are either thick and bristly like the needles of a sea urchin, or long and wavy, resembling fine seaweed. In either case, these growths typically range in color from red to warm brown to black. Male merfolk have similar growths extending down from their cheekbones.
+
+
+
+As a merfolk you gain the following traits.
+
+**Ability Score Increase.** Your Charisma score increases by 1.
+
+**Age.** Merfolk mature at the same rate humans do and reach adulthood around the age of 20. They live considerably longer than humans, though, often reaching well over 100 years.
+
+**Size.** Merfolk are significantly taller than most humans, standing between seven and eight feet tall and averaging about 300 pounds. Your size is Medium.
+
+**Speed.** Your base walking speed is 30 feet. You also have a swimming speed of 30 feet.
+
+**Amphibious.** You can breathe air and water.
+
+**Languages.** You can speak, read, and write Common, Merfolk and one additional language of your choice.
+
+**Subrace.** Merfolk are actually two separate subspecies. The green merfolk favor the land, walking among the trees and savoring the sunlight that filters through the leaves, while the blue merfolk are more at home in the waters of the Great River and the Inner Sea.
+
+#### Green Merfolk
+**Ability Score Increase.** Your Wisdom score increases by 2.
+
+**Mask of the Wild.** You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.
+
+**Cantrip.** You know one cantrip of your choice from the Druid spell list. Wisdom is your spellcasting ability for it.
+
+#### Blue Merfolk
+**Ability Score Increase.** Your Intelligence score increases by 2.
+
+**Lore of the Waters.** You gain proficiency in History and Nature.
+
+**Cantrip.** You know one cantrip of your choice from the Wizard spell list. Intelligence is your spellcasting ability for it.
+
+{{imageMaskEdge5,--offset:9%,--rotation:270
+  ![The Roman Theater at Taormina, 1828, by Louise-Joséphine sarazin de Belmont](https://i.imgur.com/6KzoZVE.jpeg){height:100%,left:400px}
+}}
+
+
+{{pageNumber,auto}}
+\page
+{{imageMaskEdge1,--offset:5%,--rotation:90
+  ![The Roman Theater at Taormina, 1828, by Louise-Joséphine sarazin de Belmont](https://i.imgur.com/ejOKZbW.jpeg){height:100%,left:-300px}
+}}
+
+
+
+\column
+
+### Minotaur
+*Source: Mythic Odysseys of Theros*
+
+Minotaurs are barrel-chested humanoids with heads resembling those of bulls. Blessed with a supernaturally strong sense of direction, minotaurs make great navigators. Some sages believe minotaurs were first created by the Lady of Pain to patrol the magical mazes that she uses to trap her foes.
+
+Minotaur horns range in size from about 1 foot long to easily three times that length. Minotaurs often carve their horns to sharpen their edges, etch symbols of power into them, or sheathe them in bronze to prevent them from shattering during battle.
+
+Thick hair extends down minotaurs’ necks and powerful backs, and some have long patches of hair on their chins and cheeks. Their legs end in heavy, cloven hooves, and they have long, tufted tails.
+
+As a minotaur you gain the following traits.
+
+**Ability Score Increase.** Your Strength score increases by 2, and your Constitution score increases by 1.
+
+**Size.** Minotaurs average over 6 feet in height, and they have stocky builds. Your size is Medium.
+  
+**Speed.** Your base walking speed is 30 feet.
+
+**Horns.** Your horns are natural melee weapons, which you can use to make unarmed strikes. If you hit with them, you deal piercing damage equal to 1d6 + your Strength modifier. instead of the bludgeoning damage normal for an unarmed strike.
+
+**Goring Rush.** Immediately after you use the Dash action on your turn and move at least 20 feet, you can make one melee attack with your horns as a bonus action.
+
+**Hammering Horns.** Immediately after you hit a creature with a melee attack as part of the Attack action on your turn, you can use a bonus action to attempt to shove that target with your horns. The target must be no more than one size larger than you and within 5 feet of you. Unless it succeeds on a Strength saving throw against a DC equal to 8 + your proficiency bonus + your Strength modifier, you push it up to 10 feet away from you.
+
+**Imposing Presence.** You have proficiency in one of the following skills of your choice: Intimidation or Persuasion.
+
+**Languages.** You can speak, read, and write Common and Minotaur.
+{{pageNumber,auto}}
+\page
+
+
+### Mousefolk
+*Source: Valda's Spire of Secrets*
+
+Though ratlings have long abandoned the old ways, a mouseling is never to be seen without a hood. Following ancient tradition, mouselings wear their hoods, which they have sewn themselves, at all times, except in the direst circumstances. A hood is a symbol of wealth and social standing and is sometimes replaced with hats or other headwear, when appropriate.
+
+Slight and swift, you possess the following traits:
+
+**Ability Score Increase.** Your Dexterity score increases by 2.
+
+**Age.** Mousefolk mature in their teens and live around 80 years.
+
+**Alignment.** Most mousefolk are neutral good. They tend to be kind-hearted and have deeply-rooted values.
+
+**Size.** Mouselings stand around 3 feet tall, but appear slightly taller with their large ears, and normally weigh no more than 40 pounds. Ratlings, by contrast, stand almost 4 feet tall, but have much smaller ears. Your size is Small.
+
+**Speed.** Your base walking speed is 25 feet.
+
+**Darkvision.** Mousefolk have superior vision in dim light and darkness. You can see in dim light within 60 feet of you as if it was bright light, and darkness as if it was dim light. You can't discern color in darkness, only shades of gray.
+
+**Lightfooted.** You have proficiency in the Stealth skill.
+
+**Scurry.** You can move through the space of any hostile creature as if it were difficult terrain.
+
+**Squeeze.** You suffer no penalty for squeezing into a space that is only large enough for a creature that is one size smaller than you.
+
+**Languages.** You can speak, read, and write Common. You can also speak Rodentia, a quiet and squeaky language that has no established written form. Mouselings value the oral tradition highly and only take notes in Common, or using an improvised shorthand that approximates the sounds of Rodentia in Common script.
+
+\column
+**Subrace.** Mousefolk are commonly divided into two subraces: mouselings and ratlings. Choose one of these subraces.
+
+
+#### Mouselings
+
+**Ability Score Increase.** Your Charisma score increases by 1.
+
+**Brave.** You have advantage on saving throws you make against being frightened.
+
+**Nimble Escape.** When a creature you can see makes an opportunity attack against you, you can use your reaction to impose disadvantage on the attack roll. You can't use this trait when wearing medium or heavy armor.
+
+
+#### Ratlings
+
+**Ability Score Increase.** Your Strength score increases by 1.
+
+**Gnaw.** You can use your action to chew through and break a small nonmagical object that isn't being worn or carried, like a rope, a wooden rod or handle, or a length of fabric. If you chew on a wooden wall or floor for 1 minute, you can gnaw a hole large enough for a Tiny creature. You can't chew through materials that are harder than your teeth, such as metal, stone, or crystals.
+
+**Rat Resilience.** You have advantage on saving throws against poison, and you have resistance against poison damage.
+
+{{imageMaskEdge1,--offset:25%,--rotation:0
+  ![The Roman Theater at Taormina, 1828, by Louise-Joséphine sarazin de Belmont](https://i.imgur.com/UEqBsCQ.jpeg){width:100%,bottom:-55%}
+}}
+
+
+
+
+
+{{pageNumber,auto}}
+\page
+
+### Nautilid
+*Source: Dark Matter* 
+
+Though the nautilids are among the oldest races in the ‘Verse, they are fast dying out. Long after the nautilids discovered Dark Matter technology and started traversing the universe, disaster struck their homeworld, Poseidon, a vast planet of endless ocean. Their star began to swell, first heating the atmosphere, then boiling the oceans away. Within a few short decades, a supernova claimed the planet, leaving only scattered colonies and immense nautilid colony ships.
+
+
+
+Your great, amphibious body and your constantly-worn aqua suit give you the following racial traits:
+
+**Ability Score Increase.** Your Strength score increases by 2, and your Intelligence score increases by 1.
+
+**Age.** Nautilids reach maturity by 20 years of age, and
+individuals have been recorded to live as long as 150
+years.
+
+**Size.** Lumbering and stout, nautilids stand between 6 and 8 feet tall, seeming even larger in their cumbersome aqua suits. Your size is Medium.
+
+**Speed.** Your base walking speed is 30 feet, and you have a swimming speed of 30 feet.
+
+**Amphibious.** You can breathe water as well as air, though breathing air is uncomfortable for you without assistance.
+
+**Powerful Build.** You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.
+
+**Deductive.** You have proficiency in the Investigation skill.
+
+
+**Aqua Suit.** Except when you are aboard a whorl ship, you wear a bulky aqua suit, which is filled with Poseidon Solution, in order to breathe comfortably. 
+
+The suit covers your whole body, including a large domed helmet with
+circular windows that allow you to see without hindrance.
+
+Without the suit, you can breathe air or water, but doing so delivers air inefficiently to your lungs, and you feel much the same as a human does in very thin air. You can don or doff the helmet on your turn as part of your action, and you can don or doff the entire suit in 1 minute.
+
+If damaged directly but not completely destroyed, the suit rapidly mends itself, leaking only a very small amount of water.
+
+While wearing the suit, your AC equals 13 + your Dexterity modifier. Other armor can be fitted to attach around the aqua suit at no cost. While no other armor is fitted to it, you count as being unarmored for the purposes of features such as Unarmored Defense. 
+
+Additionally, while wearing the suit, you have resistance to fire damage. The suit counts as a life suit and is also equipped with an embedded universal translator magic item, which you can use at will.
+
+**Languages.** You can speak, read, and write Common and Aquan.
+
+{{imageMaskEdge1,--offset:5%,--rotation:270
+  ![The Roman Theater at Taormina, 1828, by Louise-Joséphine sarazin de Belmont](https://i.imgur.com/ZBnCIb9.jpeg){height:100%,left:-60px}
+}}
+
+
+
+{{pageNumber,auto}}
+\page
+### Orc
+*Source: Volo's Guide to Monsters*
+
+Orcs trace their creation to Gruumsh, a powerful god who roamed the wide open spaces of the Material Plane. Gruumsh equipped his children with gifts to help them wander great plains, vast caverns, and churning seas and to face the monsters that lurk there. Even when they turn their devotion to other gods, orcs retain Gruumsh’s gifts: endurance, determination, and the ability to see in darkness.
+
+Orcs are, on average, tall and broad. They have gray skin, ears that are sharply pointed, and prominent lower canines that resemble small tusks. Orc youths on some worlds are told about their ancestors’ great travels and travails. Inspired by those tales, many of those orcs wonder when Gruumsh will call on them to match the heroic deeds of old and if they will prove worthy of his favor. Other orcs are happy to leave old tales in the past and find their own way.
+
+As an orc, you gain the following traits.
+
+\column
+
+**Ability Score Increase.** Your Strength score increases by 2, your Constitution score increases by 1, and your Intelligence score is reduced by 2.
+
+**Age.** Orcs reach adulthood at age 12 and live up to 50 years.
+
+**Size.** Orcs are usually over 6 feet tall and weigh between 230 and 280 pounds. Your size is Medium.
+
+**Speed.** Your base walking speed is 30 feet.
+  
+**Darkvision.** You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+
+**Aggressive.** As a bonus action, you can move up to your speed toward an enemy of your choice that you can see or hear. You must end this move closer to the enemy than you started.
+
+**Menacing.** You are trained in the Intimidation skill.
+
+**Powerful Build.** You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.
+
+**Languages.** You can speak, read, and write Common and Orc.
+
+{{imageMaskEdge1,--offset:0%,--rotation:0
+  ![The Roman Theater at Taormina, 1828, by Louise-Joséphine sarazin de Belmont](https://i.imgur.com/KRwMwUR.jpeg){width:100%,bottom:-25%}
+}}
+
+
+
+
+{{pageNumber,auto}}
+\page
+
+
+### Owlin 
+*Source: Strixhaven: A Curriculum of Chaos*
+
+Distant kin of giant owls from the Feywild, owlin come in many shapes and sizes, from petite and fluffy to wide-winged and majestic. Owlin have arms and legs like other Humanoids, as well as wings that extend from their back and shoulders.
+Like owls, owlin are graced with feathers that make no sound when they move or fly, making it easy for them to sneak up on you in the library.
+
+Your owlin character might be nocturnal. Or perhaps your character is simply prone to rise later, embodying the common nickname of night owl.
+
+As a owlin, you gain the following traits
+
+**Ability Score Increase.** Your Dexterity score increases by 2, and your Wisdom score increases by 1.
+
+**Languages.** You can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character.
+
+**Creature Type.** You are a Humanoid.
+
+**Size.** You are Medium or Small. You choose the size when you select this race.
+
+**Speed.** Your walking speed is 30 feet.
+
+**Darkvision.** You can see in dim light within 120 feet of yourself as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.
+
+**Flight.** Thanks to your wings, you have a flying speed equal to your walking 
+
+**speed.** You can't use this flying speed if you're wearing medium or heavy armor.
+
+**Silent Feathers.** You have proficiency in the Stealth skill.
+{{imageMaskEdge8,--offset:10%,--rotation:270
+  ![The Roman Theater at Taormina, 1828, by Louise-Joséphine sarazin de Belmont](https://i.imgur.com/NGhvCd3.jpeg){height:100%,left:350px}
+}}
+
+{{pageNumber,auto}}
+\page
+### Reborn
+*Source: Van Richten's Guide to Ravenloft*
+
+Reborn suffer from some manner of discontinuity, an interruption of their lives or physical state that their minds are ill equipped to deal with. Their memories of events before this interruption are often vague or absent. Occasionally, the most unexpected experiences might cause sensations or visions of the past to come rushing back.
+
+Rather than sleeping, reborn regularly sit and dwell on the past, hoping for some revelation of what came before. Most of the time, these are dark, silent stretches. Occasionally, though, in a moment of peace, stress, or excitement, a reborn gains a glimpse of what came before. When you desire to have such a dreamlike vision, roll on the Lost Memories table to inspire its details.
+
+##### Lost Memories
+d6|	Memory
+:-:|:-:
+1|	You recall a physically painful moment. What mark or scar on your body does it relate to?
+2|	A memory brings tears to your eyes. Is it a bitter or cheerful memory? Does recalling it make you feel the same way?
+3|	You recall a childhood memory. What about that event or who you were still influences you?
+4|	A memory brings with it the voice of someone once close to you. How do they advise you?
+5|	You recall enjoying something that you can’t stand doing now. What is it? Why don’t you like it now?
+6|	A memory carries a vivid smell or sensation. What are you going to do to recreate that experience?
+
+
+As a reborn, you gain the following traits
+
+**Ability Score Increase.** If you are replacing your race with this lineage, replace any Ability Score Increase you previously had with this.
+
+**Languages.** You can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character. If you are replacing your race with this lineage, you retain any languages you had and gain no new languages.
+
+**Creature Type.** You are a Humanoid.
+
+**Size.** You are Medium or Small. You choose the size when you gain this lineage.
+Speed. Your walking speed is 30 feet.
+
+**Ancestral Legacy.** If you replace a race with this lineage, you can keep the following elements of that race: any skill proficiencies you gained from it and any climbing, flying, or swimming speed you gained from it.
+
+If you don't keep any of those elements or you choose this lineage at character creation, you gain proficiency in two skills of your choice.
+
+\column
+
+**Deathless Nature.** You have escaped death, a fact represented by the following benefits:
+You have advantage on saving throws against disease and being poisoned, and you have resistance to poison damage.
+
+- You have advantage on death saving throws.
+- You don’t need to eat, drink, or breathe.
+- You don’t need to sleep, and magic can’t put you to sleep. You can finish a long rest in 4 hours if you spend those hours in an inactive, motionless state, during which you retain consciousness.
+
+**Knowledge from a Past Life.** You temporarily remember glimpses of the past, perhaps faded memories from ages ago or a previous life. When you make an ability check that uses a skill, you can roll a d6 immediately after seeing the number on the d20 and add the number on the d6 to the check. You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.
+
+
+
+{{imageMaskCorner10,--offsetX:50%,--offsetY:-15%,--rotation:0
+  ![The Roman Theater at Taormina, 1828, by Louise-Joséphine sarazin de Belmont](https://i.imgur.com/Zx1uZFm.jpeg){height:80%,left:350px,bottom:-120px}
+}}
+
+
+
+
+{{pageNumber,auto}}
+\page
+### Satyr
+*Source: Mythic Odysseys of Theros*
+
+Satyrs have many goat-like aspects, including thick fur on their arms and legs, curling horns on their heads and hooves instead of feet. This makes them easy to identify, for they generally make no attempt to hide these features. A variety of different shades of fur are found among satyrs, with whites and browns being most common. The grooming habits of satyrs are unpredictable, as fey fashions can change rapidly, but the vast majority put at least some effort into looking good at all times.
+
+All Satyrs are male; female goat-legged fey are ‘glaistigs’, a completely different type of creature.
+
+
+
+As a satyr, you gain the following traits
+
+**Ability Score Increase.** Your Charisma score increases by 2, and your Dexterity score increases by 1.
+
+**Age.** Satyrs mature and age at about the same rate as humans.
+
+**Alignment.** Satyrs delight in living a life free of the mantle of law. They gravitate toward being good, but some have devious streaks and enjoy causing dismay.
+
+**Size.** Satyrs range from just under 5 feet to about 6 feet in height, with generally slender builds. Your size is medium.
+
+**Speed.** Your base walking speed is 35 feet.
+
+**Fey.** Your creature type is fey, rather than humanoid.
+
+**Ram.** You can use your head and horns to make unarmed strikes. If you hit with them, you deal bludgeoning damage equal to 1d4 + your Strength modifier.
+
+**Mirthful Leaps:** Whenever you make a long or high jump, you can roll a d8 and add the number to the number of feet you cover, even when making a standing jump. This extra distance costs movement as normal.
+
+**Reveler.** You have proficiency in the Performance and Persuasion skills, and you have proficiency with one musical instrument of your choice.
+
+**Languages.** You can speak, read, and write Common and Sylvan.
+
+
+{{imageMaskEdge8,--offset:10%,--rotation:270
+  ![The Roman Theater at Taormina, 1828, by Louise-Joséphine sarazin de Belmont](https://i.imgur.com/BqFTWlu.jpeg){height:100%,left:280px}
+}}
+
+
+
+{{pageNumber,auto}}
+\page
+
+\column
+
+### Skathári
+*Source: Dark Matter* 
+
+Standing upright between 6 and 7 feet tall, the hulking skathári only vaguely resemble humanoids. They have six limbs—four legs and two arms—each of them thin, lined with spines, and ending in a quartet of small hooked claws, suitable for deterring predators or climbing sheer cliff faces. Their chitinous shells range in color from jet black, to speckled yellow, to a scintillating emerald green. Folded beneath the shells on their backs, they conceal a pair of broad, membranous wings, used to glide short distances. Some skathári have stronger wings that allow them short bursts of flight, but most are too heavy to remain airborne for long. A skathári’s face appears small, framed by its hunched shell. Compound eyes, a mouth lined with mandibles, and a pair of feathery antennae complete their alien appearance.
+
+
+
+Skathári have the following racial traits:
+
+**Ability Score Increases.** Your Strength score increases by 2, and your Constitution score increases by 1.
+
+**Age.** Skathári reach maturity around 15 years of age and live for up to 150 years.
+
+**Size.** Most adult skathári stand between 6 and 7 feet tall and weigh upwards of 200 pounds. Your size is Medium.
+
+**Speed.** Your base walking speed is 30 feet.
+
+**Adaptive Metabolism.** Your body can quickly adapt to a range of extreme environments. You take no damage from the extreme temperatures and you can hold your breath for a number of minutes equal to 10 times your Constitution modifier (minimum of 10 minutes).
+
+Additionally, you have advantage on ability checks and saving throws against inhaled poisons and gases.
+
+**Gliding Wings.** You have a pair of membranous wings that you can use to glide clumsily through the air. While falling, you can move up to 10 feet horizontally for every 5 feet you fall, up to your movement speed. 
+
+**Powerful Build.** You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.
+
+
+
+**Hooked Claws.** Your digits end in short, hooked claws, which grant you a climbing speed of 20 feet. Additionally, you can choose for your unarmed strikes to deal slashing damage instead of bludgeoning damage.
+
+**Regenerative.** If any part of your body is amputated, but its amputation doesn't kill you, you can fully regrow that part of your body in 24 hours.
+
+**Languages.** You can speak, read, and write Common.
+
+
+{{imageMaskEdge1,--offset:10%,--rotation:90
+  ![The Roman Theater at Taormina, 1828, by Louise-Joséphine sarazin de Belmont](https://i.imgur.com/tK7RLot.jpeg){height:100%,left:-200px}
+}}
+
+
+
+
+
+
+{{pageNumber,auto}}
+\page
+### Shifter
+
+*Source: Monsters of the Multiverse*
+
+Shifters are sometimes called weretouched, as they are descendants of people who contracted full or partial lycanthropy. Humanoids with a bestial aspect, shifters can’t fully change shape, but they can temporarily enhance their animalistic features by entering a state they call shifting.
+
+Shifters are similar to humans in height and build but are typically more lithe and flexible. Their facial features have a bestial cast, often with large eyes and pointed ears; most shifters also have prominent canine teeth. They grow fur-like hair on nearly every part of their bodies. While a shifter’s appearance might remind an onlooker of an animal, they remain clearly identifiable as shifters even when at their most feral.
+
+Most shifters resemble a particular kind of lycanthrope. You can choose the kind of lycanthrope in your past, or you can determine it randomly by rolling on the Lycanthrope Ancestor table. The table also provides a suggestion for the Shifting option you might have as a result of your ancestry.
+
+As a shifter, you have the following racial traits.
+
+**Ability Score Increase.** Your Wisdom score increases by 2.
+
+**Size.** You are Medium.
+
+**Age.** Shifters are quick to mature both physically and emotionally, reaching young adulthood at age 10. They rarely live to be more than 70 years old.
+
+**Speed.** Your walking speed is 30 feet.
+
+**Bestial Instincts.** Channeling the beast within, you have proficiency in one of the following skills of your choice: Acrobatics, Athletics, Intimidation, or Survival.
+
+**Darkvision.** You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.
+
+\column
+
+**Shifting.** As a bonus action, you can assume a more bestial appearance. This transformation lasts for 1 minute, until you die, or until you revert to your normal appearance as a bonus action. When you shift, you gain temporary hit points equal to 2 x your proficiency bonus. You can shift a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.
+
+Whenever you shift, you gain an additional benefit based on one of the following options (choose when you select this race):
+
+- **Beasthide.** You gain ld6 additional temporary hit points. While shifted, you have a + 1 bonus to your Armor Class.
+
+- **Longtooth.** When you shift and as a bonus action on your other turns while shifted, you can use your elongated fangs to make an unarmed strike. If you hit with your fangs, you can deal piercing damage equal to ld6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.
+
+- **Swiftstride.** While shifted, your walking speed increases by 10 feet. Additionally, you can move up to 10 feet as a reaction when a creature ends its turn within 5 feet of you. This reactive movement doesn't provoke opportunity attacks.
+
+- **Wildhunt.** While shifted, you have advantage on Wisdom checks, and creatures within 30 feet of you can make an attack roll with advantage against you unless you're incapacitated.
+{{imageMaskEdge1,--offset:20%,--rotation:0
+  ![The Roman Theater at Taormina, 1828, by Louise-Joséphine sarazin de Belmont](https://i.imgur.com/u290KFj.jpeg){width:100%,bottom:-5%}
+}}
+
+
+
+{{pageNumber,auto}}
+\page
+
+### Spirithost
+*Source: Valda's Spire of Secrets*
+
+Though their bodies resemble those of ghosts— slightly translucent, glowing from inside with a pale,
+white light—spirithosts are not undead. Far from it:
+they are born, grow old, and die, and can even raise
+children.
+
+Despite this, most spirithosts are wrongfully
+believed to be undead, their eerie, spectral forms
+too similar to ghosts for the layman to differentiate.
+Many a well-meaning but ignorant cleric has tried
+to turn or banish a spirithost, to no avail. To avoid
+such conflict, spirithosts often avoid large, unfamiliar
+towns, or disguise their ethereality from others.
+
+
+Your borderline ethereal body grants you the following traits:
+
+**Ability Score Increase.** Your Dexterity score increases by 1, and any other ability score of your choice increases by 2.
+
+**Age.** Spirithost do not experience time in the same way as most mortal creatures. As a result, even though they mature in their teens, their lives can stretch on for hundreds of years.
+
+**Alignment.** Though some spirithosts are evil, most are simply chaotic, harboring a deep distrust for institutions that so readily brand them as undead.
+
+**Size.** Spirithost stand as tall as humans, usually around 5 to 6 feet tall. However, their slightly ethereal form is only loosely affiliated with gravity, weighing half as much as a similarly-sized human. Your size is Medium.
+
+**Speed.** Spirithosts move gracefully, as if drifting through water. Your base walking speed is 30 feet.
+
+**Ethereal Vision.** Your supernatural nature grants you superior vision. While you are on the Material Plane, you can see 60 feet into the Ethereal Plane.
+
+**Incorporeal Movement.** You can move through other creatures as if they were difficult terrain. You can also move through solid objects, but your partially-material form cannot pass through more than one foot of stone, one inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.
+
+If you end your movement occupying the same spot as a solid object or creature, you are immediately shunted to the nearest unoccupied space that you can occupy and take force damage equal to twice the number of feet you are moved.
+
+**Ethereal Nature.** You can go twice as long without eating, drinking, or breathing, without penalty.
+
+**Spirit Speech.** You can cast the spell speak with dead, without using spell slots or material components. You can only ask one question of a corpse when you cast this spell in this way. Once you use this trait, you can't use it again until you finish a long rest.
+
+\column
+
+
+**Translucence.** As a bonus action, you can magically turn invisible until the start of your next turn or until you attack, make a damage roll, or force someone to make a saving throw. Creatures which can see into the Ethereal Plane can see you normally. Once you use this trait, you can’t use it again until you finish a short or long rest.
+
+**Languages.** You can speak, read, and write Common and one other language of your choice.
+
+{{imageMaskCorner15,--offsetX:50%,--offsetY:-5%,--rotation:0
+  ![The Roman Theater at Taormina, 1828, by Louise-Joséphine sarazin de Belmont](https://i.imgur.com/pD8TLmV.jpeg){height:90%,left:150px}
+}}
+
+
+
+
+
+
+{{pageNumber,auto}}
+\page
+### Tabaxi
+*Source: Volo's Guide to Monsters*
+
+Created by the Cat Lord—a divine being of the Upper Planes—to blend the qualities of humanoids and cats, tabaxi are a varied people in both attitude and appearance. In some lands, tabaxi live like the cats they resemble, naturally curious and at home in playful environments. In other places, tabaxi live as other folk do, not exhibiting the feline behavior the Cat Lord intended.
+
+Tabaxi’s appearance is as varied as their attitudes. Some tabaxi have features or patterning in their fur like tigers, jaguars, or other big cats, while others have appearances more like a house cat. Still others have unique patterns or might style their fur to their preferences — or might even be hairless!
+
+As a tabaxi, you gain the following traits.
+
+**Ability Score Increase.** Your Dexterity score increases by 2, and your Charisma score increases by 1.
+
+**Age.** Tabaxi have lifespans equivalent to humans.
+
+**Size.** Tabaxi are taller on average than humans and relatively slender. Your size is Medium.
+
+**Speed.** Your base walking speed is 30 feet.
+
+**Darkvision.** You have a cat's keen senses, especially in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+
+**Feline Agility.** Your reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can't use it again until you move O feet on one of your turns.
+
+**Cat's Claws.** Because of your claws, you have a climbing speed of 20 feet. In addition, your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to ld4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.
+
+**Cat's Talent.** You have proficiency in the Perception and Stealth skills.
+
+**Languages.** You can speak, read, and write Common and one other language of your choice.
+
+{{imageMaskEdge8,--offset:6%,--rotation:270
+  ![The Roman Theater at Taormina, 1828, by Louise-Joséphine sarazin de Belmont](https://i.imgur.com/GfCEhKX.jpeg){height:105%,left:200px,bottom:-25px}
+}}
+
+
+
+{{pageNumber,auto}}
+\page
+
+\column
+
+### Tortle
+*Source: The Tortle Package* 
+
+Tortles have a saying: “We wear our homes on our backs.” These turtle folk live on many worlds, most often journeying up and down coasts, along waterways, and across the sea. Tortles don’t have a unified story of how they were created, but they all have a sense of being mystically connected to the natural world. Carrying their shelter on their backs gives tortles a special feeling of security wherever they go, for even if they visit a far, unknown country, they have a place to lay their heads.
+
+Tortles exhibit the same range of coloration and patterns found among turtles, and many tortles enjoy adorning their shells in distinctive ways.
+
+Your tortle character has the following racial traits
+
+**Ability Score Increase.** Your Strength score increases by 2, and your Wisdom score increases by 1.
+
+**Age.** Young tortles crawl for a few weeks after birth before learning to walk on two legs. They reach adulthood by the age of 15 and live an average of 50 years.
+
+**Size.** Tortle adults stand 5 to 6 feet tall and average 450 pounds. THeir shells account for roughly one-third of their weight. Your size is Medium.
+
+**Speed.** Your base walking speed is 30 feet.
+
+**Claws.** Your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.
+
+**Hold Breath.** You can hold your breath for up to 1 hour at a time. Tortles aren't natural swimmers, but they can remain underwater for some time before needing to come up for air.
+
+
+
+**Natural Armor.** Due to your shell and the shape of your body, you are ill-suited to wearing armor. Your shell provides ample protection, however; it gives you a base AC of 17 (your Dexterity modifier doesn't affect this number). You gain no benefit from wearing armor, but if you are using a shield, you can apply the shield's bonus as normal.
+
+**Shell Defense.** You can withdraw into your shell as an action. Until you emerge, you gain a +4 bonus to AC, and you have advantage on Strength and Constitution saving throws. While in your shell, you are prone, your speed is 0 and can't increase, you have disadvantage on Dexterity saving throws, you can't take reactions, and the only action you can take is a bonus action to emerge from your shell.
+
+**Survival Instinct.** You gain proficiency in the Survival skill. Tortles have finely honed survival instincts.
+
+**Languages.** You can speak, read, and write Common and Aquan.
+
+{{imageMaskEdge1,--offset:4%,--rotation:90
+  ![The Roman Theater at Taormina, 1828, by Louise-Joséphine sarazin de Belmont](https://i.imgur.com/oz7iFxB.jpeg){height:100%,left:-200px}
+}}
+
+
+
+
+
+{{pageNumber,auto}}
+\page
+### Triton
+*Source: Volo's Guide to Monsters* 
+
+Originally from the Elemental Plane of Water, many tritons entered the Material Plane centuries ago in response to the growing threat of evil elementals. Those tritons spread across the worlds’ oceans, protecting the surface from terrors in the deep. Over time, triton have extended their stewardship over the sea floor to the ocean’s surface.
+
+Tritons have webbed hands and feet, small fins on their calves, and coloration that favors blues and greens.
+
+As a triton you gain the following traits.
+
+**Ability Score Increase.** Your Strength, Constitution, and Charisma scores each increase by 1.
+
+**Age.** Tritons reach maturity around age 15 and can live up to 200 years.
+
+**Size.** Tritons are slightly shorter than humans, averaging about 5 feet tall. Your size is Medium.
+
+**Speed.** Your base walking speed is 30 feet, and you have a swimming speed of 30 feet.
+
+**Amphibious.** You can breathe air and water.
+
+**Control Air and Water.** A child of the sea, you can call on the magic of elemental air and water. You can cast *fog cloud* with this trait. Starting at 3rd level, you can cast *gust of wind* with it, and starting at 5th level, you can also cast *wall of water* with it. Once you cast a spell with this trait, you can't do so again until you finish a long rest. Charisma is your spellcasting ability for these spells.
+
+**Emissary of the Sea.** Aquatic beasts have an extraordinary affinity with your people. You can communicate simple ideas with beasts that can breathe water. They can understand the meaning of your words, though you have no special ability to understand them in return.
+
+**Guardians of the Depths.** Adapted to even the most extreme ocean depths, you have resistance to cold damage, and you ignore any of the drawbacks caused by a deep, underwater environment.
+
+**Languages.** You can speak, read, and write Common and Primordial.
+
+
+{{imageMaskEdge8,--offset:10%,--rotation:270
+  ![The Roman Theater at Taormina, 1828, by Louise-Joséphine sarazin de Belmont](https://i.imgur.com/IIS60r6.jpeg){height:100%}
+}}
+
+
+
+{{pageNumber,auto}}
+\page
+
+
+### Treant
+*Source: Homebrew* 
+
+A tree destined to become a treant meditates through a long cycle of seasons, living normally for decades or centuries before realizing its potential. Trees that awaken do so only under special circumstances and in places steeped with nature’s magic. Treants and powerful druids can sense when a tree has the spark of potential, and they protect such trees in secret groves as they draw near the moment of their awakening. During the long process of awakening, a tree acquires face-like features in its bark, a division of the lower trunk into legs, and long branches bending downward to serve as its arms. When it is ready, the tree pulls its legs free from the clutching earth and joins its fellows in protecting its woodland home.
+
+**Ability Score Increase.** Your Constitution score increases by 2, and your Strength score increases by 1.
+
+**Age.** Treants can live anywhere from less than 100 years to more than a few thousand years depending on the species.
+
+
+**Size.** Younger treants tend to be a medium size of 7 to 8 feet tall, but treants can to grow in larger sizes. Your size is Medium.
+Speed. Your base walking speed is 30 feet.
+
+**Plant.** Your creature type is both Humanoid and Plant. Like most plants, you have a weakness to fire. You have disadvantage on saving throws against spells and effects that deal fire damage.
+
+Your body is capable of producing its own food using the energy from the sun. As long as you are exposed to sunlight for at least 6 hours per day, you don't need to eat. You can still choose to eat food normally, though most Treants prefer to gain nourishment through light.
+
+Additionally, if you are missing any limbs, new ones will take their place. This process usually takes about a year, but the exact time is up to your DM.
+
+**Powerful Build.** You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.
+
+**Nature’s Armor.** Due to your barked skin and the shape of your body, you are ill-suited to wearing armor. Your bark provides ample protection, however; it gives you a base AC of 13 + your Constitution modifier. You gain no benefit from wearing armor, but if you are using a shield, you can apply the shield's bonus as normal.
+
+\column
+
+
+
+**Take Root.** If you are standing on dirt, grass, or other similar terrain, you can root yourself to the ground as an action. Until you use a bonus action to remove your roots from the earth, you gain a +4 bonus to AC, and you have advantage on Strength and Constitution saving throws. 
+
+While rooted, your speed is 0 and can’t increase, you have disadvantage on Dexterity saving throws, you can’t take reactions, and the only action you can take is a bonus action to un-root yourself. While you are rooted, you are indistinguishable from a normal tree.
+
+You don't need to sleep, and magic can't put you to sleep. When you take a long rest, you must root yourself into the ground, and stay that way for at least six hours.
+
+**Languages.** You can speak, read, and write Common and Sylvan.
+
+
+{{imageMaskCorner10,--offsetX:50%,--offsetY:-25%,--rotation:0
+  ![The Roman Theater at Taormina, 1828, by Louise-Joséphine sarazin de Belmont](https://i.imgur.com/aI0kUE1.jpeg){height:65%,bottom:-50px}
+}}
+
+
+
+
+
+{{pageNumber,auto}}
+\page
+### Vect
+*Source: Dark Matter* 
+
+Although vect experience fear, anger, pain, loss, and other emotions as other species do, their expression is muted. Their mechanical features leave little room for nuance, driving an emotional wedge between vect and other living things. Some vect embrace this mechanical nature and seek refuge in logical reasoning, whereas others plumb the philosophies of existence and consider what it means to be alive. These are the two extremes of vect personalities, but most exist between the two.
+
+Vect are most comfortable existing within a small group of some kind, as long as it is dedicated to a purpose. Temples, adventuring parties, and voyages of exploration make for attractive prospects.
+
+Your mechanical body is driven by an inexhaustible construct core, and has the following traits:
+
+**Ability Score Increase.** Your Constitution score
+increases by 2.
+
+**Reconfigurable Ability Score Increase.** One ability score of your choice increases by 1, and you can change this selection whenever you finish a long rest. You can't increase Constitution using this trait and you can't increase any ability score above 20.
+
+**Age.** With the proper replacement parts and activities to occupy yourself, you can conceivably exist indefinitely.
+
+Vect are known to degrade and lose their sanity, however, if they live too long without an explicit purpose. It isn't known if this insanity visits all vect at old ages, or just those whose resolve wavers.
+
+**Size.** As constructs built by massive forges, the vect could conceivably be perfectly uniform, like the golems that preceded them. However, the Foundries are either inherently flawed, or otherwise have a fondness for making diverse vect units, for each created vect is in some way unique. Vect units stand between 5 and 7 feet tall and average about 150 to 300 pounds. Your size is Medium.
+
+**Speed.** Your base walking speed is 30 feet.
+
+\column
+
+**Thermalsight.** You gain thermalsight, which means you can see living creatures through darkness and heavily obscured conditions, such as fog, out to a range of 30 feet. You can also determine if a creature is living or dead though its body heat. However, you can't discern color, nor use this sense to see through illusions, invisibility, or magical darkness. This sense is blocked by one-inch of any solid barrier.
+
+
+**Construct Anatomy.** Even though you were constructed, you are a living creature. You are immune to nonmagical diseases. You don't need to eat, drink, or breathe, but you can ingest food and drink if you wish.
+
+You have advantage on saving throws you make against exhaustion.
+
+Instead of sleeping, you enter an inactive state for 4 hours each day. You don't dream in this state; you are fully aware of your surroundings and notice approaching enemies and other events as normal. You can still be placed into a torpor by sleep-inducing magic.
+
+**Inflexible Mind.** Your mechanical mind is inherently logical and not easily swayed. You have advantage on saving throws against being charmed.
+
+**Embedded Armor.** You can install special armor plating directly onto your body. This embedded armor counts as a construct graft installed in the External slot.
+At 1st level, you choose one of the following types of embedded armor, though you can install other types if you acquire them in the world.
+
+***Velocity Plating.*** Your movement speed increases by 5 feet and your long jump distance increases by 5 feet.
+
+***Composite Plating.*** Your Armor Class equals 13 + your Dexterity modifier.
+
+***Juggernaut Plating.*** Your Armor Class equals 16. You can't wear conventional armor while you have this graft installed. You can only install this graft if you are proficient with heavy armor.
+
+**Languages.** You can speak, read, and write Common.
+
+
+{{imageMaskEdge5,--offset:25%,--rotation:0
+  ![The Roman Theater at Taormina, 1828, by Louise-Joséphine sarazin de Belmont](https://i.imgur.com/rXT4y6w.jpeg){width:100%,bottom:-70%}
+}}
+
+
+
+
+{{pageNumber,auto}}
+\page
+### Warforged
+*Source: Wayfinder's Guide to Eberron* 
+
+The warforged were built to fight in the Last War. The first warforged were mindless automatons, but House Cannith devoted vast resources to improving these steel soldiers. An unexpected breakthrough produced fully sentient soldiers, blending organic and inorganic materials. Warforged are made from wood and metal, but they can feel pain and emotion. Built as weapons, they must now find a purpose beyond the war. A warforged can be a steadfast ally, a cold-hearted killing machine, or a visionary in search of purpose and meaning.
+
+
+
+As a warforged, you gain the following traits
+
+**Ability Score Increase.** Your Constitution score increases by 1.
+
+**Age.** A typical warforged is between two and thirty years old. The maximum lifespan of the warforged remains a mystery; so far, warforged have shown no signs of deterioration due to age.
+
+**Size.** Your size is Medium. Most warforged stand between 5 and 6 1/2 feet tall. Weight and build are affected by subrace.
+
+**Speed.** Your base walking speed is 30 feet.
+
+**Warforged Resilience.** You were created to have remarkable fortitude, represented by the following benefits.
+
+- You have advantage on saving throws against being poisoned, and you have resistance to poison damage.
+- You are immune to disease.
+- You don’t need to eat, drink, or breathe.
+- You don't need to sleep and don't suffer the effects of exhaustion due to lack of rest, and magic can’t put you to sleep.
+
+**Sentry's Rest.** When you take a long rest, you must spend at least six hours in an inactive, motionless state, rather than sleeping. In this state, you appear inert, but it doesn’t render you unconscious, and you can see and hear as normal.
+
+\column
+
+**Integrated Protection.** Your body has built-in defensive layers, which determine your armor class. You gain no benefit from wearing armor, but if you are using a shield, you apply its bonus as normal.
+
+You can alter your body to enter different defensive modes; each time you finish a long rest, choose one mode to adopt from the Integrated Protection table, provided you meet the mode’s prerequisite.
+
+
+| Mode | Prerequisite | Effect |
+|:----:|:------------:|:------------
+|Darkwood Core (unarmored)   | None  |AC = 11 + your Dexterity modifier (add proficiency bonus if proficient with light armor).
+|Composite Plating (armored)   | Medium armor proficiency  |AC = 13 + your Dexterity modifier (maximum of 2) + your proficiency bonus.
+|Heavy Plating (armored)   | Heavy armor proficiency |C = 16 + your proficiency bonus; disadvantage on Dexterity (Stealth) checks.
+
+**Languages.** You can speak, read, and write Common.
+
+
+
+#### Envoy
+
+**Ability Score Increase.** Two different ability scores of your choice increase by 1.
+
+**Specialized Design.** You gain one skill proficiency of your choice, one tool proficiency of your choice, and fluency in one language of your choice.
+
+**Integrated Tool.** Choose one tool you’re proficient with. This tool is integrated into your body, and you double your proficiency bonus for any ability checks you make with it. You must have your hands free to use this integrated tool.
+
+#### Juggernaut
+
+**Ability Score Increase.** Your Strength score increases by 2.
+
+**Iron Fists.** When you make an unarmed strike, you can deal 1d4 + your Strength modifier bludgeoning damage instead of the normal damage.
+
+**Powerful Build.** You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.
+
+#### Skirmisher
+
+**Ability Score Increase.** Your Dexterity score increases by 2.
+
+**Swift.** Your walking speed is increased by 5 feet.
+
+**Light Step.** When you are traveling alone for an extended period of time (one hour or more), you can move stealthily at a normal pace.
+
+{{imageMaskCorner3,--offsetX:-34%,--offsetY:-45%,--rotation:0
+  ![The Roman Theater at Taormina, 1828, by Louise-Joséphine sarazin de Belmont](https://i.imgur.com/MomMLS8.jpeg){height:35%,left:-130px}
+}}
+
+
+
+
+
+{{pageNumber,auto}}
+\page
+### Wrothian 
+*Source: Dark Matter* 
+
+As a wrothian, there is no bastion you can call home, and
+you have no natural allies in the ‘verse. Depending on the
+circumstances of your exile, it is even possible you will be
+hunted by your former brethren.
+You might find company with groups of mercenaries
+and among adventuring parties which value your
+particular skills. Spacers tend to be wary around wrothians
+and wrothian technology, but, especially on the Galactic
+Frontier where hazards are abundant, a wrothian might be
+able to earn a crew’s trust, provided they can prove their
+worth as an ally.
+Most rogue wrothians, however, use disguises; usually
+of magical caliber. Even a simple disguise self spell can
+reliably masquerade a wrothian as another exotic species,
+such as a nautilid or skathári, for a time.
+
+At long last, however, your life's
+objective is your own, your destiny free to decide.
+
+As a wrothian, you gain the following traits.
+
+**Ability Score Increase.** Your Dexterity score increases by 2, and your Charisma increases by 1.
+
+**Age.** All wrothians are synthetically engineered in a creation matrix: they are ageless and don't require food or drink, as long as they are nourished by a field of energy, such as those which encompass their ships. In exile, you will find no such nourishment, and will likely perish within 1 year.
+
+**Size.** All takers stand the same height—just over 6 feet tall—and are identical in every other dimension as well, though you might have some important defect that distinguishes you. Your size is Medium.
+
+**Speed.** Your base walking speed is 30 feet.
+
+**Darkvision.** You can see in dim light within 60 feet of you
+as if it were bright light, and in darkness as if it were dim
+light. You can’t discern color in darkness, only shades of gray.
+
+**Razor Teeth.** Your sharp claws and teeth are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing or piercing damage (your choice) equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.
+
+**Telepathy.** You can speak telepathically to any creature within 30 feet of you. The creature understands you only if the two of you share a language. You can speak telepathically in this way to one creature at a time.
+
+**Languages.** You can speak, read, and write Common and Abyssal.
+
+![Bird with autumn foliage by L. Prang & Co.](https://i.imgur.com/QRn1BNJ.png) {position:absolute,width:595px,bottom:-30px,mix-blend-mode:multiply,left:400px}
+
+
+{{pageNumber,auto}}
+\page
+### Yuan-Ti Pure Blood
+*Source: Volo's Guide to Monsters* 
+
+Yuan-ti were originally humans who transformed themselves into serpent folk through ancient rituals. Most yuan-ti were corrupted into monsters by those rites, but some yuan-ti instead became a new people who mix characteristics of humans and snakes.
+
+Blessed with resistance to magical and poisonous effects by the rituals that created them, each of these yuan-ti manifests their serpentine heritage in a variety of ways: a forked tongue, snake eyes, a snakelike nose, or some other ophidian characteristic. However a yuan-ti looks, they have the power to pursue great good or evil in the multiverse.
+
+As a yuan-ti, you gain the following traits.
+
+**Ability Score Increase.** Your Charisma score increases by 2, and your Intelligence score increases by 1.
+
+**Age.** Purebloods mature at the same rate as humans and have lifespans similar in length to theirs.
+
+**Size.** Purebloods match humans in average size and weight. Your size is Medium.
+
+**Speed.** Your base walking speed is 30 feet.
+
+**Darkvision.** You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+
+**Innate Spellcasting.** You know the Poison Spray cantrip. You can cast Animal Friendship an unlimited number of times with this trait, but you can target only snakes with it. Starting at 3rd level, you can also cast Suggestion with this trait. Once you cast it, you can't do so again until you finish a long rest. Charisma is your spellcasting ability for these spells.
+
+
+**Poison Immunity.** You are immune to poison damage and the poisoned condition.
+
+**Languages.** You can speak, read, and write Common, Abyssal, and Draconic.
+
+{{imageMaskEdge8,--offset:10%,--rotation:270
+  ![The Roman Theater at Taormina, 1828, by Louise-Joséphine sarazin de Belmont](https://i.imgur.com/AAAM8Fa.jpeg){height:100%,left:280px}
+}}
+
+
+
+
+{{pageNumber,auto}}
+\page
+## Transform Races
+To be Transformed is to exist as a living bridge between what was and what has become. While most mortals are defined by the blood of their ancestors, there are those whose destinies are hijacked by forces far greater than lineage. Whether through ancient rituals, planar anomalies, or the slow, inexorable creep of nature, these individuals undergo a fundamental metamorphosis that overwrites their original biology.
+
+To change is to survive, but to transform is to transcend. You are no longer what you were born to be; you are what the world has carved you into.
+:
+**Ability Score Increase.** Your original racial Ability Score Increase traits are replaced by the following Transformation Ability Score Increase Traits.
+
+**Metamorphic Appearance.** Your physical form undergoes a permanent and visible metamorphosis that reflects your new nature. Regardless of your original race, you now bear the unmistakable physical hallmarks of your transformation such as bark-like skin, a hollow chest, or an otherworldly aura. These changes are fundamental to your new biology and cannot be concealed by mundane means.
+
+
+
+### Treant Transformation
+
+The transformation begins with a grounding pull, as your skin coarsens into deeply furrowed bark and your veins run thick with amber sap. Your heart beats with the slow, deliberate rhythm of the forest. While your form now possesses the indomitable strength of an ancient oak, your soul is forever tethered to the sun; you are no longer a mere traveler of the woods, but a part of the woods themselves.
+
+
+**Ability Score Increase.** Your Strength score increases by 2, your Constitution score increases by 1, and your Wisdom score increases by 1. However, your Dexterity score decreases by 2.
+
+**Creature Type.** Your creature type is Plant, rather than Humanoid.
+
+**Natural Armor.** Your body is covered in thick, protective bark. Your Armor Class (AC) is 16 while you are not wearing armor. You gain no benefit from wearing armor, but if you use a shield, you can apply its bonus as normal.
+
+**Arboreal Resilience.** You have resistance to bludgeoning and piercing damage.
+
+**Flammable Form.** You have vulnerability to fire damage.
+
+**Photosynthesis.** Your vitality is tied to the light. For every 24 hours you go without exposure to direct sunlight, you gain one level of exhaustion. 
+
+You cannot gain more than 3 levels of exhaustion this way. 
+
+Spending at least 1 hour in direct sunlight removes all exhaustion levels gained through this trait.
+
+
+
+\column
+
+
+### Vampire spawn Transformation
+
+The last thing you remember was the cold pressure against your throat and the terrifying rhythm of your own heart slowing to a crawl. You didn't die; you simply ceased to be alive. Now, the world looks different—sharper, yet distant.
+
+
+
+**Ability Score Increase.** Your Strength score increases by 2, Your Dexterity score increases by 1, and your Constitution score increases by 2. However, your Intelligence score decreases by 1 , your Wisdom score decreases by 1, and your Charisma score decreases by 1.
+
+**Creature Type.** Your creature type is Undead. You are affected by spells and effects that target undead.
+
+**Forbiddance.** The vampire can't enter a residence without an invitation from one of the occupants. Harmed by Running Water. The vampire takes 5 acid damage when it ends its turn in running water. 
+
+**Regeneration.** The vampire regains hit points at the start of its turn equal to it's contitution modifier, up to half it's maximum hp if it has at least 1 hit point and isn't in sunlight or running water. If the vampire takes radiant damage or damage from holy water, this trait doesn't function at the start of the vampire's next turn.
+
+**Stake to the Heart.** The vampire is destroyed if a piercing weapon made of wood is driven into its heart while it is incapacitated in its resting place. 
+
+**Sunlight Hypersensitivity.** The vampire takes radiant damage equal to a max roll of it's biggest hit die when it starts its turn in sunlight. While in sunlight, it has 
+disadvantage on attack rolls and ability checks.
+
+**Vampiric Bite.** Once per turn you can make a bite attack instead of a weapon attack. You bite counts as a finesse natural melee weapon, it deals 1 point of piercing damage and you are proficient with it. When you bite a creature it also takes necrotic damage equal to 1d6, and you regain hp equal to the necrotic damage. This damage increases by one die at level 5, 11 and 17.
+
+**Vampiric bond.** You are unable to harm your vampire lord or affect it negatively with spells or effects in any way. Additionally, when you receive an order from your vampire lord you must make a Wisdom saving throw. On a failure, you treat the order as if it was given using the spell suggestion.
+
+{{note
+##### Vampire Transformation Progression
+The advancement from Vampire Spawn to Vampire is at the DM's discretion.
+}}
+
+
+
+{{pageNumber,auto}}
+\page
+### Vampire Transformation
+
+**Ability Score Increase.** Your Strength score increases by 2, Your Dexterity score increases by 1, and your Constitution score increases by 2. However, your Wisdom score decreases by 1.
+
+**Creature Type.** Your creature type is Undead. You are affected by spells and effects that target undead.
+
+**Resistance.** You have resistance to necrotic damage and to bludgeoning, piercing, and slashing damage from nonmagical attacks. But you are vulnerable to the damage from blessed weapons.
+
+**Darkvision.** You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.
+
+**Enthralling gaze.** You can cast charm person on creatures that are not hostile to you. You can do so up to a number of times equal to your proficiency modifier per long rest. You use your charisma to cast this spell.
+
+**Forbiddance.** The vampire can't enter a residence without an invitation from one of the occupants. Harmed by Running Water. The vampire takes 10 acid damage when it ends its turn in running water. 
+
+**Regeneration.** The vampire regains hit points at the start of its turn equal to twice it's contitution modifier, up to half it's maximum hp if it has at least 1 hit point and isn't in sunlight or running water. If the vampire takes radiant damage or damage from holy water, this trait doesn't function at the start of the vampire's next turn.
+
+**Spider Climb.** The vampire can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
+
+**Stake to the Heart.** The vampire is stunned until the end of the attacker's next turn if a piercing weapon made of wood is used to hit it and if such an attack reduces it to 0 hit points, it dies outright. 
+
+**Sunlight Hypersensitivity.** The vampire takes radiant damage equal to twice the max roll of it's biggest hit die when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks.
+
+**Vampiric Bite.**  Once per turn you can make a bite attack instead of a weapon attack. You bite counts as a finesse natural melee weapon, it deals 1 point of piercing damage and you are proficient with it. When you bite a creature it also takes necrotic damage equal to 1d6, and you regain hp equal to the necrotic damage. This damage increases by one die at level 5, 11 and 17.
+
+If you bite a willing, restrained or incapacitated creature, you can use your action on subsequent turns to deal the necrotic damage again. Your bite does not counts as a harmful effect for spell puposes and it's doesn't wake up sleeping creatures.
+
+**Vampiric bond.** You are unable to harm your vampire lord or affect it negatively with spells or effects in any way.
+
+
+\column
+
+### Vampire Lord Transformation
+
+You have transcended the lowly hunger of the fledgling. The red haze that once clouded your mind has settled into a cold, calculating clarity. You no longer simply inhabit the darkness—you command it.
+
+**Ability Score Increase.** Your Strength score increases by 2, Your Dexterity score increases by 1, your Constitution score increases by 2, and your Charisma score increases by 2. However, your Wisdom score decreases by 1.
+
+**Creature Type.** Your creature type is Undead. You are affected by spells and effects that target undead.
+
+**Darkvision.** You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.
+
+**Enthralling gaze.** You can cast charm person on creatures that are not hostile to you. You can do so up to a number of times equal to your proficiency modifier per short rest. You use your Charisma modifier to cast this spell.
+
+**Forbiddance.** The vampire can't enter a residence without an invitation from one of the occupants. Harmed by Running Water. The vampire takes 20 acid damage when it ends its turn in running water. 
+
+**Stake to the Heart.** The vampire is stunned until the end of the attacker's next turn if a piercing weapon made of wood is used to hit it and if such an attack reduces it to 0hp, it dies outright.
+
+**Sunlight Hypersensitivity.** The vampire takes radiant damage equal to half it's maximum hit points when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks
+
+**Resistance.** You have resistance to necrotic damage and to bludgeoning, piercing, and slashing damage from nonmagical attacks. But you are vulnerable to the damage from blessed weapons.
+
+**Regeneration.** The vampire regains hit points at the start of its turn equal to four times it's contitution modifier, up to half it's maximum hp if it has at least 1 hit point and isn't in sunlight or running water. If the vampire takes radiant damage or damage from holy water, this trait doesn't function at the start of the vampire's next turn.
+
+**Vampiric Bite.** Once per turn you can make a bite attack instead of a weapon attack. You bite counts as a finesse natural melee weapon, it deals 1 point of piercing damage and you are proficient with it. When you bite a creature it also takes necrotic damage equal to 2d6, and you regain hp equal to the necrotic damage. This damage increases by two die at level 5, 11 and 17.
+
+If you bite a willing, restrained or incapacitated creature, you can use your action on subsequent turns to deal the necrotic damage again. Your bite does not counts as a harmful effect for spell puposes and it's doesn't wake up sleeping creatures.
+{{pageNumber,auto}}
+\page
+
+**Resting place.** You designate a safe place for your eternal rest. It can be a coffin, vault or dark hideout. Whenever you would die, you are instead trasported there in the form of a mist. You remain there incapacitated and unconscious for 24 hours, when you regain a hit point. You can be killed while resting on your resting place. 
+
+**Ritual of transformation.** As a vampire lord you can offer the gift of immortality to others. You can make a ritual that lasts an hour and costs 500 gp in which you transform another willing living creature into a vampire spawn under your bond. 
+
+
+
+### Undead Transformation
+
+The last breath escaped your lungs long ago, yet you remain. Your skin has taken on a pallid, waxen hue, and the rhythmic thumping in your chest has been replaced by an eerie, hollow silence. You exist in the twilight between worlds too stubborn to pass on, too cold to truly live.
+
+**Ability Score Increase.** Your Constitution score increases by 3 and your Strength score increases by 3. However, your Dexterity score, Intelligence, Wisdom and Charisma score decreases by 2
+
+
+**Creature Type.** Your creature type is Undead. You are affected by spells and effects that target undead.
+
+**Brain Meal.** If you eat the brains of an intelligent creature you learn everything that happened to the creature during the last 24 hours of it's life.
+
+**Undead Nature.** You do not require air, food, drink, or sleep. To gain the benefits of a long rest, you must spend 4 hours in an inactive, motionless state.
+
+**Necrotic Resilience.** You have Immunity to Poison damage and Poisoned condition.
+
+**Darkvision.** Your eyes have adjusted to the eternal gloom of the grave. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.
+
+**Lumbering Gait.** Your movements are stiff and heavy, slowed by the weight of death. Your walking speed decreases by 10 feet.
+
+**Undead Fortitude.** Your flesh is numb to pain and remarkably difficult to put down. If damage reduces you to 0 hit points, you must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. 
+
+On a success, you drop to 1 hit point instead.
+
+\column
+
+### Werebeast Transformation
+The boundary between man and monster dissolves with a sudden, violent surge of adrenaline. Your bones groan and shift, lengthening into a predatory silhouette, while your senses sharpen to a razor's edge. This transformation is a primal reclamation, your humanity is temporarily discarded, replaced by a raw, unbridled instinct that knows only the hunt and the kill.
+
+**Dynamic transformation.** Your werebeast transformation comes and goes depending on the time of day and the danger you are in. You only gain the features of this race when you are transformed into a werebeast. your Strength score increases by 2 and your intelligence becomes 3. You cannot speak and you cannot understand any languages. But you can recognize friends from foes and you can follow the simplest of commands.
+
+**Perilous Takeover.** Once per long rest, when you are reduced to 0 hit points you immediately regain hp up to half your maximum and transform into your werebeast form for a minute.
+
+**Mundane resistance.** You gain resistance to bludgeoning, piercing, and slashing damage from non-silvered weapons
+
+**Lunar Transformation.** You transform into your werebeast form while you are under the moonlight until dawn.
+
+**Bestial Prowess.** While transformed, you gain the following benefits: 
+
+- Your body is a weapon, which you can use to make unarmed strikes. On a hit, you deal damage equal to 1d8 + your Strength modifier. The damage can be Slashing, Piercing or Bludgeoning.
+
+- Your unarmed strikes count as magical and you can make an extra attack whenever you take the attack action, on top of any other attacks you would normally make.
+
+**Keen Senses.** You have advantage on Wisdom (Perception) checks.
+
+**Bloodlust.** The beast within is hard to control. While transformed, if you haven't attacked a creature or taken damage since your last turn, you must succeed on a DC 10 Wisdom saving throw or be forced to use your action to Dash toward the nearest creature you can see and make a melee attack if possible.
+
+**Vicious Aggression.** Whenever you drop a creatures's hp to 0, you can immediatelly use your bonus action to move up to half your speed and make an unnarmed strike attack.
+
+
+{{note
+##### Curing the Werebeast Curse
+To reverse the transformation into a Werebeast, the affected creature must undergo a purification ritual, at the DM's discretion.
+}}
+
+

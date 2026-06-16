@@ -1,0 +1,2541 @@
+```metadata
+title: Alchemist
+description: ''
+tags: []
+renderer: V3
+theme: 5ePHB
+
+```
+
+```css
+.page{
+	width  : 210mm;
+	height : 296.3mm;
+}
+
+css
+
+.page .columnWrapper {
+	height: 100%
+}
+
+.page .toc.wide {
+	columns: 1;
+	height: 100%;
+}
+
+.page .toc > ul > li {
+	font-weight:100;
+	margin-bottom:-2.1px;
+
+}
+
+.page .toc ul ul {
+	margin-left: 0;
+	font-weight: 5;
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```
+
+{{frontCover}}
+
+{{logo ![](/assets/naturalCritLogoRed.svg)}}
+
+# Alchemist
+___
+
+![background image](https://i.imgur.com/8W3Qfgc.png){position:absolute,bottom:0,left:0,height:100%}
+
+\page
+
+{{toc,wide
+- ### [{{ Alchemist}}{{ 3}}](#p3)
+  -  [{{ Chemical Reactions}}{{ 3}}](#p3)
+  -  [{{ Serums and Tinctures}}{{ 3}}](#p3)
+  -  [{{ Elemental Sciences}}{{ 3}}](#p3)
+  - ### [{{ Class Features}}{{ 4}}](#p4)
+  -  [{{ Natural Philosopher}}{{ 5}}](#p5)
+  -  [{{ Bombs}}{{ 5}}](#p5)
+  -  [{{ Bomb Formulae}}{{ 5}}](#p5)
+  -  [{{ Reagent}}{{ 5}}](#p5)
+  -  [{{ Field of Study}}{{ 6}}](#p6)
+  -  [{{ Discoveries}}{{ 6}}](#p6)
+  -  [{{ Ability Score Improvement}}{{ 6}}](#p6)
+  -  [{{ Flashbang}}{{ 6}}](#p6)
+  -  [{{ Evasion}}{{ 6}}](#p6)
+  -  [{{ Blast Coating}}{{ 6}}](#p6)
+  -  [{{ Potion Mixologist}}{{ 6}}](#p6)
+  -  [{{ Quick Brewing}}{{ 6}}](#p6)
+  -  [{{ Experimentalist}}{{ 6}}](#p6)
+  -  [{{ Philosopher’s Stone}}{{ 7}}](#p7)
+- ### [{{ Bomb Formulae}}{{ 7}}](#p7)
+- ### [{{ Discoveries}}{{ 10}}](#p10)
+- ### [{{ Potions}}{{ 14}}](#p14)
+  -  [{{ 1 Reagent Die}}{{ 14}}](#p14)
+  -  [{{ 2 Reagent Die}}{{ 15}}](#p15)
+  -  [{{ 3 Reagent Die}}{{ 17}}](#p17)
+  -  [{{ 4 Reagent Die}}{{ 18}}](#p18)
+  - ### [{{ Fields Of Study}}{{ 19}}](#p19)
+    - [{{ Amorist}}{{ 19}}](#p19)
+    - [{{ Apothecary}}{{ 20}}](#p20)
+    - [{{ Bowgunner}}{{ 21}}](#p21)
+    - [{{ Dynamo Engineer}}{{ 22}}](#p22)
+    - [{{ Ionizer}}{{ 23}}](#p23)
+    - [{{ Kinetic Breaker}}{{ 24}}](#p24)
+    - [{{ Mad Bomber}}{{ 25}}](#p25)
+    - [{{ Mutagenist}}{{ 26}}](#p26)
+    - [{{ Ooze Rancher}}{{ 27}}](#p27)
+    - [{{ Pigmentist}}{{ 28}}](#p28)
+    - [{{ Polymorphist}}{{ 29}}](#p29)
+    - [{{ Resonator}}{{ 30}}](#p30)
+    - [{{ Venomsmith}}{{ 31}}](#p31)
+    - [{{ Xenoalchemist}}{{ 32}}](#p32)
+  - ### [{{ Monstrous Graft}}{{ 34}}](#p34)
+}}
+
+
+
+
+
+
+\page
+## Alchemist
+:
+A grinning gnome cackles with glee as he hurls a
+bomb into a group of charging goblins, blasting them
+into scorched chunks. He produces another, throws
+it at his feet, and disappears, still laughing, into the
+ensuing cloud of smoke.
+A slender elf quickly mixes liquids and herbs
+in a small bowl. She applies the mixture to an
+arrow wound on an injured dwarf ’s side, which
+immediately stops bleeding.
+Whether their methods are explosive,
+transformative, or restorative, alchemists live to
+transmute the world around them to their liking.
+
+### Chemical Reactions
+
+One of the first things an alchemist learns is how
+to mix chemicals that react explosively with each
+other. Ostensibly, this is taught to students to
+prevent deadly accidents, but adventuring alchemists
+regularly apply this knowledge to create bombs.
+An alchemical bomb is a 1-pound, apple-sized,
+spherical glass or clay flask filled with a reactive
+chemical. A smaller vial of thin glass containing a
+reagent is suspended in the liquid, and the whole
+thing is sealed with a cork or wax seal. The chemicals
+violently explode when mixed. This occurs when
+the inner vial breaks, usually after the bomb impacts
+a solid surface or a fuse sets off a small explosive
+detonator within the vial. Bombs are primarily
+used to fend off enemies, but creative alchemists
+may find more practical uses for explosives, such as
+demolishing obstacles.
+
+\column
+
+### Serums and Tinctures
+More experienced alchemists learn to mix less
+volatile substances into potions, alchemical
+concoctions which replicate magical effects.
+These potions range from the medicinal, such as
+potions of healing, to the transformative, such as
+potions of gaseous form, to the downright deadly,
+such as potions of poison. Undisputed masters of
+potions, alchemists constantly innovate with new
+formulations and preparations, improving their
+potions into magic items in their own right.
+
+
+### Elemental Sciences
+The primary source of alchemy’s power comes
+from the elemental planes. It is no surprise, then,
+that alchemists strive to tap deeper into that power,
+
+researching and discovering new compounds
+composed of the elements. The pinnacle of alchemy
+is the philosopher’s stone, which is rumored to grant
+its bearer supreme elemental power. Few alchemists
+have succeeded in creating a philosopher’s stone, and
+fewer still remain alive to divulge its secrets.
+
+
+### Creating an Alchemist
+When you create an alchemist, consider why you
+study alchemy. Are you attracted to its dangerous
+power or its ability to help others? Do you desire to
+use magic, but lack the aptitude or inborn ability?
+Why do you adventure? Are you searching for
+new alchemical formulae or rare ingredients? Do
+you, like so many, seek the philosopher’s stone?
+Be sure to understand alchemy’s place in your
+campaign world. You might have learned your
+trade from a master or studied alongside artificers
+and wizards in a university. Your trade might be
+commonplace or an oddity. Depending on the
+setting, you might be respected for your knowledge
+or feared for your destructive potential.
+
+#### Quick build
+You can make an alchemist quickly by following
+these suggestions. First, make Intelligence your
+highest ability score, followed by Dexterity. Choose
+any background.
+{{note  
+##### Alchemist  
+If you want to see just the alchemist, you can check this [hyperlink](https://homebrewery.naturalcrit.com/share/km9PgnczNSRA)
+}}
+![Viktor and 42](https://i.imgur.com/IRYgNrz.png) {position:absolute,bottom:0px,left:-50px,width:520px}
+
+{{artist,position:absolute,top:750px,left:350px,margin-bottom:-30px
+##### 42
+}}
+{{artist,position:absolute,top:620px,left:110px,margin-bottom:-30px
+##### Viktor Marcimoff
+}}
+{{pageNumber,auto}}
+\page
+
+{{imageMaskCorner26,--offsetX:-55%,--offsetY:20%,--rotation:0
+  ![](https://i.imgur.com/1pXMEXv.png){height:100%,left:-300px,top:-60px}
+}}
+
+\column
+
+
+
+### Class Features
+
+As a alchemist, you gain the following class features
+
+#### Hit Points
+**Hit Dice:**                    :: 1d8 per alchemist level
+**Hit Points at 1st Level:**     :: 8 + your Constitution modifier
+**Hit Points at Higher Levels:** :: 1d8 (or 5) + your Constitution modifier per alchemist level after 1st
+
+#### Proficiencies
+**Armor:**   :: Light armor
+**Weapons:** :: Simple Weapons, Bombs
+**Tools:**   :: Alchemist's supplies, Herbalism kit
+
+**Saving Throws:** :: Dexerity, Intelligence
+**Skills:**        :: Choose two from Arcana, History, Insight, Medicine, Nature, Perception, Sleight of Hand and Survival
+
+
+#### Equipment
+
+You start with the following equipment, in addition to the equipment granted by your background:
+- *(a)* a light crossbow and 20 bolts or *(b)* any simple weapon
+- *(a)* an explorer’s pack or *(b)* a scholar’s pack
+-  Alchemist’s supplies and *(a)* a vial of acid, *(b)* a vial of alchemist’s fire, or *(c)* a vial of basic poison
+- Leather armor and a dagger
+
+
+{{classTable,frame,decoration,wide
+##### The Alchemist
+| Level | Proficiency | Features     |               |                  |            |
+|      ^| Bonus      ^|             ^| Formulae Known| Discoveries Known|Reagent Dice|
+|:-----:|:--:|:---------------------:|:-------------:|:----------------:|:----------:|
+|  1st  | +2 | Natural Philosopher, Bombs|—|—|—|
+|  2nd  | +2 | Bomb Formulae, Reagent |3|—|4|
+|  3rd  | +2 | Field of Study|3|—|6|
+|  4th  | +2 | Ability Score Improvement, Discoveries  |3|1|8|
+|  5th  | +3 | Flashbang|4|2|10|
+|  6th  | +3 | Field of Study feature|4|3|12|
+|  7th  | +3 | Evasion|5|4|14|
+|  8th  | +3 | Ability Score Improvement|5|4|16|
+|  9th  | +4 | —   |6|5|18|
+| 10th  | +4 | Field of Study feature |6|5|20|
+| 11th  | +4 | Blast Coating|7|6|22|
+| 12th  | +4 | Ability Score Improvement|7|6|24|
+| 13th  | +5 | Potion Mixologist |8|7|26|
+| 14th  | +5 | Field of Study feature|8|7|28|
+| 15th  | +5 | Quick Brewing|9|7|30|
+| 16th  | +5 | Ability Score Improvement|9|7|32|
+| 17th  | +6 | Experimentalist|10|8|34|
+| 18th  | +6 | Field of Study feature|10|8|36|
+| 19th  | +6 | Ability Score Improvement|11|8|38|
+| 20th  | +6 | Philosopher’s Stone|11|8|40|
+}}
+
+
+{{pageNumber,auto}}
+\page
+
+### Natural Philosopher
+Starting at 1st level, you can add half your proficiency bonus, rounded up, to any ability check you make to identify herbs, potions, poisons, or other alchemical substances.
+
+### Bombs
+At 1st level, you can create volatile alchemical bombs using your alchemist’s supplies. Whenever you take a short or long rest, you can create a number of bombs equal to 10 plus twice your alchemist level. For you the cost of materials necessary to create these bombs is negligible. After 24 hours, an unused bomb becomes inert. The statistics of a bomb are shown in the Bomb sidebar above.
+
+When you take the Attack action on your turn, you can prime a Bomb to increase its
+potency. Make one attack using a Bomb or use the Bomb’s Explode property; you can’t make any other attacks using this Attack action. 
+
+Add your Intelligence modifier to the damage roll.
+
+When you prime your Bomb and deal damage with it, its damage increases by 1d10 when you reach Alchemist levels 5 (2d10), 11 (3d10), and 17 (4d10).
+
+ **Saving Throws.** When your bombs call for a saving throw, its save DC is calculated as follows 
+
+::**Bomb save DC** = 8 + your proficiency bonus + your Intelligence modifier
+
+{{classTable,frame
+##### Bomb 
+:: Bombs are martial ranged weapons with the following statistics:
+
+|Name  |Cost  |Damage       |Weight|Properties
+|:----|:-----|:-----------|:-----|:----|
+| Bomb | 1 sp | 1d10 fire   |  1 lb|  Destructible, Finesse, special, thrown (range 30/90)   |
+
+###### SPECIAL PROPERTY
+**Destructible.** After you make an attack with this weapon, it is destroyed.
+:
+**Explode.** When you take the Attack action, you can replace one of your ranged attacks with an explosion from this weapon’s projectile. 
+
+This explosion is a 5-foot-radius Sphere centered on a point you choose within the bomb’s normal range. Each creature within the Sphere makes a Dexterity saving throw againts you Bomb save DC. 
+
+On a failed save, a creature takes the bomb’s damage, but don’t add your ability modifier to that damage unless that modifier is negative. 
+
+On a successful save, a creature takes no damage. You can create an explosion only once per turn. 
+
+Additionally, as a bonus action, you can empty some of the bomb’s explosive material to permanently remove the blast radius from this bomb, dealing damage only to the bomb’s target.
+}}
+
+
+
+### Bomb Formulae
+By 2nd level, your research has granted you insight into new alchemical formulations for your bombs. Select three bomb formulae from the Bomb Formulae section below. Once per turn when
+you prime a Bomb, you can apply a Bomb Formula to
+it, granting it special effects and potentially changing its
+damage dice.
+
+When you gain certain levels in this class, you
+learn additional formulae of your choice, as shown in the Bomb Formulae Known column of the Alchemist table. Additionally, when you gain a level in this class
+
+
+ 
+### Reagent
+Starting at 2nd level, you have a collection of powerful reagents that you use to brew potions and empower your Bombs. You have 2 Reagents. You regain one expended Reagent when you finish a Short Rest, and you regain all expended Reagents when you finish a Long Rest. You gain additional Reagents when you reach certain Alchemist levels, as shown in the Reagents column of the Alchemist Features table
+
+When you deal damage with a Bomb, you can expend a number of Reagents up to your Proficiency Bonus and add 1d10 to the Bomb’s damage roll for each expended Reagent.
+
+Additionally, if you use the Bomb’s Explode property, you can increase the radius of the explosion by 5 feet. You can do so once for each expended Reagent. For example, if you expend 2 Reagents, you can choose for the Sphere to be a 5-, 10- or 15-foot radius.
+  
+#### Brewing Potions
+
+You can spend 10 minutes and expend any number of Reagents to brew potions, which can be done during a Short Rest. 
+
+You can have a total number of potions at one time up to your Intelligence modifier (minimum of 1).
+These potions retain potency until you finish a Long Rest, after which they become inert.
+
+When you brew potions, you can also distill potions you have already brewed, destroying them and
+recovering the Reagents expended to brew them, up to a maximum of the number of Reagents listed on the Alchemist Features table. 
+
+You can expend these Reagents immediately to brew new potions.
+
+The number of Reagents and the Alchemist level required to brew a potion are given on the Potions table.
+
+#### Reagent Synthesis
+When you finish a Short Rest, you can regain an additional number of expended Reagents up to your
+Intelligence modifier (minimum of 1).
+
+Once you use this feature, you can’t do so again until you finish a Long Rest.
+
+{{pageNumber,auto}}
+\page
+
+{{classTable,frame
+##### Potion Table
+| Name                        | Cost         | Alchemist Level
+|:---------------------------:|:------------:|:---------:|
+|Alchemist’s Fire             |1 reagent die |    3rd    |
+|Holy Water                   |1 reagent die |    3rd    |
+|Oil                          |1 reagent die |    3rd    |
+|Potion of Climbing           |1 reagent die |    3rd    |   
+|Potion of Growth             |1 reagent die |    3rd    | 
+|Potion of Healing            |1 reagent die |    3rd    | 
+|Potion of Water Breathing    |1 reagent die |    3rd    |
+|Universal Solvent            |1 reagent die |    3rd    |
+|Vial of Acid                 |1 reagent die |    3rd    |
+|Cure-All                     |2 reagent dice|    7th    |
+|Potion of Greater Healing    |2 reagent dice|    7th    |
+|Potion of Heroism            |2 reagent dice|    7th    |
+|Potion of Resistance         |2 reagent dice|    7th    |
+|Sovereign Glue (1 ounce)     |2 reagent dice|    7th    |       
+|Potion of Diminution         |3 reagent dice|    11th   |
+|Potion of Superior Healing   |3 reagent dice|    11th   |
+|Potion of Flying             |4 reagent dice|    14th   |
+|Potion of Hill Giant Strength|4 reagent dice|    14th   |
+|Potion of Invisibility       |4 reagent dice|    14th   |
+|Potion of Supreme Healing    |4 reagent dice|    14th   |
+}}
+
+
+
+### Field of Study
+
+While all alchemists share a common knowledge base, most alchemists specialize into a particular  field of study. When you reach 3rd level, you select your field of study, which grants you features at 6th, 10th, and 18th level.
+A formula granted by your field of study does not count against the total number of formulae you know.
+
+### Discoveries
+In the course of your research, you have made a number of discoveries regarding the nature of alchemy. At 4th level, you gain one discoveries of your choice. When you gain certain alchemist levels, you gain additional discoveries of your choice, as shown in the Discoveries Known column of the Alchemist table. 
+
+Additionally, when you learn a new discovery, you can choose one of the discoveries you know and replace it with another discovery that you could learn at that level.
+
+
+### Ability Score Improvement
+When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.
+
+Alternatively, as an alchemist, when you gain an ability score improvement, you can instead choose to learn a new Discovery for which you meet the prerequisites.
+
+
+\column
+
+### Flashbang
+Beginning at 5th level, you carry a supply of concussive explosives which help you escape from perilous situations. As a bonus action, you can throw one of these explosives at your feet, disorienting and distracting nearby foes. Each creature within 5 feet of you can’t take reactions until the start of its next turn.
+
+
+### Evasion
+Beginning at 7th level, when you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.
+
+
+### Blast Coating
+Starting at 11th level, you automatically succeed on saving throws against your own bombs and never take damage from them.
+
+### Potion Mixologist
+Beginning at 13th level, you can mix two potions together and drink them as a
+Bonus Action, gaining the effects of both. You suffer no
+unexpected effects from mixing potions.
+### Quick Brewing
+At 15th level, you can brew potions as an action, instead of in 10 minutes.
+
+### Experimentalist
+At 17th level, hen you finish a Long Rest, you can replace any of your Bomb Formulae with other formulae of your choice, and you can replace one of your discoveries with another one for which you qualify.
+{{pageNumber,auto}}
+\page
+### Philosopher’s Stone
+At 20th level, you unlock the crowning achievement of all alchemy: a philosopher’s stone, a dynamo of alchemical energy in a fist-sized glowing jewel. You can construct your philosopher’s stone using your alchemist supplies, 1,000 gp worth of materials, and 7 days of work. You can only have one philosopher’s stone at a time and as long as you possess the stone, you gain the following benefits:
+
+- Whenever you finish a short rest, you regain all expended reagent dice.
+- You age 10 times slower than normal, and your age cannot be magically changed.
+
+Additionally, you learn the following formula, which doesn’t count against the total number of formulae you know:
+
+##### Formula: Nuclear Bomb
+You can utilize the most devastating Bomb Formula imaginable. By replacing your Bomb’s explosive contents with your Philosopher’s Stone, you can change it into a Nuclear Bomb. 
+
+This Bomb deals 10d10 + 100 Force damage instead of its normal Fire damage, and its explosion is a Sphere with a radius of 1 mile. A creature within 60 feet of the center of the Sphere gains no benefit from Evasion or similar features.
+
+
+This Bomb completely destroys your Philosopher’s Stone.
+
+\column
+
+
+
+## Bomb Formulae
+Bomb formulae are summarized on the following table. If a bomb is exclusively available to one field of study, it will be marked with an asterisk. Unless otherwise stated, all bombs produce a loud boom, audible out to one mile. Bombs are presented in alphabetical order.
+
+ 
+{{classTable,frame
+##### Bomb formulae
+| Formula            | Damage     | Saving Throw
+|:------------------:|:----------:|:----------:|
+|Acid Bomb           |d4 acid     |Dexterity   |   
+|Arcano Bomb         |d12 force   |Dexterity   | 
+|Black Powder Bomb*  |d12 fire    |Dexterity   | 
+|Bramble Bomb        |—           |    —       |
+|Conical Bomb*       |d8 thunder  |Constitution|
+|Cryo Bomb           |d8 cold     |Constitution|
+|Holy Bomb           |d8 radiant  |Dexterity   |
+|Impact Bomb         |d8 force    |Dexterity   |
+|Incendiary Bomb     |d6 fire     |Dexterity   |
+|Laughing Gas Bomb   |d6 poison   |Constitution|
+|Lightning Bomb      |d8 lightning|Dexterity   |
+|Nonlethal Bomb      |d8 bludg.   |Dexterity   |
+|Oil Bomb            |d6 fire     |    —       | 
+|Pheromone Bomb*     |—           |Wisdom      |
+|Prismatic Bomb      |Varies      |    Varies  |
+|Painkiller Bomb*    |—           |  —         |
+|Paint Bomb*         |Varies      |  —         |
+|Plasma Bomb*| d10 radiant| Dexterity|
+|Prismatic Bomb| Varies| Varies|
+|Psionic Bomb        |d6 psychic  |    Wisdom  |
+|Quiet Bomb          |d8 fire      |Dexterity   |
+|Reverb Bomb*| Varies| Constitution|
+|Seeking Bomb        |d6 fire     |Dexterity   | 
+|Shrapnel Bomb*      |d8 piercing |Dexterity   | 
+|Slime Bomb*         |—           |—           |
+|Smoke Bomb          |—           |—           |
+|Sonic Bomb          |d6 thunder  |Constitution|
+|Stink Bomb          |d8 poison   |Constitution|
+|Teleportation Bomb  |—           |—           |
+|Thermobaric Bomb    |d6 fire     |Dexterity   |
+|Venom Bomb*         |d8 poison   |Constitution|
+|Withering Bomb      |d8 necrotic |Constitution| 
+}}
+
+{{note
+##### MISSED BOMBS
+As bombs are explosive projectiles, it makes sense to ask what happens if a thrown bomb fails to hit its target. For simplicity, we assume that missed bombs explode harmlessly in the background or fail to detonate altogether, but do not explode in the target’s space and deal damage with its blast radius. The GM can decide which of these two outcomes happens or Bomb Formulae can determine the outcome randomly.
+}}
+{{pageNumber,auto}}
+\page
+### Acid Bomb
+By mixing your bomb’s explosive contents with a few drops of ardenflotic acid, a highly corrosive chemical, you can change it into an acid bomb. An acid bomb deals acid damage instead of fire damage and has d4 damage dice. Additionally, the target, as well as each creature within the blast radius that fails its saving throw, takes the same amount of damage again at the end of its next turn.
+
+### Bramble Bomb
+By adding a potent fertilizer to your bomb’s explosive contents, you can change it into a bramble bomb. A bramble bomb deals no damage, and instead causes tough, thorny brambles to sprout from any area of natural ground within the bomb’s blast radius, which becomes difficult terrain. Additionally, if a creature in the blast radius is prone when the bomb detonates, it is enveloped by the brambles and must make a Strength (Athletics) check opposed by your bomb save DC in order to move or stand. The brambles shrivel and die after 1 minute.
+
+### Cryo Bomb
+By replacing your bomb’s explosive contents with a piece of ice nine, you can change it into a cryo bomb. A cryo bomb deals cold damage instead of
+fire damage, has d8 damage dice, and requires a Constitution saving throw instead of a Dexterity save. Additionally, the target, as well as each creature within the blast radius that fails its saving throw, has its speed decreased by 10 feet until the end of its next turn.
+
+
+###  Holy Bomb
+By adding a few drops of holy water to your bomb’s explosive contents, you can change it into a holy bomb. A holy bomb deals radiant damage instead of fire damage and has d8 damage dice, unless the target is a celestial, fiend, or undead. The bomb’s damage dice are d6s against celestials and d12s against fiends and undead.
+
+### Impact Bomb
+By replacing your bomb’s explosive contents with a more reactive one, you can change it into an impact bomb. An impact bomb deals force damage instead of fire damage and has d8 damage dice. Additionally, the target, as well as each creature within the blast radius that fails its saving throw, is pushed 5 feet away from the center of the blast.
+
+\column
+
+### Incendiary Bomb
+By adding a thickening agent to your bomb’s explosive contents, you can change it into an incendiary bomb. An incendiary bomb has d6 damage dice. Additionally, the area of the blast radius is engulfed in flames which persist until the beginning of your next turn. Flammable objects in this area that aren’t being worn or carried ignite. Any creature that ends its turn in this area takes half the bomb’s damage.
+
+### Laughing Gas Bomb
+By mixing your bomb’s explosive contents with a drop of jesterate, a highly euphoric chemical, you can change it into a laughing gas bomb. A laughing gas bomb deals poison damage instead of fire damage, has d6 damage dice, and requires a Constitution saving throw instead of a Dexterity save. Additionally, the target, as well as each creature within the blast radius that fails its saving throw, falls prone in a fit of laughter. Once a creature falls prone due to this bomb's effects, it is immune to this effect (but not the bomb's poison damage) for 24 hours.
+### Lightning Bomb
+By replacing your bomb’s explosive contents with a charged arcane capacitor, you can change it into a lightning bomb. A lightning bomb deals lightning damage instead of fire damage and has d8 damage dice. 
+
+Additionally, the target, as well as each creature within the blast radius that fails its saving throw, can’t take reactions until the end of its next turn.
+ 
+### Nonlethal Bomb
+By replacing your bomb’s explosive contents with a pouch of rubber pellets, you can change it into a nonlethal bomb. A nonlethal bomb deals
+bludgeoning damage instead of fire damage and has d8 damage dice. If damage from this bomb drops a creature to 0 hit points, it knocks the creature out, rather than dealing a killing blow, rendering the creature unconscious and stable. Additionally, this bomb’s rubber projectiles bounce around corners, ignoring half and three-quarters cover for targets within the blast radius.
+### Oil Bomb
+By mixing your bomb’s explosive contents with a few drops of a super-surfactant, you can change it into an oil bomb. An oil bomb does not deal damage, but coats each creature within the blast radius in a sticky,
+flammable oil. The next time a creature coated in oil takes fire damage, it takes an additional d6 damage for each die of fire damage rolled, up to a maximum of half your alchemist level, rounded up. Oil can be removed by dousing a creature with a gallon of water.
+
+
+{{pageNumber,auto}}
+\page
+
+
+### Prismatic Bomb
+By adding an ounce of polyjuice, an unpredictable, multicolored chemical, to your bomb’s explosive contents, you can change it into a prismatic bomb. A prismatic bomb deals damage randomly-determined instead of fire damage, has d8 damage dice, and requires a randomly-determined type of saving throw. Roll on each of the following tables.
+
+
+| d6 | Damage  |   
+|:--:|:-------:|
+|1   | Acid    |
+|2   | Cold    | 
+|3   | Fire    |
+|4   |Lightning|
+|5   | Poison  | 
+|6   | Radiant | 
+
+| d6   | Saving Throw|   
+|:----:|:-----------:|
+|1-2   | Dexterity   |
+|3-4   | Constitution| 
+|5-6   | Wisdom      |
+
+
+### Psionic Bomb
+By mixing your bomb’s explosive contents with dust from a psionic crystal, you can change it into a psionic bomb. A psionic bomb deals psychic damage instead of fire damage, has d6 damage dice, and requires a Wisdom saving throw instead of a Dexterity save. Additionally, the target, as well as each creature within the blast radius that fails its
+saving throw, has disadvantage on Constitution saving throws it makes to maintain concentration on spells until the end of its next turn.
+
+### Quiet Bomb
+By replacing your bomb’s explosive contents with a wad of thermal cotton, you can change it into a quiet bomb. A quiet bomb has d8 damage dice.
+When this bomb detonates, it makes only a low thud, audible out to 10 feet, and releases a puff of smoke to mask the light given off by its blast. Creatures have disadvantage on ability checks to detect that this bomb was detonated nearby.
+
+
+### Seeking Bomb
+By replacing your bomb’s explosive contents with a powerful lodestone, you can change it into a seeking bomb. A seeking bomb has d6 damage dice. You don’t suffer disadvantage from making a ranged attack using this bomb while you are within 5 feet of a hostile creature.
+
+
+
+\column
+
+
+### Stink Bomb
+By adding a single drop of skunkanide, a chemical too unholy to expound upon, you can change it into a stink bomb. A stink bomb deals poison damage instead of fire damage, has d8 damage dice and requires a Constitution saving throw instead of a Dexterity save. Additionally, the target, as well as each creature within the blast radius that fails its saving throw, has disadvantage on ability checks it makes before the end of its next turn.
+
+### Sonic Bomb
+By mixing your bomb’s explosive contents with a few drops of air elemental essence, you can change it into a sonic bomb. A sonic bomb deals thunder damage instead of fire damage, has d6 damage dice, and requires a Constitution saving throw instead of a Dexterity save. Additionally, the target, as well as each creature within the blast radius that fails its saving throw, is deafened until the end of its next
+turn.
+### Teleportation Bomb
+By replacing your bomb’s explosive contents with a glowing etherite crystal, you can change it into a teleportation bomb. A teleportation bomb deals no damage and instead opens a rift in space, instantly teleporting you to its point of detonation, if it explodes within 30 feet of you.
+
+### Thermobaric Bomb
+By replacing your bomb’s explosive contents with a delayed explosive, you can change it into a thermobaric bomb. A thermobaric bomb deals has d6 damage dice and explodes in a 10-foot radius sphere.
+
+
+### Withering Bomb
+By mixing your bomb’s explosive components with a powerful desiccating agent, you can change it into a withering bomb. A withering bomb deals necrotic damage instead of fire damage, has d8 damage dice, and requires a Constitution saving throw instead of a Dexterity save. Additionally, the target, as well as each creature within the blast radius that fails it saving throw, can’t regain hit points until the end of its next turn.
+
+
+{{pageNumber,auto}}
+\page
+## Discoveries
+If a discovery has prerequisites, you must meet them to learn it. You can learn the discovery at the same time that you meet its prerequisites. You can only learn a discovery once, unless otherwise specified.
+#### Advanced Poisoner
+
+*Prerequisites: 13th level, Venomsmith Field of Study*::
+
+ 
+Your morbid research into the most vicious, exotic poisons has revealed how to synthesize the following poisons when you brew potions:
+
+|Potion| Cost  |   
+|:----|:-------|
+|Burnt Othur Fumes|3 reagent dice|
+|Crawler Mucus    |3 reagent dice| 
+|Drow Poison      |3 reagent dice|
+|Pale Tincture    |4 reagent dice|
+|Midnight Tears   |5 reagent dice| 
+|Wyvern Poison    |6 reagent dice| 
+ 
+ 
+ 
+#### Alchemy Of Ascendancy
+*Prerequisite: 17th level*::
+
+A breakthrough in your alchemical studies has
+revealed the formulation of several potent elixirs.
+You can brew the following potions:
+
+|Potion| Cost  |   
+|:----|:-------|
+|Necromantic Draught|4 reagent dice|
+|Oil of Etherealness|4 reagent dice| 
+|Potion of Speed    |4 reagent dice|
+|Potion of Stone Giant Strength|4 reagent dice|
+
+#### Alchemy Of Influence
+*Prerequisites: 13th level*::
+
+Your alchemical research has revealed many of the basic chemicals which govern emotions. You can brew the following potions:
+|Potion| Cost  |   
+|:----|:-------|
+|Potion of Animal Friendship|1 reagent die|
+|Philter of Love|2 reagent dice| 
+|Potion of Clairvoyance|3 reagent dice|
+|Potion of Mind Reading|3 reagent dice|
+
+
+ #### Alchemy Of Transformation 
+*Prerequisite: 13th level*::
+
+You have mastered the alchemical secrets of shifting matter, which allow you to brew the following potions:
+|Potion| Cost  |   
+|:----|:-------|
+|Oil of Slipperiness|2 reagent dice|
+|Sandstone Solution|2 reagent dice| 
+|Aqua Fortis|3 reagent dice|
+|Chameleon Concoction|3 reagent dice|
+|Potion of Gaseous Form|3 reagent dice|
+
+ #### Arcane Study
+You learn three cantrips of your choice from the wizard spell list. Intelligence is your spellcasting ability for your wizard spells.
+
+
+#### Ballistics Research
+You learn two additional bomb formulae.
+#### Battle Training
+You gain proficiency with martial weapons and training with Medium armor and Shields.
+
+#### Beguiling Haze
+*Prerequisites: 13th level, Amorist Field of Study* ::
+
+When you charm a creature, you can choose to place it in a dreamy state, from which it regards everyone it  sees as close friends. While the creature is charmed, it is nonhostile and acts as though it is charmed equally by each creature it sees. Once you use this ability, you can’t use it again until you finish a short or long rest.
+
+#### Bombarding Blast
+*Prequiresite: 13th level, Bowgunner Field of Study*::
+
+You have modified your bombs and bolts to create an explosive bolt. As an action, you can target all creatures in a single 10-foot cube located within your crossbow’s range. 
+
+Each creature in the area must succeed on a Dexterity saving throw against your Bomb Save DC or take 3d10 fire damage. This damage increases to 4d10 fire damage at 17th level.
+
+You can apply bomb formulae and add reagent dice to this, treating it as if it were a bomb shot from a crossbow. 
+
+You can use this feature a number of times equal to your Intelligence modifier, and you regain all expended uses when you finish a short or long rest.
+
+
+#### Buffered Metabolism
+*Prerequisites: 13th level, Xenoalchemist Field of Study*::
+
+As a reaction when you take damage, you can expend any number of reagent dice up to your proficiency bonus to reduce the amount of damage taken by the total rolled on the dice.
+#### Capsule Master
+*Prerequisites: 13th level, Polymorphist Field of Study*::
+
+By capturing and training various creatures, you
+have set out upon the path of capsule mastery. You
+can have up to six creatures inside capsule bombs
+at one time. If you capture a seventh creature, you
+choose one of your creatures to be permanently
+released from its capsule bomb; it is no longer under
+your control.
+
+Additionally, a creature released from
+its capsule bomb is friendly to you and your
+companions and follows your commands indefinitely.
+
+You can only have one such creature at a time. If
+you release a creature from its capsule bomb while
+another is under your control, the previous creature
+is magically drawn back into its capsule.
+{{pageNumber,auto}} 
+\page
+#### Chain Reaction Touch
+*Prerequisites: 9th level, Kinetic Breaker Field of Study*::
+
+When you use your Tactile Synthesis feature, you can touch two objects instead of one using the same bonus action.
+
+If both objects are within 10 feet of each other, you can use your reaction to detonate both simultaneously when one is triggered.
+
+
+#### Clotting Agent
+You have developed a serum that thickens your blood. Your hit point maximum increases by your alchemist level + your Constitution modifier, and increases by 1 again whenever you gain a level in this class.
+
+#### Craft Homunculus
+Your research has taught you how to create an alchemical familiar: a Homunculus.
+
+**Creating a Homunculus.** By expending 3 Reagents
+and spending materials worth 10+ GP in a 1-hour long
+alchemical process, which can be done over a Short Rest,
+you can create a homunculus. You can only have one
+homunculus at a time; if you create another one, your
+existing one dies.
+
+**Hit Points.** Your homunculus has Hit Points equal to
+five times your Alchemist level.
+
+**Bomb Immunity.** Your homunculus automatically succeeds on its saving throws against your Bombs and
+never takes damage from them.
+
+**Combat.** The homunculus is an ally to you and your allies. It takes its turn immediately before or after your turn each round (your choice). Your homunculus can’t attack on its turn, but it can take other actions and Bonus Actions as normal.
+
+Additionally, you can take a Bonus Action to allow your homunculus to make one attack with its Reaction.
+
+Your homunculus’s attack bonus equals your Intelligence modifier plus your Proficiency Bonus.
+
+**Elemental Infusion.** As a  action, you can expend 2 Reagents to infuse your homunculus with elemental essence for the next hour. Choose Acid, Cold, Fire, Lightning, or Thunder damage. While infused, your
+homunculus has Resistance to this damage and deals 2d8 extra damage of that type on its damage rolls. 
+
+#### Demolition Spree
+*Prerequisite: 13th level, Mad Bomber Field of Study*::
+
+When you take the Use an Object action to prime and throw a bomb, you can throw a number of bombs equal to the number of the bomb’s damage dice, instead of only one. Each bomb you throw deals 1d10 damage plus your Intelligence modifier and can’t target the same creature or space. You must spend reagent dice separately on these bombs and can apply a bomb formula to only one of them.
+
+\column
+
+#### Double Dose 
+*Prerequisite: 9th level*::
+Whenever you brew a Potion of Healing, it has twice the normal potency. Each potion
+has two uses. Drinking the potion expends one use.
+
+#### Double Trouble
+
+When you take the use and object action to prime a bomb and throw it, you can use your bonus action at the same time to apply two bomb formulae you know to it. You choose a damage die, radius and saving throw from the formulae chosen separately, and apply all secondary effects from the formulae.
+
+
+
+#### Dynamo Charger
+*Prerequisites: 13th level, Dynamo Engineer Field of Study*::
+
+You’ve invented a device which rapidly recharges your spell dynamos. Once per day when you finish a short rest, you can regain 2 expended spell slots stored in dynamos. You can configure these dynamos immediately.
+
+#### Explosive Grappler
+*Prerequisites: 13th level, Kinetic Breaker Field of Study*::
+You have mastered holding foes in place for a point-blank blast. While you have a creature Grappled, you can use a bonus action to prime a bomb  and detonate it between you.
+The creature automatically fails its Dexterity saving throw against this bomb.
+
+#### Explosive Missile 
+As a bonus action, you can load one of your bombs onto the head of a crossbow bolt. Instead of its normal damage, this bolt deals damage as if the bomb had been primed but does not have a blast radius. The Bomb uses the crossbow’s range. You can apply a formula to this Bomb as normal.
+
+
+#### Fire Brand
+When you hit a creature with an attack using a Melee weapon, you can expend 1 Reagent to deal an extra 1d10 Fire damage to the target.
+
+
+#### Fire eater
+When you prime a Bomb, you can take a Bonus Action to drink the Bomb’s contents and spit them
+out in a 15-foot Cone. This Cone acts as the area of the Bomb’s explosion, which you can expand by expending Reagent dice as normal. You can apply a formula to this Bomb as normal.
+
+
+
+#### Fire in the Hole
+*Prerequisite: 9th level*::
+
+You have tweaked your bomb’s formula to increase its explosive yield. Your bomb save DC increases by half your proficiency bonus, rounded down.
+
+{{pageNumber,auto}}
+\page
+#### Fortified Serum
+*Prerequisites: 13th level, Apothecary Field of Study*::
+
+Whenever a creature regains hit points by drinking one of your potions, it gains resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons until the end of its next turn.
+
+#### Grenadier
+You can take a Bonus Action to make an attack with a weapon that isn’t a Bomb and doesn’t have the Heavy property.
+
+
+#### Hemoreagent
+
+Your explorations into necromancy have borne scientific
+fruit. You can take a Bonus Action to extract a measure of your own blood and convert it into Reagents.
+Expend any number of Hit Dice. You regain a number of expended Reagents equal to half the number of Hit Dice expended (round down).
+
+
+
+
+#### Poisoner
+Your research into poisonous compounds has taught you how to concoct lethal toxins. You gain proficiency with the poisoner’s kit. 
+
+Additionally, you can craft the following poisons when you brew potions, which use your bomb save DC instead of their normal save DC:
+
+|Potion| Cost  |   
+|:----|:-------|
+|2 × Basic Poison |1 reagent die|
+|2 × Antitoxin|1 reagent die| 
+|Potion of Poison|2 reagent dice|
+|Oil of Taggit|2 reagent dice|
+|Serpent Venom|2 reagent dice|
+|Truth Serum|2 reagent dice|
+
+
+#### Lazarus Bolt
+*Prerequisite: 9th level*::
+
+As an action, you can drive a bolt into the torso of a creature within 5 feet of you that has died within the last minute and shock it back to life. That creature returns to life with 1 hit point. This discovery can’t return to life a creature that lacks a heart, a creature that has died of old age, or a creature that is missing vital organs. 
+
+Once you use this ability, you can’t use it again
+until you finish a Long Rest. 
+
+You can also restore your use
+of it by expending 5 Reagents (no action required).
+
+\column
+
+#### Living Canvas
+*Prerequisite: 9th level, Pigmintist Field of Study*::
+
+
+You can infuse your paint with a small amount of illusion magic, creating marvelously deceptive images. Whenever you create a painting depicting an object, you can choose to augment its effect using an image from the silent image spell. For example, you can cause a painting of a lion to walk along a wall, you can lend a painting of a sculpture
+a sense of three-dimensionality, or you can cause a painting of a lantern to give off light.
+
+The illusion must be contained entirely within
+the bounds of the painting. The illusion’s duration
+depends on how long you spent painting the image.
+
+If you painted the image in under 10 minutes, it lasts
+for an hour after the paint dries. If you painted the
+image over the course of an hour, it lasts for 24 hours
+
+after the paint dries. If you painted the image over the course of 24 hours or longer, the effect lasts until dispelled.
+
+#### Magnified Blast
+*Prerequisite: 17th level*::
+
+Thanks to a new internal design for your bombs, you have expanded their blast radius and magnitude. Whenever you add reagent dice to your bomb’s damage, you can also choose to expand the bomb’s blast radius by a distance of up to 5 feet per two reagent dice spent.
+
+
+
+#### Neptum Infusion
+*Prerequisite: 9th level*::
+
+When you use at least a reagent die to empower your bombs, you also increase it's radius by 10 ft for each die used, up to a maximum of 40 ft.
+
+#### Nuclear Bolt
+*Prequiresite: 20th level, Bowgunner Field of Study*::
+If you have the Philosopher's Stone and use it as a bomb, you can choose to load it onto a crossbow bolt via Explosive Missile to gain the following effects:
+- This attack cannot miss.
+- The bomb now deals 10d10 + 100 force damage.
+- Creatures that have 10 HP or less after being hit must make a Constitution saving throw at disadvantage against your Bomb Save DC or their body and soul will be destroyed. The only way for them to come back to life after this is from a true *resurrection* or *wish* spell.
+{{pageNumber,auto}}
+\page
+#### Ooze Cowboy
+*Prerequisites: 13th level, Ooze Rancher Field of Study*::
+
+Tired of waiting for your oozes to catch up with you, you’ve modified your formula to make extra fast slimes! All slimes you make have a movement speed of 30 feet, if it were lower. Additionally, you can ride any ooze you make of Medium size or larger as a mount. You and your equipment suffer no ill effect from touching your oozes directly. Lastly, your oozes add your proficiency modifier to their damage rolls and initiative rolls.
+
+#### Precision Explosives
+When you use the Bomb’s Explode property, you can choose a number of creatures within the explosion up to your Intelligence modifier (minimum of 1).
+
+Each chosen creature automatically succeeds on its saving throws against the Bomb and takes no damage from it.
+
+#### Potion Toss
+You can take a the use an object action to hurl a potion at an ally within 30 feet of you. The
+target gains the potion’s benefits as if it had consumed the potion normally.
+
+#### Quadruple Flasks
+When you brew potions, you can brew a batch of four vials of Acid, Alchemist’s Fire, Holy Water, or Oil for 1 Reagent die. Each batch counts as one potion for the number of potions you can have at once.
+These batches can be all of one substance or a mix of them.
+
+These substances use your Alchemist save DC and retain potency until you finish a Long Rest, after which
+they become inert.
+
+#### Quick Flask
+When you take the Attack action to prime a bomb, you can take a Bonus Action to throw a flask of Alchemist’s Fire, Holy Water, Oil, or Acid, or to use an Oil flask to douse a space.
+
+
+#### Reactionaty Gulp 
+*Prerequisite: 9th level*::
+
+Immediately after you take damage from a creature you can see, you can take a Reaction to drink a potion. You can use this ability to drink a potion that restores your Hit Points, even if the triggering damage reduces you to 0 Hit Points.
+
+
+#### Recycled Potions
+*Prerequisite: 9th level*::
+
+When you brew potions, you can distill those you have already brewed, recovering the reagents stored within. You can convert brewed potions into reagent dice and you can choose to expend those dice to create new potions. You can’t gain more than your maximum number of reagent dice using this ability.
+
+\column
+#### Reliable Explosions
+*Prerequisite: 9th level*::
+when you make an attack with a bombs and fail or a creature passes it's saving throw against one of your bomb, the target takes half the bomb's damage but it doesn't receive any daditional conditions.
+#### Syringe
+Using a sophisticated hypodermic needle, you can more quickly administer potions and poisons. As a bonus action, you can inject a potion into yourself or a willing creature within 5 feet of you, granting the benefits of the potion as if it were drank normally. You can inject a potion into an unwilling creature with a successful melee attack.
+
+
+#### Tri-mutation
+*Prerequisites: 13th level, Mutagenist Field of Study*::
+
+You’ve developed a powerful, but fleeting way of blending your mutagens together. When you inject yourself with a mutagen, you can choose to inject a tri-mutagen, which grants you the benefit of all your mutagens at once. This benefit lasts for 1 minute, or until you use your bonus action to inject yourself with a different mutagen. 
+
+Once you use this ability, you can’t use it again until you finish a long rest.
+
+
+
+#### Volatile Mix
+
+When you take the use an object action to throw a bomb, you can instead make it a volatile mix, which you hold on you until the start of your next turn.
+
+While you hold the volatile mix, every creature that comes within 5 feet of you must make a saving throws as if it was affected by your bomb. Each creature can only be affected once by each volatile mix.
+Bombs used this way have their damage dice reduced by one step.
+You are not affected by your volatile mixes. 
+
+
+{{pageNumber,auto}}
+\page
+# Potions
+### 1 Reagent Die
+
+####  Alchemist's Fire 
+*Potion, Common*::
+
+When you take the Attack action, you can replace one of your attacks with throwing a flask of Alchemist’s Fire. Target one creature or object you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take 1d4 Fire damage and start burning.
+
+#### Antitoxin
+*Potion, Poisoner*::
+A creature that drinks this vial of liquid gains advantage on saving throws against poison for 1 hour. It confers no benefit to undead or constructs.
+
+
+#### Basic Poison
+*Potion, Poisoner*::
+As a Bonus Action, you can use a vial of Basic Poison to coat one weapon or up to three pieces of ammunition. A creature that takes Piercing or Slashing damage from the poisoned weapon or ammunition takes an extra 1d4 Poison damage. Once applied, the poison retains potency for 1 minute or until its damage is dealt, whichever comes first.
+
+#### Holy Water (flask)
+*Potion, Common*::
+
+As an action, you can splash the contents of this flask onto a creature within 5 feet of you or throw it up to 20 feet, shattering it on impact. In either case, make a ranged attack against a target creature, treating the holy water as an improvised weapon. If the target is a fiend or undead, it takes 2d6 radiant damage.
+
+#### Oil (flask)
+
+*Potion, Common*::
+
+**Duration:**:: 2 Rounds
+
+Oil usually comes in a clay flask that holds 1 pint. As an action, you can splash the oil in this flask onto a creature within 5 feet of you or throw it up to 20/60 feet, shattering it on impact. Make a ranged attack against a target creature or object, treating the oil as an improvised weapon. On a hit, the target is covered in oil. 
+
+If the target takes any fire damage before the oil dries (after 1 minute), the target takes an additional 5 fire damage from the burning oil. You can also pour a flask of oil on the ground to cover a 5-foot-square area, provided that the surface is level. If lit, the oil burns for 2 rounds and deals 5 fire damage to any creature that enters the area or ends its turn in the area. A creature can take this damage only once per turn.
+
+\column
+
+#### Potion of Animal Friendship
+*Potion, Alchemy Of Influence*::
+When you drink this potion, you can cast the *animal friendship* spell for 1 hour at will. Agitating this muddy liquid brings little bits into view: a fish scale, a hummingbird tongue, a cat claw, or a squirrel hair.
+
+
+
+#### Potion of Climbing
+*Potion, common*::
+
+
+When you drink this potion, you gain a climbing speed equal to your walking speed for 1 hour. During this time, you have advantage on Strength (Athletics) checks you make to climb. The potion is separated into brown, silver, and gray layers resembling bands of stone. Shaking the bottle fails to mix the colors.
+
+#### Potion of Growth
+*Potion, uncommon*::
+
+
+When you drink this potion, you gain the "enlarge" effect of the enlarge/reduce spell for 1d4 hours (no concentration required). The red in the potion's liquid continuously expands from a tiny bead to color the clear liquid around it and then contracts. Shaking the bottle fails to interrupt this process.
+
+
+#### Potion of Healing
+*Potion, common*::
+
+
+You regain 2d4+2 hit points when you drink this potion. Drinking or administering a potion takes an action.
+
+
+
+#### Potion of Water Breathing
+*Potion, uncommon*::
+
+You can breathe underwater for 1 hour after drinking this potion. Its cloudy green fluid smells of the sea and has a jellyfish-like bubble floating in it.
+
+#### Universal Solvent
+*Potion, rare*::
+
+
+This tube holds milky liquid with a strong alcohol smell. You can use an action to pour the contents of the tube onto a surface within reach. The liquid instantly dissolves up to 1 square foot of adhesive it touches, including sovereign glue.
+
+#### Vial of Acid
+*Potion, uncommon*::
+When you take the Attack action, you can replace one of your attacks with throwing a vial of Acid. Target one creature or object you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take 2d6 Acid damage.
+
+{{pageNumber,auto}}
+\page
+### 2 Reagent Die
+
+
+#### Cure-All
+*Potion, uncommon*::
+The cure-all contains 1d4 + 1 doses of potent
+medicine. As an action, you can drink a dose, curing
+you of any disease, ending your poisoning, and
+causing you to be immune to being poisoned for 1
+hour. A complex swirl of red liquid in the potion’s
+center resembles a snake on a pole. Shaking the bottle
+fails to mix the potion’s contents.
+
+
+
+#### Potion of Healing (Greater)
+*Potion, uncommon*::
+
+You regain 4d4 + 4 Hit Points when you drink this potion.
+
+Whatever its potency, the potion’s red liquid glimmers when agitated.
+
+
+#### Potion of Heroism
+*Potion, rare*::
+
+For 1 hour after drinking it, you gain 10 temporary hit points that last for 1 hour. For the same duration, you are under the effect of the bless spell (no concentration required). This blue potion bubbles and steams as if boiling.
+
+
+#### Potion of Resistance
+
+*Potion, uncommon*::
+
+When you drink this potion, you gain resistance to one type of damage for 1 hour. The DM chooses the type or determines it randomly from the options below.
+
+d10|	Damage Type
+:-:|:-:
+1|	Acid
+2|	Cold
+3|	Fire
+4|	Force
+5|	Lightning
+6|	Necrotic
+7|	Poison
+8|	Psychic
+9|	Radiant
+10|	Thunder
+
+
+#### Oil of Slipperiness
+*Potion, Alchemy Of Transformation*::
+
+This sticky black unguent is thick and heavy in the container, but it flows quickly when poured. The oil can cover a Medium or smaller creature, along with the equipment it's wearing and carrying (one additional vial is required for each size category above Medium). Applying the oil takes 10 minutes. The affected creature then gains the effect of a freedom of movement spell for 8 hours.
+
+Alternatively, the oil can be poured on the ground as an action, where it covers a 10-foot square, duplicating the effect of the grease spell in that area for 8 hours.
+
+\column
+
+
+#### Oil of Taggit
+*Potion, Poisoner*::
+A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or become poisoned for 24 hours. The poisoned creature is unconscious. The creature wakes up if it takes damage.
+
+
+#### Potion of Poison
+*Potion, Poisoner*::
+This concoction looks, smells, and tastes like a potion of healing or other beneficial potion. However, it is actually poison masked by illusion magic. An identify spell reveals its true nature.
+
+If you drink it, you take 3d6 poison damage, and you must succeed on a DC 13 Constitution saving throw or be poisoned. At the start of each of your turns while you are poisoned in this way, you take 3d6 poison damage. At the end of each of your turns, you can repeat the saving throw. On a successful save, the poison damage you take on your subsequent turns decreases by 1d6. The poison ends when the damage decreases to 0.
+
+
+#### Ooze Bottle
+*Potion, rare*::
+As an action, you can throw this vial up to 20 feet,
+shattering it on impact and releasing a gray ooze.
+This ooze is friendly to you and your allies, and will
+otherwise attack the nearest creature it can detect. If
+there is no creature to attack, the ooze will follow you.
+
+However, the biochemistry of this ooze is unstable,
+and the ooze dissolves into a lifeless sludge after 1
+hour. The charcoal-colored liquid inside this bottle
+seems to lunge about with unnatural momentum.
+
+
+
+{{pageNumber,auto}}
+\page
+#### Philter of Love
+*Potion, Alchemy Of Influence*::
+
+The next time you see a creature within 10 minutes after drinking this philter, you become charmed by that creature for 1 hour. If the creature is of a species and gender you are normally attracted to, you regard it as your true love while you are charmed. 
+
+This potion's rose-hued, effervescent liquid contains one easy-to-miss bubble shaped like a heart.
+
+
+#### Sandstone Solution
+*Potion, Alchemy Of Transformation*::
+You can pour this substance on the ground as an
+action. If poured onto stone, a 10-foot deep, 10-foot
+radius portion of the stone becomes mud for 1 hour.
+
+When poured into mud, sand, or quicksand, a 10-foot deep, 10-foot-radius region of the material become solid stone for 1 hour. 
+
+The stone has AC 17, 75 HP, and immunity to psychic and poison damage.
+
+Any creature inside it when it becomes stone must make a DC 14 Dexterity saving throw or be restrained.
+
+The restrained creature can break free by succeeding on a DC 20 Strength check or by dealing 25 damage
+to the stone. This sandlike substance flows about its container like a fluid
+
+
+#### Serpent Venom
+*Potion, Poisoner*::
+This poison must be harvested from a dead or incapacitated giant poisonous snake. A creature subjected to this poison must succeed on a DC 11 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one.
+
+#### Sovereign Glue
+*Potion, legendary*::
+
+This viscous, milky-white substance can form a permanent adhesive bond between any two objects. It must be stored in a jar or flask that has been coated inside with oil of slipperiness. When found, a container contain 1 ounces.
+
+One ounce of the glue can cover a 1-foot square surface. The glue takes 1 minute to set. Once it has done so, the bond it creates can be broken only by the application of universal solvent or oil of etherealness, or with a wish spell.
+
+
+#### Truth Serum
+*Potion, Poisoner*::
+A creature subjected to this poison must succeed on a DC 11 Constitution saving throw or become poisoned for 1 hour. The poisoned creature can't knowingly speak a lie, as if under the effect of a zone of truth spell.
+
+
+{{pageNumber,auto}}
+\page
+
+### 3 Reagent Die
+
+#### Aqua Fortis
+*Potion, Alchemy Of Transformation*::
+This transparent acid constantly bubbles within its
+sealed vial. As an action, you can throw the vial up to
+20 feet, shattering it on impact. Make a ranged attack,
+treating the vial as an improvised weapon.
+
+If the target is an object that isn’t being worn or
+carried, the acid dissolves a 1-foot cube of the object.
+If splashed on a suit of armor or a shield, the object
+takes a permanent and cumulative −1 penalty to the
+AC it offers. A suit of armor reduced to an AC of
+10 or a shield that drops to a +0 bonus is destroyed.
+If splashed on a weapon, it takes a permanent and
+cumulative −1 penalty to damage rolls. A weapon
+reduced to a −5 penalty is destroyed. It has no effect
+on magic items and objects made of gold, glass, stone,
+or adamantine.
+
+If the target is a creature, it takes 3d6 acid
+damage, followed by an extra 2d6 acid damage at the
+end of its next turn and another 1d6 acid damage at
+the end of the turn after that. The acid can be washed
+off with one gallon of water, ending the effect early.
+
+
+#### Burnt Othur Fumes
+
+*Poison, Advanced Poisoner*::
+
+A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or take 10 (3d6) poison damage, and must repeat the saving throw at the start of each of its turns. On each successive failed save, the character takes 3 (1d6) poison damage. After three successful saves, the poison ends.
+
+
+
+#### Chameleon Concoction
+*Potion, Alchemy Of Transformation*::
+When you drink this potion, your skin camouflages
+to match the color and texture of your surroundings,
+granting you advantage on Dexterity (Stealth) checks
+you make to avoid being seen for 1 hour. This liquid’s
+hue rapidly shifts to match whatever material it is
+nearest to.
+
+#### Crawler Mucus
+*Poison, Advanced Poisoner*::
+
+A creature subjected to Crawler Mucus must succeed on a DC 13 Constitution saving throw or have the Poisoned condition for 1 minute. The creature also has the Paralyzed condition while Poisoned in this way. The creature repeats the save at the end of each of its turns, ending the effect on itself on a success.
+
+\column
+
+#### Drow Poison
+
+*Poison, Advanced Poisoner*::
+
+This poison is typically made only by the drow, and only in a place far removed from sunlight. A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or be poisoned for 1 hour. If the saving throw fails by 5 or more, the creature is also unconscious while poisoned in this way. The creature wakes up if it takes damage or if another creature takes an action to shake it awake.
+
+#### Potion of Clairvoyance
+*Potion, Alchemy Of Influence*::
+When you drink this potion, you gain the effect of the clairvoyance spell. An eyeball bobs in this yellowish liquid but vanishes when the potion is opened.
+
+#### Potion of Diminution
+*Potion, rare*::
+
+When you drink this potion, you gain the "reduce" effect of the enlarge/reduce spell for 1d4 hours (no concentration required). The red in the potion's liquid continuously contracts to a tiny bead and then expands to color the clear liquid around it. Shaking the bottle fails to interrupt this process.
+
+#### Potion of Gaseous Form
+*Potion, Alchemy Of Transformation*::
+
+When you drink this potion, you gain the effect of the gaseous form spell for 1 hour (no concentration required) or until you end the effect as a bonus action. This potion's container seems to hold fog that moves and pours like water.
+
+#### Potion of Healing (Superior) 
+*Potion, rare*::
+
+You regain 8d4 + 8 Hit Points when you drink this potion. Whatever its potency, the potion’s red liquid glimmers when agitated.
+
+
+#### Potion of Mind Reading
+*Potion, Alchemy Of Influence*::
+
+When you drink this potion, you gain the effect of the detect thoughts spell. The potion's dense, purple liquid has an ovoid cloud of pink floating in it.
+
+
+
+
+
+{{pageNumber,auto}}
+\page
+
+### 4 Reagent Die
+
+#### Necromantic Draught
+*Potion, Alchemy Of Ascendancy*::
+Pouring this potion on a Medium or Small humanoid
+corpse causes the effect of the animate dead spell for
+24 hours. You command undead animated in this
+way. This brightly glowing neon-yellow goo is repelled
+away from living things which touch its container.
+
+Oil of Etherealness
+Potion, rare
+
+Beads of this cloudy gray oil form on the outside of its container and quickly evaporate. The oil can cover a Medium or smaller creature, along with the equipment it's wearing and carrying (one additional vial is required for each size category above Medium). Applying the oil takes 10 minutes. The affected creature then gains the effect of the etherealness spell for 1 hour.
+
+
+#### Pale Tincture
+*Poison, Advanced Poisoner*::
+A creature subjected to this poison must succeed on a DC 16 Constitution saving throw or take 3 (1d6) poison damage and become poisoned. The poisoned creature must repeat the saving throw every 24 hours, taking 3 (1d6) poison damage on a failed save. 
+
+Until this poison ends, the damage the poison deals can't be healed by any means. After seven successful saving throws, the effect ends and the creature can heal normally.
+
+
+
+#### Potion of Healing (Supreme) 
+*Potion, very rare*::
+
+You regain 10d4 + 20 Hit Points when you drink this potion.
+
+Whatever its potency, the potion’s red liquid glimmers when agitated.
+
+#### Potion of Speed
+*Potion, Alchemy Of Ascendancy*::
+
+When you drink this potion, you gain the effect of the *haste* spell for 1 minute (no concentration required). The potion’s yellow fluid is streaked with black and swirls on its own.
+
+#### Potion of Stone Giant Strength 
+*Potion, Alchemy Of Ascendancy*::
+When you drink this potion, your Strength score changes to 23 for 1 hour. The potion has no effect on you if your Strength is equal to or greater than that score.
+
+This potion's transparent liquid has floating in it a sliver of fingernail from a stone giant.
+
+
+\column
+
+#### Oil of Etherealness
+*Potion, Alchemy Of Ascendancy*::
+
+Beads of this cloudy gray oil form on the outside of its container and quickly evaporate. The oil can cover a Medium or smaller creature, along with the equipment it's wearing and carrying (one additional vial is required for each size category above Medium). Applying the oil takes 10 minutes. The affected creature then gains the effect of the etherealness spell for 1 hour.
+
+
+#### Midnight Tears
+
+*Poison, Advanced Poisoner*::
+
+**Reagent Die:** 5::
+
+A creature that ingests this poison suffers no effect until the stroke of midnight. If the poison has not been neutralized before then, the creature must succeed on a DC 17 Constitution saving throw, taking 31 (9d6) poison damage on a failed save, or half as much damage on a successful one.
+
+#### Wyvern Poison
+
+*Poison, Advanced Poisoner*::
+**Reagent Die:** 6::
+This poison must be harvested from a dead or incapacitated wyvern. A creature subjected to this poison must make a DC 15 Constitution saving throw, taking 24 (7d6) poison damage on a failed save, or half as much damage on a successful one.
+{{pageNumber,auto}}
+\page
+## Fields Of Study
+All alchemists learn the basics of their science: the
+elements, chemical reactions, and alchemical formulae.
+Beyond that, alchemists pick up a specialty, which
+they practice and research in depth. Some focus on
+the healing arts, and some focus on destruction, while
+others focus on research or potion-brewing. Fields
+of study are as varied as the alchemists who research
+them and have applications equally as diverse.
+
+### Amorist
+The study of mind-affecting alchemy is a
+delicate one, practiced only by a small number of
+alchemists, known as amorists. Often called “love
+doctors” by their clientele, amorists specialize in the
+brewing of potions that produce strong emotional
+responses in their drinkers. While love potions are
+by far their most popular product, amorists can also
+craft pungent pheromone bombs which can even
+soften the hearts of terrible monsters.
+#### Bonus proficiencies
+When you choose this field of study at 3rd level, you gain proficiency in the Deception and Persuasion skills.
+
+Additionally, when you brew potions, you can create a Philter of Love for 1 Reagent.
+#### Formula:Pheromone Bomb
+Starting at 3rd level, you can craft pheromone bombs. By replacing your bomb’s explosive contents with a potent pheromone, you can change it into a pheromone bomb. A pheromone bomb requires a Wisdom saving throw instead of a Dexterity save.
+
+The bomb deals no damage, and instead causes the target, as well as each creature within the blast radius that fails its saving throw, to be charmed by you until the end of its turn or it takes damage.
+
+#### Magnetic Personality
+Starting at 6th level, you can add your Intelligence modifier to Charisma checks that you make.
+#### Alchemical Perfume
+Beginning at 10th level, you wear an aromatic mind-altering perfume which endears others to you.
+When a hostile creature within 5 feet of you makes an attack roll against you, it must make a Wisdom saving throw against you bomb save DC or have disadvantage on the attack roll. Once a creature succeeds on this saving throw, it is immune to this effect for 24 hours. Creatures which are immune to being charmed automatically succeed this save.
+
+\column
+#### Alchemical Romance
+At 14th level, when you use your Pheromone Bomb, you can expend 1–4 Reagents to improve it. Choose a number of benefits equal to the number of Reagents expended.
+
+**Dreamy Haze.** Choose one creature that has the Bomb’s Charmed condition. While Charmed, that creature falls into a dreamy state in which it regards every creature it sees as the condition’s charmer.
+
+**Extended Charm.** Choose one creature that has the Bomb’s Charmed condition. The Charmed condition lasts for 1 minute for it or until it takes damage.
+
+**Ignore Immunity.** Your Pheromone Bomb ignores Immunity to the Charmed condition.
+
+**Toxic Love.** A target hit by your Pheromone Bomb or that fails its saving throw against it takes Poison damage equal to 4d8 plus your Intelligence modifier. A creature takes half as much damage on a successful save. This damage doesn’t end the Bomb’s Charmed condition
+
+#### Potion of True Love
+Starting at 18th level, during a long rest, you can spend 4 reagent dice to make an extremely potent potion of true love. This potion acts much like a philter of love, except that when you make the potion, you choose the creature the target regards as its true love, provided the target knows the creature or meets it within 24 hours of consuming the potion.
+
+Additionally, this effect lasts indefinitely, ended only when you make a new potion of true love, or the effect is removed with a remove curse spell or similar magic. 
+
+When this potion’s effects are ended on a target, it regards the creature it once loved with total disgust, and can never love that creature again.
+{{pageNumber,auto}}
+\page
+
+
+
+### Apothecary
+
+Many practically-minded alchemists assume the role of the apothecary, for adventuring parties always needs a healer, and clerics might be in short supply.
+During their downtime, such alchemists have a marketable skill to depend upon for income and can do an indisputable amount of good with their knowledge. Apothecaries are constantly at work studying potions and herbology, preferring to learn how to mend the body, rather than destroy it.
+#### Bonus proficiencies
+When you choose this field of study at 3rd level, you gain proficiency in the Medicine skill.
+
+Additionally, you gain a bonus to checks using this skill equal to your
+Intelligence modifier (minimum bonus of +1).
+#### Formula: Painkiller Bomb
+At 3rd level, you can create painkiller bombs. By
+mixing your bomb’s explosive contents with a slurry
+of analgesic oil, you can change it into a painkiller
+bomb. A painkiller bomb deals no damage, and
+instead grants each creature within its blast radius
+temporary hit points equal to 1d8 plus half your
+alchemist level, which last until the end of your next
+turn. This bomb has no effect on constructs and undead.
+
+####  Concentrated Healing
+Starting at 6th level, you’ve developed a chemical mechanism to deliver potions more effectively to allies. When a creature regains Hit Points as a result of drinking one of your potions, it can instead replace up to half of the dice rolled with the highest possible number for each die.
+
+
+
+#### Self-Medication
+By 10th level, you’ve tested out your own tolerances to painkillers such that you can take a small measure regularly without ill effect. Whenever you drink a potion that has the effect of restoring your hit points (even if you already have all of your hit points), you gain advantage on saving throws until the end of your next turn.
+
+#### Alchemical Resurrection
+Starting at 14th level, your medicines are potent enough to rouse the dead. By using a action to mix diamond dust worth 500 GP into a Potion of Superior Healing or a Potion of Supreme Healing, you create a Potion of Resurrection. This potion doesn’t become inert after 24 hours.
+
+
+{{note
+##### Potion of Resurrection
+*Potion, Very Rare*::
+You can administer this potion to a dead creature as
+a Bonus Action. The creature gains the effect of the
+Raise Dead spell
+}}
+
+
+\column
+
+#### Panacea Mastery
+Starting at 18th level, your alchemical genius reaches its peak, allowing you to concoct a universal remedy. As an action, you can create a Panacea, a miraculous elixir that cures almost any ailment. A creature that drinks this potion (or has it administered using your Potion Toss feature) gains the following benefits:
+
+- Is cured of all diseases and poisons.
+
+- Has all conditions removed.
+
+- Regains all expended hit dice.
+
+- Regains hit points equal to their hit point maximum.
+
+- If the creature is missing any limbs or organs, they are restored after 1 minute of rest.
+
+Once you create a Panacea, you can’t do so again until you finish a long rest.
+{{pageNumber,auto}}
+\page
+### Bowgunner
+Explosive chemicals can be used for more than just bombs. By directing an explosion through a small tube, one can propel an object from said tube at high velocities. Some alchemists use this principle to their advantage, using their supplies to create handheld projectile launchers in lieu of bombs. Armed with such a weapon, an alchemist becomes a deadly and effective sharpshooter.
+
+#### Explosive Missile
+Starting when you choose this Field of Study at 3rd level, you gain the *Explosive Missile* discovery, which does not count against your total number of discoveries known. You also gain proficiency in the hand crossbow and heavy crossbow.
+
+Additionally, whenever you take a short or long rest you can create a number of crossbow bolts equal to 10 plus twice your alchemist level. The cost of materials necessary to create these bolts is negligible. 
+
+You create these crossbow bolts at the same time that you make bombs. Unused bolts fall apart after 24 hours.
+
+#### Bowgun Formula
+At 3rd level, you've engineered a system into your crossbow that mixes bomb formulae as they speed to their destination. Once per turn, you can apply any bomb formula to bombs you deliver with the Explosive Missile discovery. If the formula requires a saving throw, it no longer requires a saving throw and applies its effects when you hit with the attack.
+
+#### Extra Attack
+Starting at 6th level, you can attack twice, instead of once, whenever you take the Attack action on your turn, but only if both attacks are made using a Bomb or the Bomb’s Explode property through your *Explosive Missile* discovery.
+
+Each Bomb used this way is considered primed, gaining all the benefits described in your Bomb feature.
+
+Additionally, you can add your Intelligence modifier to the damage rolls of attacks made with *Explosive Missile*.
+
+#### Formula: Rocket Bomb
+Starting at 6th level you can craft rocket bombs, which have low explosive power of their own but excel at propelling other things. When this bomb is primed and thrown as an action it deals 1d4 bludgeoning damage. However when this bomb is primed for an Explosive Missile attack it’s damage increases to 1d12 piercing damage. 
+
+#### Quickened Load
+By 10th level you’ve learned how to load your bombs onto bolts faster than anyone else. You no longer have to use your bonus action to load your bomb onto your crossbow bolt for Explosive Missile.
+
+\column
+
+#### Mortar Shot
+Starting at 14th level, when you make an attack, you can fire it in a parabolic arc. This attack ignores half and three-quarters cover, as long as the target doesn’t have cover from above.
+
+#### Clust S Mk 3
+When you reach 18th level, you’ve developed a special cluster bolt, a projectile that fragments and scatters tiny shards of shrapnel in a large area.
+
+As an action, you can expend up to 5 reagent dice to fire a cluster bolt at a point that you can see within 100 feet of you. 
+
+Each creature within a 20-foot radius must make a Dexterity saving throw against your bomb save DC. A target takes 4d10 magical piercing damage for each die expended on a failed save, or half as much damage on a successful one.
+
+As a bonus action when you use this ability, you can apply any bomb formula you know to it, changing its damage dice, damage type, and effects accordingly.
+
+
+{{pageNumber,auto}}
+\page
+
+### Dynamo Engineer
+As an early alchemical thesis states, if the fundamental energy of magic could be captured within physical substance, there would be no need for magic-users. Some alchemists have founded their careers on this notion, inventing and iterating
+upon small devices known as spell dynamos, which can store and manipulate arcane energy. These dynamos can be configured to store their energy at a specific resonance, such that, when it is released, it perfectly replicates the effect of a spell. Indeed, these few alchemists have begun to brave the frontier of spellcasting without an ounce of arcane talent; just a knack for tinkering and endless inventiveness.
+
+#### Spectrum Analyzer
+Starting at 3rd level, you have invented a small device shaped like a monocle capable of rendering magical auras visible to the naked eye. You can cast the spell detect magic once without using a spell slot or spell components, and regain the ability to do so when you finish a short or long rest.
+{{classTable,frame
+##### Dynamo Engineer Spellcasting
+| Class  | Cantrips | Spells  |  Spells |  slot   |
+| Level ^| Known   ^| Known  ^|  Dynamo |  Level  |
+|:------:|:--------:|:-------:|:-------:|:-------:|
+|  3rd   |    2     |    2    |    2    |    1st  |
+|  4th   |    2     |    3    |    2    |    1st  |
+|  5th   |    2     |    3    |    3    |    1st  |
+|  6th   |    2     |    4    |    3    |    1st  |
+|  7th   |    2     |    5    |    3    |    2nd  |
+|  8th   |    2     |    6    |    4    |    2nd  |
+|  9th   |    2     |    7    |    4    |    2nd  |
+|  10th  |    3     |    7    |    5    |    2nd  |
+|  11th  |    3     |    8    |    5    |    2nd  |
+|  12th  |    3     |    9    |    6    |    2nd  |
+|  13th  |    3     |    9    |    6    |    3rd  |
+|  14th  |    3     |    9    |    7    |    3rd  |
+|  15th  |    3     |   10    |    7    |    3rd  |
+|  16th  |    3     |   11    |    8    |    3rd  |
+|  17th  |    3     |   12    |    8    |    3rd  |
+|  18th  |    3     |   12    |    9    |    3rd  |
+|  19th  |    3     |   12    |    10   |    4th  |
+|  20th  |    3     |   12    |    11   |    4th  |
+}}
+
+{{note
+##### Alternative Spellcasting List
+**Ask your DM**  
+The Wizard Spell List can be replaced by the Arcane Spell List
+}}
+\column
+
+#### Spell Dynamos
+Also at 3rd level, you’ve learned to cast spells by storing and releasing energy in spell dynamos. 
+
+**Spell Dynamos.** You power your spells through handheld arcane devices called Spell Dynamos, which
+each hold a single spell slot. The Dynamo Engineer Spellcasting table shows how many Spell Dynamos you have. The table also shows the level of spell slots held in your dynamos, all of which are the same level. To cast one of your Wizard spells of level 1+, you must expend a Spell Dynamo. You regain all expended Spell Dynamos when you finish a Long Rest.
+
+**Configuring Dynamos.** Unlike other spells, you must prepare the spells held in each of your Spell Dynamos in advance. When you finish a Long Rest, you configure each of your dynamos to cast a particular Wizard spell that you have prepared. When you finish a Short or Long Rest, you can reconfigure your unexpended dynamos to hold different spells that you have prepared.
+
+**Spells Known of 1st-Level and Higher.** You prepare the list of 1st level or higher spells that are available for you to cast with this feature. To start, choose three level 1 spells from the
+Wizard spell list.
+
+The number of spells on your list increases as you gain Alchemist levels, as shown in the Prepared Spells column of the Dynamo Engineer Spellcasting table. Whenever that number increases, choose additional spells from the Wizard spell list until the number of spells on your list matches the number on the table. The chosen spells must be of a level no higher than what’s shown in the table’s Slot Level column for your level.
+
+**Changing your Prepared Spells.** Whenever you gain
+an Alchemist level, you can replace one spell on your list
+with another Wizard spell for which you have spell slots.
+
+**Spellcasting Ability.** Intelligence is your spellcasting ability for your Wizard spells.
+
+**Spellcasting Focus.** You can use an Arcane Focus as a Spellcasting Focus for your Wizard spells.
+
+
+
+
+
+
+#### Formula:Arcano Bomb
+Starting at 6th level, you can use craft arcano bomb.
+By adding an unexpended dynamo to the bomb (and thus expending its spell slot), you can change it into an arcano bomb. An arcano bomb deals force damage instead of fire damage, has d12 damage dice, and deals an additional die of damage, as if a reagent die were added to it.
+{{pageNumber,auto}}
+\page
+#### Counter-Discharge
+Beginning at 10th level, when a creature you can see casts a spell which affects you, you can use your reaction to expend a spell dynamo to release a wave
+of disruptive magical energy. If the spell requires you to make a saving throw to resist its effects, you have advantage on the saving throw. 
+
+If the spell deals damage, you have resistance against it.
+
+Once you use this ability, you can’t use it again until you finish a long rest.
+
+#### Arcane Reactor
+At 14th level, immediately after a creature casts a spell that targets you or includes you in its area of effect, you can take a Reaction to capture the essence of the spell in an expended Spell Dynamo. 
+
+If you don’t have any expended dynamos, you can choose one to expend as a part of this Reaction. 
+
+You regain the use of this dynamo and it becomes configured to the spell, using the slot level at
+which it was cast. 
+
+The spell doesn’t need to be a Wizard spell or one for which you have spell slots.
+
+Once you use this feature, you can’t use it again until you finish a Short or Long Rest.
+
+#### Arcane Recycler
+By 18th level, you can convert otherwise wasted magical energy into a usable form. When you miss with an arcano bomb, you can recycle the spell slot stored in the dynamo and transfer it to one of a number waiting empty dynamos on your person.
+
+
+### Ionizer
+Research into alchemical alternatives to devices such as personal shield emitters is practiced by very few alchemists, more out of scientific curiosity rather than true innovative spirit. A select few, however, become true masters in energy manipulation. These so-called ionizers can bend most forms of energy to their will using sophisticated alchemical reactions.
+
+#### Bonus Proficiencies
+When you select this field of study at 3rd level, you gain proficiency with the Tinker's Tools and with two ranged weapon of your choice.
+
+#### Formula: Plasma Bomb
+At 3rd level, you can craft plasma bombs. By replacing your bomb's explosive reagent with an ion fluxer, you can change it into a plasma bomb. A plasma bomb deals radiant damage instead of fire damage. When you hit a creature with this bomb, an intense attractive force causes it to permanently stick to the creature, exploding at the end of the creature's turn. When this bomb explodes after
+sticking to a creature, it deals additional damage equal to your proficiency bonus.
+
+\column
+
+#### Heatsink
+
+By 6th level, you've learnt to optimize your loading weapons using plasma, whenever you make an attack with a ranged weapon with the loading property you can immediately make another attack with the same weapon as a bonus action, ignoring the loading property for this attack.
+
+You can use this ability a number of times equal to
+your Intelligence modifier and regain all expended uses
+when you finish a long rest.
+
+#### Kinetic Shield
+Starting at 10th level, you have discovered a way to
+deflect harmful projectiles by reverse engineering a
+plasma bomb. As a reaction when you would be hit by a
+ranged weapon attack that deals force, piercing, slashing, or bludgeoning damage, you can roll a d6. On a roll of 6, the attack misses you.
+
+#### Thermochemical Surge
+At 14th level, You’ve learned an alchemical trick to channel heat from one object to another. As a Bonus Action, you can expend 1 Reagent to use Overheat and Supercool.
+
+**Overheat.** You direct heat toward an enemy or a weapon you can see within 30 feet of you. If you choose a creature, it takes 2d10 Fire damage. If you choose a weapon, the weapon overheats. An Overheated weapon can’t be used again to make an attack until the end of your next turn.
+
+**Supercool.** You direct heat away from a weapon you can see within 30 feet of you, supercooling it. This weapon deals an extra 2d10 Cold damage on the next attack it makes before the end of your next turn.
+
+#### Energetic Discharge
+At 18th level, you create a fist-sized “discharge device” that can absorb, store, and redirect small amounts of any energy that hits you. When you use your Kinetic Shield feature, regardless of your roll, your discharge device gains 1 charge, to a maximum of 10. Charges last for 24 hours. As a bonus action on your turn, you can expend any number of stored charges and make a ranged attack roll against a target within 60 feet. On a hit, the target takes 1d8 force or piercing damage (your choice) for each charge expended.
+{{pageNumber,auto}}
+\page
+### Kinetic Breaker
+Kinetic Breakers view alchemy as a visceral, physical art. They eschew the safety of distance, channeling volatile reactions directly through their own bodies. To a Breaker, a bomb isn't just a projectile; it's an extension of their fist, a potion not just a draught, but a payload to be delivered on impact. These alchemists train their bodies to withstand the backlash of point-blank detonations, weaving through combat as living, breathing explosions.
+
+
+#### Bonus Proficiencies
+When you choose this field of study at 3rd level, you gain proficiency in the Athletics and Sleight of Hand skills. 
+
+Additionally, You can roll a d4 in place of the normal damage of your unarmed strike.
+
+#### Tactile Synthesis
+Starting at 3rd level, you no longer need to prepare all of your bombs during a rest. As a Bonus Action, you can touch a nonmagical object that isn’t being worn or carried by another creature and transform it into a contact bomb.
+
+The object remains volatile for 1 minute, or until it detonates.
+
+The first creature other than you to touch the object triggers an explosion, which deals damage equal to your primed bomb’s damage.
+
+You can have a number of objects transformed in this way at the same time equal to your Intelligence modifier (minimum of 1).
+
+#### Formula: Proximity Bomb
+Also at 3rd level, you learn the following formula, which does not count against the total number of formulae you know. By infusing an object with a delayed trigger, you change it into a proximity bomb. This bomb deals force damage and requires a Dexterity saving throw. On a failed save, the creature is knocked prone.
+
+
+#### Kinetic Infusion
+By 6th level, you have learned to deliver explosive payloads through physical strikes. Whenever you hit a creature with an unarmed strike, you can expend one of your Reagent Dice to cause the point of impact to explode. 
+
+The target takes the unarmed strike's damage plus the damage of your primed bomb. 
+
+This explosion does not have a radius unless you expend additional reagents to increase it.
+
+\column
+#### Volatile Surface
+Starting at 10th level, you can protect yourself by making your own gear dangerous to touch. As a Reaction when a creature hits you with a melee attack, you can expend 2 Reagents to cause your armor or skin to detonate at the point of contact. The attacker must make a Dexterity saving throw against your Bomb save DC.
+
+On a failure, the creature takes damage equal to your primed bomb damage and is pushed 15 feet away from you. On a success, the creature takes half damage and is not pushed.
+
+#### Living Bomb
+Beginning at 14th level, your touch can turn the very biology of a creature into an explosive catalyst. As an Action, you can make a unarmed strike against a creature. On a hit, you expend 5 Reagents to turn the creature into a Living Bomb for 1 minute. 
+
+While a Living Bomb, the creature takes 2d10 fire damage at the start of each of its turns as its internal chemistry boils. If the creature drops to 0 hit points or the duration ends, it explodes in a 20-foot radius. Every creature in the radius must make a Dexterity saving throw. On a failure, they take 10d10 force damage. On a success, they take half damage.
+
+The original "Living Bomb" creature is completely destroyed by this explosion.
+
+#### Molecular Chain Reaction
+At 18th level, your explosives can jump from one target to the next. When a creature dies from the explosion of your Living Bomb feature, you can use your Reaction to immediately turn one creature within the radius of that explosion into a new Living Bomb without expending additional reagents.
+
+
+
+
+{{pageNumber,auto}}
+\page
+
+### Mad Bomber
+While many “mad bombers” aren’t actually mad, it
+takes a special kind of crazy to devote one’s life to studying explosives. Most alchemists who specialize in this field are incorrigible pyromaniacs who take great pleasure in burning, blasting, and blowing things up. Mad bombers are always working to improve their bombs’ effectiveness.
+
+#### Blasting Speciality
+Starting when you choose this field of study at 3rd
+level, your bombs deal double damage to objects and
+structures.
+#### Formula:Shrapnel Bomb 
+At 3rd level, you can create shrapnel bombs. By
+augmenting your bomb’s explosive contents with
+metal bearings, you can change it into a shrapnel
+bomb. A shrapnel bomb deals piercing damage
+instead of fire damage, has d8 damage dice, and
+explodes in a 10-foot radius.
+#### Timed Demolition
+Starting at 6th level, when you take the Use an
+Object action to prime a bomb and throw it, you can
+set a duration for its detonation, which can be any
+number of rounds (any increment of 6 seconds) up
+to one minute. Following this duration, the bomb
+detonates at the end of your turn. No matter how
+many bombs detonate at once, a creature in more
+than one blast radius is affected only once.
+
+#### Blast Shield
+Starting at 10th level, you have developed an elemental plating to protect you from hazardous
+energies. You gain resistance to your choice of acid, cold, fire, or lightning damage and can change your selection whenever you finish a long rest.
+
+#### Overloaded Charge
+At 14th level, whenever you expend a number of Reagents equal to your Proficiency Bonus to empower a Bomb, you gain 2 additional Reagents which you can immediately expend to further empower the Bomb beyond the normal maximum of Reagents.
+
+#### Formula: Black Powder Bombs
+Beginning at 18th level, you can craft the dreaded black powder bombs. By replacing your bomb’s explosive contents with a charge of black powder, you can change it into a black powder bomb. A black powder bomb has d12 damage dice.
+
+
+{{pageNumber,auto}}
+\page
+### Mutagenist
+The study of alchemy is fundamentally the study of transformation. All alchemists transmute mundane materials into magical substances: potions, elixirs, and bombs, yet some take it one step further. You have discovered the secrets of the mutagen, the very keystone of transmutation, which allows you to transform your very body, gaining supernatural strength or speed, sprouting additional limbs or claws, or thickening your skin into a stony aegis.
+
+#### Bonus proficiencies
+Starting when you choose this field of study at 3rd level, you gain proficiency in your choice of the Acrobatics or Athletics skill, as well as with shields.
+
+#### Mutagen
+Also at 3rd level, you can use your bonus action to inject yourself with a powerful transmutative potion known as a mutagen. You gain one of the following benefits of your choice for 1 minute, or until you use your bonus action to inject yourself with a different
+mutagen:
+
+**Strength.** Your Strength score increases by 3, to a maximum of 23. 
+
+Additionally, you sprout claws, fangs, spines, horns, or a different natural weapon of your
+choice. 
+You can use this natural weapon to make Unarmed Strikes. 
+
+When you deal damage with an Unarmed Strike, you can deal damage equal to 1d8 plus your Strength modifier instead of the strike’s normal damage. 
+
+The damage of this strike is Bludgeoning, Piercing, or Slashing damage, as appropriate for the natural weapon.
+
+**Dexterity.** Your Dexterity score increases by 3, to a maximum of 23. Additionally, your movement speed increases by 10 feet.
+
+**Constitution.** Your Constitution score increases by 3, to a maximum of 23. 
+
+You gain Temporary Hit Points instead of increasing your Hit Point maximum or current Hit Points. If your Constitution modifier increases by 1, you gain Temporary Hit Points equal to your level.
+
+If the modifier increases by 2, you gain Temporary Hit Points equal to twice your level.
+
+These Temporary Hit Points last for the duration of the ability score increase.
+
+#### Shared Mutagen
+At 6th level, you can take a Bonus Action and expend 1 Reagent to inject an ally within 5 feet of you with a Mutagen of your choice. 
+
+A creature can only be under the effect of one Mutagen at a time.
+
+Once you have injected another creature with a Mutagen, you can’t do so again until the original Mutagen ends.
+
+
+\column
+
+
+#### Advanced Mutation
+Starting at 10th level, whenever you inject yourself with a mutagen, you can choose one of the following additional mutations:
+
+**Hyperelastic.** Your flesh takes on a rubbery quality, allowing you to bend and stretch with ease. Your melee weapon attacks gain the Reach property, if they did not already have them. Additionally, you have advantage on ability checks you make to escape grapple or slip binds.
+
+**Mucilaginous.** Your skin secretes a thick, extremely sticky substance which helps you adhere to objects. You can move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free. 
+You also have a climbing speed equal to your walking speed. 
+
+Additionally, creatures have disadvantage on ability checks made to escape grapple with you.
+
+**Polybrachia.** You grow a pair of additional arms. These arms are fully functional and can be used to hold weapons and shields (allowing you to hold 2 two-handed weapons, or 4 one-handed weapons), perform somatic components of spells, and perform other actions, though the arms themselves don’t grant you any additional actions.
+
+#### Mutated Blood 
+By 14th level, choose Strength, Dexterity, or Constitution. The chosen ability score increases by 2, and your maximum for this score increases to 22. When a Mutagen is applied to that ability score, its maximum increases to 25. 
+
+You can change this ability score increase when you finish a Long Rest.
+
+#### Perfect Chimera
+By 18th level, your mastery over mutagenic transmutation has reached its apex—you are no longer merely human, but a perfected amalgam of adaptability and power. 
+
+When you inject yourself with a Mutagen, you can select two different benefits instead of one (Strength, Dexterity, or Constitution). Both effects last for 1 minute, and you benefit from all associated bonuses. You still cannot benefit from more than one injection of mutagen at a time.
+
+{{pageNumber,auto}}
+\page
+### Ooze Rancher
+Unsurprisingly, oozes, jellies, and slimes are a fascinating subject of subject for alchemists who wish to piece together how inanimate chemicals can form together and rise up in a moving, hungry mass. The answer to this question may very well be at the
+heart of alchemy itself. Alchemists who choose to research slimes in depth are called ooze ranchers, for they breed and keep numerous slimes to experiment upon.
+
+#### Ooze Empathy
+Starting when you choose this field of study at 3rd level, you’ve developed a pheromone mix which engenders all kinds of slime to you. Whenever an ooze tries to attack you, it must make a Wisdom saving throw against your bomb save DC. On a failed
+save, its attack misses. On a successful save, the ooze is immune to this feature for the next 24 hours.
+
+#### Formula: Slime Bomb
+At 3rd level, you can create slime bombs. By mixing your bomb’s explosive contents with the remnants of an ooze, you can change it into a slime bomb. A slime bomb deals no damage, but coats each creature within the blast radius in a viscous, green slime. No creature coated in slime can take the Dash action or the Disengage action. Slime can be removed by dousing a creature with a gallon of water or by taking an action to remove most of it.
+
+#### Bottled Oozes
+Starting at 6th level, you’ve learned a clever alchemical trick for condensing oozes into denser states and storing them in stasis for later use. Whenever you brew potions, you can spend 2 reagent dice to create an ooze bottle.
+{{note
+##### Ooze Bottle
+*Potion, rare*
+
+As an action, you can throw this vial up to 20 feet, shattering it on impact and releasing a gray ooze. This ooze is friendly to you and your allies and will otherwise attack the nearest creature it can detect. If there is no creature to attack, the ooze will follow you. However, the biochemistry of this ooze is unstable, and the ooze dissolves into a lifeless sludge after one hour. The charcoal-colored liquid inside this bottle seems to lunge about with unnatural momentum.
+}}
+
+#### Liquid Anatomy
+By 10th level, your experiments with ooze alchemy has resulted in injecting yourself with a measure of ozoplasm, a fundamental substance which composes oozes and slimes. As a result, you can move through any space as narrow as 1 inch wide without squeezing (though your equipment does not similarly compress). Moreover, you take no additional damage from critical hits.
+
+\column
+
+#### Elemental Oozes
+By 14th level,  whenever you create a Bottled Ooze, choose Acid, Cold, Fire, Lightning, Poison, or Thunder damage. 
+
+The Ooze has Immunity to that damage. Whenever it is subjected to that damage type, it takes no damage and instead regains a number of Hit Points equal to half the damage dealt.
+
+
+#### Ooze Jug
+Beginning at 18th level, you’ve solved the major problem preventing large oozes from being bottled: you just needed a much larger bottle. You have one ooze jug, which functions like an ooze bottle, but contains a larger ooze. You can only have one ooze jug at a time and it can only contain one ooze at a time. You can fill it with the following oozes when you brew potions: 
+
+|Ooze| Cost  |   
+|:----|:-------|
+|Ochre Jelly|4 reagent die|
+|Gelatinous Cube|8 reagent die| 
+|Black Pudding|10 reagent dice|
+
+![Ooze](https://static1.thegamerimages.com/wordpress/wp-content/uploads/2023/03/collage-maker-27-mar-2023-01-05-pm-5128.jpg?q=50&fit=crop&w=737&dpr=1.5) {position:absolute,width:525px,mix-blend-mode:multiply,left:350px,top:800px}
+
+
+{{pageNumber,auto}}
+\page
+### Pigmentist
+One of the lesser-known duties of alchemists is synthesizing new and increasingly vibrant pigments from mundane and magical materials—in many cases, creating new colors from whole cloth. Alchemists who specialize in this field are called pigmentists. An artful and imaginative lot, they seek to brighten the world with their newly-invented hues, or failing that, simply splatter it with marvelous combinations of paint.
+
+#### Bonus Proficiencies
+Starting when you choose this field of study at 3rd
+level, you gain proficiency with painter’s supplies.
+Additionally, you can make a gallon of paint whenever
+you create bombs following a short or long rest.
+
+#### Formula: Paint Bomb
+Starting at 3rd level, you can replace your bomb’s
+contents with vibrant, magical paint, changing it into
+a paint bomb. A paint bomb’s damage dice are d6s.
+When you prime a paint bomb, you choose a color
+of paint from the following options to determine the
+bomb’s effect. Each creature within the blast radius is
+splattered in a coat of this magical paint. A creature
+covered in paint is affected by the paint until it dries
+after 1 minute, the paint is washed off with a gallon of
+water, or a new coat of paint of any color is applied.
+
+**Blue.** Once per turn when the target takes cold
+damage, it takes extra cold damage equal to your
+bomb’s damage roll.
+
+**Green.** The target treats the blast radius as
+difficult terrain.
+
+**Indigo.** Once per turn when the target fails a Strength, Dexterity, or Constitution saving throw, it takes force damage equal to your bomb’s damage roll.
+
+**Orange.** Whenever a target ends its turn in the
+blast radius, it takes acid damage equal to your bomb’s
+damage roll.
+
+**Red.** Once per turn when the target takes
+fire damage, it takes extra fire damage equal to your
+bomb’s damage roll.
+
+**Violet.** Once per turn when the target fails an
+Intelligence, Wisdom, or Charisma saving throw, it
+takes force damage equal to your bomb’s damage roll.
+
+**Yellow.** Whenever a target ends its turn in the blast
+radius, it takes lightning damage equal to your bomb’s
+damage roll.
+
+
+
+#### Illusory Paintings
+By 6th level, you mix your paint with conjuration magic. Once on each of your turns, you can use 10 feet of your movement to enter any area of wet paint within 5 feet of you, emerging from another area of wet paint of the same color within 60 feet of you. 
+
+Both areas of paint must be at least the same size as you and must have been coated within the last minute.
+
+\column
+
+#### Improved Paint Bomb
+Beginning at 10th level, you can choose to fill your paint bombs with white and black magical paint. The Armor Class of a creature coated with white magical paint increases by 1d6, to a maximum of 20, and it adds 1d6 to its saving throws.
+
+The Armor Class of a creature coated with black magical paint decreases by 1d6, to a minimum of 10, and it subtracts 1d6 from its saving throws.
+
+Only one creature can be painted by each these colors by you at time.
+#### Splatter Bombs
+By 14th level, your Paint Bombs are improved. When you use the Explode property of your Paint Bomb, you can choose for each creature within the area to automatically succeed or fail (your choice) on its saving throw against the Bomb.
+
+#### Rainbow Blast
+By 18th level, all of your bombs paint the world in vibrant colors. Whenever you prime and throw a
+bomb with a formula that has a blast radius, you can also change it to a paint bomb of any color except white or black. 
+
+The bomb first applies all the effects of its original formula, including dealing damage using
+the formula’s damage dice, then coats the creatures
+within the blast radius with magical paint.
+
+{{imageMaskCorner21,--offsetX:53%,--offsetY:-55%,--rotation:0
+  ![](https://i.imgur.com/nYAjoJx.png){height:50%,left:350px,top:605px}
+}}
+{{pageNumber,auto}}
+\page
+### Polymorphist
+Polymorphism is the subdomain of magic that governs transforming one creature into another. Typically, this magic is the domain of powerful spellcasters, as when a witch transforms a human into a frog or a druid assumes the shape of a bear.
+But a rare few alchemists have distilled the essence
+of polymorph into a formula, and then into an
+array of potions. Drink from one vial to become
+a cat; drink from another to become a griffon.
+Polymorphists can become any creature they like,
+or even a chimera of creatures if they mix their
+potions correctly.
+
+#### Bonus Proficiencies
+When you choose this field of study at 3rd level, you gain proficiency in the Nature and Survival skills.
+
+#### Polymorph Serum
+Also at 3rd level, you’ve unlocked the secrets of polymorphism, a field of alchemy that deals in transforming one creature into another. Until you reach 3rd level, you have 2 reagent dice, which you can spend only on crafting polymorph serums using this feature. You can brew polymorph serums whenever you brew potions.
+When you brew a polymorph serum, expend the number of reagent dice listed in the Polymorph Forms table and choose the form associated with the serum. As you gain levels in the alchemist class, additional forms become available. These serums retain potency for 24 hours, after which they become inert.
+
+When a Humanoid drinks this serum as an action, it polymorphs into the form associated with the serum, as per the polymorph spell, for a number of minutes equal to your alchemist level.
+
+The transformed creature uses its proficiency bonus instead of that of its new form.
+Starting at 6th level, while transformed, a creature’s attacks count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.
+{{
+##### Polymorph Forms
+| Alchemist Level| Cost  | Forms  |
+|---|----|----------------|
+| 1st | 1 reagent die | ape, axe beak, black bear, cat, frog, giant poisonous snake, octopus, rat, riding horse, wolf       
+| 3rd | 3 reagent die  | brown bear, dire wolf, giant hyena, giant octopus, giant spider, giant toad, lion, tiger |
+| 5th | 5 reagent die  | ankheg, giant boar, giant constrictor snake, giant elk, griffon, polar bear, rhinoceros   | 
+| 7th | 7 reagent die  |giant scorpion, killer whale, manticore, owlbear, phase spider,saber-toothed tiger, winter wolf |
+
+}}
+\column
+
+#### Formula: Capsule Bomb
+Starting at 6th level, you can craft capsule bombs
+to ensnare research specimens. This bomb
+is constructed in a glass sphere layered with
+transmutation magic. A capsule bomb deals no
+damage and has no blast radius, but if the target is
+a Beast of Large size or smaller or a Monstrosity on
+the Polymorph Forms table, it must succeed on a
+Wisdom saving throw or be snared by the bomb. 
+
+A Monstrosity automatically succeeds its saving throw
+if you aren’t of a high enough level, as noted on the
+table. The target is magically shrunk to Tiny size,
+teleported within the sphere, and placed in a state of
+suspended animation. Time ceases to flow for it, and
+it doesn’t grow older.
+When the sphere is thrown or broken as an
+action, the creature is released. For 1 hour, the
+creature is friendly to you and your companions
+and it obeys any verbal commands you issue to it
+(no action required by you). If you don’t issue any
+commands, it defends itself from hostile creatures,
+but otherwise takes no actions.
+
+You can have one creature inside a capsule
+bomb at a time. If you capture a new creature inside
+a capsule bomb, your previous capsule bomb breaks
+open and its creature is released.
+
+#### Swift Serum
+Beginning at 10th level, you can drink a polymorph
+serum whenever you roll initiative
+#### Adaptive Mutation
+At 14th level, your mastery of polymorphic alchemy allows your transformation to shift and adapt mid-combat. When you are under the effects of a polymorph serum, you can use a bonus action to mutate into another form available to you from the Polymorph Forms table, expending reagent dice equal to the cost of the new form. Your hit points adjust to the new form’s average HP or remain the same (whichever is lower), and your statistics and features change accordingly.
+
+Once you use this feature, you can’t do so again until you finish a short or long rest.
+
+#### Chimera Concoction
+By 18th level, when you drink a polymorph serum,
+you can mix two of your serums together and
+drink both simultaneously, creating a chimeralike amalgamation. Choose one of the forms as a
+primary form; the other is a secondary form. Your
+hit point maximum equals the sum of both forms’
+hit points. You assume the statistics of the primary
+form, and additionally gain any special senses,
+movement speeds, traits, and actions you choose
+from the secondary form.
+
+Once you use this feature, you can’t do so again
+until you finish a long rest.
+
+
+
+
+
+
+{{pageNumber,auto}}
+\page
+### Resonator
+The explosive force of an alchemist’s bomb isn’t just
+fire—it is a wave that can be shaped and focused.
+Alchemists who realize this and pursue the science
+of waves are deemed resonators for their oftrevisited subject, resonant frequencies. Perhaps such
+frequencies are at the center of all alchemical pursuits,
+for with the right frequencies, a resonator can warp
+explosions, flashbang dragons, and vibrate steel to
+pieces.
+
+#### Playback Device
+Starting when you choose this field of study at 3rd
+level, you construct a clockwork device for recording
+and playing back audio. You can record anything you have heard within the last minute using this device
+and can store up to 8 hours of audio. Audio played
+back sounds identical to when it was recorded, but
+you can’t use this device to replicate sounds loudly
+enough to deafen or deal damage. Additionally, you
+can playback audio up to three times as loud, allowing
+you to use the device as a megaphone.
+
+If your playback device is lost or stolen, you can
+build a new one for 100 gp over the course of a long
+rest.
+
+#### Formula: Conical Bomb
+Starting at 3rd level, you can attach a waveguide to
+the exterior of your bomb, changing it into a conical
+bomb. Instead of exploding in a radius, a conical
+bomb’s blast radius extends in a 15-foot cone from
+the point of impact, facing in a direction you choose.
+A conical bomb deals thunder damage instead of
+fire damage, its damage dice are d6s, and it requires
+a Constitution saving throw, instead of a Dexterity
+saving throw.
+
+#### Resonant Frequency
+By 6th level, you have discovered that every material
+has a resonant frequency, a specific tone that
+compromises its structural integrity. As an action, you
+can choose one type of solid material, such as wood,
+glass, metal, or stone, and begin playing the material’s
+resonant frequency through your playback device.
+While playing the resonant frequency, objects made of
+the specified material within 15 feet of you that aren’t
+being worn or carried take force damage equal 1d8 +
+your Intelligence modifier at the start of each of your
+turns. Constructs or elementals made predominantly
+of a single material, such as metal or stone, and
+components of objects, such as the metal lock of a
+door, can also be damaged by a resonant frequency.
+You can stop playing a resonant frequency on
+your turn (no action required).
+
+\column
+
+#### Improved Flashbang
+Starting at 10th level, your Flashbang feature improves
+in the following ways:
+
+- Your flashbangs affect creatures within 10 feet of you.
+- You can choose creatures within this area to be unaffected when you throw a flashbang.
+- Your flashbangs affect creatures of Huge size.
+
+
+#### Reverb Explosions
+At 14th level,  when you prime a Bomb and use its Explode property, you can spend 4 Reagents to create a reverb explosion. 
+
+If the Bomb deals damage, all if its damage dice decrease by 1 step (d12s → d10s → d8s → d6s → d4s, to a minimum of d4s). 
+
+At the start of your next turn, the explosion occurs again with the same area and damage, but its damage dice are decreased by a further 1 step.
+
+
+
+#### Harmonic Cataclysm
+At 18th level, you master the destructive power of synchronized resonance and unleash waves of devastating sonic force. When you hit a creature or object with a bomb that deals thunder or force damage, you can activate a Harmonic Cataclysm as part of the same action.
+
+Each creature of your choice within 30 feet of the target must make a Constitution saving throw against your bomb save DC. On a failed save, a creature takes 2d10 thunder damage and is deafened for 1 minute. On a success, a creature takes half damage and isn’t deafened.
+
+Additionally, all unattended objects and structures within 30 feet of the initial target made of the same material (such as wood, glass, or stone) suffer vulnerability to force and thunder damage until the end of your next turn, as your explosion finds and amplifies their resonant frequencies.
+
+Once you use this feature, you can’t use it again until you finish a long rest, unless you expend 6 Reagents to use it again.
+{{pageNumber,auto}}
+\page
+
+
+### Venomsmith
+For every alchemist that has devoted his or her life to healing the sick and infirm, there is another with a darker calling. Commonly called poisoners or venomsmiths, these alchemists are masters in the art of crafting deadly and debilitating poisons. Whether employed by an assassin’s guild or performing assassinations themselves, a venomsmith’s presence is usually accompanied by untimely death.
+
+#### Poisoner
+Beginning when you choose this field of study at 3rd level, you gain the Poisoner discovery. Until you reach 3rd level, you have 2 reagent dice which can spend only on crafting poisons using this discovery. You can’t later replace this discovery with a different one when you gain a level in this class. 
+
+Additionally, when you deal poison damage to a creature, you ignore resistance to poison damage and you treat immunity to poison damage as resistance instead, dealing half damage.
+
+#### Formula: Venom Bomb
+At 3rd level, you can create venom bombs. By mixing a few drops of a fast-acting toxin into your bomb’s explosive components, you can change it into a venom bomb. A venom bomb deals poison damage instead of fire damage, has d8 damage dice, and requires a Constitution saving throw instead of a Dexterity save. 
+
+Additionally, the target, as well as each creature within the blast radius that fails its saving throw, have disadvantage on the next Strength, Dexterity, or Constitution saving throw it
+makes before the end of its next turn.
+
+#### Alchemical Assassin
+Beginning at 6th level, you are adept at applying poisons without being seen. You have advantage on Dexterity (Sleight of Hand) checks you make to add ingested poisoned to food or drink, to apply poison to a weapon you are holding without being seen, or to place a vial of poison on another person without them noticing.
+
+#### Mithridatism
+By 10th level, by administering yourself small doses of various poisons and toxins, you have developed immunity to their ravages. You have immunity to poison damage and to being poisoned.
+
+\column
+
+#### Toxic Recompense
+Starting the 14th level, whenever a creature within 5 feet of you hits you with a melee attack, you can use your reaction to unleash a spray of poisonous vapor. 
+
+The attacker must make a Constitution saving throw against your bomb save DC or be poisoned for 1 minute.
+
+While poisoned, the creature takes 1d10 poison damage at the start of each of its turns.
+
+A poisoned creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+
+#### Master of Venoms
+At 18th level, you have perfected your alchemical toxins to the point where they transcend mortal resilience. Your poisons bypass even the most unnatural defenses and linger with lethal potency.
+
+When you deal poison damage to a creature, you ignore poison resistance and poison immunity entirely. Such creatures take full damage from your poison sources.
+
+Additionally, a creature that fails a saving throw against your Toxic Recompense or Venom Bomb effects can’t regain hit points until the end of its next turn.
+{{pageNumber,auto}}
+\page
+### Xenoalchemist
+A small number of renegade alchemists elect to experiment on themselves, modifying their anatomy or even outright attaching new body parts. These experiments are often considered unethical and dangerous, even by other alchemists, and those that practice them are branded xenoalchemists for their efforts. As xenolchemists progress in their studies, they invariably stumble upon the dangerous practice of alchemical necromancy, which allows them to imbue unlife upon amalgamations of body parts.
+
+#### Xenobiology
+Starting when you choose this field of study at 3rd level, you have advantage on all ability checks you make to identify or research monsters.
+
+Additionally,  you gain the *Craft Homunculus* discovery, which does not count against your total number of discoveries known.
+#### Mad Scientist
+By 3rd level, you’ve learned the finer points of reanimating dead appendages and stitching them to things. You gain two monstrous grafts of your choice. Additionally, you don’t lose hit points or hit dice from installing or removing grafts, and it takes you no time to recover after the attachment of a new graft. See below for monstrous grafts.
+
+#### Formula: Sleep Bomb 
+Also 3rd level, by adding a tranquilizer to your Bomb, you can change
+it into a Sleep Bomb. This Bomb deals no damage. When
+you use the Bomb’s Explode property, each creature within
+the explosion makes a Wisdom saving throw, instead of
+Dexterity. 
+
+A target hit by this Bomb or that fails its saving
+throw against it has the Incapacitated condition until
+the end of its next turn at which point it must repeat the
+save. If the target fails the second save, the target has the
+Unconscious condition for 1 minute. The condition ends
+on a target if it takes damage or someone within 5 feet of
+it takes an action to shake it out of the Bomb’s effect.
+Creatures that don’t sleep, such as elves, or that have
+Immunity to the Exhaustion condition automatically
+succeed on saves against this Bomb.
+
+A creature that
+succeeds on its saving throw against the Bomb is Immune
+to its conditions for 24 hours.
+
+You can use this formula a number of times equal to
+your Intelligence modifier (minimum of once) and regain
+all expended uses when you finish a Long Rest.
+
+\column
+
+#### Surgical Attack
+Beginning at 6th level, whenever you take the Attack or Use an Object action on your turn, you can make an unarmed strike.
+
+You can take the Search action to examine a creature as a Bonus Action. You learn the target’s creature type and make a DC 15 Intelligence check using a skill from the Examine Specimen table, corresponding to the target’s creature type. If you succeed, you learn one of the following pieces of information of your choice about the target: its AC, Immunities, Resistances, and whether it is have half your Hit Points or fewer.
+
+Whether you succeed or fail, you can’t use this feature again to target that creature or another creature of its specific kind (such as humans or unicorns) until you finish a Short or Long Rest.
+
+##### Examine Specimen
+Skill| Creature Type
+:-:|:--:
+Arcana| Aberrations, Constructs, Elementals, Fey, and Monstrosities
+History| Giants and Humanoids
+Nature| Beasts, Dragons, Oozes, and Plants Religion Celestials, Fiends, and Undead
+
+
+#### Necromantic Organs
+By 10th level, you’ve learned how to tinge your own biology with necromancy through reanimated organs that will persist after your death. If you drop to 0 hit points and don’t die outright, you drop to 1 hit point instead.
+
+Once you use this ability, you can’t use it again until you finish a long rest.
+
+
+
+{{pageNumber,auto}}
+\page
+#### It's Alive!
+Beginning at 14th level, your research into necromancy has culminated in golem stitched together from discarded body parts. This golem uses the Alchemy Golem stat block.
+
+**Creating or Replacing the Golem.** You can make a golem using 3 Humanoid corpses in a process that requires 8 hours of work, which can be done during a Long Rest. If you already have a golem from this feature, the old one dies when the new one is completed.
+
+**Golem in Combat.** The golem is under your control and is an ally to you and your allies. In combat, it takes its turn immediately before or after your turn each round (your choice). You can take a Bonus Action to mentally command the golem if it is within 500 feet of you. If you issue no commands, the golem takes the Dodge action and moves only to avoid harm.
+
+**Golem Grafts.** You can attach up to three monstrous grafts to the golem.
+
+**Restoring the Golem.** If the golem has died within the last hour, you can take a Magic action to touch it and expend 1 Reagent. The golem returns to life with a number of Hit Points equal to 1d10 plus your Intelligence modifier
+
+\column
+
+#### Apotheosis of Flesh
+At 18th level, your body has become a perfected vessel of alchemical necromancy—a living monument to your craft. You undergo a final transformation, permanently fusing your flesh with resilient grafts, undead organs, and chemical stabilizers. You can now have up to five monstrous grafts attached to yourself at once.
+
+Addiotionally, you gain resistance to necrotic and poison damage, and you are immune to disease and the poisoned condition.
+{{monster,frame,wide
+## Alchemy Golem
+*Medium Construct, Neutral*
+___
+**Armor Class** :: 13 plus your Intelligence modifier (natural armor)
+**Hit Points**  :: 7 plus seven times your Alchemist level (the golem has a number of Hit Dice [d8s] equal to your Alchemist level)
+**Speed**       :: 30 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|17 (+3)|9 (-1) |18 (+4)|6 (-2) |10 (+0)|5 (-3) |
+___
+**Damage Resistances** :: bludgeoning, piercing and slashing 
+**Condition Immunities**   ::  charmed, exhaustion, frightened, paralyzed, petrified, poisoned
+**Senses**            :: darkvision 60 ft., passive Perception 13
+**Languages**            :: understands the languages of its creator but can’t speak
+**Challenge**            :: 5 (1,800 XP)
+___
+
+***Immutable Form.*** The alchemy golem is immune to any spell or effect that would alter its form.
+:
+***Aversion to Fire.*** Whenever the alchemy golem takes fire damage, it has disadvantage on ability checks and attack rolls until the end of its next turn.
+:
+***Lightning Absorption.*** Whenever the alchemy golem is subjected to lightning damage, it takes no damage and instead regains a number of hit points equal to half the lightning damage dealt. 
+:
+***Magic Resistance.*** The alchemy golem has advantage on saving throws against spells and other magical effects.
+:
+***Monstrous Grafts.*** The alchemy golem’s weapon attacks, including monstrous grafts added by its creator, are magical. Monstrous grafts have a +6 attack bonus, deals twice the normal number of damage dice, and add 5 to damage rolls. The alchemical golem can only have 1 graft in each slot.
+
+### Actions
+***Multiattack.*** The alchemy golem makes two melee weapon attacks. 
+:
+***Slam.*** *Melee Weapon Attack:* +6 to hit, reach 5ft., one target. *Hit* 12 (2d8 + 3) bludgeoning 
+
+}}
+
+
+{{pageNumber,auto}}
+\page
+
+## Monstrous Graft
+:
+Adopting the fearsome claws of a monstrosity or the scorching breath of a dragon is an unusual but surefire way to gain an advantage over one’s foes.
+
+However, many find the practice of Xenoalchemy, or Graftworking, which involves surgically attaching monstrous parts onto a humanoid body, distasteful, if not outright revolting. This fringe science, obsessed with the limbs and organs of monsters, can replace the limbs of amputees, grant adventurers the uncanny ability to see in the dark, and empower them with unconventional weapons and senses.
+
+**Harvesting a Graft.** Grafts are harvested from the fresh corpses of monsters, slain within the last 48 hours or preserved by gentle repose or a similar spell.
+
+Harvesting a graft from a corpse takes 10 minutes. Only one graft can be harvested from each corpse. If the graft is too large or too small, it is alchemically enlarged or reduced to fit. You cannot harvest grafts from Tiny creatures or from Gargantuan or larger creatures.
+
+Different types of monstrous grafts can only be harvested from monsters with specific properties, as specified in the graft’s Donor section.
+
+**Attaching a Graft.** Attaching a graft for the first time is a laborious surgical procedure, normally removing an original body part. This procedure takes one hour and requires a healer’s kit, alchemical supplies, and a knife (or a facility with access to such tools), as well as someone with proficiencies in these tools or with the Medicine skill to perform the operation. A monstrous graft is permanent until another graft is provided to replace it.
+
+You can only have one component in each of your body slots. This surgery is intensive and necessitates recovery time. When you finish installing a monstrous graft into your body, you lose half your hit points and all of your hit dice. 
+
+For 24 hours after installation, you can’t use the graft’s abilities, as you adjust to its presence. Replacing a graft or adding a new graft in its body slot takes only 30 minutes. 
+
+You still lose half your hit points when replacing a graft, but you don’t lose hit dice.
+
+
+**Body Slots.** Each graft takes up one of the following slots: Arms, External, Head, Internal, or Legs. You cannot have more than one graft in the same slot. For instance, if you already have an arm graft, you must remove it before you can attach a different arm graft.
+
+**Cost.** Not all grafts can be easily obtained, but when grafts can be purchased, suggested prices are shown on the Graft Cost table below. Most of these can be acquired at even cheaper rates if one is willing to track down a disreputable establishment specializing in dealing grafts and accept the risks inherent to an unsanitary operation.
+
+\column
+
+##### Graft Cost
+Graft| Cost
+|:-|-:|
+Amphibious Adaption|400 gp
+Arcane Synapses|1,000 gp
+Beast’s Hide|250 gp
+Bestial Weapons| 200 gp
+Charging Hooves| 350 gp
+Climbing Apparatus| 1,250 gp
+Darkvision|300 gp |
+Draconis Fundamentum|1,000 gp
+Dragon’s Hide|2,250 gp
+Energetic Suture|500 gp
+Heart of Steel|2,250 gp
+Horns|350 gp
+Fiend’s Hide|1,500 gp
+Flexible Form|750 gp|
+Indiscernible Anatomy|1,250 gp
+Leaping Legs |400 gp
+Olfactory Implants|200 gp
+Oversized Arms| 1,500 gp
+Prehensile Tail|350 gp
+Regenerating Marrow|500 gp
+Replacement|400 gp
+Stench|400 gp|
+Tentacles|500 gp
+Venom Sac |350 gp
+Voice Box|150 gp
+Webspinner Apparatus|500 gp
+
+{{imageMaskCorner26,--offsetX:55%,--offsetY:-48%,--rotation:0
+  ![](https://i.imgur.com/qj5rRg7.jpg){mix-blend-mode:multiply,height:55%,left:300px,}
+}}
+
+
+
+{{pageNumber,auto}}
+\page
+
+
+
+## Grafts
+The following monstrous grafts are listed alphabetically.
+
+#### Amphibous adaptation
+
+**Donor:** :: Any creature with the Amphibious trait
+**Slot:**  :: Head
+
+You have grafted the gills of an aquatic creature to your neck, allowing you to breathe both air and water. 
+
+Additionally, you attach minimal fins and gain a swim speed equal to your movement speed.
+
+
+#### Arcane synapses
+
+**Donor:** :: Any creature with the Innate Spellcasting
+**Slot:**  :: Head
+
+You have stolen a bit of arcane potential from a creature by inserting some of its nerves into your brain. You learn one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for this cantrip.
+
+By harvesting a second creature, you can improve this graft and learn an additional wizard cantrip of your choice.
+
+#### Beast's hide
+
+**Donor:** :: Beast of Large size or larger
+**Slot:**  :: External
+
+You have transplanted the thick (and possibly furry) hide from a wild beast onto your body. Your Armor Class equals 13 + your Dexterity modifier.
+
+#### Bestial weapons
+
+**Donor:** :: Beast, Dragon, Monstrosity with Bite or Claw attack
+**Slot:**  :: Arms or Head
+
+You have surgically implanted either the teeth or claws from a monster into yourself, which are natural weapons which you can use to make unarmed strikes. By harvesting a second creature, you can improve this graft to gain both the claws and teeth.
+
+You can use Dexterity instead of Strength for the attack rolls of your unarmed strikes made using your teeth or claws. If you hit with them, you deal damage equal to 1d6 + your Strength or Dexterity modifier (your choice), instead of the bludgeoning damage normal for an unarmed strike. 
+
+Your claws deal slashing damage and take up the Arms slot, whereas your teeth deal piercing damage and take up the Head slot.
+
+#### Charging hooves
+
+**Donor:** :: Any creature with a Charge trait or a Gore or Hooves attack
+**Slot:**  :: Legs
+
+You have replaced your legs with those of a creature known for running down their foes. Once on each of your turns, when you move at least 15 feet in a straight line, you can move up to 10 additional feet in that direction without spending additional movement.
+
+\column
+
+
+#### Climbing apparatus
+
+**Donor:** :: Beast, Humanoid, or Monstrosity with a climb speed
+**Slot:**  :: Legs
+
+You have replaced or complemented your limbs with those of a climbing creature. You gain a climb speed equal to your movement speed.
+
+#### Darkvision
+
+**Donor:** :: Any creature with darkvision
+**Slot:**  :: Head
+
+You have replaced your own eyes with those of a monster with keen nightvision. You gain darkvision, the ability to see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.
+
+#### Doppel-blooded
+
+**Donor:** :: Any creature with the shapechanger subtype
+**Slot:**  :: Internal
+
+You transform your appearance for up to an hour. 
+
+You decide what you look like, including your height, weight, facial features, sound of your voice, hair length, coloration, and distinguishing characteristics, if any. You can make yourself appear as a member of another race, though none of your statistics change.
+
+You also can't appear as a creature of a different size than you, and your basic shape stays the same; if you're bipedal, you can't use this ability to become
+quadrupedal, for instance.
+
+Once you use this ability, you can’t use it again until you finish a long rest.
+
+
+#### Draconis fundamentum
+
+**Donor:** :: Humanoid, Dragon, or Monstrosity with a Breath weapon
+**Slot:**  :: Internal
+
+You have installed the mighty source of breath weapons into yourself, and as an action on your turn, you can exhale a wave of energy. Each creature in a 15-foot cone must make a Dexterity saving throw (DC equals 8 + your Constitution modifier + your proficiency bonus). On a failed save, the creature takes 1d6 damage for each point of your proficiency bonus, or half as much on a successful one. 
+
+The breath’s damage is the same type as the donor’s breath weapon.
+
+Once you use this ability, you can’t use it again until you finish a short or long rest.
+
+
+
+
+
+{{pageNumber,auto}}
+\page
+
+#### Dragon's hide
+
+**Donor:** :: Dragon of Large size or larger
+**Slot:**  :: External
+
+You’ve transplanted the scaly, diamond like hide of a dragon onto your body. Your Armor Class equals 17. You also gain resistance to one of the following damage types to which the donor dragon was immune: acid, cold, fire, lightning, or poison
+damage. You can only install this graft if you are proficient with heavy armor.
+
+#### Energetic suture
+
+**Donor:** :: Celestial, Dragon, Elemental, Fey, or Fiend with immunity or resistance to acid, cold, fire, lightning, poison, or thunder damage
+**Slot:**  :: External
+
+You have managed to capture the essence of extraplanar resistance to magic. You gain resistance to one of the following damage types to which the donor was immune or resistant: acid, cold, fire, lightning, poison, or thunder.
+
+#### Fiend's hide
+**Donor:** :: Fiend of Medium size or larger
+**Slot:**  :: External
+
+You have transplanted the supernaturally tough hide of a fiend onto your body. Your Armor Class equals 15 + your Dexterity modifier (maximum 2).
+
+
+
+#### Heart of steel
+
+**Donor:** :: Any construct
+**Slot:**  :: Internal
+
+You have replaced your heart with the core from a construct. As a result, you can ignore the effects of 1 level of exhaustion, and you only need to rest for 4 hours to gain the same benefit that a human does from 8 hours of rest.
+
+
+
+#### Horns
+
+**Donor:** :: Any creature with a Gore, Horns, Ram, or Tusk attack
+**Slot:**  :: Head
+
+You attach a study pair of horns or tusks onto your body, which are a natural weapon that you can use to make unarmed strikes. If you hit with them, you deal damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. Your horns deal the same type of damage as the donor (usually bludgeoning or piercing damage).
+
+Additionally, if you move in a straight line for 10 feet immediately before hitting a creature with your horns, that creature must make an opposed Strength check or be knocked prone.
+
+\column
+
+{{note
+##### Harvesting extraplanar creatures
+Harvesting grafts from extraplanar creatures is extremely difficult, as these creatures typically return to their home plane once slain. However, it is possible to harvest grafts from a celestial, elemental, fey, or fiend if it is first affected by a planar binding spell, and then slain, harvested, and its graft surgically attached before the spell ends.
+}}
+
+
+
+#### Indiscernible anatomy
+**Donor:** :: Aberration of Medium size or larger
+**Slot:**  :: Internal
+
+You have spliced aberrant genetics into your body, which have subsequently altered the placement and composition of your internal organs. Any critical hit against you becomes a normal hit.
+
+#### Leaping legs
+**Donor:** :: Any creature with the Pounce or Standing Leap trait
+**Slot:**  :: Legs
+
+You have spliced aberrant genetics into your body, which have subsequently altered the placement and composition of your internal organs. Any critical hit against you becomes a normal hit.
+
+You have replaced or modified your legs with the muscular limbs of a bounding creature. Your jump distance doubles. Additionally, you can jump your full distance with or without a running start.
+
+#### Olfactory Implants
+
+**Donor:** :: Any creature with the Keen Smell or Keen Hearing and Smell trait
+**Slot:**  :: Head
+
+You have replaced or modified your nose with that of a creature with keen smell. You have advantage on Wisdom (Perception) checks that rely on smell.
+
+
+#### Oversized arms
+
+**Donor:** :: Giant
+**Slot:**  :: Arms
+
+You have replaced your arms with a giant’s massive limbs. Your melee attacks gain Reach if they did not have it already. If you are Small, you can wield heavy weapons with which you are proficient without penalty. Additionally, you have advantage on Strength checks and saving throws you make to maintain your grip on objects.
+
+{{pageNumber,auto}}
+\page
+
+#### Prehensile tail 
+
+**Donor:** :: Any creature with a Tail attack
+**Slot:**  :: External
+
+You surgically attach a muscular, prehensile tail, which is a natural weapon that you can use to make unarmed strikes. You can use Dexterity instead of Strength for the attack rolls of your unarmed strikes made using your tail. If you hit with it, you deal bludgeoning damage equal to 1d6 + your Strength or Dexterity modifier (your choice), instead of the damage normal for an unarmed strike.
+
+Additionally, you can hold and manipulate objects and weapons with your tail, but you can’t make attacks with weapons held by your tail or wield a shield with your tail and gain its benefits.
+
+
+#### Regenerating marrow
+
+**Donor:** :: Any creature with the Regeneration trait
+**Slot:**  :: Internal
+
+You have replaced your bone marrow with that of a regenerating creature. On your turn, you can use a bonus action to regain hit points equal to 1d10 + your Constitution modifier.
+
+Once you use this ability, you can’t use it again until you finish a short or long rest.
+
+#### Replacement
+
+**Donor:** :: Any
+**Slot:**  :: Any
+
+One or more of your organs or limbs has been replaced with a part harvested from a monster. A replacement can effectively solve any amputation or organ failure, but they cannot return to life someone that has died; such work is solely the domain of necromancy. 
+
+Replacement limbs can resemble the original limb, or can demonstrate obvious
+monstrous characteristics, depending on the donor.
+
+A replacement organ or limb takes up one body slot relevant to it; for example, a troll’s hand takes the Arms slot and a replacement kidney takes up the Internal slot.
+
+#### Stench
+
+**Donor:** :: Any creature with the Stench trait
+**Slot:**  :: Internal
+
+As a bonus action, you can release a foul liquid contained within an organ taken from the donor creatures. Each creature within 10 feet of you must make a Constitution saving throw (DC equals 8 + your Constitution modifier + your proficiency bonus) or be poisoned until the end of its next turn.
+
+Once you use this ability, you can’t use it again until you finish a short or long rest.
+
+\column
+
+#### Tentacles 
+**Donor:** :: Any creature with a Tentacles or Tendrils attack
+**Slot:** :: Arms
+
+You surgically replace or modify one or both of your arms with a flexible tentacle or tendril, which is a natural weapon you can use to make unarmed strikes against targets up to 10 feet away from you. You can use Dexterity instead of Strength for the attack rolls of your unarmed strikes made using your tentacle.
+
+If you hit with it, you deal bludgeoning damage equal to 1d6 + your Strength or Dexterity modifier (your choice), instead of the damage normal for an unarmed strike.
+
+Additionally, when you hit a target with a melee attack using your tentacles, you can use your bonus action to attempt to grapple the target.
+
+#### Venom sac
+**Donor:** :: Any creature which can poison a creature or deal poison damage with an attack not provided by a weapon
+**Slot:** :: Internal
+
+You have installed a gland which secretes poison from your body. As a bonus action, you can coat a natural weapon, if you have one, or a weapon you are holding in basic poison. The save DC for the poison equals 8 + your Constitution modifier + your proficiency bonus.
+
+Once you use this ability, you can’t use it again until you finish a short or long rest.
+
+#### Voice box
+**Donor:** :: Any creature with the Mimicry trait
+**Slot:** :: Head
+
+You have augmented your own vocal folds with those of a creature that can mimic sounds. You can mimic any sounds you have heard, including voices. 
+
+A creature that hears the sounds can tell they are imitations with a successful Wisdom (Insight) check, contested by your Charisma (Deception) check.
+
+#### Webspinner apparatus
+**Donor:** :: Any creature with a Web action
+**Slot:** :: Internal
+ 
+You have installed spinnerets from a spiderlike creature into your body, allowing you to produce webs. You can cast the spell web without using spell slots or spell components (DC equals 8 + your Constitution modifier + your proficiency bonus). 
+
+Once you use this ability, you can’t use it again until you finish a short or long rest.

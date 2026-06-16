@@ -1,0 +1,2241 @@
+```metadata
+title: Monk
+description: ''
+tags: []
+systems: []
+renderer: V3
+theme: 5ePHB
+
+```
+
+```css
+.page{
+	width  : 210mm;
+	height : 296.3mm;
+}
+
+css
+
+.page .columnWrapper {
+	height: 100%
+}
+
+.page .toc.wide {
+	columns: 1;
+	height: 100%;
+}
+
+.page .toc > ul > li {
+	font-weight:100;
+	margin-bottom:-2.1px;
+
+}
+
+.page .toc ul ul {
+	margin-left: 0;
+	font-weight: 50;
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```
+
+{{frontCover}}
+
+{{logo ![](/assets/naturalCritLogoRed.svg)}}
+
+# Monk
+![background image](https://i.imgur.com/RY2LreE.jpg){position:absolute,bottom:0,left:0,height:100%}
+
+\page
+{{toc,wide
+
+  - ### [{{ Monk}}{{ 3}}](#p3)
+    -  [{{ Masters of Body, Mind, & Spirit}}{{ 3}}](#p3)
+    -  [{{ Mystic Asceticism}}{{ 3}}](#p3)
+    -  [{{ Creating Your Monk}}{{ 3}}](#p3)
+  - ### [{{ Class Features}}{{ 4}}](#p4)
+    -  [{{ Martial Arts}}{{ 5}}](#p5)
+    -  [{{ Unarmored Defense}}{{ 5}}](#p5)
+    -  [{{ Ki}}{{ 5}}](#p5)
+    -  [{{ Flurry of Blows}}{{ 5}}](#p5)
+    -  [{{ Unarmored Movement}}{{ 5}}](#p5)
+    -  [{{ Monastic Tradition}}{{ 5}}](#p5)
+    -  [{{ Ability Score Improvement}}{{ 5}}](#p5)
+    -  [{{ Extra Attack}}{{ 5}}](#p5)
+    -  [{{ Enlightened Fist}}{{ 5}}](#p5)
+    -  [{{ Spirit of Tranquility}}{{ 6}}](#p6)
+    -  [{{ Purity of Body}}{{ 6}}](#p6)
+    -  [{{ Ki control}}{{ 6}}](#p6)
+    -  [{{ Evasion}}{{ 6}}](#p6)
+    -  [{{ Timeless Body}}{{ 6}}](#p6)
+    -  [{{ Ascended Soul}}{{ 6}}](#p6)
+- ### [{{ Monastic Traditions}}{{ 6}}](#p6)
+  -  [{{ Way of the Astral Self}}{{ 6}}](#p6)
+  -  [{{ Way of the Ascendant Dragon}}{{ 7}}](#p7)
+  -  [{{ Way of the Boulder}}{{ 8}}](#p8)
+  -  [{{ Way of the Bow}}{{ 9}}](#p9)
+  -  [{{ Way of the Brawler}}{{ 10}}](#p10)
+  -  [{{ Way of the Butterfly (Exclusive)}}{{ 11}}](#p11)
+  -  [{{ Way of the Dodo}}{{ 12}}](#p12)
+  -  [{{ Way of the Drunken Fist}}{{ 13}}](#p13)
+  -  [{{ Way of the Eight Gates}}{{ 14}}](#p14)
+  -  [{{ Way of the Eldritch Soul}}{{ 15}}](#p15)
+  -  [{{ Way of the Feather}}{{ 16}}](#p16)
+  -  [{{ Way of Ferocity}}{{ 17}}](#p17)
+  -  [{{ Way of the Flagellant}}{{ 18}}](#p18)
+  -  [{{ Way of the Flowing River}}{{ 19}}](#p19)
+  -  [{{ Way of the Four Fists}}{{ 19}}](#p19)
+  -  [{{ Way of Gravity}}{{ 20}}](#p20)
+  -  [{{ Way of the Hurricane}}{{ 20}}](#p20)
+  -  [{{ Way of the Mask}}{{ 21}}](#p21)
+  -  [{{ Way of the Open Hand}}{{ 22}}](#p22)
+  -  [{{ Way of Radiance}}{{ 23}}](#p23)
+  -  [{{ Way of the Reaper}}{{ 23}}](#p23)
+  -  [{{ Way of the Riftwalker}}{{ 25}}](#p25)
+  -  [{{ Way of the Sacred Inks}}{{ 26}}](#p26)
+  -  [{{ Way of the Shadow Arts}}{{ 27}}](#p27)
+  -  [{{ Way of Street Fighting}}{{ 27}}](#p27)
+  -  [{{ Way of the Vigilante}}{{ 28}}](#p28)
+  -  [{{ Way of the Void}}{{ 29}}](#p29)
+  -  [{{ Way of the Warped}}{{ 30}}](#p30)
+  -  [{{ Way of the Wu Jen}}{{ 31}}](#p31)
+  -  [{{ Wu Jen Spell List}}{{ 31}}](#p31)
+  -  [{{ Way of the Wuxia}}{{ 33}}](#p33)
+- ### [{{ Techniques}}{{ 34}}](#p34)
+}}
+
+
+
+
+\page
+## Monk
+:
+The man took a deep breath and calmed his Ki as the ogre ran toward him. Thinking back to his training, he prepared to
+counter the incoming blow. As the club struck the dirt where
+he had been moments before, the warrior drew channeled spiritual power and let fly a flurry of blows on the beast. Before the ogre knew what had happened, it lay flat in the mud.
+
+Moving silently through the darkness of a moonless night, the hobgoblin assassins approached the enemy general's tent. Trained
+in Martial Arts from birth, the warriors slew the enemy guards without a sound. As the general rose from sleep, his eyes widened as his foes appeared from the darkness itself. He tried to call for help, but no sound came from his mouth as his life was snuffed out by the assassins. As quietly as they had arrived, the hobgoblin assassins disappeared into the night.
+
+The Grand Master stepped forward to block the pass. As her students fled into the mountains, she studied the horde of goblins that would soon be upon her. Though she was one of the most powerful masters of the Way of the Wu Jen, even in her prime she could not hope to defeat half this many foes. She dropped her cloak from her shoulders, and her tattoos glistened with elemental magic as she gathered up her Ki to bring the mountain itself down upon her and the pass.
+
+### Masters of Body, Mind, & Spirit
+While most warriors work toward physical perfection, Monks hone body and mind to work in tandem. With both aspects of themselves mastered, a Monk is able to channel the spiritual energy within themselves, their Ki. Drawing upon this power, these reclusive warriors can perform supernatural feats.
+
+Looking always inward, Monks often eschew any material possession they cannot carry on their backs, instead focusing on immaterial riches. Whether enlightenment, happiness, a challenging foe, or tests of might, all Monks have an ideal or goal that propels them to greater heights of spiritual mastery.
+
+### Mystic Asceticism
+Often trained in hidden monasteries or by reclusive masters, Monks must often give up any inheritance or titles in order to be accepted as monastic students. Some grandmasters even require years of servitude and dedication to the monastery before they will even begin to train a new pupil. Once begun, a Monk's training does not stop until they die. They put all of their heart, mind, and soul into their quest for a perfect self.
+
+Even the greatest monastic masters will sometimes seek out other monasteries, entering as a novice, even in old age. The quest for perfection is never ending, and despite great spiritual progress, the greatest view themselves as novices,
+    eager to progress on the next step to enlightenment.
+
+\column
+
+### Creating Your Monk
+When creating your Monk, there are a few things you should consider. Firstly, who (or what) first taught you in the ways of martial arts? Were you the final apprentice of a grand master, spending years at his side learning all you could? Were you trained as part of an elite military unit that had total mastery of body, mind, and soul? Or, were you a self-taught warrior who found spiritual enlightenment in the solitude of nature?
+
+Secondly, you should consider what has motivated you to master yourself, and what you have sacrificed in pursuit of your skills. Are you the scion of a fallen noble house who has given up everything to train for your revenge? Were you an orphan, left at the feet of a martial arts master by a family that you never knew? Or, did an event in your life motivate you to pursue absolute mastery over body, mind, and soul?
+#### Quick Build
+You can make a Monk quickly by using these suggestions. First, make Dexterity your highest ability score, followed by your Constitution if you wish to focus on physical might, or your Wisdom if you wish to focus on spiritual enlightenment. Second, choose either the Acolyte or Hermit background.
+{{imageMaskCorner10,--offsetX:50%,--offsetY:-25%,--rotation:0
+  ![](https://i.imgur.com/U7MIf8b.jpg){height:100%,top:455px,left:270px}
+}}
+
+
+
+{{pageNumber,auto}}
+\page
+
+
+{{classTable,frame,wide
+##### The Monk
+|       |   |                                        |Martial| Unarmored|Techniques |  
+| Level |PB | Features                               | Arts  | Movement | Known     | 
+|:-----:|:-:|:---------------------------------------|:-----:|:--------:|:---------:|
+| 1st  | +2 | Martial Arts, Unarmored Defens         | 1d6   | ─        |─          |
+| 2nd  | +2 | Ki, Flurry of Blows, Unarmored Movement| 1d6   | +10 ft.  | 3         |
+| 3rd  | +2 | Monastic Tradition                     | 1d6   | +10 ft.  | 3         | 
+| 4th  | +2 | Ability Score Improvement              | 1d6   | +10 ft.  | 3         |
+| 5th  | +3 | Extra Attack                           | 1d8   | +10 ft.  | 4         |
+| 6th  | +3 | Enlightened Fist, Monastic Tradition Feature| 1d8   | +15 ft.  | 4         |
+| 7th  | +3 | Evasion                                | 1d8   | +15 ft.  | 5         |
+| 8th  | +3 | Ability Score Improvement              | 1d8   | +15 ft.  | 5         |
+| 9th  | +4 | Spirit of Tranquility                  | 1d8   | +15 ft.  | 6         |
+| 10th | +4 | Purity of Body                         | 1d8   | +20 ft.  | 6         | 
+| 11th | +4 | Warrior’s Spirit, Monastic Tradition Feature | 1d10  | +20 ft.  | 7         |
+| 12th | +4 | Ability Score Improvement              | 1d10  | +20 ft.  | 7         | 
+| 13th | +5 | Timeless Body                          | 1d10  | +20 ft.  | 8         | 
+| 14th | +5 | Diamond Soul                           | 1d10  | +25 ft.  | 8         |
+| 15th | +5 | Diamond body                           | 1d10  | +25 ft.  | 9         |
+| 16th | +5 | Ability Score Improvement              | 1d10  | +25 ft.  | 9         | 
+| 17th | +6 | Monastic Tradition Feature             | 1d12  | +25 ft.  | 9         | 
+| 18th | +6 | ─                                      | 1d12  | +30 ft.  | 10        |
+| 19th | +6 | Ability Score Improvement              | 1d12  | +30 ft.  | 10        | 
+| 20th | +6 | Purity of Spirit                       | 1d12  | +30 ft.  | 10        |
+}}
+
+  
+  ## Class Features
+As a Monk, you gain the following class features.
+
+#### Hit Points
+
+::**Hit Dice:** 1d8 per monk level
+
+:: **Hit Points at 1st Level:** 8 + your Constitution modifier.
+
+:: **Hit Points at Higher Levels:** 1d8 (or 5) + your Constitution modifier per monk level after 1st
+
+#### Proficiencies
+
+
+:: **Armor:** None
+:: **Weapons:** Simple weapons, shortswords
+:: **Tools:** A set of artisan's tools or a musical instrument
+
+:: **Saving Throws:** Strength, Dexterity
+
+:: **Skills:** Choose two of the following: Acrobatics, Athletics,History, Insight, Nature, Religion, and Stealth.
+
+
+#### Equipment
+You start with the following equipment.
+- *(a)* a shortsword or *(b)* any simple weapon
+- *(a)* a shortbow and 20 arrows or *(b)* 20 darts
+- *(a)* a dungeoneer’s pack or *(b)* an explorer’s pack
+- *(a)* a holy symbol or *(b)* a musical instrument
+
+
+{{imageMaskEdge1,--offset:0%,--rotation:270
+  ![](https://w0.peakpx.com/wallpaper/943/974/HD-wallpaper-21-ronin-art-luminos-joseph-diaz-monk-fire-fantasy-temple-blue.jpg){height:101%,left:0px,bottom:-1px}
+}}
+
+![Mizkisha](https://i.imgur.com/5cB4Zd9.png) {width:725px,position:absolute,top:401px,left:350px}
+
+{{artist,position:absolute,top:550px,left:510px,margin-bottom:-14px
+##### Mizkisha
+}}
+
+{{pageNumber,auto}}
+\page
+
+### Martial Arts
+You honed your body itself into a weapon, mastering multiple styles of martial arts. For the purposes of your monk abilities, Martial Arts attacks are your unarmed strikes, and attacks with melee weapons without the heavy or special properties.
+
+Beginning at 1st level, so long as you are not wearing heavy armor, wielding a shield, or wielding a heavy weapon, your Martial Arts attacks gains the benefits listed below:
+- You can use your Dexterity, in place of Strength, for the attack and damage rolls or your Martial Arts attacks.
+- You can make a Dexterity (Athletics) check to grapple or shove in place of the normal Strength (Athletics) check.
+- You can roll your Martial Arts die in place of the normal damage of a Martial Arts attack. This die starts out as a d6 and changes as you gain monk levels, as indicated in the Martial Arts column of the Monk table above. 
+- When you take the Attack action on your turn and make a Martial Arts attack, you can use your bonus action on that same turn to make a single unarmed strike attack.
+
+### Unarmored Defense
+You have trained to defend yourself from deadly blows even when unarmored. Starting at 1st level, so long as you aren't wearing armor and not wielding a shield, your Armor Class equals 10 + your Dexterity modifier + your Wisdom modifier.
+### Ki
+At 2nd level, you learn to manipulate the spiritual energy that resides within you, known as Ki. You can draw on your Ki to perform supernatural physical feats known as techniques.
+
+#### Ki Points
+Your inner reserve of Ki is represented by a pool of Ki Points. This pool has a total number of Ki Points equal to your monk level + your Wisdom modifier. You regain expended Ki Points when you finish a short or long rest, so long as you spent at least 30 minutes of that rest in spiritual meditation.
+
+#### Techniques Known
+At 2nd level, you learn three Techniques of your choice from the list at the end of this class description. The Monk table shows when you learn more Techniques of your choice. Each time you gain a monk level, you can choose a Technique you know and replace it with another Technique of your choice.
+
+\column
+
+#### Saving Throws
+Techniques rely on your mastery of body and spirit, and grow in proportion to your self-control. When a Technique requires a saving throw, its saving throw DC is calculated as follows:
+
+**Technique save DC** = 8 + your proficiency bonus + your Wisdom modifier
+
+### Flurry of Blows
+You can draw on your spiritual power to strike with blinding speed. Starting at 2nd level, when you take the Attack action and make a Martial Arts attack, you can spend 1 Ki Point to make two unarmed strikes as a bonus action on that turn.
+
+### Unarmored Movement
+Your pursuit of physical perfection has awakened the hidden potential of your body. At 2nd level, your speed increases by 10 feet so long as you are not wearing armor or a shield.
+
+This speed bonus increases as you gain levels, as indicated in the Unarmored Movement column of the Monk table.
+
+
+### Monastic Tradition
+At 3rd level, choose one of the following Monastic Traditions that best represents your training and philosophy as a monk.
+
+The Monastic Tradition you choose grants you features at 3rd level, and again when you reach 6th, 11th, and 17th level.
+
+#### Signature Techniques
+Each Monastic Tradition has a list of Signature Techniques that you learn at the monk levels as noted in your Tradition's description. These Techniques don't count against your total number of Techniques Known and they cannot be replaced with other Techniques when you gain a level in this class.
+
+### Ability Score Improvement
+When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or two ability scores by 1. As normal, you can't increase one of your ability scores above 20 using this feature.
+:
+### Extra Attack
+Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.
+
+### Enlightened Fist
+Your spirit empowers your strikes. Upon reaching 6th level, your unarmed strikes count as magical for the purposes of overcoming resistance and immunity to non-magical attacks.
+{{pageNumber,auto}}
+\page
+
+### Evasion
+Starting at 7th level, your instinctive agility lets you dodge out of the way of certain area effects, such as a black dragon's acid breath or a lightning bolt spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.
+
+### Spirit of Tranquility
+Starting at 9th level, you can draw on your spiritual vigor to bolster your physical and mental defenses. Whenever you are forced to make a saving throw, you can expend 1 Ki to add your Wisdom modifier (minimum of +1) to the result of your roll.
+
+### Purity of Body
+The power of your spirit and strength of your body protects you against physical ailments. Beginning at 10th level, you are immune to all disease and the poisoned condition.
+
+### Warrior's Spirit
+
+Starting at 11th level, the first ki point you would expend each turn is not consumed.
+
+### Timeless Body
+Beginning at 13th level, you have detached yourself from the desires of the flesh. You no longer require food or water and you suffer none of the frailty of old age. 
+
+Additionally, for every 10 years that pass your body ages only 1 year.
+
+### Diamond Soul
+Beginning at 14th level, your mastery of ki. Whenever you make a saving throw and fail, you can spend 1 Ki Point to reroll it and take the second result.
+
+### Diamond body
+
+Starting at 15th level, mastery over your physical form wards you from every ailment, granting you  gain proficiency in Constitution saving throws.
+
+
+
+### Purity of Spirit
+You have attained mastery over your inner spiritual life. Upon reaching 20th level, you only need 1 minute of light activity to complete a short rest and regain your Ki, instead of 1 hour.
+
+This spiritual mastery also means you can never be caught off guard if danger strikes. When you roll initiative, you regain expended Ki equal to your Wisdom modifier (minimum of 1), and your Warrior's Spirit feature allows you to regain 2 Ki at the start of each of your turns in combat.
+
+\column
+## Monastic Traditions
+Choose one of the following Monastic Traditions that best represents the philosophy and training of your monk.
+
+
+### Way of the Astral Self
+A monk who follows the Way of the Astral Self believes
+their body is an illusion. They see their ki as a
+representation of their true form, an astral self. This astral
+self has the capacity to be a force of order or disorder, with
+some monasteries training students to use their power to
+protect the weak and other instructing aspirants in how to
+manifest their true selves in service to the mighty.
+
+#### Astral Self Techniques
+You learn certain Techniques at the levels noted in the table
+below. They don't count against your number of Techniques
+Known and they cannot be switched upon gaining a level.
+
+|Monk Level| Technique |
+|:---------:|:------------:|
+3rd |step of the wind 
+5th |deflect missiles
+9th |heavenly step
+
+
+
+#### Arms of the Astral Self
+At 3rd level, your mastery of your ki allows you to summon a portion of your astral self. As a bonus action, you can spend 1 ki point to summon the arms of your astral self. When you do so, each creature of your choice that you can see within 10 feet of you must succeed on a Dexterity saving throw or take force damage equal to two rolls of your Martial Arts die.
+
+For 10 minutes, these spectral arms hover near your shoulders or surround your arms (your choice). You determine the arms' appearance, and they vanish early if you are incapacitated or die. While the spectral arms are present, you gain the following benefits:
+
+- You can use your Wisdom modifier in place of your Strength modifier when making Strength checks and Strength saving throws.
+- You can use the spectral arms to make unarmed strikes.
+- When you make an unarmed strike with the arms on your turn, your reach for it is 5 feet greater than normal.
+- The unarmed strikes you make with the arms can use your Wisdom modifier in place of your Strength or Dexterity modifier for the attack and damage rolls, and their damage type is force.
+
+
+{{pageNumber,auto}}
+\page
+#### Visage of the Astral Self
+When you reach 6th level, you can summon the visage of your astral self. As a bonus action, or as part of the bonus action you take to activate Arms of the Astral Self, you can spend 1 ki point to summon this visage for 10 minutes. It vanishes early if you are incapacitated or die.
+
+The spectral visage covers your face like a helmet or mask. You determine its appearance. While the spectral visage is present, you gain the following benefits.
+ 
+**Astral Sight**. You can see normally in darkness, both magical and nonmagical, to a distance of 120 feet.
+
+**Wisdom of the Spirit** : You have advantage on Wisdom (Insight) and Charisma (Intimidation) checks.
+
+**Word of the Spirit**. When you speak, you can direct your words to a creature of your choice that you can see within 60 feet of you, making it so only that creature can hear you. Alternatively, you can amplify your voice so that all creatures within 600 feet can hear you.
+ #### Body of the Astral Self
+Starting at 11th level, when you have both your astral arms and visage summoned, you can cause the body of your astral self to appear (no action required). This spectral body covers your physical form like a suit of armor, connecting with the arms and visage. You determine its appearance. While the spectral body is present, you gain the following benefits.
+
+**Deflect Energy**. When you take acid, cold, fire, force, lightning, or thunder damage, you can use your reaction to deflect it. When you do so, the damage you take is reduced by 1d10 + your Wisdom modifier (minimum reduction of 1).
+
+**Empowered Arms**. Once on each of your turns when you hit a target with the Arms of the Astral Self, you can deal extra damage to the target equal to your Martial Arts die.
+
+#### Awakened Astral Self
+Starting at 17th level, your connection to your astral self is
+complete, allowing you to unleash its full potential. As a
+bonus action, you can spend 5 ki points to summon the
+arms, visage, and body of your astral self and awaken it for
+10 minutes. This awakening ends early if you are
+incapacitated or die.
+While your astral self is awakened, you gain the following
+benefits.
+
+**Armor of the Spirit**. You gain a +2 bonus to Armor
+Class.
+
+**Astral Barrage**. Whenever you use the Extra Attack feature to attack twice, you can instead attack three times if all the attacks are made with your astral arms.
+
+
+
+\column
+### Way of the Ascendant Dragon
+The dragon god Bahamut is known to travel the Material Plane in the guise of a young monk, and legend says that he founded the first monastery of
+the Way of the Ascendant Dragon in this guise. The fundamental teaching of this tradition holds that by emulating dragons, a monk becomes a more
+integrated part of the world and its magic. By altering their spirit to resonate with draconic might, monks who follow this tradition augment their
+prowess in battle, bolster their allies, and can even soar through the air on draconic wings. But all this power is in service of a greater goal: achieving
+a spiritual unity with the essence of the Material Plane.
+
+##### Ascendant Dragon Origin
+| d6 | Origin 
+|:---:|:-----
+| 1| You honed your abilities by aligning your spirit with a dragon’s world-altering power.     
+| 2| A dragon personally took an active role in shaping your inner energy.     
+| 3| You studied at a monastery that traces its teachings back centuries or more to a single dragon’s instruction, or one that is devoted to a dragon god.     
+| 4| You spent long stretches meditating in the region around an ancient dragon’s lair, absorbing that lair’s ambient magic.    
+| 5|You found a scroll written in Draconic that contained inspiring new techniques.   
+| 6| After a dream featuring a five-handed dragonborn, you awoke with the mystical breath of dragons.   
+
+#### Draconic Disciple
+At 3rd Level,  you can channel draconic power to magnify your presence and imbue your unarmed strikes with the essence of a dragon’s breath. You gain the
+following benefits:
+
+**Draconic Presence.** If you fail a Charisma (Intimidation) or Charisma (Persuasion) check, you can use your reaction to reroll the check, as you tap into the mighty presence of dragons. Once this feature turns a failure into a success, you can’t use it again until you finish a long rest.
+
+**Draconic Strike.** When you damage a target with an unarmed strike, you can change the damage type to acid, cold, fire, lightning, or poison.
+
+**Tongue of Dragons.** You learn to speak, read, and write Draconic or one other language of your choice.
+
+{{pageNumber,auto}}
+\page
+
+#### Breath of the Dragon
+
+At 3rd Level, you can channel destructive waves of energy, like those created by the dragons you emulate. When you take the Attack action on your turn, you can replace one of the attacks with an exhalation of draconic energy in either a 20-foot cone or a 30-foot line that is 5 feet wide (your choice). Choose a damage type: acid, cold, fire, lightning, or poison. Each creature in that area must make a Dexterity saving throw against your ki save DC, taking damage of the chosen type equal to two rolls of your Martial Arts die on a failed save, or half as much damage on a successful one.
+
+At 11th level, the damage of this feature increases to three rolls of your Martial Arts die.
+
+You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest. While you have no uses available, you can spend 2 ki points to use this feature again.
+
+#### Draconic Techniques
+You learn certain Techniques at the levels noted in the table below. They don't count against your number of Techniques Known and they cannot be switched upon gaining a level.
+
+|Monk Level| Technique |
+|:---------:|:------------:|
+3rd |step of the wind 
+5th |crushing strike
+9th |heavenly step
+
+
+#### Wings Unfurled
+ 
+At 6th Level when you use your Step of the Wind, you can unfurl spectral draconic wings from your back that vanish at the end of your turn. While the wings exist, you have a flying speed equal to your walking speed.
+
+You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.
+
+#### Aspect of the Wyrm
+At 10th Level the power of your draconic spirit now radiates from you, warding your allies or inspiring fear in your enemies. As a bonus action, you can create an
+aura of draconic power that radiates 10 feet from you for 1 minute. For the duration, you gain one of the following effects of your choice:
+
+**Frightful Presence.** When you create this aura, and as a bonus action on subsequent turns, you can choose a creature within the aura. The target must succeed on a Wisdom saving throw against your ki save DC or become frightened of you for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a successful save.
+
+**Resistance.** Choose a damage type when you activate this aura: acid, cold, fire, lightning, or poison. You and your allies within the aura have
+resistance to that damage.
+
+Once you create this aura, you can’t create it again until you finish a long rest, unless you expend 3 ki points to create it again.
+
+
+
+#### Ascendant Aspect
+
+At 17th Level your draconic spirit reaches its peak. You gain the following benefits:
+
+**Augment Breath.** When you use your Breath of the Dragon, you can spend 1 ki point to augment its shape and power. The exhalation of draconic energy becomes either a 60-foot cone or a 90-foot line that is 5 feet wide (your choice), and each creature in that area takes damage equal to four rolls of your Martial Arts die on a failed save, or half as much damage on a successful one.
+
+**Blindsight.** You gain blindsight out to 10 feet. Within that range, you can effectively see anything that isn’t behind total cover, even if you’re blinded or
+in darkness. Moreover, you can see an invisible creature within that range, unless the creature successfully hides from you.
+
+**Explosive Fury.** When you activate your Aspect of the Wyrm, draconic fury explodes from you. Choose any number of creatures you can see in your aura. Each of those creatures must succeed on a Dexterity saving throw against your ki save DC or take 3d10 acid, cold, fire, lightning, or poison damage (your choice).
+
+### Way of the Boulder
+As ancient as the mountains themselves, this Tradition has been passed down from master to student since the earliest days of civilization. Building their monasteries on mountain peaks and in deep caverns, students of this Tradition focus on becoming as large and immovable as the mountains.
+
+#### Boulder Techniques
+You learn certain Techniques at the levels noted in the table below. They don't count against your number of Techniques Known and they cannot be switched upon gaining a level.
+
+|Monk Level| Technique |
+|:---------:|:------------:|
+3rd |spiritual armor
+5th |crushing strike
+9th |friend of beast and leaf
+
+#### Solid Body
+When you adopt this Tradition at 3rd level, you can use your physical bulk to enhance your offense and defense. When not wearing armor or a shield, your Armor Class is equal to 10 + your Constitution modifier + your Wisdom modifier.
+
+You can also add Constitution to damage rolls.
+{{pageNumber,auto}}
+\page
+#### Strength of the Mountains
+Also at 3rd level, you can draw on the earth to reinforce your frame. As a reaction when you make a Strength ability check or saving throw, you can grant yourself advantage on the roll.
+
+You can use this reaction a number of times equal to your Constitution modifier (minimum of once), and you regain all expended uses when you finish a long rest. If you have no uses available, you can spend 1 Ki Point to use this reaction.
+#### Rebounding Defense
+At 6th level, you can absorb blows with your body. When you are hit by a melee weapon attack, you can use your reaction to spend 1 Ki Point and reduce the damage by an amount equal to 1d12 + your Constitution modifier + your monk level. If you reduce the damage of the triggering attack to zero, you can rebound the blow back at your attacker, making a melee Martial Arts attack against the attacker as part of the same reaction. You are proficient with this attack.
+
+#### Ki Infused Bulk
+Beginning at 11th level, your dense, Ki Infused, physical form allows you to resist both physical and elemental assaults. At the end of each short or long rest, choose one of the following damage types: bludgeoning, piercing, slashing, acid, cold, fire, lighting, or thunder. You are resistant to that type of damageuntil the end of your next short or long rest.
+
+As a bonus action, you can pend 2 Ki Points to realign your Ki and switch the damage resistance you gained from this ability to another damage resistance from the list above.
+
+#### Mighty Form
+Upon reaching 17th level, your body surpasses the normal mortal limits of density and mass. Both your Constitution score, and maximum Constitution score, increase by 2.
+#### Earthshaker
+Starting at 17th level, when you take the Attack action on your turn, for 1 ki you can replace one of the attacks with a stomp that uses your supernatural density to shake the earth forcing creatures of your choice within 15 feet to make a Strength saving throw. Creatures take bludgeoning damage equal to one roll of your Martial Arts Die and fall prone on a failed save, and half as much damage and remain upright on a successful save. The ground in this 15-foot radius becomes difficult terrain.
+
+When you use this feature, you can expend additional Ki Points, increasing the damage of the stomp by one Martial Arts Die for each additional Ki Point you spend, to a maximum of 10.
+
+\column
+
+### Way of the Bow
+Monks that follow the Way of the Bow find serenity in the perfect, precise arc of an arrow's flight. You have been trained in archery on horseback, to fire a bow while blindfolded, and to pinpoint the wings of an insect in flight. As you attain peace and oneness with your arrow, no feat of archery will prove to be beyond your grasp.
+
+#### Bow Techniques
+You learn certain Techniques at the levels noted in the table
+below. They don't count against your number of Techniques
+Known and they cannot be switched upon gaining a level.
+
+|Monk Level| Technique |
+|:---------:|:------------:|
+3rd |step of the wind
+5th |seeking strike
+9th |heavenly step
+
+#### Archery Fighting Style
+Starting when you choose this tradition at 3rd level,
+you gain a +2 bonus to attack rolls you make with
+ranged weapons. You can’t take a Fighting Style
+option more than once, even if you later get to
+choose again.
+
+
+#### Bow Arts
+At 3rd level, you gain proficiency in the longbow
+and shortbow, which are considered monk weapons
+for you. Any ranged weapon attacks you make while within 5 feet of a hostile creature do not have  disadvantage. Also, you can spend ki points to use 
+the Flurry of Arrows and Soul Arrow features.
+
+At 6th level, you can make a ranged weapon 
+attack to deliver a Stunning Strike.
+
+**Flurry of Arrows**. Immediately after you 
+take the Attack action on your turn to make a ranged 
+weapon attack or an unarmed strike, you can spend 1 
+ki point to make an additional ranged weapon attack 
+as a bonus action.
+
+**Soul Arrow**. When you take the Attack action 
+on your turn to make a ranged weapon attack, you 
+can spend 1 ki point to fire a soul arrow for the first 
+attack. A soul arrow is a normal arrow of its type 
+which ignores partial cover and deals additional 
+damage equal to your Wisdom modifier on a hit. 
+Firing a soul arrow does not consume ammunition.
+
+#### Intercepting Shot
+Starting at 6th level, when an attacker you can see 
+makes an attack against you, you can make a ranged 
+attack roll as a reaction to interrupt the attack. If the 
+result of your roll is greater than the result of the 
+attacker, you can reduce the attack roll targeting you 
+by 5, to a minimum of 1.
+
+{{pageNumber,auto}}
+\page
+#### Serenity of the Wind
+By 11th level, you can listen to the wind to see the 
+otherwise invisible. As a bonus action, you can spend 
+1 ki point to gain blindsight with a range of 120 feet 
+until the end of your next turn.
+
+At 17th level, you always have blindsight out to 
+30 feet.
+
+#### Zen Archery
+At 17th level, if you make a ranged weapon attack 
+on your turn and miss, you can immediately make 
+another ranged weapon attack against the same 
+target with advantage against the same target. 
+
+You can only gain one additional attack during your turn with this ability.
+
+
+### Way of the Brawler
+The Way of the Brawler is a Monastic Tradition that masters use to denote those who never received formal martial arts training. Brawlers are those who learn to fight in
+the back alleys and fighting pits.
+
+
+#### Brawler's Exploits
+You have studied and learned various advanced martial
+techniques. At 3rd level, you gain the following features:
+
+**Martial Exploits**. You learn two Exploits of your choice
+from the list at the end of this Tradition. You can only use one
+Exploit per ability check or attack. When you gain a level, you
+can replace an Exploit you know with another of your choice.
+
+**Exploit Dice**. You have three d6 Exploit Dice. To use an
+Exploit you must expend one of these dice, and you regain all
+expended Exploit Dice when you finish a short or long rest.
+
+**Saving Throws**. Some of your Exploits require your target to make a saving throw to resist your Marital Exploit's effects. The saving throw DC is calculated as follows:
+
+**Exploit save DC** = 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice).
+
+#### Underhanded
+Rather then join a formal Monastic Tradition, you learned to fight in the streets. At 3rd level you gain the benefits below:
+- You learn to communicate and understand Thieves' Cant, a secret mix of dialect, jargon, and code that allows you to hide messages in seemingly normal conversation.
+- You gain proficiency in Intimidation and you can make Strength (Intimidation) checks using your martial arts.
+#### Improved Exploits
+Your underhanded style of fighting has improved. At 6th level,
+you gain one additional Exploit Die (for a total of four), and all
+of your Exploit Dice become d8s. You also learn two more
+Exploits of your choice from the list of Brawler Exploits.
+\column
+
+
+
+#### Infamous Reputation
+Your reputation as a ruthless brawler proceeds you. Starting
+at 11th level, you can use a bonus action to spend 1 Ki Point
+and force a creature within 30 feet that can see you to make a Wisdom saving throw. On a failed save, it is frightened of you
+until the beginning of your next turn. Creatures that are frightened of you have disadvantage on their saving throws against your Brawler Exploits.
+
+#### Champion of the Underworld
+You are a master of the ruthless combat of the underworld.
+Beginning at 17th level, any Martial Arts attacks you make
+against creatures that are frightened, grappled, prone, or
+stunned score a critical hit on a roll of 19 or 20 on the d20.
+You also gain another Exploit Die (for a total of five), and all
+of your your Exploit Dice become d10s. You also learn two
+additional Brawler Exploits of your choice (for a total of six).
+
+
+#### Brawler Exploits
+The Exploits listed below are available to Brawler monks, who focus on defeating foes with overwhelming force.
+- **Blinding Strike**. As a bonus action, you can expend an Exploit Die and force a creature within 10 feet to make a Constitution saving throw. On a failed save, the creature is blinded until the beginning of your next turn.
+- **Brace Up**. As a bonus action, you can expend an Exploit Die to instantly gain temporary hit points equal to your Exploit Die + your Constitution modifier (minimum of 1).
+- **Charlatan's Guile** : When you make a Dexterity (Sleight of Hand) or a Charisma (Deception) check, you can expend an Exploit Die and add it to your roll. You can use this Exploit after you roll, but before you know the roll's result
+- **Disarm**. When you hit a creature with a Martial Arts attack, you can expend an Exploit Die to force it to make a Strength saving throw. On a failure, it takes extra damage equal to your Exploit Die and drops an item of your choice.
+- **Sweeping Strike**. When you hit a creature with a melee Martial Arts attack, you can expend an Exploit Die to force it to make a Dexterity saving throw. On a failure, it falls prone and takes bludgeoning damage equal to your Exploit Die. Creatures larger than you have advantage on their roll.
+- **Wild Strike**. When you make a melee Martial Arts attack, you can expend an Exploit Die as part of the attack to strike with wild abandon. You have advantage on your attack roll, but you must subtract your Exploit Die from your attack rolls. However, on hit, you deal additional damage equal to two rolls of your Exploit Die.
+{{pageNumber,auto}}
+\page
+
+### Way of the Butterfly
+Martial arts are a popular pursuit among the elves of the Feywild. Their long lives give them ample time to meditate on the how best to achieve the perfection of form, and to refine their natural elven agility into supreme balance and grace in battle. Hidden in the twilit forests, several monasteries teach the Way of the Butterfly, a technique that emphasizes gentleness and beauty as being the most important things in life.
+
+#### Swallowtail Strike
+The monks of the Feywild prioritize careful, precise strikes over raw power. When you choose this tradition at 3rd level, you adopt this attitude and incorporate it into your fighting style. War fans count as monk weapons for you.
+
+Furthermore, whenever you make an unarmed strike or attack with a monk weapon against a target within your reach as part of an action or bonus action, you can replace it with a Swallowtail Strike. 
+
+When you make a Swallowtail Strike, as long as it is physically possible to hit the target (in other words, you can’t use this ability to hit ethereal targets), you do not need to roll to hit or for damage; the attack always hits and always deals damage equal to your Dexterity modifier.
+{{note
+##### War Fan
+|||||
+:-:|:-:|:-:|:-:|
+ 20 gp |1d4 slashing |1/2 lb.| Finesse, light, parry, thrown (range 20/60)
+ 
+ **Parry.** While wielding this weapon and not wielding a
+shield, you gain a +1 to your AC against melee attacks.
+You can only gain the benefit of one weapon with this
+property at a time.
+}}
+
+
+
+
+#### Drunken Fist Techniques
+You learn certain Techniques at the levels noted in the table
+below. They don't count against your number of Techniques
+Known and they cannot be switched upon gaining a level.
+
+|Monk Level| Technique |
+|:---------:|:------------:|
+3rd |Slow Fall 
+5th |Seeking Strike
+9th |Aura Sight
+
+#### Free as a Bird
+Starting at 6th level, you cannot be bound by nonmagical
+restraints such as ropes or manacles, and you automatically
+succeed on any ability check you make to free yourself
+from the restrained or grappled conditions.
+
+\column
+
+#### Floating Feet
+By 11th level, your lightness of being transcends
+the bonds of gravity. You can use Slow Fall Technique without expending a Ki Point.
+
+
+When you do so, you do not fall at all until the end of your next turn. Until then, you can move horizontally in the air, treating it as difficult terrain, but you cannot change your altitude.
+#### Dazzling Metamorphosis
+When you reach 17th level, you can spend 5 ki points to transform yourself into a creature of
+striking beauty, with large, butterfly-like wings on your back. For the next hour, you have a 60-foot fly speed, can hover, and have advantage on Charisma (Performance) checks
+
+
+{{pageNumber,auto}}
+\page
+### Way of the Dodo
+The very last dodo absconded into the Feywild and
+thrived in the nonsense land beyond. Before long, it
+learned to speak and manipulate the magic of the
+twilight realm just as well as faeries. Visitors came
+to see the magical endling and an order of monks
+rose to learn its teachings and defend it from harm.
+Those who follow the Way of the Dodo
+focus their ki by expanding their consciousnesses
+and engaging in psychedelic trances. With a
+touch, they can send others into technicolor
+hallucinations borrowed from their erstwhile
+master’s Feywild magic.
+#### Eccentric Insight
+Starting when you choose this tradition at 3rd
+level, whenever you make an ability check that
+doesn’t include your proficiency bonus, your
+unique insight allows you to make connections
+which may or may not exist. If the d20 roll
+for the ability check is even, you add your
+proficiency bonus to the check.
+#### Psychedelic Strike
+Also at 3rd level, when you hit a creature
+with one of the attacks granted by your
+Flurry of Blows, you can force the creature
+to make a Wisdom saving throw. On a
+failed save, a creature is plagued by wild
+hallucinations until the end of its next turn
+and must a d20 on the following table:
+d20| Effect
+:-:|:-:
+1| The creature doesn't move or take actions this turn.
+2–5| The creature uses all its movement to move in a random direction. To determine the direction, roll a d8 and assign a direction to each die face.
+6–9| The creature loses the ability to distinguish between friend and foe, regarding all creatures it can see as enemies. The creature chooses the targets for its attacks, spells, and abilities randomly from among the creatures it can see within range, and it must make an opportunity attack if any creature provokes one.
+10–19| The creature has disadvantage on the first attack roll it makes on its turn.
+20| The creature can act and move normally.
+
+\column
+
+#### Trance
+Starting at 6th level, once per day when you finish a
+short or long rest you can enter a mind-expanding
+trance for 10 minutes. During this trance, you visit
+a surreal landscape and choose one of the following
+paths to wander for the duration of the trance,
+granting the following benefits:
+
+**Path of Realities.** Your trance grants you a glimpse of a higher reality. You can ask the GM a single question concerning a specific goal, event, or activity to occur within 7 days. The GM answers this query truthfully in the form of a metaphorical vision, an omen, or an overpowering emotional state.
+
+**Path of Serenity.** Your trance places your mind
+in a placid sea. Until you take a short or long rest,
+your ki point maximum increases by 2. When your
+trance ends, you regain your ki points.
+
+**Path of Turmoil.** Your trance evolves into
+a chaotic, agitated vision, bolstering your mental
+defenses. Until you finish a long rest, you have
+resistance to psychic damage and you have
+advantage on the next Intelligence, Wisdom, or
+Charisma saving throw you make.
+
+#### Chaotic Delirium
+At 11th level, when you force a creature to make a
+saving throw against your Psychedelic Strike, you
+can spend 1 ki point to deal extra psychic damage
+equal to one roll of your Martial Arts die + your
+Wisdom modifier to the target. You can use this
+feature only once per turn.
+#### Third Eye Opening
+Beginning at 17th level, you can spend 4 ki points
+as a bonus action to open your third eye, gaining the
+following benefits for 10 minutes:
+- You have truesight out to a range of 120 feet.
+- You can’t be surprised.
+- You gain a +2 bonus to your Armor Class and Dexterity saving throws.
+- Once on each of your turns when you make an unarmed strike and miss, you can cause that attack to hit instead.
+
+{{imageMaskEdge7,--offset:30%,--rotation:0
+  ![](https://i.imgur.com/oMe0JvG.jpeg){height:50%,left:-60px,top:750px}
+}}
+
+
+
+{{pageNumber,auto}}
+\page
+### Way of the Drunken Fist
+Where most monks are serious and contemplative, students
+of the Drunken Fist seek out joy wherever they go. Masters of
+a style that mimics the unpredictable movements of a drunk,
+these monks will use their considerable skills to play the fool
+and make others laugh, or to embarrass haughty nobles.
+
+#### Drunken Fist Techniques
+You learn certain Techniques at the levels noted in the table
+below. They don't count against your number of Techniques
+Known and they cannot be switched upon gaining a level.
+
+|Monk Level| Technique |
+|:---------:|:------------:|
+3rd |step of the wind 
+5th |deflect missiles
+9th |heavenly step
+
+#### Jovial Performer
+When you join this Monastic Tradition at 3rd level, you learn to use your martial arts to bring joy. You gain proficiency in Performance, improvised weapons and brewer's supplies. Moreover, your melee attacks with improvised weapons count as Martial Arts attacks.
+
+
+#### Drunken Style
+You move about battle with chaotic grace. Beginning at 3rd
+level, each time you hit a creature with a Martial Arts attack,
+your speed increases by 5 feet until the end of your turn.
+In addition, when you hit a creature with a Martial Arts
+attack, that creature has disadvantage on any opportunity
+attacks it makes against you until the start of your next turn.
+
+#### Unpredictable Sway
+Your erratic movements have become more complicated and
+unpredictable. At 6th level, you gain the following benefits:
+- When you are prone you can stand up without expending movement, rather then expending half your movement. 
+- When a creature misses you with a melee attack, you can use your reaction to spend 1 Ki Point and force it to attack another creature of your choice within 5 feet of you.
+
+
+#### Chaotic Luck
+You have an almost comical way of turning your misfortunes
+on their head. Starting at 11th level, when you make an attack
+roll, ability check, or saving throw with disadvantage, you can
+spend 1 Ki Point to cancel the disadvantage on that roll. 
+
+
+
+#### Grand Master of the Drunken Fist
+Beginning at 17th level, when you take the Attack action on
+your turn, you can make a Martial Arts attack against each
+creature you move past on that turn, even if the number of
+attacks you make exceeds your normal limit.
+
+
+{{pageNumber,auto}}
+\page
+### Way of the Eight Gates
+Monks of this order strive for meaning and perfection through mastery of the Eight Gates, internal loci of spiralling energy through which ki is channelled. By way of personal contemplation and intense training, each gate can be opened in turn, and once brought into harmony, allow for a stronger channel of ki and the ability to push one’s body beyond mortal limitation. Those who follow the Way of the Eight Gates might be hermits, retreating from the chaos of the wider world and to a place of contemplative isolation. Others may be wanderers, embracing and celebrating all experiences, believing this is to be the path to internal harmony. In any case, monks who walk this path shirk organised religious and spiritual practices, preferring to carve their own path of potential, freedom, and growth. 
+
+#### Gate of Earth 
+At 3rd level, the Gate of Earth reflects a being’s strong physical and spiritual foundation. Your ki grounds your centre, fortifying your body. When you use a technique, you gain temporary hit points equal to your Wisdom modifier (minimum of 1). 
+
+
+#### Gate of Water 
+At 3rd level, the Gate of Water reflects a being’s natural ebb and flow of ki through the open gates. You have an additional number of ki points equal to your Wisdom modifier (minimum of 1). 
+
+#### Gate of Air 
+At 3rd level, the Gate of Air reflects a being’s connection to the external world and all living things therein. You gain proficiency in the Animal Handling and Insight skills.
+
+#### Gate of Flame 
+By 6th level, the Gate of Flame reflects a monk’s blistering power and speed, an internal pool of coiling, frenetic energy. Your unarmed strike now deals fire instead of bludgeoning damage.
+
+#### Gate of Presence 
+By 6th level, the Gate of Presence reflects a being’s voice, social wellness, and confidence. Whenever you make a Charisma check, you gain a bonus to the check equal to your Wisdom modifier (minimum of +1). 
+
+
+#### Gate of Spirit 
+At 11th level, the Gate of Spirit represents a being’s ki flowing beyond their physical form; you have the power to share your ki with those around you. As a bonus action, you can touch one willing creature and expend 2 ki points. That creature gains temporary hit points equal to your proficiency bonus + your Wisdom modifier (minimum of 1), and it can immediately use its reaction to make a single weapon attack, take the Dodge action, or move up to its speed without provoking opportunity attacks. 
+
+\column
+
+#### Gate of Mind 
+At 11th level, the Gate of Mind represents a monk’s consciousness expanding beyond their physical form. You can cast the telepathic bond spell, requiring no components.
+
+Once you cast the spell with this feature, you can’t do so again until you finish a long rest. 
+
+#### Gate of Infinity 
+
+At 17th level, you have reached total harmony within yourself. Your gates align and converge with your ki, opening the final gate: the Gate of Infinity.
+
+As an action, you can spend 8 ki points to transcend to a state of apotheosis. You gain the following benefits for 1 minute: 
+- Your walking speed increases by 20 feet. 
+- You have a +2 bonus to AC. 
+
+- When you take the Attack action, you can make one additional unarmed strike as a part of that action. 
+
+- You can add your Wisdom modifier to your attack and damage rolls.
+
+{{pageNumber,auto}}
+\page
+### Way of the Eldritch Soul
+The monks of the Way of the Eldritch Soul are a secretive
+order of magically adept monks that conform the vast
+mayority of the eragior order ranks. trained both in the
+martial, and arcane arts, they are the prime enforcers of
+order in all of Sanctuary
+
+
+#### Spellcasting
+When you reach 3rd level, you gain the ability to cast spells.
+
+**Cantrips.** You learn three cantrips: prestidigitation and
+two other cantrips of your choice from the wizard spell list.
+You learn another wizard cantrip of your choice at 10th
+level.
+
+**Spell Slots.** The Eldritch Soul Spellcasting table shows
+how many spell slots you have to cast your spells of 1st
+level and higher. To cast one of these spells, you must
+expend a slot of the spell's level or higher. You regain all
+expended spell slots when you finish a long rest.
+
+For example, if you know the 1st-level spell charm
+person and have a 1st-level and a 2nd-level spell slot
+available, you can cast charm person using either slot.
+
+**Spells Known of 1st-Level and Higher.** You know three
+1st-level wizard spells of your choice, two of which you
+must choose from abjuration or transmutation spells on the
+wizard spell list. The Spells Known column of the Eldritch
+Soul Spellcasting table shows when you learn more wizard
+spells of 1st level or higher. Each of these spells must be an
+abjuration or transmutation spell of your choice, and must
+be of a level for which you have spell slots. For instance,
+when you reach 7th level in this class, you can learn one
+new spell of 1st or 2nd level.
+
+The spells you learn at 8th, 14th, and 20th level can
+come from any school of magic.
+
+Whenever you gain a level in this class, you can replace
+one o f the wizard spells you know with another spell o f
+your choice from the wizard spell list. The new spell must
+be of a level for which you have spell slots, and it must be
+an abjuration or transmutation spell, unless you’re
+replacing the spell you gained at 8th, 14th, or 20th level.
+
+**Spellcasting Ability.** Intelligence is your spellcasting
+ability for your wizard spells, since you learn your spells
+through dedicated study and memorization. You use your
+Intelligence whenever a spell refers to your spellcasting
+ability. In addition, you use your Intelligence modifier when
+setting the saving throw DC for a wizard spell you cast and
+when making an attack roll with one.
+
+**Spell save DC** = 8 + your proficiency bonus + your Intelligence modifier
+
+**Spell attack modifier** = your proficiency bonus + your Intelligence modifier
+
+\column
+
+
+#### Eldritch Knowledge
+Also 3rd level, Your monastic tradition seeks a superior understanding of
+the arcane arts. You gain the ability to
+cast the detect magic and identify spells, but only as rituals.
+
+Additionally, you may use your Intelligence instead of your Wisdom for any Monk feature.
+
+{{classTable,frame,decoration
+##### Eldritch Soul Spellcasting
+| Level | Cantrips | Spells |--- Spells Slots per Spell Level ---||||
+|      ^| Known   ^| Known ^|   1st   |   2nd   |   3rd   |   4th   |
+|:-----:|:--------:|:------:|:-------:|:-------:|:-------:|:-------:|
+|  3rd  |    3     |   3    |    2    |    —    |    —    |    —    |
+|  4th  |    3     |   4    |    3    |    —    |    —    |    —    |
+|  5th  |    3     |   4    |    3    |    —    |    —    |    —    |
+|  6th  |    3     |   4    |    3    |    —    |    —    |    —    |
+|  7th  |    3     |   5    |    4    |    2    |    —    |    —    |
+|  8th  |    3     |   6    |    4    |    2    |    —    |    —    |
+|  9th  |    3     |   6    |    4    |    2    |    —    |    —    |
+| 10th  |    4     |   7    |    4    |    3    |    —    |    —    |
+| 11th  |    4     |   8    |    4    |    3    |    —    |    —    |
+| 12th  |    4     |   8    |    4    |    3    |    —    |    —    |
+| 13th  |    4     |   9    |    4    |    3    |    2    |    —    |
+| 14th  |    4     |   10   |    4    |    3    |    2    |    —    |
+| 15th  |    4     |   10   |    4    |    3    |    2    |    —    |
+| 16th  |    4     |   11   |    4    |    3    |    3    |    —    |
+| 17th  |    4     |   11   |    4    |    3    |    3    |    —    |
+| 18th  |    4     |   11   |    4    |    3    |    3    |    —    |
+| 19th  |    4     |   12   |    4    |    3    |    3    |    1    |
+| 20th  |    4     |   13   |    4    |    3    |    3    |    1    |
+}}
+
+#### Arcane Deflection
+At 6th level, your Deflect Missiles can be used against spell attacks and spells that deal damage and target only you.
+
+When you do so, use your Intelligence modifier instead of your Dexterity modifier.
+
+If yout reduce the damage to 0 you are not affected by the
+spell and can expend 1 ki point to cast that spell as part of
+the same reaction. The spell counts as one of your Eldritch
+Soul spells.
+
+#### Swift Caster
+Begining at 11th level, your affinity to the arcane allows you
+to cast spells without much effort. When you cast a spell
+that has a casting time of 1 action, you can spend 2 ki
+points to change the casting time to 1 bonus action for this
+casting.
+
+#### Arcane Suppression
+At 17th level, you gain the ability to deny part of a
+spellcaster's connection to magic. Any spell slot a creature
+hit by you spends to cast a spell counts as a spell slot of one
+level lower until the start of your next turn.
+
+
+{{pageNumber,auto}}
+\page
+
+### Way of the Feather
+Masters of the Way of the Feather understand the intricate balance of motion and stillness, using precise strikes to disrupt their foes’ coordination and reflexes. Through honed technique and mastery over pressure points, these monks specialize in rendering their opponents immobile, neutralizing threats with efficiency and discipline.
+#### Robust Martial Artist
+At 3rd level, you may use your strength instead of your wisdom for any Monk feature.
+
+#### Binding Assault
+
+At 3rd level, once per turn, when you hit a creature with an unarmed strike, you may spend a ki point attempt to render them useless through a submission pin. The target must make a Strength saving throw vs your ki save DC. 
+
+Creatures that are already grappled make this saving throw with disadvantage. 
+
+On a failure both you and the creature fall prone and the target is grappled by your maneuver until the end of your next turn. While the target is grappled this way it is incapacitated and cannot stand up. If you use this ability on a creature that is already grappled this way, you need not spend a ki point.
+
+If you take damage while grappling a creature this way, the creature may attempt to escape by succeeding a Strength saving throw against your ki DC with advantage. 
+Robust Martial Artist
+At 3rd level, you may use your strength instead of your wisdom for any Monk feature.
+
+
+
+#### Feather Techniques
+You learn certain Techniques at the levels noted in the table below. They don't count against your number of Techniques Known and they cannot be switched upon gaining a level.
+
+|Monk Level| Technique |
+|:---------:|:------------:|
+3rd |Crippling Strike 
+5th |Adept Fighting Style
+9th |Indomitable Spirit
+
+#### Unbreakable Pin
+At 6th level, you make grapple checks with advantage. If a creature attempts to break your grapple, as a reaction you may spend a ki point to impose disadvantage on any ability checks they make to break free from your grapple until the start of your next turn.
+
+#### Powerful Take Downs
+At 11th level, you have learned to make your take downs more powerful. When a creature fails the saving throw for your Binding Assault ability, you can deal damage equal to your unarmed strike damage to that creature. 
+
+Additionally when a creature misses on a melee attack against you, you can use your reaction to attempt to grapple that creature.
+
+
+#### Merely A Tickle
+At 17th level, you can use your powerful takedowns reaction even if the attack hits you. 
+
+Furthermore, you may spend a ki point to use your Binding Assault feature against the attacker if you successfully grapple it.
+{{pageNumber,auto}}
+\page
+
+### Way of Ferocity
+While monks of every Tradition strive for mastery over their
+physical form, honing their bodies into weapons, creatures
+born with natural weapons; vicious claws, imposing horns,
+sharp teeth, or lashing tails, have a natural advantage in their quest to weaponize their bodies for combat.
+
+ Monks with these natural advantages often adopt the Way
+of Ferocity. Through the practice of this ancient and savage
+tradition they enhance their physical features with secret
+techniques, and combine their mastery of Ki with the primal
+ferocity that dwells within all creatures of wild heritage.
+
+
+#### Ferocity Techniques
+You learn certain Techniques at the levels noted in the table
+below. They don't count against your number of Techniques
+Known and they cannot be switched upon gaining a level.
+
+|Monk Level| Technique |
+|:---------:|:------------:|
+3rd |crippling strike
+5th |stunning strike
+9th |friend of beast and lea
+
+#### Natural Predator
+Upon adopting this Tradition at 3rd level, your enhance your
+natural abilities with one of the disciplines below. Creatures
+often master disciplines that enhance their natural features.
+
+- **Bestial Rend**. This discipline is most often adopted by
+creatures with sharp claws and teeth. Your unarmed strikes
+now deal slashing damage, and inflict deep wounds on your
+target. Each time you hit a creature with an unarmed strike,
+its movement speed is reduced by a cumulative 5 feet until
+the start of your next turn. If you reduce a creature's speed to 0, they are restrained until the start of your next turn.
+
+- **Natural Defense**. This discipline is most often adopted by creatures with scales or shells. When a creature you can see hits you with an attack you can use your reaction to add your proficiency bonus to your Armor Class against the attack.
+- **Savage Charge**. This discipline is most often adopted by creatures with hooves or horns. If move at least 15 feet in a straight line toward a creature, you have advantage on the first unarmed strike you make against that creature.
+
+#### Primal Intuition
+You training has honed your instincts and senses along with
+your physical prowess. At 6th level, choose a skill proficiency
+you gained from your race. You add double your proficiency
+bonus to any ability check you make with that skill.
+If you didn't gain a skill proficiency from your race, you
+gain proficiency in one of the following skills: Athletics,
+Insight, Intimidation, Perception, Stealth, or Survival.
+
+\column
+
+#### Power of the Wild
+In your training you have learned to augment your physical
+strikes with the power of Ki. Starting at 11th level, when you
+hit a creature with an unarmed strike you can expend 1 Ki
+Point to deal an additional 2d6 damage to the target.
+
+#### Apex Predator
+You have brought forth the true potential of your wild body. At 17th level, you learn one of the following disciplines:
+- **Bestial Fury**. You can whip yourself into a primal fury
+when hunting your foes. When you score a critical hit against
+a creature with an unarmed strike, its speed is reduced to 0,
+and you have advantage on any unarmed strikes you make
+against that creature until the start of your next turn.
+
+- **Natural Resilience**. You can harden your body to absorb incoming assaults. Whenever you take damage and are not incapacitated, you can expend Ki to reduce the damage you would take by 1d12 for each Ki Point you spend.
+- **Savage Rush**. You can draw upon primal speed to trample those in your path. As an action, you can expend 4 Ki Points and move up to your full movement speed in a straight line. Any creature you pass through must make a Dexterity saving throw. On a failure, a creature takes 8d6 bludgeoning damage and is knocked prone. On a successful save, a creature takes half damage and is not knocked prone.
+
+{{pageNumber,auto}}
+\page
+
+
+### Way of the Flagellant
+The Way of the Flagellant teaches an extreme, 
+sometimes heretical, view of asceticism: peace 
+comes through suffering, purity through pain. Its 
+practitioners shun all indulgences and embrace pain 
+to harness their ki and isolate themselves further 
+from the material world. As such, these monks often 
+carry their eponymous flails and whips, both to use 
+on themselves and their foes. Their pain is a mortal 
+penitence and an act of focusing, letting them block 
+out all else and manipulate their ki with expert 
+intent.
+
+
+#### Flagellant Techniques
+You learn certain Techniques at the levels noted in the table
+below. They don't count against your number of Techniques
+Known and they cannot be switched upon gaining a level.
+
+|Monk Level| Technique |
+|:---------:|:------------:|
+3rd |mystic healing
+5th |unyielding perseverance
+9th |monastic fortitude
+
+#### Ascetic Impliments
+When you choose this tradition at 3rd level, you 
+learn the techniques of the Way of the Flagellant, 
+including their signature weapons. You gain 
+proficiency with flails and whips, which count as 
+monk weapons for you.
+Additionally, you can choose to deal slashing 
+instead of bludgeoning damage with your unarmed 
+strikes.
+
+#### Penitent lash
+At 3rd level, when you start your turn, you can 
+sharpen your focus by spending 1 ki point and 
+striking yourself with a ritualistic flail. You take 2d4 
+slashing damage and gain advantage on the first 
+attack you make with a monk weapon or unarmed 
+strike on your turn. If you instead choose to take 4d4 
+slashing damage, you can gain advantage on all of 
+your attack rolls on your turn, instead of only your 
+first. This ability has no effect if you reduce or avoid 
+taking the slashing damage. 
+
+\column
+
+#### Art of Punishment
+By 6th level, your expertise in the purifying 
+discipline of pain has granted you new ways to share 
+agony. You gain the following abilities: 
+- **Branding Palm**. When you hit a creature with 
+an unarmed strike, you can spend 1 ki point as a 
+bonus action to brand the creature. The next attack 
+that hits a branded creature within the next minute 
+deals an additional 2d8 fire damage. At 11th level, 
+this damage increases to 3d8, and at 17th level, this 
+damage increases to 4d8.
+- **Electroshock Strike**. Immediately after you 
+take the Attack action on your turn, you can spend 1 
+ki point to cast the shocking grasp cantrip as a bonus 
+action. Wisdom is your spellcasting ability for this 
+spell
+- **Scissorhand Technique**. If you deal slashing 
+damage to a creature with a monk weapon or 
+unarmed strike, you can also spend 1 ki point to 
+give the target a bleeding wound. Constructs, oozes, 
+and undead can’t get bleeding wounds. 
+A creature  loses 1d6 hit points at the start of each of its turns for each of its bleeding wounds unless it uses an action to staunch the bleeding. While a target is bleeding, it can't regain lost hit points. A creature can have a number of bleeding wounds up to your proficiency bonus.
+
+#### Purity through Pain
+Beginning at 11th level, you enter a rapturous 
+frenzy when wounded. Whenever you take damage 
+in excess of your character level, you can use your 
+reaction to regain 1d4 ki points. You can use this 
+ability a number of times equal to your Wisdom 
+modifier (minimum once) and regain all expended 
+uses when you finish a long rest.
+#### Exsanguinate
+Beginning at 17th level, when you use your Penitent 
+Lash feature, you can choose to increase the slashing 
+damage taken to 6d4. When you do so, you gain all 
+the benefits of that feature, and your unarmed strikes 
+deal an additional 1d4 slashing damage on a hit until 
+the end of your turn.
+{{pageNumber,auto}}
+\page
+
+
+### Way of the Flowing River
+Novices who adopt the Way of the Flowing River are taught a style of martial arts that emphasizes non-violence and only using force when necessary.
+
+#### Dancing Monk
+At 3rd level, you gain proficiency in Acrobatics and Performance. Whenever you make an Acrobatics or Performance check, you can treat a roll of 7 or lower on the d20 as an 8.
+
+Monks of your Tradition are known for their graceful dancing. You can make Dexterity (Performance) checks.
+
+#### Flowing River Stance
+Beginning at 3rd level, you can use your action to enter the Flowing River Stance, which lasts until the start of your next turn. While you are in this stance, you have a number of additional reactions equal to your proficiency bonus.
+
+When a creature misses you with a melee attack while in your Flowing River Stance, you can use your reaction to force it to make a Dexterity saving throw. On a failure, it falls prone and its speed is reduced to 0 until the start of your next turn.
+
+Additionally, whenever a creature falls prone or is moved within your reach, you can make a melee weapon attack or unnarmed strike against it as a reaction.
+#### Flowing River Techniques
+You learn certain Techniques at the levels noted in the table below. They don't count against your number of Techniques Known and they cannot be switched upon gaining a level.
+Monk Level| Technique
+|:-:|:-|
+3rd| step of the wind
+5th| deflect missiles
+9th| heavenly step
+
+\column
+
+#### Graceful Step
+You can skirt attacks with the grace of a gentle stream. At 6th level, you learn the patient defense Technique , and it doesn't count against your total number of Techniques Known.
+
+Also, when you enter your Flowing River Stance, you can use patient defense without expending a Ki Point.
+#### Enchanting Flow
+Starting at 11th level, you can expend 2 Ki Points when you enter your Flowing River Stance to allure the foes around you. For the duration of that Stance, any creature that starts its turn within 10 feet of you has disadvantage on attacks against creatures other than you until the end of their turn.
+
+#### Wrath of the Flowing River
+Starting 17th level, when a creature misses you with a melee attack while in your Flowing River Stance, you can force it to make a Strength saving throw as a reaction. On a failure, it is knocked back a number of feet depending on its size:
+Size|Movement
+|:-:|:-:|
+Tiny| 60 feet
+Small| 40 feet
+Medium| 30 feet
+Large| 20 feet
+Huge| 15 feet
+Gargantuan| 10 feet
+
+
+### Way of the Four Fists
+Through the careful manipulation of their ki, monks of the Way of the Four Fists strive to emulate the unusual fighting style of the legendary Monkey King.
+
+#### Four Fists Techniques
+You learn certain Techniques at the levels noted in the table below. They don't count against your number of Techniques Known and they cannot be switched upon gaining a level.
+Monk Level| Technique
+|:-:|:-|
+3rd |whirling strike
+5th |crushing strike
+9th |friend of beast and leaf
+#### Grasp of the Monkey
+When you choose this tradition at 3rd level, you undergo a permanent magical transformation, lengthening your fingers and toes, strengthening your arms and legs, and sprouting a tail. You gain a climbing speed equal to your movement speed, your jumping distance is doubled, and you have advantage on ability checks and saving throws made to climb, maintain your balance, and grip objects such as ledges or ropes. You can hold and manipulate objects and weapons with your hands, feet, and tail, but you can’t make attacks with weapons held by your tail.
+{{pageNumber,auto}}
+\page
+#### Simian Swift
+Also at 3rd level, whenever you roll initiative and are not surprised, you can spend 1 ki point to move up to half your movement speed or jump into the air, and then make one unarmed strike.
+
+#### Nimbus
+At 6th level, you can use your bonus action to summon a cloud to ride upon. Until the beginning of your next turn, you have a fly speed equal to your movement speed. When you begin your turn, you can maintain this effect by spending 1 ki point. Otherwise, if you begin your turn and have nothing holding you aloft, you fall.
+#### Uncanny Dodge
+Starting at 11th level, when an attacker that you can see hits you with an attack, you can use your reaction to halve the attack’s damage against you.
+#### Flurry  of Limbs
+At 17th level, by walking on your hands and twirling erratically, you can fight with your feet as nimbly as you do your fists. You make four unarmed strikes, rather than two, when you use Flurry of Blows on your turn.
+
+### Way of Gravity
+Monks that have spent ample time in artificial gravity can feel the difference in their ki; natural gravity is substantial and wholesome, like an embrace from a great planet itself, whereas artificial gravity hums with a flimsy electrical artifice. With practice, these monks learn to manipulate their own gravity using their ki, throwing their center of mass about in defiance of physical conventions and tweaking gravitational fields around them.
+#### Gravity Techniques
+You learn certain Techniques at the levels noted in the table below. They don't count against your number of Techniques Known and they cannot be switched upon gaining a level.
+
+|Monk Level| Technique |
+|:---------:|:------------|
+3rd |slowfall
+5th |slowing strike
+9th |banishing strike
+#### Subjective Gravity
+Starting when you choose this monastic tradition at 3rd level, you can choose your own center of gravity. On your turn, you can use half your movement to choose a solid surface (such as a wall or ceiling) within 30 feet of you to act as the ground for your subjective gravity. You are pulled down to this surface, as if by gravity. Your subjective gravity follows this surface along any smooth contours, but stops at any corners that turn 90 degrees or more. Only you and objects you wear or carry are influenced by your subjective gravity.
+
+\column
+
+#### Negate Mass
+Starting at 6th level, you can spend 2 ki points to cast the spell levitate.
+
+
+
+#### Distortion Field
+Starting at 11th level, you can use your bonus action and spend 1 ki point to create an invisible 10-foot diameter sphere of gravitational distortion, centered on a point you can see within 60 feet. This distortion lasts for 1 minute. If a creature enters this space, its movement stops. At the beginning of each of its turns, the creature can use half its movement and make a Strength saving throw to escape the distortion field, moving to an adjacent unoccupied space of its choice on a success. On a failed save, the creature can't move. Any projectile that passes through
+your distortion field stops instantly in midair.
+
+
+#### Singularity Strike
+Starting at 17th level, your attacks carry massive fields in their wake. When you hit a creature with two or more unarmed strikes on your turn, you form a gravitational field around it. Until the beginning of your next turn, the creature can’t willingly move unless it first uses the Disengage action and spends half its movement to escape this field.
+### Way of the Hurricane
+While most monks master martial arts that focus on rapid strikes and elusive movement, those who follow the Way of the Hurricane master mighty weapons. Using their signature style, the students of this Tradition become walls of whirling steel, cutting down any who dare to stand against them.
+#### Heavy Warrior
+You have trained to wield heavy weapons in conjunction with your martial arts. When you adopt this Tradition at 3rd level, you gain proficiency with all martial melee weapons with the heavy property, and they qualify for your Martial Arts attacks.
+
+In addition, while you are wielding a melee weapon with the heavy property, you have advantage on saving throws to resist being grappled or moved against your will.
+#### Hurricane Strike
+At 3rd level, you learn to wield your heavy weapons with the fury of a storm. While you are wielding a heavy melee weapon, you use whirling strike without expending Ki.
+
+Moreover, you can choose to add your Strength modifier, in place of your Dexterity, to the damage of whirling stike.
+
+{{pageNumber,auto}}
+\page
+#### Hurricane Techniques
+You learn certain Techniques at the levels noted in the table below. They don't count against your number of Techniques Known and they cannot be switched upon gaining a level.
+Monk Level| Technique
+|:-:|:-|
+3rd| whirling strike
+5th| stunning strike
+9th| monastic fortitude
+
+#### Crushing Counter
+At 6th level, you use your weight to rebuke your attackers. When you are hit by an attack while you are wielding a heavy melee weapon, you can use your heavy weapon to make an attack against the attacker as a reaction. On hit, the attacker's speed is reduced to 0 until the beginning of your next turn.
+
+#### Buffeting Winds
+You use the weight of your weapon to create gusts of wind which empower your strikes. Starting at 11th level, when you hit a creature with a heavy weapon, you can force it to make a Strength saving throw. On a failed save, the creature is either knocked prone, or it is knocked back a number of feet equal to five times your proficiency bonus (your choice).
+
+You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a long rest. If you have no uses remaining, you can spend 1 Ki Point to use it again.
+#### Improved Hurricane Strike
+Starting at 11th level, when you use whirling strike, creatures that fail their saving throw take damage equal to two rolls of your Martial Arts die + your Strength or Dexterity modifier (your choice) on a failure, and half as much on a success.
+#### Tempest of Steel
+You wield your weapon as a blur of steel. Beginning at 17th level, you can use an action to disappear and make a separate melee attack against up to five creatures you can see within 60 feet, reappearing next to one of the creatures you hit. You must be wielding a heavy melee weapon to use this feature.
+
+Once you use this feature you must finish a short or long rest before you can use it again. When you have no uses remaining, you can expend 5 Ki Points to use it again.
+
+If you use your buffeting winds feature with one of the attacks from this feature, all the attacks made gain it's benefits expending no additional ki.
+
+\column
+
+### Way of the Mask
+When you put on your mask, you're not an ordinary, if impossibly handsome, commoner anymore; you're the greatest wrestler the world has ever known. You'll wrestle anyone—or anything—that comes within arm's reach. Sometimes you wrestle inanimate objects, just to prove that you can. That one time you wrestled an owlbear? Totally happened. For real.
+
+People come from all around to get a shot against you, to unmask you and take your championship belt. Everyone wants to beat the champ; too bad no one ever will.
+#### Mask Techniques
+You learn certain Techniques at the levels noted in the table below. They don't count against your number of Techniques Known and they cannot be switched upon gaining a level.
+Monk Level| Technique
+|:-:|:-|
+3rd| improvised strikes
+5th| adept fighting style
+9th| indomitable spirit
+
+
+#### Crowd Favorite
+The roar of the crowd lives inside you. Starting when you choose this tradition at 3rd level, you may use your Charisma instead of your Wisdom for any Monk feature. 
+
+Additionally, your Unarmored Defense is calculated as follows: while you are wearing no armor and not wielding a shield, your AC equals 10 + your Strength modifier + your Charisma modifier.
+#### Heavyweight Champion
+When presented with an obstacle, your first instinct is to wrestle it, even if the obstacle in question is not conventionally wrestle-able, like a dragon, an ooze, or an awkward conversation. At 3rd level, you gain the following features:
+- You can attempt to grapple any creature, regardless of its size.
+- You can use your action to try to pin a creature grappled by you. To do so, make another grapple check. If you succeed, you and the creature are both restrained until the grapple ends.
+- If you have the Grappler feat, you can choose whether a target grappled by you must make a Strength (Athletics) or Dexterity (Acrobatics) check to escape.
+
+
+{{pageNumber,auto}}
+\page
+#### Signature Move
+At 6th level, you master a signature move, which soon becomes synonymous with your exploits. Choose one of the following features of your choice. Each of these features has a suggested name, but you can choose any name for your signature move, preferably one that sounds good being chanted by a crowd and yelled by you while you perform it.
+
+**Foreign Object.** You are proficient with improvised weapons, which count as monk weapons for you. Once on each of your turns, you can spend 1 ki point to add half your monk level to the damage of an improvised weapon.
+
+**Headbutt of Justice.** Once on each of your turns when you miss with an unarmed strike, you can spend 1 ki point to follow it up with a quick headbutt. Make a second unarmed strike against the same target. The damage die of this unarmed strike is 1d8.
+
+**Infinity Suplex.** While you are grappling another creature, you can use your bonus action and spend 1 ki point to end the grapple early by hurling your opponent over your shoulder and slamming them into the ground. Make an attack roll against the creature you are grappling. On a hit, the creature takes bludgeoning damage equal to 2d10 + your Strength modifier and is knocked prone. The grapple then ends.
+
+#### Off the Rope
+At 11th level, once per turn whenever you fall 5 feet or more immediately before making an unarmed strike, you can choose to either make a stunning strike without expending ki, or to knock the target prone and automatically grapple the target on a hit.
+#### Choked Out
+By 17th level, your chokeholds can knock out dragons. When you pin a creature grappled by you, you can spend 2 ki points to attempt to choke the creature out. The creature must make a Constitution saving throw with advantage against your ki save DC. On a failure, the creature is knocked unconscious, rather than restrained, until the beginning of your next turn.
+:
+### Way of the Open Hand
+While all monks are warriors, monks who follow the Way of the Open Hand train relentlessly, forging their bodies into deadly weapons. They do not neglect spiritual training, but disciples of the Open Hand pride themselves on their skill with martial arts, and it is exceptionally rare to see an Open Hand monk who wields a weapon other than their fists.
+
+\column
+
+#### Open Hand Techniques
+You learn certain Techniques at the monk levels noted in the table below. These don't count against your total number of Techniques Known. Moreover, when you gain a monk level, you can replace one strike Technique you learned through this feature with another strike Technique of your choice.
+Monk Level| Technique
+|:-:|:-|
+3rd| empowered strike
+5th| stunning strike
+9th| indomitable spirit
+#### Practiced Strikes
+Starting when you join this Tradition at 3rd level, when you hit a creature with an unarmed strike, you can choose to use a strike Technique you know without expending a Ki Point.
+You can do so a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses each time you finish a long rest.
+
+
+#### Ebb and Flow
+Beginning at 6th level, you can use your the momentum of your foes against them. When a creature misses you with a melee attack, you can use one of the following reactions:
+- You can move up to speed without provoking opportunity attacks.
+- You can make one unarmed strike against the creature.
+#### Open Hand Strike
+Starting at 11th level, your fists strike with enough force to disrupt the flow of your foe's Ki. When you score a critical hit with an unarmed strike, the target has disadvantage on any saving throw you force it to make as part of that attack.
+#### Master of Many Forms
+You are able to master new Techniques with ease. Beginning at 11th level, whenever you finish a long rest, you can replace one of the Techniques you know with another Technique of your choice that you meet the prerequisites for.
+#### Grand Master of the Open Hand
+You are an unparalleled master of unarmed martial arts and are able to strike with wondrous speed and overwhelming power. At 17th level, you gain the following benefits:
+- When you use Flurry of Blows you can make three unarmed strikes as part of that bonus action. 
+- When you make an opportunity attack against a creature, you can make two unarmed strikes in place of that attack. 
+- When you use Ebb and Flow to make an unarmed strike against a creature, you can make two unarmed strikes.
+{{pageNumber,auto}}
+\page
+### Way of Radiance
+Legends tell of wandering sages that channel bursts of light from within their bodies. These students of Radiance have such fine control over their spirit that they can assault others with radiant blasts of Ki. These luminous warriors travel the land promoting harmony and justice amongst all peoples.
+
+#### Radiant Techniques
+You learn certain Techniques at the levels noted in the table below. They don't count against your number of Techniques Known and they cannot be switched upon gaining a level.
+Monk| Level Technique
+|:-:|:-|
+3rd| mystic healing
+5th| seeking strike
+9th| aura sight
+#### Radiant Bolt
+When you join this Tradition at 3rd level, you can focus your Ki into bolts of searing light. When you make an unarmed strike, you can replace the attack with a Radiant Bolt. Radiant Bolts are ranged Martial Arts attacks with a range of (30/90). You are considered proficient with them, you use your Dexterity for their attack and damage rolls, and on hit they deal radiant damage equal to your Martial Arts die.
+#### Searing Blast
+Starting at 6th level, you can create searing blasts of radiant Ki. As a bonus action, you can force creatures in an adjacent 15-foot cone to make a Dexterity saving throw. Creatures take radiant damage equal to three rolls of your Marital Arts die on a failed save, and half as much on a successful one.
+
+You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a long rest. If you have no uses remaining, you can spend 1 Ki Point to use it again.
+
+#### Luminous Burst
+Your spirit brims with burning radiance that you can channel to purify the world. Beginning at 11th level, you can use your action to cast the fireball spell. When you use this feature to cast this spell it deals radiant damage instead of fire damage. You can expend Ki Points as part of this action to empower your Luminous Burst. For each Ki Point you spend, up to a maximum of 3, it deals an additional 1d6 radiant damage.
+
+You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a long rest. If you have no uses remaining, you can spend 3 Ki Points to use it again.
+
+\column
+
+#### Grand Master of Radiance
+Your radiant spirit can stand against the greatest powers of darkness. At 17th level, you gain the following benefits:
+- You gain a flying speed equal to your movement speed.
+- You become wreathed in light. You shed bright sunlight in a 30-foot radius and dim sunlight for 30 feet beyond that.
+- You can extinguish or restore the light as a bonus action. The radiant damage of your Radiant Bolt, Searing Blast, and Luminous Burst all count as true sunlight.
+- You are immune to radiant damage and being blinded.
+
+### Way of the Reaper
+While most monasteries teach their students to live their life to its full potential, some are obsessed with the taking of life. One such order is the Way of the Reaper. These monks are experts at snuffing out the lives of other mortals and they learn to use deathly ki to fuel their own martial power.
+#### Reaper Techniques
+You learn certain Techniques at the levels noted in the table below. They don't count against your number of Techniques Known and they cannot be switched upon gaining a level.
+Monk| Level Technique
+|:-:|:-|
+3rd| crippling strike
+5th| slowing strike
+9th| indomitable spirit
+#### Frightful Touch
+When you join this Tradition at 3rd level, you learn to infect other's Ki with fear. When you hit a creature with a Martial Arts attack, you can force it to make a Wisdom saving throw or be frightened of you until the start of your next turn.
+
+You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a long rest. If you have no uses remaining, you can spend 1 Ki Point to use it again.
+
+
+{{pageNumber,auto}}
+\page
+#### Necrotic Spirit
+Your obsession with death infects every part of you; body, mind, and soul. At 3rd level, you gain the following benefits:
+- You can cause your unarmed strikes to deal necrotic damage in place of the normal bludgeoning damage.
+- You are resistant to necrotic damage. 
+- When you are forced to make a saving throw to resist being frightened you have advantage on your roll.
+
+#### Sinister Vitality
+Beginning at 6th level, you can shroud yourself with necrotic vitality. As a bonus action, you can grant yourself temporary hit points equal to your Wisdom modifier (minimum of 1). While these temporary hit points last, you are resistant to non-magical bludgeoning, piercing, and slashing damage.
+
+#### Armor of the Grave
+You have become so familiar with death that you can resist its grasp when it comes for you. Starting at 11th level, when you are reduced to 0 hit points but no killed outright, you can expend 1 Ki Point to fall to 1 hit point instead of 0.
+
+Each additional time you use this feature before you complete a long rest you must spend 1 additional Ki Point.
+#### Grand Master of Death
+Beginning at 17th level, you can channel deathly Ki through your touch. When you take the Attack action, you can touch a creature in place of one of your attacks and spend up to 10 Ki Points. The target must make a Constitution saving throw. A creature takes 2d10 necrotic damage per each Ki Point you spent on a failed save, and half as much on a successful save.
+
+Creatures that are frightened of you has disadvantage on their Constitution saving throw.
+
+{{imageMaskEdge2,--offset:10%,--rotation:270
+  ![](https://cdnb.artstation.com/p/assets/images/images/003/475/105/large/maja-deke-diablomonk.jpg?1474082634){height:101%,left:100px,bottom:-1px}
+}}
+
+{{pageNumber,auto}}
+\page
+### Way of the Riftwalker
+Riftwalkers carve their way through life by opening portals—to roam the world, outwit their enemies, and escape the inescapable. Capricious though it may seem, the Way of the Riftwalker requires just as much commitment as any other tradition, and only those who crave freedom at any cost can truly embrace its esoteric mysteries. Yet that very wanderlust that fuels a riftwalker’s devotion so often festers into a disdain for the world's petty constraints, for the path they follow proves just how weak the threads holding existence together truly are. The riftwalker's tenets foment this scorn by dismissing the world's wonders as distractions and glorifying the lightless void through which these Monks tread. By the time they've mastered the art, riftwalkers no longer merely open portals—they tear rifts into the fabric of reality, indifferent to the wounds left in their wake. Some even open rifts just for another taste of the void.
+
+Monasteries devoted to the Way of the Riftwalker seldom stay in one place—or world—for long. A forgotten hideout in the remote wilds or the criminal underworld serves them just fine as a temporary sanctum, as these monks invest in a community rather than a location. There in the shadows, they serve as caravanserais for the wicked: fugitives looking for a way out and avengers in need of a way in.
+
+The life of a riftwalker isn't easy thanks to its transient nature—or perhaps because of the corruptive ex- posure to the void between worlds.
+
+You can roll on the following table to better flesh out your riftwalker Monk.
+
+d6| A Riftwalker's Life
+:-:|:-:
+1| People come and go; you never form attachments and are frustrated when one happens by accident.
+2| To meditate, you continuously fall through a pair of linked portals.
+3| Your monastery is responsible for an emperor's assassination. Knightly orders seek whomever bears their tattoo.
+4| You've seen the best this world has to offer you; no natural beauty can amaze you anymore.
+5| Why bother cooking when you can steal someone's food from afar?
+6| Your monastery "visits" you at the most inopportune times, demanding you prove your devotion through some fell deed.
+
+#### Portal Strikes
+When you adopt this Tradition at 3rd level, to merely throw a fist is the enterprise of a lesser Monk... you know swifter avenues of attack.
+
+Whenever you take the Attack action, you can open small portals to strike at foes from a distance. When you do so, your reach with your Unarmed Strikes and monk weapons increases by a number of feet equal to the bonus granted by your Unarmored Movement feature.
+
+
+\column
+#### Riftwalker Techniques
+You learn certain Techniques at the levels noted in the table below. They don't count against your number of Techniques Known and they cannot be switched upon gaining a level.
+Monk Level| Technique
+|:-:|:-|
+3rd| Adept Fighting Style
+5th| Deflect Missile
+9th| Banishing Strike
+
+#### Itinerance
+Beginning at 6th level, seldom can a foe land a blow
+on you, for your quick reflexes allow you to tear open
+the fabric of space in order to redirect their attacks.
+You can use your Deflect Missiles exploit when
+targeted by melee attacks.
+
+If the damage of a melee attack is reduced to 0 in
+this way, you can expend 1 Ki Point to intercept the
+attack with a portal, redirecting it towards a target you
+can see within a number of feet of you equal to the
+bonus granted by your Unarmored Movement feature.
+A floating portal opens within the target’s space and
+the attack targets it instead of you
+
+
+
+#### Peregrine Hands
+Starting at 11th level,  so easy is it to rip open rifts that your hands can wander through the void for all manner of mischief. As an action, you can open a 1-foot-radius portal within an unoccupied space you can see within a number of feet of you equal to the bonus granted by your Unarmored Movement feature. As part of that action, you can reach through to manipulate objects or pull them through the portal. 
+
+The portal closes at the end of your turn. 
+
+Additionally, when you use your Deflect Missiles exploit, you reduce the attack’s damage by an extra 1d10.
+#### Roundhouse Rift-Kick
+Beginning at 17th level, it is the responsibility of the enlightened to share their wisdom, and you can now share the lightless void with your enemies. When you use your Flurry of Blows and hit the same creature with both attacks, you can expend 1 Ki Point to open a portal in the target's space and a linked portal within an unoccupied space you can see within 30 feet of you.
+
+The target is pushed through the portal and appears in that space.
+
+The portal then disappears.
+{{pageNumber,auto}}
+\page
+### Way of the Sacred Inks
+Initiates of the Sacred Inks spend years practicing celestial calligraphy. Once they are ready, the monks mark their bodies with increasingly complex celestial tattoos, granting them access to divine power. As the monk's spiritual connection to the divine grows, so does the beauty of their celestial tattoos.
+#### Celestial Artist
+When you adopt this Tradition at 3rd level, you are taught the techniques of a celestial tattoo artist. You learn to speak, read, and write Celestial. Though most monks will refuse to speak in Celestial out loud out of reverence for the divine.
+
+You also gain proficiency with calligrapher's supplies, and add double your proficiency bonus to any ability check you make that uses your calligrapher's supplies proficiency.
+
+
+#### Divine Conduit
+Your celestial tattoos allow you to channel the radiant power of the upper planes through your hands. Starting at 3rd level, you can align yourself with an aspect of the upper planes. At the end of a short or long rest, choose one of the following abilities, which lasts until the end of your next rest.
+
+**Healing Touch.** Your sacred tattoos can channel the gift of divine healing. When you spend a Hit Die to regain hit points your regain the maximum amount, in place of rolling.
+
+In addition, you can use your action to spend 2 Ki Points and touch a creature, restoring their hit points by an amount equal to 1d8 + your Wisdom modifier (minimum of 1).
+
+**Radiant Strike.** Your sacred tattoos channel divine wrath. When you hit with an unarmed strike or monk weapon, you can expend Ki Points to deal additional radiant damage to the target equal to one roll of your martial arts die per Ki Point. The maximum number of Ki Points you can expend at once is equal to your Wisdom modifier (minimum of 1).
+#### Sacred Ink Techniques
+You learn certain Techniques at the levels noted in the table below. They don't count against your number of Techniques Known and they cannot be switched upon gaining a level.
+Monk Level| Technique
+|:-:|:-|
+3rd| spiritual armor
+5th| divine light
+9th| commune with self
+
+\column
+
+#### Heavenly Protection
+Both your connection to the divine light and the complexity of your celestial tattoos has increased, granting you a blessing of protection from death. Beginning at 6th level, each time you finish a long rest, you gain the benefits of death ward without expending a spell slot or the material components.
+
+#### Light of the Heavens
+Starting at 11th level, your sacred tattoos provide a glimpse of the divine. As a bonus action, you can unveil your celestial tattoos and emit bright sunlight in a 10-foot radius from you. While your tattoos are revealed in this way, you can add your Wisdom modifier (minimum of 1) to the hit points you restore with your Healing Touch, and the additional radiant damage you deal each time you use your Radiant Strike.
+
+This feature lasts for 1 minute unless you end it as a bonus action or fall unconscious. Once you use this feature you must finish a short or long rest before you can use it again.
+
+#### Celestial Aspect
+You have become a master of the Order of Sacred Inks, and your celestial tattoos are a direct reflection of divine beauty. At 17th level, you can use an action to assume a celestial form. For the next minute you gain the following benefits:
+- Your tattoos manifest angelic wings. You gain a flying speed equal to your movement speed and can hover. 
+- When you hit a creature with an unarmed strike you can choose to deal radiant in place of bludgeoning damage.
+- Your attacks deal an additional 1d6 radiant damage on hit.
+- You gain access to all of your Divine Conduit features for the duration, and their Ki Point costs are reduced by 1.
+
+Once you use this feature you must finish a long rest before you can use it again, unless you expend 6 Ki Points to use it.
+
+
+{{pageNumber,auto}}
+\page
+### Way of the Shadow Arts
+While most practitioners of martial arts place a high value on honorable conduct and combat, those who follow the Way of the Shadow Arts exploit every weakness possible. Assassins, spies, and infiltrators, Shadow monks use darkness to their advantage and strike only when their success is assured.
+#### Shadow Techniques
+You learn certain Techniques at the levels noted in the table below. They don't count against your number of Techniques Known and they cannot be switched upon gaining a level.
+Monk| Level Technique
+|:-:|:-|
+3rd| slow fall
+5th| gentling touch
+9th| heavenly step
+#### Eyes of Night
+When you join this Tradition at 3rd level, the darkness itself becomes your ally. You gain darkvision out to a range of 60 feet. If you already have darkvision, it increases by 30 feet.
+
+In addition, you have advantage on any Dexterity (Stealth) checks you make while you are in dim light or darkness.
+
+
+#### Shadow Arts
+Starting at 3rd level, you can draw forth inky tendrils of your shadowy Ki to reproduce the effects of certain spells. As an action, you can cast the following spells without providing a spell slot or their material components: darkness, darkvision, pass without trace, or silence. You can see through magical darkness produced by the effects of any spell you cast.
+
+You can cast each spell once, and you regain the ability to cast them when you finish a long rest. If you have no uses left, you can spend 2 Ki Points to cast one of these spells again.
+
+#### Shadow Step
+You move as an undetected shadow through the darkness. Beginning at 6th level, you can step from one shadow into another. When you are in dim light or darkness, you can use your bonus action to teleport up to 60 feet to an unoccupied space you can see that is also in dim light or darkness.
+
+After teleporting in this way, you have advantage on the first Martial Arts attack you make before the end of that turn.
+
+\column
+
+#### Cloak of Shadows
+Starting at 11th level, you can become one with the darkness. When you are in an area of dim light or darkness, you can use an action to become invisible. You remain invisible until you attack, cast a spell, or move into an area of bright light.
+
+Moreover, if you are invisible, you can make opportunity attacks as a reaction when a creature moves into your reach. Opportunity attacks only end your invisibility if you hit your target. If the opportunity attack misses, you remain invisible.
+#### Grand Master of Shadows
+Upon reaching 17th level, your Way of the Shadow Arts features gain the following benefits:
+- You can cast the spells you gained from Shadow Arts an unlimited amount of times without expending Ki Points.
+- The range of your Shadow Step increases to 120 feet.
+- You can use your Cloak of Shadows as a bonus action.
+- As an action, you can cast greater invisibility or shadow of moil, targeting only yourself, without expending a spell slot or material components. You can cast each spell once, and you regain the ability to cast it when you finish a long rest. If you have no uses left, you can spend 4 Ki Points to cast one of these spells again.
+### Way of Street Fighting
+The Way of Street Fighting is an urban discipline founded on necessity, whose blindingly fast, unique brand of martial arts has been honed and perfected in back-alley brawls and tournaments alike. Monks who adopt this relatively new technique place comparatively little value on spiritual enlightenment and karmic balance.
+#### Street Fighting Techniques
+You learn certain Techniques at the levels noted in the table below. They don't count against your number of Techniques Known and they cannot be switched upon gaining a level.
+Monk| Level Technique
+|:-:|:-|
+3rd |empowered strike
+5th |stunning strike
+9th |monastic fortitude
+#### Combo
+Starting when you choose this tradition at 3rd level, you gain bonuses for successful consecutive hits on a single target. On your turn, you gain a +2 bonus to the damage rolls of your unarmed strikes and monk weapons for each hit that you have made on that target on your turn, to a maximum of +6. 
+
+This bonus resets to 0 if you take damage or if you miss an attack roll.
+{{pageNumber,auto}}
+\page
+#### Iron Fist
+By 6th level, your unarmed strikes and monk weapons ignore the damage threshold of objects and deal maximum damage to them.
+
+#### Special Moves
+At 11th level, you have memorized and mastered patterns of discrete movements that unlock your ki, allowing you to use the following special moves:
+
+**Ki Blast.** You can channel your ki into a blast of energy. As an action, you can expend 2 ki points to make a ranged spell attack (using your Wisdom modifier + your proficiency bonus) against a creature you can see within 120 feet of you. On a hit, the target takes force damage equal to 6d8 + half your monk level.
+
+**Uppercut.** Immediately after you take the Attack action on your turn, you can spend 1 ki point to perform an uppercut. Make an unarmed strike as a bonus action. On a hit, if the target is Large or smaller and doesn't have all of its hit points, it takes damage as normal and is then knocked off its feet and falls prone.
+
+**Whirlwind Strike.** Whenever you make a melee attack on your turn against a creature you can see, you can spend 1 ki point to lunge up to 15 feet toward your target before making the attack. This movement doesn’t provoke opportunity attacks. You can perform this movement even if it causes you to travel through the air, though you fall after making the attack if you do not land on solid ground.
+#### K.O.
+Beginning at 17th level, you can spend 3 ki points to channel your ki into a single strike, knocking a foe unconscious. As an action, make an unarmed strike against a creature within your reach. On a hit, the target takes damage as normal. If the creature has 100 or fewer hit points after you deal damage, it is reduced to 0 hit points, is knocked unconscious, and becomes stable.
+
+Once you use this ability, you can't use it again until you finish a long rest.
+### Way of the Vigilante
+While all monks strive for perfection in one way or another, monks of this Tradition stand as paragons of justice, liberty, and fair play. Lauded as heroes by some, and derided as extrajudicial criminals by others, Vigilante monks work to perform ever more impressive feats of heroism.
+
+The signature mark of a Vigilante monk is their Heroic Persona, a mantle they create for themselves that protects their true identity. Vigilante monks almost always have a deeply personal reason for donning their Heroic Persona and working to thwart villains of all kinds. What is yours?
+
+\column
+#### Bonus Proficiencies
+When you adopt this Tradition at 3rd level, you gain the skills to succeed as a heroic Vigilante. You gain proficiency in your choice of either Intimidation or Performance.
+
+You also gain proficiency with light armor, medium armor, and shields. When wearing armor or using a shield you still gain the benefits of Martial Arts and Unarmored Movement.
+#### Heroic Persona
+At 3rd level, you design your Heroic Persona, a lager than life identity usually marked by a thematic costume or flashy suit of armor. As a bonus action, so long as you cannot be seen, you can adopt your Heroic Persona, which can include a suit of light or medium armor and a shield. When you do so, you gain temporary hit points equal to your monk level, and while your Heroic Persona is active you gain the following benefits:
+- As a bonus action, you can spend 1 Ki Point to gain temporary hit points equal to your Wisdom modifier. 
+- When you hit with a Martial Arts attack, you can spend 1 Ki Point to deal an additional 1d10 damage to the target.
+- You can use your Wisdom, in place of Dexterity, when calculating your Armor Class in light or medium armor.
+- Ability checks and divination spells that would discern your true identity automatically fail.
+
+Your Heroic Persona lasts for 1 hour, and ends early if you use a bonus action to doff your Persona. Once you adopt your Heroic Persona you can't do so again until you finish a short or long rest, unless you expend 3 Ki Points to use it again.
+#### Vigilante Techniques
+You learn certain Techniques at the levels noted in the table below. They don't count against your number of Techniques Known and they cannot be switched upon gaining a level.
+Monk Level| Technique
+|:-:|:-|
+3rd| slow fall
+5th| unyielding perseverance
+9th| monastic fortitude
+
+#### Valiant Action
+As the reputation and power of your Heroic Persona grows, you gain enhanced physical abilities. At 6th level, you gain proficiency in your choice of either Acrobatics or Athletics.
+
+Also, whenever you make a Strength (Athletics), Dexterity (Athletics) or Dexterity (Acrobatics) check while your Heroic Persona is active, you treat a d20 roll of 9 or lower as a 10.
+{{pageNumber,auto}}
+\page
+#### Inspiring Presence
+The presence of your Heroic Persona inspires confidence in those who fight alongside you. Beginning at 11th level, while your Heroic Persona is active, creatures of your choice within 15 feet that can see or hear you have advantage on saving throws to resist being charmed or frightened.
+
+At 17th level, the radius of this ability increases to 30 feet.
+#### Heroic Strike
+Beginning at 17th level, you can channel all that you are into one devastating blow. As an action, you can touch a creature and spend 1 or more Ki Points up to 10, forcing it to make a Strength saving throw. On a failure, it takes 1d10 bludgeoning damage and is knocked back 10 feet for each Ki Point you spent . On a success, it takes half that damage and is not moved.
+#### Paragon of Virtue
+Your true identity and your Heroic Persona have become one. Starting at 17th level, when you adopt your Heroic Persona, it lasts until you choose to dismiss it as a bonus action.
+### Way of the Void
+While all monks seek unity with the cosmos as something to be desired, those who follow the Way of the Void seek unity through annihilation. The nihilistic students of the Tradition use their power to accelerate this natural process of cosmic decay. Mortal or immortal, mundane or magical in origin, all will eventually become one in the inescapable void.
+
+#### Entropic Touch
+When you adopt this Tradition at 3rd level, you learn to draw upon the power of the void to destroy. As an action, you can touch a tiny, non-magical, object that is not being worn or carried and shunt it to an extradimensional space.
+
+The object remains in this extradimensional space for as long as you can maintain your concentration on it, as if you were concentrating on a spell. If you maintain concentration for 1 hour, the object is permanently destroyed. If you break your concentration, the object reappears in an unoccupied space as close as possible to its previous location.
+
+Once you use this feature to permanently destroy and object, you can't use it again until you finish a long rest, unless you expend 3 Ki Points to use this feature again.
+#### Void Techniques
+You learn certain Techniques at the levels noted in the table below. They don't count against your number of Techniques Known and they cannot be switched upon gaining a level.
+Monk Level| Technique
+|:-:|:-|
+3rd| step of the wind
+5th| slowing strike
+9th| aura sight
+
+#### Void Wielder
+Starting at 3rd level, your connection to the nothingless void allows you to channel its power through your strikes. Once per turn, when you hit a Martial Arts attack, you can spend 1 Ki Point to deal an extra 1d12 force damage to the target.
+
+If you use this feature to deal force damage to a creature that is concentrating on a spell, it has disadvantage on its Constitution saving throw to maintain its concentration.
+#### Vorpal Step
+Beginning at 6th level, when you use Step of the Wind, you draw upon the power of the void to discorporate. Until the end of your current turn, you can move through non-magical objects and creatures as if they were difficult terrain.
+
+If you end this movement inside an object or creature, you are instantly shunted to the nearest unoccupied space, taking 1d10 force damage for every 5 feet you are forced to move.
+
+In addition, you can destroy non-magical objects that are Medium and smaller with your Entropic Touch ability.
+#### Degraded Form
+Your entropic touch can undo arcane magic. Starting at 11th level, you can use an action to touch a creature, object, or magical effect and spend 4 Ki Points to cast dispel magic at 3rd-level, using Wisdom as your spellcasting modifier.
+
+Also, when you pass through a creature with Vorpal Step, you can force it to make a Constitution saving throw. On a failed save it takes force damage equal to your Martial Arts die + your Wisdom modifier (minimum of 1). You can only force a creature to make this saving throw once per turn.
+
+In addition, you can destroy non-magical objects that are Large and smaller with your Entropic Touch ability.
+#### Avatar of Entropy
+Beginning at 17th level, you can use your action to touch a creature and force it to make a Constitution saving throw. On a failed save, the creature suffers the effects of disintegrate as if it had been cast at 6th-level.
+
+Once you use this ability to cast disintegrate you must complete a long rest before you can use it again at no cost, after which, you must spend 6 Ki Points to use it again.
+
+In addition, you can destroy non-magical objects that are Huge and smaller with your Entropic Touch ability.
+{{pageNumber,auto}}
+\page
+### Way of the Warped
+Those who are exposed to the hideous lights of the
+Void essentially unravel. It is a gruesome sight to
+behold. However, trained monks exert a specific
+resilience to this fate, as their control over ki and
+the energy that flows through limbs allows them
+to restrict and even harness the “warp” of the
+voidlights. No living thing can completely resist the
+influence of the Void, however, and warped monks
+exhibit a characteristic, almost cartoonish pliability
+that allows them to stretch their arms and bodies
+with rubbery ease.
+
+#### Warped Techniques
+You learn certain Techniques at the levels noted in the table below. They don't count against your number of Techniques Known and they cannot be switched upon gaining a level.
+Monk Level| Technique
+|:-:|:-|
+3rd| empowered strike
+5th| slowing strike
+9th| heavenly step
+
+#### Flexile Fists
+Beginning when you choose this tradition at 3rd level,
+your limbs are pliant, extensible things that you can
+manipulate through your ki. Your unarmed strikes
+have a reach of 10 feet. Additionally, you gain the
+following abilities:
+
+**Big Fists.** When you take the Attack action, you
+can spend 1 ki point to increase your Martial Arts die
+by one step (1d4 → 1d6 → 1d8 → 1d10 → 1d12) until
+the end of your turn.
+
+**Rebound Strike.** Once on each of your turns
+when you miss with an unarmed strike, you can spend
+1 ki point to reroll the attack against the same target.
+#### Rubberband Reversal
+Starting at 6th level, your warped body builds up tension and snaps back with explosive force. When you are hit by a melee attack, you can use your reaction to absorb the impact and redirect it. You take half damage from the triggering attack, and the attacker must succeed on a Strength saving throw against your Technique save DC or be pushed up to 15 feet away and knocked prone as your body slingshots back into them.
+
+If the attacker fails the saving throw by 5 or more, you can immediately make an unarmed strike against them as part of the same reaction.
+
+
+\column
+
+#### Spring Knees
+At 11th level, your springy form lets you weave
+through the battlefield with agility. You gain the
+following benefits:
+- Opportunity attacks made against you have disadvantage.
+- You can use your bonus action to escape a grapple. You automatically succeed on ability checks you make to escape being grappled or slip bindings.
+- You suffer no penalty for squeezing through a space that is only large enough for a creature that is one size smaller than you.
+
+#### Gatling Strikes
+By 17th level, you can use your action and expend
+3 ki points to unleash a barrage of unarmed strikes
+in a 30-foot cone. You can make two attacks against
+each creature within that area, with separate attacks
+against each target.
+{{pageNumber,auto}}
+\page
+### Way of the Wu Jen
+Rather than focus inward, some monks attune themselves to the forces of nature. Known as Wu Jens, these primal sages augment their skills with the power of the five elements; Air, Earth, Fire, Water, and Wood. Through meditation, they can learn to channel their Ki into displays of elemental power.
+#### Disciple of the Elements
+When you join this Monastic Tradition at 3rd level, you learn ancient monastic arts that allow you cast spells.
+
+**Spell Slots.** The Wu Jen Spellcasting table shows how many spell slots you have, and the level of those slots. All of your spell slots are the same level. To cast a Wu Jen spell of 1st-level or higher, you must expend a spell slot. You use the spell's casting time and other rules, but your body becomes the spellcasting focus for these spells, and you don't need to provide any material components. You regain all expended Wu Jen spell slots when you finish a short or long rest.
+
+**Spells Known of 1st-Level and Higher.** You learn three 1st-level spells of your choice from the Wu Jen spell list at the end of this Tradition. The Spells Known column of the Wu Jen Spellcasting table shows when you learn more Wu Jen spells. A spell you choose must be of a level no higher than what's shown in the table's Slot Level column for your level.
+
+When you gain a level, you can choose a Wu Jen spell you know and replace it with another spell from the Wu Jen spell list, which must be of a level for which you have spell slots.
+
+**Spellcasting Ability.** Wisdom is your spellcasting ability for your Wu Jen spells, so you use your Wisdom whenever a spell refers to your spellcasting ability, when setting a saving throw DC, and when making a spell attack roll.
+
+**Spell save DC** = 8 + your proficiency bonus + your Wisdom modifier
+
+**Spell attack modifier** = your proficiency bonus + your Wisdom modifier
+
+
+\column
+
+### Wu Jen Spell List
+Below are the spells available to Wu Jen monks, organized by spell level. The spells listed below have also been assigned one of the five Wu Jen elements: Air(a), Earth(e), Fire(f), Water(w), or Wood(d).
+{{column-count:2
+##### 1st-Level
+absorb elements(e)::
+armor of frost(w)::
+burning hands(f)::
+create water(w)::
+earth tremor(e)::
+ensnaring strike(d)::
+entangle(d)::
+fog cloud(a)::
+frost fingers(w)::
+hellish rebuke(f)::
+ice knife(w)::
+sanctuary(e)::
+thunderwave(a)::
+##### 2nd-Level
+barkskin(d)::
+dust devil(a)::
+earthbind(e)::
+earthen grasp(e)::
+flaming sphere(f)::
+flameblade(f)::
+gust of wind(a)::
+hold person(w)::
+levitate(a)::
+misty step(a)::
+scorching ray(f)::
+shatter(a)::
+snowball swarm(w)::
+spike growth(d)::
+warding wind(a)::
+
+##### 3rd-Level
+call lighting(a)::
+erupting earth(e)::
+fireball(f)::
+fly(a)::
+gaseous form(a)::
+lighting bolt(a)::
+meld into stone(e)::
+minute meteors(f)::
+plant growth(d)::
+sleet storm(w)::
+speak with plants(d)::
+thunder step(a)::
+tidal wave(w)::
+wall of sand(e)::
+wall of water(w)::
+wind wall(a)::
+##### 4th-Level
+control water(w)::
+fire shield(f)::
+freedom of movement(a)::
+grasping vine(d)::
+guardian of nature(d)::
+ice storm(w)::
+resilient sphere(e)::
+stone shape(e)::
+stoneskin(e)::
+storm sphere(a)::
+wall of fire(f)::
+watery sphere(w)::
+}}
+##### Wu Jen Spellcasting
+Monk Level| Spells Known| Spell Slots| Slot Level
+|:-|:-:|:-:|:-:|
+3rd| 3| 1| 1st
+4th| 4| 2| 1st
+5th| 5| 2| 1st
+6th| 5| 2| 1st
+7th| 6| 2| 2nd
+8th| 6| 2| 2nd
+9th| 7| 2| 2nd
+10th| 7| 2| 2nd
+11th| 8| 2| 2nd
+12th| 8| 2| 2nd
+13th| 9| 2| 3rd
+14th| 9| 2| 3rd
+15th| 9| 2| 3rd
+16th| 9| 2| 3rd
+17th| 10| 2| 3rd
+18th| 10| 2| 3rd
+19th| 10| 2| 4th
+20th| 10| 2| 4th
+
+{{pageNumber,auto}}
+\page
+
+#### Elemental Attunement
+Also at 3rd level, you can learn to control the five elements in minor ways. When you learn a Wu Jen spell, you also learn the elemental cantrip that corresponds with the element of that spell: Air (gust), Earth (mold earth), Fire (control flames), Water (shape water), Wood (thorn whip). Wisdom is your spellcasting ability for any cantrip you learn this way.
+
+If you replace all of your Wu Jen spells of a certain element you also lose the ability to cast the corresponding cantrip.
+
+
+#### Fist of the Five Ways
+You can empower your fists with the five elements. Starting at 6th level, when you hit a creature with an unarmed strike, you can choose for your unarmed strike to deal elemental damage that corresponds to the element of a Wu Jen spell you know, instead of bludgeoning damage: Air (thunder), Earth (piercing), Fire (fire), Water (cold), or Wood (poison).
+
+Also, when you use your action to cast a Wu Jen spell, you can make one Martial Arts attack as a bonus action.
+#### Spiritual Flow
+You weave your martial arts with magic. Beginning at 11th level, when you cast a Wu Jen spell with a casting time of 1 action, you can spend 2 Ki Points to cast it as a bonus action.
+
+#### Grand Master of the Five Elements
+Beginning at 17th level, you can use an action to assume an Elemental Form for 1 minute. This form ends early if you are incapacitated or you use a bonus action to end it. Once you use this feature you must finish a long rest before you can use it again. If you have no uses remaining, you can expend 6 Ki Points to use your Elemental Form again.
+
+While in your Elemental Form you gain the benefits listed below, so long as you know one Wu Jen spell of the corresponding element.
+
+**Air.** You gain a flying speed of 60 feet.
+
+**Earth.** You are resistant to all non-magical bludgeoning, piercing, and slashing damage.
+
+**Fire.** Any creature that hits you with a melee attack takes fire damage equal to your Martial Arts die.
+
+**Water.** Critical hits against you become normal hits, and opportunity attacks against you have disadvantage.
+
+**Wood.** You gain temporary hit points equal to your Wisdom modifier (minimum of 1) at the start of each of your turns.
+
+{{pageNumber,auto}}
+\page
+### Way of the Wuxia
+While all monks are able to wield the weapons of their style to great effect, those who follow the Way of Wuxia dedicate their lives to complete mastery over a chosen few weapons. These warriors are known for their extreme focus, and are always looking for progressively stronger warriors to challenge and test their skill with the weapons of war.
+
+
+#### Wuxia Techniques
+You learn certain Techniques at the levels noted in the table below. They don't count against your number of Techniques Known and they cannot be switched upon gaining a level.
+Monk Level| Technique
+:-:|:-:
+3rd| patient defense
+5th|seeking strike
+9th|heavenly step
+#### Student of Steel
+When you join this Tradition at 3rd level, you dedicate your life to the mastery of your chosen weapons. You choose one melee weapon without the heavy or special properties, and one ranged weapon to become your Wuxia Weapons. If you were not already, you gain proficiency with these weapons, and they qualify for your Martial Arts attacks. You choose an additional Wuxia Weapon at 6th, 11th, and 17th levels.
+
+Your training also allows you to use the features below:
+
+**Masterful Parry.** You wield your Wuxia Weapons as an extension of yourself. As a reaction while you are wielding a melee Wuxia Weapon, and a creature you can see hits you with a weapon attack, you can add your Wisdom modifier (minimum of +1) to your Armor Class against that attack.
+
+**Masterful Aim.** You can calm your spirit to improve the power of your Wuxia Weapon shots. As a bonus action, you can focus your spirit. Any ranged Wuxia Weapon attack you make on that same turn deals deals additional damage equal to your Wisdom modifier (minimum of +1).
+
+#### Ki-Infused Weapons
+You have learned to channel your Ki through your weapons. Starting at 6th level, you gain the following benefits:
+- Wuxia Weapons are magical for the sake of overcoming resistance and immunity to non-magical attacks.
+- Once per turn, when you hit a creature with a Wuxia Weapon attack, you can spend 1 Ki Point to deal extra damage to the target equal to your Martial Arts die. When you spend a Ki Point as part of your action you can make one attack with a Wuxia Weapon as a bonus action.
+
+\column
+
+#### Spirit Blade
+You can channel finely honed Ki along the length of your weapons. Starting at 11th level, you can use a bonus action to infuse 1 to 3 Ki Points into a Wuxia Weapon you are holding, increasing its attack and damage bonuses by 1 for each Ki Point you infused. This bonus lasts for 1 minute or until you infuse Ki into another weapon. You cannot use this feature to increase a weapon's attack and damage above +3.
+
+#### Grand Master of Wuxia
+You are an unquestioned master of your chosen weapons. Beginning at 17th level, once per turn when you miss with an attack roll with a Wuxia Weapon, you can repeat your Wuxia Weapon attack with advantage against the same target.
+{{pageNumber,auto}}
+\page
+
+
+## Techniques
+Below are the Techniques available to the monk. Each time you gain a level in this class, you can replace one Technique you know with another Technique of your choice.
+
+If a Technique has a monk level prerequisite you can learn that Technique at the same time you meet its prerequisite.
+
+#### Arresting Strike
+When you hit a creature with a melee Martial Arts attack, you can spend 1 Ki Point and force the target to make a Dexterity saving throw. On a failed save, the creature's speed is reduced to zero until the beginning of your next turn. 
+
+#### Crippling Strike
+When you hit a creature with a melee Martial Arts attack, you can spend 1 Ki Point to cripple its senses and force the target to make a Constitution saving throw. On a failed save, the creature is either blinded, deafened, or cannot speak (your choice) until the beginning of your next turn.
+
+#### Empowered Strike
+When you hit a creature with a melee Martial Arts attack, you can spend 1 Ki Point and force the target to make a Strength saving throw. On a failed save, the target is knocked back in a straight line a number of feet equal to five times your Wisdom modifier (minimum of 5 feet), where it falls prone. Creatures that are at least once size larger than you have advantage on their Strength saving throw to resist this effect.
+
+#### Enhanced Grip
+Each time a creature starts its turn Grappled by you it takes bludgeoning damage equal to your Martial Arts Die. You can also drag Grappled creatures up to your full speed.
+
+#### Improvised Strikes
+You are adept at fighting with whatever is at hand. You gain proficiency with improvised weapons, they count as Martial Arts attacks for you, and you can use your Dexterity, in place of Strength, for improvised weapon attack and damage rolls 
+
+
+#### Mystic Healing
+You can use your Ki to stimulate natural healing. As an action, you can spend 1 Ki Point to regain hit points equal to one roll of your Martial Arts die + your Wisdom modifier.
+
+#### Patient Defense
+You quiet your spirit, entering a defensive stance to better defend against incoming blows. You can spend 1 Ki Point to take the Dodge action as a bonus action on your turn.
+
+\column
+
+#### Slow Fall
+You move through the air as light as a feather. Any falling damage you would take is reduced by an amount equal to five times your monk level, so long as you are conscious.
+
+
+
+#### Spiritual Armor
+You can reinforce your physical form with spiritual power. As an action, you can spend 1 Ki Point to gain temporary hit points equal to your Wisdom modifier (minimum of 1).
+
+When a creature damages these temporary hit points, you can use your reaction to spend 1 Ki Point to cause them to take force damage equal to your Martial Arts die.
+#### Step of the Wind
+You move with the speed of the wind. You can take the Dash or Disengage action as a bonus action. When you do so, your jump distance is doubled until the end of your current turn.
+#### Whirling Strike
+As an action, you can spend 1 Ki Point to strike out and force every creature within your reach to make a Dexterity saving throw. On a failed save, they take bludgeoning damage equal to your Martial Arts die + your Dexterity modifier.
+#### Adept Fighting Style
+*Prerequisite: 5th level monk*::
+You have trained in a specialized style of fighting. You gain a Fighting Style of your choice from the list below. As a monk, you can only gain one Fighting Style through this Technique.
+##### Archery
+You gain a +1 bonus to attack rolls with ranged weapons, and your attacks with ranged weapons ignore half-cover and treat three-quarters cover as half cover.
+##### Blind Fighting
+You have Blindsight with a range in feet equal to 5 times your Proficiency Bonus. In that range, you can see invisible targets and anything that isn't behind total cover or hidden from you.
+##### Balanced Fighting
+When wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls. You can
+use a shield and still gain this benefit. it.
+
+{{pageNumber,auto}}
+\page
+##### Featherweight Fighting
+While you are unarmed or wielding only light weapons, and are not wearing medium or heavy armor, your speed increases by 10 feet, and you gain a +1 bonus to damage rolls with light melee weapons and unarmed strikes.
+
+##### Hurler
+You can draw one thrown weapon as part of a ranged
+attack you make with it, and the range of your thrown weapon attacks is doubled.
+
+While wielding only thrown weapons, you can make a ranged attack with a thrown weapon as a bonus action.
+
+##### Polearm Fighting
+
+You gain a +1 bonus to your damage rolls with glaives, halberds, pikes, quarterstaffs, and spears so long as you
+are wielding only that weapon and no shield. When doing
+so, creatures provoke an opportunity attack from you when they enter or move within your reach with that weapon.
+
+##### Versatile Fighting
+While wielding a single versatile weapon and no shield, you gain a +1 bonus to attack rolls with that weapon.
+
+While doing so, you can use your bonus action to make one Grapple or Shove, or take the Use an Object action.
+
+
+#### Deflect Missile
+*Prerequisite: 5th level monk*::
+As a reaction when you are hit by a ranged weapon attack, you can try to catch the projectile and reduce the damage by an amount equal to your monk level + Martial Arts die + your Dexterity modifier. If you reduce the incoming damage to 0 you catch the projectile if you have a free hand.
+
+If you catch the projectile, you can make a ranged (20/60) Martial Arts attack with the projectile as part of the same reaction. You are proficient with this ranged weapon attack.
+
+Starting at 11th level, you can spend 1 Ki Point as part of this reaction to deflect spells that require an attack roll.
+
+
+
+#### Crushing Strike
+*Prerequisite: 5th level monk*::
+When you hit a creature with an unarmed strike, you can spend Ki Points to deal extra bludgeoning damage equal to 1d6 per Ki Point. The maximum amount of Ki you can spend at once on this Technique equals your Wisdom modifier.
+#### Divine Light
+*Prerequisite: 5th level monk*::
+You learn one cantrip of your choice from those available to the cleric, and Wisdom is your spellcasting modifier for it.
+\column
+
+#### Envenomed Strike
+*Prerequisite: 5th level monk*::
+Once per turn when you hit a creature with a melee Martial Arts attack, you can spend 1 Ki to deal bonus poison damage equal to your Martial Arts Die and force the target to make a Constitution saving throw. On a failure, it is Poisoned until the beginning of your next turn.
+
+#### Gale Rush
+*Prerequisite: 5th level monk*::
+As an action, you spend Ki (up to your Wisdom modifier) and focus it into your palm. For each Ki spent, you move up to 10 feet in a straight line and force one target at the end of this movement to make a Dexterity saving throw.
+
+On a failure, it takes thunder damage equal to one Martial Arts Die per Ki spent and is knocked Prone. On a successful save, it takes half as much damage and does not fall Prone.
+
+#### Gentling Touch
+*Prerequisite: 5th level monk*::
+In place of an attack, you can expend 1 Ki Point and touch a creature, and manipulate their Ki to put them to sleep. Roll your Martial Arts die five times. If the target's remaining hit points are less than or equal to the amount you rolled, they fall unconscious for 10 minutes. They wake up if they take damage or another creature uses an action to wake them.
+
+You can expend additional Ki to increase the number of Martial Arts dice you roll for this technique. For each extra Ki Point you spend you can roll two more Martial Arts dice.
+#### Seeking Strike
+*Prerequisite: 5th level monk*::
+Your spirit will guide your strikes when your body fails. When you miss with a Martial Arts attack, you can spend 1 Ki Point to re-roll your attack. You must use the new result.
+
+
+#### Slowing Strike
+*Prerequisite: 5th level monk*::
+When you hit a creature with a melee Martial Arts attack, you can spend 1 Ki Point to interrupt their Ki flow, forcing the target to make a Charisma saving throw. On a failed save, the creature suffers the effects of the slow spell until the start of your next turn. You do not need to concentrate on this effect.
+{{pageNumber,auto}}
+\page
+
+
+#### Stunning Strike
+*Prerequisite: 5th level monk*::
+When you hit a creature with a melee Martial Arts attack, you can spend 1 Ki Point to strike them with deadly force, forcing it to make a Constitution saving throw. On a failed save, the creature is stunned until the beginning of your next turn.
+
+
+
+#### Unyielding Perseverance
+*Prerequisite: 5th level monk*::
+
+You can draw upon your Ki to find success in times of great need. When you make an ability check or saving throw, you can spend any number of Ki Points and add +1 bonus to your roll for each Ki Point you spend. You can use this feature after you roll, but before you know if you succeed or fail.
+#### Aura Sight
+*Prerequisite: 9th level monk*::
+You have awakened the spiritual potential of your senses. You gain Blindsight out to a 20-foot radius. Within this radius, you know the exact location of creatures and objects, even if they are invisible, unless they are behind total cover.
+
+At 13th level your Blindsight radius increases to 30 feet, and finally, at 18th level its radius increases to 60 feet.
+
+
+#### Befuddling Strike
+*Prerequisite: 9th level monk*::
+Once per turn when you hit a creature with a melee Martial Arts attack, you can spend 1 Ki to assault its nervous system, forcing it to make an Intelligence saving throw. On a failure, it is Incapacitated until the beginning of your next turn.
+
+#### Commune with Self
+*Prerequisite: 9th level monk*::
+You have gained the ability to contact the Ki of your previous lives to gain information. As an action, you can spend 5 Ki Points to enter a meditative state, which lasts for 10 minutes, and consult your previous lives At the end of your meditation, you gain the same information as if you had cast commune.
+
+
+
+
+
+#### Friend of Beast and Leaf
+*Prerequisite: 9th level monk*::
+You can enter a meditative state to commune your Ki with that of the natural world around you. As an action, you can spend 5 Ki Points to enter this meditative state, which lasts for 10 minutes. At the end of your meditation, you gain the same information as if you had cast commune with nature.
+
+
+
+\column
+#### Heavenly Step
+*Prerequisite: 9th level monk*::
+You can move along vertical surfaces, across liquids, and upside down on ceilings without falling during the move.
+
+If you end your movement on a vertical surface, liquid, or upside down on a ceiling, you can spend 1 Ki Point to remain in place without falling until the beginning of your next turn.
+
+#### Indomitable Spirit
+*Prerequisite: 9th level monk*::
+You can augment your physical abilities with spiritual power. When you make a Strength (Athletics) or Dexterity (Athletics) check you can spend 1 Ki Point to add your Wisdom modifier (minimum of +1) to your roll. You can use this Technique after you roll, but before you know if you succeed or fail.
+
+
+#### Tremor Strike
+*Prerequisite: 9th level monk*::
+As an action, you can spend Ki (up to your Wisdom modifier) and strike the ground, destroying an adjacent 25-foot cone of earth along the ground, forcing creatures to make a Strength saving throw. On a failure, targets take bludgeoning damage equal to a Martial Arts Die per Ki spent and fall Prone. On a success, they take half damage and do not fall Prone.
+
+Structures in this area take the maximum damage, and the area of this Technique becomes difficult terrain until cleared.
+
+#### Monastic Fortitude
+*Prerequisite: 9th level monk*::
+As a reaction when you take damage, you can expend 2 Ki Points to reduce the incoming damage by an amount equal to two rolls of your Marital Arts die + your Wisdom modifier.
+
+
+
+#### Armor of the Ascetic
+*Prerequisite: 13th level monk*::
+You exude an aura of peace. At the end of a short or long rest, you gain the effects of sanctuary, which lasts until the start of your next short or long rest. This spell ends early as normal.
+#### Banishing Strike
+*Prerequisites: 13th level monk* ::
+
+When you hit a creature with a melee Martial Arts attack, you can expend 3 Ki Points to empower your blow with legendary force, and force the target to make a Charisma saving throw. It takes additional force damage equal to three rolls of your Martial Arts die on a failure, and half as much on a success.
+
+If this attack reduces the target to 50 hit points of fewer, it shunted to a harmless demiplane where it is incapacitated. The creature reappears in the unoccupied space nearest to the last space it occupied at the end of your next turn.
+
+{{pageNumber,auto}}
+\page
+
+
+#### Conjure Previous Life
+*Prerequisite: 13th level monk*::
+You can draw upon the Ki of your previous lives and summon a specter of a past life to come to your aid. As an action, you can spend 5 Ki Points to cast summon celestial (defender) at 5th-level. When summoned, it has the following changes:
+- It is a Medium creature that resembles a humanoid monk.
+- Its Radiant Mace attacks resemble unarmed strikes.
+- When summoned you can infuse it with a number of Ki Points of your choice, and your Ki Point maximum is reduced by the same amount while it is summoned. It can use the infused Ki to use any Techniques you know.
+#### Enlightened Integrity
+*Prerequisite: 13th level monk*::
+Your sense of self and strength of your will are unshakable. You are immune to the charmed and frightened conditions.
+#### Mantle of Courtesy
+*Prerequisite: 13th level monk*::
+You gain proficiency in Persuasion and it becomes a Wisdom based skill for you. When you make a Wisdom (Persuasion) check you can treat a roll of 9 or lower on the d20 as a 10.
+
+
+#### Mystical Integrity
+*Prerequisite: 13th level monk*::
+Your sense of self and strength of your will are unshakable. You are immune to any spell or effect that would alter your form or teleport you, unless you wish to be affected.
+
+
+#### Severing Strike
+*Prerequisite: 13th level monk*::
+Once per turn when you hit a creature with a melee Martial Arts attack, you can spend 3 Ki to break its connection to the arcane, forcing it to make a saving throw with its Spellcasting ability. On a failure, it cannot cast or concentrate on spells for 1 minute. It can repeat this saving throw at the end of each of its turns, ending the effect on a success.
+
+
+#### Tongue of Sun and Moon
+*Prerequisite: 13th level monk*::
+You can touch the Ki of other minds and communicate with any creature that speaks language. Creatures that speak no languages can communicate and understand simple ideas.
+
+
+
+\column
+
+
+#### Awaken the Third Eye
+*Prerequisite: 18th level monk*::
+You can open your mind to the Ki that flows through all living things, allowing you to predict the actions of creatures before they happen. You can perform a 1 minute meditative ritual where you expend 8 Ki Points to cast foresight, targeting only yourself. While this effect is active, your Ki Point maximum is reduced by 8. You can end this effect as an action.
+
+
+#### Empty Body
+*Prerequisite: 18th level monk*::
+As a bonus action on your turn, you can spend 4 Ki Points to become invisible for 1 minute. While invisible in this way, you gain resistance to all damage except for force damage.
+
+You can also spend 8 Ki Points to cast astral projection, without needing material components. When you do so, you target only yourself and can't take other creatures with you.
+
+
+
+#### Quivering Palm
+*Prerequisite: 18th level monk*::
+When you hit a creature with a melee Martial Arts attack, you can spend 5 Ki Points to infuse its spirit with imperceptible vibrations, which last for a maximum number of days equal to your monk level. So long as you and the creature are on the same plane of existence, you can use your action to end these vibrations, forcing the creature to make a Constitution saving throw. It is reduced to 0 hit points on a failed save and takes 10d10 necrotic damage on a successful save.
+
+You can have only one creature under the effect of this feature at a time and using this feature on another target harmlessly ends the effects on any other creatures.
+#### Word of Creation
+*Prerequisite: 18th level monk*::
+You can draw on your intimate knowledge of the Ki that flows through all things and speak a divine word of creation. As an action, you can spend 7 Ki Points to cast divine word, using Wisdom as your spellcasting modifier.
+
+Once you use your Ki to cast divine word, you must finish a short or long rest before you can cast it in this way again.
+
+

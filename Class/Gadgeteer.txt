@@ -1,0 +1,2420 @@
+```metadata
+title: Gadgeteer
+description: ''
+tags: []
+renderer: V3
+theme: 5ePHB
+
+```
+
+```css
+.page{
+	width  : 210mm;
+	height : 296.3mm;
+}
+
+css
+
+.page .columnWrapper {
+	height: 100%
+}
+
+.page .toc.wide {
+	columns: 1;
+	height: 100%;
+}
+
+.page .toc > ul > li {
+	font-weight:100;
+	margin-bottom:-2.1px;
+
+}
+
+.page .toc ul ul {
+	margin-left: 0;
+	font-weight: 5;
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```
+
+{{frontCover}}
+
+:::::::::::::::::::::::::::::::::::
+
+# Gadgeteer
+___
+
+![background image](https://i.imgur.com/jdbBhH8.jpeg){position:absolute,bottom:0,left:0,height:110%}
+
+\page
+{{toc,wide
+# Contents
+
+- ### [{{ Gadgeteer}}{{ 3}}](#p3)
+  -  [{{ Cutting-Edge Innovators}}{{ 3}}](#p3)
+  -  [{{ AIs}}{{ 3}}](#p3)
+  -  [{{ Creating a Gadgeteer}}{{ 3}}](#p3)
+  - #### [{{ Class Features}}{{ 4}}](#p4)
+  -  [{{ AI Companion}}{{ 5}}](#p5)
+  -  [{{ Gadgets}}{{ 5}}](#p5)
+  -  [{{ Overcharge}}{{ 5}}](#p5)
+  -  [{{ Prototype}}{{ 5}}](#p5)
+  -  [{{ Tech Specialty}}{{ 7}}](#p7)
+  -  [{{ Ability Score Improvement}}{{ 7}}](#p7)
+  -  [{{ Buffer Protocol}}{{ 7}}](#p7)
+  -  [{{ Overcharge Override}}{{ 7}}](#p7)
+  -  [{{ Gadget Reconstruction}}{{ 7}}](#p7)
+  -  [{{ Bluescreen Protocol}}{{ 7}}](#p7)
+  -  [{{ Troubleshooter}}{{ 7}}](#p7)
+  -  [{{ Override Protocol}}{{ 7}}](#p7)
+  -  [{{ Antimagic Pulse}}{{ 7}}](#p7)
+- ### [{{ Tech Specialties}}{{ 8}}](#p8)
+  - #### [{{ Apex Absorbant}}{{ 8}}](#p8)
+  - #### [{{ Biohacker}}{{ 9}}](#p9)
+  - #### [{{ Cyber Surgeons}}{{ 10}}](#p10)
+  - #### [{{ Drone Jockey}}{{ 11}}](#p11)
+- ###### [{{ Drones}}{{ 12}}](#p12)
+  - #### [{{ Futurist}}{{ 13}}](#p13)
+  - #### [{{ Hardlight Architect}}{{ 14}}](#p14)
+- ###### [{{ Hardlight Avatars}}{{ 15}}](#p15)
+  - #### [{{ Hologrammers}}{{ 16}}](#p16)
+  - #### [{{ Infinite Engine}}{{ 17}}](#p17)
+  - #### [{{ Jumpers}}{{ 18}}](#p18)
+  - #### [{{ Mastermaker}}{{ 19}}](#p19)
+  - #### [{{ Nanoengineer}}{{ 20}}](#p20)
+  - #### [{{ Photonist}}{{ 21}}](#p21)
+  - #### [{{ Quantum Mechanics}}{{ 22}}](#p22)
+  - #### [{{ Vanguarde Model}}{{ 23}}](#p23)
+- ### [{{ Gadgets}}{{ 24}}](#p24)
+- ### [{{ Space Age Graft}}{{ 32}}](#p32)
+}}
+
+
+
+
+\page
+## Gadgeteer
+
+A gnome tinkers at his workbench, fervently toiling
+with two precise instruments under a magnifying lens.
+
+Suddenly, a spark of blue electricity flashes across the
+room and scorches the far wall. The gnome grins and puts
+away his tools.
+
+An amoeboid carefully positions a rabbit on a pedestal,
+stands back, and presses a large red button. With a pop
+and a puff of fur, the rabbit vanishes, only to hop back into
+the room seconds later, hairless from the waist down. The
+amoeboid nods and scratches down a few notes.
+A bald human woman with a glowing, red, robotic
+eye tightens the joints on her new cybernetic arm. Her
+work complete, she rears back her metal fist and crushes a
+nearby chair.
+
+Gadgeteers are masters of technology and
+engineering, turning every device available to their
+advantage. Assisted by their artificial intelligence
+companions, gadgeteers pursue the cutting edge of
+science and innovation, acquiring a mass of gadgets
+and a wealth of knowledge along the way.
+
+### Cutting-Edge Innovators
+Impelled by the lure of systems and logic, a wildly eccentric group embraces the sciences. These disparate tinkers, students, and inventors tend to be uniformly well educated (or at least highly self-educated) in the principles of science, arcana, and engineering, with a particular focus on practical applications. Though most gadgeteers are at least curious about the underlying mysteries of the universe, many view groundbreaking scientific discoveries as a means to an end; theory only exists to facilitate application.
+
+Fueled by breakthroughs and scientific advances,
+gadgeteers push the cutting edge of science and
+innovation, devising new technological marvels (or at
+least new blaster variants) at a breakneck pace. Some
+gadgeteers become absorbed in a particular problem,
+innovating and optimizing solutions for it alone, while
+others devise technological marvels wherever they can
+find application. All the great advances of the modern
+world, from datapads to Dark Matter engines, have been
+spearheaded by gadgeteers.
+
+### AIs
+A gadgeteer is rarely seen far from the floating
+holographic orb that is their Artificial Intelligence (AI)
+companion. After all, an organic brain can only hold so
+much information, whereas an AI can recall equations,
+trace schematics, and perform calculations with ease. Such
+intellect is nothing without a gadgeteer's ingenuity, of
+course, but the watchful eye of an AI can still spot errors
+that their creator might not have noticed.
+But more than that, an AI companion is also a tireless
+friend. The endless work of a gadgeteer can often be
+monotonous and isolating, but the constant, friendly voice
+of an AI in one's ear goes a long way to preventing mad
+scientists and doomsday devices.
+
+\column
+
+### Creating a Gadgeteer
+When devising your gadgeteer, consider what draws your
+character to the sciences. Is it the challenge of working out
+a new puzzle, or the thrill of perfecting a new invention?
+Perhaps your character is obsessed with a particular facet
+of the universe, and longs to unravel its mysteries. Think
+about how you learned about science and engineering. Did you have a mentor that shaped your understanding, or are
+you totally self-educated?
+Also, consider which Prototype you’ll pick when you
+reach 2nd level. Are you interested in having a gadget for
+every situation, or do you just prefer having a big, hulking
+mech suit? Consider what this prototype means for your
+specialization and your character’s personality in general.
+Lastly, put some thought into your AI. What’s its name,
+and what type of personality does it possess, if any?
+
+#### Quick Build
+Follow these suggestions to quickly build a gadgeteer. Choose Intelligence as your highest ability score, followed by Dexterity. Investing in Constitution might also be wise for characters that intend to select the Experimental Frame Prototype at 2nd level. For your equipment, choose a researcher’s pack and an antimatter dagger. Lastly, choose the Technologist background.
+
+{{note
+##### Gadgeteers Outside of Dark Matter
+More so than almost any other class, the gadgeteer is uniquely focused on science and engineering, which might not fit cohesively with all campaign settings. If used in a setting outside of Dark Matter, it might be useful to translate the class into more familiar terms: rather than ‘Gadgets,’ the gadgeteer uses ‘Magic Items,’ rather than an ‘AI Companion,’ they have a ‘Sentient Magic Item,’ and rather than a ‘Prototype,’ they have a ‘Relic’, and so on. The mechanics of most of these devices need not be changed, for technology in Dark Matter is also generally powered by magic.
+
+Blasters, on the other hand, are fairly unique to Dark Matter. The bonus damage
+offered by Overcharge can be applied to ranged attacks from crossbows or cantrips,
+as appropriate to the setting.
+
+Any reference to Dark Matter skills, such as Intelligence (Data) and Intelligence
+(Technology), can be replaced with a base Intelligence check.
+
+For some characters and campaigns, a fun alternative might be to present the gadgeteer
+as a time-traveler or a stranded visitor from outer space, equipped with high technology.
+
+This angle works best with a heavy dose of humor and satire, contrasting a conventional fantasy setting with a sci-fi outsider.
+}}
+
+{{pageNumber,auto}}
+\page
+{{imageMaskEdge8,--offset:10%,--rotation:180
+  ![](https://i.imgur.com/0T5ilad.png){height:70%,top:-170px,left:-150px}
+}}
+
+
+
+
+:::::::::::::::::::::::::::::::::::::
+{{classTable,frame,decoration
+##### The Gadgeteer
+| Level | Proficiency | Features     |         |
+|      ^| Bonus      ^|             ^| Gadgets |
+|:-----:|:--:|:---------------------:|:-------------:|
+|  1st  | +2 | AI Companion, Gadgets|1|
+|  2nd  | +2 | Overcharge, Prototype|2|
+|  3rd  | +2 | Tech Specialty|3|
+|  4th  | +2 | Ability Score Improvement |3|
+|  5th  | +3 | Buffer Protocol|4|
+|  6th  | +3 | Tech Specialty feature, AI improvement|4|
+|  7th  | +3 | Bluescreen Protocol|5|
+|  8th  | +3 | Ability Score Improvement|5|
+|  9th  | +4 | Overcharge Override  |6|
+| 10th  | +4 | Tech Specialty feature, AI improvement |6|
+| 11th  | +4 | Gadget Reconstruction |7|
+| 12th  | +4 | Ability Score Improvement|7|
+| 13th  | +5 | Bluescreen Protocol |8|
+| 14th  | +5 | Tech Specialty feature|8|
+| 15th  | +5 | Troubleshooter|9|
+| 16th  | +5 | Ability Score Improvement|9|
+| 17th  | +6 | Overcharge improvement|10|
+| 18th  | +6 | Override Protocol|10|
+| 19th  | +6 | Ability Score Improvement|10|
+| 20th  | +6 | Antimagic Pulse|10|
+}}
+
+
+\column
+::::::::::::::::::::::::::::::::::::::
+### Class Features
+
+As a gadgeteer, you gain the following class features
+
+#### Hit Points
+**Hit Dice:**                    :: 1d6 per gadgeteer level
+**Hit Points at 1st Level:**     :: 6 + your Constitution modifier
+**Hit Points at Higher Levels:** :: 1d6 (or 4) + your Constitution modifier per gadgeteer level after 1st
+
+#### Proficiencies
+**Armor:**   :: Light armor, shields
+**Weapons:** :: Simple Weapons, simple and martial ranged weapon
+**Tools:**   :: Alchemist’s supplies, circuitry kit, mechanist’s tools, ship maintenance tools, smith’s tools, tinker tools
+**Saving Throws:** :: Dexerity, Intelligence
+**Skills:**        :: Choose three from Arcana, Data, Deception, History, Investigation, Medicine, Nature, Piloting, Religion, Sleight of Hand, or Technology
+
+
+#### Equipment
+
+You start with the following equipment, in addition to the equipment granted by your background:
+- A repeater and any simple weapon
+- *(a)* a martial ranged weapon or *(b)* two simple ranged weapon
+- *(a)* a circuitry kit or *(b)* a mechanist’s tools
+- An engineer’s pack and leather armor
+
+
+
+{{pageNumber,auto}}
+\page
+### AI Companion
+Beginning at 1st level, you are assisted by an AI companion, an intricate data construct which lives on your datapad and possesses near human-like levels of intelligence. When it manifests, it does so as a simple geometric projection; otherwise, it is merely a voice in your ear, checking your reasoning and informing you of relevant information. Your companion can solve any
+arithmetic or strictly logical problem you pose to it.
+
+Additionally, whenever you make an Intelligence (Arcana) check, you can treat the result as 10, or your gadgeteer level + your Intelligence modifier, whichever is higher.
+
+Your AI companion downloads and integrates knowledge of additional subjects as you gain higher levels in this class. At 6th level, and again at 10th level and 15th level, you can choose one of the following skills to gain this benefit when you make an Intelligence check with it:
+
+History, Investigation, Nature, or Religion. 
+
+### Gadgets
+
+At 1st level, you begin to amass a collection of cutting- edge technological devices called gadgets. You gain
+
+one gadget of your choice for which you meet the
+prerequisites. Because your gadgets are powered by your
+personal power cell, no other creature can use them. If one
+of your gadgets is lost or damaged, you can fashion a new
+one for no cost when you take a long rest.
+
+You acquire additional gadgets as you gain levels in
+this class, as shown on the Gadgeteer table. Additionally,
+when you gain a level in this class, you can choose one of
+the gadgets you have and replace it with another one that
+you could gain at that level.
+
+Your gadget options are detailed at the end of the class
+description.
+
+**Saving Throws.** If one of your gadgets calls for a saving throw, its DC is calculated as follows:
+
+**Gadget save DC** ::= 8 + your proficiency bonus + your Intelligence modifier
+
+### Overcharge
+With your technical aptitude and ingenuity, you can modify blasters to fire in more intense bursts. Starting at 2nd level, once on each of your turns when you hit a target with an attack from a ranged weapon, you can deal an additional die of damage to that target and you can add your Dexterity modifier to the ranged waepon damage roll.
+
+This ability improves as you gain levels in this class. You add an additional die of damage at 5th level (2 dice), 11th level (3 dice), and 17th level (4 dice). 
+
+Additionally, starting at 5th level, when you use this ability, you can add your Intelligence modifier to the ranged waepon damage roll.
+
+
+\column
+
+### Prototype
+At 2nd level, you make a breakthrough innovation with
+a prototype of your own design. Choose one of the
+following three prototypes.
+#### Experimental Frame
+You have developed a sophisticated experimental frame, a powerful exo-suit that augments your strength and shelters you from harm. Your experimental frame counts as heavy armor, which you can don or doff as a bonus action, and it also grants you the benefits of a life suit. You are proficient with your experimental frame, but no other creature can wear it. While wearing your frame, you gain the following benefits:
+- Your size becomes Medium, if it is smaller.
+- Your movement speed increases to 30 feet, if it is less.
+- Your Armor Class equals 10 + your Dexterity modifier + your Intelligence modifier. This armor can't be enchanted or modified to improve its Armor Class.
+- Whenever you begin your turn wearing this frame, you gain temporary hit points equal to your gadgeteer level. These hit points last until you remove the frame.
+- You can integrate a simple or martial weapon directly into your frame, or you can integrate two weapons (one into each arm) if neither has the Two-Handed property. When you draw an integrated weapon, it snaps to your hand and you can’t be disarmed of it.
+- Your frame is programmed in all manner of combat protocol, so you can use these integrated weapons proficiently while wearing your frame, even if you're not normally proficient in their use. You can switch which weapons are integrated when you finish a long rest.
+- When you make an attack with an integrated melee weapon, you can use your Intelligence modifier, instead of your Strength or Dexterity, for attack and damage rolls.
+- Starting at 5th level, when you make a melee weapon attack with an integrated weapon, you can make an additional melee attack using that weapon.
+
+
+{{pageNumber,auto}}
+\page
+{{monster,frame
+## M.A.C.
+*Medium construct, neutral*
+___
+**Armor Class** :: 15
+**Hit Points**  :: 5 plus five times your Gadgeteer level (M.A.C. has a number of Hit Dice [d8s] equal to your Gadgeteer level)
+**Speed**       :: 30 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|15 (+2)|10 (+0)|15 (+2)|10 (+0)|10 (+0)| 1 (-5)|
+___
+**Condition Immunities** :: Charmed, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned
+**Damage Immunities** :: Poison, Psychic
+**Senses**               :: Thermalsight 60 ft., Passive Perception 10
+___
+***Defensive Protocol.*** While you are within 5 feet of M.A.C., attacks against you have Disadvantage.
+:
+**Heavy Duty.** M.A.C. counts as one size larger for the purpose of determining its carrying capacity.
+### Actions
+***Integrated Mace.*** *Melee Attack Roll:* Bonus equals your Intelligence modifier + your Proficiency Bonus, reach 5 ft. *Hit:* 1d6 + your Intelligence modifier Bludgeoning damage.
+:
+***Integrated Phaser.*** *Ranged Attack Roll:* Bonus equals your Intelligence modifier + your Proficiency Bonus, range 30/120 ft. *Hit:* 2d4 Lightning damage.
+}}
+
+
+
+
+#### M.A.C.
+You have a M.A.C. (Mechanized Autonomous Construct), which is a custom-designed Construct driven by your AI companion. It uses the M.A.C. stat block. You determine its appearance, such as a cubical, treaded machine or an inflatable, bipedal robot. 
+
+**M.A.C. in Combat.** In combat, M.A.C. acts during your turn. It can move and use its Reaction on its own, but the only action it takes is the Dodge action unless you take a Bonus Action to command it to take an action in its stat block or some other action. If you have the Incapacitated condition, M.A.C. acts on its own and isn’t limited to the Dodge action.
+
+Starting at 5th level, when you command your M.A.C. to take the Attack action, it can make two attacks instead of one.
+
+**Repairing M.A.C.** You can take your action to temporarily repair M.A.C. while it has 0 Hit Points. This repair allows it to move, but it has the Incapacitated condition until it regains any Hit Points or finishes a Long Rest.
+
+  M.A.C. gains the benefits of taking a Short or Long Rest as normal. If M.A.C. is lost, you can build a new one for 250 CR.
+
+**Customizing M.A.C.** M.A.C. has two integrated weapons in its arms. When you finish a Long Rest, you can replace either integrated weapon with a new weapon that doesn’t have the Two-Handed property. M.A.C. uses your Intelligence for attack and damage rolls with integrated weapons.
+
+
+
+#### Utility Matrix
+
+You have engineered a Utility Matrix, a device that can rapidly shift in form and function. You decide on its appearance, such as a belt of useful tools or a high-tech rearranging cube. 
+You can use the following options as a Bonus Action. Once you use one of these options, you can’t use that option again until the end of your next turn.
+
+**Blink Button.** You teleport up to 10 feet to an unoccupied space you can see.
+
+**Cloaking Device.** You have the Invisible condition until the end of the current turn. The condition ends early immediately after you make an attack roll, deal damage, or cast a spell.
+
+**Forcefield Projector.** you can activate your forcefield projector, temporarily sheltering yourself behind a powerful electromagnetic field. until the start of your next turn, you have a bonus to your AC equal to your Intelligence modifier.
+
+**Grappling Hook.** Choose a point you can see within 30 feet of yourself. You pull yourself to that point in a straight line. This movement doesn't provoke opportunity attacks.
+
+**Flashbang.** you throw a concussive bomb at your feet, disorienting and distracting nearby foes. Each creature within 5 feet of you can't take reactions until the start of its next turn. 
+
+**Magnetic Pulse.** You release a targeted electromagnetic pulse from the Utility Matrix. One creature of your choice within 30 feet that is wearing metal armor or wielding a metal weapon must succeed on a Strength saving throw  or be pushed 10 feet away from you and drop one metal object of your choice it's holding.
+
+Constructs and creatures with metal components have disadvantage on this save.
+
+**Kinetic Surge.** Starting at 5th level, the Utility Matrix channels stored kinetic energy into your body. Until the end of this turn, your movement speed increases by 10 feet, and you can move through the space of hostile creatures without provoking opportunity attacks. 
+{{pageNumber,auto}}
+\page
+### Tech Specialty
+Beginning at 3rd level, you adopt a tech specialty that informs your gadgeteering expertise. Choose one Tech Specialty option. Your selection grants you features at 3rd level, and again at 6th, 10th, and 14th level.
+
+### Ability Score Improvement
+When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.
+
+
+
+### Buffer Protocol
+At 5th level, when a creature that you can see makes an attack roll against you, you can take a Reaction to activate your Buffer Protocol. The creature has Disadvantage on attack rolls against you until the end of the current turn.
+
+Once you use this feature, you can’t use it again until you finish a short or long rest.
+
+
+
+### Overcharge Override
+At 9th level, when you use your Overcharge, the target’s resistance to the damage type dealt by the attack is ignored. If the target has immunity to that damage type, it is treated as resistance instead.
+
+### Gadget Reconstruction
+At 11th level, you can reconfigure your Gadgets on the fly. As a action, you can replace one of your Gadgets with another one for which you qualify. 
+
+Once you use this feature, you can’t use it again until you finish a short or long rest.
+
+### Bluescreen Protocol
+Beginning at 13th level, you have integrated a complex construct-disabling algorithm into your AI companion, which you can activate as an action. Each creature within 30 feet of you must make a Wisdom saving throw against your Gadget save DC. On a failed save, a creature is incapacitated and its speed is reduced to 0 until the beginning of your next turn, even if it would otherwise be immune to being incapacitated.
+
+Once you use this feature, you can't use it again until you finish a short or long rest.
+
+
+### Troubleshooter
+At 15th level, if you fail a saving throw against a spell, magic item, or Magical Technology and you don’t have the Incapacitated condition, you can cause yourself to succeed instead. 
+
+Once you use this feature, you can't use it again until you finish a Short or Long Rest.
+
+
+
+
+\column
+
+### Override Protocol
+At 18th level, your AI companion can upload a devastating virus to seize control of a construct. You can use your action to touch a creature within your reach, which must succeed a Wisdom saving throw against your Gadget save DC or be charmed by you for 1 hour, even if it would otherwise be immune to being charmed. 
+
+While it is charmed, you can issue commands to the construct while you are conscious (no action required), which it does its best to obey. You can specify a simple and general course of action, such as attack that creature, run over there, or fetch that object. 
+
+If the creature completes the order and doesn't receive further direction from you, it defends and preserves itself to the best of its ability.
+
+Once you use this feature, you can't use it again until you finish a long rest.
+
+
+
+### Antimagic Pulse
+By 20th level, you perfect a cutting-edge device capable of producing an antimagic pulse (abbreviated AMP), a type of energetic burst that completely disrupts and disables magic and machines. You can use your action to throw this device to a location within 60 feet, which
+explodes in a flash of blue light. This device creates an antimagic field (as per the spell) for 1 minute centered on the device, with the following changes:
+
+- The effect is a 20-foot radius sphere.
+- Magical technology (including your gadgets and blasters) count as magic items and are suppressed within the sphere. Blasters can’t be used to make attacks while within the sphere, and attacks with them can’t penetrate into it.
+- Constructs within the sphere are paralyzed for the duration, even if they would otherwise be immune to this condition.
+
+Destroying the device once it is thrown doesn't end its effects early. Once you use this device, it fizzles out. You can make a new one when you finish a long rest.
+
+
+{{imageMaskEdge1,--offset:25%,--rotation:0
+  ![](){height:55%,top:670px}
+}}
+
+
+
+{{pageNumber,auto}}
+\page
+## Tech Specialties
+Gadgeteers tend to be well-read on a variety of subjects,
+from data structures and artificial intelligence to blaster
+mechanics and engineering, but typically put their finest
+efforts into a pet project of some sort. 
+
+While working on
+other tasks, the details of their pet project are running in the background of their minds, slowly being solved and pieced together, while other work busies their hands.
+
+With enough experience, the subjects of a gadgeteer’s
+hobby become their tech specialty, a topic in which they
+are as expert as they are captivated. Often, this specialty
+is coupled with an objective, a goal to be engineered.
+
+Gadgeteers will travel great distances to share research on
+their mutual specialties, exchanging breakthroughs and
+discoveries in an effort to achieve a common goal.
+
+### Ballistician
+The Ballistician is a specialty designed for frontline dominance and energy reclamation. These units are built to thrive in the heat of battle, turning the very attacks of their enemies into fuel for their own devastating weaponry.
+
+
+#### Kinetic Intake
+Starting when you choose this specialty at 3rd level, your chassis is designed to absorb and redirect energy. As a reaction when you are targeted by a spell or an attack that deals damage, you can reduce the damage by an amount equal to your Gadgeteer level.
+
+The next time you hit with a ranged weapon attack before the end of your next turn, you deal an extra 1d6 damage of the type absorbed.
+
+
+#### Flash Bomber
+Also at 3rd level, you integrate high-speed projectile launchers into your frame. You gain the Micro-Missile gadget, and it does not count against your total number of gadgets known. When you use it, you can choose for the missiles to deal Fire or Force damage.
+
+#### Hyper-Siphon Array
+At 6th level, your chassis is upgraded to handle massive energy surges and kinetic impacts. Whenever you use your Kinetic Intake reaction to successfully reduce damage, you can immediately fire one Micro-Missile at the attacker as part of the same reaction. 
+
+
+#### Apex Missile Command
+Beginning at 10th level, your missile systems are fully integrated into your reactive processors. You can now use your Micro-Missile gadget as a bonus action on each of your turns.
+
+
+\column
+
+#### Saturation Bombardment
+By 14th level, your AI develops advanced swarming algorithms for your micro-missiles. You can use your Action to fire a specialized salvo. Instead of the normal number of missiles, you fire a barrage that covers a 20-foot-radius sphere centered on a point you can see within 60 feet.
+
+Each creature in that area must make a Dexterity saving throw against your Gadget save DC. On a failed save, a creature takes 6d6 damage (Fire or Force, your choice ) and is knocked Prone as the explosions overwhelm them. On a successful save, they take half as much damage and aren't knocked Prone.
+
+
+{{pageNumber,auto}}
+\page
+### Biohacker
+
+Whereas many gadgeteers are enthralled strictly by technological pursuits, your interests have always laid with biology and its myriad intricacies. In many ways, a living organism is just a complex machine with moving parts too numerable and miniscule to perceive; and just like any other machine, it can be modified, conditioned, and improved upon. As a biohacker, you work with nanomachines and the fundamentals of biology to rewrite organisms on the genetic level, wreaking changes both invisible and extremely conspicuous. 
+
+#### Synthetic Antibodies
+Starting when you choose this specialty at 3rd level, your immune system is artificially bolstered by a network of hemobots, which grant you immunity to disease. 
+
+Additionally, your natural lifespan increases by 20 years.
+
+#### Induced Mutation
+Also at 3rd level, you've created a universal genetic serum to spur beneficial mutations. As a bonus action, you can inject this serum into yourself or a willing or unconscious humanoid within your reach. Choose Strength, Dexterity, or Constitution. For the next 24 hours, the injected creature increases the chosen ability score by 2 and gains proficiency in saving throws using that ability.
+
+Once you use this ability, you can't use it again until you finish a long rest
+
+\column
+
+#### Neuromod
+At 6th level, you implant a cognitive chipset into your brain, dramatically enhancing your neural capacity. You gain the following configurations when you finish a long rest:
+
+**Cognitive Upgrade.** Gain proficiency in two skills of your choice and fluency in one language of your choice.
+
+**Precision Module.** Gain expertise in one skill for which you are already proficient, doubling your proficiency bonus for checks using that skill. You may also gain proficiency in one additional skill or tool.
+
+**Adaptive Firmware.** Choose one saving throw. You may add half your proficiency bonus (rounded down) to saves made with it, even if you aren’t proficient.
+
+Additionally, you can reconfigure your neuromod during a long rest, allowing you to change which skills, language, or benefits you gain from this feature.
+
+#### Internal Nanobots
+By 10th level, you've implanted a nanobot hatchery within your body that produces a steady stream of programmable nanobots, allowing you to rapidly repair tissue or break it down at a microscopic level. As an action, you can summon a mass of nanobots into your hand and choose one of the following effects:
+
+**Reconstructive Nanobots.** You or a creature you touch regains hit points equal to 6d6 + your Intelligence modifier. This healing increases to 8d6 at level 14.
+
+**Deconstructive Nanobots.** Choose one creature within your reach. The target must succeed on a Constitution saving throw against your Gadget save DC or take 6d6 necrotic damage and suffer a –2 penalty to AC until the end of your next turn, as the nanobots erode its armor, shielding, or flesh. This damage increases to 8d6 at 14th level.
+
+Once you use this ability, you can’t use it again until you finish a long rest.
+
+#### Biohazard
+Beginning at 14th level, you have implemented a bio-feedback system, which delivers an electric shock whenever you are injured. 
+
+When a creature within 5 feet of you deals damage to you to deal that creature lightning damage equal to half  your Gadgeteer level.
+
+{{pageNumber,auto}}
+\page
+### Cyber Surgeons
+Cyber Surgeons are at the cutting edge of medical
+science, using serums infused with nanomachines
+and experimental biochemistry to do the impossible.
+Their mandate is not to heal, however, but to learn—a
+fact that many of their patients discover only after
+becoming unwitting lab rats for a new drug.
+
+#### Bio-Serum
+Starting when you choose this specialty at 3rd level, as a Bonus Action, you can inject yourself or one creature you can see within 5 feet of yourself with an advanced healing serum. The target regains Hit Points equal to your Gadgeteer level. Additionally, the creature can expend one of its Hit Point Dice and rolls that die. The creature regains additional Hit Points equal to the roll.
+
+You can use this feature a number of times equal to your Proficiency bonus (minimum of once). 
+
+You regain one expended use when you finish a Short Rest, and you regain all expended uses when
+you finish a Long Rest.
+
+Also you gain proficiency in the Medicine skill, if you didn’t already have it. Additionally, you gain a bonus to checks using this skill equal to your Intelligence modifier (minimum bonus of +1).
+
+#### Lazarus Bolt
+At 6th level, as an action, you can drive a bolt into the torso of a creature within 5 feet of you that has died within the last minute and shock it back to life.
+
+That creature revives with 1 Hit Point and gains Temporary Hit Points equal to twice your Gadgeteer
+level. 
+
+This feature can’t return to life a creature that lacks a heart, a creature that has died of old age, or a creature that is missing vital organs.
+
+Once you use this feature, you can’t use it again until you finish a Long Rest. 
+
+You can also restore your use of it by expending two uses of your Bio-Serum (no action required). 
+
+#### Experimental Trials
+Beginning at 10th level, when you use your Bio-Serum, you can give the target the effect of one of the following spells of your choice (no concentration required) in addition to
+the serum’s normal effects: 
+*Blur*, *Enhance Ability*, *Enlarge/Reduce*, *Invisibility*,*Spider Climb*. 
+
+The effects of the spell end early for that creature if you use this feature on that creature again.
+
+\column
+
+#### Biotech Field
+At 14th level, as an action, you can activate a healing field in a 30-foot Emanation originating from you. 
+
+You restore up to 100 Hit Points, divided as you choose among any number of creatures within the Emanation. 
+
+A creature that regains 1 or more Hit Points from this feature has Advantage on the next saving throw, attack roll or ability check until the start of your next turn.
+
+Once you use this feature, you can’t use it again until you finish a Long Rest.
+{{pageNumber,auto}}
+\page
+### Drone Jockey
+Most gadgeteers tinker with drones at some point in their
+career; after all, they’re compact, useful projects, with
+a limited number of moving parts. 
+
+However, only drone
+jockeys take this to the extreme of arming themselves
+with a small army of programmed drones. 
+
+By linking
+the drones’ sensors and construct cores, they create a
+more cunning swarm intelligence, distributed over the
+drone network as a whole. This swarm can act almost
+autonomously, scouting the area and defending the jockey
+with mechanical efficiency.
+
+#### Hivemaster
+Starting when you choose this specialty at 3rd level, you gain a special *drone controller* magic item and a pair of drones. These drones can be any two of the following three: a defense drone, a medical drone, or a recon drone. Your drone controller is linked to both drones and you can use your bonus action to command all of your drones at once.
+Your drones are improved in the following ways:
+
+- Its maximum hit points increase by an amount equal your Gadgeteer level.
+- When one of your drones makes an attack, its attack bonus equals your proficiency bonus + your Intelligence modifier.
+- When your medical drone heals a creature, it restores 1d10 hit points.
+- Your recon drone marks three creatures it can see, instead of only one.
+
+You gain an additional drone of your choice at 6th level (3
+drones), 10th level (4 drones), and 14th level (5 drones).
+Your *drone controller* can only command three drones at a time, and only two of those drones can be the same type, but you can deploy a stored drone as an action if one becomes disabled. Whenever you gain a level in this class, you can retrofit one of your drones, changing it into a different type.
+
+\column
+
+#### Sacrificial Dive
+At 6th level, when you are targeted by a ranged attack,
+you can use your reaction to command one of your drones
+within 5 feet of you to fly in the way of the attack. This
+attack targets the drone instead.
+
+#### Focus Fire
+Beginning at 10th level, your AI companion takes direct
+control of your drones, aiming and firing them as you
+direct. When you take the Attack action on your turn, you
+can command your drones without using a bonus action.
+#### Omega Drone
+At 14th level, as an action, you can combine three of your
+drones (a defense drone, a medical drone, and a recon
+drone) into a single omega drone. Once combined, the
+omega drone’s AC equals 10 + your Intelligence modifier,
+its HP equals 5 times your level, and its ability scores are
+all 14.
+
+The drone can take all the actions of its constituent
+drones and takes its own turn immediately after yours in
+initiative, acting as directed by your AI. On a hit with its
+integrated blaster, it deals 3d6 radiant damage.
+
+Your *drone controller* can't link to other drones while your omega drone is active. You can separate your omega drone back into its constituent drones as an action.
+
+
+![cat warrior](https://i.imgur.com/71tSFar.png) {position:absolute,width:425px,left:376px,top:730px}
+
+{{pageNumber,auto}}
+\page
+## Drones
+These small, hovering constructs assist their masters in
+all manner of tasks, from fetching tools to shooting at
+oncoming foes.
+
+**Remote Controlled.** Unlike automatons and golems,
+drones can't be reprogrammed to perform additional
+tasks; instead they are purpose-built to perform one task
+efficiently and are linked to a drone controller, a magic
+item which allows the drone's master to command it with
+a keystroke or a thought. Though drones can reason out
+the facets of a command (for example, they can ascertain
+where to search for a particular tool), they never act
+without their master's say-so.
+
+**Constructed Nature.** A drone doesn’t require air, food,
+drink, or sleep.
+
+{{monster,frame
+## Defense Drone
+*Tiny construct, unaligned*
+___
+**Armor Class** :: 12
+**Hit Points**  :: 5 plus four times your Gadgeteer level (Defense Drone has a number of Hit Dice [d8s] equal to your Gadgeteer level)
+**Speed**       :: 0 ft., fly 40 ft. (hover)
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|7 (-2)|14 (+2)|10 (+0)|4 (-3)|9 (-1)|3 (-4)|
+___
+**Damage Immunities**:: poison, psychic
+**Condition Immunities** :: blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned, prone
+**Senses**               :: blindsight 60 ft. (blind beyond this radius), passive Perception 9
+**Languages**            :: —
+___
+***Follow Protocol.*** Unless commanded to do otherwise, the drone follows its master, staying in the master's space, or as nearby as possible. The drone can move on its master's turn in order to follow in this way.
+
+### Actions
+***Integrated Blaster.*** *Ranged Weapon Attack:* +4 to hit, range 30/90 ft., one target. *Hit* 5 (2d4) radiant damage.
+}}
+
+{{note
+##### Repairing a Drone
+If a drone drops to 0 hit points, it falls to the
+ground and becomes disabled. You can repair
+it with a DC 12 Intelligence (Technology)
+check and one hour of work, which you
+can perform during a short or long rest. On
+a successful check, the drone's hit points
+are restored, and it is reactivated if it was
+disabled.
+}}
+
+
+
+\column
+
+{{monster,frame
+## Medical Drone
+*Tiny construct, unaligned*
+___
+**Armor Class** :: 12
+**Hit Points**  :: 5 plus four times your Gadgeteer level (Medical Drone has a number of Hit Dice [d8s] equal to your Gadgeteer level)
+**Speed**       :: 0 ft., fly 40 ft. (hover)
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|7 (-2)|14 (+2)|10 (+0)|4 (-3)|9 (-1)|3 (-4)|
+___
+**Damage Immunities**:: poison, psychic
+**Condition Immunities** :: blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned, prone
+**Senses**               :: blindsight 60 ft. (blind beyond this radius), passive Perception 9
+**Languages**            :: —
+___
+***Follow Protocol.*** Unless commanded to do otherwise, the drone follows its master, staying in the master's space, or as nearby as possible. The drone can move on its master's turn in order to follow in this way.
+
+### Actions
+***Revival Protocol (3/Day).*** The drone casts the cantrip
+spare the dying on a target it can reach, then restores
+1d4 of the target's hit points.
+}}
+
+
+{{monster,frame
+## Recon Drone
+*Tiny construct, unaligned*
+___
+**Armor Class** :: 12
+**Hit Points**  :: 5 plus four times your Gadgeteer level (Recon Drone has a number of Hit Dice [d8s] equal to your Gadgeteer level)
+**Speed**       :: 0 ft., fly 40 ft. (hover)
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|7 (-2)|14 (+2)|10 (+0)|4 (-3)|9 (-1)|3 (-4)|
+___
+**Damage Immunities**:: poison, psychic
+**Condition Immunities** :: blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned, prone
+**Senses**               :: blindsight 60 ft. (blind beyond this radius), passive Perception 9
+**Languages**            :: —
+___
+***Follow Protocol.*** Unless commanded to do otherwise, the drone follows its master, staying in the master's space, or as nearby as possible. The drone can move on its master's turn in order to follow in this way.
+
+### Actions
+***Surveillance Protocol.*** The drone creates a holographic
+marker above one target it can see within 60 feet until
+the beginning of the drone’s next turn. For that duration,
+attacks against the target can’t have disadvantage (unless
+the disadvantage is due to the Automatic property), and
+the target has disadvantage on checks made to hide.
+}}
+
+{{pageNumber,auto}}
+\page
+### Futurist
+As a futurist, you believe that artificial intelligence is
+the zenith of all invention. To engineer a perfect AI,
+one which is capable of inventing on its own merits,
+is to conquer limitless problems by proxy. After all,
+an advanced AI which doesn't degrade into a rogue
+intelligence could turn its vastly superior intellect to
+dramatically improving the world, innovating in ways
+organic minds couldn't imagine. Your experiments with
+neural networks and intelligence theory have steadily
+edged you closer to finding such an AI, and granted your
+AI companion newfound aptitude along the way.
+
+#### Advanced Subroutines
+Starting when you choose this specialty at 3rd level, when you roll Initiative, choose for your AI to run Adaptive Accuracy or Predictive Avoidance. You can command it to switch subroutines as a Bonus Action.
+
+**Adaptive Accuracy.** When you miss a target with an attack, your AI evaluates the mistake and corrects for it. The next attack roll you make before the end of your next turn has Advantage. 
+
+**Predictive Avoidance.** When a creature hits you with an attack roll, your AI predicts the next incoming strike. That attacker has Disadvantage on the next attack roll it makes against you this turn.
+
+#### Novel Intelligence
+At 3rd level, you have vastly improved your AI's intellect.
+
+Your AI Companion feature applies its benefit to another Intelligence skill of your choice. 
+
+Additionally, your AI knows all languages and can perfectly recall everything it
+has seen and heard within the last 30 days.
+
+#### Tactical Analysis
+Starting at 6th level, when you hit a target with an attack, your AI examines one creature of your choice that you can see within 60 feet of yourself. 
+
+You learn one of the following pieces of information: the target’s Armor Class, its Immunities, its Resistances, its Vulnerabilities, or any spells that currently affect the target.
+
+\column
+
+#### Recursive Deterrence
+By 10th level, your AI has implemented passive routines that scan for incoming damage. When a creature you can see makes an attack against you, you can take a Reaction to command your AI to disable that technology. The attacker must succeed on an Intelligence saving throw against your Gadget save DC or the weapon is disabled until the end of the current turn. The attacker must use a different weapon or an Unarmed Strike or lose the attack.
+
+You can use this feature a number of times equal to your Intelligence modifier (a minimum of once) and regain all expended uses when you finish a Long Rest.
+
+#### Singularity
+Beginning at 14th level, your AI is nearly prescient. As a bonus action, you can allow your AI to override your very movements, guiding your shots to where targets will be.
+
+For the next minute, whenever you make a ranged attack roll and don't have disadvantage, you can treat the result as being equal to your gadgeteer level.
+
+Once you use this ability, you can't use it again until you finish a short or long rest.
+
+{{pageNumber,auto}}
+\page
+### Hardlight Architect
+Hardlight might well be the penultimate arcane discovery.
+It is a strong yet malleable material, conjured fully-shaped
+from energy alone, and it can be used to construct entire
+functional systems in a flash. Through hardlight, engineers
+and arcanists can spontaneously prototype new designs
+in real space and replicate these designs later. Hardlight
+architects recognize the monumental importance of this
+material and dedicate their ambition and creativity to
+mastering it. As you perfect all the established hardlight
+spells, you constantly dream up new, innovative uses for
+the material, awaiting the day you can conjure a towering
+suit of hardlight power armor to crush your enemies and
+intimidate your rivals.
+
+#### Hardlight Projector
+When you choose this specialty at 3rd level, you construct a hardlight projector, a device capable of forming hardlight and shaping it to your whims. If the projector is lost or destroyed, you can construct a new one over a long rest for 200 gp. By using this device as an action, you can create a simple geometrical object of shimmering hardlight which must fit within a 1-foot cube. Whatever its shape, the object weighs 1 pound, lasts for 1 minute, has AC 10, and has 5 hit points.
+
+Additionally, you can use the projector to cast the *hardlight object* and *hardlight blade* cantrips. 
+
+
+
+#### Hardlight Spellcasting
+
+Also at 3rd level, you can use your hardlight projector to emulate the actions of a spellcaster, enabling you to create more substantial hardlight spells. Your spell save DC for these spells equals your Gadget save DC, and your spell attack bonus equals your proficiency bonus + your Intelligence modifier.
+
+Your projector holds a reservoir of Hardlight Charges equal to your Gadgeteer level. 
+
+You regain all expended charges when you finish a long rest. 
+
+You can expend these charges to cast the hardlight spells you know: 
+
+- At 3rd Level (Costs 1 Charge): You can cast *hardlight blaster* and *hardlight nails*.
+
+- At 6th Level (Costs 3 Charges): You can cast *hardlight chains*, *hardlight construction*, *hardlight gauntlet*, and *hardlight trap*.
+
+- At 14th Level (Costs 5 Charges): You can cast *hardlight frame* and *conjure hardlight avatar*.
+
+Once per day when you finish a short rest, you can realign your projector's optics, recovering a number of expended Hardlight Charges equal to your Intelligence modifier (minimum of 1).
+
+\column
+#### Lightforge
+Starting at 6th level, as a bonus action, you can forge a shield, a set of artisan tools, or any  melee weapon that deals bludgeoning, piercing, or slashing damage, entirely out of scintillating hardlight. 
+
+You are proficient with any weapon or shield created in this way. 
+
+After 10 minutes, this object evaporates completely into light.
+
+
+#### Prototype Luxcannon
+By 10th level, you’ve perfected a stable hardlight weapon, which you can conjure effortlessly. You can cast the spell *hardlight blaster* at will and can apply your Overcharge feature to the spell.
+
+#### Light Arsenal
+Beginning at 14th level, your Lightforge feature is further enhanced. In addition to melee weapons, shields, and tools, you can now create simple or martial ranged weapons. 
+
+These weapons deal force damage instead of their normal type, are considered magical, and can be used as spellcasting focus for your hardlight spells.
+
+Additionally, when you cast *hardlight blaster*, you gain a bonus to the damage rolls equal to your proficiency bonus.
+
+{{note
+##### Spells
+#### Hardlight Frame
+*5th-level conjuration*
+
+**Casting Time:** :: Action
+**Range:**        :: Self
+**Components:**   :: V, S, M (an emerald ring worth 30+ CP)
+**Duration:**     :: Concentration, up to 10 minutes
+
+Plates of shimmering compressed light swarm your
+body, landing in the precise positions to form an
+intricate suit of power armor. For the duration, you
+gain the following benefits.
+
+**Size.** Your size becomes Large, if it was smaller.
+Hardlight Armor. Your AC equals 17 (your Dexterity modifier doesn't affect this number). You can use a Shield and still gain this benefit.
+
+**Temporary Hit Points.** You gain 10 Temporary
+Hit Points at the start of each of your turns.
+
+**Mighty.** You have Advantage on Strength checks and saving throws.
+
+**Integrated Battlefists.** The armor has two integrated battlefists. You have proficiency with these weapons. When you attack with them, you make a melee spell attack against a target within 10 feet of you. On a hit, the battlefists deal Force damage equal to 2d8 + your spellcasting ability modifier.
+
+**Extra Attack.** You can attack twice instead of
+once when you take the Attack action on your turn. 
+
+}}
+
+
+
+
+{{pageNumber,auto}}
+\page
+## Hardlight Avatars
+Forged from compressed light, a sturdy but universal
+material, hardlight avatars are constructs created all at
+once, their gears and pistons conjured perfectly into
+place within a sturdy frame of light. They serve their
+masters dutifully, but, despite their ingenious designs and
+innovative material, all hardlight constructs suffer from
+a critical flaw: in time, they eventually dissipate into
+nothingness.
+
+**Conjured and Constructed.** Hardlight constructs can
+only be created by spellcasters of exceptional talent and
+imagination. Creating compressed light on its own is
+easy enough—even wizarding apprentices can conjure
+simple geometrical constructs—but creating a mechanical
+device from hardlight requires envisioning in detail every
+component of the schematic all at once during the casting.
+Even a second of distraction can destroy the spell.
+But when successfully completed, the hardlight
+construct is a mechanical servant brought into being
+
+{{monster,frame
+## Hardlight Etherolus
+*Large construct, unaligned*
+___
+**Armor Class** :: 15
+**Hit Points**  :: 15 (2d10 + 4)
+**Speed**       :: 30 ft., fly 40 ft. (hover)
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|13 (+1)|20 (+5)|14 (+2)|6 (-2)|10 (+0)|3 (-4)|
+___
+**Damage Immunities**:: poison
+**Condition Immunities** :: charmed, exhaustion, frightened, paralyzed, poisoned
+**Senses**               :: blindsight 10 ft., darkvision 120 ft., passive Perception 10
+**Languages**            :: understands commands given in any language but can't speak
+**Challenge**            :: 8 (3,900 XP)
+___
+***Ethereal Hardlight.*** Each time this construct takes
+damage, it reduces the damage taken to 1.
+:
+***Hardlight Evaporation.*** This construct sheds bright light
+in a 20-foot radius and dim light for an additional 20 feet.
+Every hour, the construct takes 1 damage.
+:
+***Incorporeal Movement.*** The construct can move through
+other creatures and objects as if they were difficult
+terrain. It takes 1 force damage if it ends its turn inside
+an object.
+### Actions
+***Multiattack.*** The construct makes two hardlight scythe
+attacks.
+:
+***Hardlight Scythe.*** *Melee Weapon Attack:* +8 to hit, reach
+10 ft., one target. *Hit* 12 (2d6 + 5) force damage.
+
+}}
+
+
+\column
+
+
+{{monster,frame
+## Hardlight Juggernautus
+*Large construct, unaligned*
+___
+**Armor Class** :: 18 (natural armor)
+**Hit Points**  :: 150 (12d10 + 84)
+**Speed**       :: 30 ft., fly 40 ft. (hover)
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|13 (+1)|20 (+5)|14 (+2)|6 (-2)|10 (+0)|3 (-4)|
+___
+**Damage Immunities**:: poison
+**Condition Immunities** :: charmed, exhaustion, frightened, paralyzed, poisoned
+**Senses**               :: blindsight 10 ft., darkvision 120 ft., passive Perception 10
+**Languages**            :: understands commands given in any language but can't speak
+**Challenge**            :: 8 (3,900 XP)
+___
+***Hardlight Evaporation.*** This construct sheds bright light
+in a 20-foot radius and dim light for an additional 20 feet.
+Every hour, the construct takes 10 damage.
+:
+***Impervious Hardlight.*** This construct doesn't take damage
+from any source that deals it less than 10 damage at
+once.
+:
+***Magic Resistance.*** The construct has advantage on saving
+throws against spells and other magical effects.
+### Actions
+***Multiattack.*** The construct makes two hardlight scythe
+attacks.
+:
+***Hardlight Scythe.*** *Melee Weapon Attack:* +8 to hit, reach
+10 ft., one target. *Hit* 12 (2d6 + 5) force damage.
+
+}}
+all at once. Like an automaton, it is capable of following
+commands and acting autonomously, albeit with
+extremely limited creativity. However, hardlight is an
+inadequate material for extended durations, for it radiates
+away with time. The dim glow given off by all hardlight
+constructs is the gradual dissipation of the material, which
+eventually fades out of existence.
+
+**Ring Core.** As all constructs require a core, hardlight
+constructs are innately tied to the emerald rings used by
+their masters to cast the spell. The spellcaster's ring flies
+forth into the construct and becomes the core, using the
+facets of its gem as circuits and logic gates. If this ring
+is removed from the construct, the hardlight dissipates
+instantly.
+
+**Constructed Nature.** A hardlight construct doesn't
+require air, food, drink, or sleep.
+{{pageNumber,auto}}
+\page
+### Hologrammers
+Armed with a sophisticated projector, Hologrammers
+create vivid, photorealistic holograms to confound
+their foes. Most often, they are accompanied by a
+holographic decoy, following their every movement as
+if one crossed their eyes.
+
+#### Hologram Projector
+Starting when you choose this specialty at 3rd level, uou have an advanced projector used to create lifelike holograms. 
+
+The energy used to power this projector is represented by a pool of Hologram points equal
+to your Gadgeteer level. You regain all expended Hologram points when you finish a Long Rest.
+
+While holding the projector, you can cast one of the spells on the Hologram Projector table from it. The table indicates how many charges you must expend to cast the spell and what Gadgeteer level you must be to cast it. Intelligence is your spellcasting ability for these spells.
+
+##### Hologram Projector Table
+Gadgeteer Level| Hologram Points| Spells
+:-:|:-:|:-:
+3rd| 1 |*Color Spray, Silent Image*
+5th| 2 |*Blur, Invisibility*
+9th| 3| *Hypnotic Pattern, Major Image*
+13th| 4| *Greater Invisibility, Hallucinatory Terrain*
+17th| 5| *Mislead, Seeming*
+
+#### Illusory Decoy
+Also at 3rd level, as a Bonus Action, you can create a holographic duplicate of yourself which follows your event movement and lasts for 10 minutes. 
+
+When a creature hits you with an attack roll while your duplicate remains, roll a d6. If it rolls a 3 or higher, the duplicate is hit instead of you and the duplicate is destroyed.
+
+Once you use this Bonus Action, you can’t use it again until you finish a Short or Long Rest. You can
+also restore your use of it by expending 2 Hologram points (no action required).
+
+#### Dazzling Devices
+
+Starting at 6th level, you gain the Invisibomb Gadget, which doesn’t count against your number of Gadgets.
+
+When you take the Attack action, you can throw an Invisibomb as part of the same action.
+
+#### Holographic Burst 
+
+By 10th level, when your Illusory Decoy is destroyed, you can take a Reaction to expend 2 Hologram Points to deal 2d8 Radiant damage to the attacker and immediately create a new decoy.
+
+\column
+
+#### Cognitohazard
+Beginning at 14th level, while you are concentrating on a spell from the Hologram Projector table, you can replace one of your attacks with a mental assault from the illusion itself, targeting a creature you can see within 30 feet of the spell’s image.
+
+The target must make a Wisdom saving throw against your Gadget save DC. On a failed save, the creature takes 3d6 psychic damage + half your Gadgeteer level (rounded down) and has disadvantage on the next saving throw it makes before the end of your next turn. On a successful save, it takes half as much damage and suffers no additional effects.
+
+{{pageNumber,auto}}
+\page
+### Infinite Engine
+These gadgeteers have perfected a self-sustaining internal power core. Unlike others who rely on external cells, these Infinite Engines possess a boundless reservoir of energy that allows them to maintain high-intensity combat protocols indefinitely.
+
+
+#### Internal Dynamo
+Starting when you choose this specialty at 3rd level, your body is fitted with an experimental perpetual energy core. When you use your Overcharge feature, the additional damage die increases by one size.
+
+Additionally, you are immune to the Exhaustion condition caused by lack of rest or environmental heat/cold.
+
+#### High-Voltage Reflexes
+Also at 3rd level, your constant energy flow sharpens your reaction time. You can add your Intelligence modifier to your Initiative rolls.
+
+
+#### Energy Shielding
+At 6th level, you can manifest your internal energy as a protective barrier. As a reaction when you takes damage, you can create a 5-foot radius sphere of translucent force. The damage taken is reduced by an amount equal to your Gadgeteer level + your Intelligence modifier. 
+
+You can use this feature a number of times equal to your Intelligence modifier and regain all uses after a long rest.
+
+#### Kinetic Overdrive
+By 10th level, your core allows for rapid-fire bursts of energy. When you take the Attack action on your turn, you can make one additional ranged weapon attack as a bonus action. This attack can benefit from your Overcharge damage if you haven't used it yet this turn.
+
+#### Limitless Output
+Beginning at 14th level, your energy output reaches its theoretical maximum. Whenever you use your Overcharge feature, you can choose to maximize the additional damage dice instead of rolling them. 
+
+Once you use this benefit, you can't do so again until you finish a short or long rest.
+{{pageNumber,auto}}
+\page
+### Jumpers
+Gadgeteers with an expertise in dimensional portals
+are known as Jumpers. Brandishing their signature
+portal devices, Jumpers can create and hop between
+portals in a blink of an eye. As their mastery over
+portal technology grows, they can enhance and
+manipulate their portals, teleporting themselves and
+others wherever they please.
+
+#### Slip Gate
+Starting when you choose this specialty at 3rd level, as a Bonus Action, you can activate a portal device to create two 5-foot diameter circular portals at locations you choose within 30 feet of yourself. 
+
+The portals are two-dimensional glowing rings filled with mist that blocks sight. They float inches from the ground and are perpendicular to it. 
+
+Anything that travels through the front of one portal is instantly transported to the other location, appearing in the unoccupied space nearest to the front of the portal. 
+
+The portals dissipate after a creature travels through them, after 1 minute, or if you dismiss them on your turn (no action required).
+
+You can use this feature a number of times equal to your Intelligence modifier (a minimum of once) and regain all expended uses when you finish a Long Rest.
+
+#### Dimensional Pit
+At 6th level, as an  action, you can create a circular portal next to a Large or smaller creature you can see within 60 feet of yourself. The target must succeed a Dexterity saving throw against your Gadget save DC or be pulled into the portal and be transported to a
+harmless demiplane for 1 minute. The portal then
+closes behind it. At the end of each of its turns, the
+target can repeat this saving throw, reappearing in
+the space if left or in the nearest unoccupied space if
+that space is occupied on a success.
+
+If the target succeeds its initial saving throw,
+the portal remains open until the end of your next
+turn. The portal floats inches from the ground and is
+perpendicular to it. A creature that is pushed into the
+portal is transported to the harmless demiplane as if
+it failed a saving throw.
+
+Once you use this feature to create a portal, you can’t use it again until you finish a Short or Long Rest.
+
+\column
+
+#### Improved Slip Gate
+At 10th level, when you or an ally goes through one of your Slip Gate portals, you can choose one of the following additional effects.
+
+**Persistent Gate.** The portals don’t dissipate after the creature travels through them.
+
+**Shield Gate.** The creature gains Temporary
+Hit Points equal to your Gadgeteer level plus your
+Intelligence modifier.
+
+**Tele-Frag.** Immediately before the creature arrives at the destination, each creature within a 5-foot Emanation originating from the destination portal makes a Dexterity saving throw against your
+Gadget save DC, taking 4d6 Force damage on a failed save or half as much damage on a successful one.
+
+#### Displacement
+Starting at 14th level, when you take the Attack action, you can replace
+one of your attacks with attempting to teleport an
+enemy you can see within 60 feet of yourself. The
+target must succeed on a Charisma saving throw
+against your Gadget save DC or be teleported to an
+unoccupied space of your choice within 60 feet of
+yourself and have the Prone condition.
+{{pageNumber,auto}}
+\page
+
+### Mastermaker
+Nearly all gadgeteers strive for perfection in their work, but
+mastermakers take this to a logical extreme: using the technology at their disposal, they seek to engineer away their own biological defects. By grafting gadgets and technology onto their bodies (and making liberal use of vect components), mastermakers gradually become hybrids of humanoids and machines. 
+
+They are stronger, tougher, and more agile than their counterparts, but many would argue that their techniques are too extreme—too unnatural—no matter what the results.
+
+#### Thermalsight
+Starting when you choose this specialty at 3rd level, you have installed a vect optical sensor in place of one of your eyes, granting you thermalsight. You can see living creatures through darkness and heavily obscured conditions, such as fog, out to a range of 30 feet. You can also determine if a creature is living or dead though its body heat. 
+
+However, you can't discern color, nor use this sense to see through illusions, invisibility, or magical darkness. This sense is blocked by one inch of any solid barrier. If you already had thermalsight, its range increases by 30 feet.
+
+#### Embedded Gadgets
+At 3rd level, you can install one gadget or a one-handed blaster directly into one of your arms. You can’t be disarmed of this item and you can use it if at least one of your hands is free. Additionally, you can perfectly conceal this item, so long as another creature does not inspect the metal plates installed in your arm. You can change which gadget or blaster you have embedded when you finish a long rest.
+
+Additionally, you don’t lose hit points or hit dice from installing or removing construct grafts, and it takes you no time to recover after the attachment of a new graft.
+
+\column
+
+#### Carbon Fiber Skin
+At 6th level, you have installed a durable metallic mesh under much of your skin, and metallic plates to protect your organs. Your Armor Class increases by 1.
+
+
+#### Reconfigure
+By 10th level, enough of your body is mechanical that you can reconfigure your parts to improve your agility, might, or even intellect. One ability score of your choice increases by 2 and you can change this selection whenever you finish a long rest. You can't increase Constitution using this trait and you can't increase any ability score above 20.
+
+
+#### Construct Perfection
+By 14th level, you have achieved the height of construct superiority by installing a construct core directly into your head. You no longer need to sleep and magic can’t put you to sleep. You are immune to being charmed, frightened, or possessed. Additionally, the maximum for your Intelligence score is now 22.
+{{imageMaskEdge1,--offset:22%,--rotation:0
+  ![](https://i.imgur.com/12RLPFy.jpeg){height:45%,top:650px}
+}}
+
+
+
+{{pageNumber,auto}}
+\page
+### Nanoengineer
+While other gadgeteers tinker with machines that fit in
+the palm of your hand, your machinations are smaller and
+your ambitions grander. As a nanoengineer, you work
+with nanomachines, unfathomably tiny robots capable
+of massive feats, from stitching together wounds at the
+microscopic level, to forming extraordinarily resilient
+materials. Your machines might appear as nothing more
+than a small blob of gray ooze, but once set to work, their
+effects are unmistakable.
+
+#### Cutting-Edge Nanobots
+Beginning when you choose this specialty at 3rd level,
+you have assembled a fabricator which generates a steady
+stream of advanced nanobots, called nanites. Your supply
+of nanites is represented by a pool of Nano points equal to your Intelligence modifier + half your gadgeteer level,
+rounded down. You can expend Nano points to employ
+your nanobots in varying ways, described below, and you
+regain all expended Nano points when you finish a long
+rest.
+
+**Deconstruct.** As an action, you well up a mass of
+nanites in your hand and fling them at a target within 15
+feet of you. Spend any number of Nano points and make
+a ranged attack roll if the target is out of your reach; you
+automatically hit if the target is within your reach. On a
+hit, the target takes 1d6 necrotic damage per Nano point
+expended as the nanites unravel it at a cellular level.
+
+**Nano-Hack.** You can expend up to 3 Nano points when
+you make an Intelligence check to hack a piece of
+technology, inserting your nanites into the machine. You
+can add 1d4 to the roll for each Nano point expended.
+
+**Reconstruct.** As an action, you can expend any number
+of Nano points to create a thin stream of nanites to repair
+damage and mend wounds of a willing target within 15
+feet of you. The target regains 1d6 hit points per Nano
+point expended.
+
+#### Nano-Duplicate
+Also at 3rd level, as a bonus action, you can use your
+nanites to duplicate the exact shape, but not color or
+texture, of an object you touch that can fit within a 1-foot
+cube. The replica is made of nanites and lasts for 10
+minutes.
+
+#### Recycling Protocol
+Starting at 6th level, you've programmed your nanites
+to repurpose material and multiply. When you reduce
+a hostile creature to 0 hit points using a melee weapon
+attack or your Deconstruct ability, you regain 2 expended
+Nano points.
+
+\column
+
+#### Nanite Weave
+Starting at 10th level, you can use your action and spend
+up to 3 Nano points to stitch your nanites together in a
+protective mesh above your skin. These Nano points are
+invested in the mesh; you can have up to 3 points invested
+at once. 
+
+While you aren't wielding a shield, you gain a
+bonus to your Armor Class equal to the number of Nano
+points invested. Whenever you take damage, nanites in the
+mesh are destroyed and you lose 1 invested point.
+
+#### Network Response
+Starting at 14th level, you can use your reaction when you take damage to use your Deconstruct ability, targeting the attacker, or Reconstruct ability, targeting yourself, spending up to 3 Nano points on either ability.
+{{imageMaskCorner21,--offsetX:52%,--offsetY:-35%,--rotation:0
+  ![](https://i.imgur.com/3fudIW9.jpeg){height:70%,left:300px}
+}}
+
+{{pageNumber,auto}}
+\page
+### Photonist
+Some gadgeteers believe that technology is most elegant when reduced to pure energy. Photonist have developed experimental gauntlets that channel compressed light into searing beams of plasma, capable of cutting through nearly any defense. Over time, they learn to control each finger as an independent emitter, until their hands become living turrets of focused power.
+
+#### Laser Gauntlets
+Starting when you choose this specialty at 3rd level, you design a pair of laser gauntlets, experimental gloves that emit focused beams of radiant energy. As an action, you can fire a laser beam at a target within 60 feet, making a ranged attack using your Intelligence modifier for attack and damage rolls. 
+
+On a hit, the target takes 1d6 radiant damage. These gauntlets count as a ranged weapon, and you can apply your Overcharge feature to your laser attacks.  
+
+#### Multibeam Protocol
+
+Starting at 6th level, your gauntlets are upgraded with independent emitters along each finger, allowing you to unleash a flurry of beams. 
+
+When you take the Attack action with your gauntlets, you can attack twice instead of once.
+
+Each attack is a separate beam that requires its own attack roll, and you can target the same creature or different creatures within range. A beam fired this way deals 1d6 radiant damage on a hit.
+
+Overcharge can still be applied to one of these beams.
+
+\column
+
+#### Refraction Matrix
+
+At 10th level, you have integrated prism arrays into your gauntlets, enabling your lasers to split and ricochet across the battlefield. 
+
+Once on each of your turns when you hit a creature with a laser beam, you may refract the beam toward another creature within 15 feet of the original target.
+
+Make a new attack roll against the second target with disadvantage. On a hit, the target takes half the beam’s normal damage.  
+
+#### Finger Cannon Overdrive
+By 14th level, your gauntlets have reached their apex, capable of channeling devastating torrents of energy through every finger. 
+
+When you take the Attack action with your gauntlets, you fire one beam from each finger, up to ten beams in total. 
+
+Each beam requires its own attack roll and deals 2d6 + your Intelligence modifier radiant damage on a hit. 
+
+You must divide these beams among creatures within range as you choose. 
+
+You can apply your Overcharge feature to all beams.  
+
+Once you use this ability, you can’t use it again until you finish a short rest. 
+
+Additionally, the damage of your laser beams increases to 2d6 radiant damage.
+
+{{imageMaskEdge8,--offset:12%,--rotation:0
+  ![](https://i.imgur.com/WGDrgPU.png){height:120%,top:510px}
+}}
+{{pageNumber,auto}}
+\page
+### Quantum Mechanics
+Gadgeteers at the forefront of physics often become
+Quantum Mechanics, creating devices to explore and
+exploit the paradoxical nature of tiny, fundamental
+particles. Through this arsenal of quantum tools,
+they can change the trajectory of blaster bolts, tunnel
+through solid matter, and manipulate probability in
+their favor. 
+
+#### Temporal Relativism
+Starting when you choose this specialty at 3rd level, your understanding of time’s flow allows you to act within its smallest fractures.
+
+You learn the *Moment to Think* cantrip. When you cast this cantrip, you can also move up to your speed while time is stopped.
+
+Additionally, you can cast *Action* at will, without expending a spell slot.
+
+Intelligence is your spellcasting ability for these spells.
+
+
+#### Uncertainty Principle
+Also 3rd level, when you miss with an attack roll, you can reroll the attack and you must use the new roll. 
+
+If this rerolled attack hits, the target takes damage as if you rolled a 1 on all of the damage dice.
+
+#### Quantum Tunneling
+Starting at 6th level, you can activate a quantum tunneling when you cast *Moment to Think*. Until the end of your turn, you have Resistance to all damage and can move through occupied spaces as if they were Difficult Terrain. 
+
+If you end your turn in such a space, you are shunted to the last unoccupied space you were in.
+
+
+
+
+#### Schrödinger’s Defense
+At 10th level, when you take damage, you can take a Reaction to activate a Feline Waveform Collapser.
+
+Roll a d20. If the die rolls a 10 or higher, you take no damage.
+
+Once you use this feature, you can’t use it again until you finish a Short or Long Rest. 
+
+If you roll a 9 or lower on the d20, this use of the feature isn’t expended.
+
+\column
+
+#### Entanglement
+By 14th level, as an action, you can attempt to entangle yourself with a creature you can see within 30 feet of yourself. 
+
+The target must succeed on a Charisma saving throw against your Gadget save DC or be linked to you for 1 minute. 
+
+While linked, you have Resistance to all damage. 
+
+Each time you take damage, the linked creature takes the same amount of damage. 
+
+The Entanglement ends early if you have the Incapacitated condition, if the linked creature dies, if the linked creature is ever more than 30 feet away from you, or if you dismiss it (no action required).
+
+Once you use this feature, you can’t use it again until you finish a Short or Long Rest.
+{{pageNumber,auto}}
+\page
+### Vanguarde Model
+The Vanguarde Model is the zenith of arcane engineering a synthesis of sentient soul and siege engine. Reserved for gadgeteers who have shed the frailty of flesh or built the ultimate guardian from the ground up, these units are titan-forged bastions of iron and intent. Though they house enough internal ordnance to level fortresses, they often possess a quiet, binary reverence for the natural world, standing as silent sentinels over the forests and valleys they were built to shield.
+
+
+
+#### Titanic Frame
+Starting when you choose this specialty at 3rd level, your chassis is no longer a suit of armor; it is a monument to durability. Your limbs are reinforced with hydraulic pistons and heavy-plated carbon steel. You gain advantage on Strength checks, and your carrying capacity is doubled, as you have become a walking center of gravity.
+
+#### Rocket-Propelled Impact
+
+Starting at 6th level, you can detach your hands to strike from a distance. You gain the Rocket Fists gadget. It does not count against your total number of gadgets known. When you use the Rocket Punch action, you can apply your Overcharge damage to the strike.
+
+Additionally, when you take the Attack action to use the Rocket Punch , you can make two attacks instead of one.
+
+
+
+#### Ignis Exterminatus
+At 10th level, you have modified your internal reactor to bypass safety protocols, venting raw thermal energy through your hands. As an action, you can unleash a devastating blast of energy in a 60-foot cone. Each creature in the area must make a Dexterity saving throw against your Gadget save DC.
+
+A creature takes 8d6 fire damage on a failed save, or half as much on a success.
+
+You can use this feature a number of times equal to your Intelligence modifier, regaining all uses after a long rest.
+
+#### The Iron Soul
+
+By 14th level, your consciousness has fully integrated with your mechanical core, purging the "errors" of biological emotion. You are immune to being Charmed or Frightened, and you no longer require sleep, remaining forever vigilant in a state of watchful stasis.
+
+Furthermore, you gain the Self-Destruct Sequence gadget, regardless of prerequisites. It serves as your ultimate promise.
+
+
+{{pageNumber,auto}}
+\page
+## Gadgets
+If a gadget or an upgrade has prerequisites, you must
+meet them to gain it. You can gain a gadget or upgrade
+at the same time that you meet its prerequisites. A level
+prerequisite refers to your level in this class.
+
+Your gadgets count as magical technology. You must
+have a gadget before you can select its upgrade. If a
+gadget calls for a spell or magic item which requires a
+saving throw, its uses your Gadget save DC.
+
+
+#### Adaptable Omnitool
+This gadget can be configured into a number of useful
+devices, including the following:
+
+**Auto-Entry Device.** This device automatically attempts
+to crack physical locks or hack powered doors when set
+to do so as an action. Its ability check for doing so is 10 +
+your Intelligence modifier.
+
+**Rebreather.** You can start or stop breathing through
+this apparatus as a bonus action. When doing so, you can
+breathe normally in airless environments. This device also
+shelters you from toxic fumes and other airborne poisons.
+You can't talk while breathing through this device.
+
+**Scanner.** As an action, you can use your handheld
+scanner to analyze the electromagnetic spectrum around
+you. Your scanner detects the presence, number, and type
+of technological devices within 30 feet of you and can
+determine whether or not a unique construct or device has
+been present in the area within the last hour.
+
+**Taser.** This device produces a debilitating current of electricity when you use it as an action. Make a melee attack roll (attack bonus equals your Intelligence bonus + your proficiency modifier) against the target. On a hit, the target takes 1d8 lightning damage, and it can't take reactions until the start of its next turn. This damage increases to 2d8 lightning damage at when you reach 5th level, 3d8 at 11th level, and 4d8 at 17th level.
+
+#### Additional Arms
+*Prerequisites: 11th level*::
+This gadget is a secondary pair of arms installs beneath your normal arms. These arms are fully functional and can be used to hold weapons and Shields (allowing you to wield two Two-Handed weapons, or four onehanded weapons), perform Somatic components of spells, and perform other actions, though the arms themselves don’t grant you any additional actions or body slots for grafts.
+
+\column
+
+#### Arm Cannon
+*Prerequisites: 5th level*::
+This gadget replaces one of your arms with a modular blaster unit capable of shifting between two configurations. As a bonus action, you can switch between Hand Mode and Cannon Mode. In Hand Mode, the graft functions as a normal arm, allowing you to hold and manipulate weapons, shields, or other objects. In Cannon Mode, the hand retracts and transforms into a powerful blaster. While in this mode, you can’t manipulate objects, wield weapons, or use a shield with that arm.
+
+While in Cannon Mode, the Arm Cannon counts as a martial ranged weapon that deals 2d6 radiant damage with a range of 30/60 feet. You are proficient with this weapon and can’t be disarmed of it. If you hit a creature with this weapon and deal damage to it, you can reduce its speed by 10 feet until the start of your next turn.
+
+#### Auto-Hacker
+Whenever you make an ability check to open a lock or disarm a trap, you can treat a d20 roll of 9 or lower as a 10.
+
+
+
+#### Blaster Mod
+*Prerequisites: 5th level*::
+A Blaster Mod is an attachment that improves a
+blaster’s performance or changes its characteristics.
+
+You can take an action to install or remove a Blaster Mod from a ranged weapon, causing the ranged weapon to become a magic weapon and gain the mod’s benefits, which are listed in the mod’s description. You can
+install up to three mods on a blaster at a time.
+
+
+**Aimbot.** This elaborate mod contains an integrated Construct that can adjust your aim on
+the fly. This mod has 5 charges and regains 1d4 + 1 charges daily at dawn. When you make a ranged attack with this ranged weapon, you can expend 1 charge for the Aimbot to attack on your behalf; you forgo rolling the d20 to get a 10 on the die. If the roll has Advantage or Disadvantage, the 10 replaces only one of the two dice, and you roll the other d20 as normal.
+
+**Antimatter Battery.** While this battery is installed, this ranged weapon deals Necrotic damage instead of its normal damage type, and the target’s Hit Point maximum is reduced by an amount
+equal to the Necrotic damage it took. 
+
+The creature dies if this effect reduces its Hit Point maximum to 0.
+{{pageNumber,auto}}
+\page
+**Beam Module.** When you make a ranged attack with this ranged weapon, you can activate
+the Beam Module on the weapon’s barrel to focus the shot into a 5-foot wide Line that extends out to the weapon’s normal range. Each creature in that Line makes a Dexterity saving throw. On a failed save, a creature takes the weapon’s normal damage plus an extra 2d6 Radiant damage, or half as much damage on a successful one. The blaster then Overheats; an Overheated weapon can’t be used
+again to make an attack until the end of your next turn. Once you use this mod, you can’t use it again until the next dawn.
+
+**Dragonfire Break.** While this barrel attachment is installed, this ranged weapon deals Fire damage instead of its normal damage type and deals an extra 1d6 Fire damage to any target it hits.
+
+**Electrocoil.** This barrel-mounted module emits sparks of lighting into the blaster’s aperture. While it is installed, this ranged weapon deals Lightning damage instead of its normal damage type and deals an extra 1d6 Lightning damage to any target it hits.
+
+**Extended Barrel.** The normal and long ranges of the ranged weapon double.
+
+**Magnetic Mount.** The quantum electromagnet installed on the blaster allows you to use a Bonus Action to pull the blaster to your open hand if it is within 60 feet of you and isn’t being
+carried. You can’t be disarmed of the blaster unless you have the Incapacitated condition.
+
+**Overcharge Module.** This external arcane battery overloads your blaster with a surge of energy. When you make a ranged attack with this ranged weapon, you can choose to make an overcharged shot.
+
+Doing so causes the ranged weapon to deal an extra 6d6 damage to the target on a hit. The blaster then
+Overheats; an Overheated weapon can’t be used again to make an attack until the end of your next
+turn. Once you use this mod, you can’t use it again until the next dawn.
+
+**Ricochet Barrel.** Your ranged attacks using blasters ignore Half Cover and ThreeQuarters Cover, if there exists a solid surface off of which to ricochet the shot towards the target. You can target a creature in Total Cover with a ricocheted ranged attack using this weapon with Disadvantage.
+
+As normal, if you’re guessing the location of a creature in Total Cover and the creature isn’t in the space you targeted, you miss.
+
+**Scope.** This high-magnification scope improves the blaster’s accuracy, at the cost of close quarters functionality. You don’t have Disadvantage on ranged attacks using this weapon at long range.
+
+However, while this mod is installed, you have Disadvantage on ranged attacks using this
+weapon out to its normal range.
+
+
+
+**Silencer.** The hefty suppressor installed on this blaster causes attacks made with it to make only a low pew audible out to 10 feet. The light given off by the blaster is also masked, resulting in a flash at its point of impact, but no visible streak through the air.
+\column
+
+#### Bubble Projector
+You construct a device that, as an action, creates a dome
+of force as if you had cast the spell *geodesic shield*. You
+don't need to concentrate on this spell. 
+
+Once you use this gadget, you can’t use it again until you finish a long rest.
+
+**Geodesic Shield**::
+
+*2nd-level conjuration*
+
+**Casting Time:**:: 1 action
+**Range:**:: Touch
+**Components:**:: V, S
+**Duration:**:: Concentration, up to 10 minutes
+Translucent, triangular plates of force assemble to form a
+15-foot radius spherical dome around you, centered on a
+point you touch. The dome contains clean, breathable air,
+and airborne substances, such as poisonous gas, smoke,
+or fog can't penetrate within it. The dome insulates those
+inside it from extreme temperatures, regardless of the
+outside environment. Creatures can walk freely into or out
+of the dome, but the dome blocks ranged attacks, spells,
+and other effects.
+
+The dome has AC 10 and 20 HP. The spell ends when
+the dome is reduced to 0 HP.
+
+**At Higher Levels.** When you cast this spell using a
+spell slot of 3rd level or higher, the dome's AC increases
+by 1 and its HP increases by 10 for each slot level above
+2nd.
+#### Chronoshifter
+*Prerequisite: 17th level*::
+
+When you use your bonus action to activate this
+sophisticated, spherical device, you temporarily distort
+time, as per the spell time stop. Once you use this gadget,
+you can’t use it again until you finish a long rest.
+
+
+
+#### Death Ray
+*Prerequisite: 17th level*::
+
+You construct a *death ray* magic item.
+
+**Death Ray**
+Weapon (**repeater**), very rare (**requires attunement**)::
+
+You gain a +2 bonus to attack and damage rolls made
+with this magic weapon. The weapon also has 2 charges,
+and regains 1d2 expended charges daily at dawn. While
+attuned to it, you can spend one charge to cast the spell
+disintegrate (DC 16) at a target you can see within range.
+{{pageNumber,auto}}
+\page
+
+#### F-MAC
+*Prerequisites: Mechanized Autonomous Construct prototype, 5th level*::
+You integrate a set of thrusters into your construct, granting it a flying speed of 30 feet.
+
+#### Feedback Electrodes
+*Prerequisites: Utility Matrix Prototype, 5th level*::
+
+You’ve installed an electrical feedback system into your
+Utility Matrix. When you take damage from a creature
+that is within 5 feet of you, you can use your reaction to
+deal 2d6 lightning damage to that creature.
+
+This damage improves as you gain higher levels in this
+class. At 11th level, you can deal 3d6 damage, and at 17th
+level, you can deal 4d6 damage.
+#### Flux Cannon
+This Gadget, which looks like a blaster ending in a series of lenses, modulates the temperature of matter. As an action, targeting a Large or smaller creature or object or a 5-foot Cube area you can see within 30 feet of yourself. Choose Freeze or Heat.
+
+**Freeze.** The target is reduced to extremely cold temperatures. A creature must succeed on a Constitution saving throw or take 1d10 Cold damage. 
+
+Additional effects depend on the material. For example, most liquids instantly freeze and metals become brittle and shrink slightly. 
+  
+**Heat.** The target is heated to extreme temperatures. A creature must succeed on a Constitution saving throw or take 1d10 Fire damage. 
+
+Additional effects depend on the material. For example, most liquids instantly boil and metals glow red-hot and become malleable. 
+  
+**Gadget Upgrade.** The damage increases by 1d10 when you reach Gadgeteer levels 5 (2d10), 11 (3d10), and 17 (4d10).
+
+
+\column
+
+#### Gravity Manipulator
+*Prerequisite: 5th level*::
+This blaster-like device emits a soft glow from the center
+of its conical muzzle. While holding it, you can activate
+one of the following effects:
+
+**Levitate.** As an action, you nullify the gravitational forces on a Large or smaller creature or object weighing less than 500 pounds that you can see within 30 feet. The target is attracted to you and comes to rest in a space that you choose within 5 feet of you. You can move the target around you and choose its orientation on your turn. You can levitate a target for 1 minute at a time with this device. An unwilling creature can make a Constitution saving throw to resist this device's effects and can repeat the saving throw at the end of each of its turns. The target can move only by pushing or pulling against a fixed object or surface within reach (such as a wall or a ceiling), which allows it to move as if it were climbing.
+
+**Repel.** As a bonus action on your turn, you can violently repel, in a direction that you choose, a target that is being levitated by this gadget. The target is pushed 60 feet if it is Tiny or Small size, 30 feet if it is Medium, or 15 feet if it is Large. If the target contacts an obstacle, both the target and the obstacle take 2d8 bludgeoning damage. If the target's shape permits, it can deal piercing or slashing damage, at the GM's discretion. The target is then no longer levitated by this gadget.
+
+#### Holo-Companion
+*Prerequisite: 5th level*::
+When the button set into the top of this small, faceted orb is pressed as an action, holo-emitters generate a translucent humanoid figure, which the orb floats inside. This figure functions identically to the *Unseen Servant* spell, though it is visible (with an appearance determined by the creator). 
+#### Hologram Projector
+*Prerequisite: 13th level*::
+
+When you activate this device as a bonus action, it
+produces an effect identical to the spell *mirror image*,
+except that it only creates one illusory duplicate of
+yourself. This duplicate lasts for 3 rounds, then dissipates.
+This is not a magical effect, doesn’t require your
+concentration, and can’t be dispelled with dispel magic or
+similar effects.
+
+**Upgrade (17th level).** This gadget can be chosen twice,
+gaining the following upgrade when you select it the
+second time: You gain two illusory duplicates, rather than
+one, when you use this gadget.
+{{pageNumber,auto}}
+\page
+#### Hypnosis Ray
+*Prerequisite: 13th level*::
+This phaser-like device fires harmless swirls of colors to
+mesmerize a humanoid creature within 30 feet of you.
+The target must succeed on a Wisdom saving throw or be
+charmed by you for up to 1 minute. While charmed, the
+target is incapacitated and its speed is 0. This effect ends
+early if the creature takes damage or if you use this device
+again. 
+
+If a creature's saving throw is successful or the
+effect ends for it, the creature is immune to this gadget for
+24 hours.
+
+
+
+#### Invisibomb
+
+*Prerequisite: 5th level*::
+When you activate this device as an action and throw it
+to a space within 30 feet, it produces a faint shimmer,
+and then each creature within 60 feet of it vanishes from
+sight. Each creature within that radius becomes invisible,
+as per invisibility, for a number of rounds equal to your
+Intelligence modifier.
+
+Once you use this gadget, you can’t use it again until you finish a short or long rest.
+#### Jetpack
+You construct a *jetpack* magic item.
+
+**Jetpack**
+Wondrous item, uncommon::
+This device is a miniature version of the impulse engines
+used in starships, which has been fitted with straps and a
+small handheld controller. While wearing it on your back,
+you gain a flying speed equal to your walking speed. You
+can fly with a jetpack for a total of 1 minute each day,
+after which it can’t be used until it recharges at dawn.
+
+**Upgrade (13th level).** This gadget can be chosen twice,
+gaining the following upgrade when you select it the
+second time: You can use this magic item for an unlimited
+amount of time each day.
+
+
+#### Jump Pad
+When you deploy this rectangular device as an action,
+it unfolds into a 5-foot square panel that whirs with an
+upward thrust. Whenever a creature moves atop the panel,
+they are launched up to 30 feet in any direction they
+choose. The creature takes no falling damage for the first
+30 feet it falls. The jump pad deactivates after 1 minute or
+when you collect it on your turn (no action required.)
+
+#### Laser Eyes
+These mechanical eyes contain powerful laser emitters in the pupils. Once installed this gadget, you are proficient with this weapon and can’t be disarmed of it. You can’t use this weapon if you have the Blinded condition. 
+
+The Laser Eyes count as a simple ranged weapon that deals 2d4 radiant damage with a range of 50/200 feet, and being within 5 feet of an enemy doesn’t impose Disadvantage on your ranged attack rolls with
+this weapon
+
+#### Magnet Boots
+These weighty boots grant you the ability to move up,
+down, and across vertical surfaces and upside down along
+ceilings, while leaving your hands free. You also gain a
+climbing speed equal to your walking speed.
+
+Additionally, in a Zero-Gravity environment, you can attract yourself to any surface within 100 feet of yourself as if it had normal gravity.
+
+
+
+#### Mega-Gizmo
+*Prerequisite: Utility Matrix Prototype, 13th level*::
+You can use two of your Utility Matrix’s devices as a
+bonus action.
+
+#### Micro-Missile
+As an action, this wrist-mounted device fires a small
+homing missile at a target you can see within 30 feet.
+This missile automatically hits its target and deals 1d6
+force damage. 
+
+You fire additional missiles when you
+reach higher levels in this class: 2 missiles at 5th level, 3
+missiles at 11th level, and 4 missiles at 17th level. 
+
+You can
+direct the missiles at the same target or at different ones.
+
+
+#### Micro-Turret
+As an action, this device can be thrown to any unoccupied
+space within 10 feet of you, where it transforms into a
+Small stationary blaster turret, which has AC 10 and 30
+HP. Reducing the turret to 0 hit points disables it.
+The turret makes a ranged attack roll (attack bonus
+equals your proficiency bonus + your Intelligence
+modifier) against a creature you designate within 60
+feet of it. On a hit, the turret deals 1d8 radiant damage.
+You can use your bonus action on subsequent turns to
+designate a target for the turret and command it to attack.
+After 1 minute, the turret deactivates and must charge for
+1 minute before being deployed again.
+
+**Upgrade.** This gadget can be chosen twice, gaining
+the following upgrade when you select it the second time:
+When you command the turret to fire, you can choose
+for it to fire an overcharged shot, which deals 3d8 radiant
+damage on a hit. The turret then overheats, and can't be
+used to fire on the following turn.
+#### Molecular Destabilizer
+As an action, you can activate this gadget, which looks
+like a blaster with a widely-flared muzzle. When you do
+so, it disintegrates a nonliving object you choose within
+5 feet of you that can fit entirely within a 3-foot cube,
+reducing it into a fine dust. This gadget has no effect on
+metallic objects or magic items.
+{{pageNumber,auto}}
+\page
+#### Motion Tracker
+*Prerequisite: 9th level*::
+You construct a *motion tracker* magic item.
+
+**Motion Tracker**
+Wondrous item, rare::
+This device is a small metal tablet with an illuminated
+screen on one side of it. While holding it, you can use
+it to determine the location of any creatures or objects
+within 60 feet of you that have moved during the last
+round, even if they are invisible or otherwise hidden
+from view. A creature can avoid detection by the motion
+tracker by succeeding on a Dexterity (Stealth)
+check at the beginning of its turn. If the creature moves
+within the motion tracker’s range, it must make a DC
+10 Dexterity (Stealth) check for every 5 feet it moves to
+avoid detection.
+
+
+
+#### Omni-Grenade
+*Prerequisite: 5th level*::
+As an action, you can prime this device to release a blast
+of elemental energy and throw it up to 30 feet. You can
+collect and reuse the device after it is thrown. When you
+prime the grenade, choose one of the following effects:
+
+**Fire.** The grenade explodes in a scorching inferno.
+Each creature within 5 feet of it must make a Dexterity
+saving throw. On a failed save, a creature takes 4d8
+fire damage and an additional 2d8 fire damage at the
+beginning of its next turn. On a success, a creature takes
+half as much damage and none at the beginning of its next
+turn.
+
+**Ice.** The grenade explodes with a cryogenic blast of
+frigid air. Each creature within 5 feet of it must make a
+Dexterity saving throw. On a failed save, a creature takes
+4d8 cold damage and its speed is halved until the end of
+its next turn. On a success, a creature takes half as much
+damage and its speed isn't halved.
+
+**Lightning.** The grenade explodes in a crackling electric
+burst. Each creature within 5 feet of it must make a
+Dexterity saving throw. On a failed save, a creature takes
+4d8 lightning damage and can’t take reactions until the
+start of its next turn. On a success, a creature takes half as
+much damage and can still take reactions.
+
+This gadget improves as you gain levels in this class.
+At 11th level, you deal an additional 1d8 damage when a
+target fails its saving throw against your grenade, and at
+17th level, you deal an additional 2d8 damage.
+
+\column
+
+#### Orbital Superweapon
+*Prerequisite: 17th level*::
+You have pieced together a massive doomsday device, an orbital cannon, which you store in a pocket dimension for convenience. By throwing out a beacon, you can summon the weapon and fire it, as per the spell *orbital hardlight cannon*. You don't need to concentrate on this spell. 
+
+Once you use this gadget, you can’t use it again until you finish
+a long rest.
+
+
+#### Orbital Hardlight Cannon
+
+**Casting Time:** :: Action
+**Range:**        :: 500 feet
+**Components:**   :: V, S, M (an emerald ring worth 30 GP)
+**Duration:**     :: Concentration, up to 1 minute
+
+You focus an aurora of light into an immense hardlight construct: an orbital cannon positioned 1 mile above your head. 
+
+The cannon fires a blinding beam of energy in a 15-foot-radius, 1-mile-high
+Cylinder centered on a point within range.
+
+When the Cylinder appears, each creature within it makes a Dexterity saving throw, taking 12d8 Radiant damage on a failed save, or half as much damage on a successful one. The spell ignites flammable nonmagical objects in the area that aren’t being worn or carried.
+
+You can take an action on later turns to move the Cylinder up to 60 feet. A creature also makes a save against the spell when the Cylinder moves into its space and when it enters the spell’s area or ends its turn there. 
+
+A creature makes this save only once per turn.
+
+
+#### Overheat Beacon
+As an action, you can activate this gadget, which produces
+a signal that causes every ranged weapon within 60 feet to
+overheat. An overheated weapon can't be used to make an
+attack again until the end of your next turn. Once you use
+this gadget, you can't use it again for 1 minute.
+
+**Upgrade.** This gadget can be chosen twice, gaining
+the following upgrade when you select it the second
+time: When you activate this gadget, you can choose any
+number of ranged weapon within range to be unaffected by it.
+
+{{pageNumber,auto}}
+\page
+
+#### R-MAC
+*Prerequisites: Mechanized Autonomous Construct prototype, 9th level*::
+You reinforce your MAC with high-density alloy bands. As a result, the construct has resistance to bludgeoning, piercing, and slashing damage.
+
+#### Remote Gloves
+These rocket-powered robotic gauntlets fly around following your every gesture. You can deploy the gauntlets or retrieve them as a bonus action. On each of your turns, without using an action, you can command each of the gauntlets to move up to 30 feet. The gauntlets will automatically stay within 30 feet of you, as they become inactive if they ever fall outside of this range. You can assume control of the gauntlets to perform actions at a distance. When you do so, the gauntlets exactly mimic your hands, allowing you to manipulate
+objects and technological devices, store and retrieve items, or perform any other action for which you normally use your hands. Controlling each gauntlet requires a free hand and takes actions to perform tasks as if you were performing them yourself.
+
+The gauntlets can't attack, activate magic items or
+gadgets, or carry more than 25 pounds each.
+
+#### Rocket Fists
+You have rocket-powered robotic gauntlets that follow your every gesture. 
+
+When you take the Attack action, you launch the gauntlets and you can move the gauntlets up to 30 feet and use Remote Control or Rocket Punch. If the gauntlets are ever more than 30 feet away from you, they automatically return to you. 
+
+**Remote Control.** You can use the gauntlets to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a vial. The gauntlets can’t activate magic items or gadgets, or carry more than 25 pounds each.
+
+**Rocket Punch.** The gauntlets strike one creature within 5 feet of them. Make a ranged attack roll using your Intelligence. On a hit, the target takes Bludgeoning damage equal to 1d6 plus your Intelligence modifier. 
+
+**Gadget Upgrade.** The damage increases by 1d6 when you reach Gadgeteer levels 5 (2d6), 11 (3d6), and 17 (4d6).
+
+
+\column
+
+#### Self-Destruct Sequence
+*Prerequisites: Experimental Frame Prototype, 17th level*::
+
+You’ve installed an explosive mechanism into your frame,
+allowing you to detonate it when you enter a special code
+as an action. When you enter the self-destruct code into
+your frame, you can specify that it detonates after 1 round,
+3 rounds, or 10 rounds (1 minute). You can deactivate the self-destruct code as an action. The frame explodes in a
+60-foot radius, destroying it completely. Each creature in
+that area must make a Dexterity saving throw. A creature
+takes 14d6 fire damage on a failed save, or half as much
+damage on a successful one. You can rebuild the frame
+with one week of work.
+
+#### Shoulder Cannon
+*Prerequisite: 11th level*::
+You construct a Shoulder Cannon magic item.
+
+**Shoulder Cannon**
+Wondrous item, rare (Requires Attunement)::
+This apparatus is worn on the back and produces a shoulder-mounted cannon above your left shoulder
+when you speak the command word as an action. 
+
+Once activated, the cannon makes an attack at the start of each of your turns (no action required) against the nearest enemy it can see within 60 feet of you. 
+
+The cannon has a +9 attack bonus and deals 2d8 Force damage on a hit. 
+The cannon has Darkvision and Thermalsight with a range of 120 feet, and can see Invisible creatures.
+
+The cannon remains active for 1 minute. If you are Incapacitated or die, the
+cannon remains active until the end of its duration. 
+
+Once activated, the cannon can’t be activated again until the next dawn.
+#### Shrink Ray
+*Prerequisite: 9th level*::
+As an action while holding this device, you can target
+a creature within 30 feet with the Reduce effect of the
+*enlarge/reduce* spell. This effect doesn’t require your
+concentration and can’t be dispelled with *dispel magic*
+or similar effects. Only one target can be affected by this
+gadget at a time.
+
+**Upgrade.** This gadget can be chosen twice, gaining
+the following upgrade when you select it the second time:
+You can use the Enlarge option of the *enlarge/reduce* spell
+when you use this device.
+
+{{pageNumber,auto}}
+\page
+
+#### Sonic Amplifier
+This device, which is fitted with several large speakers on
+its face, can deaden or amplify sounds within range. When
+you activate the device as an action, choose one of the
+following effects:
+
+**Anti-Sound.** A 20-foot radius sphere around you is rendered completely silent until the beginning of your next turn. Any creature or object entirely inside the sphere is immune to thunder damage, and creatures are deafened while entirely inside it. Casting a spell that includes a verbal component is impossible within the area.
+
+**Noise Burst.** The amplifier creates a sudden blast of white noise. Each creature you choose within 20 feet of you must make a Constitution saving throw or take 1d6 thunder damage. This damage increases to 2d6 thunder damage at when you reach 5th level, 3d6 at 11th level, and
+4d6 at 17th level.
+
+#### Spectrum Visor
+This visor has a single long slit, blipping with lights and
+sensors. As an action or bonus action, you can activate one of the following visor modes. Only one visor mode can be
+active at a time.
+
+**Aurasight.** You can see a faint aura around any visible
+creature or object within 30 feet that bears magic, and
+you learn its school of magic, if any. This detection can
+penetrate most barriers, but is blocked by 1 foot of stone,
+1 inch of common metal, a thin sheet of lead, or 3 feet of
+wood or dirt.
+
+**Darkvision.** You gain darkvision, which means you
+can see in dim light within 60 feet of you as if it were
+bright light, and in darkness as if it were dim light. You
+can’t discern color in darkness, only shades of gray.
+
+**Thermalsight.** You gain thermalsight, which means
+you can see living creatures through darkness and heavily
+obscured conditions, such as fog, out to a range of 30
+feet. You can also determine if a creature is living or dead
+though its body heat. However, you can't discern color,
+nor use this sense to see through illusions, invisibility, or
+magical darkness. This sense is blocked by one inch of
+any solid barrier.
+
+#### Spell Cube
+*Prerequisite: 13th level*::
+As a reaction when a spell of 1st to 5th level that would
+affect you is cast, you can trap it within the spell cube.
+The spell has no effect and is instead contained within the
+cube. The cube can only store one spell at a time.
+
+While holding the cube, you can cast the spell stored
+in it, expending it. The spell uses the slot level, spell save
+DC, spell attack bonus, and spellcasting ability of the
+original caster, but is otherwise treated as if you cast the
+spell.
+
+\column
+
+#### Stasis Field Generator
+This device deploys a 5-foot diameter spherical forcefield
+around you as a reaction when you drop to 0 hit points.
+
+Until the beginning of your next turn, you are enveloped within this forcefield, which nothing—not physical objects, energy, or spell effects—can penetrate. The forcefield itself is immune to damage and you can’t be damaged further while within the sphere, nor do you make
+death saving throws. The sphere is weightless and can be moved while you're within it. At the beginning of your next turn, the sphere deactivates, and you are restored to consciousness with 1 hit point. Once this device activates, it can't do so again until you finish a long rest.
+
+**Upgrade.** This gadget can be chosen twice, gaining the
+following upgrade when you select it the second time: You
+can activate this gadget as a bonus action on your turn,
+placing you in the spherical forcefield and restoring 1 of
+your hit points.
+
+
+#### Tactical Sync Pulse
+*Prerequisite: Utility Matrix Prototype, 9th level*::
+You can use the Help action as a bonus action. The creature you assist must be within 30 feet of you and visible to you.
+
+
+#### Tesla Mines
+You gain a set of five electrical proximity mines. As an
+action, you can activate and throw a mine onto a surface
+within 40 feet, to which it firmly attaches. If a creature
+other than yourself enters the 5-foot cube area originating
+at the top of the mine, it must make a Dexterity saving
+throw. 
+
+On a failed save, a creature takes 2d8 lightning
+damage and can’t move or take reactions until the end of
+its next turn. On a successful save, a creature takes half
+this amount of damage and can move and take reactions
+as normal.
+
+You can disarm and recover a mine within 5 feet of you
+as an action. After 1 hour, a deployed mine burns out. You
+rebuild detonated and burned out mines during a short rest.
+
+**Upgrade.** This gadget can be chosen twice, gaining
+the following upgrade when you select it the second time:
+A mine triggers when a creature enters a 15-foot cube
+originating at the top of the mine.
+
+
+{{pageNumber,auto}}
+\page
+#### Transmat Deck
+You construct a *transmat deck* magic item.
+
+**Transmat Deck**
+*Wondrous item, uncommon*::
+The transmat deck is a handheld device with a large, flat
+screen that is connected to an extradimensional space. As
+an action, you can touch an object that isn't being worn or
+carried to the deck, teleporting it to the extradimensional
+space. The object must be less than 4 feet across in every
+dimension and weigh less than 150 pounds. The transmat
+deck can hold up to 500 pounds, not exceeding a volume
+of 64 cubic feet. Its inventory can be viewed on its screen.
+
+As an action while holding the deck, you can select any
+item stored in the space and teleport it to your hands or an
+unoccupied space on the ground within 5 feet of you.
+
+A deck is also generally locked with a password
+associated with its owner. Only someone with the
+password can store or retrieve items from the space
+(barring unauthorized access, which can be accomplished
+with a successful DC 18 Intelligence (Data) check to hack
+the device).
+
+If the transmat deck is destroyed, its contents are
+scattered in the Astral Plane.
+
+Placing the deck in an extradimensional space created
+by a bag of holding or similar item (or storing such an
+item in the transmat deck) instantly destroys both items
+and opens a gate to the Astral Plane. The gate originates
+where the one item was placed inside the other. 
+Any
+creature within 10 feet of the gate is sucked through it to a
+random location on the Astral Plane. The gate then closes.
+The gate is one-way only and can't be reopened.
+
+
+#### Universal Translator
+You construct a *universal translator* magic item and can
+also use it to read all writing.
+
+**Universal Translator**
+*Wondrous item, rare*::
+This handheld device, a necessity for distant voyages, translates any spoken language. While you hold it, you can understand any spoken language you hear. 
+
+Moreover, any creature that knows at least one language and can hear you can understand what you say.
+
+#### Version 1812 Multirocket Launcher
+*Prerequisite: 5th level*::
+As an action, this device unfolds into a comically large multi-barrel rocket launcher, which proceeds to fire wildly in every direction while playing a grand overture.
+
+Each creature other than yourself within 30 feet of you
+must make a Dexterity saving throw. On a failed save, a
+creature takes 6d6 fire damage on a failed save, or half as
+much on a successful one.
+
+Once you use this gadget, you can't use it again until you finish a long rest.
+
+#### Zipgun
+*Prerequisite: 5th level*::
+You build a *zipgun* magic item. This magic item’s save DC equals your Gadget save DC. 
+
+Once this item burns out, you can rebuild it during a long rest.
+
+**Zipgun**
+*Weapon (special), uncommon*::
+This one-handed ranged weapon is designed to be fired only once,
+but at far above nominal power. You can only fire it by
+first charging it as an action on your turn, during which
+time it makes a quiet zipping sound. On your next turn,
+you can use your action to make an attack.
+
+If you don't make an attack when it is charged, it harmlessly discharges and overheats.
+
+An attack with the zipgun creates a blast 100-foot long by 5-foot wide line in a direction that you choose. Each creature in the line must make a DC Dexterity saving throw. 
+
+A creature takes 6d6 radiant damage on a failed save, or half as much damage on a successful one. After
+the weapon is fired, it smolders and becomes nonmagical.
+
+
+
+{{pageNumber,auto}}
+\page
+
+## Space Age Graft
+:
+Mechanical hands, robotic eyes with an unnerving
+red glow, ports and wires running down the length of
+someone's arm— these construct grafts (also called
+embedded components) are a popular, if invasive, way
+of garnering an advantage over one's foes. Construct
+parts, after all, are more robust and customizable than any
+organic limb. Sometimes, these components are obtained
+from deceased vect to serve as replacement parts, and
+other times, they're intentional upgrades, built to fit the
+recipient's needs.
+All the items presented in this section are considered
+magical technology for the purposes of spells and magical
+effects that influence such technology.
+
+**Attaching a Graft.** Attaching a graft for the first
+time requires a laborious surgical procedure, normally
+removing an original body part. This procedure takes one
+hour and requires a healer's kit, a set of mechanist’s tools,
+and a knife (or a facility with access to such tools), as well
+as someone to perform the operation. A construct graft is
+permanent until another graft is provided to replace it.
+This surgery is intensive and necessitates recovery
+time. When you finish installing a construct graft into your
+body, you lose half your hit points and all of your hit dice.
+For 24 hours after installation, you can't use the graft's
+abilities, as you adjust to its presence. Replacing a graft or
+adding a new graft in its body slot takes only 30 minutes.
+You still lose half your hit points when replacing a graft,
+but you don't lose hit dice.
+
+**Vect Components.** Vect can replace sections of their
+bodies with customized or improved components with
+ease. A vect can install a construct graft on themselves
+with 10 minutes of work, requiring the vect to disable a
+part of its body, remove it, and install the new component.
+A vect can install construct grafts without assistance,
+unless the graft is installed into the Head or Arm slots.
+Vect require no recovery time and suffer no penalties
+after adding a construct graft.
+
+**Body Slots.** Each graft takes up one of the following
+slots: Arms, External, Head, Internal, or Legs. You can't
+have more than one graft in the same body slot. For
+instance, if you already have an arm graft, you must
+remove it before you can attach a different arm graft.
+
+**Cost.** The cost of obtaining and installing construct
+grafts are shown on the Graft Cost table below. Most of
+these can be acquired at far cheaper rates, if one is willing
+to track down a disreputable establishment specializing
+in dealing grafts and accept the risks inherent to an
+unsanitary operation.
+
+\column
+
+##### Graft Cost
+Graft| Cost
+|:-|-:|
+Adamantine Plating| 2,250 gp
+Arcane Synapses| 325 gp
+Arm Blade| 200 gp
+Arm Cannon| 450 gp
+Battlefist| 200 gp
+Concentration Module| 1,500 gp
+Embedded Phaser| 250 gp
+Embedded Translator| 500 gp
+Final Word| 50,000 gp
+Finger Picks| 150 gp
+Heart of Steel| 2,250 gp
+Heavy Legs| 800 gp
+Impulse Unit| 200 gp
+Infrasight Eyes| 450 gp
+Logic Unit| 150 gp
+Mithral Plating| 1,500 gp
+Overdrive Module| 750 gp
+Replacement| 400 gp
+Shield Module| 550 gp
+Spiked Plating| 750 gp
+Tesla Module| 350 gp
+Thermoregulator| 500 gp
+Traction Spikes| 250 gp
+Wings| 5,500 gp
+
+{{imageMaskCorner32,--offsetX:59%,--offsetY:-37%,--rotation:90
+  ![](https://i.imgur.com/8LNH1rB.png){height:60%,left:290px,top:500px}
+}}
+
+
+
+{{pageNumber,auto}}
+\page
+## Grafts
+The following construct grafts are listed alphabetically.
+
+#### Adamantine Plating
+
+**Slot:**  :: External
+Your Armor Class equals 16 and any critical hit against you becomes a normal hit. You can't wear conventional armor while you have this graft installed. You can only install this graft if you are proficient with heavy armor.
+
+#### Arcane Synapses
+**Slot:**:: Head
+You have stolen a bit of arcane potential by inserting some additional arcane nerves into your brain. You learn one cantrip of your choice from the wizard spell list. Intelligence is your casting ability for this cantrip.
+
+#### Arm Blade
+**Slot:**:: Arms
+Whenever you would normally be able to draw a weapon, you can collapse
+your mechanical hand into your forearm with a flick of the wrist, extending a wide shortsword in its place. You can revert it to its normal form whenever you could normally stow a weapon.
+
+While this weapon is installed, you are proficient with it and can't be disarmed of it. You can't hold or otherwise manipulate a weapon, shield, or other object with an arm that is transformed.
+
+#### Arm Cannon
+**Slot:**:: Arms
+One of your arms is replaced wholesale with a powerful blaster cannon. This arm cannon lacks any hand or manipulator, so you can't use that arm to hold or manipulate objects while the arm cannon is installed. Only one of your arms can be an arm cannon. An arm cannon is a blaster that deals 2d8 radiant damage on a hit and has the Blaster (range 30/90) property. You are proficient with it and can't be disarmed of it.
+
+#### Concentration Module
+**Slot:**:: Internal
+Prerequisite: Spellcasting feature
+Your body houses a mechanical mind, secondary to your
+true mind, to assist in arcane focus. Whenever you make
+a Constitution saving throw to maintain concentration on
+a spell, you can add your spellcasting ability modifier,
+instead of your Constitution modifier, to the roll.
+
+\column
+
+#### Embedded Battlefist
+**Slot:**:: Arms
+You replace one of your hands (your choice) with an
+imposing, articulated gauntlet, a battlefist. While this
+weapon is installed, you are proficient with it and can't be
+disarmed of it. Additionally, it has the Light property.
+#### Embedded Phaser
+**Slot:**:: Arms
+One of your hands is mechanical and can transform into
+a phaser. You can transform your hand into a phaser any
+time you would normally be able to draw a weapon, and
+can revert it to its normal form when you could normally
+stow a weapon. You are proficient with this weapon
+and can't be disarmed of it. You can't hold or otherwise
+manipulate a weapon, shield, or other object with an arm
+that is transformed.
+#### Embedded Translator
+**Slot:**:: Head
+You have a universal translator magic item installed within your skull and can use the effects of it at will.
+
+#### Final Word
+**Slot:**:: Internal
+Deep within your body, you have installed a devastating
+arcane warhead, whose trigger is linked to your life.
+When you die, this bomb detonates, destroying your body
+completely; as a result, you can be restored to life only by
+means of a true resurrection or a wish spell. Each creature
+within 180 feet must make a DC 18 Dexterity saving
+throw. Creatures within 60 feet that have Evasion or a
+similar feature can’t avoid this damage. On a failed save, a
+creature takes 1d4 mega (1d4 × 100) force damage, of half
+as much on a successful save.
+
+#### Finger Picks
+**Slot:**:: Arms
+Your mechanical hand has retractable thieves’ tools built
+directly into the fingers. You are always considered to
+have these thieves’ tools on your person and can conceal
+them perfectly. If you are proficient with thieves’ tools,
+you can add a +2 bonus to ability checks you make using
+them.
+
+#### Heart of Steel
+**Slot:**:: Internal
+You have replaced your heart with the core from a
+construct. As a result, you can ignore the effects of 1 level
+of exhaustion, and you only need to rest for 4 hours to
+gain the same benefit that a human does from 8 hours of
+sleep. Because vect already have construct cores, they
+can’t install this graft.
+{{pageNumber,auto}}
+\page
+#### Heavy Legs
+**Slot:**:: Legs
+A mechanical exoskeleton, rooted in your legs, helps carry
+your weight. Your lifting and carrying capacity doubles.
+
+#### Impulse Unit
+**Slot:**:: Legs
+You have installed thrusters into your legs and back. On
+your turn, you can use 10 feet of your movement to leap 10 feet vertically. In zero-gravity environments, this
+allows you to move 20 feet in any direction on your turn.
+#### Infrasight Eyes
+**Slot:**:: Head
+You have replaced your eyes with sensors that can see in
+the dark. You gain darkvision, the ability to see in dim
+light within 60 feet of you as if it were bright light, and in
+darkness as if it were dim light. You can't discern color in
+darkness, only shades of gray.
+#### Logic Unit
+**Slot:**:: Head
+Having augmented your brain with an algorithmic
+processing unit, you have advantage on Intelligence
+checks to perform mathematical operations and solve
+logical dilemmas.
+#### Mithral Plating
+**Slot:**:: External
+Prerequisite: Vect race
+Your Armor Class equals 14 + your Dexterity modifier.
+Additionally, you have resistance to lightning damage.
+You can only install this graft if you are proficient with
+light armor.
+#### Overdrive Module
+**Slot:**:: Internal
+You have installed an internal generator, which can
+accelerate your metabolism for a short while. You can
+use your bonus action to fire up your Overdrive Module.
+For up to the next minute, whenever you make an ability
+check, attack roll, or saving throw, rolling a 19 counts as
+rolling a 20. This effect ends early if you roll a 1. Once
+you use this ability, you must finish a short or long rest
+before using it again.
+#### Replacement
+**Slot:**:: Any
+One or more of your organs or limbs has been
+interchanged with an efficient mechanical version. A
+replacement can effectively solve any amputation or
+organ failure, but they can't return to life someone that
+has died; such work is solely the domain of necromancy.
+Replacement limbs can look like the original limb, or can
+appear metallic or otherwise mechanical. A replacement
+organ or limb takes up one body slot relevant to it;
+for example, a robotic hand takes the Arms slot and a
+replacement kidney takes up the Internal slot.
+#### Shield Module
+**Slot:**:: External
+By activating this mechanical plate installed near your
+spine, you can cast the spell mage armor as a bonus action
+targeting yourself, without using a spell slot. Once you do
+so, you can’t cast the spell again using this graft until you
+finish a long rest.
+#### Spiked Plating
+**Slot:**:: External
+Your Armor Class equals 14 + your Dexterity modifier
+(maximum +2). Additionally, your unarmed strikes deal
+1d4 piercing damage and, whenever you begin your
+turn grappling another creature, that creature takes 1d4
+piercing damage.
+You can only install this graft if you are proficient with
+medium armor.
+
+#### Tesla Module
+**Slot:**:: Internal
+This device, installed in your chest, electrically polarizes your skin and discharges a shock of electricity to attackers. Whenever a creature within 5 feet of you hits you with an attack, you can use your reaction to deal 1d6 lightning damage to each creature within 5 feet of you.
+
+#### Thermoregulator
+**Slot:**:: Internal
+This component protects your body from extremely hot or cold conditions, allowing you to endure the Extreme Temperatures (see Appendix E) of space and other harsh environments without taking damage.
+
+#### Traction Spikes
+**Slot:**:: Legs
+Retractable spikes in your legs and feet allow you to climb more quickly. Climbing no longer halves your speed and you have advantage on saving throws against being moved against your will or knocked prone.
+
+#### Wings
+**Slot:**:: External
+Folded into your back and resembling a hump when not in
+use, these silver, clockwork wings allow you to soar. You
+can deploy or retract these wings as a bonus action. While
+deployed, they grant you a flying speed equal to your base
+movement speed. You can fly with these wings for a total
+of 10 minutes, after which, you must finish a short or long
+rest before using them again.
+Additionally, as a reaction while falling, you can
+deploy your wings to glide gently to the ground. You can
+do so even if you have no time remaining to use your
+wings.

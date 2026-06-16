@@ -1,0 +1,2560 @@
+```metadata
+title: Warden
+description: ''
+tags: []
+renderer: V3
+theme: 5ePHB
+
+```
+
+```css
+.page{
+	width  : 210mm;
+	height : 296.3mm;
+}
+
+css
+
+.page .columnWrapper {
+	height: 100%
+}
+
+.page .toc.wide {
+	columns: 1;
+	height: 100%;
+}
+
+.page .toc > ul > li {
+	font-weight:100;
+	margin-bottom:-2.1px;
+
+}
+
+.page .toc ul ul {
+	margin-left: 0;
+	font-weight: 5;
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```
+
+{{frontCover}}
+
+{{logo ![](/assets/naturalCritLogoRed.svg)}}
+
+# Warden
+
+
+![background image](https://i.imgur.com/yECEHYn.jpg){position:absolute,bottom:-220px,left:0,height:120%}
+
+\page
+
+{{toc,wide
+- ### [{{ Warden}}{{ 3}}](#p3)
+  -  [{{ Mighty Guardians}}{{ 3}}](#p3)
+  -  [{{ Primal Strength}}{{ 3}}](#p3)
+  -  [{{ Creating a Warden}}{{ 3}}](#p3)
+- ### [{{ Class Features}}{{ 4}}](#p4)
+  -  [{{ Sentinel’s Stand}}{{ 5}}](#p5)
+  -  [{{ Fighting Style}}{{ 5}}](#p5)
+  -  [{{ Unyielding Resolve}}{{ 5}}](#p5)
+  -  [{{ Guardian Tactics}}{{ 5}}](#p5)
+  -  [{{ Sentinel’s Exploits}}{{ 5}}](#p5)
+  -  [{{ Champion’s Call}}{{ 6}}](#p6)
+  -  [{{ Ability Score Improvement}}{{ 6}}](#p6)
+  -  [{{ Interrupt}}{{ 6}}](#p6)
+  -  [{{ Extra Attack}}{{ 6}}](#p6)
+  -  [{{ Mettle}}{{ 6}}](#p6)
+  -  [{{ Survive}}{{ 6}}](#p6)
+  -  [{{ Sentinel’s Strike}}{{ 6}}](#p6)
+  -  [{{ Font of Life}}{{ 6}}](#p6)
+  -  [{{ Extended Tactics}}{{ 6}}](#p6)
+  -  [{{ Sentinel’s Soul}}{{ 6}}](#p6)
+  -  [{{ Legendary Resistance}}{{ 6}}](#p6)
+- ### [{{ Champion’s call}}{{ 7}}](#p7)
+  -  [{{ Astral Vanguard}}{{ 7}}](#p7)
+  -  [{{ Beastblood Guardian}}{{ 8}}](#p8)
+  -  [{{ Carrion King}}{{ 9}}](#p9)
+  -  [{{ The Celestial Ram}}{{ 10}}](#p10)
+  -  [{{ Cosmic Seeker}}{{ 11}}](#p11)
+  -  [{{ Elastic Hero}}{{ 12}}](#p12)
+  -  [{{ Eye of Twilight}}{{ 13}}](#p13)
+  -  [{{ Diabolist}}{{ 14}}](#p14)
+  -  [{{ Drake-Blooded}}{{ 15}}](#p15)
+  -  [{{ Fey Trailblazer}}{{ 17}}](#p17)
+  -  [{{ Godsworn}}{{ 18}}](#p18)
+  -  [{{ Gravitational Bastion}}{{ 19}}](#p19)
+  -  [{{ Grey Watchman}}{{ 20}}](#p20)
+  -  [{{ Gunbreaker}}{{ 21}}](#p21)
+  -  [{{ Hellkeeper}}{{ 22}}](#p22)
+  -  [{{ Iceheart Bastion}}{{ 23}}](#p23)
+  -  [{{ Lawbringer}}{{ 24}}](#p24)
+  -  [{{ Loreseeker}}{{ 25}}](#p25)
+  -  [{{ Nightgaunt}}{{ 26}}](#p26)
+  -  [{{ Soulblood Shaman}}{{ 27}}](#p27)
+  -  [{{ Steel Shepherd}}{{ 28}}](#p28)
+  -  [{{ Stoneheart Defender}}{{ 29}}](#p29)
+  -  [{{ Storm Sentinel}}{{ 30}}](#p30)
+  -  [{{ Sunwatcher}}{{ 31}}](#p31)
+  -  [{{ Timetwister}}{{ 32}}](#p32)
+  -  [{{ Titanblood Sentinel}}{{ 33}}](#p33)
+  -  [{{ Verdant Protector}}{{ 34}}](#p34)
+  -  [{{ Windkeeper}}{{ 35}}](#p35)
+  -  [{{ Witchbane Hunter}}{{ 36}}](#p36)
+- ### [{{ Sentinel’s Exploits}}{{ 37}}](#p37)
+  -  [{{ 1st-Degree Exploits}}{{ 37}}](#p37)
+  -  [{{ 2nd-Degree Exploits}}{{ 38}}](#p38)
+  -  [{{ 3rd-Degree Exploits}}{{ 39}}](#p39)
+}}
+
+
+
+
+
+\page
+
+## Warden
+
+An immense goblinoid army stretches from the
+horizon to the castle walls. In the breach, a single
+knight holds back the horde, eviscerating all comers,
+and allowing none to pass.
+Blood dripping from his blade, a scarred half orc
+gets down on all fours and breaks into a sprint, his
+eyes alight with bestial fury.
+Advancing slowly, an elf brandishing a green
+scimitar emerges from the foliage before two
+poachers. Startled, they turn to run, but find their
+feet bound fast by leaves and vines.
+Wardens are vigilant guardians, and unbreakable
+defenders of the weak. They are nature’s shield, and
+the watchers of the realms of men. When the world
+cries out for a champion, wardens heed the call.
+### Mighty Guardians
+Ever-vigilant, wardens are the staunch defenders
+of nature and the chosen champions of people. A
+warden might be selected by his tribe to defend them
+from their enemies, or be visited by the spirits of a
+sacred grove and beckoned to watch over the forest.
+Where a warden is not directly called to defend
+others, he feels the constant pull to take up a charge
+of his own, to use his strength as a bastion for the
+weak.
+Wherever a warden travels, his strength
+travels with him, and new causes make
+themselves known. There is never a shortage
+on those who need protection, for the strong
+always seem to stand above the weak.
+\column
+
+### Primal Strength
+Wardens are like mighty trees in a gale storm, or
+the rocks along shore, constantly battered by waves.
+Though they may experience extraordinary hardship,
+a warden cannot be easily moved, and seldom can be
+broken.
+Wardens draw their extraordinary toughness
+from the wild itself. They can feel the strength of
+the earth beneath their feet, the vitality of the air in
+their lungs, and the fury of the blazing sun overhead.
+They channel this power intuitively, without ever
+considering it. Indeed, some wardens believe that
+their power comes from within, and that nature does
+nothing to empower them, but even these wardens
+feel nature’s pull to defend the powerless and take up
+a cause.
+
+
+### Creating a Warden
+When creating a warden, consider what drives
+your character. What brought you to raise up your
+shield for others? Do you fight to protect anyone or
+anywhere in particular? A threat to your homeland,
+or loved ones, might have been your catalyst, but
+you also might have risen to combat a menace to the
+natural world. What was your call, and how do you
+honor it? What motivates you to keep fighting, even
+when you’re at death’s door?
+Most wardens have been recognized as
+exemplary defenders. Perhaps, you are known as
+a wandering knight of the northern provinces, or
+perhaps you were beckoned by spirits of the forest to
+protect them from invaders. Who has called you, and
+how did you respond?
+#### Quick Build
+You can build a warden quickly with these
+suggestions. First, make Constitution your highest
+ability score, followed by Strength and Dexterity.
+Then, choose the Primal Toughness option for
+Sentinel’s Stand.
+
+{{imageMaskEdge1,--offset:17%,--rotation:0
+  ![](https://www.gmbinder.com/images/LuLhPCL.jpg){height:60%,top:650px}
+}}
+
+{{note  
+##### Warden  
+If you want to see just the warden, you can check this [hyperlink](https://homebrewery.naturalcrit.com/share/90VpGRQPU-Cn) 
+}}
+
+{{pageNumber,auto}}
+\page
+
+{{imageMaskEdge6,--offset:8%,--rotation:90
+  ![](https://i0.wp.com/www.hipstersanddragons.com/wp-content/uploads/2019/08/dnd-adventures-tavern.jpg?fit=1200%2C648&ssl=1){height:80%,bottom:240px}
+}}
+
+<img src='https://i.imgur.com/1U1SrKQ.png'
+style='position:absolute;bottom:-10px;left:-215px;
+width:700px;'/> 
+{{artist,position:relative,top:440px,left:230px,margin-bottom:-30px
+##### Pocho Clo
+}}
+\column
+
+
+{{classTable,frame
+##### The Warden
+|       |   |                                  | Exploits |Exploits   | Exploits|  
+| Level |PB | Features                         | Known    | Die       | Dice    |
+|:-----:|:-:|:---------------------------------|:--------:|:---------:|:-------:|
+| 1st  | +2 | Sentinel's Stand, Fighting Style| ─        |─          | ─       |
+| 2nd  | +2 | Unyielding Resolve, Guardian Tactics|─         | ─        |   ─     | 
+| 3rd  | +2 | Champion’s Call, Sentinel’s Exploits|2         | d4        |   2     | 
+| 4th  | +2 | Ability Score Improvement|2         | d4        |   2     |
+| 5th  | +3 | Extra Attack, Interrupt   |3         | d4        |   2     |
+| 6th  | +3 | Call feature              |3         | d4        |   2     |
+| 7th  | +3 | Mettle                 |3         | d4        |   2     |
+| 8th  | +3 | Ability Score Improvement        |3         | d6        |   3     |
+| 9th  | +4 | Survive           |4         | d6        |   3     |
+| 10th | +4 | Call feature              |4         | d6        |   3     |
+| 11th | +4 | Sentinel’s Strike |4         | d6        |   3     |
+| 12th | +4 | Ability Score Improvement        |4         | d6        |   3     |
+| 13th | +5 | Font of Life   |4         | d6        |   3     |
+| 14th | +5 | Extended Tactics            |5         | d8        |   3     |
+| 15th | +5 | Unyielding Resolve improvement                |5         | d8        |   4     |
+| 16th | +5 | Ability Score Improvement        |5         | d8        |   4     |
+| 17th | +6 | Call feature  |5         | d8        |   4     |
+| 18th | +6 | Sentinel’s Soul   |6         | d8        |   4     |
+| 19th | +6 | Ability Score Improvement        |6         | d8        |   4     |
+| 20th | +6 | Legendary Resistance     |6         | d8        |   4     |
+}}
+
+  
+## Class Features
+As a warden, you gain the following class features.
+
+#### Hit Points
+
+::**Hit Dice:** 1d12 per warden level
+:: **Hit Points at 1st Level:** 12 + your Constitution modifier
+:: **Hit Points at Higher Levels:** 1d12 (or 7) + your Constitution modifier per warden level after 1st
+
+#### Proficiencies
+
+:: **Armor:** Light armor, medium armor, heavy armor, shields
+:: **Weapons:** Simple weapons, martial weapons
+:: **Tools:** None
+:: **Saving Throws:** Strength, Constitution
+:: **Skills:** Choose two from Animal Handling, Athletics, Nature, Perception, and Survival.
+
+#### Equipment
+You start with the following equipment.
+- A shield and any martial weapon
+- *(a)* chain shirt or *(b)* leather armor and a spear
+- *(a)* two hammers or *(b)* any simple weapon
+- *(a)* a dungeoneer's pack or *(b)* explorer’s pack
+
+ {{pageNumber,auto}}
+\page
+
+ 
+### Sentinel's Stand
+Warden's are towers that cannot easily be felled. At 1st level, choose one of the following features.
+
+#### Shield proficiency
+You gain proficiency with Tower Shield.
+
+#### Primal toughness
+Your hit point maximum increases by 1 + your Constitution modifier, and it increases by 1 every time you gain a level in this class.
+
+#### Stalwart spirit 
+You gain proficiency in one saving throw of your choice.
+
+### Fighting Style
+At 1st level, you adopt a style of fighting as your specialty. Choose one of the following options. You can’t take a Fighting Style option more than once, even if you later get to choose again.
+
+#### Crippling
+When you hit a creature with a melee weapon attack, its speed is reduced by 10 feet, to a minimum of 0, until the end of its next turn, and it can’t take the Dash action until the end of its turn.
+
+#### Great weapon fighting
+When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll. The weapon must have the two-handed or versatile property for you to gain this benefit.
+#### Protection
+When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a weapon or shield.
+
+#### Titan fighting
+You gain a +2 bonus to melee weapon attack rolls you make against Large or larger creatures.
+
+### Unyielding Resolve
+Starting at 2nd level, whenever your hit points are less than half your maximum, you have resistance to bludgeoning, piercing, and slashing damage.
+
+Starting at 15th level, when your hit points are less than half your maximum, you have resistance to all damage except psychic
+
+\column
+
+### Guardian Tactics
+At 2nd level, the area within a 5-foot Emanation of you is your Field, your resolute fortitude allows you to hinder your foes and protect your allies within it. As a Bonus Action, you can enact one of the following effects, which last until the start of your next turn, ending early if you have the Incapacitated condition:
+
+**Block.** Choose one ally you can see. The ally’s AC equals your AC if it is lower than that while the ally is within your Field. This effect ends early if the ally has the Incapacitated condition.
+
+**Challenge.** You can goad an enemy that can see or hear you into attacking you. The enemy has Disadvantage on attack rolls against creatures other than you while it is within your field. 
+
+**Grasp.** You block the retreat of foes within your Field. A creature within your Field can’t willingly move further away from you unless it first takes the Disengage action. 
+
+### Sentinel's Exploits
+Also at 3rd level, your lust for battle unlocks defense abilities that enhance your defense skill.
+#### Exploit Dice
+The Warden table shows how many Exploit Dice you have to perform the Exploits you know. To use your Exploits, you must expend one of your Exploit Dice. You can only use one Exploit per attack, ability check, or saving throw. You regain all expended Exploit Dice at the end of a short or long rest.
+
+Your Exploit Dice begin as d4s and increase in size as you gain levels in this class, as indicated in the warden table.
+
+#### Exploits Known
+At 3rd level, you learn two Sentinel Exploits of your choice from the list at the end of this class. The Exploits Known column of the Warden table shows when you learn more  Exploits of your choice. To learn an Exploit you must meet any prerequisites that it may have, such as a minimum Ability Score or warden level.
+
+Each time you gain a warden level, you can replace one of the Sentinel Exploits you know with another Exploit of your choice, for which you must also meet any warden level or minimum ability score prerequisites.
+#### Saving Throws
+If one of your Exploits requires a creature to make a saving throw, your Exploit saving throw DC is calculated as follows:
+
+**Exploit save DC** = 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice)
+
+
+
+
+ {{pageNumber,auto}}
+\page
+
+### Champion’s Call
+By the time you reach 3rd level, you feel the inexorable pull of an important duty or task that you assume as your own. No outside force compels your choice or enforces your conduct; if you fail in your charge, you alone are responsible. 
+
+Your choice grants you features at 3rd level and again at 6th, 10th, and 17th level.
+ 
+### Ability Score Improvement
+When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.
+
+### Interrupt
+By 5th level,  When an enemy within 5 feet of you makes more than one attack on its turn, you can take a Reaction to prevent one of those attacks. The creature makes one fewer attack than normal, to a minimum of one. You choose which attack is interrupted.
+
+You can use this Reaction equals your proficiency bonus. 
+
+You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest.
+
+### Extra Attack
+Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.
+
+### Mettle
+At 7th level, your determination allows you to shrug off effects that would otherwise harm you. When you're subjected to an effect that allows you to make a Constitution saving throw to take only half damage, you instead take no damage if you succeed on the saving throw and only half damage if you fail. You can't use this feature if you have the Incapacitated condition.
+
+
+### Survive
+At 9th level, when you are reduced to 0 hit points and are not killed outright, you can choose to drop to 1 hit point instead and you regain a number of Hit Points equal to twice your Warden level. 
+
+Once you use this ability, you can’t use it again until you finish a long rest.
+
+\column
+
+### Sentinel’s Strike
+At 11th level, you gain one of the following benefits of your choice. Whenever you finish a Long Rest, you can replace the chosen benefit with another one.
+
+**Interdict.** When you use Interrupt, you can make a melee attack against the enemy as a part of the same Reaction. Additionally, you regain a use of Interrupt when you roll Initiative.
+  
+**Shield Slam.** Once per turn when you attack a creature within 5 feet of you as part of the Attack action and hit with a Melee weapon, you can immediately bash the target with your Shield if it's equipped. The target takes Bludgeoning damage equal to 1d8 plus the Shield’s AC bonus.
+
+**Sweep.** When you take the Attack action on your turn using a Melee weapon, you can make an attack against any number of creatures within 5 feet of you, with a separate attack roll for each target.
+
+### Font of Life
+At 13th level, at the start of your turn, you can end one of the following conditions on yourself (no action required): Blinded, Charmed, Deafened, Frightened, Paralyzed, Poisoned, Stunned, or Restrained.
+You can use this feature twice. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest.
+
+### Extended Tactics
+At 14th level, your Guardian Tactics' Field is now a 10-foot Emanation.
+
+
+### Sentinel’s Soul
+Wardens are unshakable guardians that cannot be bowed. At 18th level, You gain one of the following benefits of your choice. Whenever you finish a Long Rest, you can replace the chosen benefit with another one.
+
+**All-Seeing.** You have Blindsight with a range of 30 feet.
+
+**Fortified.** No attack roll can have Advantage against you unless you have the Incapacitated condition.
+
+**Unstoppable.** You can move through the space of any creature. Moving through its space doesn’t cost you extra movement, but you can’t stop in the same space. If the creature is your size or smaller, it has the Prone condition when you enter its space.
+
+### Legendary Resistance
+At 20th level, if you fail a saving throw, you can choose to succeed instead.
+
+You can use this feature three times, and regain all expended uses when you finish a Long Rest.
+
+{{pageNumber,auto}}
+\page
+## Champion's call
+A warden’s call is a binding charge to protect and defend others from harm. Every warden eventually hears a call, and responds with mighty deeds. In answering this call, they embrace the traits of those they stand to protect, gaining primal, and sometimes even mystical, abilities.
+
+### Astral Vanguard
+Your call is not from the material world, but from the silver void of the Astral Plane. You are a guardian of thought, potential, and the myriad silver cords that connect souls to their vessels. You manifest your mental fortitude and unyielding will as tangible, psionic constructs—arms of pure astral energy that float around you, wielding weapons of solidified thought. You are the unmovable mind, the sentinel of the unseen, and a fortress for your allies' very consciousness.
+
+#### Echo of the Astral Sea
+Starting when you hear this call at 3rd level, your mind is opened to the psychic echoes of the Astral Plane, you gain proficiency in Insight skill.
+
+Additionally, you can communicate telepathically with any creature you can see within 30 feet of you. You don't need to share a language with the creature for it to understand your telepathic utterances, but the creature must be able to understand at least one language.
+
+#### Astral Aegis
+Also at 3rd level, you learn to manifest your will as floating. You manifest two spectral, floating arms that hover near your shoulders. These arms are extensions of your will and while you are wielding a shield, one of your astral arms also holds a spectral copy of that shield, granting you an additional +1 bonus to your AC.
+
+Also, when you use the Block option of your Guardian Tactics, your astral arms extend to protect your ally. The ally gains the benefit of your shield's AC bonus while they are within your Field.
+
+\column
+
+#### Astral Exploits
+You learn certain Exploits at the Warden levels noted in the table below. These don't count against your number of Exploits Known and can't be switched upon gaining a level. 
+|Warden Level| Exploit| 
+|:---------:|:-------:| 
+3rd |Brace Up
+7th |Heroic Will
+14th|Resilient Body
+
+#### Astral Weapons 
+Starting at 6th level, you can command your astral arms to manifest weapons of pure thought. As a bonus action on your turn, you can have your astral arms attack.
+
+Make two melee weapon attacks against one or two creatures within 10 feet of you. These are melee weapon attacks that use your Wisdom modifier for the attack and damage rolls. On a hit, a target takes Force damage equal to your Exploit Die + your Wisdom modifier.
+
+#### Multi-armed Guardian
+Beginning at 10th level, you manifest two additional astral arms for a total of four, which instinctively protect you and your allies. When you use your Interrupt feature, your astral arms lash out. The creature that you interrupted takes Force damage equal to your Wisdom modifier (minimum 1).
+
+#### Astral Juggernaut
+At 17th level, you can fully channel the power of the Astral Plane, becoming a being of pure psionic energy. As a bonus action, you can gain the following benefits for 1 minute or until you choose to end them (no action required).
+
+- You gain a flying speed of 60 feet and can hover.
+
+- You gain resistance to bludgeoning, piercing, and slashing damage.
+
+- When you use your Astral Weapons feature, you make four attacks instead of two.
+
+Once you use this feature, you can't use it again until you finish a short or long rest.
+
+{{imageMaskEdge7,--offset:35%,--rotation:0
+  ![](https://imgur.com/sRAUwL8.png){height:50%,top:800px,left:-100px}
+}}
+
+{{pageNumber,auto}}
+\page
+### Beastblood Guardian
+The primal power you wield has formed an intrinsic bond with the creatures of the wild, and you have taken up the task of defending them. Because you share in the beast’s ferocity, tenacity, and animal instinct, you can summon a beast’s primal strength from within yourself, and slay your enemies in an animalistic trance.
+While entranced, you can sense a connection to a greater being, the Primal Beast, the first predator, from which all hunters are descended. As your commitment to defending the wilds from corruption grows, you grow closer to the Primal Beast, until you can at last adopt its ancient form yourself, and allow it to hunt once again.
+
+#### Feral trance
+Starting when you hear this call at 3rd level, your connection with Beasts of the wilds grants you the following benefits. You gain proficiency in the Animal Handling, Nature, or Survival skill. Additionally, you gain a bonus to checks using the chosen skill equal to your Constitution modifier (minimum bonus of +1).
+
+Additionally, at the start of your turn whenever your hit points are less than half your maximum, you can gain Advantage on attack rolls you make until the end of your turn. 
+
+Once you use this benefit, you can’t use it again until you roll Initiative or finish a Short or Long Rest.
+
+#### Roar
+Also at 3rd level, as a Bonus Action, you release a bellowing roar in a 5-foot Emanation originating from you. Each Large or smaller creature you choose within the Emanation is pushed 5 feet away from you and it can't make Opportunity Attacks until the start of its next turn.
+
+\column
+
+
+#### Bloodwrath Exploits
+You learn certain Exploits at the Warden levels noted in the table below. These don't count against your number of Exploits Known and can't be switched upon gaining a level. 
+|Warden Level| Exploit| 
+|:---------:|:-------:| 
+3rd |feral senses
+7th |savage rebuke
+14th|primal terror
+
+
+####  Hunting Grounds
+Starting at 6th level, moving through nonmagical difficult terrain costs you no extra movement. In addition, you gain a climbing speed and a swimming speed equal to your walking speed.
+
+#### Wild Pounce
+Beginning at 10th level, when you hit a Large or smaller creature with an attack roll using a Melee weapon or an Unarmed Strike, the target takes an extra 1d8 Slashing damage.
+
+
+
+#### Form of the primal beast
+At 17th level, as a bonus action, you can assume the bloodthirsty visage of the Primal Beast, unleashing your feral might for 1 minute or until you choose to end it (no action required). 
+
+Once you use this feature, you can’t use it again until you finish a short or long rest. While this visage is active, you gain the following benefits:
+
+**Furious Speed.** Your speed is doubled.
+
+**Bloodied Frenzy.** While you are below half your hit point maximum, you have advantage on attack rolls.
+
+**Bleeding Wounds.** When you hit a creature with a weapon attack or an unarmed strike, you can inflict a bleeding wound. A creature with a bleeding wound can't regain hit points and takes 1d10 necrotic damage for each of its wounds at the start of its turn. This damage ignores resistance and immunity. A creature can use its action to staunch all of its bleeding wounds. A creature can have up to six bleeding wounds at a time.
+
+{{imageMaskEdge7,--offset:30%,--rotation:0
+  ![](https://imgur.com/DOrfzx8.png){height:50%,top:700px}
+}}
+
+
+
+
+{{pageNumber,auto}}
+\page
+
+### Carrion King
+A master and champion of vermin, you are called defend
+the lowliest creatures of all: insects, rats, spiders, and
+other pests. You know that these creatures mean no harm,
+that they’re merely trying to survive in a world too large
+for them, so you come to their aide, and they flock to
+your side. Unmistakably, your coming is signaled by the
+scrambling of little claws and the cawing of the crows.
+Legions of pests wait at your command to swarm, bite,
+and claw at anyone who might thin their numbers.
+
+#### Infest
+Starting when you hear this call at 3rd level, as a Bonus Action, you can command your vermin to swarm a creature you can see within 60 feet of you. The creature takes 1d6 Piercing damage and subtracts 1d6 from the next ability check, attack roll, or saving throw, it makes before the start of your next turn.
+
+At Higher Levels, the damage increases by 1d6 when you reach Warden levels 5th (2d6), 11th (3d6), and 17th (4d6).
+
+#### Versatile Vermin
+Also 3rd level, once on each of your turns, you can command your vermin to manipulate an object within 30 feet of you (no action required). For example, the vermin can open an unlocked door or container, store or retrieve an item from an open container, carry a Tiny item up to 15 feet, or pour out the contents of a vial. The vermin can't attack, activate magic items, or carry more than 10 pounds.
+
+
+
+#### Carrion Exploits
+You learn certain Exploits at the Warden levels noted in the table below. These don't count against your number of Exploits Known and can't be switched upon gaining a level. 
+|Warden Level| Exploit| 
+|:---------:|:-------:| 
+3rd |feral senses
+7th |dirty Hit
+14th|survey wilderness
+
+#### Swarm Cloud
+
+By 6th level, As a action, you surround yourself with countless flying pests in an Emanation originating from you.
+
+You choose whether the Emanation extends 5 feet, 10 feet, or 15 feet. 
+
+This area is Lightly Obscured and has one of the following effects of your choice, which lasts for 10 minutes or until you end it (no action required).
+
+**Deafening.** Creatures you choose entirely within the Emanation have the Deafened condition.
+
+**Difficult Terrain.** The area of the Emanation is Difficult Terrain for creatures other than yourself. 
+
+**Heavily Obscured.** The area of the Emanation is Heavily Obscured.
+
+\column
+
+#### Plague Vector
+Beginning at 10th level, whenever you use your Interrupt, the target has the Poisoned condition until the end of the current turn.
+
+
+#### Lord of the Flies
+At 17th level, you can call a colossal swarm of vermin to your aid. As a Bonus Action, you can gain the benefits below for 1 minute or until you choose to end them (no action required).
+
+Once you use this feature, you can’t use it again until you finish a Short or Long Rest.
+
+**Blinding Bites.** When you take the Attack action, you can replace one of your attacks with commanding your vermin to blind a creature you can see within 30 feet of yourself. The target makes a Constitution saving throw against 8 + your Constitution modifier + your proficiency bonus. or has the Blinded condition for 1 minute. At the end of each of its turns, a Blinded target repeats the save, ending the spell on itself on a success.
+
+**Infesting Swarm.** When you use your Infest while your Swarm Cloud is active, you can target any creatures of your choice within your Swarm Cloud’s Emanation.
+
+{{imageMaskCorner27,--offsetX:50%,--offsetY:-44%,--rotation:0
+  ![](https://i.imgur.com/IM1Z52W.png){height:70%,left:400px,top:450px}
+}}
+{{pageNumber,auto}}
+\page
+### The Celestial Ram
+The Call of the Celestial Ram is heard by those who view protection as both an art and a science. These Wardens are not mere brutes; they are scholars of the stars and masters of the "Crystal Wall." They believe that a defender’s greatest tools are the unseen barriers of the mind and the ability to mend what has been broken. Often residing in remote, high-altitude sanctuaries, they watch over the world with calm serenity, ready to unleash the explosive power of a collapsing star should their sanctuary be threatened.
+
+#### Disciple of the Forge
+Starting when you hear this call at 3rd level, you gain the skills of the legendary armorers of the stars. You gain proficiency with Tinker’s Tools or Smith’s Tools and Insight skill.
+
+Also You learn the *Mending* cantrip. When you cast it, you can restore a number of hit points to a construct or an object equal to your Warden level.
+
+#### Crystal Wall
+Also at 3rd level, you can manifest your willpower as a shimmering, translucent barrier of starlight. When you use the Block option of your Guardian Tactics, you can choose to create a Crystal Wall instead of the normal effect.
+
+You manifest a 5-foot-wide, 10-foot-high shimmering wall in an unoccupied space within your Field. The wall lasts until the start of your next turn and provides Three-Quarters Cover to any ally standing behind it.
+
+Additionally, the wall has a number of temporary hit points equal to your Warden level + Your Constitution Modifier (minimum +1). If an attack would hit an ally protected by the wall, the wall takes the damage first. If a creature hits the wall with a melee attack, it takes Force damage equal to your Exploit Die.
+
+If the damage reduces the wall to 0 hit points, the ally takes any remaining damage.
+
+#### Celestial Exploits
+You learn certain Exploits at the Warden levels noted in the table below. These don't count against your number of Exploits Known and can't be switched upon gaining a level.
+|Warden Level| Exploit| 
+|:---------:|:-------:| 
+3rd |Brace Up
+7th |Redirect
+14th|Resilient Body
+
+
+
+#### Crystal Net
+Starting at 6th level, you can weave threads of psychic energy to ensnare your foes. As an Action, you can force each creature of your choice within your Field to make a Strength saving throw against your Exploit save DC. On a failure, a creature is Restrained by a web of light until the start of your next turn. 
+
+While restrained, the creature cannot teleport or become invisible.
+
+\column
+::::::::::::::::::::::::::::::::
+#### Stardust Revolution
+Beginning at 10th level, you can convert your defensive energy into a swarm of shooting stars. Whenever you use your Interrupt feature, you can choose to unleash a spiral of starlight. The target of your Interrupt takes Force damage equal to two rolls of your Exploit Die.
+
+Additionally, the target is showered in glowing dust; the next attack roll made against that target before the start of your next turn has Advantage.
+
+#### Avatar of the White Ram
+At 17th level, you can fully embody the constellation of Aries. As a Bonus Action, you gain the following benefits for 1 minute or until you choose to end them:
+
+- When you take the Attack action, you can replace one attack with a beam of pure light. Every creature in a 60-foot line must make a Dexterity saving throw. On a failure, they take 8d6 Radiant damage and are teleported to an unoccupied space of your choice within 30 feet of their original position. On a success, they take half damage and are not teleported.
+
+- Your Crystal Wall now grants Full Cover instead of Three-Quarters Cover.
+
+Once you use this feature, you can't use it again until you finish a Short or Long Rest.
+
+{{imageMaskCorner33,--offsetX:50%,--offsetY:50%,--rotation:0
+  ![](https://i.imgur.com/7DrVkwW.png){height:100%}
+}}
+<!-- Use --offsetX to shift the mask left or right (can use cm instead of %)
+     Use --offsetY to shift the mask up or down
+     Use --rotation to set rotation angle in degrees. -->
+
+
+
+
+
+{{pageNumber,auto}}
+\page
+### Cosmic Seeker
+When the outer wilds that extend beyond the stars call for a protector, the few who can even listen to the call must already have dedicated their lives to learn from the stars in order to
+answer it.
+
+As a Cosmic Seeker, you developed a fine connection with a certain type of celestial body, who have recognized you as a worthy vessel to their powers and will. For this honor of light year dimensions, these wardens vow to protect the Universe until its inevitable end.
+
+#### Cosmic Secrets
+At 3rd level, your affinity with the cosmos awakens latent potential within you. You gain proficiency in the Perception skill and become immune to the Blinded condition. 
+
+Your vision is forever marked by the stars—you can always see them, even across planar boundaries or through magical and physical barriers.
+
+#### Cosmic Exploits
+You learn certain Exploits at the Warden levels noted in the table below. These don't count against your number of Exploits Known and can't be switched upon gaining a level. 
+|Warden Level| Exploit| 
+|:---------:|:-------:| 
+3rd |Commander’s Presence
+7th |Defensive Stance
+14th|Survey Settlement
+
+
+#### Planetarium
+
+Also at 3rd level, you can manifest celestial orbs that orbit around you as extensions of your will. As a Bonus Action or when you roll initiative, you can summon a glowing orb at a space within 20 feet of you. 
+
+The orb is a small, intangible object that resembles a celestial body of your choice and emits Bright Light in a 20-foot radius and Dim Light for an additional 20 feet.
+
+An orb lasts for a minute, until you choose to end it (no action required) or until you summon another one. 
+
+You can move the orb freely on your turn to a space within 10 feet of you and it follows your movement to keep itself within that radius.
+
+When you use the Block and Grasp options of your Guardian Tactics, you can produce these effects as if you were in the orb's space until the start of your next turn.
+
+**At Higher Levels.** The number of orbs you summon increases by 1 at Warden Levels 6 (2 orbs), 10 (3 orbs) and 17 (4 orbs).
+
+
+
+
+\column
+
+#### Astronomical Event
+
+Starting at 6th level, you can unleash cosmic events through your orbs. As a action, you can choose one of the following astronomical effects.
+
+The saving throw DC is equals 8 + your Constitution modifier + your proficiency bonus.
+
+**Wormhole.** Choose a creature or object that is Large or smaller within 60 feet of you. The target must succeed on a Constitution saving throw or be teleported to an unoccupied space within 5 feet of one of your orbs.
+
+**Event Horizon.** Choose one of your orbs. It briefly exerts a powerful gravitational field in a 10-foot radius. Each creature in the area must succeed on a Strength saving throw or be pulled 10 feet in a straight line toward the orb. 
+
+At 14th level, the area and distance increase to 20 feet.
+
+**Pulsar.** One of your orbs emits a focused burst of stellar energy. Choose a direction from the orb; a 30-foot-long, 5-foot-wide line erupts outward. Each creature in the line must make a Dexterity saving throw, taking 1d10 force damage on a failed save, or half as much on a success. The damage increases to 2d10 at 11th level and 3d10 at 17th level.
+
+
+#### Solar Flare
+
+Beginning at 10th level, your celestial energy blinds your foes in a flash of brilliance. Whenever you use your *Interrupt* feature, the target also becomes Blinded until the end of the current turn.
+
+In addition, while you are below half your hit point maximum, you gain resistance to force damage, as your body instinctively channels the protective tides of cosmic energy.
+
+#### Astral Revelation
+
+At 17th level, You can call forth the power of the universe you protect, breaking the limits of space and time. As a Bonus Action, you can gain the benefits below for 1 minute or until you choose to end them (no action required). Once you use this feature, you can’t use it again until you finish a Short or Long Rest.
+
+**Sea of Stars.** The range where you can move your Planetarium’s orbs increases to 30 feet. Objects in that radius have an astral appearance and glimmer cosmic light.
+
+**Galactic Chaos.** When you take the Attack action on your turn, you can replace one of the attacks with the use of your Astronomical Event.
+
+**Dark Matter.** Creatures of your choice within 10 feet of you or your Planetarium’s orbs have Resistance to Force damage.
+{{pageNumber,auto}}
+\page
+### Elastic Hero
+You likely gained your unique powers by accident, be it through exposure to cosmic radiation, a mutagenic misty explosion, or falling into a vat of dangerous chemicals. What defines you as a Warden is answering your call of heroism after the incident, choosing to use your powers to do good, and defend the weak. With your abilities, you can bounce bullets off rubbery, leap buildings with a single swing of your stretchy arms, and perhaps even expand your knowledge by elastically stretching your brain. 
+
+#### Extended Grapple
+Starting when you hear this call at 3rd level, you can stretch your arm to entangle distant foes. As a bonus action, you target one Large or smaller creature that you can see within 30 feet of you. The creature must succeed on a Strength or Dexterity saving throw (its choice) or become grappled by you. 
+
+The DC for this saving throw and for escaping the grapple is equal 8 + your Constitution modifier + your proficiency bonus.
+
+You can only grapple one creature at a time this way. If you use this feature again, the previous grapple ends.
+
+While grappled in this way, the creature cannot be moved unless you take another bonus action to pull it. You may move the grappled creature up to 10 feet, as long as it stays within 30 feet of you.
+
+#### Malleable Physique
+Also 3rd level, your body is incredibly flexible and adaptive. While not wearing medium or heavy armor, you gain a bonus to your Armor Class equal to your Constitution modifier (minimum +1) and you can move through and stop in a space large enough for a Tiny creature without squeezing, regardless of your size.
+
+Additionally, when you use the Block option from your Guardian Tactics, you may target up to two creatures within range instead of one.
+
+#### Elastic Exploits
+You learn certain Exploits at the Warden levels noted in the table below. These don't count against your number of Exploits Known and can't be switched upon gaining a level. 
+|Warden Level| Exploit| 
+|:---------:|:-------:| 
+3rd |Brace Up
+7th |Redirect
+14th|Disorienting Blow
+
+
+\column
+
+#### Yoink
+At 6th level, you learn to stretch with precision and finesse. You gain proficiency with thieves’ tools, and you are always considered to have thieves’ tools on your person, even if physically restrained.
+
+Additionally, your melee reach increases by 5 feet on your turn and you gain a climb speed equal to your walking speed.
+
+#### Rubber Body
+By 10th level, ou can manipulate your physical state for incredible effects. 
+
+As a action, you gain one of the following benefits until the end of your next turn:
+
+- Your jump distance is tripled. You are under the effects of the *jump* spell.
+
+- You are under the effects of the *water walk* spell.
+
+- You reduce damage from ranged weapon attacks by your Constitution modifier (minimum 0).
+
+- You are immune to the grappled and restrained conditions.
+
+You can use this feature a number of times equal to your Constitution modifier (minimum once), and you regain all expended uses when you finish a long rest.
+
+#### Fantastic Form
+
+Finally at 17th level, you can grow and swell with incredible power. As a bonus action, you transform your body for 1 minute, gaining the following benefits:
+
+- You become Large if you are smaller.
+
+- You add your Constitution modifier to your melee weapon attack rolls and damage rolls.
+
+- When you use the Block option from your Guardian Tactics, you may target up to all creatures within range instead of two.
+
+Once you use this feature, you can’t use it again until you finish a short or long rest.
+
+{{imageMaskCorner5,--offsetX:39%,--offsetY:-37%,--rotation:0
+  ![](https://i.imgur.com/sSotwbk.png){height:80%,left:350px,top:580px}
+}}
+
+
+
+{{pageNumber,auto}}
+\page
+### Eye of Twilight
+Wardens who follow the path of the Eye of Twilight embody the perfect balance between chaos and serenity. Guardians of harmony, they master battlefield control and stand as protectors of those under their care.
+
+#### Twilight Assault
+At 3rd level, you gain a spiritual blade that protects you and your allies. The blade cannot be destroyed, is incorporeal and can occupy any creature's space. The blade cannot move on it's own and cannot be moved. The blade instantly moves in a straight line to your space if it is ever more than 500 feet away from you, if you use a bonus action to move it.
+
+You can no longer use your the Grasp option of your Guardian Tactics, but your spirit blade always has it's benefits.
+
+When you move your blade as part of your action or bonus action, if your blade moves through a creature's space, you can use the Challenge option of your Guardian Tactics on that creature as part of the same action or bonus action.
+
+Whenever you start your turn in the same space as your blade or come into it's space for the first time each turn, you gain temporary hit poins equal to your Constitution modifier.
+
+
+#### Twilight Exploits
+You learn certain Exploits at the Warden levels noted in the table below. These don't count against your number of Exploits Known and can't be switched upon gaining a level. 
+|Warden Level| Exploit| 
+|:---------:|:-------:| 
+3rd | Aggressive Sprint
+7th | Defensive Stance
+14th| Resilient Body
+
+\column
+
+{{imageMaskCorner27,--offsetX:-50%,--offsetY:-60%,--rotation:0
+  ![](https://i.imgur.com/A9syDVs.png){height:50%}
+}}
+
+
+
+#### Shadow Dash
+At 6th level, you can charge through your enemies, compelling them to focus on you. As an action, you can take the Dash action and move up to your speed in a straight line, becoming incorporeal, and you gain the ability to move through any creature's space while you do. Any enemy creature you move within 5 feet of must make a Wisdom saving throw against 8 + your Constitution modifier + your proficiency bonus.
+
+On a failed save, the creature takes psychic damage equal to two rolls of your exploit die and is compelled to use its action on its next turn to make a melee attack against you, if able. A creature that succeeds on the save is unaffected.
+
+Once you use this ability, you cannot do so again until you finish a short or long rest.
+
+Additionally, while you have temporary hit points, your first attack against a creature each turn gains extra psychic damage equal to your exploit die.
+
+
+#### Spirit's Refuge
+At 10th level, your spiritual blade protects you and your allies from attacks. Allied creatures within 5 feet of the sword gain a +2 bonus to their AC.
+
+#### Stand United
+At 17th level, you become the ultimate protector, able to respond to threats instantly and shield your allies with unmatched power. During a short rest, you can add a creature to your proteges. you can have up to 4 creatures as your proteges. If you try to add a protege while you have 4 already you must choose one to stop being your protege. You always know your protege's health points no matter where they are, as long as you are in the same plane of existence.
+
+As an action, you can teleport to the nearest unoccupied space to one of your proteges. Your protege gains temporary hit points equal to half your maximum hit points. Temporary hit points granted by this feature are reduced by 20 at the start of each of your turns until they disappear.
+
+Also, as a reaction when a creature you can see within 500 feet is about to take damage you can teleport to an unoccupied space within 5 feet of the creature, giving them temporary hit points as if they were your protege.
+
+Once you use this feature you can't use it again until you finish a long rest.
+
+{{pageNumber,auto}}
+\page
+### Diabolist
+
+Your call was a bellow from below, foul with brimstone and the cries of the damned. Diabolists are eloquent emissaries of the Lower Planes, skilled in forging pacts and binding souls in service to Fiends. Often tasked with guarding the rifts between realms, they walk the line between infernal diplomacy and demonic devastation.
+#### Devil’s Advocate
+Starting at 3rd level, your allegiance to a fiendish power grants you infernal gifts. When a Fiend targets you with an attack, it must succeed on a Wisdom saving throw against 8 + your Constitution modifier + your proficiency bonus. or the attack misses. 
+
+
+You also gain proficiency in Deception, Intimidation, or Persuasion (your choice), and add your Constitution modifier (minimum of +1) as a bonus to checks using that skill.
+
+#### Infernal Command
+Also at 3rd level, you can issue infernal commands imbued with dark authority. You can cast *command* as a bonus action without expending a spell slot. 
+
+You can use this feature twice. You regain one expended use when you finish a short rest and all expended uses when you finish a long rest.
+
+Additionally, You gain resistance to fire damage. 
+
+#### Infernal  Exploits
+You learn certain Exploits at the Warden levels noted in the table below. These don't count against your number of Exploits Known and can't be switched upon gaining a level. 
+|Warden Level| Exploit| 
+|:---------:|:-------:| 
+3rd |Feat of Strength
+7th |Redirect
+14th|Mythic Athleticism
+
+
+#### Soul Broker
+Starting at 6th level, you can trade the souls of the fallen for unholy power. When you or an ally within 10 feet reduces a creature to 0 hit points, you can offer its soul to your fiendish patron in exchange for a magical boon.
+
+The DM determines if a soul is ineligible. The boon lasts for 10 minutes or until you use this feature again. 
+- You gain Resistance to one of the following damage types: Acid, Cold, Lightning, Necrotic, Poison, Psychic, Radiant, or Thunder.
+- You gain temporary hit points equal to your Warden level
+- You have truesight to a range of 10 feet
+- You gain proficiency and expertise in one skill of your choice
+- Your Speed increases by 15 feet.
+
+
+\column
+
+#### Hellbent Survival
+Starting at 10th level, when you use your Survive feature, your infernal instincts take over. You can immediately move up to your speed without provoking opportunity attacks and make two attacks with a weapon or unarmed strike as part of that same reaction.
+
+#### Archdevil’s Blessing
+Starting at 17th level, you can call upon the blessing of an archdevil to manifest your full infernal potential. As a bonus action, you gain the following benefits for 1 minute or until you choose to end them (no action required): 
+- you have advantage on Charisma checks and saving throws
+- at the end of each of your turns, each creature of your choice within 5 feet takes 2d8 fire damage
+- whenever you use your Interrupt feature, you can cast *hellish rebuke* as part of the same reaction without expending a spell slot, treating the triggering creature as if it damaged you. 
+
+Once you use this feature, you can’t use it again until you finish a short or long rest.
+
+
+{{imageMaskCorner25,--offsetX:55%,--offsetY:-50%,--rotation:0
+  ![](https://i.imgur.com/df7gXvM.png){height:60%,left:400px}
+}}
+
+
+{{pageNumber,auto}}
+\page
+### Drake-Blooded
+Your call was the booming roar of dragons. As such, you have struck a pact with an ancient wyrm to protect its hoard from enemies that might despoil it. In turn, the wyrm granted you a few drops of its blood to drink, which surged through your veins like fire and granted you a measure of draconic power. Fire alights at your fingertips and your eyes bear reptilian slits. As a Drake-Blooded Warden, you are a champion among half-dragons and a titan among kobolds.
+#### Spellcasting
+Starting at 3rd level, you have learned to cast spells. The information below details how you use those rules as a Drake-Blooded Warden.
+
+**Cantrips.** You learn two cantrips of your choice from the wizard spell list. You learn an additional Sorcerer cantrip of your choice at 10th level.
+
+**Spell Slots.** The Drake-Blooded Spellcasting table shows how many spell slots you have to cast your Sorcerer spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell’s level or higher.
+
+You regain all expended spell slots when you finish a long rest.
+
+**Spells Known of 1st-Level and Higher.** You know three 1st-level Sorcerer spells of your choice, two of which you must choose from the abjuration and evocation spells on the Sorcerer spell list.
+
+The Spells Known column of the Drake-Blooded Spellcasting table shows when you learn more Sorcerer spells of 1st level or higher. Each of these spells must be an conjuration or evocation spell of your choice, and must be of a level for which you have spell slots.
+
+The spells you learn at 8th, 14th, or 20th  level can come from any school of magic.
+
+Whenever you gain a level in this class, you can replace one of the Sorcerer spells you know with another spell of your choice from the Sorcerer spell list. The new spell must be of a level for which you have spell slots, and it must be an abjuration or evocation spell, unless you’re replacing the spell you gained at 3rd, 8th, 14th, or 20th level from any school of magic.
+
+**Spellcasting Ability.** Charisma is your spellcasting ability for your Sorcerer spells, since you learn your spells through research and deduction. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a Sorcerer spell you cast and when making an attack roll with one.
+
+**Spell save DC** = 8 + your proficiency bonus + your Charisma modifier
+
+**Spell attack modifier** = your proficiency bonus + your Charisma modifier
+
+**Spellcasting Focus.** You can use an Arcane Focus as a Spellcasting Focus for your Sorcerer spells.
+
+{{classTable,frame
+##### Drake-Blooded Spellcasting
+| Warden | Spells  |--- Spells Slots per Spell Level ---||||
+| Level ^| Known  ^|   1st   |   2nd   |   3rd   |   4th   |
+|:------:|:--------:|:-------:|:-------:|:-------:|:-------:|
+|  3rd   |    3     |    2    |    —    |    —    |    —    |
+|  4th   |    4     |    3    |    —    |    —    |    —    |
+|  5th   |    5     |    3    |    —    |    —    |    —    |
+|  6th   |    5     |    3    |    —    |    —    |    —    |
+|  7th   |    6     |    4    |    2    |    —    |    —    |
+|  8th   |    6     |    4    |    2    |    —    |    —    |
+|  9th   |    7     |    4    |    2    |    —    |    —    |
+|  10th  |    7     |    4    |    3    |    —    |    —    |
+|  11th  |    8     |    4    |    3    |    —    |    —    |
+|  12th  |    8     |    4    |    3    |    —    |    —    |
+|  13th  |    9     |    4    |    3    |    2    |    —    | 
+|  14th  |    9     |    4    |    3    |    2    |    —    | 
+|  15th  |    10    |    4    |    3    |    2    |    —    | 
+|  16th  |    10    |    4    |    3    |    3    |    —    | 
+|  17th  |    11    |    4    |    3    |    3    |    —    |
+|  18th  |    11    |    4    |    3    |    3    |    —    |
+|  19th  |    12    |    4    |    3    |    3    |    1    | 
+|  20th  |    12    |    4    |    3    |    3    |    1    | 
+}}
+
+#### Mortal Metamagic
+Also at 3rd level, You use the following Metamagic options to temporarily modify spells you cast. 
+
+To use an option, you must expend the number of Hit Point Dice that it costs. 
+
+You can use only one Metamagic option on a spell when you cast it unless otherwise noted in one of those options.
+
+**Empowered Spell (Costs 1 Hit Point Die).** When you roll damage for a spell, you can spend 1 Hit Point Die to reroll a number of the damage dice up to your Charisma modifier (minimum of one), and you must use the new rolls.
+
+You can use Empowered Spell even if you've already used a different Metamagic option during the casting of the spell.
+
+**Quicken (Costs 2 Hit Point Dice).** When you cast a spell that has a casting time of an action, you can expend 2 Hit Point Dice to change the casting time to a Bonus Action for this casting. 
+
+You can't modify a spell in this way if you've already cast a level 1st-Level or higher spell on the current turn, nor can you cast a level 1st-Level or higher spell on this turn after modifying a spell in this way.
+{{pageNumber,auto}}
+\page
+#### Arcane Strike
+Starting at 6th level, when you take the Attack action on your turn, you can replace one of the attacks with a casting of one of your Sorcerer cantrips that has a casting time of an action.
+#### Draconic Vengeance
+Starting at 10th level, your draconic blood burns with retribution through Draconic Vengeance. When you take damage from a creature within 10 feet of you, you can use your reaction and expend one Hit Point Die to unleash draconic energy in a 10-foot emanation centered on you. 
+
+Each creature of your choice in the area must make a Dexterity saving throw against your spell save DC, taking damage equal to two rolls of your Hit Point Die plus your Constitution modifier on a failed save, or half as much on a success.
+
+The damage is your choice of acid, cold, fire, lightning, or poison.
+#### Aspect of the Greatwyrm
+Starting at 17th level, you can fully embody the might of your draconic patron through your Aspect of the Greatwyrm. As a Bonus Action, you can gain the benefits below for 1 minute or until you choose to end them (no action required). Once you use this feature, you can’t use it again until you finish a Short or Long Rest.
+
+**Breath Weapon.** When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 30-foot Cone. Each creature in that area must make a Dexterity saving throw against your spell save DC, taking 6d6 damage on a failed save or half as much damage on a successful one. The damage is your choice of Acid, Cold, FIre, Lightning, or Poison.
+  
+**Elemental Fury.** When you deal damage with a Melee weapon or an Unarmed Strike, the target takes an extra 1d6 damage. The damage is your choice of Acid, Cold, FIre, Lightning, or Poison.
+
+**Fly Speed.** You gain a Fly Speed of 60 feet.
+{{imageMaskEdge2,--offset:10%,--rotation:270
+  ![](https://i.imgur.com/XciH3w4.png){height:100%,left:200px}
+}}
+
+
+{{pageNumber,auto}}
+\page
+{{imageMaskEdge8,--offset:10%,--rotation:90
+  ![](https://i.imgur.com/afS3WCK.png){height:100%,left:-200px}
+}}
+
+
+\column
+
+### Fey Trailblazer
+Crossing a fey bridge into the enchanted Feywild
+beyond can be a perilous journey, threatening travelers
+with dangerous wild magic, fey tricksters, and horrific
+magical beasts. You, however, have heard the carefree
+call of magic in these few places where the Feywild
+intersects with the mortal plane, and have cultivated
+your skill in guiding travelers through the Feywild’s
+hazards.
+
+#### Alluring Grasp
+Starting when you hear this call at 3rd level, you can place your mark upon the affections within a creature’s mind. when you use the Grasp option of your Guardian Tactics, you can attempt to place an Alluring Grasp. When you do so, the target must make a Wisdom saving throw, with a DC against 8 + your Constitution modifier + your proficiency bonus. 
+
+On a failed save, instead of the normal effects of Grasp option, while the marked creature is within 5 feet of you, it is charmed by you. Your Alluring Grasp ends early if you deal damage to the marked creature.
+
+#### Fey Exploits
+You learn certain Exploits at the Warden levels noted in the table below. These don't count against your number of Exploits Known and can't be switched upon gaining a level. 
+|Warden Level| Exploit| 
+|:---------:|:-------:| 
+3rd |Commander’s Presence
+7th |Warrior’s Challenge
+14th|Inspirational Speech
+
+#### Misty Jaunt
+By 6th level, your connection to the Feywild enables you
+to blink from place to place. You can spend your entire
+movement to teleport up to half your movement speed.
+
+#### Spell Resistance
+Beginning at 10th level, you have advantage on saving
+throws you make against spells.
+
+#### Archfey of Majesty
+At 17th level, as an action, you can channel the majesty
+of the archfey that rule the fey courts, becoming an
+embodiment of unnatural grace and beauty for the next
+minute. You gain the following benefits:
+- Whenever a creature tries to attack you, it must make a Wisdom saving throw against 8 + your Constitution modifier + your proficiency bonus. On a failed save, its attack misses. On a successful save, the creature is immune to this ability for the next 24 hours.
+- As a bonus action, you can teleport up to 30 feet to an unoccupied space it can see.
+
+ Once you use this ability, you can’t use it again until
+you finish a long rest.
+
+{{pageNumber,auto}}
+\page
+
+### Godsworn
+The whispers of gods, the ringing of bells, and the meter of hymns called you, compelling you to swear an oath of protection. With your blade, you defend temples, holy sites, and other sacred ground, and with your shield, you protect pilgrims as they make their grand journeys. Your purpose is grander than just one life, and you look forward to seeing what designs the gods have set on your travels.
+
+#### Anointed Block
+Starting when you hear this call at 3rd level, when you use the Block option of your Guardian Tactics, the chosen ally adds 1d4 to attack rolls and saving throws it makes while within 5 feet of you until the start of your next turn.
+
+#### Divine Mandate
+Also at 3rd level, your oath of protection grants you divine gifts. 
+
+You learn two cantrips of your choice from the Cleric spell list, using Wisdom as your spellcasting ability for them.
+
+You gain proficiency in the Religion skill, and add your Constitution modifier (minimum +1) to checks made with it.
+You also gain resistance to radiant damage.
+
+#### Godsworn Exploits
+You learn certain Exploits at the Warden levels noted in the table below. These don't count against your number of Exploits Known and can't be switched upon gaining a level. 
+|Warden Level| Exploit| 
+|:---------:|:-------:| 
+3rd |First Aid
+7th |Defensive Stance
+14th|Disorienting Blow
+\column
+
+#### Benediction
+Starting at 6th level, your divine authority allows you to invoke powerful blessings once per long rest without expending a spell slot. You can cast *daylight*, *lesser restoration*, *sanctuary*, or *zone of truth* in this way. 
+
+Wisdom is your spellcasting ability for these spells.
+
+Once you cast one of them using this feature, you can’t do so again until you finish a long rest.
+
+#### Selfless Survival
+Starting at 10th level, your survival instinct can extend to others through your Selfless Survival. 
+
+When a creature you can see within 30 feet of you is reduced to 0 hit points and not killed outright, you can expend your use of Survive to cause the creature to instead drop to 1 hit point and regain hit points equal to twice your Warden level.
+
+
+#### Sainted Mantle
+Starting at 17th level, you can surround yourself with celestial energy, becoming a living conduit of divine grace. As a bonus action, you gain the following benefits for 1 minute or until you choose to end them (no action required).
+
+Once you use this feature, you can’t use it again until you finish a short or long rest. 
+
+At the start of each of your turns, you regain hit points equal to half your Warden level plus your Constitution modifier. 
+
+In addition, as part of the same bonus action used to activate this feature, you cast *spirit guardians* without expending a spell slot. When cast in this way, its duration is 1 minute and it doesn’t require concentration.
+
+{{imageMaskEdge7,--offset:25%,--rotation:0
+  ![](https://i.imgur.com/r6pDMEq.png){height:100%,top:700px}
+}}
+
+
+
+{{pageNumber,auto}}
+\page
+{{imageMaskEdge7,--offset:28%,--rotation:180
+  ![](https://i.imgur.com/r6pDMEq.png){height:100%,top:-430px}
+}}
+
+
+
+::::::::::::::::::::::::::
+
+### Gravitational Bastion
+For some wardens, the call is not a voice or a spirit, but the literal weight of the world. You have become an anchor in the tapestry of reality, capable of intensifying the pull of the earth or negating it entirely. You stand as the center of your own universe, a crushing force that prevents any enemy from escaping your reach.
+
+
+#### Gravitational Anchor
+Starting when you hear this call at 3rd level, you gain the ability to manipulate the weight of yourself and those around you. When you use the Grasp option of your Guardian Tactics, the ground within your Field becomes incredibly heavy. 
+
+Any creature affected by the Grasp takes 1d6 Force damage the first time it tries to move on its turn.
+
+At Higher Levels, the damage increases by 1d6 when you reach Warden levels 5th (2d6), 11th (3d6), and 17th (4d6).
+
+#### Gravity Exploits
+You learn certain Exploits at the Warden levels noted in the table below. These don't count against your number of Exploits Known and can't be switched upon gaining a level. 
+|Warden Level| Exploit| 
+|:---------:|:------------:| 
+3rd |Take Down
+7th |Immovable Stance
+14th |mythic athletiscism
+\column
+::::::::::::::::::::::::::
+#### Event Horizon
+At 6th level, you can create a localized gravity well to drag enemies toward you. As an Action, you can force each creature of your choice within 30 feet to make a Strength saving throw against your Exploit save DC.
+
+On a failure, a creature is pulled up to 15 feet in a straight line toward you. If a creature ends this movement within your Field, it is knocked Prone.
+
+You can use this feature a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.
+
+
+#### Dense Fortification
+Beginning at 10th level, your body becomes incredibly dense, allowing you to absorb impacts. Whenever you use your Interrupt feature, the sudden shift in gravity staggers the attacker. The target must succeed on a Strength saving throw or its speed is reduced to 0 until the end of the current turn.
+
+Additionally, you add your Constitution modifier (minimum +1) to any Strength (Athletics) check you make to resist being moved or to Grapple a creature.
+#### Singularity Avatar
+At 17th level, you can become a living singularity, a point of infinite density. As a Bonus Action, you gain the following benefits for 1 minute or until you choose to end them:
+- You gain a flying speed of 30 feet and can hover as you negate gravity's pull on yourself.
+
+- At the start of each of your turns, every hostile creature within 20 feet of you is pulled 10 feet toward you.
+
+- While this feature is active, your melee weapon attacks deal an extra 2d8 Force damage.
+
+Once you use this feature, you can't use it again until you finish a Short or Long Rest.
+{{pageNumber,auto}}
+\page
+### Grey Watchman
+Ever vigilant and unceasing in your duties, you are a watcher of the realms of men, called to keep vigil over a keep or wall. As a grey watchman, trained in the arts of combat, you have honed your skills to a razor’s edge to repel any invaders that might challenge your land. You need not keep watch over the same keep your entire life, but, wherever you travel, you are dedicated to keeping your land safe from invading armies, marauding monsters, and other external threats.
+
+
+####  Battle tactics
+You know an additional exploit, gain an additional exploit die and your exploit dice are one step bigger (from d4 to d6, d6 to d8 and d8 to d10)
+When you learn an exploit, you may choose an exploit from the fighter exploit list.
+
+You learn extra additional exploits at levels 7th, 13th and 17th and gain an exploit die at level 13th.
+
+#### Grey Exploits
+You learn certain Exploits at the Warden levels noted in the table below. These don't count against your number of Exploits Known and can't be switched upon gaining a level. 
+|Warden Level| Exploit| 
+|:---------:|:------------:| 
+3rd |sweeping  strike
+7th |trampling rush
+14th |mythic athletiscism
+
+
+#### Siege Defender
+Starting at 3rd level, your experience holding ground against attackers grants you specialized defensive tactics. If you end your turn without having moved during it, you gain advantage on readied attacks and opportunity attacks until the start of your next turn. 
+
+Additionally, while you are within 5 feet of two or more allies who are not incapacitated, enemies cannot have advantage on attack rolls against you.
+
+\column
+
+
+#### Fortification expert
+By 6th level, your experience manning battlements and blockades has given you insight in how to raise and reinforce them. 
+
+You have advantage on any ability check you make to erect defensive fortifications, examine walls and other defenses for weak points and entryways, or climb constructed walls. 
+
+Additionally, you can treat three-quarters cover as full cover.
+#### Hold the Line
+Starting at 10th level, your presence anchors the line through your Hold the Line ability. When you use the Grasp option of your Guardian Tactics, you and your allies within the Emanation gain advantage on Strength, Dexterity, and Constitution saving throws while inside it.
+
+
+#### Unbreakable sentinel
+Starting at 17th level, you can use your action to transform into a paragon of battle, an unstoppable sentinel, channeling the strength of every man, woman, and child beneath your charge. For the next minute, you gain the following benefits:
+
+- You have a +2 bonus to Armor Class.
+- Whenever you hit a creature, you regain an expended battle die.
+- You can take an additional reaction during each round of combat. You can only take one reaction during each turn.
+
+Once you use this ability, you can’t use it again until you finish a long rest.
+
+
+{{imageMaskEdge2,--offset:28%,--rotation:0
+  ![](https://i.imgur.com/iY0fMi7.png){height:100%,left:-1px,top:700px}
+}}
+
+
+{{pageNumber,auto}}
+\page
+### Gunbreaker
+Gunbreakers are the thunder on the battlefield. While other Wardens use shields or magic to hold the line, the Gunbreaker uses black powder and lead. They are trench-fighters and breachers who modify heavy weaponry into devastating firearms. To a Gunbreaker, the sound of a racked slide is a warning, and the roar of a shotgun is the command to halt. They control the flow of combat not by blocking blades, but by filling the air with so much shrapnel that no enemy dares to advance.
+
+#### Gunbreaker Exploits
+You learn certain Exploits at the Warden levels noted in the table below. These don't count against your number of Exploits Known and can't be switched upon gaining a level. 
+|Warden Level| Exploit| 
+|:---------:|:------------:| 
+3rd |Burglar’s Finesse
+7th |Dirty Hit
+14th |Inflame Greed
+
+
+#### Powdertrigger System
+Starting when you hear this call at 3rd level, you learn to modify a weapon to fire heavy-gauge shells, creating a weapon known as a Scattergun.
+
+Over the course of a long rest, you can install a Powdertrigger System onto a two-handed melee weapon (such as a Warhammer or Greatsword) or craft a dedicated heavy firearm. Only you can use this modified weapon effectively.
+
+Once crafted, you can use this weapon as a Ranged weapon with the following properties, in addition to using it as a Melee weapon (using the base weapon's stats for melee strikes):
+
+Name|		Damage|	Weight|	Properties| Mastery
+:-:|:-:|:-:|:-:|:-:|
+Scattergun|	2d6 piercing|	8 lb.	|Ammunition (range 30/90), Recoil, reload (6), scatter (2d8)| Grazing
+
+
+##### Recoil
+After you make an attack with this weapon, you can’t make ranged attacks beyond the weapon’s normal range until the end of your turn.
+
+
+#### Suppressive Fire
+Also at 3rd level, you use the deafening roar of your gun to protect your squad. When you use the Grasp option from your Guardian Tactics feature, you lay down a perimeter of shrapnel and threat.
+
+Allies within the Emanation of your Grasp reduce damage from all sources by an amount equal to your Constitution Modifier (minimum of 1). The sheer noise and threat of your weapon cause enemies to hesitate, effectively shielding your friends.
+
+
+\column
+
+#### Vanguard
+By 6th level, you’ve developed a scrutinising eye and quick reflexes to respond to danger. You can add your Constitution modifier to your Initiative Rolls (minimum of +1). 
+
+Additionally, your Interrupt’s range increases by 30ft. When you use this feature, you may choose to move next to the creature you interrupted as a part of the Reaction. This movement does not provoke Opportunity Attacks.
+
+
+#### Stopping Power
+At 10th level, your mastery over the shotgun allows you to physically control the battlefield with kinetic force.
+ When you hit a creature that is Large or smaller with your Scattergun within 30 feet of you, you can force the impact to stagger them. The target must succeed on a Strength saving throw (DC = 8 + your Proficiency Bonus + your Constitution modifier) or be pushed 10 feet away from you and knocked Prone.
+
+You can use this feature a number of times equal to your Constitution modifier (minimum of once), and you regain all expended uses when you finish a Short or Long Rest.
+
+#### No Mercy
+At 17th level,  as a Bonus Action, you call upon your foes with a vow to tear them asunder. This effect lasts for 1 minute or until you choose to end it (no action required). Once you use this feature you cannot use it again until you finish a Short or Long Rest.
+- You score a Critical Hit on a 19-20 on the d20 when making a weapon attack.
+- Whenever you reduce a creature to 0 hit points or score a Critical Hit, you regain one Exploit Die.
+- When you take the Attack action, you can make three attacks instead of two by expending a Exploit Die.
+
+
+{{imageMaskCorner21,--offsetX:50%,--offsetY:-60%,--rotation:0
+  ![](https://i.imgur.com/yrOHYoI.png){height:60%,left:350px,top:600px}
+}}
+
+
+
+
+
+
+{{pageNumber,auto}}
+\page
+### Hellkeeper
+Some wardens hear a call of flames and tormented
+screams rising up from the bowels of the earth. These
+grim few become Hellkeepers, tasked by devils with
+watching the gates of the underworld, safeguarding the
+innocent from wandering inside, and trapping the damned
+prisoners within. Some Hellkeepers feel that their position
+is a merciful one, for it protects mortals from unspeakable
+fiendish cruelties. Others know full well the implications
+of their calling and relish in the vileness of their deeds.
+
+#### Hellkeeper Exploits
+You learn certain Exploits at the Warden levels noted in the table below. These don't count against your number of Exploits Known and can't be switched upon gaining a level. 
+|Warden Level| Exploit| 
+|:---------:|:------------:| 
+3rd |Feat of Strength
+7th |Crushing Strike
+14th |Survey Settlement
+
+#### Tormenter
+Starting when you hear this call at 3rd level, you can double your proficiency bonus for any Charisma (Intimidation) check you make to intimidate a creature that is restrained.
+#### Hellish Grasp
+At 3rd level, When you use the Grasp option of your Guardian Tactics, each creature affected takes 1d6 fire damage. 
+At Higher Levels, the damage increases by 1d6 when you reach Warden levels 5th (2d6), 11th (3d6), and 17th (4d6).
+
+#### Fell Resilience
+By 6th level, your flesh is darkens and toughens to match
+that of a fiend as you come closer to death. You have advantage on Strength and Constitution saving throws when your hit points are less than half your maximum
+
+
+
+#### Chains of Perdition
+Beginning at 10th level, your dominion over the damned manifests through searing, spectral chains that lash out at those who try to escape your wrath. 
+
+When a creature within your Guardian Emanation moves 5 feet or more voluntarily, you can use your Bonus Action to attempt to bind it with infernal chains. 
+
+The creature must succeed on a Strength saving throw against 8 + your Constitution modifier + your proficiency bonus. or be restrained until the end of your next turn.
+
+While restrained in this way, the creature also takes fire damage equal to your Constitution modifier (minimum 1) at the start of each of its turns.
+
+You can use this reaction a number of times equal to your Constitution modifier (minimum once), and you regain all expended uses when you finish a Long Rest.
+
+
+
+#### Hellbent
+At 17th level, as an action, you can transform into the
+fiendish shape of a true devil. For the next minute, your
+melee weapon attacks deal an additional 2d8 fire damage
+on a hit. 
+
+Moreover, fire damage you deal ignores damage
+resistance and immunity. 
+
+Once during the duration, if you fail a saving throw, you can choose to succeed instead.
+
+Once you use this ability, you can’t use it again until you finish a long rest.
+{{imageMaskCorner27,--offsetX:50%,--offsetY:-27%,--rotation:0
+  ![](https://i.imgur.com/Demm1Js.png){height:80%,left:350px,top:300px}
+}}
+
+{{pageNumber,auto}}
+\page
+### Iceheart Bastion
+When you heard the call, it was in the form of howling
+winds flecked with snow, beckoning you to north’s frigid,
+barren, majestic reaches. It is placed upon you to drive
+back the horrors that thrive in the utter frost, as well
+as incursions from warmer southern lands, to protect
+the hardy people and noble animals of this cold place.
+Wherever you travel, the ice of the northern lands lives in
+your heart, and as such, you can summon it to your hands
+with icy gales from the most northern mountain peaks.
+#### Snowshoes
+Beginning when you hear this call at 3rd level, you move
+unhindered by snow and ice. You ignore difficult terrain
+caused by such conditions and it doesn’t slow your travel.
+#### Icy Grasp
+At 3rd level, when you use the Grasp option of your Guardian Tactics, a layer of thick ice frosts upon you and anchors you to the ground, granting you temporary hit points equal to your
+Constitution modifier until the beginning of your next turn.
+
+#### Iceheart Exploits
+You learn certain Exploits at the Warden levels noted in the table below. These don't count against your number of Exploits Known and can't be switched upon gaining a level. 
+|Warden Level| Exploit| 
+|:---------:|:------------:| 
+3rd |Take Down
+7th |Crushing Strike
+14th|Mythic Athleticism
+
+#### North Wind
+Starting at 6th level, As an action, you can exhale a breath of the true North Wind, an icy gale which affects a 100-foot long, 5-foot wide line in a direction you choose. Each creature in the line must make a Dexterity saving throw against 8 + your Constitution modifier + your proficiency bonus.
+
+On a failed save, a creature takes 4d6 cold damage and its
+speed is halved until the end of its next turn. 
+
+On a success, a creature takes half damage and its speed isn’t halved.
+
+Once you use this ability, you can’t use it again until
+you finish a short or long rest.
+
+#### Frozen Aegis
+
+At 10th level, your bond with the eternal frost grants you the power to become an unyielding bastion amid any storm. 
+
+Whenever you use your Interrupt feature, the attacker take 2d6 cold damage and have their speed reduced to 0 until the end of their next turn.
+
+\column
+
+#### Form of the Old Hoarfrost
+At 17th level, you can use your action to transform into
+a creature of deepest cold, a sentinel of the old hoarfrost.
+
+For one minute, you are surrounded by a frigid 15-foot
+radius vortex which extinguishes any nonmagical flames
+in its area. This area is difficult terrain. When a creature
+enters the area for the first time on a turn or starts its
+turn there, it takes 8d6 cold damage. 
+
+You can choose for creatures to be immune to the effects of the area.
+
+Once you use this feature, you can’t use it again until
+you finish a long rest.
+
+{{imageMaskCorner27,--offsetX:50%,--offsetY:-27%,--rotation:0
+  ![](https://i.imgur.com/3cWjnNn.png){height:85%,left:350px,top:280px}
+}}
+
+{{pageNumber,auto}}
+\page
+###  Lawbringer
+Lawbringers hear the steady, unyielding call of universal law and follow it without question. This set of invisible guidelines organizes the universe into its current state, but deviations from it threaten to destabilize all of creation. Reckless reality changing, time travel, and immortality are all violations of this law, and must be punished. Lawbringers are summoned to enforce laws both magical and mundane, and to deliver punishment when necessary.
+
+#### Axiomatic Move
+Starting at 3rd level, lawbreakers can never escape your mark. When a creature within 30 feet of you moves, you can use your reaction to move up to half your movement speed. You must end your movement closer to the creature than you began.
+
+#### Astute
+At 3rd level, you have advantage on ability checks you make to discern if a creature you can see is telling the truth.
+
+\column
+
+#### Lawbringer Exploits
+You learn certain Exploits at the Warden levels noted in the table below. These don't count against your number of Exploits Known and can't be switched upon gaining a level. 
+|Warden Level| Exploit| 
+|:---------:|:------------:| 
+3rd |Commander’s Presence
+7th |Immovable Stance
+14th |Recruit Mercenary
+
+
+#### Immutable Edict
+At 6th level, your voice carries the absolute weight of law. As a bonus action, choose one creature you can see within 30 feet. That creature must make a Wisdom saving throw against 8 + your Constitution modifier + your proficiency bonus. 
+
+On a failed save, the creature becomes restrained by glowing ethereal chains of law for 1 minute or until it takes damage. 
+
+While restrained in this way, the creature cannot teleport or become invisible. 
+
+It can repeat the saving throw at the end of each of its turns, ending the effect on a success. 
+
+You can use this feature once per short or long rest. 
+#### Iron Resolution 
+Starting at 10th level, your mind is a fortress, unbendable and unbreakable. You have advantage on saving throws against being charmed or frightened. 
+
+Whenever you succeed on a saving throw against an enchantment spell or an ability that attempts to cloud your thoughts or control your mind, the caster takes 4d6 psychic damage.
+
+#### Universal Axiom
+At 17th level, as an action, you can transform into an embodiment of universal law, a ticking construct of inevitable intent. For 1 minute, you gain the following features:
+- You can't be exhausted, frightened, grappled, incapacitated, paralyzed, petrified, poisoned, knocked prone, restrained, or stunned.
+- You have advantage on all saving throws.
+- You can use your Immutable Edict ability at will.
+
+Once you use this feature, you can't use it again until you finish a long rest.
+
+{{imageMaskCorner27,--offsetX:-50%,--offsetY:-41%,--rotation:0
+  ![](https://i.imgur.com/G4GMEgl.png){height:60%,left:-200px}
+}}
+
+
+
+{{pageNumber,auto}}
+\page
+### Loreseeker
+You have heard the call of rotting scrolls and antediluvian artifacts, remnants of wisdom now almost lost to time.
+As a loreseeker, you uncover and protect ancient relics,
+whether they be mundane scrolls or powerful magic items,
+that they might be archived for future generations. Some
+loreseekers are called to defend places of learning, from
+the halls of wisdom to great libraries, whereas others are
+entrusted with safeguarding a dangerous secret that could
+do irreparable harm in the wrong hands. 
+#### Spellcasting
+Starting when you hear this call at 3rd level, you have
+learned to apply your archival knowledge to spellcasting.
+
+ **Cantrips.** You learn two cantrips of your choice from
+the wizard spell list. You learn an additional wizard
+cantrip of your choice at 10th level.
+
+ **Spell Slots.** The Loreseeker Spellcasting table shows
+how many spell slots you have to cast your wizard spells
+of 1st level and higher. To cast one of these spells, you
+must expend a slot of the spell’s level or higher. You
+regain all expended spell slots when you finish a long rest.
+
+ **Spells Known of 1st-Level and Higher.** You know
+three 1st-level wizard spells of your choice, two of which
+you must choose from the abjuration and evocation spells
+on the wizard spell list.
+
+ The Spells Known column of the Loreseeker
+Spellcasting table shows when you learn more wizard
+spells of 1st level or higher. Each of these spells must be an abjuration or evocation spell of your choice, and must be of a level for which you have spell slots.
+
+ The spells you learn at 8th, 14th, and 20th level can
+come from any school of magic. 
+
+Whenever you gain a level in this class, you can
+replace one of the wizard spells you know with another
+spell of your choice from the wizard spell list. The new
+spell must be of a level for which you have spell slots, and
+it must be an abjuration or evocation spell, unless you’re
+replacing the spell you gained at 3rd, 8th, 14th, or 20th
+level from any school of magic.
+
+ **Spellcasting Ability.** Intelligence is your spellcasting
+ability for your wizard spells, since you learn your spells
+through research and deduction. You use your Intelligence
+whenever a spell refers to your spellcasting ability. In
+addition, you use your Intelligence modifier when setting
+the saving throw DC for a wizard spell you cast and when
+making an attack roll with one.
+
+**Spell save DC** = 8 + your proficiency bonus + your
+Intelligence modifier
+
+**Spell attack modifier** = your proficiency bonus + your
+Intelligence modifier
+
+#### Bookmark
+At 3rd level, any creature that is 5 ft. by you subtract
+1d4 from saving throws it makes against your spells and
+effects.
+\column
+
+
+#### Ensnaring Mark
+Starting at 6th level, when you use the Challenge option of your Guardian Tactics, you can teleport the creature to an
+unoccupied space within 5 feet of you.
+
+#### Arcane Aegis
+Starting at 10th level, your deep understanding of magical theory allows you to instinctively ward yourself against incoming harm. When you take damage from a spell or magical effect, you can use your reaction to halve the damage taken.
+
+Additionally, until the start of your next turn, you gain resistance to the same type of damage dealt by that effect.
+
+Once you use this feature, you can’t use it again until you finish a short or long rest.
+
+#### Librarian of the Eternal
+At 17th level, as an action, you can channel the power of
+the lore and stories you have collected, becoming a living
+embodiment of ancient knowledge for the next minute and
+gaining the following benefits:
+- When you cast a spell, you gain 15 temporary hit points.
+- When you cast a cantrip that has a casting time of 1 action, you can cast it as a bonus action instead.
+- Any creature that is marked by you has disadvantage on saving throws against spells you cast.
+
+Once you use this ability, you can’t use it again until you
+finish a long rest.
+
+
+{{classTable,frame
+##### Loreseeker Spellcasting
+| Warden | Spells  |--- Spells Slots per Spell Level ---||||
+| Level ^| Known  ^|   1st   |   2nd   |   3rd   |   4th   |
+|:------:|:--------:|:-------:|:-------:|:-------:|:-------:|
+|  3rd   |    3     |    2    |    —    |    —    |    —    |
+|  4th   |    4     |    3    |    —    |    —    |    —    |
+|  5th   |    5     |    3    |    —    |    —    |    —    |
+|  6th   |    5     |    3    |    —    |    —    |    —    |
+|  7th   |    6     |    4    |    2    |    —    |    —    |
+|  8th   |    6     |    4    |    2    |    —    |    —    |
+|  9th   |    7     |    4    |    2    |    —    |    —    |
+|  10th  |    7     |    4    |    3    |    —    |    —    |
+|  11th  |    8     |    4    |    3    |    —    |    —    |
+|  12th  |    8     |    4    |    3    |    —    |    —    |
+|  13th  |    9     |    4    |    3    |    2    |    —    | 
+|  14th  |    9     |    4    |    3    |    2    |    —    | 
+|  15th  |    10    |    4    |    3    |    2    |    —    | 
+|  16th  |    10    |    4    |    3    |    3    |    —    | 
+|  17th  |    11    |    4    |    3    |    3    |    —    |
+|  18th  |    11    |    4    |    3    |    3    |    —    |
+|  19th  |    12    |    4    |    3    |    3    |    1    | 
+|  20th  |    12    |    4    |    3    |    3    |    1    | 
+}}
+{{note
+##### Alternative Spellcasting List
+Ask your DM
+The Loreseeker Spell List can be replaced by the Arcane Spell List, all other restrictions still apply.
+}}
+{{pageNumber,auto}}
+\page
+### Nightgaunt
+Blood-drinkers, undead, and other creatures of the night are often feared and hunted, and few stand in their defense; except, of course, the grim and terrible nightgaunt. Tales of the nightgaunt are whispered of in fairy tales, casting them as a things to be feared: hunters of clerics and goodly vampire slayers. Their appearance always presages long nights and great rises in hungry undead. You felt the calling of the moon bringing you to the graveside of living corpses. Though vampires, zombies, and skeletons are mighty, they are always outnumbered, hunted, and turned by clerics; never given a fair chance to live peacefully. They require an ally among the living to continue their ceaseless lives, and you have risen by moonlight to the task.
+
+#### Death’s Gambit
+Starting when you hear this call at 3rd level, when you deal damage to an enemy targeted by the Challenge option of your Guardian Tactics, it may die instantly. If the enemy has fewer Hit Points than twice your Warden level after taking damage, it drops to 0 Hit Points.
+
+#### Grave Keeper
+Also 3rd level, you have a connection to the Undead that grants you the following benefits: 
+- you gain darkvision with a range of 60 feet, or if you already have darkvision, its range increases by 60 feet. 
+- You have resistance to necrotic damage
+- Whenever an Undead creature attacks you, it must succeed on a Wisdom saving throw against 8 + your Constitution modifier + your proficiency bonus. or its attack misses.
+\column
+####  Innate Necromancy
+At 6th level, you can cast one of the following spells once without expending a spell slot: *Darkness*, *False Life*, *Gentle Repose*, or *Speak with Dead*. Each time you cast a spell with this feature Wisdom is your spellcasting ability.
+
+Once you use this feature, you regain the ability to do so when you finish a long rest.
+
+#### Undying
+By 10th level, you can use your Survive feature three times, and you regain all expended uses when you finish a long rest.
+
+#### Gravelord
+At 17th level, you can invite necromantic energies into your body. As a Bonus Action, you can gain the benefits below for 1 minute or until you choose to end them (no action required).
+
+Once you use this feature, you can’t use it again until you finish a Short or Long Rest.
+
+**Frightful Aura.** You emit an aura of terror in a 15-foot Emanation originating from yourself. Whenever an enemy starts its turn in the Emanation, it must succeed on a Wisdom saving throw against 8 + your Constitution modifier + your proficiency bonus or have the Frightened condition for 1 minute or until it takes any damage. 
+
+**Vampiric Strike.** You can cast Vampiric Touch as a Bonus Action without a spell slot as a level 5 spell. When you cast the spell in this way, you can replace one of your attacks with making the spell’s melee spell attack.
+
+{{imageMaskEdge7,--offset:20%,--rotation:0
+  ![](https://i.imgur.com/InGn1oY.png){height:110%,top:450px}
+}}
+
+{{pageNumber,auto}}
+\page
+### Soulblood Shaman
+The ancestral spirits called you by starlight to enact
+their will on the world, to protect their descendants,
+and to safeguard their resting places. You are a
+Soulblood Shaman, a manipulator of soul and ascetic
+of primal magic.
+
+#### Spellcasting
+Starting when you hear this call at 3rd level, you can
+channel your ancient insights into magic.
+
+**Cantrips.** You learn two cantrips of your choice
+from the druid spell list. You learn an additional
+druid cantrip of your choice at 10th level.
+
+**Spell Slots.** The Soulblood Shaman Spellcasting table shows how many spell slots you have to cast your druid spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell’s level or higher. You regain all expended
+spell slots when you finish a long rest.
+
+**Spells Known of 1st-Level and Higher.**
+You know three 1st-level druid spells of your choice, two of which you must choose from the evocation or transmutation spells on the druid spell list.
+
+The Spells Known column of the Soulblood Shaman Spellcasting table shows when you learn more druid spells of 1st level or higher. Each of these spells must be an evocation or transmutation spell of your choice, and must be of a level for which you have spell slots.
+
+The spells you learn at 8th, 14th, and 20th level can come from any school of magic.
+Whenever you gain a level in this class, you can replace one of the druid spells you know with another spell of your choice from the druid spell list. The new spell must be of a level for which you have spell slots, and it must be an evocation or transmutation spell, unless you’re replacing the spell you gained at 3rd, 8th, 14th, or 20th level from any
+school of magic.
+
+**Spellcasting Ability.** Wisdom is your spellcasting ability for your druid spells, since you channel your magic through a connection to the great beyond. You use your Wisdom whenever a spell refers to your spellcasting ability. 
+
+In addition, you use your Wisdom modifier when setting the saving throw DC for a druid spell you cast and when making an attack roll with one.
+
+**Spell save DC** = 8 + your proficiency bonus + your Wisdom modifier
+
+**Spell attack modifier** = your proficiency bonus + your Wisdom modifier
+
+#### Soulblood
+Also at 3rd level, as a reaction when a creature within 5 feet of you deals damage to you, you can use one option of your Guardian Tactics.
+{{note
+##### Alternative Spellcasting List
+**Ask your DM**  
+The Soulblood Shaman Spell List can be replaced by the Primal Spell List, all other restrictions still apply.
+}}
+
+\column
+
+{{classTable,frame
+##### The Soulblood Shaman Spellcasting
+| Warden | Spells  |--- Spells Slots per Spell Level ---||||
+| Level ^| Known  ^|   1st   |   2nd   |   3rd   |   4th   |
+|:------:|:--------:|:-------:|:-------:|:-------:|:-------:|
+|  3rd   |    3     |    2    |    —    |    —    |    —    |
+|  4th   |    4     |    3    |    —    |    —    |    —    |
+|  5th   |    5     |    3    |    —    |    —    |    —    |
+|  6th   |    5     |    3    |    —    |    —    |    —    |
+|  7th   |    6     |    4    |    2    |    —    |    —    |
+|  8th   |    6     |    4    |    2    |    —    |    —    |
+|  9th   |    7     |    4    |    2    |    —    |    —    |
+|  10th  |    7     |    4    |    3    |    —    |    —    |
+|  11th  |    8     |    4    |    3    |    —    |    —    |
+|  12th  |    8     |    4    |    3    |    —    |    —    |
+|  13th  |    9     |    4    |    3    |    2    |    —    | 
+|  14th  |    9     |    4    |    3    |    2    |    —    | 
+|  15th  |    10    |    4    |    3    |    2    |    —    | 
+|  16th  |    10    |    4    |    3    |    3    |    —    | 
+|  17th  |    11    |    4    |    3    |    3    |    —    |
+|  18th  |    11    |    4    |    3    |    3    |    —    |
+|  19th  |    12    |    4    |    3    |    3    |    1    | 
+|  20th  |    12    |    4    |    3    |    3    |    1    | 
+}}
+
+
+
+
+
+
+
+
+#### Whispers of beyond
+At 6th level, you can hear the small voices of ancient spirits when you need guidance. If you spend one minute in contemplation when you make an Intelligence or Wisdom check, you can consult the spirits to gain advantage on the roll. However, the GM can decline to give you advantage on this check if the spirits would not possess appropriate guidance of knowledge.
+
+#### Spirit’s Aegis
+Starting at 10th level, ancestral spirits surround you in a protective aura. You and allies within 10 feet of you gain resistance to force and necrotic damage.
+ 
+
+
+#### Ethereal watcher
+At 17th level, as an action, you can shrug off your mortal form for a short time to become something spiritual and material, an ethereal watcher. For the next minute, you gain the following benefits:
+- As a bonus action on your turn, you can become ethereal, as per the etherealness spell.
+- You can return from being ethereal as a bonus action when you cast a spell, or when you use your Warden’s Mark or your Warden’s Grasp feature on your turn. When you return from being ethereal, each creature you choose within 10 feet of you takes 4d10 force damage, as they are pulled partially between the planes.
+- You can cast 1st and 2nd-level druid spells you know without expending spell slots.
+
+Once you use this ability, you can’t use it again until
+you finish a long rest.
+{{pageNumber,auto}}
+\page
+### Steel Shepherd
+You have a unique bond with constructs and magical automatons — those wondrous creations of arcane and craft. While many treat these mechanical beings as mere tools or scrap, you stand as their protector and caretaker, understanding their strange language of gears and magical runes. You wield shimmering wards of hardlight and command arcane energies to shield and empower your construct allies.
+
+#### Gearhead
+Starting 3rd, your affinity for constructs and machinery, when a construct you can see attacks you, it must succeed on a Wisdom saving throw against 8 + your Constitution modifier + your proficiency bonus or its attack automatically misses.
+
+
+Additionally, you gain proficiency with Tinker’s Tools.
+
+
+#### Hardlight Block
+Also 3rd level, you can project a shimmering barrier around an ally. The Block option of your Guardian Tactics affects an ally within 15 feet of yourself. At Warden level 14, it increases to 30 feet.
+
+#### Verdant Exploits
+You learn certain Exploits at the Warden levels noted in the table below. These don't count against your number of Exploits Known and can't be switched upon gaining a level. 
+|Warden Level| Exploit| 
+|:---------:|:------------:| 
+3rd |Aggressive Sprint
+7th |Improvised Skill
+14th |Disorienting Blow
+\column
+#### Blaster Veteran
+At 6th level, your experience fighting with ranged weapons sharpens your skills, when you make a ranged weapon attack using Dexterity, you may add your Strength modifier to both the attack and damage rolls. After using this feature, the weapon becomes overheated and cannot be used to make another attack until the end of your next turn.
+
+Additionally, when a creature you can see within 30 feet makes more than one attack on its turn, you can use your reaction to impose disadvantage on one of those attacks.
+
+#### Golem Absorption
+By 10th level, after resting, choose one damage type from Acid, Cold, Fire, Lightning, or Poison. When you take damage of that type, you can use your reaction to instead negate the damage and heal hit points equal to the damage prevented.
+
+You can use this feature once per short or long rest. You can also expend one Exploit die to recharge this ability without resting.
+
+
+
+#### Juggernaut Protocol
+Finally at 17th level, you unleash your ultimate mechanized form, transforming into a powerful construct of magical steel:
+
+As a bonus action, you gain the following benefits for 1 minute:
+
+- Your size increases to Large if you are smaller.
+
+- You can use your Golem Absorption feature on Force, Necrotic, or Radiant damage as well.
+
+- You have advantage on Strength checks and Strength saving throws.
+
+- When you hit with a weapon attack, you deal an additional weapon damage die.
+
+Once you use this feature, you can’t use it again until you finish a short or long rest.
+
+{{imageMaskEdge7,--offset:25%,--rotation:0
+  ![](https://i.imgur.com/jrWVeuw.png){height:55%,top:700px}
+}}
+
+
+
+{{pageNumber,auto}}
+\page
+### Stoneheart Defender
+You heard the steadfast, unyielding call from the mountains, which dwarves and gnomes have felt for generations. The stones called to you, beckoning for a protector to defend the mountains from those that would despoil them, from both within and without. You might be a watchman of old dwarven walls, or a sentinel, patrolling the lookouts of high mountain peaks; regardless of where you stand, you are unmovable: a mountain in the shape of a man. You draw your power from the earth beneath your feet and can crush your enemies with the strength of stone.
+
+#### Roots of rock
+Starting when you hear this call at 3rd level, when you use the Block option of your Guardian Tactics while you are holding a Shield, you and the chosen ally are further protected from harm. 
+
+Until the start of your next turn, any Bludgeoning, Piercing, or Slashing damage dealt to you or the ally is reduced by an amount equal to the AC bonus of your Shield.
+
+#### Earthshatter
+Also 3rd level, when you take the Attack action, you can replace one of your attacks with a downward slam that knocks others off their feet. 
+
+Each Large or smaller creature you choose on the ground within 5 feet of yourself must succeed on a Strength saving throw against 8 + your Constitution modifier + your proficiency bonus or have the Prone condition.
+
+At Warden level 14, this area increases to 10 feet.
+\column
+#### Stoneheart Exploits
+You learn certain Exploits at the Warden levels noted in the table below. These don't count against your number of Exploits Known and can't be switched upon gaining a level. 
+|Warden Level| Exploit| 
+|:---------:|:------------:| 
+3rd |heroic fortitude
+7th |defensive stance
+14th |resilient  body
+
+#### Fortress Stance
+Starting at 6th level, you can’t be moved against your will.
+
+Additionally, you have Immunity to Prone condition unless you choose to have it or have the Incapacitated condition.
+
+#### Legendary Interruption
+At 10th level, when an enemy you can see takes a Legendary Action to make an attack, you can use Interrupt to prevent that attack.
+
+#### Stoneforged Champion
+By 17th level, y.ou can encase yourself in rock to become a living mountain. As a Bonus Action, you can gain the benefits below for 1 minute or until you choose to end them (no action required). 
+Once you use this feature, you can’t use it again until you finish a Short or Long Rest.
+
+**Earthshatter Stomp.** Once on each of your turns, you can use your Earthshatter without replacing one of your attacks.
+
+**Giant Strength.** Your Strength increases by 4, to a maximum of 25.
+
+**Immortal Resolve.** when your hit points are less than half your maximum, you have Resistance to all damage.
+
+{{imageMaskEdge7,--offset:20%,--rotation:0
+  ![](https://i.imgur.com/DcW1GSc.png){height:70%,top:600px}
+}}
+
+
+
+
+ {{pageNumber,auto}}
+\page
+### Storm Sentinel
+Your strength originates among furious storm clouds and flashes of lightning. As a storm sentinel, you are called to protect wayward sailors and coastal villages from the wrath of the tempests and the arrival of great waves that threaten them. You despise pirates and other enemies of coastal peoples, and will oppose them wherever they strike. From your fingertips, you can deliver the awe of lightning and the roar of thunder to devastate your foes. With practice and patience, you can harness the power of the storm itself to fly and rain thunderbolts from above.
+
+#### Thunderblast
+Starting when you hear this call at 3rd level, your connection to the storm enhances your ability to strike foes. When you use the Grasp option of your Guardian Tactics feature, each creature of your choice within the area takes 1d8 lightning damage in addition to any other effects.
+
+At Warden level 14th, the damage increases by 1d8 (2d8).
+
+#### Storm Exploits
+You learn certain Exploits at the Warden levels noted in the table below. These don't count against your number of Exploits Known and can't be switched upon gaining a level.
+|Warden Level| Exploit| 
+|:---------:|:------------:| 
+3rd |mighty thrust
+7th |shattering slam
+14th |destructive slam
+
+
+#### Seafarer
+At 3rd level, your bond with the sea and storms grants you additional abilities:
+
+**Flash from Above.** While outdoors, you can use your action to summon a harmless but awe-inspiring bolt of lightning or rumble of thunder in the sky above. This effect has no mechanical benefit but may influence creatures or impress onlookers at the DM’s discretion.
+
+**Storm Resistance.** Choose either lightning or thunder damage. You gain resistance to that type of damage. Once chosen, this cannot be changed.
+
+**Swimmer’s Grace.** You gain a swimming speed equal to your walking speed.
+
+
+#### Storm Wings
+Starting at 6th level, you can momentarily ride the winds of the storm.
+
+At the beginning of your turn, you may gain a flying speed equal to your walking speed until the end of that turn.
+
+\column
+
+#### Lightning Step
+At 10th level, you can vanish in a flash of lightning and reappear elsewhere in a stormy blast. As a bonus action, you can teleport to an unoccupied space you can see within 60 feet.
+
+Before you teleport, each creature within 5 feet of the space you appear in must make a Dexterity saving throw. The DC is equal to your 8 + your Constitution modifier + your proficiency bonus. On a failed save, a creature takes 4d8 lightning damage, or half as much on a successful one.
+
+You can use this feature a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.
+
+#### Stormlord
+At 17th level, you can unleash the full fury of the storm. As a bonus action, you can enter a storm-charged state for 1 minute. While in this state, you gain the following benefits:
+
+- You cast Call Lightning as part of the bonus action used to activate this feature, without expending a spell slot or requiring concentration. The spell lasts for the duration of your storm-charged state (1 minute), and on subsequent turns, you can call down lightning by replacing one of your attacks.
+
+- You gain a flying speed of 60 feet.
+
+- The lightning damage of your Thunderblast increases to 3d8.
+
+Once you use this feature, you can’t use it again until you finish a short or long rest.
+
+
+
+{{imageMaskCorner33,--offsetX:48%,--offsetY:-51%,--rotation:-12
+  ![](https://i.imgur.com/FbUR0l0.png){height:70%,left:300px,top:550px}
+}}
+
+
+
+
+
+{{pageNumber,auto}}
+\page
+### Sunwatcher
+Drawing power from the highest primal authority, you
+embody the radiance of the sun. The sun burns away
+all that lurks in the darkness, while bringing the relief
+of morning light to those that seek it. Ever vigilant,
+these Wardens weave fire and radiance to destroy
+their enemies and empower their allies.
+
+#### Solar Fragment
+Starting when you hear this call at 3rd level,  you can cast the *light* spell. Wisdom is your spellcasting modifier for it. 
+
+If you cast *light* on a melee weapon you are wielding, the spell lasts as long as the weapon remains in your
+possession, and the weapon deals radiant damage instead of its normal damage type. 
+
+#### Radiant Aura
+Also at 3rd level, when you use the Challenge option of your Guardian Tactics feature, you can unleash a burst of radiant energy. The creature within the area takes 1d6 radiant damage in addition to any other effects.
+
+At Higher Levels, the damage increases by 1d6 when you reach Warden levels 5th (2d6), 11th (3d6), and 17th (4d6).
+
+#### Sun Exploits
+You learn certain Exploits at the Warden levels noted in the table below. These don't count against your number of Exploits Known and can't be switched upon gaining a level.
+|Warden Level| Exploit| 
+|:---------:|:------------:| 
+3rd |Reposition
+7th |Dirty Hit
+14th |Daring Rescue
+
+#### Radiant Blast
+At 6th level, you can channel concentrated solar energy into a searing projectile. When you take the Attack action, Whenever you take the Attack action on your turn, you can replace one or more of your attacks with a Radiant Blast, you can make a ranged attack against a creature within 60 feet of you. On a hit, the target takes 2d6 radiant damage.
+
+This damage increases as you gain levels, 3d6 at 11th level, and 4d6 at 17th level.
+
+You can use your Wisdom Modifier for the attack and damage rolls of this ability.
+
+
+
+\column
+
+#### Transcendent Passage
+Starting at 10th level, as a bonus action, you can transform into a swirling burst of radiant sunlight,
+traveling up to 60 feet in a straight line. You can pass through creatures and objects, but are blocked by
+obstructions that completely block light (such as solid opaque walls). 
+
+This movement does not provoke attacks of opportunity.
+
+Hostile creatures of your choice in your path must make a Dexterity saving throw against 8 + your Constitution modifier + your proficiency bonus. 
+
+On failure, they take 4d6 radiant damage, and are blinded until the start of your next turn. On a success, they take half as much damage and are not blinded. 
+
+Allied creatures of your choice in your path gain 4d6 temporary hit points. 
+
+Once you use this ability, you cannot use it again until you complete a short or long rest.
+
+#### Solar Avatar
+Starting at 17th level, as a bonus action you can call upon the power of the sun to embody its power for 1 minute. For the duration, you gain the following benefits:
+- You shed bright light for 60 feet, and dim light for additional 60 feet. The bright light is sunlight.
+- Creatures in the bright light you shed have disadvantage on saving throws against your Warden abilities .
+- When you make a Radiant Blast, you can shoot a beam of energy instead of an attack, forcing all creatures in a 60 foot line to make a Dexterity saving throw against 8 + your Constitution modifier + your proficiency bonus, taking damage equal to your Radiant Blast damage on failure, or half as much on a success.
+- When you deal radiant damage against a target, you imbue the target with a radiant illumination, granting advantage to the next attack made against that target before the start of your next turn.
+
+Once you use this feature, you can’t use it again until you finish a short or long rest.
+
+{{imageMaskEdge7,--offset:41%,--rotation:0
+  ![](https://i.imgur.com/PHVPdHH.png){height:110%,top:700px}
+}}
+
+{{pageNumber,auto}}
+\page
+### Timetwister
+Your call was not a sound, but a premonition. It was a whisper from the future and an echo from the past, a sudden, sharp realization that the flow of time itself required a guardian. You stand as a bulwark against paradox, a protector of the present moment, and a shield against those who would unravel history for their own gain.
+
+As a Timetwister, you anchor yourself in the timestream, drawing on its energy to glimpse seconds into the future, slow your enemies, and rewind moments of harm. You are the unmoving point in the ever-flowing river of time, a guardian of what was, what is, and what must be.
+
+#### Temporal Foresight
+Starting when you hear this call at 3rd level, your connection to the flow of time grants you unnatural foresight. You gain proficiency in your choice of either the History or Insight skill.
+
+Additionally, you add your Constitution modifier (minimum bonus of +1) to your Initiative rolls.
+
+#### Temporal Grasp
+Also at 3rd level, when you use the Grasp option of your Guardian Tactics, you can momentarily disrupt the flow of time for a foe. Choose one creature affected by your Grasp. That creature must succeed on a Wisdom saving throw (DC 8 + your proficiency bonus + your Constitution modifier). On a failed save, the creature's speed is reduced to 0, and it cannot take reactions until the start of your next turn.
+
+|Warden Level| Exploit| 
+|:---------:|:------------:| 
+3rd |Aggressive Sprint 
+7th |Redirect
+14th |Heroic Focus 
+
+#### Rewinding Rebuke
+Starting at 6th level, you can bend time to undo an ally's misfortune. When a creature you can see within 30 feet of you is hit by an attack roll, you can use your reaction to force the attacker to re-roll that attack. The attacker must use the new roll.
+
+You can use this feature a number of times equal to your Constitution modifier (minimum of once). You regain all expended uses when you finish a long rest.
+
+\column
+
+#### Grounded in time
+Beginning at 10th level, your anchor in the timestream makes you resilient to temporal effects. You cannot be aged magically, and you are immune to any effect that would alter your speed, such as the *slow* or *haste* spell.
+
+Additionally, when you use your Interrupt feature , the target's speed is reduced to 0 until the end of the current turn.
+
+
+#### Avatar of the Epoch
+At 17th level, you can briefly become a nexus of temporal power. As a bonus action, you gain the following benefits for 1 minute or until you choose to end them (no action required).
+
+- You can take one additional action on each of your turns. This action can only be used to take the Attack (one weapon attack only), Dash, Disengage, or Use an Object action.
+
+- Any hostile creature that starts its turn within 10 feet of you, or enters the area for the first time on a turn, must succeed on a Wisdom saving throw (DC 8 + your proficiency bonus + your Constitution modifier) or its speed is halved and it cannot take reactions until the start of its next turn.
+
+- You have advantage on all saving throws.
+
+Once you use this feature, you can't use it again until you finish a short or long rest.
+
+
+
+{{imageMaskCorner33,--offsetX:44%,--offsetY:-52%,--rotation:-10
+  ![](https://i.imgur.com/zMjBHTC.png){height:100%,left:280px,top:560px}
+}}
+
+{{pageNumber,auto}}
+\page
+### Titanblood Sentinel
+
+The blood of ancient giants flows through your veins. When you heard your Call, it came with a thunderous step, a gust of mountain wind, and the weight of a legacy carved in stone and storm. As a Titanblood Sentinel, you embody the primeval strength and elemental wrath of the old titans—growing in stature, channeling natural fury, and dominating the battlefield like the giants of legend.
+
+#### Giant’s Legacy
+
+When you hear this call at 3rd level, your physical form begins to change. You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.
+
+Additionally, when you use the Grasp option from your Guardian Tactics, you can target up to two creatures within range instead of one.
+
+#### Titanblood Exploits
+You learn certain Exploits at the Warden levels noted in the table below. These don't count against your number of Exploits Known and can't be switched upon gaining a level. 
+|Warden Level| Exploit| 
+|:---------:|:------------:| 
+3rd |Mighty Leap
+7th |Immovable Stance
+14th |Mythic Athleticism
+\column
+#### Elemental Surge
+
+At 6th level, your attacks carry the fury of elemental giants. 
+
+Once per turn, when you hit with a melee weapon attack, you can deal an additional 1d6 elemental damage. Choose the type when you gain this feature: cold, fire, lightning, or thunder. 
+
+You can change this choice at the end of a long rest.
+
+
+#### Colossal Grasp
+
+By 10th level, you can grow to truly giant size. As a bonus action, you enlarge yourself for 1 minute. While enlarged:
+
+* You become Large.
+* Your reach increases by 5 feet.
+* Once per turn, when a creature starts its turn within your Guardian Field, it has its speed halved until the end of the turn.
+
+You can use this feature once per long rest, or regain its use by expending one Exploit Dice.
+
+
+
+#### Avatar of the Titans
+
+At 17th level, you embody a true giant’s might. When you use your Colossal Grasp, you gain additional benefits until the effect ends:
+
+* You become Huge
+* Your melee weapon attacks deal an additional 2d8 of your chosen elemental damage.
+* Once per turn when you hit a creature with an attack, you can force it to make a Strength saving throw against 8 + your Constitution modifier + your proficiency bonus. On a fail, it is knocked prone and pushed 10 feet.
+
+{{imageMaskEdge7,--offset:18%,--rotation:0
+  ![](https://i.imgur.com/O3DDz1x.png){height:75%,top:500px}
+}}
+
+
+{{pageNumber,auto}}
+\page
+
+### Verdant Protector
+You draw your strength from the trees of the forest and the loamy earth beneath your feet. As a Verdant Protector, you are the champion of the green things in nature, and defend them against those who would despoil the wilds. You easily find allies among druids, and others that understand the forest’s sacred trees and ancient spirits. At your command, the plants of the earth sprout up to assist you in your duty. At the pinnacle of your power, you can assume the form of an elder tree guardian, which looks much like a treant, with
+tough, bark skin, and long, branchlike arms.
+
+#### Grasping Vines
+Starting when you hear this call at 3rd level, plants entangle your foes that try to escape. 
+
+The Emanation of the Grasp option of your Guardian Tactics increases to 10 feet for creatures on the ground. 
+
+At Warden level 14, it increases to 15 feet.
+
+#### Cultivator
+
+Also 3rd level, your connection with plant life and overgrown terrain grants you special advantages.
+
+You gain proficiency in one of the following skills: Nature, Stealth, or Survival. In addition, you add your Constitution modifier (minimum +1) as a bonus to ability checks using the chosen skill.
+
+You also move through natural terrain with ease. Difficult terrain caused by plants, roots, or overgrowth does not cost you extra movement. 
+
+Additionally, you are immune to the effects of the *Spike Growth* and *Plant Growth* spells.
+
+#### Verdant Exploits
+You learn certain Exploits at the Warden levels noted in the table below. These don't count against your number of Exploits Known and can't be switched upon gaining a level. 
+|Warden Level| Exploit| 
+|:---------:|:------------:| 
+3rd |reposition
+7th |take cover
+14th |daring rescue
+\column
+#### Nature’s Emissary
+Starting at 6th level, you can speak with the land and cause it to flourish or defend you.
+
+You can cast each of the following spells once without expending a spell slot: Goodberry, Spike Growth, Plant Growth, and Speak with Plants. When casting these spells with this feature, you may choose Intelligence, Wisdom, or Charisma as your spellcasting ability for each individual casting.
+
+Once you cast a spell using this feature, you cannot cast that same spell again with this feature until you finish a long rest.
+
+
+
+#### Verdant Resilience
+At 10th level, your bond with nature can shield your allies from harm.
+
+Whenever you use your Survive feature, you and any allies of your choice within 10 feet of you each gain temporary hit points equal to twice your Warden level.
+
+
+#### Oak Sentinel
+At 17th level, you can momentarily become a living bastion of the forest. As a bonus action, you take on the form of a gnarled oak guardian for 1 minute. You gain the following benefits during this time:
+
+**Armor of Thorns.** You gain a +4 bonus to AC. Whenever you take damage from a creature within 5 feet of you, that creature takes 4d6 piercing damage. After this damage is dealt, your AC bonus is reduced by 1 (to a minimum of +0). The AC bonus does not return until the end of this transformation.
+
+**Entangling Transformation.** When you activate this feature, roots and vines burst forth from the ground in a 15-foot radius centered on you. Each creature of your choice in that area must make a Strength saving throw. The DC is equal to 8 + your Constitution modifier + your proficiency bonus. On a failed save, the creature is restrained for 1 minute. A restrained creature can repeat the saving throw at the end of each of its turns, or use an action to make a Strength (Athletics) check against the same DC, ending the effect on a success.
+
+Once you use this feature, you can’t use it again until you finish a short or long rest.
+
+{{imageMaskEdge7,--offset:35%,--rotation:0
+  ![](https://i.imgur.com/wjirFmX.png){height:110%,top:700px}
+}}
+
+{{pageNumber,auto}}
+\page
+### Windkeeper
+
+Your call is the roaring gusts and swirling currents of the open skies. As a Windkeeper, you master the restless power of the air, shaping it to shield your allies, scatter your foes, and command the battlefield. Born under the endless expanse of the horizon or trained by wandering sky-sages, you have learned to treat the wind not as a force to endure, but as a tool to wield. Whether you are sweeping away enemies or calling forth sudden gales, the air answers your command.
+
+#### Skycurrent 
+
+When you choose this archetype at 3rd level, you gain the ability to manipulate the wind around your foes. When you use Block or Challenge on a Large or smaller creature, you can unleash a sudden gust of wind to either pull the target 10 feet in a straight line toward you or push the target up to 10 feet straight away from you
+
+
+#### Wind-Blessed
+
+Also at 3rd level, your attunement to the air grants you the following benefits:
+- You have resistance to damage caused by falling.
+
+- When you deal damage with a weapon attack or unarmed strike, you can choose to have it deal bludgeoning damage as the strike is carried by a burst of wind. This decision is made on each attack. 
+
+- When you hit a creature with a melee weapon attack, the sudden gust slows them. Their speed is reduced by 10 feet until the start of your next turn.
+
+#### Gale Burst
+
+Starting at 6th level, you can unleash a concentrated blast of air. As an action, you can create one of the following effects. The saving throw DC equals 8 + your Constitution modifier + your proficiency bonus.
+
+**Whirlwind Step.** You create a swirling current of wind in a 5-foot radius around yourself. Each creature of your choice in this area must succeed on a Strength saving throw or be knocked prone.
+
+**Sealed by Wind.** You can create a burst of pressure to wedge a door, window, gate, or similar object closed. Opening the object requires a successful Strength (Athletics) check against your save DC. The seal lasts for 10 minutes.
+
+**Air Blast.** You send a focused shock of wind at a creature within 30 feet. The target must make a Constitution saving throw, taking 2d12 bludgeoning damage on a failed save or half as much on a successful one. The damage increases to 3d12 at 11th level and 4d12 at 17th level.
+
+**Cover of Currents.** You raise a curtain of swirling air, providing half cover to up to two Medium creatures in a 10-foot-wide line. This barrier lasts for 10 minutes.
+
+You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.
+
+#### Wind-Warded
+
+Beginning  10th level, the wind itself shields you. At the start of each of your turns, if you are not incapacitated, you gain temporary hit points equal to your Constitution modifier, as unseen currents swirl around you to deflect attacks.
+
+#### Tempest Avatar
+
+At 17th level, you become a living tempest. As a bonus action, you can summon a mantle of roaring wind that lasts for 1 minute. Once you activate this feature, you cannot use it again until you finish a short or long rest.
+While this mantle is active, you gain the following benefits:
+
+- You are immune to damage from falling, as the winds always catch you.
+
+- When you take the Attack action, you can replace one attack with your Air Blast option from Gale Burst.
+
+- At the start of each of your turns, if you are not incapacitated, you gain temporary hit points equal to twice your Constitution modifier, as the winds fiercely guard you.
+
+- Ranged weapon attacks have disadvantage when targeting you.
+
+{{imageMaskCorner15,--offsetX:50%,--offsetY:-35%,--rotation:0
+  ![](https://i.imgur.com/FM556Y6.png){height:100%,top:340px,left:250px}
+}}
+
+
+{{pageNumber,auto}}
+\page
+### Witchbane Hunter
+Where there is magic, there is evil. Witches lurks in the
+shadows with hags and warlocks, waiting for your guard
+to lower, such that they might turn their hexes upon the
+innocent. But your ever-vigilant sword is ready for them,
+ready to defend the nonmagical folk from evil spellcasters
+the world-over. You slay vampires, hexers, devils, and fey
+alike with impunity, for anyone who might despoil the
+world with magic shall be hunted and put to the stake.
+
+#### Witchbane Arsenal
+Starting when you hear this call at 3rd level, your experience in hunting supernatural foes has culminated in a collection of witch-hunting items, granting you the following benefits.
+
+**Blessed Flask.** You have an enchanted container that produces a flask of Holy Water as a action. Once created, this Holy Water vanishes after 1 minutes. 
+
+
+**Cerulean Medallion.** You have a magical medallion that glows faintly when supernatural threats are near. As a Bonus Action, you learn the location and creature type of Celestials, Fey, Fiends, and Undead within 30 feet of yourself.
+
+**Grimoire Monstrum.** You have a tome of myths and monsters. While holding it, you have Advantage on Intelligence checks you make related to monsters, spells, or secret or ancient lore.
+
+**Silvered Whetstone.** You have a magical whetstone that adds a thin layer of silver to a weapon as a action. For 1 minutes, when you deal damage with that weapon, it can deal your choice of Force damage or its normal damage type. 
+
+#### Spiteful Challenge
+Also 3rd level, when you use the Challenge option of your Guardian Tactics, you have Advantage on saving throws against effects created by the target while you are within 30 feet of it. 
+
+#### Witchbane Exploits
+You learn certain Exploits at the Warden levels noted in the table below. These don't count against your number of Exploits Known and can't be switched upon gaining a level. 
+|Warden Level| Exploit| 
+|:---------:|:------------:| 
+3rd |Heroic Fortitude
+7th |Heroic Will
+14th |Heroic Focus
+
+\column
+
+#### Otherworldly Eye
+At 6th level, your well-trained eye can detect the slightest hint of magic, granting you the following benefits.
+
+**Detect Latent Magic.** As a action, you can sense if a spell was cast within 30 feet of yourself within the last 24 hours and what spell was cast.
+
+**See Invisibility.** You see creatures and objects that have the Invisible condition. You can also see into the Ethereal Plane. Creatures and objects there appear ghostly. 
+
+
+#### Arcane Rebuke
+Beginning at 10th level, you can cast *Counterspell* without a spell slot. If the target fails its saving throw against this spell, it takes 4d8 Force damage. Wisdom is your spellcasting ability for this spell when you cast it with this feature (choose the ability when you cast the spell).
+
+Once you use this feature to cast this spell, you can’t do so again until you finish a Short or Long Rest. You can also restore your use of it by expending one exploit die (no action required).
+
+####  Anti-Mage
+At 17th level, you can imbue yourself with an antimagic aura. As a Bonus Action, you can gain the benefits below for 1 minute or until you choose to end them (no action required).
+
+Once you use this feature, you can’t use it again until you finish a Short or Long Rest.
+
+**Antimagic Field.** As a part of the Bonus Action you take to use this feature, you cast Antimagic Field without a spell slot. When you cast it in this way, its duration is 1 minute and the 10-foot Emanation originates from you. 
+
+Additionally, you choose which creates and objects are affected by the Antimagic Field.
+  
+**Branding Challenge.** When you hit an enemy targeted by the Challenge option of your Guardian Tactics with a weapon, the target takes an extra 2d8 Fire damage.
+
+{{imageMaskCorner10,--offsetX:40%,--offsetY:-48%,--rotation:0
+  ![](https://i.imgur.com/GMAj3F6.png){height:100%,top:730px,left:250px}
+}}
+
+
+
+{{pageNumber,auto}}
+\page
+## Sentinel's Exploits
+Below are the Exploits available to warden. If an Exploit has a prerequisite, like a minimum Ability Score or level, you can learn it at the same time you meet the prerequisites.
+
+
+
+
+### 1st-Degree Exploits
+Exploits of the 1st-degree are minor techniques slightly more complicated than swinging a weapon. They can be learned by warriors with modest training and have no level prerequisite.
+
+
+#### Aggressive Sprint
+As a bonus action on your turn, you can expend an Exploit
+Die to draw upon your battle fury and move up to your full
+speed toward a hostile creature you can see.
+
+#### Aristocratic Education
+*Prerequisite: Intelligence of 11*
+
+When you make an Intelligence (History), Wisdom (Animal Handling), or Charisma (Persuasion) check, you can expend an Exploit Die and add it to the roll. You can use this Exploit after you roll, but before you know if you succeed or fail.
+
+
+
+#### Brace Up
+*Prerequisites: Constitution of 11*
+
+You steel yourself for combat, preparing to take incoming blows. As a bonus action, you can expend an Exploit Die to gain temporary hit points equal to 1 + your Exploit Die.
+
+
+
+#### Commander's Presence
+*Prerequisites: Intelligence or Charisma of 11*
+
+Whenever you make a Charisma (Intimidation), Charisma
+(Persuasion), or Intelligence (History) check, you can expend an Exploit Die and add it to your roll. You can use this Exploit after you roll, but before you know if you succeed or fail.
+
+#### Crippling Strike
+When you hit a creature with a weapon attack, you can
+expend an Exploit Die and force it to make a Dexterity saving throw. On a failure, it takes additional damage equal to your Exploit Die and its speed is 0 until the start of your next turn.
+
+#### Disarm
+When you hit a creature with a weapon attack, you can expend an Exploit Die to force it to make a Strength saving throw. On a failure, it takes additional damage equal to your Exploit Die, and it drops an item of your choice it is holding.
+\column
+
+
+
+#### Feat of Strength
+*Prerequisites: Strength or Constitution of 11*
+
+Whenever you make a Strength or Constitution-based ability
+check or saving throw, you can expend an Exploit Die and
+add it to the result of your roll. You can use this Exploit after you roll, but before you know whether you succeed or fail.
+
+#### First Aid
+As an action, you can touch a conscious and willing creature and expend an Exploit Die to heal them. As a reaction, the target can expend a Hit Die to regain hit points equal to its Hit Die + its Constitution modifier +your Exploit Die.
+
+#### Heroic Fortitude
+Whenever you are forced to make a Strength, Dexterity, or
+Constitution saving throw, you can expend an Exploit Die and add it to the result of your roll. You can use this Exploit after you roll, but before you know whether you succeed or fail.
+
+#### Menacing Shout
+As a bonus action, you can expend an Exploit Die and force
+a creature within 30 feet that can see or hear you to make a Wisdom saving throw. On a failed save, it is frightened of you for one minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on a success.
+
+The fear effect ends early for the target if the frightened creature sees you take damage of any kind.
+
+#### Mighty Leap
+*Prerequisites: Strength of 11*
+
+When you make a running or standing jump, you can expend
+an Exploit Die to increase your jump distance by a number of feet equal to 5 times the Exploit Die roll (minimum of 5 feet), even if this distance would exceed your remaining speed.
+
+#### Navigator's Know-how
+*Prerequisites: Intelligence or Wisdom of 11*
+
+When you make an ability check with cartographer's tools,
+navigator's tools, or land or water vehicles, you can expend an Exploit Die and add it to your roll. You can use this Exploit after you roll, but before you know if you succeed or fail.
+
+#### Reposition
+As a bonus action, you can expend an Exploit Die to switch
+places with a conscious and willing creature within 5 feet of you, without either of you provoking opportunity attacks. Moreover, the first one of you that gets hit with an attack before the beginning of your next turn gains a bonus to their Armor Class against that attack equal to your Exploit Die.
+
+
+{{pageNumber,auto}}
+\page
+#### Skilled Rider
+*Prerequisites: Wisdom of 11*
+
+When you are riding a trained mount and the mount makes
+an ability check, attack roll, or saving throw, or you make a Wisdom (Animal Handling) check to control it, you can expend an Exploit Die and add it to the roll. You can use this Exploit after roll, but before you know if it succeed or failed.
+
+#### Take Down
+*Prerequisites: Strength of 11*
+
+As a bonus action, you can expend an Exploit Die to make a
+Shove or Grapple attack against a creature in your reach,
+adding your Exploit Die to your Strength (Athletics) check.
+
+#### Warding Strike
+When a creature moves into the reach of a melee weapon you
+are wielding, you can use your reaction to expend an Exploit Die and make a melee weapon attack against that creature.
+
+On hit, you add your Exploit Die to the damage of the attack.
+
+### 2nd-Degree Exploits
+Exploits of the second degree represent the absolute peak of martial that is skill achievable by a warrior without dedicated training, or significant experience in combat. Exploits of this level can be learned by any fighter of 5th level or higher.
+
+
+#### Crushing Strike
+*Prerequisites: 5th level, Strength of 13*
+
+When you hit a creature with a melee weapon attack, you can expend an Exploit Die and force it to make a Constitution saving throw. On a failed save, it takes extra damage equal to your Exploit Die, and its Armor Class is reduced by 1 until its defenses are repaired, or it finishes a short or long rest.
+
+#### Defensive Stance
+*Prerequisites: 5th level*
+
+As a bonus action, you can expend an Exploit Die to enter a defensive stance which lasts until the start of your next turn.
+
+Each time a creature that you can see hits you with an attack while you are in your defensive stance, you roll your Exploit Die and add it to your Armor Class against the attack.
+
+#### Dirty Hit
+*Prerequisites: 5th level, Dexterity of 13*
+
+When you hit a creature with a weapon attack, you can expend an Exploit Die and force it to make a Constitution saving throw. On a failed save, it takes additional damage equal to your Exploit Die, and until the start of your next turn it cannot take reactions and its speed is halved.
+
+\column
+
+#### Glancing Blow
+*Prerequisites: 5th level*
+
+When you make a melee weapon attack and miss, you can expend an Exploit Die to immediately repeat your attack against another target within the reach of your weapon.
+
+#### Heroic Will
+*Prerequisites: 5th level*
+
+Whenever you are forced to make an Intelligence, Wisdom,
+or Charisma saving throw, you can expend an Exploit Die and add it to the result of your roll. You can use this Exploit after you roll, but before you know if you succeed or fail.
+
+
+#### Immovable Stance
+*Prerequisites: 5th level, Strength or Constitution of 13*
+
+As a bonus action, you can expend an Exploit Die and plant your feet in an immovable stance. Until you move from that space, a creature that would move you, or move through your space, must succeed on a Strength saving throw to do so.
+#### Improvised Skill
+*Prerequisites: 5th level*
+
+When you make an ability check that doesn't include your proficiency bonus, you can expend an Exploit Die and add it to your roll. You can use this Exploit after you roll, but before you know if you succeed or fail.
+
+
+
+#### Redirect
+*Prerequisites: 5th level*
+
+As a reaction when a creature you can see misses you with a melee attack, you can expend an Exploit Die and force it to repeat its attack against a target of your choice within reach.
+
+On hit, it deals additional damage equal to your Exploit Die.
+#### Shield Impact
+*Prerequisites: 5th level*
+
+As a reaction when a creature you can see hits you with an attack, you can expend an Exploit Die to reduce the damage by an amount equal to your Exploit Die + your Constitution
+modifier. You must be wielding a shield to use this Exploit.
+
+#### Suppressing Strike
+*Prerequisites: 5th level*
+
+When you hit a creature with a weapon attack, you can
+expend an Exploit Die and force it to make a Constitution
+saving throw. On a failed save, it takes additional damage equal to your Exploit Die, and it is blinded, deafened, or muted (your choice) until the start of your next turn.
+
+
+
+{{pageNumber,auto}}
+\page
+#### Take Cover
+*Prerequisites: 5th level*
+
+As a reaction when a creature you can see targets you with a ranged attack or forces you to make a Dexterity saving throw, you can expend an Exploit Die to immediately fall prone and gain temporary hit points equal to your Exploit Die.
+
+
+### 3rd-Degree Exploits
+Exploits of this degree are only able to be mastered by elite warriors who dedicate their lives to training. They can only be learned by fighters of 9th level or higher. 
+Each 3rd-degree Exploit can only be used once per short or long rest.
+
+#### Daring Rescue
+*Prerequisite: 9th level*
+
+As a reaction when a creature within 30 feet is reduced to 0 hit points, you can expend an Exploit Die and attempt to save it. You can immediately move up to twice your speed, so long as you end your movement within 5 feet of the downed ally. Your ally can then expend one of its Hit Dice to instantly regain hit points equal to its Hit Die roll + its Constitution modifier + temporary hit points equal to one roll of your Exploit Die for each opportunity attack you provoked.
+#### Disorienting Blow
+*Prerequisites: 9th level, Strength of 15*
+
+When you hit a creature with a melee weapon attack, you can
+expend an Exploit Die to strike with overwhelming force. The
+creature takes additional damage equal to twice your Exploit
+Die and it suffers the effects listed below for 1 minute:
+- Its speed is halved and it cannot take reactions.
+- Its Armor Class is reduced by 2.
+- Its Dexterity saving throw bonus is reduced by 2.
+- On its turn it can only take an action or a bonus action.
+- It cannot make more then one attack during its turn.
+The creature can make a Wisdom saving throw at the end
+of each of its turns, ending these effects on a success.
+
+\column
+
+#### Heroic Focus
+
+*Prerequisites: 9th level*
+
+As a bonus action, you can expend an Exploit Die to
+enter a heightened state of combat focus which you
+must concentrate on as if you were concentrating on
+a spell. For the next minute, or until you lose your
+concentration, you gain the following benefits:
+- Your speed is doubled.
+- You gain a +2 bonus to your Armor Class.
+- You have advantage on Dexterity saving throws.
+- You gain an additional action on each of your turns. It can only be used to take the Attack (one weapon attack only), Dash, Disengage, Hide, Search, or Use an Object action.
+When the effect ends, you can’t move or take actions until after your next turn, as a wave of lethargy sweeps over you.
+This Exploit's effects do not stack with the *haste* spell.
+#### Inspirational Speech
+
+*Prerequisites: 9th level, Charisma of 15*
+
+You can expend an Exploit Die and spend 1 minute giving an inspirational speech to a number of creatures that can hear you equal to 1 + your Charisma modifier. At the end of this speech, targets gain temporary hit points equal to your level.
+
+While the temporary hit points from this Exploit last, the creatures have advantage on Wisdom saving throws.
+
+#### Mythic Athleticism
+*Prerequisites: 9th level, Strength or Constitution of 15*
+
+As a bonus action, you can expend an Exploit Die to enter a heightened state of physical performance which you must concentrate on as if you were concentrating on a spell. For
+the next 10 minutes, you gain the benefits listed below:
+- Whenever you make a Strength or Constitution check, you can treat a roll of 9 or lower on the d20 as a 10.
+- Your speed increases by a number of feet equal to 5 times
+- your Strength modifier (minimum of 5 feet).
+- You count as one size larger for the purposes of carrying capacity and the size of creatures that you can grapple. Both your long and high jump distances double, even if that distance would exceed your remaining movement.
+When the effects of this Exploit would end you can expend
+one of your Hit Dice to increase the duration by 10 minutes.
+
+{{pageNumber,auto}}
+\page
+
+
+#### Recruit Mercenary
+*Prerequisites: 9th level, Intelligence or Charisma of 15*
+
+You can expend an Exploit Die and spend 1 hour to recruit a humanoid Mercenary from a settlement you currently occupy. For this Exploit to work, there must be a willing humanoid in a settlement of significant size, as determined by the DM.
+When you use this Exploit, you choose to recruit a Brute
+or a Scout, which determines certain traits in its stat block.
+The Mercenary uses the stat block below, and rolls its own initiative in combat. On its turn, it does its best to follow any orders you have given it. Other than that, it will defend itself to the best of its ability. If you fall to 0 hit points or die, they abandon you and do everything in their power to flee home.
+Once you use this Exploit in a settlement, you cannot use it there again for 7 days. You can only have one Mercenary following you at a time. Recruiting another causes any other Mercenaries to immediately abandon you and return home.
+
+{{monster,frame
+## Mercenary
+*medium humanoid, any alignment*
+___
+**Armor Class (Brute)** :: 18 (scale mail, shield)
+**Armor Class (Scout)** :: 15 (studded leather)
+**Hit Points**  :: 6 + five times your warden level
+**Speed**       :: 30 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|16 (+3)|16 (+3)|13 (+1)|10 (+0)|12 (+1)| 8 (-1)|
+___
+**Saving Throws**        :: Str +6, Dex +6
+**Skills Athletics**     :: +6 (Brute), Stealth +6 (Scout)
+**Condition Immunities** :: None
+**Senses**               :: passive Perception 12
+**Languages**            :: common and one other language
+___
+***Hit Dice.*** The Mercenary has a number of d10 Hit
+Dice equal to your level. It also gains all the normal benefits of both short and long rests.
+:
+***Morale.*** If you fall to 0 hit points the Mercenary does everything in its power to flee and return home.
+:
+***Rough & Tumble (Brute).*** The Mercenary can use a bonus action to attempt a Shove or Grapple.
+:
+***Cunning Strike (Scout).*** If the Mercenary makes an
+attack with advantage, it deals 2d6 bonus damage.
+:
+***Slippery (Scout).*** The Mercenary can use a bonus
+action to take the Disengage or Hide action.
+### Actions
+***Battleaxe (Brute).*** *Melee Weapon Attack* +6 to hit,
+reach 5 ft., one target. *Hit* 1d8 +3 slashing damage.
+:
+***Shortsword (Scout).*** *Melee Weapon Attack* +6 to hit, reach 5 ft., one target. *Hit* 1d6 +3 slashing damage.
+:
+***Shortbow (Scout).*** *Ranged Attack* +6 to hit, range
+80/320, one target. Hit: 1d6 +3 piercing damage.
+}}
+
+
+ 
+#### Resilient Body
+*Prerequisites: 9th level, Constitution of 15*
+
+When you take damage from a source you can see, you can
+expend an Exploit Die to reduce the damage by twice your
+Exploit Die + your Constitution modifier. Any hit points not
+consumed by the attack become temporary hit points.
+
+
+#### Survey Settlement
+*Prerequisite: 9th level, Dexterity or Charisma of 15*
+
+You can expend an Exploit Die and spend 1 hour gathering
+information on up to 1 square mile of a settlement that you currently occupy. At the end of the hour, you gain knowledge about three of the following as they relate to the area:
+- Any active factions and faction outposts within the area.
+- Prominent buildings, gathering places, and cultural sites.
+- Powerful (CR 1 or higher) politicians or military leaders.
+- Loyalties, beliefs, and fears of the local populace.
+- Secret alleyways, doors, hideouts, or storefronts.
+
+Once you use this Exploit to survey a settlement you must
+finish a long rest before you can use it in that location again.
+
+#### Survey Wilderness
+*Prerequisite: 9th level, Strength or Wisdom of 15*
+
+You can expend an Exploit Die and spend 1 hour gathering
+information on up to 1 square mile of a wilderness that you currently occupy. At the end of the hour, you gain knowledge about three of the following as they relate to the area:
+- Any settlements or camps with five or more occupants.
+- Prominent natural formations, bodies of water, and ruins.
+- Native plants, animals, weather, and ecosystems.
+- Powerful (CR 1 or higher) creatures that reside within, orhave passed through the area within the last 24 hours.
+
+Once you use this Exploit to survey an area of wilderness
+you must finish a long rest before you can use it there again.
+

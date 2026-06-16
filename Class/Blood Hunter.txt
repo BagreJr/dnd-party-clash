@@ -1,0 +1,1647 @@
+```metadata
+title: Blood Hunter
+description: ''
+tags: []
+systems: []
+renderer: V3
+theme: 5ePHB
+
+```
+
+```css
+.page{
+	width  : 210mm;
+	height : 296.3mm;
+}
+
+css
+
+.page .columnWrapper {
+	height: 100%
+}
+
+.page .toc.wide {
+	columns: 1;
+	height: 100%;
+}
+
+.page .toc > ul > li {
+	font-weight:100;
+	margin-bottom:-2.1px;
+
+}
+
+.page .toc ul ul {
+	margin-left: 0;
+	font-weight: 5;
+	color: black;
+}
+
+
+
+
+
+
+```
+
+{{frontCover}}
+
+{{logo ![](/assets/naturalCritLogoRed.svg)}}
+
+# Blood Hunter
+
+
+![background image](https://i.imgur.com/s7z814M.jpg){position:absolute,bottom:0,left:-50px,height:100%}
+
+\page
+{{toc,wide
+
+  - #### [{{ Blood Hunter}}{{ 3}}](#p3)
+    -  [{{ Self-Sacrificing Hunters}}{{ 3}}](#p3)
+    -  [{{ Ancient & Sinister Rites}}{{ 3}}](#p3)
+    -  [{{ Creating Your Blood Hunter}}{{ 3}}](#p3)
+  - #### [{{ Class Features}}{{ 4}}](#p4)
+    -  [{{ Hunter’s Bane}}{{ 5}}](#p5)
+    -  [{{ Fighting Style}}{{ 5}}](#p5)
+    -  [{{ Blood Rites}}{{ 5}}](#p5)
+    -  [{{ Crimson Offering}}{{ 6}}](#p6)
+    -  [{{ Occult Order}}{{ 6}}](#p6)
+    -  [{{ Ability Score Improvement}}{{ 6}}](#p6)
+    -  [{{ Extra Attack}}{{ 6}}](#p6)
+    -  [{{ Crimson Brand}}{{ 6}}](#p6)
+    -  [{{ Grim Psychometry}}{{ 6}}](#p6)
+    -  [{{ Dark Augmentation}}{{ 6}}](#p6)
+    -  [{{ Improved Crimson Offering}}{{ 6}}](#p6)
+    -  [{{ Vital Control}}{{ 6}}](#p6)
+    -  [{{ Crimson Anchor}}{{ 6}}](#p6)
+    -  [{{ Hardened Soul}}{{ 7}}](#p7)
+    -  [{{ Sanguine Mastery}}{{ 7}}](#p7)
+- ### [{{ Occult Order}}{{ 7}}](#p7)
+  -  [{{ Order of Alchemists}}{{ 7}}](#p7)
+  - ###### [{{ Mutagens}}{{ 8}}](#p8)
+  -  [{{ Order of Ascension}}{{ 9}}](#p9)
+  -  [{{ Order of the Crimson Needle}}{{ 10}}](#p10)
+  -  [{{ Order of the Crystal}}{{ 11}}](#p11)
+  -  [{{ Order of Dawnbringer}}{{ 12}}](#p12)
+  -  [{{ Order of Hellfire}}{{ 13}}](#p13)
+  -  [{{ Order of Heretics}}{{ 14}}](#p14)
+  -  [{{ Order of Ichor}}{{ 15}}](#p15)
+  -  [{{ Order of the Inquisition}}{{ 16}}](#p16)
+  -  [{{ Order of the Pale Moon}}{{ 17}}](#p17)
+  -  [{{ Order of Temporal Knights}}{{ 18}}](#p18)
+  -  [{{ Order of Reapers}}{{ 19}}](#p19)
+  -  [{{ Order of Salt & Iron}}{{ 20}}](#p20)
+  -  [{{ Order of Sorcery}}{{ 21}}](#p21)
+  - ###### [{{ Broken Spells}}{{ 21}}](#p21)
+  -  [{{ Order of Transference}}{{ 22}}](#p22)
+  -  [{{ Order of Undying Thirst}}{{ 23}}](#p23)
+  -  [{{ Order of Witch Knights}}{{ 24}}](#p24)
+  -  [{{ Order of the Wyrm}}{{ 26}}](#p26)
+- ### [{{ Blood Rites}}{{ 27}}](#p27)
+}}
+
+
+
+\page
+## Blood Hunter
+:
+When the young man's blindfold was
+removed he found himself in a dimly lit
+room surrounded by hooded figures. He
+stood in front of a small dais that held a
+vial of gleaming crimson liquid. Months of
+training had led him to this moment. If he
+survived drinking the vial, the Hunter's Bane,
+he would never be the same. Becoming more
+than human, he would finally have the power
+to avenge his family that lay dead all these years.
+
+As the horde of demonic spawn lurched toward
+her, the aging half-elf ran her thin blade along her
+palm, coating it in her blood. In an instant, the blood
+ignited, wreathing her sword in a ghastly blue flame.
+She fell upon the horde as a blur of azure fire and cold
+steel. She would show no mercy to the hellspawn today.
+
+In the light of the pale moon, an almost feral halfling got down on all fours to sniff the tracks before him. The scent of
+goblin was unmistakable, vile rags and rotten meats. With a bestial howl, the halfling grew in size and wiry gray fur burst forth from his arms and legs. As fast as the wind, the halfling werewolf began another hunt in the light of the full moon.
+
+All of the strange and monstrous warriors described above are Blood Hunters, guardians who infect and inoculate their very blood with accursed power so they may hunt monsters.
+
+### Self-Sacrificing Hunters
+Blood Hunters have no formal hierarchy and their Orders are as varied as the curses they choose to bear, but they do hold one thing in common, the Hunter's Bane. Those who survive this ancient and deadly ritual are able to wield the signature sanguine magic that marks them as a Blood Hunter.
+
+The makeup of this sinister ritual varies by Order and era, with each incorporating monstrous curses and magic which grant a Blood Hunter the unique abilities of their Order. This ritual permanently changes the subject, inoculating its blood with monstrous power at the expense of what makes them a normal mortal. Wherever monsters lurk, there also are Blood Hunters who have given up their chance at a mundane life so they may stalk and slay the vile creatures of darkness.
+
+### Ancient & Sinister Rites
+Wherever creatures of darkness prowl, so do warriors who stand against them. Many Orders of Blood Hunters can trace their lineage back to ancient days. The blood magic they use is older than the divine magic of Clerics and is a legacy of dark times when mortals were left to fend for themselves. Though their blood magic is grim in nature and unsettling in practice, many Blood Hunters place a great deal of pride in the elder traditions, rituals, and rites of their Occult Order.
+\column
+
+
+### Creating Your Blood Hunter
+When creating a Blood Hunter, the most important thing to consider is why they would choose this accursed way of life. Were they the victim of a horrible monster attack and swore vengeance, no matter the personal cost? Were they trained from birth under the tutelage of an elder hunter, and forged into a relentless monster slayer? Or, were they recruited by
+a secretive society for their exceptional talent at hunting?
+
+#### Quick Build
+You can make a Blood Hunter quickly by following these suggestions. First, make either your Strength or Dexterity your highest ability score, followed by your Constitution. Second, choose the Haunted One background.
+
+{{imageMaskCorner6,--offsetX:50%,--offsetY:-10%,--rotation:0
+  ![](https://i.imgur.com/2vrNiBt.png){height:75%,left:200px,top:280px}
+}}
+{{pageNumber,auto}}
+\page
+## Class Features
+
+As a  Blood Hunter, you gain the following class features
+
+#### Hit Points
+**Hit Dice:**                    :: 1d12  per  Blood Hunter level
+**Hit Points at 1st Level:**     :: 12  + your Constitution modifier
+**Hit Points at Higher Levels:** :: 1d12  (or 7) + your Constitution modifier per  Blood Hunter level after 1st
+
+#### Proficiencies
+**Armor:**   :: Light armor, medium armor, shields
+**Weapons:** :: Simple weapons, martial weapons
+**Tools:**   :: Alchemist's supplies
+
+**Saving Throws:** :: Constitution, Strength
+**Skills:**        :: Choose two: Athletics, Acrobatics, Arcana, History, Insight, Investigation, Nature, Religion, and Survival
+
+#### Equipment
+You start with the following equipment, in addition to
+the equipment granted to you by your background:
+
+- *(a)* a martial weapon or *(b)* two simple weapons
+- *(a)* a light crossbow and 20 bolts or *(b)* four javelins
+- *(a)* studded leather armor or *(b)*  scale mail armor
+- alchemist's supplies and an explorer's pack
+
+{{classTable,frame,decoration
+##### The Blood Hunter
+| Level | PB | Features |Rite Die| Rites Known        |
+|:-----:|:-----------------:|:---------|:-:|:---------------------:|
+|  1st  |  +2  | 	Hunter's Bane, Fighting Style    |—|         —           |
+|  2nd  |  +2  | Crimson Offering, Blood Rites|d4|          2            |
+|  3rd  |  +2  | 	Occult Order  |d4|          2            |
+|  4th  |  +2  |	Ability Score Improvement|d4|          2            |
+|  5th  |  +3  | Extra Attack	  |d6|          3            |
+|  6th  |  +3  |Crimson Brand    |d6|          3            |
+|  7th  |  +3  | Order Feature |d6|          3            |
+|  8th  |  +3  | 	Ability Score Improvement|d6|          3            |
+|  9th  |  +4  | Grim Psychometry   |d6|          4            |
+| 10th  |  +4  | Dark Augmentation |d6|          4            |
+| 11th  |  +4  | 	Improved Crimson Offering, Vital Control|d6|          4            |
+| 12th  |  +4  |	Ability Score Improvement|d8|          4            |
+| 13th  |  +5  | Order Feature|d8|          5            |
+| 14th  |  +5  | 	Crimson Anchor|d8|          5            |
+| 15th  |  +5  | 	Hardened Soul|d8|          5            |
+| 16th  |  +5  |	Ability Score Improvement|d8|          5            |
+| 17th  |  +6  | ─|d10	|          6            |
+| 18th  |  +6  | 	Order Feature|d10	|          6            |
+| 19th  |  +6  |	Ability Score Improvement|d10	|          6            |
+| 20th  |  +6  | Sanguine Mastery |d10	|      6        |
+}}
+:
+
+\column
+
+
+{{imageMaskEdge5,--offset:5%,--rotation:270
+  ![](https://www.gmbinder.com/images/PuV5YRz.jpg){height:110%,top:0px,left:-100px}
+}}
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+{{note
+##### Warning: Depictions of Self Harm
+This class contains mild descriptions of self-harm. If you, or a player in your game, are uncomfortable with depictions of self-harm, then you should think twice before playing a Blood Hunter character.
+}}
+
+
+
+
+{{pageNumber,auto}}
+\page
+### Hunter's Bane
+ At 1st level, you gain proficiency in either Arcana, Nature, or Religion.
+
+As a bonus action, you can use this dark insight to analyze a creature you can see within 30 feet, making an ability check using the corresponding skill below (DC equals 8 + its CR):
+
+Skill|	Creature Types
+:-:|:-:
+Arcana|	Aberrations, Dragons, Monstrosities
+Nature|	Beasts, Elementals, Oozes, Plants
+Religion|	Celestials, Fey, Fiends, Undead
+
+On a success, you learn one of the following characteristics of your choice: its highest or lowest ability score, its damage vulnerabilities, resistances, and immunities, all conditions it is immune to, or another weakness the creature may have.
+
+If the characteristic you choose doesn't apply to the target then the DM reveals another relevant characteristic to you.
+### Fighting Style
+At 1st level, you gain a Fighting Style of your choice from the list below. You can't learn a Fighting Style more than once, even if another feature allows you to learn another Fighting Style.
+
+When you gain a level in this class, you can replace your Fighting Style with another option from the list below.
+
+#### Archery
+You gain a +2 bonus to attack rolls with ranged weapons.
+
+#### Dual Wielding
+When you take the Attack action while two-weapon fighting, you can make a single additional attack with your off-hand weapon as part of your action instead of your bonus action, adding your ability modifier to the damage of this attack.
+
+#### Dueling
+When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with it.
+
+#### Featherweight Fighting
+While you are wielding only light weapons and nothing else, your speed increases by 10 feet and you gain a +1 bonus to damage rolls with your light weapons, so long as you are not wearing medium or heavy armor, or wielding a shield.
+
+#### Great Weapon Fighting
+When you roll a 1 or 2 on the damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the damage, though you must use the new roll, even if the new roll is a 1 or a 2.
+
+The weapon must have the heavy, versatile, or two-handed property to gain this benefit.
+
+#### Melee Marksman
+Having a hostile creature within 5 feet of you doesn't impose disadvantage on your ranged weapon attacks, so long as you are attacking a creature within 5 feet.
+
+When you make a ranged weapon attack against a creature within 5 feet, you can use your bonus action to make a melee attack against it with your ranged weapon. On hit, you deal bludgeoning damage equal to 1d4 + your Strength modifier.
+
+#### Thrown Weapon Fighting
+You can draw a weapon that has the thrown property as part of the attack you make with the weapon. Moreover, whenever you hit with a ranged weapon attack using a thrown weapon, you gain a +2 bonus to the damage roll of that attack.
+
+### Blood Rites
+At 1st level, you learn dark magic of Blood Rites:
+
+#### Blood Rites Known
+At 1st level, you learn two such Blood Rite, from the list at the end of the class. At certain levels you learn more Blood Rites, as indicated in the Rites Known column of the table above.
+
+Once you invoke a Blood Rite you must finish a short or long rest before you can invoke that Blood Rite again. When you have no uses of a Blood Rite remaining, you can make a Vital Sacrifice (detailed below) to use that Rite again.
+
+Blood Rites can only be used against creatures with blood. However, when you make a Vital Sacrifice to empower a Rite, you can target any creature, regardless if it has blood or not.
+
+#### Rite Die
+Some Blood Rites and other Blood Hunter features use your Rite Die, which starts as a d4. At certain Blood Hunter levels, this die grows, as indicated in the Rite Die column above.
+
+#### Vital Sacrifice
+Some Blood Rites and Blood Hunter features allow you to sacrifice your own life to fuel additional effects. When you make a Vital Sacrifice, you reduce both your maximum and current hit points by one roll of your Rite Die. This reduction to your hit points cannot be lessened in any way.
+
+If you have temporary hit points, you can reduce these in place of reducing your current hit points. You always reduce your maximum hit points when making a Vital Sacrifice.
+
+At the end of your next long rest, any reduction to your maximum hit points from this feature returns to normal.
+
+Saving Throws
+If a Blood Rite requires a creature to make a saving throw, your Rite saving throw DC is calculated as follows:
+:
+**Rite save DC** = 8 + your proficiency bonus + your Constitution modifier
+
+
+
+
+{{pageNumber,auto}}
+\page
+### Crimson Offering
+Starting at 2nd level, you can infuse weapons with dark blood magic. As a bonus action, you can make a Vital Sacrifice to empower one melee weapon you are holding for 1 hour.
+
+When you do so, choose either acid, cold, fire, lightning, or poison damage. When you hit a creature with an attack with the empowered weapon, the creature takes bonus damage of the type you selected equal to one roll of your Rite Die.
+
+### Occult Order
+At 3rd level, you choose the Occult Order that best represents your Blood Hunters training and style of blood magic: Order of Alchemists, Order of Ascension, Order of Ichor, Order of the Pale Moon, Order of Salt & Iron, Order of Undying Thirst, or Order of Witch Knights.
+
+The Occult Order you choose grants you features at 3rd level and again when you reach 7th, 13th, and 18th levels.
+
+### Ability Score Improvement
+When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or two ability scores of your choice by 1. As normal, you can't increase one of your ability
+scores above 20 using
+this feature.
+
+### Extra Attack
+Beginning at 5th level, you can attack twice, instead of once, each time that you take the Attack action on your turn.
+
+Moreover, each time you invoke a Blood Rite that takes your action to use, you can use your bonus action on that same turn to make a weapon attack.
+### Crimson Brand
+You can sear your foes with blood magic. Starting at
+6th level, when you damage a creature with Crimson Offering, you can Brand it with blood magic as part
+of your attack. While this Crimson Brand lasts, you
+gain the following benefits:
+
+- You always know the exact direction of the creature, so long as you are both on the same plane of existence.
+- When the creature damages you or a friendly creature that you can see within 5 feet of you, it takes damage of your Crimson Offering type equal to your Rite Die.
+
+The Crimson Brand lasts until the creature is slain, or
+until you mark another creature with this feature. The effect of your Crimson brand can be dispelled by remove curse.
+
+Once you use this feature you must complete a short or long rest before you can use it again. If you have no uses
+left you can make a Vital Sacrifice to use this feature again.
+
+\column
+
+### Grim Psychometry
+Your familiarity with dark magic allows you to decipher the influence of similar effects. Starting at 9th level, you can use alchemist's supplies to cast identify as a ritual spell. Also, when you cast identify you also learn if the object is cursed.
+
+You also learn to cast legend lore as a ritual, targeting one creature or object you touch, or your current location. The target can have a sinister, violent, or cursed history in place of being a target of legendary importance. When you cast it this way, you use alchemist's supplies and make a Vital Sacrifice to replace the normal material components of the spell.
+
+### Dark Augmentation
+You can draw on the magic of your blood to enhance your physical abilities. Starting at 10th level, whenever you make an ability check or saving throw that uses Strength, Dexterity, or Constitution, you add a roll of your Rite Die to the result.
+
+### Improved Crimson Offering
+You are a master of combining blood magic with martial skill. Starting at 11th level, when you use Crimson Offering, you can choose for the bonus damage to be necrotic, psychic, or thunder, along with the other damage type options.
+
+Also, you can use Crimson Offering without making a Vital Sacrifice. Once you do so, you must finish a short or long rest before you can use it again without making a Vital Sacrifice.
+
+### Vital Control
+Also at 11th level, you gain a greater measure of control over your blood magic. Whenever you make a Vital Sacrifice, you can roll your Rite Die twice and choose which result to use.
+
+In addition, when you invoke a Blood Rite you know, you can choose to empower it without making a Vital Sacrifice. Once you do so, you must finish a long rest before you can
+    empower any Blood Rite you know in this way again.
+
+### Crimson Anchor
+Your blood is warded by powerful abjuration magic. Starting at 14th level, when you mark a creature with Crimson Brand, the damage it takes when it attacks you or a friendly creature within 5 feet of you increases to two rolls of your Rite Die.
+
+Finally, if a creature marked by Crimson Brand attempts
+to teleport or leave the current plane with a spell or feature,
+it must succeed on a Wisdom saving throw against your Rite save DC or take damage of your Crimson Offering type equal to four rolls of your Rite Die and have its spell or feature fail.
+{{pageNumber,auto}}
+\page
+### Hardened Soul
+Your experiences have hardened you against all but the most esoteric attacks. Beginning at 15th level, whenever you are forced to make an Intelligence, Wisdom, or Charisma saving throw you gain a bonus to your roll equal to your Rite Die.
+
+### Sanguine Mastery
+You have gained unparalleled mastery over the dark power
+of blood magic, improving its potency while minimizing the sacrifices you must make. At 20th level, whenever you roll a Rite Die for one of your Blood Hunter abilities, you can roll the Rite Die twice and choose which result to use.
+
+Also, whenever you make a Vital Sacrifice, you subtract your Constitution modifier (minimum of 1) from your Vital Sacrifice roll before you reduce your maximum and current hit points. This cannot reduce your Vital Sacrifice below 1.
+
+## Occult Order
+Choose the Order that best represents your Blood Hunter.
+
+### Order of Alchemists
+Blood Hunters that join this Order make use of alchemy and dark transmutation magic to mutate their physical form. The sinister power in their blood triggers massive physiological changes thanks to experimental Mutagens. These mutants are often striving to evolve into an ultimate physical form.
+
+
+#### Monstrous Awareness
+At 3rd level, the unnatural power of the Mutagens in your blood also empowers your blood magic. When you make an ability check that uses alchemist's supplies, or use Hunter's Bane to analyze an Aberration, Monstrosity, or Ooze you can add one roll of your Rite Die to your roll.
+\column
+
+#### Aberrant Alchemy
+At 3rd level, you knowledge of dark alchemy allows you to inoculate your blood with Mutagens, granting you the following benefits:
+
+**Latent Mutagens.** You inoculate your bloodstream with three Mutagens of your choice from the list at the end of this Occult Order description. You don't gain the benefits of these Latent Mutagens until you use a bonus action to Mutate.
+
+During a long rest, you can spend 1 hour using alchemist's supplies to perform an alchemical procedure to replace one Latent Mutagen in your blood with another of your choice.
+
+You gain two additional Latent Mutagens of your choice when you reach 7th level, and again at 13th and 18th level.
+
+**Mutation.** As a bonus action you can Mutate, radically changing your physical form and gaining the benefits from a number of your Latent Mutagens equal to your Constitution modifier (minimum of 1 Mutagen) for the next 10 minutes.
+
+You can Mutate once between each short or long rest at no cost, after which, you make a Vital Sacrifice to Mutate again.
+
+#### Enduring Mutation
+At 7th level, the potency of your sinister alchemical experiments has grown. At the end of each long rest, you choose one of your Passive Mutagens. You gain the benefits of that Mutagen, as
+if you were Mutated, until the end of your next long rest.
+
+However, when you Mutate, this Enduring Mutagen counts as one of the Mutagens that you gain the benefits of.
+
+#### Noxious Strike
+Also at 13th level, you can weaponize the strange toxins in your blood to afflict your enemies. Once per turn when you hit a creature with a melee attack, you can use a bonus action on that turn to force it to make a Constitution saving throw against your Rite save DC. On a failure, it is blinded and stunned for 1 minute.
+
+The creature can repeat its saving throw at the end of each of its turns and each time it takes damage, ending the effects on a success. Any creature that succeeds on its saving throw against this ability is immune to this effect for 24 hours.
+
+#### Rapid Mutation
+Beginning at 18th level, you have gained mastery over your body's mutability. While you are Mutated, you can use a bonus action to switch one of your active Mutagens for one of your Passive Mutagens.
+
+{{imageMaskCorner5,--offsetX:-50%,--offsetY:-40%,--rotation:0
+  ![](https://www.gmbinder.com/images/oku4mar.jpg){height:45%,left:-250px}
+}}
+
+![Alchemists](https://www.gmbinder.com/images/RZcJMUU.png) {position:absolute,top:705px,right:300px,width:650px}
+
+{{note
+##### Alchemists & Experimentation
+The Mutagens included on the following page are the most common examples of Mutagens created by Blood Hunters of this Order. Talk to your DM about crafting custom Mutagens based on abilities from monsters that you have slain or studied
+}}
+
+{{pageNumber,auto}}
+\page
+
+### Mutagens
+Below are the Mutagens available to the Order of Alchemists. If a Mutagen has a Blood Hunter level prerequisite, you can learn it at the same time you meet that level prerequisite.
+
+You only gain the benefits of your Passive Mutagens when you Mutate. Until then, they lie dormant in your bloodstream.
+
+#### Aberrant Sight
+You sprout eldritch eye stalks or manifest additional eyes.
+You gain darkvision out to a 60-foot radius. If you already have darkvision its range increases by 60 feet. Within this radius, you can also see through magical darkness.
+
+#### Aquatic Adaptation
+You sprout unnatural gills or your skin becomes permeable and amphibious. You gain a swimming speed equal to your walking speed, and you can breathe both air and water.
+
+#### Deviant Glide
+You grow bat-like skin flaps that you use to glide. When you fall at least 5 feet and are not incapacitated, you can subtract up to 100 feet from your fall when you calculate fall damage, and you can move horizontally 2 feet for every 1 foot you fall.
+
+#### Elemental Resistance
+Your experiments grant you an increased resistance to the elements. You gain resistance to either acid, cold, fire, poison, or lightning damage (your choice when you Mutate).
+
+#### Enhanced Movement
+Your legs grow unnaturally thick or powerful. You can take the Dash action as a bonus action on each of your turns.
+
+#### Grappling Appendage
+You grow an extra appendage from your back that resembles a tentacle. This appendage has a reach of 10 feet and can be used to make unarmed strikes, shove, and grapple. On hit, it deals bludgeoning damage equal to one roll of your Rite Die.
+
+This appendage can be used for simple tasks, but it cannot wield weapons or shields, or manipulate objects or tools.
+
+Starting at 13th level, this Mutagen grows two appendages.
+#### Oozing Form
+Your body becomes slimy and pliable. As a bonus action, you can transform into (or revert from) an ooze-like state which allows you to squeeze through gaps as narrow as 1-inch, though you cannot attack.
+
+#### Unnatural Physicality
+Your muscles engorge with toxic chemicals. You gain a bonus to any Strength (Athletics) and
+Dexterity (Acrobatics) checks you make equal to one roll of your Rite Die.
+
+\column
+
+#### Acidic Bile
+*Prerequisite: 7th level Blood Hunter*::
+You can spew a corrosive acid forth from your mouth.
+        You learn the acid splash cantrip, using Constitution as
+        your spellcasting modifier. When you cast this cantrip
+        you gain a bonus to the damage roll equal to your
+          Constitution modifier (minimum of +1).
+
+#### Corrosive Secretions
+*Prerequisite: 7th level Blood Hunter*::
+Your wounds expel a corrosive acid. When you are hit by
+     an attack and your attacker is within 30 feet, you can use
+   your reaction to deal acid damage to the attacker equal to
+  one roll of your Rite Die + your Constitution modifier.
+
+#### Inoculated Vigor
+*Prerequisite: 7th level Blood Hunter*::
+You gain immunity to acid and poison damage, and you have advantage on saving throws to resist the poisoned condition.
+
+#### Toxic Vitality
+*Prerequisite: 7th level Blood Hunter*::
+Your body mends itself as you fight. At the start of each of your turns while you are Mutated, you gain temporary hit points equal to your Constitution modifier (minimum of 1).
+
+#### Viscous Grip
+*Prerequisite: 7th level Blood Hunter*::
+Your hands and feet secrete a sticky substance. You gain a climbing speed equal to your walking speed, and you can climb difficult surfaces without making an ability check.
+
+#### Grappling Appendages
+*Prerequisite: 13th level Blood Hunter*::
+You grow two appendages alongside your arms that resemble tentacles. They are natural weapons, which deal bludgeoning damage equal to your Rite Die on hit. If you hit a creature with a melee attack, you can attempt to grapple it with these appendages as a bonus action. These appendages are not dexterous enough to use weapons or specialized tools.
+
+#### Synthetic Carapace
+*Prerequisite: 13th level Blood Hunter*::
+Your skin hardens resembling that of an terrible insectoid
+or reptilian creature. You gain a bonus to your Armor Class equal to half your Constitution modifier (rounded down).
+
+#### Perverted Flight
+*Prerequisite: 13th level Blood Hunter*::
+You sprout a pair of unnatural leathery or insectoid wings. You gain a flying speed equal to your walking speed.
+{{pageNumber,auto}}
+\page
+### Order of Ascension  
+Arguably the most blasphemous Order of Blood Hunters, the Order of Ascension performs an unholy ritual upon each of their members where they minde their blood with that of a celestial creature. The divine magic within their blood allows members of this Order to underto a luminous transformation where they temporarily wield the power of a celestial being.  
+  
+Due to the nature of their blood magic, members of this Order are often persecuted relentlessly by chosen servants of the divine, and regularly find themselves at odds with the Clerics, Paladins, priests, and laity of organized churches.  
+  
+#### Celestial Grace 
+At 3rd level, celestial magic in your blood grants you supernatural levels of grace and presence. You gain proficiency in your choice of Performance or Persuasion, and when you make a Charisma (Performance) or a Charisma (Persuasion) check, you gain a bonus to your roll equal to one roll of your Rite Die.  
+  
+Finally, when you use Crimson Offering to empower your weapon, you can choose for the bonus damage to be radiant.
+
+Also, whenever you use Hunter's Bane to analyze a celestial, you gain a bonus to your ability check equal to one roll of your Rite Die.
+#### Radiant Ascension 
+At 3rd level, you can draw upon the power of the celestial magic within your blood if only for a short time. As a bonus action, you can transform into a Radiant Form which resembles the celestial from which you draw your divine blood magic. While you are in your Radiant Form you sain the following benefits:  
+- You gain temporary hit points equal to your Charisma modifier (minimum of 1 ) + your Blood Hunter level  
+- Whenever you can make an attack on your turn, you can instead produce a Radiant Bolt from your empty hand Make a ranged spell attack against a target you can see within 60 feet, using your Charisma as the spellcasting modifier. On hit, the tarket takes radiant damage equal to 1d8 + your Charisma modifier.  
+- When a creature you can see within 30 feet makes an ability check or saving throw, you can use your reaction to add one roll of your Rite Die to the result of its roll  
+
+This transformation lasts for 1 minute. It ends carly if you are incapacitated or you choose to end it as a bonus action.  
+  
+Once you transform, you must finish a short or long rest before you can do so again. If you have no uses of this feature remaining you can make a Vital Sacrifice to transform again.
+
+\column
+
+#### Luminous Warrior
+By 7th level, you are able to draw out a greater amount of the divine power imbued within your blood When transform in your Radiant Form, you gain the following additional benefits:  
+- You gain resistance to necrotic damage, and bludgeoning. piercing and slashing damage from nonmagical attacks.  
+- When you use a Blood Rite that deals necrotic damage, you can choose for it to deal radiant damage instead  
+- Once per turn when you hit a target with Radiant Bolt, you deal bonus radiant damage equal to a roll of your Rite Die.  
+  
+#### Divine Ascent 
+Starting 13th level, your mortal flesh can withstand a wondrous amount of divine magic. Your transformation into your Radiant Form lasts for 10 minutes, and while you are transformed into your Radiant From you glain a flying speed equal to your walking speed  
+  
+In addition, you can make Radiant Bolt attacks even when you are not in your Radiant Form.  
+#### Anointed Slayer   
+At 18th level, you wield divine power rivaling that of the champions of celestial courts. You can transform into your Radiant Form at will without needing to make a Vital Sacrifice to do so, and your Radiant Form transformation lasts indefinitely.  
+  
+Finally, once per turn when you hit a creature with your Radiant Bolt attack, you can force it to make a Constitution saving throw against your Rite Save DC. On a failed save, the creature is blinded until the beginning of your next turn.
+{{pageNumber,auto}}
+\page
+### Order of the Crimson Needle
+For Blood Hunters of the Order of the Crimson Needle, the body is a map of pressure points and vital conduits. By infusing their blood with the essence of predatory arachnids and celestial alignment, they don't just hack at their foes—they systematically shut them down with surgical strikes until the final, lethal sting is delivered.
+
+#### Needle's Precision
+
+At 3rd level,our training allows you to strike with the accuracy of a scorpion's stinger. When you use Crimson Offering to empower a weapon, you can choose for the bonus damage to be poison or piercing.
+
+Additionally, your weapon attacks with a light or finesse weapon score a critical hit on a roll of 19 or 20.
+
+#### Toxic Sovereignty
+Also at 3rd level, the chemicals used in your Hunter's Bane have rendered you resilient to the very toxins you wield. You gain resistance to poison damage and have advantage on saving throws against being poisoned.
+
+Additionally, when you use your Hunter's Bane to analyze a creature, you add a roll of your Rite Die to the ability check.
+
+#### Restriction of the Scarlet Sting
+At 7th level, your strikes begin to paralyze the central nervous system of your enemies. 
+
+Once per turn, when you hit a creature with a weapon empowered by your Crimson Offering, you can force the target to make a Constitution saving throw against your Rite save DC. 
+
+On a failure, the creature's speed is reduced to 0 and it cannot take reactions until the end of your next turn. 
+
+You can use this feature a number of times equal to your Constitution modifier, regaining all uses after a long rest. If you have no uses left, you can make a Vital Sacrifice to use it again
+
+#### Antares: The Heart of the Scorpion
+Starting 13th level, you have mastered the fourteen strikes that lead to the fifteenth—Antares. When you hit a creature marked by your Crimson Brand, you can use a bonus action to deliver a devastating surge of sanguine energy. 
+
+The target takes necrotic damage equal to four rolls of your Rite Die. If the target has been hit by your Restriction of the Scarlet Sting since the start of your last turn, it has disadvantage on the next saving throw it makes before the end of your next turn.
+
+\column
+
+#### Celestial Scorpion Mastery
+At 18th level, you become the embodiment of the celestial predator. You can take the Dash action as a bonus action, provided you move toward a hostile creature.
+
+Additionally, when you use your Antares feature, the damage increases to eight rolls of your Rite Die. If this damage reduces the creature to 0 hit points, it is instantly turned into a pile of scarlet dust.
+{{pageNumber,auto}}
+\page
+### Order of the Crystal
+In order to combat the otherworldly curse which plagues the
+land, you have taken a piece of this crystalline corruption into
+your very flesh. Using its unpredictable and alien power, you
+work to undo the corruption upon your land, but the more you
+draw on this crystalline power, the more you lose yourself.
+
+#### Unnatural Empowerment
+At 3rd level, you can call on the power of the crystal to assault your foes.
+When you hit a creature with a melee weapon attack, you can
+use this feature to inflict a random effect from the table below
+onto your target. Roll your Rite Die to determine the effect.
+You can use this feature a number of times equal to your
+Constitution modifier (minimum of once), and you regain all
+expended uses when you finish a long rest. When you have
+no uses left, you can make a Vital Sacrifice to use this again.
+Roll| Effect
+:-:|:-:
+1| Both you and the target are knocked back 10 feet from each other in a straight line.
+2| Until the start of your next turn, the target's speed is halved, and your speed increases by the amount its speed was reduced.
+3| The target takes bonus damage equal to your Rite Die and you gain temporary hit points equal to the same amount.
+4| The target must succeed on a Constitution saving throw against your Rite save DC or be knocked back 10 feet and fall prone.
+5| The target takes additional piercing damage equal to your Rite Die each time it is hit by a melee attack until the start of its next turn.
+6| Crystals explode from the target dealing piercing damage equal to your Rite Die to all creatures in a 15-foot cone behind it.
+7| The target must succeed on a Charisma saving throw against your Rite save DC or be teleported to an unoccupied space of your choice you can see within 30 feet.
+8| Until the start of your next turn, whenever you make a Vital Sacrifice, the target takes half the damage of the Vital Sacrifice for you.
+9| The target must succeed on a Constitution saving throw against your Rite save DC or be Blinded until the start of its next turn.
+10| The target must succeed on a Constitution saving throw against your Rite save DC or be Stunned until the start of its next turn.
+
+\column
+
+#### Crystalline Corruption
+At 3rd level, you have implanted a crystal of otherworldly corruption into your flesh in order to use its power. You gain these benefits:
+- So long as you are not wearing armor, your Armor Class equals 13 + your Constitution modifier (minimum of 13).
+- Your unarmed strikes deal damage equal to your Rite Die.
+
+- When you use Hunter's Bane to analyze an Aberration, you add your Rite Die to your ability check.
+
+
+
+#### Growing Corruption
+At 7th level, the corruption you have taken into your flesh begins to grow
+in power. While using your Crystalline Corruption unarmored
+AC, you are resistant to bludgeoning and poison damage.
+
+You can also launch corrupted crystals from your hands to
+make ranged unarmed strikes (20/40). Use your Strength for
+attack and damage rolls. On hit, they deal piercing damage.
+You can use Unnatural Empowerment through these attacks.
+#### Focused Corruption
+By 13th level, you are able to exert some control over your corrupted power.
+When you use Unnatural Empowerment you roll twice on the
+table and choose which effect takes place.
+
+Moreover, when you use Unnatural Empowerment on the target of your Crimson Brand, it has disadvantage on saving throws it must make to resist your Unnatural Empowerment.
+#### Crystalline Golem
+Starting at 18th level, the corrupted crystal has worked its way to the core of your
+being, and you can transform using its vile power. As a bonus
+action, you can transform to gain the following benefits:
+- You grow to become Large in size if there is room.
+- You gain temporary hit points equal to your level.
+- Whenever you take bludgeoning, piercing, or slashing damage you reduce it by your Constitution modifier.
+- You can use Unnatural Empowerment as part of every melee attack you make without making a Vital Sacrifice.
+
+This transformation lasts for 1 minute. You can use it once per short or long rest at no cost, after which, you must make a Vital Sacrifice to transform again.
+
+
+{{pageNumber,auto}}
+\page
+### Order of Dawnbringer
+Embracing the pure radiance that courses through their veins, the dawnbringers are warriors of luminous fervor, wielding the power of light to vanquish their enemies. Through their Brand of Luminous Zeal, they mark their foes with radiant sigils, turning them into beacons of destruction.
+
+In brightest day, in blackest night, no enemy shall escape my sight. Let those who worship enemy's might beware my power… Dawnbringer light
+
+#### Brand of Luminous zeal
+Starting at 3rd level, when you use your crimson offering feature, you may choose radiant as the damage type, or you can produce a melee weapon you are proficient with made out of pure light if you lack one.
+
+Radiant damage from your crimson offering brands it's targets with latent luminosity for 1 minute.
+
+As an action during your turn you can consume all brands within 30ft to make radiant explosions around all branded creatures. Hostile creatures within 5ft of a branded one (including themselves) take radiant damage equal to your rite die + your  Charisma modifier, plus an additional die for every explosion affecting them after the first.
+
+Whenever a brand is consumed by an ally that is withing 30ft of you, you can use this feature as a reaction, affecting all the same brands. 
+#### Hunter's Brand
+At 3rd level, when you use Hunter's Bane to analyze a branded creature you can add one roll of your Rite Die to your roll.
+
+#### Virulent light
+At 7th level, your brands become volatile. Whenever an allied creature hits a branded creature with a melee attack, they become branded for 1 minute.
+
+#### Path of Clarity
+At 7th level, your body becomes infused with light. Darkness does not obscure you and you can see in darkness, mundane or magical, as if it were dim light up to 120 feet. You are immune to blindness caused by spells and effects that involve light.
+
+You are permanently branded with luminous zeal.
+
+#### Improved arsenal of light
+By 13th level, you learn to create and imbue ranged weapons with your crimson offering. Additionally, your crimson brand and luminous brand become one.
+
+All creatures branded by your brand of luminous zeal feature are also affected by your crimson brand feature for it's duration. These don't count towards the crimson brand limit and you can still choose to brand a creature with this feature as normal to make the brand last indefinetly.
+
+\column
+
+#### Starfall
+Starting at 18th level, as an action you can become a mote of light and take to the skies, to a height of up to 500ft. In this form you are incorporeal, tiny and have resistance to all damage.
+
+At the beginning of your turn you fall down in the form of a comet. You fall at a point up to 100 ft from where you started, blasting the surrounding area with radiance. Hostile creatures within 30ft must make a constitution saving throw against your rite DC, taking 5d10 radiant damage on a failure, or half as much on a success. All brands withing the area are consumed as per the brand of luminous zeal feature, and then all creatures in the area are branded.
+
+
+If you would fall to 0hp, you can use your reaction to fall to 1hp instead and immediately use this feature.
+
+You must finish a long rest before you can use this feature again.
+{{imageMaskCorner2,--offsetX:45%,--offsetY:-17%,--rotation:0
+  ![](https://i.imgur.com/fYx3HhT.png){height:65%,left:300px,top:400px}
+}}
+{{pageNumber,auto}}
+\page
+### Order of Hellfire
+Making the ultimate sacrifice in the fight against the forces of evil, Blood Hunters of the Order of Hellfire sell their eternal soul in an infernal bargain for power. Infused with the powers of hell itself, these dark avengers use their infernal abilities to bring judgment down upon all those who harm the innocent.
+
+#### Hellfire Form 
+Starting 3rd level, as a bonus action, you can infuse your body with the powers
+of hell to transform into your Hellfire Form form for 1 minute. While transformed in this way you gain the benefits below:
+
+- You are wreathed in hellfire and terrifying to behold.
+- Your creature type changes from humanoid to fiend.
+- You gain resistance to fire, poison, and necrotic damage.
+- You manifest a flaming whip or chain in a free hand. You are considered proficient with this special weapon, it has a reach of 10 feet, and on hit, it deals magical slashing damage equal to 1d10 + your Strength modifier. 
+- This whip or chain gains the benefits of Crimson Offering without you making a Vital Sacrifice. However, the bonus Crimson Offering damage with this weapon must be fire.
+
+Your transformation ends early if you become unconscious, or if you use a bonus action to end it. Once you transform you must finish a short or long rest to transform again.
+
+When you have no uses remaining, you can make a Vital Sacrifice to use this feature again.
+
+#### Infernal Bargain
+
+At 3rd level, you have entered into an infernal pact, imbuing you with the
+powers of darkness at the cost of your eternal soul. You learn to speak, read, and write your choice of Abyssal or Infernal.
+
+Whenever you make a Charisma check to interact with fiends, or an Intelligence check to recall information about fiends, you add one roll of your Rite Die to the ability check.
+
+\column
+
+#### Piercing Stare
+At 7th level, the power granted to you by your pact with the hells allows you to peer into the souls of your foes. As an action, you can force one creature within 30 feet that can see you to see the weight of its sins and make a Wisdom saving throw against your Rite save DC. The creature takes psychic damage equal to five rolls of your Rite Die on a failure, and half as much psychic damage on a success.
+
+If you force a creature of evil alignment to make this saving throw, you can make a Vital Sacrifice as part of your action to force it to make this Wisdom saving throw with disadvantage.
+
+Once you use this feature you must finish a short or long rest before you can use it again. When you have no uses left, you can make a Vital Sacrifice to use this feature again.
+
+#### Hellfire Empowerment
+At 13th level, the hellfire that burns through your veins infuses you with a
+dark and sinister resilience. Whenever you start your turn in your Hellfire Form, you can gain temporary hit points equal to your Constitution modifier (minimum of 1).
+
+Also, your Hellfire Form increases your walking speed by 10 feet, and grants you resistance to bludgeoning, piercing, and slashing damage from non-silvered weapon attacks.
+#### Infernal Champion
+At 18th level, you have mastered the infernal magic of your Order. You can
+transform into Hellfire Form at will, without having to make a Vital Sacrifice. Moreover, your Hellfire Form transformation lasts indefinitely, and only ends if you choose to end it.
+
+
+Finally, when you are in your Hellfire Form, you can take the Dash action as a bonus action, so long as you end your movement closer to a hostile creature you can see.
+{{pageNumber,auto}}
+\page
+### Order of Heretics
+Excommunicated from their religious orders, the founders of the Order of Heretics were holy priests who desired to utilize forbidden rites to combat darkness. Branded heretics, these conduits of divine power supplemented their holy knowledge with blood magic. Now, this Order of priestly Blood Hunters works to combat wayward divine entities, both good and evil.
+
+#### Blasphemous Prayer
+At 3rd level, you are able to channel divine energies despite your status as a heretic. You gain two Channel Divinity options: Censure the Divine, which is detailed below, and one Channel Divinity of your choice from those available to Cleric Divine Domains at 2nd level. For the second, you use your Blood Hunter level in place of any mentions of Cleric level and your Rite save DC.
+
+You can use each of your Channel Divinities once, and you regain the ability to do so when you finish a short or long rest.
+
+When you have no uses left, you can make a Vital Sacrifice to use either of your Channel Divinity options again.
+
+##### Censure the Divine
+You utter blasphemies painful for divine entities to hear. Any Celestials, Fiends, or other creatures capable of divine magic (such as Clerics or Paladins) within 30 feet must succeed on a Charisma saving throw or be Turned by you for 1 minute.
+
+A Turned creature must spend its turns trying to move as far away from you as it can, and it cannot willingly move to a space within 30 feet of you. It also cannot take reactions. For its action, it can use only the Dash action or try to escape an effect that prevents it from moving. If there is nowhere for it to safely move, the creature can take the Dodge action.
+
+#### Heretical Knowledge
+At 3rd level, despite your beliefs, you understand the traditional religious practices, rites, and prayers. You gain the following benefits:
+
+You gain proficiency in Religion. If already proficient, you add double your proficiency bonus to all Religion checks.
+You learn two Cantrips of your choice from the Cleric
+spell list. Constitution is your spellcasting modifier.
+If you use Hunter's Bane to analyze a Celestial,
+Fiend, or Undead, you add one roll of your
+Rite Die to your ability check.
+
+
+#### Sinister Spellcasting
+
+At 7th level, your sinister devotions empower your ill-gotten divine magic. Whenever you deal damage with a Cleric Cantrip you add your Constitution modifier (minimum of +1) to the damage.
+
+\column
+
+#### Unholy Restoration
+At 7th level, you can draw life from one creature and transfer it to another in a dark mockery of the divine. As an action, you can force a creature you can see within 30 feet to make a Constitution saving throw against your Rite save DC. On a failure, it takes necrotic damage equal to four rolls of your Rite Die, and half as much necrotic damage on a success. It has disadvantage on its saving throw if you touch it as part of this action.
+
+As part of the action, a creature you can see within 30 feet regains hit points equal to half the necrotic damage dealt.
+
+You can use this feature a number of times equal to your Constitution modifier (minimum of once), and you regain all uses when you finish a long rest. When you have no uses left, you can make a Vital Sacrifice to use this feature again.
+
+#### Divine Anathema
+At 13th level, your transgressions are unforgivable to most divine entities. When you use your Censure the Divine Channel Divinity you can empower it with a Vital Sacrifice, and creatures of your choice within 30 feet must succeed on a Constitution saving throw against your Rite save DC or their speed becomes 0.
+
+At the end of its next turn, a creature repeats this saving throw. On a success the effect ends, but on a failed save, it
+is petrified. Celestials and Fiends have disadvantage on all saving throws to resist this Channel Divinity effect.
+
+#### Utmost Transgression
+At 18th level, you augment your understanding of the divine realms with forbidden occult knowledge, and use it to bind the denizens of heaven. As an action, you can cast summon celestial TCE, at 5th-level, using Constitution as your spellcasting modifier. This Celesial is bound against its will by unholy blood magic,allowing you to ignore the material component of the spell, but the duration of the spell is reduced to 1 minute.
+
+Once you cast this spell you must finish a short or long rest before you can cast it in this way again.
+{{pageNumber,auto}}
+\page
+### Order of Ichor
+While evey Blood Hunter must undergo the Hunter's Bane, postulants of the Order of Ichor endure the most painful and transformative version of this sinister ritual. Through ancient dark arts, their blood is infected with sentient ooze, giving it a life of its own, and a primal desire for control over its host.
+
+#### Living Blood
+At 3rd level, the primal sentience within your blood enhances both your resilence and physical ability. You gain resistance to poison damage, and when you make a Stength (Athletics) check, you gain a bonus to the roll equal to a roll of your Rite Die.
+
+Finally, when you make use Hunter's Bane to analyze an Aberration, Monstrosity, or Ooze you can add one roll of your Rite Die to your roll.
+
+#### Symbiotic Defense
+At 3rd level, as a bonus action, you can draw out the Ichor within your blood to cover yourself in a protective ooze-like coating. For 1 minute, your Armor Class equals 10 + your Constitution modifier + your Intelligence modifier, unless it was already higher. Also, once per turn, you can reduce one instance of damage you would takeby one roll of your Rite Die.
+
+While your Symboitic Defense is active, you are hideous and terrifying to behold and you hace disadvantage on any Charisma checks you make. You can only end thius feature early by making a Vital Sacrifice as a bonus action.
+
+#### Adaptable Form
+Starting 7th level, you have learned to bend the alien mind within your blood to your will. Each time you activate Symbiotic Defense, you gain one of the following features of your choice for the duration.
+
+**Aberrant Form.** You gain a climbing speed equal to your walking speed and you can liquefy yourself to move through gaps as narrow as 1 inch without needing to squeeze.
+
+**Alien Resilience.** You gain temporary hit points equal to your Blood Hunter level and resistance to all bludgeoning, piercing and slashing damage from non-silvered attacks.
+
+**Living Liquid.** You gain swimming speed equal to your walking speed and you can hold your breath indefinitely.
+
+\column
+
+#### Adaptable Form
+At 7th level, your strange blood can enhance the power of your weapons. When you use Crimson Offering. you can choose to empower it futher, drawing out your blood to fuse with your weapon. When you do so, the damage of your weapon and Crimson offering becomes necrotic for duration.
+
+Moreover, if you empower your Crimson Offering in this way while your Symbiotic Defense is active, the weapon merges with your Ichor, and any hands you use to wield the weapon become unusable. However, the damage die of that weapon becomes a d8 if it was not already, and you must use your Constitution, in place of Strength of Dexterity, for your attack and damage rolls with that weapon.
+
+
+#### Sanguine Rebuke
+At 13th level, the sentience within your blood can defend you even when you have not called upon it to do so. When a creature within 10 feet that you can see damages you, you can use a reaction to force it to make a Dexterity saving throw. On a failed save, it takes necrotic damage equal to two rolls of your Rite Die.
+
+You can use this reaction a number of times equal to your Constitution modifier (minimum of once) and you regain all expended uses when you finish a long rest. When you have no uses of this feature left, you can make a Vital Sacrifice to use this reaction again.
+
+Finally, when you activate Symbiotic Defense, you gain two Adaptable Form features of your choice from the list above.
+
+#### Symbiotic Mastery
+At 18th level, you and the alien presence within your blood are of one mind and goal. When you activate Symbiotic Defense, you gain the benefits of all three of your Adaptable Form features, and your transformation lasts for 1 hour.
+
+Finally, when a creature fails its saving throw against your Sanguine Rebuke while your Symbiotic Defense is active, you can choose for the creature to alse bi blinded, poisoned or have its reduced to 0 until the end of your next turn.
+{{pageNumber,auto}}
+\page
+### Order of the Inquisition
+Few are willing to walk the razor’s edge between salvation and damnation, but the Inquisitors do so without hesitation in the quest of Saving humanity from the many enemies they have, Even if that enemy are themself. Tasked with the eradication of heretics, daemons, and Xenos, they will stop at nothing to protect humanity—even if it means wielding the very powers they seek to destroy.
+
+#### Unbreakable Dogma
+
+At 3rd level, your unmatched will and devotion to the God-Emperor allow you to resist the waves of corruption and stand firm as the front line in humanity’s defense.
+
+You gain resistance to psychic damage. 
+
+Additionally, you gain a bonus to saving throws against being charmed or frightened, equal to your rite die.
+
+#### Inquisitorial Interrogation
+
+Also at 3rd level, your previous Inquisitor taught you the necessary skills to extract the truth by any means necessary.
+
+When use Hunter’s Bane, the target must make a Wisdom saving throw.
+
+On a failure, the creature is forced to speak and answer your questions, though it is not compelled to tell the truth.
+
+However, if the creature lies, it immediately takes 3d6 psychic damage for each falsehood.
+
+This effect lasts for 1 minute and you cannot use it again until a short or long rest.
+
+#### Ordo Xenos Tracker
+
+At 7th level, you have gained experience in combating the Xenos threat and know how to deal with them effectively.
+
+When you target an Aberration, Fey, or Elemental with a Blood Rite, and it is forced to make a saving throw or an ability check, it does so with disadvantage.
+
+Additionally, you gain advantage on Wisdom (Survival) and Intelligence (Investigation) checks to track down these enemies of humanity.
+
+
+#### Flames of the Ordo Malleus
+
+At 13th level, your training and unwavering faith in the Emperor have turned you into a relentless force against the horrors of the Warp. No daemon or abomination shall escape your judgment.
+
+You can channel the Emperor’s purity into your strikes.
+
+As a bonus action, you can sacrifice a number of hit points, up to a maximum of half your Blood Hunter level, to empower your next attack.
+
+The attack deals additional radiant damage equal to the Hit Point sacrificed.
+
+If the target is a Fiend or Aberration, it also gains vulnerability to this damage until the end of your next turn.
+
+\column
+
+
+#### Emperor’s Unstoppable Force
+
+Starting at 18th level, your unshakable faith in the God-Emperor makes you an unstoppable force in the pursuit and extermination of humanity’s many enemies.
+
+- You gain immunity to necrotic, fire, and psychic damage.
+
+- You are immune to the frightened, charmed, and possessed conditions.
+
+:: When you are reduced to 0 Hit Point.
+
+- You drop to 1 Hit Point instead of falling unconscious.
+
+- You immediately regain hit points equal to half your maximum HP.
+
+- You regain all expended uses of your Blood Rites.
+
+This feature can be used once per long rest.
+
+{{pageNumber,auto}}
+\page
+
+### Order of the Pale Moon
+Lycanthropy is an ancient curse that changes those afflicted into mindless beasts with an unquenchable hunger for flesh. In order to combat these monsters, some Blood Hunters will purposefully contract this curse. These warriors willingly give their lives so that they may draw on this bestial power to rid the world of lycanthropes and other shapeshifting monsters.
+
+#### Beast Form
+At 3rd level, you can control your lycanthropy, allowing you to shift your form . Choose a beast of CR 1 or lower, without a flying or swimming speed, to be the Beast Form of the animal that your lycanthropy is based upon. Common Beast Forms include boars, brown bears, dire wolves, tigers, and rats.
+
+As an action, you can make a Vital Sacrifice to transform into your Beast Form. When you transform into your Beast Form, you follow all the rules of Wild Shape from the Druid class, as found in Chapter 3 of the Player's Handbook.
+
+If you make a Vital Sacrifice in Beast Form, you reduce
+the maximum hit points of both the Beast Form and normal form, but only the current hit points of your Beast Form.
+
+Your Beast Form transformation lasts for up to 1 hour. You revert to your normal form early if you are reduced to 0 hit points or you use a bonus action on your turn to do so.
+
+Once you transform into your Beast Form you must finish
+a short or long rest before you can transform again.
+
+#### Hybrid Form
+Also at 3rd level,  as a bonus action you can transform into a Hybrid Form, a fusion between beast and humanoid. When you transform into your Hybrid Form, you gain the following benefits:
+
+- Your walking speed increases by 10 feet.
+- You gain temporary hit points equal to your level.
+- Your hands and teeth become claws and fangs that count as simple weapons. They use your Strength modifier for attack and damage rolls, and on hit, they deal slashing damage equal to two rolls of your Rite Die.
+- Your Hybrid Form transformation lasts for 1 minute. You revert to your normal form early if you are reduced to 0 hit points or you use a bonus action on your turn to do so.
+
+Once you transform into your Hybrid Form you
+must finish a short or long rest before you can
+transform again. If you have no uses left, you
+can make a Vital Sacrifice to transform
+into your Hybrid Form again.
+
+\column
+
+#### Feral Senses
+At 3rd level, your lycanthropy heightens your primal senses. When you make a Wisdom (Perception) or Wisdom (Survival) check that is based on your sense of hearing, sight, or smell, you gain a bonus to your roll equal to one roll of your Rite Die.
+
+Also, whenever you use Hunter's Bane to analyze a beast, monstrosity, or a shapeshifter of any kind, you gain a bonus
+to your ability check equal to one roll of your Rite Die.
+#### Lycan Warrior
+At 7th level, you are able to draw out more power from your curse. While you are in Beast or Hybrid Form you gain the benefits below:
+
+- The weapon attacks of your Beast and Hybrid Forms count as magical for the sake of overcoming resistance and immunities to nonmagical attacks and damage.
+- You gain resistance to bludgeoning, piercing, and slashing damage from nonmagical and non-silvered attacks.
+- If you are holding a Crimson Offering weapon, you can transfer the effect to the weapons of your Form. The effect returns to your weapon at the end of your transformation.
+#### Feral Prowess
+Beginning at 13th level, your curse fuels your bloodlust and allows you to shrug off minor wounds. At the start of each of your turns while you are in Beast or Hybrid Form, you regain hit points equal to your Constitution modifier (minimum of 1), so long as you have at least 1 hit point and less than half your hit points.
+
+Also, you have advantage on attack rolls against creatures marked by Crimson Brand while in Beast or Hybrid Form.
+
+#### Transformation Mastery
+When you reach 18th level, you have achieved total mastery over the lycanthropic curse that flows in your blood. You can transform into your Beast Form or your Hybrid Form at will, without needing to make
+a Vital Sacrifice to do so. Moreover, your Beast Form and Hybrid transformations last indefinitely.
+
+Finally, you can take the Dash action as a bonus action
+on your turn, so long as you end this movement closer
+to a hostile creature you can see.
+{{pageNumber,auto}}
+\page
+
+### Order of Temporal Knights
+Undergoing a forbidden form of the Hunter's Bane, Temporal Knights mingle their blood with blood conjured from future versions of themselves. These Blood Hunters swear a solemn oath to destroy anything that would disrupt the flow of time.
+
+#### Borrowed Moments
+At 3rd level, strange and esoteric blood magic rituals have caused you to
+come unstuck in time, allowing you to shift moments of your
+own time to others. As a bonus action on your turn, you can
+forgo your action on that turn, or the reaction you would be
+able to take before your next turn, granting it to one creature
+you can see within 30 feet, following the rules below:
+
+**Action.** If you gave a creature your action, it gains one
+additional action on its next turn, but this additional action
+can only be used to take the following actions: Attack (one
+weapon attack only), Cast a Spell (Cantrips or 1st-level spells
+only), Dash, Disengage, Hide, or Use an Object.
+
+**Reaction.** If you gave a creature your reaction, it can take
+one bonus reaction before the start of its next turn. However,
+a single effect can only trigger one of the creature's reactions.
+
+You can use this feature a number of times equal to your
+Constitution modifier (minimum of once), and you regain all
+expended uses when you finish a long rest. When you have
+no uses left, you can make a Vital Sacrifice to use it again.
+
+#### Visions of the Past
+Also at 3rd level, you have learned to see echoes of past events in the present.
+You gain proficiency in History, and whenever you make an
+Intelligence (History) check while in the location where the
+subject of your Intelligence (History) check took place, you
+gain a bonus to your roll equal to one roll of your Rite Die.
+
+#### Stolen Moments
+At 7th level, your abilities to manipulate the flow of time extend beyond
+you to other creatures. When a creature you can see begins
+its turn within 30 feet, you can force it to make a Charisma
+saving throw against your Rite save DC as a reaction.
+
+On a failure, the creature can only take one action or bonus
+action on that turn, but not both. If it takes the Attack action it
+can only make one weapon attack, and if it takes the Cast a
+Spell action, it can only cast a Cantrip. You also regain one
+expended use of your Borrowed Moments feature.
+
+Once a target succeeds on this saving throw it is immune
+to this effect for 24 hours. Once a creature fails this saving
+throw you must finish a short or long rest before you can use
+this reaction again. When you have no uses remaining, you
+can make a Vital Sacrifice to use this reaction again.
+
+\column
+
+#### Temporal Rift
+Beginning at 13th level, you affinity for Chronomancy has grown, allowing you to rip
+foes from the flow of time, if only for a few moments. When a creature fails its saving throw against Stolen Moments, you can make an (additional) Vital Sacrifice to cause the target to
+be Paralyzed until the beginning of its following turn.
+
+This effect ends early for the target if it takes damage or is forced to make an ability check or saving throw.
+
+When the effect ends for it, it does not perceive that any
+time has passed since it made the initial saving throw.
+#### Temporal Archguardian
+When you reach 18th level, your understanding of the forbidden magic of time allows you
+to combat the most dire threats to the flow of moments. You can cast *time stop* without expending a spell slot.
+
+Moreover, when you cast this spell, you can roll the 1d4 +1 to determine how many turns you get. You can then subtract any number of these turns from you to allow other creatures within 30 feet to take those turns during the time stop spell.
+
+Though, you can't give another creature more than one turn.
+
+Once you use this feature you must finish a long rest before you can cast time stop in this way again.
+
+{{pageNumber,auto}}
+\page
+### Order of Reapers
+Legends say the Order of Reapers was founded by an ancient
+death cult to serve as their champions. Though their origins are lost to time, Blood Hunters who join this Order are given powers associated with death and destruction. By sacrificing their own vitality, these warriors channel the power of death
+#### Cultist of Death
+At 3rd level, you have undergone an ancient and sinister ritual that has bonded you with death itself. Whenever you make a death saving throw, you gain a bonus to your roll equal to one roll of your Rite Die. 
+
+Also, when a spellcaster targets you with a spell that restores you to life (but not undeath) such as raise dead, they do not need the normal material components. 
+
+Finally, when you use Crimson Offering, you can choose
+for the bonus damage to be necrotic.
+
+#### Reaper's Mark
+Starting 3rd level, you can infuse your strikes with dark magic to mark your foes for death. When you hit a creautre with a Crimson Offering attack, you can place a Mark on it as part of your attack.
+
+This Mark lasts for 1 minute, and you must concentrate on
+it as if were concentrating on a spell. The Mark ends early if you lose concentration, if you mark another creature, or if it is dispelled by a spell like lesser restoration or remove curse.
+
+Once per turn, when a creature Marked in this way makes
+an ability check or saving throw, it suffers a penalty to its roll equal to one roll of your Rite Die.
+
+Also, whenever you use Hunter's Bane to analyze a Undead, you gain a bonus to your ability check equal to one roll of your Rite Die.
+#### Reaper's Bond
+Starting 7th level, you can bind yourself to a foe with deathly magic. When you Mark a creature with Reaper's Mark, you can make a Vital Sacrifice to bond yourselves together. While bonded in this way, both you and your Mark suffer the following effects:
+
+- Your concentration on this feature cannot be broken unless you choose to break it or you are incapacitated.
+- When either you or your Mark takes damage, the other takes necrotic damage equal to half the damage taken.
+- If you or your Mark is reduced to 0 hit points, the other gains temporary hit points equal to your level.
+
+\column
+
+#### Shadow of Death 
+Begining 13th level, your connection to the magic of death has greatly increased.
+
+A a bonus action, you can exude an aura of death magic that extends from, and moves with you, in a 15-foot radius. This aura lasts for 1 minute, and it ends early if you use a bonus action to end it, or if you become incapacitated.
+
+Creatures of your choice within this radius cannot regain hit points, any damage immunities they have are treated as resistance, and any damage resistances are ignored.
+
+Once you use this feature you must finish a long rest before
+you can use it again. When you have no uses remaining, you
+can make a Vital Sacrifice to use this feature again.
+
+#### Archreaper
+Starting 18th level, you have mastered the dark magic of your Order, and to you
+death is an ally. When you use Shadow of Death, you gain a
+flying speed equal to your walking speed.
+
+In addition, you can have multiple creature's Marked with
+your Reaper's Mark at one time, up to a maximum of 1 + your Constitution modifier (minimum of 2) creatures at once.
+
+{{imageMaskCorner29,--offsetX:54%,--offsetY:-51%,--rotation:0
+  ![](https://i.imgur.com/lW7sFtx.png){height:60%,left:390px}
+}}
+>
+
+
+{{pageNumber,auto}}
+\page
+### Order of Salt & Iron
+Since the dawn of time, the ancient Order of Salt &
+Iron has trained exorcists that defend the living from
+the undead. Willing to sacrifice all that they are, these
+Blood Hunters stain their souls with spectral power.
+They then use the power of darkness to drive back the
+darkness itself, and work tirelessly to prevent the tide
+of undeath from overwhelming the living.
+
+#### Spectral Nature
+Also at 3rd level, you have tainted your soul with ghastly power.
+You require half the amount of sleep, food, and
+drink for the average member of your race.
+
+Also, you can use a bonus action to enter a
+temporary Spectral State, which lasts until the
+end of your current turn. While in this state, you are resistant to all bludgeoning, piercing, and slashing damage from non-magical attacks, and you can move through solid objects and creatures as if they were difficult terrain. If you end your turn inside a creature or object, you are instantly shunted to the nearest unoccupied space and take 1d10 force damage for every 5 feet you were forced to travel.
+
+Once you use this feature you must complete a short or
+long rest before you can use it again. When you have no
+uses of this feature remaining, you can make a Vital
+Sacrifice as a bonus action to use it again.
+
+As your reach certain levels in this class, the
+duration of this Spectral State increases:
+at 7th-level it lasts for 1 minute,
+at 13th-level for 1 hour, and at
+18th level you remain in this
+Spectral State until you use a bonus action to end it.
+
+Also, whenever you use Hunter's Bane to analyze spectral creature of any kind, you gain a bonus to your ability check equal to one roll of your Rite Die.
+
+#### Warrior of the Dawn
+Starting at 3rd level, your blood magic is especially potent when used against the undead. When you use Crimson Offering you can empower the weapon with the signature radiant magic of your Order, granting it the following additional benefits for the duration:
+
+- The bonus damage of Crimson Offering is radiant.
+- You gain resistance to necrotic damage.
+- The weapon sheds bright light in a 20-foot radius, and dim light an additional 20 feet beyond that.
+
+#### Curse Specialist
+At 7th level, your knowledge and experience with undead enhances the power of your blood magic. You can target any creature with your Blood Rites, even if they do not have blood in their veins.
+
+In addition, at the end of each long rest you can choose one Blood Rite you know. You can invoke that Rite one additional time before you must make a Vital Sacrifice to use it again.
+
+
+
+
+\column
+#### Warrior Exorcist
+At 13th level, you use the power of blood magic to drive out the influence
+of extraplanar creatures. As a bonus action on your turn, you can choose one willing creature within 30 feet that can hear you that is currently charmed, frightened, or being magically controlled, and instantly end one of the above effects on it.
+
+If the creature that inflicted this condition on the target
+is also within 30 feet of you, it must succeed on a Wisdom saving throw against your Rite Save DC or it takes radiant damage equal to three rolls of your Rite Die.
+
+Once you use this feature you must finish a short or long rest before you can use it again. When you have no uses left, you can make a Vital Sacrifice to use this feature again.
+
+#### Sacrificial Offering
+Also at 18th level, you can sacrifice your own vitality to resist the grasp of death. When you would fall to 0 hit points but are not killed outright, you can choose to reduce your maximum hit points by one roll of your Rite Die, and fall to 1 hit point instead.
+
+#### Spectral Mastery
+Beginning at 18th level, you walk between the land of the living and the dead. For every 10 years that pass, you age 1 year, and you no longer need to sleep, eat, or drink. You gain the benefits of a long rest when you spend 6 hours performing only light activity.
+
+Moreover, when you are in your Spectral State, you gain a flying speed equal to your walking speed and can hover.
+
+{{imageMaskCorner6,--offsetX:50%,--offsetY:-30%,--rotation:0
+  ![](https://i.imgur.com/2g2MAke.jpg){height:60%,left:400px,top:470px}
+}}
+
+{{note
+##### Exorcists, Clerics, & Gods
+Traditions within the Order of Salt & Iron claim that the founding of their Order predates the Gods themselves. They claim to have stood against the undead long before the first Clerics and Paladins.
+}}
+{{pageNumber,auto}}
+\page
+
+
+### Order of Sorcery
+Blood Hunters that join the Order of Sorcery combine their blood magic and martial abilities with Broken
+Spells. 
+
+#### Broken Spells
+At 3rd level, you have learned to conjure minor magical effects, known as Broken Spells to augment your combat abilities:
+
+**Broken Spells.** At 3rd level, you learn two Broken Spells
+of your choice from the list at the end of this Occult Order.
+Once you use a Broken Spell you know, you must finish a
+short or long rest before you can use that Broken Spell again.
+When you have no uses of a Broken Spell remaining, you can
+make a Vital Sacrifice to use that Broken Spell again.
+You learn an additional Broken Spell of your choice when
+you reach 7th, 13th, and 18th level. Moreover, whenever you
+learn a new Broken Spell, you can replace one Broken Spell
+you know with another Broken Spell of your choice.
+
+**Somatic Components.** When casting a Broken Spell, you
+must have one hand free to perform the somatic components
+of that Broken Spell. Broken Spells used by this Occult Order
+require no other verbal or material components.
+
+**Saving Throws.** If a Broken Spell requires a creature to
+make a saving throw, the DC is calculated as follows:
+
+**Broken Spell save DC** = 8 + your proficiency bonus + your Intelligence modifier
+
+
+#### Scholar of Sorcery
+At 3rd level, you gain proficiency in Arcana, and whenever you make an Intelligence (Arcana) check thatrelates to a spell of 3rd-level or lower (or an effect of similar scope), you treat a roll of 7 or lower on the d20 as an 8.
+
+Also, whenever you use Hunter's Bane to analyze Aberrations, Dragons or Monstrosities, you gain a bonus to your ability check equal to one roll of your Rite Die.
+#### Arcane Warrior
+At 7th level, when you take the Attack action on your turn, you can cast one of your Broken Spells in place of one attack.
+
+#### Potent Magicks
+Starting 13th level, your willpower enhances the potency of your Broken Spells.
+
+Whenever you use a Broken Spell, you add your Intelligence
+modifier (minimum of +1) to the damage roll.
+
+
+#### Signature Sorcery
+At 18th level, choose a Broken Spell you know to be your Signature Sorcery. You can cast it a number of times equal to your Intelligence modifier (minimum of once), before you must make a Vital Sacrifice.
+You regain all expended uses of your Signature Sorcery
+when you finish a short or long rest.
+
+### Broken Spells
+Below is the list of Broken Spells available to Blood Hunters
+of the Order of Sorcery:
+
+##### Flame
+As an action, you can force creatures in an adjacent 15-foot
+cone to make a Dexterity saving throw. Creatures take fire
+damage equal to three rolls of your Rite Die on a failed save,
+and half as much on a success. This Broken Spell also ignites
+any flammable objects within the 15-foot cone.
+
+##### Spirit
+As an action, you can touch an unoccupied 5-foot space and
+mark it with this Broken Spell. The first creature to move into
+that space must succeed on a Charisma saving throw or take
+force damage equal to one roll of your Rite Die and have its
+speed reduced to 0 until the end of your next turn.
+
+This Broken Spell's mark can be detected if a creature
+makes a successful Intelligence (Investigation) or Wisdom
+(Perception) check against your Broken Spell save DC.
+You can have a total number of marks active at one time
+equal to your Intelligence modifier (minimum of 1). Creating
+another mark causes the earliest mark to instantly dispel.
+##### Stone
+As an action, you can shield yourself with a magical Ward
+which has a number of hit points equal to your Blood Hunter
+level + your Intelligence modifier (minimum of 1). Whenever
+you would take damage, the Ward takes that damage instead.
+
+This Ward lasts for 1 minute or until it is reduced to 0 hit
+points (at which point you take the remaining damage).
+##### Water
+As an action, you can force one creature you can see within
+10 feet to make a Wisdom saving throw. On a failed save it is
+charmed by you for 1 minute, or until you deal damage to it.
+
+On a successful save, the creature takes psychic damage
+equal to one roll of your Rite Die.
+##### Wind
+As an action, you can force one creature you can see within
+10 feet to make a Strength saving throw. On a failed save, it
+takes thunder damage equal to one roll of your Rite Die and
+is knocked back 10 feet. If the target is Medium or smaller it
+is knocked prone. Large or larger creatures have advantage
+on their Strength saving throw to resist this Broken Spell.
+{{pageNumber,auto}}
+\page
+### Order of Transference
+Taking an almost scientific approach to the practice of blood magic, the members of this Order have achieved an unrivaled understanding of life and death. Often found masquerading as physicians, these Blood Hunters use theis knowledge of blood to heal the wounded and vitally wound their foes.
+#### Vital Transfer
+At 3rd level, your scientific understanding of blood magic allows you to manipulate the life force of living creature. Whenever you take the Attack action, you can touch a creature in place of one of your attacks and cause one of the effects below. This feature has no effect on undead creatures or constructs.
+
+You can use these features a combined number of times equal to you Constitution modifier (minimum of once) and you regain all uses when you finish a long rest. If you have no uses left, you can make a Vital Sacrifice to use one again.
+
+**Vital Hemorrhage.** You force it to make a Constitution saving throw against your Rite save DC. It takes necrotic damage equal to two rolls of your Rite Die on a failed save, and half as mush damage on a successful saving throw.
+
+When you deal necrotic damage to a creature with this feature you can use a bonus action on that same turn to gain temporary hit points equal to half the necrotic damage dealt.
+
+**Vital Restoration.** The creature regains hit points equal to two rolls of your Rite Die. Once a creature receives this healing in this way, it must complete a long rest before it can regain hit points from this feature again.
+
+Alternatively, you can end one of the following conditions currently afflicting the creature: any nonmagical disease, or the blinded, deafened or poisoned condition.
+#### Ancient Medicine
+At 3rd level, your Order has preserved ancient rites of medicine drawn from the knowledge of blood magic. You gain proficiency in both herbalism kits and Medicine, and whenever you make an ability check that uses either of these proficiencies, you gain a bonus to your roll equal to one roll of your Rite Die.
+
+Also, whenever you use Hunter's Bane to analyze creatures that have blood, you gain a bonus to your ability check equal to one roll of your Rite Die
+#### Sanguine Inoculation
+Starting 7th level, you have fortified your body with sinister blood magic. You are resistant to poison damage, and you are immune to all disease and the poisoned condition.
+
+Moreover, whenever deal necrotic damage with Vital Hemorrhage
+you can use a bonus action on that same turn restore hit points equal to half the necrotic damage dealt to a willing and conscious creature you can see within 30 feet.
+
+\column
+
+#### Empowered Transfer
+At 13th level, your ability to control the life force of others has increased, Whenever you use Vital Transfer you as your Constitution modifier to the damage roll or hit points restored. Your Vital Transfer feature also gain the following benefits:
+
+**Vital Hemorrhage.** On a failed save, you can inflict one of the following conditions: blinded, deafened or poisoned. This condition lasts until the start of your following turn.
+
+**Vital Restoration.** You can also use this feature to end the charmed, frightened, paralyzed or stunned conditions.
+
+#### Dark Genesis
+Starting 18th level, you can forcefully transfer the vitality of your foes into other creatures. As an action, you can touch a creature and force ir to make a Constitution saving throw against your Rite save DC. On a failure, the creature takes 10d10 necrotic damage.
+A willing creature can choose to fail this saving throw. 
+As a bonus action on that turn, you can restore hit points equal to the necrotic damage dealt to a willing and conscious creature you can seewithin 30 feet that has died within the last minute and restore it to life with a single hit point.
+
+Once you use this feature you must finish a short or long rest before you can use ir again.
+
+{{imageMaskCorner29,--offsetX:52%,--offsetY:-55%,--rotation:0
+  ![](https://www.wargamer.com/wp-content/sites/wargamer/2022/11/dnd-blood-hunter-5e-vampire.jpg){height:60%,left:150px}
+}}
+
+
+{{pageNumber,auto}}
+\page
+### Order of Undying Thirst
+Legends speak of an ancient vampire who came to regret
+the many atrocities he committed when driven by thirst.
+He gathered to himself a group of vampire hunters, and
+after they vowed to scour the curse of vampirism from the world, passed his curse to them and instructed them in
+the power of ancient blood magic. Known as the Order
+of Undying Thirst, these Blood Hunters work tirelessly
+to carry out their founding vow to destroy all vampires.
+
+#### Blood Magic Specialist
+At 3rd level, your curse grants you increased control over your blood magic. You learn one additional Blood Rite, but it doesn't count against your total number of Blood Rites Known.
+
+Also, when you roll a Rite Die for the purposes of a Blood Rite, you use a d6 instead of a d4. At certain levels,
+the Rite Die you roll for Blood Rites increases again:
+at 5th level (d8), 11th level (d10), and 17th level (d12).
+
+Finally, when you use Crimson Offering, you can choose
+for the additional damage to be necrotic.
+
+#### Vampiric Nature
+Starting at 3rd level, the ancient disease of your Order has irreparably changed your physiology. Your teeth elongate into fangs which count as natural weapons for you. These fangs use your Strength modifier for attack and damage rolls, and on hit, they deal piercing damage equal to one roll of your Rite Die.
+
+Additionally, whenever you use Hunter’s Bane to analyze creatures that have blood, you gain a bonus to your ability check equal to one roll of your Rite Die
+#### Essence Drain
+When you reach 7th level,  you can drain the very life-essence from your foes. When you hit a creature with a fang attack, you can restore a number of your maximum hit points equal to the piercing damage dealt.
+
+Once you use this feature to restore maximum hit points must finish a short or long rest before you can use it again.
+
+#### Sinister Resilience
+At 7th level, your vampiric power waxes in the darkness and wanes in the light of the sun. When you deal necrotic damage to a creature with a Blood Rite or another Blood Hunter feature, you gain temporary hit points equal to the necrotic damage dealt.
+
+While you have temporary hit points from this feature, you are resistant to necrotic, poison, and bludgeoning, piercing, and slashing damage from nonmagical and non-silvered attacks, and you are immune to the poisoned condition.
+
+However, if you take radiant damage, all of your temporary hit points from this feature are immediately dispelled, and the radiant damage is then applied to your normal hit points.
+
+\column
+
+#### Misty Escape
+Also at 13th level, your sinister power allows you to evade your foes. When a creature you can see hits you with an attack, you can use your reaction to turn into a cloud of swirling mist. The triggering attack automatically misses, and you instantly reappear in an unoccupied space you can see within 30 feet.
+
+Once you use this reaction you must finish a short or long rest before you can use it again. When you have no uses left,
+    you can make a Vital Sacrifice to use this reaction again.
+
+#### Crimson Lord
+Beginning at 18th level, you have mastered your ancient curse, and your abilities rival those of true vampire lords. You gain the following benefits:
+
+You gain a flying speed equal to your walking speed.
+When you damage a creature with a fang attack, it has disadvantage on its saving throws to resist the effects of your Blood Rites until the end of your next turn.
+For every 10 years that pass, your body only ages 1 year.
+{{note
+##### Optional Rule: True Vampirism
+True vampiric power comes at significant cost. If you'd like to play as a true vampire, you gain ALL abilities below when you join this Occult Order:
+
+Deathless Nature. You don't need to breathe.
+
+Spider Climb. You gain a climbing speed equal to your walking speed. Upon reaching 7th level, you can move across vertical surfaces, including upside down on ceilings, while leaving your hands free.
+
+Superior Darkvision. You have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, you can only see shades of gray.
+
+Sunlight Sensitivity. You have disadvantage on attack rolls and Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to see is in direct sunlight.
+}}
+
+{{imageMaskCorner6,--offsetX:50%,--offsetY:-33%,--rotation:10
+  ![](https://www.gmbinder.com/images/TOFvy5U.jpg){height:55%,left:400px,top:600px}
+}}
+
+
+{{pageNumber,auto}}
+\page
+### Order of Witch Knights
+Blood Hunters who join the dark Order of Witch Knights are driven by an overwhelming desire to destroy the great evils of the world. Those especially dedicated, those willing to give up anything, are often approached by Eldritch Powers, beings of otherworldly might. These benefactors offer power in return for a fraction of the warrior's soul or unquestioning fealty.
+
+#### Pact Magic
+At 3rd level, the bargain you have struck with your Patron has granted you the ability to cast spells, much like a Warlock does:
+
+**Cantrips.** You learn two cantrips of your choice from the witch spell list. Upon reaching 13th level in this class you learn one additional witch cantrip of your choice.
+
+**Spell Slots.** The Witch Knight Spellcasting table shows how many spell slots you have, and the level of those spell slots. All of your spell slots from this feature are the same level. To cast one of your Witch Knight spells of 1st-level or higher, you must expend a spell slot. You regain all of your expended spell slots when you finish a short or long rest.
+
+**Spells Known of 1st-Level and Higher.** You learn two 1st-level spells of your choice from the witch spell list. The Spells Known column of the Witch Knight Spellcasting tableshows when you learn more warlock spells of 1st-level or higher. A spell you choose must be of a level no higher than what’s shown in the table’s Slot Level column for your level. When you gain a level, you can choose a warlock spell you know and replace it with another spell from the warlock spell list, which must be of a level for which you have spell slots.
+
+**Spellcasting Ability.** Intelligence is your spellcasting ability for your Witch Knight spells. You use your Intelligence when a spell refers to your spellcasting ability, when setting the saving throw DC, and when making a spell attack roll.
+:
+**Spell save DC** = 8 + your proficiency bonus + your Intelligence modifier
+:
+**Spell attack modifier** = your proficiency bonus + your Intelligence modifier
+
+{{classTable,frame
+##### Witch Knight Spellcasting
+| Blood Hunter| Spells   |  Spells |  Level  |
+| Level ^| Known   ^|  Slots  |  Slots  |
+|:------:|:--------:|:-------:|:-------:|
+|  3rd   |    2     |    1    |    1st  |
+|  4th   |    2     |    2    |    1st  |
+|  5th   |    3     |    2    |    1st  |
+|  6th   |    3     |    2    |    1st  |
+|  7th   |    4     |    2    |    2nd  |
+|  8th   |    4     |    2    |    2nd  |
+|  9th   |    5     |    2    |    2nd  |
+|  10th  |    5     |    2    |    2nd  |
+|  11th  |    5     |    2    |    2nd  |
+|  12th  |    5     |    2    |    2nd  |
+|  13th  |    6     |    2    |    3rd  |
+|  14th  |    6     |    2    |    3rd  |
+|  15th  |    6     |    2    |    3rd  |
+|  16th  |    6     |    2    |    3rd  |
+|  17th  |    7     |    2    |    3rd  |
+|  18th  |    7     |    2    |    3rd  |
+|  19th  |    7     |    2    |    4th  |
+|  20th  |    7     |    2    |    4th  |
+}}
+
+#### Crimson Smite
+Starting at 3rd level, magic seeps into the blood you sacrifice to empower your weapons. You can use any weapon empowered by Crimson Offering as a spellcasting focus for Witch Knight spells.
+
+In addition, when you hit a target with a weapon attack empowered by Crimson Offering, you can expend one of your Pact Magic spell slots to deal bonus damage of your Crimson Offering damage type to the target. The bonus damage is two rolls of your Rite Die for a 1st-level spell slot, plus one more roll of your Rite Die for each spell level higher than 1st.
+
+Additionally,whenever you use Hunter’s Bane to analyze Aberrations, Dragons or Monstrosities, you gain a bonus to your ability check equal to one roll of your Rite Die.
+{{imageMaskEdge5,--offset:36%,--rotation:0
+  ![](https://www.gmbinder.com/images/DabR0ES.jpg){height:60%,top:800px}
+}}
+{{pageNumber,auto}}
+\page
+#### Sanguine Warrior
+At 7th level, you can seamlessly weave minor spells with weapon attacks. When you take the Attack action on your turn, you can cast a Witch Knight cantrip in place of one of your attacks.
+
+Moreover, when you cast a Witch Knight spell while you are holding a weapon empowered by Crimson Offering, you can cause the spell to deal the damage type of your Crimson Offering in place of the normal damage of that spell.
+
+#### Bewitched Strikes
+Also at 13th level, the Eldritch magic in your blood seeps into your weapons. When you hit a creature with a weapon attack, that creature has disadvantage on the next saving throw it makes against a Blood Rite or spell you cast before the end of your next turn.
+
+#### Profane Sacrifice
+Beginning at 18th level, you can offer the death of your foes to your Eldritch Power for enhanced abilities. When a creature dies within 30 feet of you, you can use a reaction to regain one expended Pact Magic spell slot, or gain temporary hit points equal to one roll of your Rite Die + your Intelligence modifier.
+
+Once you use this feature you must finish a short or long rest before you can use it again.
+
+
+
+{{imageMaskEdge7,--offset:6%,--rotation:270
+  ![](https://www.gmbinder.com/images/txlhRqZ.jpg){height:100%,left:-100px}
+}}
+{{pageNumber,auto}}
+\page
+### Order of the Wyrm
+An ancient sect of hunters dedicated to the eradication of all
+dragons, the Order of the Wyrm uses the draconic power of
+their ancient foes against them. In order to be inducted into
+this elite Order, a Blood Hunter must procure blood from a
+living dragon, which will be used in the ritual to induct them.
+
+#### Draconic Infusion
+At 3rd level, you have undergone an ancient form of the Hunter's Bane,
+mingling your blood with that of a great dragon. Choose the
+scale color of the Dragon who's blood you have been infused
+with from the list below. You gain resistance to the element
+associated with your Dragon.
+
+You also gain proficiency in Intimidation, and whenever
+you use Hunter's Bane to analyze a Dragon, you gain a bonus
+to your roll equal to one roll of your Rite Die.
+
+###### Chromatic Dragons
+Dragon | Element
+:-:|:-:
+Black| Acid
+Blue| Lightning
+Green| Poison
+Red |Fire
+White| Cold
+###### Metallic Dragons
+Dragon | Element
+:-:|:-:
+Brass| Fire
+Bronze| Lightning
+Copper| Acid
+Gold| Fire
+Silver| Cold
+Steel| Acid
+###### Gem Dragons
+Dragon | Element
+:-:|:-:
+Amethyst| Force
+Crystal |Radiant
+Emerald |Psychic
+Sapphire |Thunder
+Topaz |Necrotic
+
+
+
+#### Wyrm Form
+At 3rd level, as a bonus action, you can draw upon the power within your blood to transform into a Wyrm Form which resembles yourdragon. While transformed, you gain the benefits below:
+- Your walking speed increases by 10 feet, and the distance of your long and high jumps doubles with a running start.
+- You manifest draconic scales. Your Armor Class cannot be lower than 13 + your Constitution modifier, even if you are wearing armor. Shields do not count against this bonus.
+- One melee weapon you are wielding gains the benefits of Crimson Offering, dealing your Element damage type.
+
+This transformation lasts for 1 hour. It ends early if you are incapacitated or if you use your bonus action to revert to your normal form.
+
+Once you transform you must finish a long rest before you can do so again. If you have no uses left, you can make a Vital Sacrifice to transform again.
+#### Tyrannical Resilience
+At 7th level,  the power of your draconic blood wards off magic effects.
+You gain the benefit below the corresponds to your Dragon:
+
+**Chromatic.** When you take acid, cold, fire, lighting, or
+poison damage, you reduce it one roll of your Rite Die. In
+Wyrm Form this increases to two rolls of your Rite Die.
+
+**Metallic.** You are immune to the charmed and frightened
+conditions, and you cannot be put to sleep by magical effects.
+
+**Gem.** Whenever you are forced to make an Intelligence,
+Wisdom, or Charisma saving throw to resist a spell or psionic
+effect, you add one roll of your Rite Die to your saving throw.
+#### Breath of the Dragon
+Also at 13th level, you can exhale great blasts of draconic energy. As an action,
+you can force creatures in an adjacent 30-foot cone to make a
+Dexterity saving throw against your Rite save DC. Creatures
+take damage of your Element damage type equal to six rolls
+of your Rite Die on a failed save, and half as much damage of
+your Element's type on a successful save.
+
+Once you use this feature you must finish a short or long
+rest before you can use it again. When you have no uses left,
+you can make a Vital Sacrifice to use this feature again.
+
+If you are in your Wyrm Form when you use this feature, it
+gains additional effects based on your Dragon:
+
+**Chromatic.** The damage increases by two Rie Die rolls.
+
+**Metallic.** The creatures' speeds are reduced to zero on a failed save, and halved on a success. This speed reduction lasts until the beginning of your next turn.
+
+**Gem.** On a failed save, creatures are pushed away from you 15 feet in a straight line. This distance is halved for each size the creature is above large.
+#### Wyrmlord
+Beginning at 18th level, you manifest the full power of your dragon's blood. You can
+transform into your Draconic Form at-will, without making a
+Vital Sacrifice or expending a use of the feature.
+
+Finally, while you are in your Draconic Form, you grow a pair of leathery dragon wings which grant you a flying speed equal to your walking speed.
+{{pageNumber,auto}}
+\page
+## Blood Rites
+Below are the Blood Rites available to a Blood Hunter. If a Rite has a prerequisite Blood Hunter level you can learn it
+at the same time you meet its prerequisite.
+
+Whenever you learn a new Blood Rite you can choose one Blood Rite you know and replace it with another Blood Rite of your choice for which you meet the prerequisites.
+
+#### Rite of Agony
+As a bonus action, you can invoke this Rite to force a creature that you can see within 30 feet to make a Constitution saving throw. On a failed save, until the end of your next turn it has disadvantage on Strength and Dexterity ability checks and saving throws and takes necrotic damage equal to one roll of your Rite Die each time it makes a weapon attack.
+
+When you invoke this Rite you can make a Vital Sacrifice to empower it. If you do so, the effects last for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on a success.
+
+#### Rite of Anxiety
+As a bonus action, you can invoke this Rite and curse one creature you can see within 30 feet, making it susceptible
+to outside influence. For the next minute, creatures of your choice that attempt to influence it with a Charisma check gain a bonus to their rolls equal to one roll of your Rite Die.
+
+When you invoke this Rite you can make a Vital Sacrifice to empower it. If you do so, the creature has disadvantage on the next Intelligence, Wisdom, or Charisma saving throw it is forced to make before the end of your next turn.
+
+#### Rite of Binding
+As a bonus action, you can invoke this Rite and force a Large or smaller creature that you can see within 30 feet to make a Strength saving throw. On a failed save, its speed is reduced to 0 and it can't use reactions until the end of your next turn.
+
+When you invoke this Rite you can make a Vital Sacrifice to empower it. If you do so, you can target a creature of any size, and the effects of this Rite last for 1 minute. The target can repeat this saving throw at the end of each of its turns, ending the effects of this Rite on a success.
+#### Rite of Blindness
+When a creature you can see within 30 feet makes an attack roll, you can use your reaction to invoke this Rite. The target must subtract one roll of your Rite Die from its attack roll. You can invoke this Rite after the creature rolls, but before you know if its attack hits or misses its target.
+
+When you invoke this Rite you can make a Vital Sacrifice to empower it. If you do, it must subtract one roll of your Rite Die from all attack rolls before the start of your next turn.
+#### Rite of Confusion
+As a bonus action, you can invoke this Rite and curse one creature you can see within 30 feet that is concentrating. It must subtract a roll of your Rite Die from every Constitution saving throw it makes before the start of your next turn.
+
+When you invoke this Rite you can make a Vital Sacrifice to empower it. If you do so, the target must subtract one roll of your Rite Die from every Constitution saving throw that it makes to maintain its concentration on its current spell.
+
+
+#### Rite of Revelation
+As a bonus action, you can invoke this Rite and choose one creature you can see within 30 feet. You immediately learn
+of one damage resistance, immunity, or vulnerability that creature has. If it has none of the traits above, the DM must instead reveal one of the creature's abilities of their choice.
+
+When you invoke this Rite you can make a Vital Sacrifice to empower it. If you do, you can choose one immunity the creature has and turn it into resistance, or one resistance the creature has and dispel it. This effect lasts for 1 minute.
+
+#### Rite of Siphoning
+As an action, you can invoke this Rite and force one creature you touch to make a Charisma saving throw. On a failure, it takes necrotic damage equal to two rolls of your Rite Die, and you gain temporary hit points equal to the necrotic damage taken by the creature.
+
+When you invoke this Rite you can make a Vital Sacrifice to empower it. If you do so, the creature  takes the maximum possible necrotic damage.
+
+#### Rite of Corrosion
+*Prerequisite: 5th level Blood Hunter*::
+As a bonus action on your turn, you can invoke this Rite and force one creature that you can see within 30 feet to make a Constitution saving throw. On a failed save, it is poisoned for 1 minute. The creature can repeat this saving throw at the end of each of its turns, ending the effect on a success.
+
+When you invoke this Rite you can make a Vital Sacrifice to empower it. If you do so, the creature remains poisoned until it succeeds on its saving throw, and each time it fails it takes necrotic damage equal to two rolls of your Rite Die.
+
+#### Rite of Exposure
+*Prerequisite: 5th level Blood Hunter*::
+As a bonus action on your turn, you can invoke this Rite and curse one creature you can see within 30 feet. Until the end of your next turn, any damage that creature takes ignores any damage resistances that creature may have.
+
+When you invoke this Rite you can make a Vital Sacrifice to empower it. When you do so, any damage that creature takes until the end of your next turn also treats any damage immunities it may have as damage resistances.
+{{pageNumber,auto}}
+\page
+#### Rite of Marking
+*Prerequisite: 5th level Blood Hunter*::
+As a bonus action, you can invoke this Rite and mark a target you can see within 30 feet. Until the end of your next turn, you have advantage on all attack rolls against that target.
+
+When you invoke this Rite you can make a Vital Sacrifice to empower it. When you do so, any weapon attacks you make against that target score a critical hit on a roll of 19 or 20 on the d20 until the end of your next turn.
+
+#### Rite of the Puppet
+*Prerequisite: 5th level Blood Hunter*::
+When a creature you can see within 30 feet is reduced to 0 hit points, you can use your reaction to invoke this Rite and have the creature stand up and make a single weapon attack against a creature of your choice within its reach.
+
+When you invoke this Rite you can make a Vital Sacrifice to empower it. When you do so, the creature can move up to its full walking speed before it makes its attack, and the creature gains a bonus to both its weapon attack roll and its damage roll equal to one roll of your Rite Die.
+
+#### Rite of Fear
+*Prerequisite: 9th level Blood Hunter*::
+As a bonus action, you can invoke this Rite and force one creature that can see or hear you within 30 feet to make a Wisdom saving throw. On a failed save, it is frightened of you for 1 minute. While frightened in this way, the creature must take the Dash action and move away from you by the safest available route on each of its turns, unless there is nowhere to move. If it ends its turn in a location where it doesn't have line of sight to you, it can repeat its saving throw, ending the effects of this Rite on a success.
+
+When you invoke this Rite you can make a Vital Sacrifice to empower it. If you do so, a creature that fails its saving throw is stunned for the duration of this Rite, so long as it has line of sight to you. If it takes any damage, it can repeat its saving throw, ending the effect on a success.
+
+#### Rite of the Senseless
+*Prerequisite: 9th level Blood Hunter*::
+As a bonus action, you can invoke this Rite and force one creature you can see within 30 feet to make a Constitution saving throw. On a failed save, it is blinded, deafened, and cannot speak or make any sounds for 1 minute. At the end of each of its turns, the target can repeat this saving throw, ending the effect and regaining its senses on a success.
+
+When you invoke this Rite you can make a Vital Sacrifice to empower it. If you do so, in addition to the normal effects, the creature cannot move while under the effects of this Rite.
+
+\column
+
+#### Rite of Decay
+*Prerequisite: 13th level Blood Hunter*::
+As an action, you can invoke this Rite and force a creature you can see within 30 feet to make a Constitution saving throw as you corrupt the blood in its veins. On a failed save, it takes necrotic damage equal to four rolls of your Rite Die, its speed is halved, and it cannot take reactions.
+
+As an action on its turn, the creature can repeat its saving throw. On a success, the effects of this Rite end. On a failed save, the creature takes additional damage equal to two rolls of your Rite Die and it suffers one level of exhaustion.
+
+When you invoke this Rite you can make a Vital Sacrifice to empower it. If you do so, this Rite ignores resistance to necrotic damage and treats immunity to necrotic damage as resistance. Finally, a creature killed by the necrotic damage from this Rite is turning into a pile of fine flesh-colored dust.
+
+#### Rite of Nightmares
+*Prerequisite: 13th level Blood Hunter*::
+As an action, you can invoke this Rite and force a creature you can see within 30 feet to make a Wisdom saving throw
+as you infect its mind with nightmarish phantasms. On a failed save, the creature takes psychic damage equal to two rolls of your Rite Die and is frightened of you for 1 minute. At the end of each of the creature's turns before this Rite ends,
+it must succeed on a Wisdom saving throw or take psychic damage equal to four rolls of your Rite Die. On a successful save, the nightmarish effects of this Rite end.
+
+When you invoke this Rite you can make a Vital Sacrifice to empower it. If you do so, the creature is incapacitated and has a speed of 0 for the duration of the effects of this Rite.
+
+#### Rite of Exsanguination
+*Prerequisite: 17th level Blood Hunter*::
+As an action, you can invoke this most powerful and ancient Rite to force one creature you can see within 30 feet to make a Constitution saving throw as you attempt to drain its body of all blood. It takes necrotic damage equal to twelve rolls of your Rite Die on a failed save, and half as much on a success. A creature that you have dealt damage to since the start of your previous turn that is not at its maximum hit points has disadvantage on its Constitution saving throw.
+
+When you invoke this Rite you can make a Vital Sacrifice to empower it. If you do so, this Rite ignores resistance to necrotic damage and treats immunity to necrotic damage as resistance. Finally, a creature killed by the necrotic damage from this Rite is turning into a pile of fine flesh-colored dust.
+
+Once you invoke this Rite you must finish a short or long rest before you can invoke it again. You cannot make a Vital Sacrifice to circumvent this restriction.
