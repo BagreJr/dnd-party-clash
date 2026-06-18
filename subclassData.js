@@ -12302,8 +12302,8 @@ const DND_SUBCLASS_CLASSIFICATION_DATA = {
       "weaknessNotes": "Debilidades principales: sufre si pierde concentracion.",
       "complexityScore": 7,
       "rolePriority": [
+        "DPS_MELEE",
         "TACTICIAN",
-        "DPS_RANGED",
         "SUPPORT",
         "FRONTLINER"
       ]

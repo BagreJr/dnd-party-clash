@@ -1320,7 +1320,7 @@ const DND_PARTIES = [
         name: "Sebastian Úrsan",
         className: "Fighter",
         subclass: "Champion",
-        level: 15,
+        level: 14,
         armorClass: 18,
         stats: { STR: 20, DEX: 9, CON: 20, INT: 10, WIS: 10, CHA: 9 },
         spells: [],
@@ -2394,7 +2394,7 @@ const GLOBAL_SPECIAL_NEGATIVE_ENCOUNTERS = [
   ),
   createNegativeCampaignEvent(
     "global-criminal-replacement-pack",
-    "Sven, Krog y Chaja",
+    "Prision",
     "Sven, Krog y Chaja se presentan con tantos problemas encima que tres miembros de la party terminan pagando por sus crimenes.",
     [
       {
@@ -2503,8 +2503,8 @@ const SPECIAL_GROUPS = [
   { id: "virgenes", name: "Virgenes", memberIds: ["Vonos", "Argos", "Lito", "jesus-nazaret"], threshold: 3, bonus: 16 }
 ];
 
-// Special characters are unique draft visitors, not members of any party.
-// They have a lower chance to appear and can show up only once per tournament.
+// Special characters are unique event recruits, not members of any fixed party.
+// Their appearance is controlled by lore events and affiliation rules in main.js.
 const SPECIAL_CHARACTERS = [
   {
     id: "mikos",
@@ -2662,7 +2662,7 @@ const SPECIAL_CHARACTERS = [
   },
   {
     id: "phill-collings",
-    name: "Phill Collings",
+    name: "Phil Collings",
     className: "Barbarian",
     subclass: "Path of the Zealot",
     level: 11,
@@ -2777,7 +2777,7 @@ const SPECIAL_CHARACTERS = [
     subclass: "The Star",
     level: 15,
     armorClass: 18,
-    stats: { STR: 10, DEX: 18, CON: 15, INT: 14, WIS: 16, CHA: 22 },
+    stats: { STR: 18, DEX: 18, CON: 15, INT: 14, WIS: 16, CHA: 26 },
     spells: ["Guiding Bolt", "Moonbeam", "Fly", "Mass Cure Wounds"],
     tags: ["especial"],
     appearanceWeight: 0.04

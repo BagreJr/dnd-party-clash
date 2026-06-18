@@ -544,6 +544,241 @@ const ADVENTURE_MAP_POINTS = [
   { x: 92, y: 56 }
 ];
 
+const SPECIAL_AFFILIATIONS = [
+  {
+    specialId: "mikos",
+    label: "Fighter Party",
+    partyIds: ["Fighter-Party"],
+    chance: 0.4,
+    bonus: 8,
+    text: "{special} reconoce las viejas tecnicas contra Dracos de Fighter Party y refuerza a {target} antes de {phase}."
+  },
+  {
+    specialId: "Padre-Misty",
+    label: "Auk Eman",
+    partyIds: ["Auk-Eman"],
+    chance: 0.38,
+    bonus: 7,
+    text: "{special} aparece por los contactos de Auk Eman y convierte una charla imposible en ventaja para {target}."
+  },
+  {
+    specialId: "Arturo",
+    label: "los Doce Caballeros",
+    partyIds: ["Caballeros1", "Caballeros2", "Caballeros3"],
+    chance: 0.3,
+    bonus: 10,
+    text: "{special} ve caballeros en la ruta y levanta un juramento que fortalece a {target}."
+  },
+  {
+    specialId: "Ivor-el-Pilar",
+    label: "los Doce Caballeros",
+    partyIds: ["Caballeros1", "Caballeros2", "Caballeros3"],
+    chance: 0.26,
+    bonus: 9,
+    text: "{special} deja de ayudar al enemigo y sostiene a {target} con una plegaria pesada."
+  },
+  {
+    specialId: "jhon-cross",
+    label: "los Doce Caballeros",
+    partyIds: ["Caballeros1", "Caballeros2", "Caballeros3"],
+    chance: 0.24,
+    bonus: 9,
+    text: "{special} vuelve del infierno siguiendo rastros caballerescos y prepara a {target} para sobrevivir."
+  },
+  {
+    specialId: "AlejandroIII",
+    label: "los Doce Caballeros",
+    partyIds: ["Caballeros1", "Caballeros2", "Caballeros3"],
+    chance: 0.24,
+    bonus: 10,
+    text: "{special} reconoce la sangre de los Eternos y ordena a {target} pelear con autoridad."
+  },
+  {
+    specialId: "star-guardians-lol",
+    label: "los Doce Caballeros",
+    partyIds: ["Caballeros1", "Caballeros2", "Caballeros3"],
+    chance: 0.22,
+    bonus: 8,
+    text: "{special} cae como una luz absurda sobre la orden caballeresca y bendice a {target}."
+  },
+  {
+    specialId: "femme-noir",
+    label: "Heroes Perdidos",
+    partyIds: ["HeroesPerdidos1", "HeroesPerdidos2", "HeroesPerdidos3", "HeroesPerdidos4"],
+    chance: 0.34,
+    bonus: 8,
+    text: "{special} aparece desde una organizacion oscura de Heroes Perdidos y le enseña a {target} a no confiar en nadie."
+  },
+  {
+    specialId: "molusco",
+    label: "Atlas Dynamite",
+    characterIds: ["Atlas"],
+    chance: 0.55,
+    bonus: 10,
+    text: "{special} reconoce a Atlas Dynamite y se suma por amistad; {target} aprovecha el impulso del reencuentro."
+  },
+  {
+    specialId: "SOSUN",
+    label: "Molusco o Catrina",
+    characterIds: ["molusco", "Catrina"],
+    chance: 0.32,
+    bonus: 8,
+    text: "{special} sigue el rastro de Molusco y Catrina, aparece entre sombras y mejora la posicion de {target}."
+  },
+  {
+    specialId: "Dynamo",
+    label: "Molusco o Catrina",
+    characterIds: ["molusco", "Catrina"],
+    chance: 0.32,
+    bonus: 8,
+    text: "{special} detecta una herencia magica cerca de Molusco y Catrina y carga de energia a {target}."
+  },
+  {
+    specialId: "homero-delfuturo",
+    label: "Destiny Party",
+    partyIds: ["Destiny1", "Destiny2"],
+    chance: 0.3,
+    bonus: 9,
+    text: "{special} llega desde un futuro imposible de Destiny Party y le muestra a {target} una forma nueva de hacer magia."
+  },
+  {
+    specialId: "lorkan",
+    label: "Destiny Party",
+    partyIds: ["Destiny1", "Destiny2"],
+    chance: 0.3,
+    bonus: 8,
+    text: "{special} reconoce un hilo de Destiny Party y comparte trucos de supervivencia con {target}."
+  },
+  {
+    specialId: "fresh-el-fresco",
+    label: "Fumancheros",
+    groupIds: ["fumancheros"],
+    chance: 0.34,
+    bonus: 7,
+    text: "{special} siente el humo narrativo de los Fumancheros y aparece para ponerle estilo a {target}."
+  },
+  {
+    specialId: "lorax-comunista",
+    label: "No tengo enemigos",
+    groupIds: ["no-tengo-enemigos"],
+    chance: 0.32,
+    bonus: 8,
+    text: "{special} detecta una party que insiste en no tener enemigos y organiza a {target} con naturaleza y sindicalismo."
+  },
+  {
+    specialId: "phill-collings",
+    label: "Sebastian",
+    characterIds: ["Sebastian"],
+    chance: 0.35,
+    bonus: 8,
+    text: "{special} escucha a Sebastian avanzar y entra con un grito de Tarzan que envalentona a {target}."
+  },
+  {
+    specialId: "luke-robinson",
+    label: "New Age Party",
+    partyIds: ["New-Age-Party", "NewAgeParty", "New-Age", "NewAge"],
+    chance: 0.36,
+    bonus: 9,
+    text: "{special} cruza desde los sueños de New Age Party y le enseña a {target} a leer el combate dormido."
+  },
+  {
+    specialId: "terminator",
+    label: "Robots",
+    groupIds: ["robots"],
+    chance: 0.34,
+    bonus: 9,
+    text: "{special} identifica firmas de robots en la party y optimiza el equipo de {target}."
+  },
+  {
+    specialId: "roman-riquelme",
+    label: "Tracendencia",
+    partyIds: ["Tracendencia", "Tracendencia2"],
+    chance: 0.32,
+    bonus: 8,
+    text: "{special} pisa la ruta de Tracendencia como si fuera la Bombonera y le da pausa a {target}."
+  },
+  {
+    specialId: "tincho-carpincho",
+    label: "Tracendencia",
+    partyIds: ["Tracendencia", "Tracendencia2"],
+    chance: 0.3,
+    bonus: 7,
+    text: "{special} aparece por la vibra de Tracendencia y le enseña a {target} a aguantar con maldicion pale moon."
+  },
+  {
+    specialId: "la-12",
+    label: "Tracendencia",
+    partyIds: ["Tracendencia", "Tracendencia2"],
+    chance: 0.3,
+    bonus: 7,
+    text: "{special} canta desde la ruta de Tracendencia y levanta la moral de {target}."
+  },
+  {
+    specialId: "diego-maradona",
+    label: "Tracendencia",
+    partyIds: ["Tracendencia", "Tracendencia2"],
+    chance: 0.24,
+    bonus: 10,
+    text: "{special} aparece donde Tracendencia necesita una jugada imposible y bendice a {target}."
+  },
+  {
+    specialId: "pedro-hijo-jack",
+    label: "Luke, Phil o Terminator",
+    characterIds: ["luke-robinson", "phill-collings", "terminator"],
+    chance: 0.35,
+    bonus: 8,
+    text: "{special} viaja en el tiempo siguiendo a Luke, Phil o Terminator y deja a {target} listo para actuar primero."
+  },
+  {
+    specialId: "jesus-nazaret",
+    label: "Pedro hijo Jack",
+    characterIds: ["pedro-hijo-jack"],
+    chance: 0.26,
+    bonus: 10,
+    text: "{special} aparece porque Pedro hijo Jack altero demasiado el tiempo y cubre a {target} con una bendicion real."
+  },
+  {
+    specialId: "rita-claus",
+    label: "Pedro hijo Jack",
+    characterIds: ["pedro-hijo-jack"],
+    chance: 0.3,
+    bonus: 8,
+    text: "{special} sigue la estela temporal de Pedro hijo Jack y deja un regalo tactico para {target}."
+  },
+  {
+    specialId: "Amari",
+    label: "Odiados",
+    groupIds: ["odiados"],
+    chance: 0.34,
+    bonus: 8,
+    text: "{special} reconoce una party suficientemente odiada como para experimentar y mejora a {target} con mutagenos."
+  },
+  {
+    specialId: "Dick",
+    label: "Vaqueros",
+    groupIds: ["vaqueros"],
+    chance: 0.34,
+    bonus: 8,
+    text: "{special} huele peligro vaquero y patrocina a {target} con equipo mejorado."
+  },
+  {
+    specialId: "Robert-O",
+    label: "Vaqueros",
+    groupIds: ["vaqueros"],
+    chance: 0.24,
+    bonus: 7,
+    text: "{special} aparece entre vaqueros con una identidad demasiado convincente y deja a {target} mejor preparado."
+  },
+  {
+    specialId: "pablo-rodriguez",
+    label: "cualquier party",
+    alwaysEligible: true,
+    chance: 0.16,
+    bonus: 9,
+    text: "{special} es famoso en demasiadas rutas, aparece con su canon de gemas y ayuda a {target}."
+  }
+];
+
 function renderStart() {
   clearRouletteTimer();
   clearCombatTimer();
@@ -1417,35 +1652,12 @@ function clearCombatTimer() {
 
 function rollDraftCharacters(party) {
   const visibleCharacters = [...party.characters];
-  const specialVisitor = rollSpecialCharacter(party);
-
-  if (specialVisitor) {
-    visibleCharacters.push(specialVisitor);
-  }
 
   if (visibleCharacters.length > 0) {
     return shuffle(visibleCharacters);
   }
 
   return [weightedPick(party.characters)];
-}
-
-function rollSpecialCharacter(party) {
-  const availableSpecials = getRandomSpecialCharacters()
-    .filter((character) => !state.seenSpecialCharacterIds.includes(character.id))
-    .filter((character) => !state.draftedCharacters.some((drafted) => drafted.id === character.id));
-
-  if (!availableSpecials.length || Math.random() > getSpecialAppearanceChance()) {
-    return null;
-  }
-
-  const special = weightedPick(availableSpecials);
-  state.seenSpecialCharacterIds.push(special.id);
-
-  return {
-    ...special,
-    draftSourcePartyId: party.id
-  };
 }
 
 function renderDraft() {
@@ -2600,7 +2812,12 @@ function renderCurrentCombat(match, tournament) {
       ${minimized
         ? `<div class="combat-next-note compact">Narrador minimizado. Expandilo para leer los detalles del combate.</div>`
         : `<div class="combat-log" data-combat-log>${renderCombatLogContent(tournament)}</div>`}
-      ${tournament.combatComplete && tournament.waitingForNext ? `<div class="combat-next-note">Combate terminado. Avanza cuando quieras.</div>` : ""}
+      ${tournament.combatComplete && tournament.pendingReward ? `
+        <div class="combat-next-note combat-continue-box">
+          <span>Combate terminado. Lee la bitacora con calma y continua cuando estes listo.</span>
+          <button type="button" data-action="next-combat">${escapeHtml(getNextCombatButtonLabel(tournament))}</button>
+        </div>
+      ` : tournament.combatComplete && tournament.waitingForNext ? `<div class="combat-next-note">Combate terminado. Avanza cuando quieras.</div>` : ""}
     </article>
   `;
 }
@@ -3195,6 +3412,7 @@ function createLiveTournament(playerTeam) {
     campaignSpecialIdsSeen: [],
     unlockedSpecialIds: [],
     pendingCombat: null,
+    pendingReward: null,
     currentReward: null,
     rewardMinimized: true,
     currentRecruitment: null,
@@ -3332,6 +3550,23 @@ function continueTournament() {
     return;
   }
 
+  if (tournament.pendingReward) {
+    const { enemy, match } = tournament.pendingReward;
+    tournament.pendingReward = null;
+    tournament.currentReward = createRewardFromEnemy(tournament, enemy, match);
+    tournament.rewardMinimized = false;
+    tournament.currentMatch = null;
+    tournament.visibleEvents = [];
+    tournament.typedEvent = "";
+    tournament.combatComplete = false;
+    tournament.waitingForNext = false;
+    tournament.activeAdventureTab = "reward";
+    tournament.statusText = `${enemy.name} fue derrotada. Elige una recompensa de combate.`;
+    audioManager.playSfx("rewardOpen");
+    renderTournament();
+    return;
+  }
+
   if (tournament.currentCampaignEvent) {
     if (tournament.replacementRequest) {
       return;
@@ -3410,6 +3645,9 @@ function getNextCombatButtonLabel(tournament) {
   if (tournament.pendingRetry) {
     return `Reintentar con ${formatModifier(tournament.pendingRetry.scoreBonus)}`;
   }
+  if (tournament.pendingReward) {
+    return "Continuar a recompensa";
+  }
   if (tournament.currentCampaignEvent) {
     return tournament.pendingCombat ? `Entrar a ${tournament.pendingCombat.phase}` : "Seguir camino";
   }
@@ -3428,6 +3666,7 @@ function prepareAdventurePathChoices(tournament) {
   tournament.currentMatch = null;
   tournament.currentCampaignEvent = null;
   tournament.currentReward = null;
+  tournament.pendingReward = null;
   tournament.currentRecruitment = null;
   tournament.pendingCombat = null;
   tournament.replacementRequest = null;
@@ -5366,12 +5605,12 @@ function finishCurrentCombat(match) {
       tournament.completedMatches.push(match);
     }
 
-    tournament.currentReward = createRewardFromEnemy(tournament, match.enemy, match);
+    tournament.pendingReward = { enemy: match.enemy, match };
+    tournament.currentReward = null;
     tournament.rewardMinimized = true;
-    tournament.activeAdventureTab = "reward";
-    audioManager.playSfx("rewardOpen");
-    tournament.waitingForNext = false;
-    tournament.statusText = `${match.enemy.name} fue derrotada. Hay una recompensa de combate pendiente.`;
+    tournament.activeAdventureTab = "log";
+    tournament.waitingForNext = true;
+    tournament.statusText = `${match.enemy.name} fue derrotada. Lee la bitacora y continua a la recompensa cuando quieras.`;
     renderTournament();
     return;
   }
@@ -5908,16 +6147,15 @@ function createCombatEvents(playerTeam, enemy, match) {
 }
 
 function rollCampaignEvent(tournament, enemy, phase) {
-  const specialEvent = rollSpecialCampaignEvent(tournament, enemy, phase);
-  if (specialEvent) {
-    return specialEvent;
-  }
-
   const entries = getCampaignEventEntriesForEnemy(enemy);
   const candidates = entries
     .map((entry) => normalizeCampaignEvent(entry, enemy, tournament, phase))
     .filter(Boolean)
     .filter((event) => event.chance === undefined || Math.random() <= event.chance);
+  const specialEvent = rollSpecialCampaignEvent(tournament, enemy, phase);
+  if (specialEvent) {
+    candidates.push(specialEvent);
+  }
 
   return candidates.length ? randomItem(candidates) : null;
 }
@@ -6671,9 +6909,6 @@ function createTravelEventEffect(type, enemy) {
   if (enemyTags.has("spellcaster")) blessingPool.push("learnSpell");
   if (enemyTags.has("support") || enemyTags.has("healer")) blessingPool.push("healWounds", "learnSpell");
   if (enemyTags.has("tactician") || enemyTags.has("debuffer")) blessingPool.push("statTraining", "learnSpell");
-  if (type === "blessing" && hasAvailableSpecialForEvent(state.tournament) && Math.random() < 0.22) {
-    blessingPool.push("addSpecialCharacter");
-  }
 
   const positivePool = blessingPool.length
     ? blessingPool
@@ -6748,79 +6983,180 @@ function rollSpecialCampaignEvent(tournament, enemy, phase) {
     tournament.campaignSpecialIdsSeen = [];
   }
 
-  if (Math.random() > getSpecialAppearanceChance()) {
+  const candidates = getEligibleAssociatedSpecials(tournament)
+    .filter((entry) => !tournament.campaignSpecialIdsSeen.some((id) =>
+      normalizeLookupText(id) === normalizeLookupText(entry.special.id)
+    ))
+    .filter((entry) => Math.random() <= entry.association.chance);
+
+  if (!candidates.length) {
     return null;
   }
 
-  const availableSpecials = getRandomSpecialCharacters(tournament);
-  const unseenSpecials = availableSpecials
-    .filter((character) => !tournament.campaignSpecialIdsSeen.includes(character.id));
-  const specials = unseenSpecials.length ? unseenSpecials : availableSpecials;
-  if (!specials.length) {
-    return null;
-  }
-
-  const special = weightedPick(specials);
+  const { association, special, linkedMembers } = randomItem(candidates);
   tournament.campaignSpecialIdsSeen.push(special.id);
 
   const playerOwnsSpecial = playerHasCampaignSpecial(tournament.playerTeam, special.id);
-  const type = playerOwnsSpecial ? "blessing" : pickCampaignPolarity({ blessingChance: 0.45 });
-  const effects = playerOwnsSpecial
-    ? [createTravelEventEffect(type, enemy)]
-    : type === "blessing"
-      ? [{
-          type: "addSpecialCharacter",
-          specialId: special.id,
-          text: "{character} decide unirse a tu expedicion como personaje Especial."
-        }]
-      : [createTravelEventEffect(type, enemy)];
+  const buffTarget = pickAssociatedSpecialBuffTarget(tournament, association, linkedMembers);
+  const effects = createAssociatedSpecialEffects(association, special, buffTarget, playerOwnsSpecial);
 
   return {
     id: `special-${special.id}-${tournament.campaignEvents.length}`,
-    type,
+    type: "blessing",
     title: playerOwnsSpecial
-      ? `${special.name} aparece como aliado`
-      : `${special.name} aparece en la ruta`,
-    text: getSpecialEventLoreText(special, type, phase, playerOwnsSpecial),
+      ? `${special.name} vuelve a ayudar`
+      : `${special.name} aparece por ${association.label}`,
+    text: getAssociatedSpecialEventText(association, special, buffTarget, phase, playerOwnsSpecial),
     scoreModifier: 0,
     effects,
-    sourcePartyId: "special",
-    sourcePartyName: "Especial",
+    sourcePartyId: `special-${normalizeLookupText(association.label).replace(/\s+/g, "-")}`,
+    sourcePartyName: `Especial afiliado: ${association.label}`,
     specialId: special.id
   };
 }
 
-function getSpecialEventLoreText(special, type, phase, playerOwnsSpecial) {
-  const specialId = normalizeLookupText(special.id || special.name);
-  const specificLore = {
-    amari: {
-      blessing: `${special.name} sigue el rastro de reactivos imposibles y mutagenos inestables; ve en tu expedicion el laboratorio perfecto y se suma antes de ${phase}.`,
-      misfortune: `${special.name} cruza la ruta con una formula a medio terminar; el experimento se descontrola y tu party paga el precio antes de ${phase}.`,
-      ally: `${special.name} reconoce una vieja oportunidad de probar sus mutagenos en campo real y refuerza a tu party antes de ${phase}.`
-    },
-    mikos: {
-      blessing: `${special.name} vuelve de una caceria de Dracos y ofrece su tecnica brutal para abrir camino antes de ${phase}.`,
-      misfortune: `${special.name} aparece perseguido por consecuencias viejas; la ruta se llena de problemas antes de ${phase}.`,
-      ally: `${special.name} recuerda una alianza contra los Dracos y cubre el avance de tu party antes de ${phase}.`
-    },
-    "ivor el pilar": {
-      blessing: `${special.name} levanta un juramento viejo y convierte la muerte en una segunda oportunidad antes de ${phase}.`,
-      misfortune: `${special.name} ayuda al enemigo a mantenerse en pie; la pelea llega torcida antes de ${phase}.`,
-      ally: `${special.name} sostiene el frente con una plegaria pesada antes de ${phase}.`
-    }
-  };
-  const lore = specificLore[specialId];
+function getEligibleAssociatedSpecials(tournament) {
+  if (!tournament?.playerTeam) {
+    return [];
+  }
 
-  if (lore) {
-    return playerOwnsSpecial ? lore.ally : lore[type] || lore.blessing;
+  return SPECIAL_AFFILIATIONS
+    .map((association) => {
+      const special = findSpecialCharacterById(association.specialId);
+      if (!special) {
+        return null;
+      }
+      const linkedMembers = getSpecialAffiliationMembers(tournament.playerTeam, association);
+      if (!association.alwaysEligible && !linkedMembers.length) {
+        return null;
+      }
+      return { association, special, linkedMembers };
+    })
+    .filter(Boolean);
+}
+
+function getSpecialAffiliationMembers(playerTeam, association) {
+  const members = playerTeam.members || [];
+  const linked = [];
+
+  members.forEach((member) => {
+    if (specialAssociationMatchesMember(member, association)) {
+      linked.push(member);
+    }
+  });
+
+  return linked;
+}
+
+function specialAssociationMatchesMember(member, association) {
+  if (!member) {
+    return false;
   }
-  if (playerOwnsSpecial) {
-    return `${special.name} reconoce una deuda de campana y mueve sus contactos para darle ventaja a tu party antes de ${phase}.`;
+
+  if (association.characterIds?.some((id) => characterMatchesId(member, id))) {
+    return true;
   }
-  if (type === "blessing") {
-    return `${special.name} trae una historia propia al camino; por interes, deuda o capricho, decide unirse a tu expedicion antes de ${phase}.`;
+
+  if (association.partyIds?.some((partyId) => characterComesFromParty(member, partyId))) {
+    return true;
   }
-  return `${special.name} arrastra problemas de otra campana y tu party queda metida en el conflicto antes de ${phase}.`;
+
+  if (association.groupIds?.some((groupId) => characterIsInSpecialGroup(member, groupId))) {
+    return true;
+  }
+
+  return false;
+}
+
+function characterMatchesId(character, id) {
+  const target = normalizeLookupText(id);
+  return [character?.id, character?.name]
+    .some((value) => normalizeLookupText(value) === target);
+}
+
+function characterComesFromParty(character, partyId) {
+  const target = normalizeLookupText(partyId);
+  const originIds = [
+    character?.sourcePartyId,
+    character?.recruitedFromPartyId,
+    findPartyForCharacter(character?.id)?.id
+  ];
+  const originNames = originIds
+    .map((id) => DND_PARTIES.find((party) => party.id === id)?.name)
+    .filter(Boolean);
+
+  return [...originIds, ...originNames]
+    .some((value) => normalizeLookupText(value) === target);
+}
+
+function characterIsInSpecialGroup(character, groupId) {
+  const registry = typeof globalThis !== "undefined" && Array.isArray(globalThis.SPECIAL_GROUPS)
+    ? globalThis.SPECIAL_GROUPS
+    : [];
+  const group = registry.find((entry) => normalizeLookupText(entry.id) === normalizeLookupText(groupId));
+  if (!group) {
+    return false;
+  }
+  return (group.memberIds || []).some((id) => characterMatchesId(character, id));
+}
+
+function pickAssociatedSpecialBuffTarget(tournament, association, linkedMembers = []) {
+  if (linkedMembers.length) {
+    return randomItem(linkedMembers);
+  }
+  const activeMembers = getActiveCombatRoster(tournament.playerTeam.members || [], tournament.playerTeam.assignments || {});
+  return activeMembers.length ? randomItem(activeMembers) : randomItem(tournament.playerTeam.members || []);
+}
+
+function createAssociatedSpecialEffects(association, special, buffTarget, playerOwnsSpecial) {
+  const effects = [];
+  if (!playerOwnsSpecial) {
+    effects.push({
+      type: "addSpecialCharacter",
+      specialId: special.id,
+      text: "{character} se suma como Especial por su vinculo con la party."
+    });
+  }
+
+  if (buffTarget) {
+    effects.push({
+      type: "statTraining",
+      targetCharacterId: buffTarget.id,
+      stat: getAssociatedSpecialBuffStat(special, buffTarget),
+      amount: 1,
+      text: `${special.name} potencia a {character} por el vinculo con ${association.label}; {character} mejora {stat} en +1.`
+    });
+  }
+
+  effects.push({
+    type: "partyScoreBoost",
+    amount: association.bonus || 7,
+    label: `Apoyo de ${special.name}`,
+    text: `${special.name} deja recursos, tacticas o equipo para la party (${formatModifier(association.bonus || 7)} score permanente).`
+  });
+
+  return effects;
+}
+
+function getAssociatedSpecialBuffStat(special, target) {
+  const tags = new Set(getCharacterTags(special));
+  if (tags.has("healer") || tags.has("support")) return "WIS";
+  if (tags.has("tactician") || tags.has("debuffer")) return "INT";
+  if (tags.has("dps")) return (target.stats?.DEX || 10) >= (target.stats?.STR || 10) ? "DEX" : "STR";
+  if (hasSpells(special)) return ["Wizard", "Artificer", "Alchemist", "Magus", "Warmage"].includes(special.className) ? "INT" : "CHA";
+  return (target.stats?.CON || 10) < 18 ? "CON" : "DEX";
+}
+
+function getAssociatedSpecialEventText(association, special, buffTarget, phase, playerOwnsSpecial) {
+  const targetName = buffTarget?.name || "la party";
+  const template = association.text || "{special} aparece por su vinculo con {target} antes de {phase}.";
+  const baseText = template
+    .replaceAll("{special}", special.name)
+    .replaceAll("{target}", targetName)
+    .replaceAll("{phase}", phase);
+  return playerOwnsSpecial
+    ? `${baseText} Como ya viaja con vos, esta vez transforma el encuentro en una mejora directa.`
+    : baseText;
 }
 
 function createQuietCampaignEvent(phase = "combate") {
@@ -7360,24 +7696,15 @@ function applyReviveFallenCharacterEffect(tournament, event, effect) {
 function pickSpecialCharacterForEvent(tournament, effect = {}) {
   const currentIds = new Set((tournament.playerTeam.members || []).map((character) => normalizeLookupText(character.id)));
   const targetId = normalizeLookupText(effect.specialId || effect.characterId || effect.id);
-  const specials = targetId ? getSpecialCharacters() : getRandomSpecialCharacters(tournament);
 
   if (targetId) {
-    return specials.find((character) =>
+    return getSpecialCharacters().find((character) =>
       !currentIds.has(normalizeLookupText(character.id)) &&
       (normalizeLookupText(character.id) === targetId || normalizeLookupText(character.name) === targetId)
     );
   }
 
-  const unseen = specials.filter((character) =>
-    !currentIds.has(normalizeLookupText(character.id)) &&
-    !tournament.campaignSpecialIdsSeen?.includes(character.id)
-  );
-  const available = unseen.length
-    ? unseen
-    : specials.filter((character) => !currentIds.has(normalizeLookupText(character.id)));
-
-  return available.length ? weightedPick(available) : null;
+  return null;
 }
 
 function hasAvailableSpecialForEvent(tournament) {
@@ -7868,10 +8195,13 @@ function getReplacementPool(event, effect, defeatedCharacter) {
     return getAllPartyCharacters().filter((character) => character.className === defeatedCharacter.className);
   }
   if (poolType === "specials") {
-    return getRandomSpecialCharacters();
+    return getEligibleAssociatedSpecials(state.tournament).map((entry) => entry.special);
   }
   if (poolType === "allWithSpecials") {
-    return [...getAllPartyCharacters(), ...getRandomSpecialCharacters()];
+    return [
+      ...getAllPartyCharacters(),
+      ...getEligibleAssociatedSpecials(state.tournament).map((entry) => entry.special)
+    ];
   }
 
   return getAllPartyCharacters();
@@ -9101,18 +9431,6 @@ function getSpecialCharacters() {
   return [];
 }
 
-function getRandomSpecialCharacters(tournament = state.tournament) {
-  return getSpecialCharacters()
-    .filter((character) => !isSpecialEventLocked(character, tournament));
-}
-
-function isSpecialEventLocked(character, tournament = state.tournament) {
-  if (!character?.eventLocked && !character?.lockedUntilEvent && !character?.requiresEventUnlock) {
-    return false;
-  }
-  return !isSpecialUnlocked(character, tournament);
-}
-
 function isSpecialUnlocked(character, tournament = state.tournament) {
   if (!character || !tournament) {
     return false;
@@ -9514,18 +9832,6 @@ function estimateFallbackCR(character) {
   const spellBonus = hasSpells(character) ? 0.5 : 0;
   const statBonus = statScore >= 18 ? 1 : statScore >= 16 ? 0.5 : 0;
   return Math.max(0, Math.round((level / 3 + statBonus + spellBonus) * 2) / 2);
-}
-
-function getSpecialAppearanceChance() {
-  const swing = Math.random();
-
-  if (swing < 0.1) {
-    return randomFloat(0.32, 0.55);
-  }
-  if (swing < 0.45) {
-    return randomFloat(0.12, 0.24);
-  }
-  return randomFloat(0.02, 0.08);
 }
 
 function getCharacterDraftWeight(character) {

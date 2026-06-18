@@ -474,7 +474,7 @@ select {
 
 .assignment-score-box {
   display: grid;
-  grid-template-columns: auto minmax(0, 1fr) auto;
+  grid-template-columns: minmax(0, 1fr) auto;
   column-gap: 16px;
   row-gap: 12px;
   align-items: center;
@@ -488,6 +488,8 @@ select {
 }
 
 .assignment-score-main {
+  grid-column: 1;
+  grid-row: 1;
   display: flex;
   align-items: baseline;
   gap: 10px;
@@ -506,15 +508,17 @@ select {
 }
 
 .assignment-score-chips {
+  grid-column: 1 / -1;
+  grid-row: 2;
   display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: flex-start;
   gap: 7px;
   min-width: 0;
   align-items: center;
-  overflow-x: auto;
-  padding-bottom: 2px;
-  scrollbar-width: thin;
+  overflow: visible;
+  padding-bottom: 0;
+  scrollbar-width: none;
 }
 
 .assignment-score-chips span {
@@ -534,10 +538,11 @@ select {
 }
 
 .assignment-score-details summary {
-  grid-column: 3;
+  grid-column: 2;
   grid-row: 1;
   justify-self: end;
   align-self: center;
+  min-width: max-content;
   border: 1px solid rgba(244, 211, 122, 0.28);
   border-radius: 999px;
   padding: 0.42rem 0.64rem;
@@ -556,10 +561,11 @@ select {
 
 .assignment-score-details .score-box {
   grid-column: 1 / -1;
-  grid-row: 2;
+  grid-row: 3;
   width: 100%;
   max-width: none;
-  margin-top: 10px;
+  margin-top: 12px;
+  overflow: visible;
 }
 
 .assignment-score-details:not([open]) .score-box {
@@ -2243,6 +2249,22 @@ select {
   font-size: 0.9rem;
 }
 
+.combat-continue-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.combat-continue-box span {
+  min-width: min(100%, 320px);
+}
+
+.combat-continue-box button {
+  flex: 0 0 auto;
+}
+
 .clash-arena {
   position: relative;
   display: grid;
@@ -3440,11 +3462,11 @@ select {
   }
 
   .assignment-score-box {
-    grid-template-columns: auto minmax(0, 1fr) auto;
+    grid-template-columns: minmax(0, 1fr) auto;
   }
 
   .assignment-score-details summary {
-    grid-column: 3;
+    grid-column: 2;
     grid-row: 1;
     justify-self: end;
   }
@@ -3527,8 +3549,12 @@ select {
 
   .assignment-score-details summary {
     grid-column: 1;
-    grid-row: auto;
+    grid-row: 3;
     justify-self: start;
+  }
+
+  .assignment-score-details .score-box {
+    grid-row: 4;
   }
 
   .adventure-tab-content {
