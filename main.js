@@ -6,6 +6,7 @@ const state = {
   seenSpecialCharacterIds: [],
   currentDraftParty: null,
   currentDraftCharacters: [],
+  pendingDraftParty: null,
   draftedCharacters: [],
   draftPickOwners: {},
   assignments: {},
@@ -23,6 +24,7 @@ const state = {
   combatTimer: null,
   typingTimer: null,
   galleryReturnScreen: "start",
+  trophyReturnScreen: "start",
   gallerySelectedId: ""
 };
 
@@ -952,7 +954,7 @@ function renderStart() {
   `;
   app.querySelector("[data-setup]").addEventListener("submit", startDraft);
   app.querySelector("[data-action='gallery']").addEventListener("click", openImageGallery);
-  app.querySelector("[data-action='trophies']").addEventListener("click", renderTrophyCollection);
+  app.querySelector("[data-action='trophies']").addEventListener("click", openTrophyCollection);
   app.querySelectorAll("input[name='player-mode']").forEach((input) => {
     input.addEventListener("change", updateStartCoopFields);
   });
@@ -998,6 +1000,7 @@ function resetDraftState() {
   state.seenSpecialCharacterIds = [];
   state.currentDraftParty = null;
   state.currentDraftCharacters = [];
+  state.pendingDraftParty = null;
 }
 
 function applyStartSettings() {
@@ -1020,6 +1023,41 @@ function applyStartSettings() {
     cleanDisplayName(partyOne, `${state.playerNames[0]} Party`),
     cleanDisplayName(partyTwo, `${state.playerNames[1]} Party`)
   ];
+}
+
+function openTrophyCollection() {
+  const currentScreen = state.screen || "start";
+  state.trophyReturnScreen = currentScreen === "trophies"
+    ? state.trophyReturnScreen || "start"
+    : currentScreen;
+  renderTrophyCollection();
+}
+
+function returnFromTrophyCollection() {
+  const target = state.trophyReturnScreen || "start";
+
+  if (target === "tournament" && state.tournament) {
+    renderTournament({ preserveScroll: true });
+    return;
+  }
+  if (target === "adventure-party" && state.tournament) {
+    renderAdventurePartyEditor();
+    return;
+  }
+  if (target === "formation") {
+    renderFormation();
+    return;
+  }
+  if (target === "coop-results") {
+    renderCoopVersusResults();
+    return;
+  }
+  if (target === "coop-final" && state.coopFinal) {
+    renderCoopFinalResult();
+    return;
+  }
+
+  renderStart();
 }
 
 function renderTrophyCollection() {
@@ -1079,7 +1117,7 @@ function renderTrophyCollection() {
     </section>
   `;
 
-  app.querySelector("[data-action='back-start']").addEventListener("click", renderStart);
+  app.querySelector("[data-action='back-start']").addEventListener("click", returnFromTrophyCollection);
   app.querySelector("[data-action='gallery']").addEventListener("click", openImageGallery);
   app.querySelector("[data-action='reset-trophies']").addEventListener("click", () => {
     resetTrophyState();
@@ -1772,6 +1810,8 @@ function setupGlobalAudioFeedback() {
 function startPartyRoulette() {
   clearRouletteTimer();
   audioManager.fadeMusicTo("draft");
+  state.currentDraftParty = null;
+  state.currentDraftCharacters = [];
 
   const targetParty = drawNextDraftParty();
   if (!targetParty) {
@@ -1780,6 +1820,7 @@ function startPartyRoulette() {
     return;
   }
 
+  state.pendingDraftParty = targetParty;
   const rouletteParties = getRemainingDraftParties(targetParty);
   let tick = 0;
   renderRoulette(rouletteParties[0] || targetParty, rouletteParties);
@@ -1793,6 +1834,7 @@ function startPartyRoulette() {
       clearRouletteTimer();
       state.currentDraftParty = targetParty;
       state.currentDraftCharacters = rollDraftCharacters(targetParty);
+      state.pendingDraftParty = null;
       audioManager.playSfx("partyReveal");
       if (state.currentDraftCharacters.some((character) => hasTag(character, "especial"))) {
         audioManager.playSfx("specialCardReveal");
@@ -2233,12 +2275,31 @@ function renderFormation() {
   app.querySelector("[data-action='gallery']").addEventListener("click", openImageGallery);
   const draftButton = app.querySelector("[data-action='draft']");
   if (draftButton) {
-    draftButton.addEventListener("click", () => {
-      startPartyRoulette();
-    });
+    draftButton.addEventListener("click", continueDraftFromFormation);
   }
   app.querySelector("[data-action='tournament']").addEventListener("click", startTournament);
   bindAudioControls(app);
+}
+
+function continueDraftFromFormation() {
+  clearRouletteTimer();
+  audioManager.fadeMusicTo("draft");
+
+  if (state.currentDraftParty && Array.isArray(state.currentDraftCharacters) && state.currentDraftCharacters.length) {
+    renderDraft();
+    return;
+  }
+
+  if (state.pendingDraftParty) {
+    state.currentDraftParty = state.pendingDraftParty;
+    state.currentDraftCharacters = rollDraftCharacters(state.pendingDraftParty);
+    state.pendingDraftParty = null;
+    audioManager.playSfx("partyReveal");
+    renderDraft();
+    return;
+  }
+
+  startPartyRoulette();
 }
 
 function handleFormationChange(event) {
@@ -2613,7 +2674,7 @@ function renderTournament(options = {}) {
   `;
 
   app.querySelector("[data-action='restart']").addEventListener("click", renderStart);
-  app.querySelector("[data-action='trophies']").addEventListener("click", renderTrophyCollection);
+  app.querySelector("[data-action='trophies']").addEventListener("click", openTrophyCollection);
   const galleryButton = app.querySelector("[data-action='gallery']");
   if (galleryButton) {
     galleryButton.addEventListener("click", openImageGallery);
@@ -6109,6 +6170,7 @@ function shouldPlayCoopFinal() {
 }
 
 function renderCoopVersusResults() {
+  state.screen = "coop-results";
   const bothComplete = state.coopRuns.length >= 2 && state.coopRuns.every((run) => run.champion);
   const winner = bothComplete && !state.coopFinal ? null : getCoopVersusWinner();
   audioManager.fadeMusicTo(winner ? "victory" : "tournament");
@@ -6135,7 +6197,7 @@ function renderCoopVersusResults() {
   `;
 
   app.querySelector("[data-action='restart']").addEventListener("click", renderStart);
-  app.querySelector("[data-action='trophies']").addEventListener("click", renderTrophyCollection);
+  app.querySelector("[data-action='trophies']").addEventListener("click", openTrophyCollection);
   const finalButton = app.querySelector("[data-coop-action='final']");
   if (finalButton) {
     finalButton.addEventListener("click", () => {
@@ -6255,6 +6317,7 @@ function createCoopFinalEvents(leftTeam, rightTeam, winnerRun) {
 }
 
 function renderCoopFinalResult() {
+  state.screen = "coop-final";
   const final = state.coopFinal || createCoopFinalDuel();
   state.coopFinal = final;
   audioManager.fadeMusicTo("victory");
@@ -6299,7 +6362,7 @@ function renderCoopFinalResult() {
     </section>
   `;
 
-  app.querySelector("[data-action='trophies']").addEventListener("click", renderTrophyCollection);
+  app.querySelector("[data-action='trophies']").addEventListener("click", openTrophyCollection);
   app.querySelector("[data-action='restart']").addEventListener("click", renderStart);
   bindAudioControls(app);
 }

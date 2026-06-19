@@ -3100,10 +3100,10 @@ const DND_SUBCLASS_CLASSIFICATION_DATA = {
       "weaknessNotes": "Debilidades principales: depende de posicionamiento, stats correctos y buen uso de recursos.",
       "complexityScore": 7,
       "rolePriority": [
-        "TACTICIAN",
-        "SUPPORT",
         "FRONTLINER",
-        "DPS_MELEE"
+        "DPS_MELEE",
+        "SUPPORT",
+        "TACTICIAN"
       ]
     },
     "Mutagens": {

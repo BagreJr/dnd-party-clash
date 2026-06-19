@@ -1499,7 +1499,7 @@ const DND_PARTIES = [
       {
         id: "Darkslayer",
         name: "Dorrut Darkslayer",
-        className: "Capitan",
+        className: "Captain",
         subclass: "Beast Banner",
         level: 14,
         armorClass: 20,
@@ -2744,8 +2744,8 @@ const SPECIAL_CHARACTERS = [
   {
     id: "diego-maradona",
     name: "El Diego Armando Maradona",
-    className: "Fighter",
-    subclass: "Champion",
+    className: "Blood Hunter",
+    subclass: "Order of Alchemists",
     level: 12,
     armorClass: 18,
     stats: { STR: 14, DEX: 22, CON: 17, INT: 14, WIS: 18, CHA: 22 },
