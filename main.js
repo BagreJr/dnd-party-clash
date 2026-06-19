@@ -1003,6 +1003,16 @@ function resetDraftState() {
   state.pendingDraftParty = null;
 }
 
+function confirmRestartGame() {
+  const confirmed = typeof window === "undefined" || typeof window.confirm !== "function"
+    ? true
+    : window.confirm("seguro quieres reiniciar?");
+
+  if (confirmed) {
+    renderStart();
+  }
+}
+
 function applyStartSettings() {
   const partyName = app.querySelector("#party-name")?.value;
   const roleMode = app.querySelector("input[name='role-mode']:checked")?.value || "visible";
@@ -1880,7 +1890,7 @@ function renderRoulette(activeParty, parties) {
     </section>
   `;
 
-  app.querySelector("[data-action='restart']").addEventListener("click", renderStart);
+  app.querySelector("[data-action='restart']").addEventListener("click", confirmRestartGame);
   const formationButton = app.querySelector("[data-action='formation']");
   if (formationButton) {
     formationButton.addEventListener("click", finishDraftEarly);
@@ -1985,7 +1995,7 @@ function renderDraft() {
   app.querySelectorAll("[data-pick]").forEach((button) => {
     button.addEventListener("click", () => chooseCharacter(button.dataset.pick));
   });
-  app.querySelector("[data-action='restart']").addEventListener("click", renderStart);
+  app.querySelector("[data-action='restart']").addEventListener("click", confirmRestartGame);
   const formationButton = app.querySelector("[data-action='formation']");
   if (formationButton) {
     formationButton.addEventListener("click", finishDraftEarly);
@@ -2673,7 +2683,7 @@ function renderTournament(options = {}) {
     </section>
   `;
 
-  app.querySelector("[data-action='restart']").addEventListener("click", renderStart);
+  app.querySelector("[data-action='restart']").addEventListener("click", confirmRestartGame);
   app.querySelector("[data-action='trophies']").addEventListener("click", openTrophyCollection);
   const galleryButton = app.querySelector("[data-action='gallery']");
   if (galleryButton) {
@@ -3000,7 +3010,7 @@ function renderAdventurePartyEditor() {
     renderTournament();
   });
   app.querySelector("[data-action='gallery']").addEventListener("click", openImageGallery);
-  app.querySelector("[data-action='restart']").addEventListener("click", renderStart);
+  app.querySelector("[data-action='restart']").addEventListener("click", confirmRestartGame);
   app.querySelector("[data-action='auto']").addEventListener("click", () => {
     state.assignments = autoAssignRoles(state.draftedCharacters);
     tournament.playerTeam.assignments = { ...state.assignments };
@@ -6196,7 +6206,7 @@ function renderCoopVersusResults() {
     </section>
   `;
 
-  app.querySelector("[data-action='restart']").addEventListener("click", renderStart);
+  app.querySelector("[data-action='restart']").addEventListener("click", confirmRestartGame);
   app.querySelector("[data-action='trophies']").addEventListener("click", openTrophyCollection);
   const finalButton = app.querySelector("[data-coop-action='final']");
   if (finalButton) {
@@ -6363,7 +6373,7 @@ function renderCoopFinalResult() {
   `;
 
   app.querySelector("[data-action='trophies']").addEventListener("click", openTrophyCollection);
-  app.querySelector("[data-action='restart']").addEventListener("click", renderStart);
+  app.querySelector("[data-action='restart']").addEventListener("click", confirmRestartGame);
   bindAudioControls(app);
 }
 
