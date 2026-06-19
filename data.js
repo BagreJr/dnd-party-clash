@@ -344,7 +344,7 @@ const DND_PARTIES = [
         stats: { STR: 11, DEX: 18, CON: 17, INT: 14, WIS: 14, CHA: 4 },
         spells: [],
         affinities: {
-          "Addon": { score: 2, note: "Robots" },
+          "Adom": { score: 20, note: "Robots" },
           "Lucia-Mars": { score: 20, note: "Reparacion y actualizacion" }
         },
       },
@@ -1220,7 +1220,7 @@ const DND_PARTIES = [
     characters: [
       {
         id: "Chris",
-        name: "Chris",
+        name: "Chris Low",
         className: "Bard",
         subclass: "College of Valor",
         level: 10,
@@ -1230,7 +1230,7 @@ const DND_PARTIES = [
       },
       {
         id: "Helios",
-        name: "Helios",
+        name: "Elios Fandmir",
         className: "Blood Hunter",
         subclass: "Order of Salt & Iron",
         level: 10,
@@ -1500,7 +1500,7 @@ const DND_PARTIES = [
         id: "Darkslayer",
         name: "Dorrut Darkslayer",
         className: "Capitan",
-        subclass: "Banner Beast",
+        subclass: "Beast Banner",
         level: 14,
         armorClass: 20,
         stats: { STR: 18, DEX: 10, CON: 16, INT: 7, WIS: 12, CHA: 16 },
@@ -2497,7 +2497,7 @@ const SPECIAL_GROUPS = [
   { id: "princesas", name: "Princesas", memberIds: ["Seris", "Aldora", "Seraphine", "Brisa", "PrincesaTuttiFrutti", "Tanya", "Luna"], threshold: 3, bonus: 20 },
   { id: "fumancheros", name: "Fumancheros", memberIds: ["Sir-Messi", "Deluxo", "pedro-hijo-jack", "lorkan"], threshold: 3, bonus: 18 },
   { id: "golden-bros", name: "Golden Bros", memberIds: ["Miguel", "Urls", "Allan", "Vonos", "Martin", "Lito", "Pekos", "Javier", "Many"], threshold: 3, bonus: 24 },
-  { id: "robots", name: "Robots", memberIds: ["Addon", "Adom", "Barian", "Lucia-Mars", "CANARIO"], threshold: 3, bonus: 24 },
+  { id: "robots", name: "Robots", memberIds: [ "Adom", "Barian", "Lucia-Mars", "CANARIO"], threshold: 3, bonus: 24 },
   { id: "odiados", name: "Odiados", memberIds: ["Kenny", "Wong", "ElPadre", "Wolfgang","Roderick", "Ivor-el-Pilar", "Krog", "Sven", "Chaja", "Maya"], threshold: 3, bonus: 20 },
   { id: "sorcadin", name: "Sorcadin", memberIds: ["Gale", "William-J", "Arturo", "Beyond"], threshold: 2, bonus: 18 },
   { id: "virgenes", name: "Virgenes", memberIds: ["Vonos", "Argos", "Lito", "jesus-nazaret"], threshold: 3, bonus: 16 }
@@ -2929,6 +2929,81 @@ const SPECIAL_CHARACTERS = [
     stats: { STR: 9, DEX: 20, CON: 14, INT: 13, WIS: 16, CHA: 12 },
     spells: [],
     tags: ["especial", "tactician", "comico"],
+    eventLocked: true,
+    appearanceWeight: 0.01
+  },
+  {
+    id: "Albercho",
+    name: "Albercho",
+    className: "Paladin",
+    subclass: "Oath of Devotion",
+    level: 20,
+    armorClass: 22,
+    portrait: "assets/portraits/Albercho.webp",
+    stats: { STR: 22, DEX: 12, CON: 20, INT: 12, WIS: 16, CHA: 22 },
+    spells: ["Bless", "Shield of Faith", "Aura of Vitality", "Banishing Smite", "Holy Weapon"],
+    tags: ["especial", "tank", "support", "healer"],
+    affinities: {
+      "Sir-Messi": { score: 24, note: "Doce Caballeros" },
+      "Sir-Gareth": { score: 24, note: "Doce Caballeros" },
+      "Sir-Galliard": { score: 24, note: "Doce Caballeros" },
+      "Sir-Lancelot": { score: 24, note: "Doce Caballeros" },
+      "Sir-Kay": { score: 30, note: "Un juramento entre leyendas." }
+    },
+    eventLocked: true,
+    appearanceWeight: 0.01
+  },
+  {
+    id: "Fahona",
+    name: "Fahona",
+    className: "Ranger",
+    subclass: "Beast Master",
+    level: 6,
+    armorClass: 16,
+    portrait: "assets/portraits/fahona.webp",
+    stats: { STR: 10, DEX: 18, CON: 14, INT: 11, WIS: 16, CHA: 12 },
+    spells: ["Hunter's Mark", "Cure Wounds", "Pass without Trace", "Spike Growth"],
+    tags: ["especial", "dps", "tactician", "support"],
+    affinities: {
+      "Vann": { score: 18, note: "Fighter Party" },
+      "Argos": { score: 18, note: "Fighter Party" },
+      "Rubi": { score: 18, note: "Fighter Party" },
+      "Jhonny": { score: 18, note: "Fighter Party" }
+    },
+    eventLocked: true,
+    appearanceWeight: 0.01
+  },
+  {
+    id: "Marise",
+    name: "Marice Lecharm",
+    className: "Wizard",
+    subclass: "School of Chronomancy",
+    level: 6,
+    armorClass: 14,
+    portrait: "assets/portraits/marise.webp",
+    stats: { STR: 8, DEX: 14, CON: 14, INT: 19, WIS: 13, CHA: 12 },
+    spells: ["Shield", "Silvery Barbs", "Misty Step", "Web", "Haste", "Counterspell"],
+    tags: ["especial", "spellcaster", "tactician", "debuffer"],
+    affinities: {
+      "Atlas": { score: 18, note: "Vaqueros" },
+      "Ricardo": { score: 18, note: "Vaqueros" },
+      "Colt": { score: 18, note: "Vaqueros" },
+      "Dick": { score: 18, note: "Vaqueros" },
+      "Robert-O": { score: 12, note: "Vaqueros" }
+    },
+    eventLocked: true,
+    appearanceWeight: 0.01
+  },
+  {
+    id: "Snaak",
+    name: "Snaak",
+    className: "Bard",
+    subclass: "College of Lore",
+    level: 10,
+    armorClass: 15,
+    stats: { STR: 9, DEX: 15, CON: 14, INT: 14, WIS: 12, CHA: 21 },
+    spells: ["Vicious Mockery", "Healing Word", "Dissonant Whispers", "Hypnotic Pattern", "Counterspell", "Greater Invisibility"],
+    tags: ["especial", "support", "tactician", "debuffer"],
     eventLocked: true,
     appearanceWeight: 0.01
   },

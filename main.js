@@ -90,6 +90,7 @@ const PORTRAIT_FILES = {
   eliana: "assets/portraits/Eliana.webp",
   elpadre: "assets/portraits/elpadre.webp",
   fashad: "assets/portraits/fashad.webp",
+  fahona: "assets/portraits/fahona.webp",
   fenris: "assets/portraits/Fenris.webp",
   gael: "assets/portraits/gael.webp",
   gale: "assets/portraits/gale.webp",
@@ -208,6 +209,8 @@ const PORTRAIT_FILES = {
   "sir-messi": "assets/portraits/sir-messi.webp",
   "sir-timo": "assets/portraits/sit-timo.webp",
   "sit-timo": "assets/portraits/sit-timo.webp",
+  marise: "assets/portraits/marise.webp",
+  snaak: "assets/portraits/Snaak.webp",
   sosun: "assets/portraits/SOSUN.webp",
   "star-guardians": "assets/portraits/Star-Guardians.webp",
   sven: "assets/portraits/sven.webp",
@@ -554,6 +557,14 @@ const SPECIAL_AFFILIATIONS = [
     text: "{special} reconoce las viejas tecnicas contra Dracos de Fighter Party y refuerza a {target} antes de {phase}."
   },
   {
+    specialId: "Fahona",
+    label: "Fighter Party",
+    partyIds: ["Fighter-Party"],
+    chance: 0.28,
+    bonus: 7,
+    text: "{special} sigue rastros de Fighter Party, llama a su companero animal y cubre a {target} durante la ruta."
+  },
+  {
     specialId: "Padre-Misty",
     label: "Auk Eman",
     partyIds: ["Auk-Eman"],
@@ -592,6 +603,14 @@ const SPECIAL_AFFILIATIONS = [
     chance: 0.24,
     bonus: 10,
     text: "{special} reconoce la sangre de los Eternos y ordena a {target} pelear con autoridad."
+  },
+  {
+    specialId: "Albercho",
+    label: "los Doce Caballeros",
+    partyIds: ["Caballeros1", "Caballeros2", "Caballeros3"],
+    chance: 0.18,
+    bonus: 12,
+    text: "{special} aparece cuando los Doce Caballeros pesan en la historia y protege a {target} con un juramento sagrado."
   },
   {
     specialId: "star-guardians-lol",
@@ -770,6 +789,14 @@ const SPECIAL_AFFILIATIONS = [
     text: "{special} aparece entre vaqueros con una identidad demasiado convincente y deja a {target} mejor preparado."
   },
   {
+    specialId: "Marise",
+    label: "Vaqueros",
+    groupIds: ["vaqueros"],
+    chance: 0.28,
+    bonus: 8,
+    text: "{special} dobla unos segundos de la ruta vaquera y le deja a {target} una ventana perfecta para actuar."
+  },
+  {
     specialId: "pablo-rodriguez",
     label: "cualquier party",
     alwaysEligible: true,
@@ -778,6 +805,82 @@ const SPECIAL_AFFILIATIONS = [
     text: "{special} es famoso en demasiadas rutas, aparece con su canon de gemas y ayuda a {target}."
   }
 ];
+
+const PLAYER_COLLECTION_REWARDS = [
+  {
+    id: "bagre",
+    playerName: "Bagre",
+    portrait: "assets/portraits/Bagre.webp",
+    requiredIds: ["Chris", "Beyond", "Miguel", "Ricardo", "Seraphine", "Sven", "Snaak"]
+  },
+  {
+    id: "maqui",
+    playerName: "Maqui",
+    portrait: "assets/portraits/Maqui.webp",
+    requiredIds: ["Albercho", "Tark", "Suleiman", "Fenris", "Karl"]
+  },
+  {
+    id: "ivo",
+    playerName: "Ivo",
+    portrait: "assets/portraits/Ivo.webp",
+    requiredIds: ["Lex", "Lito", "Krog", "Elpadre", "Sir-Gareth", "Sebastian"]
+  },
+  {
+    id: "juan",
+    playerName: "Juan",
+    portrait: "assets/portraits/Juan.webp",
+    requiredIds: ["Eliana", "Annabella", "Giovanni", "Sir-Kay", "Deluxo", "Colt"]
+  },
+  {
+    id: "marco",
+    playerName: "Marco",
+    portrait: "assets/portraits/Marco.webp",
+    requiredIds: ["Newt", "Sir-Ed", "Dion", "Lady-Ginebra", "Billy", "Katriona"]
+  },
+  {
+    id: "dana",
+    playerName: "Dana",
+    portrait: "assets/portraits/Dana.webp",
+    requiredIds: ["PrincesaTuttiFrutti", "Amari", "Alan", "Betty", "Aldora", "PrincipeMedianoche", "Bobby"]
+  },
+  {
+    id: "facu",
+    playerName: "Facu",
+    portrait: "assets/portraits/Facu.webp",
+    requiredIds: ["Tanya", "Fahona", "Argos", "Adom", "Darkslayer", "Brittany", "Harry-Time", "Chaja"]
+  },
+  {
+    id: "dany",
+    playerName: "Dany",
+    portrait: "assets/portraits/Dany.webp",
+    requiredIds: ["Tian", "Walter", "Vulkar", "Rubi", "Tsun", "Urls"]
+  },
+  {
+    id: "sofi",
+    playerName: "Sofi",
+    portrait: "assets/portraits/Sofi.webp",
+    requiredIds: ["William", "Mina", "Robert-O"]
+  },
+  {
+    id: "marco-messi",
+    playerName: "MarcoMessi",
+    portrait: "assets/portraits/MarcoMessi.webp",
+    requiredIds: ["Kenny", "Sir-Messi", "Pocho", "Fir", "Sir-Timo", "Pekos", "Jerry"]
+  },
+  {
+    id: "gaby",
+    playerName: "Gaby",
+    portrait: "assets/portraits/Gaby.webp",
+    requiredIds: ["Martin", "Cornalino", "Marise", "Brandon", "Sir-Galiard", "Lady-Jaqueline", "Davo", "Jeb"]
+  }
+];
+
+const COLLECTION_REQUIREMENT_ALIASES = {
+  alan: "Allan",
+  elpadre: "ElPadre",
+  "sir-galiard": "Sir-Galliard",
+  "lady-jaqueline": "Lady-Jacquelle"
+};
 
 function renderStart() {
   clearRouletteTimer();
@@ -924,6 +1027,7 @@ function renderTrophyCollection() {
   clearCombatTimer();
   audioManager.fadeMusicTo("menu");
   state.screen = "trophies";
+  checkGalleryCollectionRewards({ partyName: "Galeria" });
   const trophies = getTrophyDefinitions();
   const trophyState = loadTrophyState();
   const unlockedIds = new Set(Object.keys(trophyState.unlocked || {}));
@@ -959,6 +1063,10 @@ function renderTrophyCollection() {
           <span>Partys</span>
           <strong>${getUnlockedCategoryCount("party", trophies, unlockedIds)}</strong>
         </div>
+        <div class="score-tile">
+          <span>Colecciones</span>
+          <strong>${getUnlockedCategoryCount("collection", trophies, unlockedIds)}</strong>
+        </div>
       </div>
       ${Object.entries(byCategory).map(([category, entries]) => `
         <section class="panel trophy-section">
@@ -977,19 +1085,36 @@ function renderTrophyCollection() {
     resetTrophyState();
     renderTrophyCollection();
   });
+  app.querySelectorAll("[data-trophy-gallery]").forEach((card) => {
+    card.addEventListener("click", () => {
+      state.gallerySelectedId = card.dataset.trophyGallery;
+      openImageGallery();
+    });
+    card.addEventListener("keydown", (event) => {
+      if (event.key === "Enter" || event.key === " ") {
+        event.preventDefault();
+        state.gallerySelectedId = card.dataset.trophyGallery;
+        openImageGallery();
+      }
+    });
+  });
   bindAudioControls(app);
 }
 
 function renderTrophyCard(trophy, unlockInfo) {
   const unlocked = Boolean(unlockInfo);
+  const galleryRewardAttr = unlocked && trophy.galleryRewardId
+    ? `data-trophy-gallery="${escapeHtml(trophy.galleryRewardId)}" role="button" tabindex="0" aria-label="Abrir imagen de ${escapeHtml(trophy.name)}"`
+    : "";
   return `
-    <article class="trophy-card ${unlocked ? "unlocked" : "locked"}">
+    <article class="trophy-card ${unlocked ? "unlocked" : "locked"} ${trophy.galleryRewardId ? "gallery-trophy" : ""}" ${galleryRewardAttr}>
       <div class="trophy-icon">${unlocked ? "T" : "?"}</div>
       <div>
         <span class="meta-label">${escapeHtml(trophy.categoryLabel)}</span>
         <h4>${escapeHtml(trophy.name)}</h4>
         <p>${escapeHtml(trophy.description)}</p>
         ${unlocked ? `<small>Ganado con ${escapeHtml(unlockInfo.partyName || "una party")} ${unlockInfo.playerName ? `por ${escapeHtml(unlockInfo.playerName)}` : ""}</small>` : `<small>Bloqueado</small>`}
+        ${unlocked && trophy.galleryRewardId ? `<small class="trophy-gallery-hint">Click para ver la imagen en galeria</small>` : ""}
       </div>
     </article>
   `;
@@ -1007,7 +1132,8 @@ function getTrophyCategoryLabel(category) {
   const labels = {
     milestone: "Hitos",
     synergy: "Sinergias",
-    party: "Partys"
+    party: "Partys",
+    collection: "Colecciones especiales"
   };
   return labels[category] || category;
 }
@@ -1066,8 +1192,16 @@ function getTrophyDefinitions() {
     name: party.name,
     description: `Completa una aventura usando al menos un personaje activo de ${party.name}.`
   }));
+  const collectionTrophies = PLAYER_COLLECTION_REWARDS.map((reward) => ({
+    id: getCollectionRewardTrophyId(reward),
+    category: "collection",
+    categoryLabel: "Coleccion",
+    name: reward.playerName,
+    galleryRewardId: reward.id,
+    description: `???`
+  }));
 
-  return [...milestoneTrophies, ...synergyTrophies, ...partyTrophies];
+  return [...milestoneTrophies, ...synergyTrophies, ...partyTrophies, ...collectionTrophies];
 }
 
 function loadTrophyState() {
@@ -1153,6 +1287,51 @@ function getGalleryCharacterKey(character) {
   return getClassThemeSlug(character?.id || character?.name || "unknown");
 }
 
+function getCollectionRequirementKey(value) {
+  const slug = getClassThemeSlug(value);
+  return getClassThemeSlug(COLLECTION_REQUIREMENT_ALIASES[slug] || value);
+}
+
+function getCollectionRewardTrophyId(reward) {
+  return `collection-${reward.id}`;
+}
+
+function formatCollectionRequirementNames(requiredIds = []) {
+  return requiredIds.join(", ");
+}
+
+function getGalleryUnlockContext(source = "Galeria") {
+  const team = state.tournament?.playerTeam || {};
+  return {
+    partyName: team.name || state.partyName || source,
+    playerName: state.tournament?.coopPlayerName || team.ownerName || "",
+    score: team.score?.finalScore || 0
+  };
+}
+
+function checkGalleryCollectionRewards(context = {}) {
+  const galleryState = loadGalleryState();
+  const unlockedKeys = new Set(Object.keys(galleryState.unlocked || {}).map((key) => getClassThemeSlug(key)));
+  const unlocked = [];
+
+  PLAYER_COLLECTION_REWARDS.forEach((reward) => {
+    const complete = (reward.requiredIds || [])
+      .map(getCollectionRequirementKey)
+      .every((key) => unlockedKeys.has(key));
+
+    if (!complete) {
+      return;
+    }
+
+    const trophy = unlockTrophy(getCollectionRewardTrophyId(reward), context);
+    if (trophy) {
+      unlocked.push(trophy);
+    }
+  });
+
+  return unlocked;
+}
+
 function unlockGalleryPortrait(character, source = "Reclutado") {
   if (!character || !getCharacterPortraitPath(character)) {
     return false;
@@ -1170,6 +1349,7 @@ function unlockGalleryPortrait(character, source = "Reclutado") {
     source
   };
   saveGalleryState(galleryState);
+  checkGalleryCollectionRewards(getGalleryUnlockContext(source));
   return true;
 }
 
@@ -1179,6 +1359,7 @@ function unlockGalleryPortraits(characters = [], source = "Reclutado") {
 
 function getGalleryEntries() {
   const galleryState = loadGalleryState();
+  const trophyState = loadTrophyState();
   const byKey = new Map();
 
   getAllCharacters().forEach((character) => {
@@ -1203,12 +1384,41 @@ function getGalleryEntries() {
     });
   });
 
+  getPlayerCollectionRewardEntries(trophyState).forEach((entry) => {
+    byKey.set(entry.key, entry);
+  });
+
   return [...byKey.values()].sort((left, right) => {
     const unlockedDiff = Number(right.unlocked) - Number(left.unlocked);
     if (unlockedDiff) {
       return unlockedDiff;
     }
     return String(left.character.name || "").localeCompare(String(right.character.name || ""));
+  });
+}
+
+function getPlayerCollectionRewardEntries(trophyState = loadTrophyState()) {
+  return PLAYER_COLLECTION_REWARDS.map((reward) => {
+    const trophyId = getCollectionRewardTrophyId(reward);
+    const unlockInfo = trophyState.unlocked?.[trophyId] || null;
+    const character = {
+      id: reward.id,
+      name: reward.playerName,
+      className: "Jugador",
+      subclass: "Coleccion especial",
+      level: "-",
+      tags: ["especial"]
+    };
+
+    return {
+      key: reward.id,
+      reward,
+      character,
+      portrait: reward.portrait,
+      partyName: "Trofeo especial",
+      unlocked: Boolean(unlockInfo),
+      unlockInfo
+    };
   });
 }
 
@@ -1312,23 +1522,38 @@ function renderGalleryCard(entry, selectedKey) {
   const visualTheme = getCharacterVisualTheme(character);
   const active = entry.key === selectedKey;
   const locked = !entry.unlocked;
+  const isReward = Boolean(entry.reward);
+  const title = isReward ? entry.reward.playerName : character.name;
+  const unlockedSubtitle = isReward
+    ? "Jugador desbloqueado - Coleccion"
+    : `${character.className} - ${entry.partyName}`;
+  const lockedSubtitle = isReward ? "Imagen de trofeo" : entry.partyName;
 
   return `
     <button
       type="button"
-      class="gallery-card class-theme-${visualTheme.slug} ${active ? "active" : ""} ${locked ? "locked" : "unlocked"} ${hasTag(character, "especial") ? "special-card" : ""}"
+      class="gallery-card class-theme-${visualTheme.slug} ${isReward ? "collection-reward-card" : ""} ${active ? "active" : ""} ${locked ? "locked" : "unlocked"} ${hasTag(character, "especial") ? "special-card" : ""}"
       ${locked ? "disabled" : `data-gallery-select="${escapeHtml(entry.key)}"`}
     >
       <span class="gallery-thumb">
         ${entry.unlocked
-          ? `<img src="${escapeHtml(entry.portrait)}" alt="${escapeHtml(character.name)}" loading="lazy">`
-          : `<span class="gallery-locked-mark">${escapeHtml(getCharacterInitials(character.name))}</span>`}
+          ? renderGalleryImageMarkup(entry, title, "lazy")
+          : `<span class="gallery-locked-mark">${escapeHtml(getCharacterInitials(title))}</span>`}
       </span>
       <span class="gallery-card-copy">
-        <strong>${entry.unlocked ? escapeHtml(character.name) : "Retrato bloqueado"}</strong>
-        <small>${escapeHtml(entry.unlocked ? `${character.className} - ${entry.partyName}` : entry.partyName)}</small>
+        <strong>${entry.unlocked ? escapeHtml(title) : "Retrato bloqueado"}</strong>
+        <small>${escapeHtml(entry.unlocked ? unlockedSubtitle : lockedSubtitle)}</small>
       </span>
     </button>
+  `;
+}
+
+function renderGalleryImageMarkup(entry, altText, loading = "") {
+  const initials = getCharacterInitials(altText);
+  const loadingAttr = loading ? ` loading="${escapeHtml(loading)}"` : "";
+  return `
+    <span class="gallery-image-fallback">${escapeHtml(initials)}</span>
+    <img src="${escapeHtml(entry.portrait)}" alt="${escapeHtml(altText)}"${loadingAttr} onerror="this.remove()">
   `;
 }
 
@@ -1344,10 +1569,32 @@ function renderGalleryViewer(entry) {
 
   const character = entry.character;
   const visualTheme = getCharacterVisualTheme(character);
+  if (entry.reward) {
+    return `
+      <aside class="panel gallery-viewer collection-reward-viewer class-theme-${visualTheme.slug} special-card">
+        <div class="gallery-viewer-image">
+          ${renderGalleryImageMarkup(entry, entry.reward.playerName)}
+        </div>
+        <div class="gallery-meta">
+          <span class="status-pill">Trofeo especial</span>
+          <h3>${escapeHtml(entry.reward.playerName)}</h3>
+          <p>Imagen desbloqueada por completar una coleccion de retratos.</p>
+          <div class="gallery-meta-grid">
+            <span><strong>Tipo</strong>Jugador</span>
+            <span><strong>Coleccion</strong>${escapeHtml(entry.reward.requiredIds.length)} retratos</span>
+            <span><strong>Origen</strong>Trofeo</span>
+            <span><strong>Estado</strong>Desbloqueado</span>
+          </div>
+          <small>Desbloqueado ${escapeHtml(formatGalleryDate(entry.unlockInfo?.unlockedAt))}</small>
+        </div>
+      </aside>
+    `;
+  }
+
   return `
     <aside class="panel gallery-viewer class-theme-${visualTheme.slug} ${hasTag(character, "especial") ? "special-card" : ""}">
       <div class="gallery-viewer-image">
-        <img src="${escapeHtml(entry.portrait)}" alt="${escapeHtml(character.name)}">
+        ${renderGalleryImageMarkup(entry, character.name)}
       </div>
       <div class="gallery-meta">
         <span class="status-pill">${escapeHtml(entry.partyName)}</span>
@@ -1936,6 +2183,7 @@ function renderFormation() {
     members: state.draftedCharacters,
     assignments: state.assignments
   }) : null;
+  const canReturnToDraft = state.draftedCharacters.length < 5;
 
   app.innerHTML = `
     <section class="screen">
@@ -1948,7 +2196,7 @@ function renderFormation() {
         <div class="toolbar">
           <button class="ghost-button" data-action="auto">Autoasignar</button>
           <button class="ghost-button" data-action="gallery">Galeria</button>
-          <button class="ghost-button" data-action="draft">Volver al draft</button>
+          ${canReturnToDraft ? `<button class="ghost-button" data-action="draft">Seguir draft</button>` : ""}
           ${renderAudioSettings("compact")}
         </div>
       </header>
@@ -1983,16 +2231,12 @@ function renderFormation() {
     syncCurrentAssignmentUI({ preserveUi: true });
   });
   app.querySelector("[data-action='gallery']").addEventListener("click", openImageGallery);
-  app.querySelector("[data-action='draft']").addEventListener("click", () => {
-    const removedCharacter = state.draftedCharacters.pop();
-    if (removedCharacter && hasTag(removedCharacter, "especial")) {
-      state.seenSpecialCharacterIds = state.seenSpecialCharacterIds.filter((id) => id !== removedCharacter.id);
-    }
-    if (removedCharacter) {
-      delete state.draftPickOwners[removedCharacter.id];
-    }
-    startPartyRoulette();
-  });
+  const draftButton = app.querySelector("[data-action='draft']");
+  if (draftButton) {
+    draftButton.addEventListener("click", () => {
+      startPartyRoulette();
+    });
+  }
   app.querySelector("[data-action='tournament']").addEventListener("click", startTournament);
   bindAudioControls(app);
 }
@@ -2864,6 +3108,7 @@ function renderCampaignEvent(event, tournament, replacementRequestOverride) {
     <article class="campaign-event-card ${type}">
       <span class="status-pill">${typeLabel}</span>
       <h4>${escapeHtml(event.title || "Evento de campaña")}</h4>
+      ${renderCampaignEventArt(event)}
       <p>${escapeHtml(event.text || "")}</p>
       ${event.sourcePartyName ? `<p class="campaign-source">Origen: ${escapeHtml(event.sourcePartyName)}</p>` : ""}
       ${renderCampaignEffectLog(event)}
@@ -2873,6 +3118,14 @@ function renderCampaignEvent(event, tournament, replacementRequestOverride) {
       </div>
       ${replacementRequest ? renderReplacementRequest(replacementRequest) : ""}
     </article>
+  `;
+}
+
+function renderCampaignEventArt(event) {
+  return `
+    <div class="campaign-event-art">
+      <img src="assets/portraits/evento.webp" alt="${escapeHtml(event.title || "Evento")}" loading="lazy">
+    </div>
   `;
 }
 
@@ -4602,7 +4855,7 @@ function getWorldLoreRewardBlueprints(enemy) {
     {
       id: "red-division-draco-tactics",
       title: "Pautas de la Division Roja",
-      text: "La Division Roja ensena lo basico contra dracos: aislarlos, controlarlos y no subestimar ni a categoria 1.",
+      text: "La Division Roja enseña lo basico contra dracos: aislarlos, controlarlos y no subestimar ni a categoria 1.",
       effectText: "+INT, control y score",
       effects: [
         { type: "statTraining", target: "tactician", stat: "INT", amount: 1, text: "{character} memoriza pautas anti-draco y mejora INT en +1." },
@@ -5724,6 +5977,8 @@ function recordTournamentTrophies(tournament) {
   getActiveOriginPartyIds(activeMembers)
     .forEach((partyId) => pushUnlock(`party-${partyId}`));
 
+  checkGalleryCollectionRewards(context)
+    .forEach((trophy) => unlocked.push(trophy));
   unlockMetaCollectionTrophies(context, unlocked);
 
   tournament.trophiesRecorded = true;
@@ -5735,6 +5990,7 @@ function recordTournamentTrophies(tournament) {
 function unlockMetaCollectionTrophies(context, unlocked) {
   const trophyState = loadTrophyState();
   const unlockedIds = new Set(Object.keys(trophyState.unlocked || {}));
+  unlocked.forEach((trophy) => unlockedIds.add(trophy.id));
   const definitions = getTrophyDefinitions();
   const synergyIds = definitions
     .filter((trophy) => trophy.category === "synergy")
@@ -5747,12 +6003,14 @@ function unlockMetaCollectionTrophies(context, unlocked) {
     const trophy = unlockTrophy("all-synergies", context);
     if (trophy) {
       unlocked.push(trophy);
+      unlockedIds.add(trophy.id);
     }
   }
   if (partyIds.length && partyIds.every((id) => unlockedIds.has(id))) {
     const trophy = unlockTrophy("all-parties", context);
     if (trophy) {
       unlocked.push(trophy);
+      unlockedIds.add(trophy.id);
     }
   }
 }

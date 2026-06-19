@@ -25563,9 +25563,9 @@ const DND_SUBCLASS_CLASSIFICATION_DATA = {
       "weaknessNotes": "Debilidades principales: sufre si pierde concentracion, puede caer bajo presion directa.",
       "complexityScore": 7,
       "rolePriority": [
-        "SUPPORT",
-        "TACTICIAN",
         "DPS_RANGED",
+        "TACTICIAN",
+        "SUPPORT",
         "FRONTLINER"
       ]
     },
