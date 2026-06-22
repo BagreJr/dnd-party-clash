@@ -7486,8 +7486,8 @@ const DND_SUBCLASS_CLASSIFICATION_DATA = {
       "complexityScore": 3,
       "rolePriority": [
         "DPS_MELEE",
-        "DPS_RANGED",
         "FRONTLINER",
+        "DPS_RANGED",
         "TACTICIAN"
       ]
     },
@@ -15475,9 +15475,9 @@ const DND_SUBCLASS_CLASSIFICATION_DATA = {
       "weaknessNotes": "Debilidades principales: depende de recursos limitados.",
       "complexityScore": 4,
       "rolePriority": [
-        "DPS_MELEE",
-        "TACTICIAN",
         "DPS_RANGED",
+        "TACTICIAN",
+        "DPS_MELEE",
         "FRONTLINER"
       ]
     },

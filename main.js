@@ -18,6 +18,7 @@ const state = {
   activeCoopPlayerIndex: 0,
   coopRuns: [],
   coopFinal: null,
+  gameMode: "adventure",
   recentTrophies: [],
   tournament: null,
   rouletteTimer: null,
@@ -25,13 +26,15 @@ const state = {
   typingTimer: null,
   galleryReturnScreen: "start",
   trophyReturnScreen: "start",
-  gallerySelectedId: ""
+  gallerySelectedId: "",
+  gallerySearchQuery: ""
 };
 
-const ADVENTURE_MAX_COMBATS = 7;
+const ADVENTURE_MAX_COMBATS = 8;
 const PATH_CHOICE_COUNT = 2;
 const REWARD_OPTION_COUNT = 2;
 const REWARD_OPTION_MEMORY_LIMIT = 18;
+const INFINITE_UNLOCK_TROPHY_ID = "first-win";
 const ROLE_PRIORITY_MULTIPLIERS = [1.15, 1, 0.75, 0.5];
 const UNASSIGNED_ROLE_MULTIPLIER = 0.3;
 const TROPHY_STORAGE_KEY = "dnd-party-clash-trophies-v1";
@@ -227,6 +230,252 @@ const PORTRAIT_FILES = {
   wolfgang: "assets/portraits/Wolfgang.webp",
   wong: "assets/portraits/wong.webp",
   "zero-snake": "assets/portraits/Zero-Snake.webp"
+};
+const PORTRAIT_THUMB_DIR = "assets/portraits/thumbs/";
+const PIXEL_IDLE_FILES = {
+  allan: "assets/portraits/pixel/Allan.png",
+  argos: "assets/portraits/pixel/Argos.png",
+  arminio: "assets/portraits/pixel/Arminio.png",
+  baltasaria: "assets/portraits/pixel/Baltasaria.png",
+  barian: "assets/portraits/pixel/Barian.png",
+  beyond: "assets/portraits/pixel/Beyond.png",
+  billy: "assets/portraits/pixel/Billy.png",
+  brakcius: "assets/portraits/pixel/Brakcius.png",
+  brittany: "assets/portraits/pixel/Brittany.png",
+  canario: "assets/portraits/pixel/CANARIO.png",
+  dagon: "assets/portraits/pixel/Dagon.png",
+  dangxia: "assets/portraits/pixel/DangXia.png",
+  dimas: "assets/portraits/pixel/Dimas.png",
+  dion: "assets/portraits/pixel/Dion.png",
+  gael: "assets/portraits/pixel/Gael.png",
+  gale: "assets/portraits/pixel/Gale.png",
+  giovanni: "assets/portraits/pixel/Giovanni.png",
+  guileas: "assets/portraits/pixel/Guileas.png",
+  guiileas: "assets/portraits/pixel/Guileas.png",
+  "harry-time": "assets/portraits/pixel/Harry-Time.png",
+  javier: "assets/portraits/pixel/Javier.png",
+  jhonny: "assets/portraits/pixel/Jhonny.png",
+  karl: "assets/portraits/pixel/Karl-Mac-Dhiarmaid.png",
+  "karl-mac-dhiarmaid": "assets/portraits/pixel/Karl-Mac-Dhiarmaid.png",
+  kenny: "assets/portraits/pixel/Kenny.png",
+  kiara: "assets/portraits/pixel/Kiara.png",
+  "lady-ginebra": "assets/portraits/pixel/Lady-Ginebra.png",
+  "lady-jacquelle": "assets/portraits/pixel/Lady-Jacquelle.png",
+  lito: "assets/portraits/pixel/Lito.png",
+  "lucia-mars": "assets/portraits/pixel/Lucia-Mars.png",
+  many: "assets/portraits/pixel/Many.png",
+  martin: "assets/portraits/pixel/Martin.png",
+  metis: "assets/portraits/pixel/Metis.png",
+  miguel: "assets/portraits/pixel/Miguel.png",
+  mizkisha: "assets/portraits/pixel/Mizkisha.png",
+  noulan: "assets/portraits/pixel/Noulan.png",
+  obelisko2: "assets/portraits/pixel/Obelisko2.png",
+  omar: "assets/portraits/pixel/Omar.png",
+  "oscar-mars": "assets/portraits/pixel/Oscar-Mars.png",
+  "padre-misty": "assets/portraits/pixel/Padre-Misty.png",
+  pekos: "assets/portraits/pixel/Pekos.png",
+  princesatuttifrutti: "assets/portraits/pixel/PrincesaTuttiFrutti.png",
+  ras: "assets/portraits/pixel/Ras.png",
+  ratchet: "assets/portraits/pixel/Ratchet.png",
+  roderick: "assets/portraits/pixel/Roderick.png",
+  rubi: "assets/portraits/pixel/Rubi.png",
+  searon: "assets/portraits/pixel/Searon.png",
+  "sir-brayton": "assets/portraits/pixel/Sir-Brayton.png",
+  "sir-ed": "assets/portraits/pixel/Sir-Ed.png",
+  "sir-galliard": "assets/portraits/pixel/Sir-Galliard.png",
+  "sir-gareth": "assets/portraits/pixel/Sir-Gareth.png",
+  "sir-kay": "assets/portraits/pixel/Sir-Kay.png",
+  "sir-lancelot": "assets/portraits/pixel/Sir-Lancelot.png",
+  "sir-macrath": "assets/portraits/pixel/Sir-Macrath.png",
+  "sir-timo": "assets/portraits/pixel/Sir-Timo.png",
+  "sir-tyren": "assets/portraits/pixel/Sir-Tyren.png",
+  torin: "assets/portraits/pixel/Torin.png",
+  urls: "assets/portraits/pixel/Urls.png",
+  vann: "assets/portraits/pixel/Vann.png",
+  vonos: "assets/portraits/pixel/Voños.png",
+  walter: "assets/portraits/pixel/Walter.png",
+  "william-j": "assets/portraits/pixel/William-J.png",
+  yotta: "assets/portraits/pixel/Yotta.png",
+  "zero-snake": "assets/portraits/pixel/Zero-Snake.png"
+};
+const PIXEL_IDLE_SOURCE_BASE = "assets/portraits/pixel/";
+const PIXEL_IDLE_OPTIMIZED_BASE = "assets/portraits/pixel/optimized/";
+const PIXEL_IDLE_OPTIMIZED_FILES = {
+  adbullah: "Adbullah.webp",
+  adon: "Adon.webp",
+  albercho: "Albercho.webp",
+  alejandroiii: "AlejandroIII.webp",
+  aldora: "Aldora.webp",
+  allan: "Allan.webp",
+  amari: "Amari.webp",
+  angel: "Angel.webp",
+  annabella: "Annabella.webp",
+  annie: "Annie.webp",
+  argos: "Argos.webp",
+  arminio: "Arminio.webp",
+  arturo: "Arturo.webp",
+  atlas: "Atlas.webp",
+  aurora: "aurora.webp",
+  austin: "Austin.webp",
+  baltasaria: "Baltasaria.webp",
+  barian: "Barian.webp",
+  betty: "Betty.webp",
+  beyond: "Beyond.webp",
+  bigsky: "BigSky.webp",
+  billy: "Billy.webp",
+  bobby: "Bobby.webp",
+  brakcius: "Brakcius.webp",
+  brandon: "Brandon.webp",
+  brisa: "Brisa.webp",
+  brittany: "Brittany.webp",
+  canario: "CANARIO.webp",
+  catrina: "Catrina.webp",
+  chaja: "Chaja.webp",
+  chris: "Chris.webp",
+  colt: "Colt.webp",
+  cornalino: "Cornalino.webp",
+  dagon: "Dagon.webp",
+  dangxia: "DangXia.webp",
+  darkslayer: "Darkslayer.webp",
+  davo: "Davo.webp",
+  deluxo: "Deluxo.webp",
+  dick: "Dick.webp",
+  "diego-maradona": "diego-maradona.webp",
+  dimas: "Dimas.webp",
+  dion: "Dion.webp",
+  domenico: "Domenico.webp",
+  dynamo: "Dynamo.webp",
+  ejemi: "Ejemi.webp",
+  eliana: "Eliana.webp",
+  elpadre: "ElPadre.webp",
+  fahona: "Fahona.webp",
+  fashad: "Fashad.webp",
+  "femme-noir": "femme-noir.webp",
+  fenris: "fenris.webp",
+  fir: "Fir.webp",
+  "fresh-el-fresco": "fresh-el-fresco.webp",
+  gael: "Gael.webp",
+  gale: "Gale.webp",
+  giovanni: "Giovanni.webp",
+  guileas: "Guileas.webp",
+  "harry-time": "Harry-Time.webp",
+  helios: "Helios.webp",
+  "homero-delfuturo": "homero-delfuturo.webp",
+  hrothgar: "Hrothgar.webp",
+  iggy: "Iggy.webp",
+  "ivor-el-pilar": "Ivor-El-Pilar.webp",
+  javier: "Javier.webp",
+  jeb: "Jeb.webp",
+  jerry: "jerry.webp",
+  "jesus-nazaret": "jesus-nazaret.webp",
+  "jhon-cross": "jhon-cross.webp",
+  jhonny: "Jhonny.webp",
+  kafka: "kafka.webp",
+  "karl-mac-dhiarmaid": "Karl-Mac-Dhiarmaid.webp",
+  katriona: "Katriona.webp",
+  kenny: "Kenny.webp",
+  kiara: "Kiara.webp",
+  koma: "Koma.webp",
+  krog: "Krog.webp",
+  "la-12": "la-12.webp",
+  "lady-ginebra": "Lady-Ginebra.webp",
+  "lady-jacquelle": "Lady-Jacquelle.webp",
+  leon: "leon.webp",
+  lex: "Lex.webp",
+  lied: "Lied.webp",
+  liora: "Liora.webp",
+  lito: "Lito.webp",
+  "lorax-comunista": "lorax-comunista.webp",
+  lorkan: "lorkan.webp",
+  "lucia-mars": "Lucia-Mars.webp",
+  "luke-robinson": "luke-robinson.webp",
+  luna: "Luna.webp",
+  lydia: "Lydia.webp",
+  many: "Many.webp",
+  margaret: "margaret.webp",
+  marise: "Marise.webp",
+  martin: "Martin.webp",
+  maya: "Maya.webp",
+  melindo: "Melindo.webp",
+  metis: "Metis.webp",
+  miguel: "Miguel.webp",
+  mikos: "Mikos.webp",
+  mina: "mina.webp",
+  mizkisha: "Mizkisha.webp",
+  molusco: "Molusco.webp",
+  morena: "Morena.webp",
+  narciso: "Narciso.webp",
+  newt: "Newt.webp",
+  noulan: "Noulan.webp",
+  obelisko2: "Obelisko2.webp",
+  omar: "Omar.webp",
+  "oscar-mars": "Oscar-Mars.webp",
+  owen: "Owen.webp",
+  "pablo-rodriguez": "pablo-rodriguez.webp",
+  "padre-misty": "Padre-Misty.webp",
+  "pedro-hijo-jack": "pedro-hijo-jack.webp",
+  pekos: "Pekos.webp",
+  "phill-collings": "phill-collings.webp",
+  pocho: "Pocho.webp",
+  princesatuttifrutti: "PrincesaTuttiFrutti.webp",
+  principemedianoche: "PríncipeMedianoche.webp",
+  ras: "Ras.webp",
+  ratchet: "Ratchet.webp",
+  ricardo: "Ricardo.webp",
+  "rita-claus": "Rita-claus.webp",
+  "robert-o": "Robert-o.webp",
+  roderick: "Roderick.webp",
+  "roman-riquelme": "roman-riquelme.webp",
+  rubi: "Rubi.webp",
+  "salchicha-ovejero": "salchicha-ovejero.webp",
+  searon: "Searon.webp",
+  sebastian: "Sebastian.webp",
+  seraphine: "Seraphine.webp",
+  serena: "Serena.webp",
+  seris: "Seris.webp",
+  "sir-brayton": "Sir-Brayton.webp",
+  "sir-ed": "Sir-Ed.webp",
+  "sir-galliard": "Sir-Galliard.webp",
+  "sir-gareth": "Sir-Gareth.webp",
+  "sir-kay": "Sir-Kay.webp",
+  "sir-lancelot": "Sir-Lancelot.webp",
+  "sir-macrath": "Sir-Macrath.webp",
+  "sir-messi": "Sir-Messi.webp",
+  "sir-timo": "Sir-Timo.webp",
+  "sir-tyren": "Sir-Tyren.webp",
+  snaak: "Snaak.webp",
+  sosun: "Sosun.webp",
+  "star-guardians-lol": "star-guardians-lol.webp",
+  suleiman: "Suleiman.webp",
+  sven: "Sven.webp",
+  tanya: "Tanya.webp",
+  tark: "Tark.webp",
+  terminator: "Terminator.webp",
+  tian: "Tian.webp",
+  "tincho-carpincho": "tincho-carpincho.webp",
+  torin: "Torin.webp",
+  tsun: "Tsun.webp",
+  tyler: "Tyler.webp",
+  urls: "Urls.webp",
+  vann: "Vann.webp",
+  vonos: "Voños.webp",
+  vulkar: "Vulkar.webp",
+  walter: "Walter.webp",
+  william: "William.webp",
+  "william-j": "William-J.webp",
+  wolfgang: "Wolfgang.webp",
+  wong: "Wong.webp",
+  yotta: "Yotta.webp",
+  "zero-snake": "Zero-Snake.webp",
+  zoddos: "Zoddos.webp"
+};
+const PIXEL_IDLE_OPTIMIZED_ALIASES = {
+  addon: "adon",
+  adom: "adon",
+  drake: "angel",
+  guiileas: "guileas",
+  karl: "karl-mac-dhiarmaid",
+  "principe-de-la-medianoche": "principemedianoche"
 };
 const CLASS_ICON_FILES = {
   alchemist: "assets/icons/alchemist.webp",
@@ -546,7 +795,67 @@ const ADVENTURE_MAP_POINTS = [
   { x: 50, y: 30 },
   { x: 64, y: 60 },
   { x: 79, y: 38 },
-  { x: 92, y: 56 }
+  { x: 89, y: 24 },
+  { x: 94, y: 56 }
+];
+
+const FINAL_BOSS_DEFINITIONS = [
+  {
+    id: "rey-arturo-caballeros",
+    name: "Boss Final: Rey Arturo y los 12 Caballeros",
+    theme: "Arturo convoca a los caballeros elegidos y convierte la ultima ruta en una mesa redonda de guerra.",
+    partyIds: ["Caballeros1", "Caballeros2", "Caballeros3"],
+    specialIds: ["Arturo", "Albercho", "star-guardians-lol"],
+    eventPartyId: "Caballeros1",
+    scoreBonus: 105,
+    playerScale: 0.035,
+    targetMultiplier: 1.015,
+    targetBonus: 14,
+    minimumDelta: 10,
+    maximumDelta: 26
+  },
+  {
+    id: "auk-eman-lorax",
+    name: "Boss Final: Auk Eman y el Lorax Comunista",
+    theme: "Auk Eman junta deuda, caos y sindicalismo natural para cerrar el camino con una emboscada absurda.",
+    partyIds: ["Auk-Eman"],
+    specialIds: ["lorax-comunista", "Padre-Misty", "fresh-el-fresco"],
+    eventPartyId: "Auk-Eman",
+    scoreBonus: 90,
+    playerScale: 0.03,
+    targetMultiplier: 1.012,
+    targetBonus: 10,
+    minimumDelta: 6,
+    maximumDelta: 22
+  },
+  {
+    id: "tracendencia-leyendas",
+    name: "Boss Final: Tracendencia de Leyendas",
+    theme: "La fe, la pelota y la tribuna se mezclan en una final donde todos juegan mejor de lo razonable.",
+    partyIds: ["Tracendencia", "Tracendencia2"],
+    specialIds: ["roman-riquelme", "diego-maradona", "la-12", "tincho-carpincho"],
+    eventPartyId: "Tracendencia",
+    scoreBonus: 95,
+    playerScale: 0.03,
+    targetMultiplier: 1.014,
+    targetBonus: 10,
+    minimumDelta: 8,
+    maximumDelta: 24
+  },
+  {
+    id: "robots-futuro",
+    name: "Boss Final: Robots del Futuro",
+    theme: "La tecnologia, los viajes temporales y las maquinas corporativas sincronizan una ofensiva perfecta.",
+    partyIds: ["Nexus-Arcana"],
+    specialIds: ["terminator", "SOSUN", "Dynamo"],
+    eventPartyId: "Nexus-Arcana",
+    scoreBonus: 100,
+    playerScale: 0.035,
+    targetMultiplier: 1.014,
+    targetBonus: 12,
+    minimumDelta: 8,
+    maximumDelta: 24
+  }
 ];
 
 const SPECIAL_AFFILIATIONS = [
@@ -660,7 +969,7 @@ const SPECIAL_AFFILIATIONS = [
     partyIds: ["Destiny1", "Destiny2"],
     chance: 0.3,
     bonus: 9,
-    text: "{special} llega desde un futuro imposible de Destiny Party y le muestra a {target} una forma nueva de hacer magia."
+    text: "{special} llega desde un pasado imposible de Destiny Party y le muestra a {target} una forma nueva de hacer magia."
   },
   {
     specialId: "lorkan",
@@ -889,12 +1198,16 @@ function renderStart() {
   clearCombatTimer();
   audioManager.fadeMusicTo("menu");
   state.screen = "start";
+  const infiniteUnlocked = isInfiniteModeUnlocked();
+  if (!infiniteUnlocked || state.isLocalCoop) {
+    state.gameMode = "adventure";
+  }
   app.innerHTML = `
     <section class="screen hero">
       <div class="hero-copy">
         <span class="eyebrow">Draft + aventura por caminos</span>
         <h1>D&amp;D Party Clash</h1>
-        <p class="lead">Elige hasta cinco aventureros desde partys rivales, asigna los roles que quieras y decide entre dos rutas en un viaje de siete combates, eventos y mejoras.</p>
+        <p class="lead">Elige hasta cinco aventureros desde partys rivales, asigna los roles que quieras y decide entre dos rutas en un viaje de ocho combates, eventos, mejoras y un boss final.</p>
       </div>
       <form class="setup-panel" data-setup>
         <div class="form-field" data-solo-party-field>
@@ -926,6 +1239,20 @@ function renderStart() {
               <span>Versus local</span>
             </label>
           </div>
+        </div>
+        <div class="form-field">
+          <span class="field-label">Modo</span>
+          <div class="segmented-control">
+            <label>
+              <input type="radio" name="game-mode" value="adventure" ${state.gameMode === "infinite" ? "" : "checked"}>
+              <span>Aventura</span>
+            </label>
+            <label data-infinite-mode-label class="${infiniteUnlocked ? "" : "disabled-option"}">
+              <input type="radio" name="game-mode" value="infinite" ${state.gameMode === "infinite" ? "checked" : ""} ${infiniteUnlocked ? "" : "disabled"}>
+              <span>Infinito</span>
+            </label>
+          </div>
+          <small class="mode-hint" data-mode-hint>${escapeHtml(getInfiniteModeHint(infiniteUnlocked, state.isLocalCoop))}</small>
         </div>
         <div class="coop-fields" data-coop-fields ${state.isLocalCoop ? "" : "hidden"}>
           <div class="form-field">
@@ -966,12 +1293,30 @@ function updateStartCoopFields() {
   const fields = app.querySelector("[data-coop-fields]");
   const soloPartyField = app.querySelector("[data-solo-party-field]");
   const coopSelected = app.querySelector("input[name='player-mode']:checked")?.value === "coop";
+  const infiniteUnlocked = isInfiniteModeUnlocked();
+  const infiniteInput = app.querySelector("input[name='game-mode'][value='infinite']");
+  const adventureInput = app.querySelector("input[name='game-mode'][value='adventure']");
+  const infiniteLabel = app.querySelector("[data-infinite-mode-label]");
+  const modeHint = app.querySelector("[data-mode-hint]");
+  const disableInfinite = !infiniteUnlocked || coopSelected;
 
   if (fields) {
     fields.hidden = !coopSelected;
   }
   if (soloPartyField) {
     soloPartyField.hidden = coopSelected;
+  }
+  if (infiniteInput) {
+    infiniteInput.disabled = disableInfinite;
+    if (disableInfinite && infiniteInput.checked && adventureInput) {
+      adventureInput.checked = true;
+    }
+  }
+  if (infiniteLabel) {
+    infiniteLabel.classList.toggle("disabled-option", disableInfinite);
+  }
+  if (modeHint) {
+    modeHint.textContent = getInfiniteModeHint(infiniteUnlocked, coopSelected);
   }
 }
 
@@ -1004,19 +1349,14 @@ function resetDraftState() {
 }
 
 function confirmRestartGame() {
-  const confirmed = typeof window === "undefined" || typeof window.confirm !== "function"
-    ? true
-    : window.confirm("seguro quieres reiniciar?");
-
-  if (confirmed) {
-    renderStart();
-  }
+  renderStart();
 }
 
 function applyStartSettings() {
   const partyName = app.querySelector("#party-name")?.value;
   const roleMode = app.querySelector("input[name='role-mode']:checked")?.value || "visible";
   const playerMode = app.querySelector("input[name='player-mode']:checked")?.value || "solo";
+  const gameMode = app.querySelector("input[name='game-mode']:checked")?.value || "adventure";
   const playerOne = app.querySelector("#player-one")?.value;
   const playerTwo = app.querySelector("#player-two")?.value;
   const partyOne = app.querySelector("#party-one")?.value;
@@ -1025,6 +1365,9 @@ function applyStartSettings() {
   state.partyName = cleanDisplayName(partyName, "Tu Party");
   state.showRoleHints = roleMode === "visible";
   state.isLocalCoop = playerMode === "coop";
+  state.gameMode = gameMode === "infinite" && !state.isLocalCoop && isInfiniteModeUnlocked()
+    ? "infinite"
+    : "adventure";
   state.playerNames = [
     cleanDisplayName(playerOne, "Jugador 1"),
     cleanDisplayName(playerTwo, "Jugador 2")
@@ -1291,6 +1634,21 @@ function resetTrophyState() {
   }
 }
 
+function isInfiniteModeUnlocked() {
+  const trophyState = loadTrophyState();
+  return Boolean(trophyState.unlocked?.[INFINITE_UNLOCK_TROPHY_ID]);
+}
+
+function getInfiniteModeHint(unlocked = isInfiniteModeUnlocked(), coopSelected = false) {
+  if (coopSelected) {
+    return "El modo infinito es para solo; el versus local usa aventura con final.";
+  }
+  if (!unlocked) {
+    return "Se desbloquea cuando completas una aventura por primera vez.";
+  }
+  return "Rondas sin limite: cada victoria aumenta la dificultad poco a poco.";
+}
+
 function loadGalleryState() {
   const storage = getLocalStorageSafe();
   if (!storage) {
@@ -1503,8 +1861,12 @@ function renderImageGallery() {
   state.screen = "gallery";
 
   const entries = getGalleryEntries();
+  const filteredEntries = filterGalleryEntries(entries, state.gallerySearchQuery);
   const unlockedEntries = entries.filter((entry) => entry.unlocked);
-  const selectedEntry = entries.find((entry) => entry.key === state.gallerySelectedId && entry.unlocked)
+  const filteredUnlockedEntries = filteredEntries.filter((entry) => entry.unlocked);
+  const selectedEntry = filteredEntries.find((entry) => entry.key === state.gallerySelectedId && entry.unlocked)
+    || filteredUnlockedEntries[0]
+    || entries.find((entry) => entry.key === state.gallerySelectedId && entry.unlocked)
     || unlockedEntries[0]
     || null;
   if (selectedEntry) {
@@ -1542,11 +1904,20 @@ function renderImageGallery() {
       <div class="gallery-layout">
         <section class="panel gallery-list-panel">
           <h3>Retratos disponibles</h3>
-          <div class="gallery-grid">
-            ${entries.map((entry) => renderGalleryCard(entry, selectedEntry?.key)).join("")}
+          <div class="gallery-tools">
+            <label class="gallery-search">
+              <span>Buscar</span>
+              <input type="search" data-gallery-search placeholder="Nombre, clase o party" value="${escapeHtml(state.gallerySearchQuery)}" autocomplete="off">
+            </label>
+            <span class="gallery-filter-count" data-gallery-count>${filteredEntries.length}/${entries.length}</span>
+          </div>
+          <div class="gallery-grid" data-gallery-grid>
+            ${renderGalleryGrid(filteredEntries, selectedEntry?.key)}
           </div>
         </section>
-        ${renderGalleryViewer(selectedEntry)}
+        <div data-gallery-viewer>
+          ${renderGalleryViewer(selectedEntry)}
+        </div>
       </div>
     </section>
   `;
@@ -1556,13 +1927,99 @@ function renderImageGallery() {
     resetGalleryState();
     renderImageGallery();
   });
-  app.querySelectorAll("[data-gallery-select]").forEach((button) => {
-    button.addEventListener("click", () => {
-      state.gallerySelectedId = button.dataset.gallerySelect;
-      renderImageGallery();
-    });
+  const galleryGrid = app.querySelector("[data-gallery-grid]");
+  galleryGrid?.addEventListener("click", (event) => {
+    const button = event.target?.closest?.("[data-gallery-select]");
+    if (!button) {
+      return;
+    }
+    updateGallerySelection(button.dataset.gallerySelect);
+  });
+  const gallerySearch = app.querySelector("[data-gallery-search]");
+  gallerySearch?.addEventListener("input", () => {
+    state.gallerySearchQuery = gallerySearch.value;
+    refreshGalleryList();
   });
   bindAudioControls(app);
+}
+
+function renderGalleryGrid(entries, selectedKey) {
+  if (!entries.length) {
+    return `<div class="gallery-empty-filter">No hay retratos que coincidan con la busqueda.</div>`;
+  }
+
+  return entries.map((entry) => renderGalleryCard(entry, selectedKey)).join("");
+}
+
+function updateGallerySelection(entryKey) {
+  const entries = getGalleryEntries();
+  const selectedEntry = entries.find((entry) => entry.key === entryKey && entry.unlocked);
+  if (!selectedEntry) {
+    return;
+  }
+
+  state.gallerySelectedId = selectedEntry.key;
+  const viewerSlot = app.querySelector("[data-gallery-viewer]");
+  if (viewerSlot) {
+    viewerSlot.innerHTML = renderGalleryViewer(selectedEntry);
+  }
+
+  app.querySelectorAll("[data-gallery-select]").forEach((button) => {
+    const active = button.dataset.gallerySelect === selectedEntry.key;
+    button.classList.toggle("active", active);
+  });
+}
+
+function refreshGalleryList() {
+  const entries = getGalleryEntries();
+  const filteredEntries = filterGalleryEntries(entries, state.gallerySearchQuery);
+  const filteredUnlockedEntries = filteredEntries.filter((entry) => entry.unlocked);
+  const selectedEntry = filteredEntries.find((entry) => entry.key === state.gallerySelectedId && entry.unlocked)
+    || filteredUnlockedEntries[0]
+    || null;
+
+  const galleryGrid = app.querySelector("[data-gallery-grid]");
+  if (galleryGrid) {
+    galleryGrid.innerHTML = renderGalleryGrid(filteredEntries, selectedEntry?.key);
+  }
+
+  const count = app.querySelector("[data-gallery-count]");
+  if (count) {
+    count.textContent = `${filteredEntries.length}/${entries.length}`;
+  }
+
+  if (selectedEntry) {
+    updateGallerySelection(selectedEntry.key);
+    return;
+  }
+
+  const viewerSlot = app.querySelector("[data-gallery-viewer]");
+  if (viewerSlot) {
+    viewerSlot.innerHTML = renderGalleryViewer(null);
+  }
+}
+
+function filterGalleryEntries(entries, query) {
+  const normalizedQuery = normalizeLookupText(query);
+  if (!normalizedQuery) {
+    return entries;
+  }
+
+  return entries.filter((entry) => {
+    const character = entry.character || {};
+    const title = entry.reward ? entry.reward.playerName : character.name;
+    const haystack = [
+      title,
+      character.id,
+      character.name,
+      character.className,
+      character.subclass,
+      entry.partyName,
+      entry.reward ? "trofeo jugador coleccion" : "",
+      entry.unlocked ? "desbloqueado" : "bloqueado"
+    ].map(normalizeLookupText).join(" ");
+    return haystack.includes(normalizedQuery);
+  });
 }
 
 function renderGalleryCard(entry, selectedKey) {
@@ -1599,9 +2056,38 @@ function renderGalleryCard(entry, selectedKey) {
 function renderGalleryImageMarkup(entry, altText, loading = "") {
   const initials = getCharacterInitials(altText);
   const loadingAttr = loading ? ` loading="${escapeHtml(loading)}"` : "";
+  const src = getPortraitThumbnailPath(entry.portrait);
+  const fallbackAttr = src !== entry.portrait ? ` data-fallback-src="${escapeHtml(entry.portrait)}"` : "";
   return `
     <span class="gallery-image-fallback">${escapeHtml(initials)}</span>
-    <img src="${escapeHtml(entry.portrait)}" alt="${escapeHtml(altText)}"${loadingAttr} onerror="this.remove()">
+    <img src="${escapeHtml(src)}" alt="${escapeHtml(altText)}"${loadingAttr}${fallbackAttr} decoding="async" fetchpriority="low" onerror="handleGalleryImageError(this)">
+  `;
+}
+
+function renderGalleryFullImageMarkup(entry, altText) {
+  const initials = getCharacterInitials(altText);
+  return `
+    <span class="gallery-image-fallback">${escapeHtml(initials)}</span>
+    <img src="${escapeHtml(entry.portrait)}" alt="${escapeHtml(altText)}" decoding="async" onerror="this.remove()">
+  `;
+}
+
+function renderGalleryPixelMarkup(character) {
+  const pixelPath = getCharacterPixelPath(character);
+  if (!pixelPath) {
+    return `
+      <div class="gallery-pixel-placeholder">
+        <strong>${escapeHtml(getCharacterInitials(character?.name || "?"))}</strong>
+        <span>Sin pixel</span>
+      </div>
+    `;
+  }
+
+  return `
+    <div class="gallery-pixel-stage">
+      <span class="gallery-pixel-shadow" aria-hidden="true"></span>
+      <img class="gallery-pixel-image" src="${escapeHtml(pixelPath)}" alt="Pixel idle de ${escapeHtml(character.name)}" loading="lazy" decoding="async" onerror="this.closest('.gallery-pixel-viewer')?.classList.add('missing'); this.remove()">
+    </div>
   `;
 }
 
@@ -1621,7 +2107,7 @@ function renderGalleryViewer(entry) {
     return `
       <aside class="panel gallery-viewer collection-reward-viewer class-theme-${visualTheme.slug} special-card">
         <div class="gallery-viewer-image">
-          ${renderGalleryImageMarkup(entry, entry.reward.playerName)}
+          ${renderGalleryFullImageMarkup(entry, entry.reward.playerName)}
         </div>
         <div class="gallery-meta">
           <span class="status-pill">Trofeo especial</span>
@@ -1641,8 +2127,13 @@ function renderGalleryViewer(entry) {
 
   return `
     <aside class="panel gallery-viewer class-theme-${visualTheme.slug} ${hasTag(character, "especial") ? "special-card" : ""}">
-      <div class="gallery-viewer-image">
-        ${renderGalleryImageMarkup(entry, character.name)}
+      <div class="gallery-media-pair">
+        <div class="gallery-viewer-image">
+          ${renderGalleryFullImageMarkup(entry, character.name)}
+        </div>
+        <div class="gallery-pixel-viewer">
+          ${renderGalleryPixelMarkup(character)}
+        </div>
       </div>
       <div class="gallery-meta">
         <span class="status-pill">${escapeHtml(entry.partyName)}</span>
@@ -2039,6 +2530,8 @@ function renderDraftCard(character) {
 
 function renderCharacterArt(character, visualTheme = getCharacterVisualTheme(character)) {
   const portrait = getCharacterPortraitPath(character);
+  const portraitSrc = getPortraitThumbnailPath(portrait);
+  const fallbackAttr = portraitSrc !== portrait ? ` data-fallback-src="${escapeHtml(portrait)}"` : "";
   const classIcon = visualTheme.iconPath || getClassIconPath(character?.className);
   const hasPortrait = Boolean(portrait);
   const initials = getCharacterInitials(character.name);
@@ -2052,12 +2545,45 @@ function renderCharacterArt(character, visualTheme = getCharacterVisualTheme(cha
 
   return `
     <div class="card-art ${hasPortrait ? "has-portrait" : ""} class-art-${visualTheme.slug}" data-class-label="${escapeHtml(visualTheme.label)}">
-      ${portrait ? `<img class="card-portrait" src="${escapeHtml(portrait)}" alt="${escapeHtml(character.name)}" loading="lazy" onerror="this.hidden=true; this.nextElementSibling.hidden=false;">` : ""}
+      ${portrait ? `<img class="card-portrait" src="${escapeHtml(portraitSrc)}" alt="${escapeHtml(character.name)}" loading="lazy" decoding="async" fetchpriority="low"${fallbackAttr} onerror="handlePortraitImageError(this)">` : ""}
       ${placeholder}
       ${classIcon ? `<img class="card-class-icon" src="${escapeHtml(classIcon)}" alt="" aria-hidden="true" loading="lazy" onerror="this.hidden=true;">` : ""}
       <div class="card-art-mark">${escapeHtml(visualTheme.emblem)}</div>
     </div>
   `;
+}
+
+function getPortraitThumbnailPath(portrait) {
+  if (!portrait || portrait.includes("/thumbs/") || !portrait.startsWith("assets/portraits/")) {
+    return portrait || "";
+  }
+
+  return portrait.replace("assets/portraits/", PORTRAIT_THUMB_DIR);
+}
+
+function handlePortraitImageError(image) {
+  const fallback = image?.dataset?.fallbackSrc;
+  if (fallback) {
+    image.dataset.fallbackSrc = "";
+    image.src = fallback;
+    return;
+  }
+
+  image.hidden = true;
+  if (image.nextElementSibling) {
+    image.nextElementSibling.hidden = false;
+  }
+}
+
+function handleGalleryImageError(image) {
+  const fallback = image?.dataset?.fallbackSrc;
+  if (fallback) {
+    image.dataset.fallbackSrc = "";
+    image.src = fallback;
+    return;
+  }
+
+  image.remove();
 }
 
 function getCharacterVisualTheme(character) {
@@ -2628,7 +3154,9 @@ function startTournament() {
   unlockGalleryPortraits(playerTeam.members, "Party inicial");
   playerTeam.score = calculatePartyScore(playerTeam);
 
-  state.tournament = createLiveTournament(playerTeam);
+  state.tournament = createLiveTournament(playerTeam, {
+    infinite: state.gameMode === "infinite" && !state.isLocalCoop && isInfiniteModeUnlocked()
+  });
   if (state.isLocalCoop) {
     state.tournament.coopPlayerIndex = state.activeCoopPlayerIndex;
     state.tournament.coopPlayerName = getCurrentDraftPlayerName();
@@ -2648,7 +3176,7 @@ function renderTournament(options = {}) {
   const bannerClass = tournament.finished
     ? tournament.champion ? "victory" : "defeat"
     : "";
-  const title = tournament.finished ? tournament.finalTitle : "Viaje en vivo";
+  const title = tournament.finished ? tournament.finalTitle : isInfiniteRun(tournament) ? "Modo infinito" : "Viaje en vivo";
   const current = tournament.currentMatch;
   const currentCampaignEvent = tournament.currentCampaignEvent;
   const adventureTabsHtml = renderAdventureTabs(tournament);
@@ -2967,10 +3495,10 @@ function renderAdventurePartyEditor() {
         <div>
           <span class="status-pill">Party del viaje</span>
           <h2>${escapeHtml(tournament.playerTeam.name)}</h2>
-          <p class="lead">Edita puestos, revisa personajes y vuelve al mapa sin reiniciar la aventura. Los cambios de roles aplican al siguiente calculo de score.</p>
+          <p class="lead">Edita puestos, revisa personajes y continua la aventura cuando tu formacion este lista. Los cambios de roles aplican al siguiente calculo de score.</p>
         </div>
         <div class="toolbar">
-          <button class="ghost-button" data-action="back-to-adventure">Volver al viaje</button>
+          <button data-action="back-to-adventure">Continuar</button>
           <button class="ghost-button" data-action="gallery">Galeria</button>
           <button class="ghost-button" data-action="restart">Reiniciar</button>
           ${renderAudioSettings("compact")}
@@ -3099,7 +3627,9 @@ function getTournamentScoreSnapshot(tournament) {
 
   return {
     totalCR: formatCRNumber(getPartyTotalCR(activeRoster)),
-    progress: `${tournament.completedCombats || 0}/${tournament.maxCombats || ADVENTURE_MAX_COMBATS}`,
+    progress: isInfiniteRun(tournament)
+      ? `Ronda ${getAdventureRoundNumber(tournament)}`
+      : `${tournament.completedCombats || 0}/${tournament.maxCombats || ADVENTURE_MAX_COMBATS}`,
     baseScore,
     eventModifier,
     hasEventImpact,
@@ -3122,6 +3652,7 @@ function renderCurrentCombat(match, tournament) {
         <strong>${escapeHtml(match.phase)}</strong>
         <span class="match-score">${escapeHtml(visibleResult)}</span>
       </div>
+      ${renderPixelBattlefield(match, tournament)}
       ${renderClashAnimation(match, revealResult)}
       ${renderMatchNumbers(match)}
       ${minimized
@@ -3135,6 +3666,106 @@ function renderCurrentCombat(match, tournament) {
       ` : tournament.combatComplete && tournament.waitingForNext ? `<div class="combat-next-note">Combate terminado. Avanza cuando quieras.</div>` : ""}
     </article>
   `;
+}
+
+function renderPixelBattlefield(match, tournament) {
+  const playerTeam = tournament.playerTeam;
+  const enemyTeam = match.enemy;
+  const enemySide = match.enemySide === "left" ? "left" : "right";
+  const leftTeam = enemySide === "left"
+    ? { team: enemyTeam, side: "left", type: "enemy" }
+    : { team: playerTeam, side: "left", type: "player" };
+  const rightTeam = enemySide === "right"
+    ? { team: enemyTeam, side: "right", type: "enemy" }
+    : { team: playerTeam, side: "right", type: "player" };
+  const leftHtml = renderPixelLineup(leftTeam.team, leftTeam.side, leftTeam.type);
+  const rightHtml = renderPixelLineup(rightTeam.team, rightTeam.side, rightTeam.type);
+
+  if (!leftHtml && !rightHtml) {
+    return "";
+  }
+
+  return `
+    <div class="pixel-stadium enemy-${enemySide}" aria-label="Estadio del combate">
+      <div class="stadium-lights" aria-hidden="true"></div>
+      <div class="pixel-crowd" aria-hidden="true"></div>
+      <div class="pixel-field">
+        ${leftHtml || `<div class="pixel-lineup empty ${leftTeam.side}"></div>`}
+        <div class="pixel-midline" aria-hidden="true">
+          <span>VS</span>
+        </div>
+        ${rightHtml || `<div class="pixel-lineup empty ${rightTeam.side}"></div>`}
+      </div>
+      <div class="pixel-stadium-caption">
+        <span>${escapeHtml(playerTeam.name)}</span>
+        <strong>${escapeHtml(match.enemy.name)}</strong>
+      </div>
+    </div>
+  `;
+}
+
+function renderPixelLineup(team, side, type) {
+  const combatants = getPixelCombatants(team);
+  if (!combatants.length) {
+    return "";
+  }
+
+  const sideLabel = type === "player" ? "Tu party" : "Party enemiga";
+  const facingClass = side === "right" ? "facing-left" : "facing-right";
+
+  return `
+    <div class="pixel-lineup ${side} ${type} ${facingClass}">
+      <div class="pixel-team-label">
+        <span>${escapeHtml(sideLabel)}</span>
+        <strong>${escapeHtml(team.name || "Party")}</strong>
+      </div>
+      <div class="pixel-roster">
+        ${combatants.map(({ character, pixelPath }, index) => renderPixelFighter(character, pixelPath, index, type)).join("")}
+      </div>
+    </div>
+  `;
+}
+
+function getPixelCombatants(team) {
+  const members = team?.members || team?.characters || [];
+  return members
+    .map((character) => ({ character, pixelPath: getCharacterPixelPath(character) }))
+    .filter((entry) => entry.pixelPath);
+}
+
+function renderPixelFighter(character, pixelPath, index, type) {
+  return `
+    <figure class="pixel-fighter ${type}" style="--fighter-index:${index}">
+      <span class="pixel-shadow" aria-hidden="true"></span>
+      <img src="${escapeHtml(pixelPath)}" alt="${escapeHtml(character.name)}" loading="lazy" decoding="async" onerror="this.closest('.pixel-fighter')?.remove()">
+      <figcaption>${escapeHtml(character.name)}</figcaption>
+    </figure>
+  `;
+}
+
+function getCharacterPixelPath(character) {
+  const nameParts = String(character?.name || "").split(/\s+/).filter(Boolean);
+  const candidates = [
+    character?.id,
+    character?.name,
+    nameParts[0],
+    `${nameParts[0] || ""}-${nameParts[1] || ""}`
+  ]
+    .map(getClassThemeSlug)
+    .filter(Boolean);
+
+  for (const candidate of [...new Set(candidates)]) {
+    const optimizedKey = PIXEL_IDLE_OPTIMIZED_ALIASES[candidate] || candidate;
+    const optimizedFile = PIXEL_IDLE_OPTIMIZED_FILES[optimizedKey];
+    if (optimizedFile) {
+      return `${PIXEL_IDLE_OPTIMIZED_BASE}${optimizedFile}`;
+    }
+    if (PIXEL_IDLE_FILES[candidate]) {
+      return PIXEL_IDLE_FILES[candidate];
+    }
+  }
+
+  return "";
 }
 
 function renderClashAnimation(match, revealResult) {
@@ -3555,6 +4186,10 @@ function getCombatThreat(match) {
 }
 
 function renderTournamentRoute(tournament) {
+  if (isInfiniteRun(tournament)) {
+    return renderInfiniteTournamentRoute(tournament);
+  }
+
   const totalCombats = tournament.maxCombats || ADVENTURE_MAX_COMBATS;
   const completed = tournament.completedCombats || 0;
   const remaining = Math.max(0, totalCombats - completed);
@@ -3603,6 +4238,60 @@ function renderTournamentRoute(tournament) {
         <div class="standing-row ${tournament.extraLives?.length ? "player-row" : ""}">
           <strong>Vidas extra</strong>
           <span class="standing-stats">${tournament.extraLives?.length || 0}</span>
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+function renderInfiniteTournamentRoute(tournament) {
+  const completed = tournament.completedCombats || 0;
+  const currentRound = getAdventureRoundNumber(tournament);
+  const progress = Math.round(getAdventureProgressValue(tournament) * 100);
+  const lastMatch = tournament.completedMatches[tournament.completedMatches.length - 1];
+  const currentLabel = tournament.awaitingPathChoice
+    ? "Elegir camino"
+    : tournament.currentCampaignEvent
+      ? "Evento de ronda"
+      : tournament.currentReward
+        ? "Elegir mejora"
+        : tournament.currentMatch
+          ? "Combate en curso"
+          : tournament.waitingForNext
+            ? "Listo para avanzar"
+            : "Preparando ruta";
+  const threatBonus = getAdventureStageThreatBonus(tournament);
+
+  return `
+    <div class="journey-notice infinite-route">
+      <div class="journey-count">
+        <span>Ronda</span>
+        <strong>${currentRound}</strong>
+        <em>${completed} ${completed === 1 ? "victoria" : "victorias"}</em>
+      </div>
+      <div class="journey-progress" aria-label="Escalada del modo infinito">
+        <span style="width:${progress}%"></span>
+      </div>
+      <div class="route-list compact-route-list">
+        <div class="standing-row player-row">
+          <strong>Ronda actual</strong>
+          <span class="standing-stats">${currentRound}</span>
+        </div>
+        <div class="standing-row">
+          <strong>Estado</strong>
+          <span class="standing-stats">${escapeHtml(currentLabel)}</span>
+        </div>
+        <div class="standing-row ${threatBonus ? "player-row" : ""}">
+          <strong>Escalada</strong>
+          <span class="standing-stats">${formatModifier(threatBonus)} amenaza</span>
+        </div>
+        <div class="standing-row ${lastMatch?.result === "Victoria" ? "player-row" : ""}">
+          <strong>Ultimo combate</strong>
+          <span class="standing-stats">${lastMatch ? `${escapeHtml(lastMatch.result)} vs ${escapeHtml(lastMatch.enemy.name)}` : "Ninguno"}</span>
+        </div>
+        <div class="standing-row ${tournament.boons?.length ? "player-row" : ""}">
+          <strong>Mejoras</strong>
+          <span class="standing-stats">${tournament.boons?.length || 0} activas</span>
         </div>
       </div>
     </div>
@@ -3711,12 +4400,14 @@ function renderVictoryFireworks(tournament) {
   `;
 }
 
-function createLiveTournament(playerTeam) {
+function createLiveTournament(playerTeam, options = {}) {
   playerTeam.campaignModifier = playerTeam.campaignModifier || 0;
+  const infinite = Boolean(options.infinite);
 
   const adventure = {
     playerTeam,
     maxCombats: ADVENTURE_MAX_COMBATS,
+    isInfinite: infinite,
     nextCombatIndex: 0,
     completedCombats: 0,
     pathChoices: [],
@@ -3754,12 +4445,47 @@ function createLiveTournament(playerTeam) {
     finished: false,
     champion: false,
     finalTitle: "",
-    statusText: "El mapa se abre: elige el primer camino."
+    statusText: infinite
+      ? "Modo infinito: ronda 1. Elige el primer camino y prepara una party que aguante."
+      : "El mapa se abre: elige el primer camino."
   };
 
   refreshPlayerTeamScore(adventure);
   prepareAdventurePathChoices(adventure);
   return adventure;
+}
+
+function isInfiniteRun(tournament = state.tournament) {
+  return Boolean(tournament?.isInfinite);
+}
+
+function getAdventureRoundNumber(tournament) {
+  return Math.max(1, Number(tournament?.nextCombatIndex || tournament?.completedCombats || 0) + 1);
+}
+
+function getAdventurePhaseLabel(tournament) {
+  if (isInfiniteRun(tournament)) {
+    return `Ronda ${getAdventureRoundNumber(tournament)}`;
+  }
+  return `Tramo ${Number(tournament?.nextCombatIndex || 0) + 1}/${tournament?.maxCombats || ADVENTURE_MAX_COMBATS}`;
+}
+
+function getAdventureProgressValue(tournament) {
+  const index = Math.max(0, Number(tournament?.nextCombatIndex || 0));
+  if (isInfiniteRun(tournament)) {
+    return clamp(index / 18, 0, 1);
+  }
+  return index / Math.max(1, Number(tournament?.maxCombats || ADVENTURE_MAX_COMBATS) - 2);
+}
+
+function getAdventureTargetMultiplier(tournament, progress) {
+  if (!isInfiniteRun(tournament)) {
+    return 0.74 + progress * 0.72;
+  }
+
+  const roundIndex = Math.max(0, Number(tournament?.nextCombatIndex || 0));
+  const growth = roundIndex * 0.022 + Math.log1p(roundIndex) * 0.035;
+  return 0.78 + Math.min(1.0, growth);
 }
 
 function queueNextCombat() {
@@ -3769,9 +4495,17 @@ function queueNextCombat() {
     return;
   }
 
+  if (isInfiniteRun(tournament)) {
+    if (!tournament.pathChoices.length) {
+      prepareAdventurePathChoices(tournament);
+    }
+    renderTournament();
+    return;
+  }
+
   if (tournament.maxCombats) {
     if (tournament.completedCombats >= tournament.maxCombats) {
-      finishTournament("Expedicion completada", `${tournament.playerTeam.name} sobrevivio a los siete combates del camino.`, true);
+      finishTournament("Expedicion completada", `${tournament.playerTeam.name} sobrevivio a los ${tournament.maxCombats} combates del camino.`, true);
       return;
     }
     if (!tournament.pathChoices.length) {
@@ -3785,12 +4519,13 @@ function queueNextCombat() {
   renderTournament();
 }
 
-function startLiveCombat(enemy, phase, stage) {
+function startLiveCombat(enemy, phase, stage, enemySide = "right") {
   const tournament = state.tournament;
   audioManager.fadeMusicTo("tournament");
   audioManager.playSfx("combatStart");
   const match = simulatePlayerCombat(tournament.playerTeam, enemy, phase, stage);
   match.journeyIndex = tournament.nextCombatIndex || 0;
+  match.enemySide = enemySide;
   tournament.currentMatch = match;
   tournament.activeAdventureTab = "log";
   tournament.awaitingPathChoice = false;
@@ -3805,7 +4540,7 @@ function startLiveCombat(enemy, phase, stage) {
   revealCombatEvents(match);
 }
 
-function startCampaignPreCombat(enemy, phase, stage, roundIndex) {
+function startCampaignPreCombat(enemy, phase, stage, roundIndex, enemySide = "right") {
   const tournament = state.tournament;
   if (!tournament || tournament.finished) {
     return;
@@ -3825,7 +4560,7 @@ function startCampaignPreCombat(enemy, phase, stage, roundIndex) {
   tournament.activeAdventureTab = "events";
   tournament.campaignEvents.push(event);
   tournament.campaignEventRoundIndexes.push(roundIndex);
-  tournament.pendingCombat = { enemy, phase, stage, roundIndex };
+  tournament.pendingCombat = { enemy, phase, stage, roundIndex, enemySide };
   tournament.currentMatch = null;
   tournament.replacementRequest = null;
   tournament.waitingForReplacement = false;
@@ -3866,7 +4601,7 @@ function continueTournament() {
     tournament.currentEventScoreDelta = (tournament.currentEventScoreDelta || 0) + retry.scoreBonus;
     tournament.playerTeam.currentEventScoreDelta = (tournament.playerTeam.currentEventScoreDelta || 0) + retry.scoreBonus;
     tournament.statusText = `${retry.sourceTitle} activa una revancha con ${formatModifier(retry.scoreBonus)} score.`;
-    startLiveCombat(retry.enemy, retry.phase, retry.stage);
+    startLiveCombat(retry.enemy, retry.phase, retry.stage, retry.enemySide);
     return;
   }
 
@@ -3906,7 +4641,7 @@ function continueTournament() {
     tournament.waitingForNext = false;
     if (pendingCombat) {
       tournament.statusText = `${pendingCombat.phase} listo. Preparando combate.`;
-      startLiveCombat(pendingCombat.enemy, pendingCombat.phase, pendingCombat.stage);
+      startLiveCombat(pendingCombat.enemy, pendingCombat.phase, pendingCombat.stage, pendingCombat.enemySide);
       return;
     }
     renderTournament();
@@ -3939,6 +4674,7 @@ function prepareExtraLifeRetry(tournament, match) {
     enemy: match.enemy,
     phase: match.phase,
     stage: match.stage,
+    enemySide: match.enemySide || "right",
     scoreBonus,
     sourceTitle: extraLife.title || "Libro del heroe anonimo"
   };
@@ -3978,6 +4714,9 @@ function getNextCombatButtonLabel(tournament) {
   if (!tournament.maxCombats && needsCampaignEventBeforeNextCombat(tournament)) {
     return "Ver evento pre-combate";
   }
+  if (isInfiniteRun(tournament)) {
+    return `Seguir a ronda ${getAdventureRoundNumber(tournament)}`;
+  }
   return tournament.maxCombats ? "Seguir al mapa" : "Siguiente combate";
 }
 
@@ -3996,7 +4735,11 @@ function prepareAdventurePathChoices(tournament) {
   tournament.replacementRequest = null;
   tournament.waitingForNext = false;
   tournament.activeAdventureTab = "log";
-  tournament.statusText = `Tramo ${tournament.nextCombatIndex + 1}/${tournament.maxCombats}: elige entre dos caminos.`;
+  tournament.statusText = isInfiniteRun(tournament)
+    ? `${getAdventurePhaseLabel(tournament)}: elige entre dos caminos. La amenaza sigue creciendo.`
+    : isFinalBossStage(tournament)
+    ? `Tramo ${tournament.nextCombatIndex + 1}/${tournament.maxCombats}: elige tu boss final.`
+    : `Tramo ${tournament.nextCombatIndex + 1}/${tournament.maxCombats}: elige entre dos caminos.`;
 }
 
 function chooseAdventurePath(choiceId) {
@@ -4009,25 +4752,30 @@ function chooseAdventurePath(choiceId) {
   tournament.awaitingPathChoice = false;
   tournament.pathChoices = [];
   tournament.usedPartyIds.push(choice.enemy.sourcePartyId);
-  const phase = `Tramo ${tournament.nextCombatIndex + 1}/${tournament.maxCombats}`;
+  const enemySide = choice.side || (choice.label?.toLowerCase().includes("izquierdo") ? "left" : "right");
+  const phase = getAdventurePhaseLabel(tournament);
 
   if (Math.random() < choice.eventChance) {
-    startCampaignPreCombat(choice.enemy, phase, "journey", tournament.nextCombatIndex);
+    startCampaignPreCombat(choice.enemy, phase, "journey", tournament.nextCombatIndex, enemySide);
     return;
   }
 
-  startLiveCombat(choice.enemy, phase, "journey");
+  startLiveCombat(choice.enemy, phase, "journey", enemySide);
 }
 
 function createAdventurePathChoices(tournament) {
+  if (isFinalBossStage(tournament)) {
+    return createFinalBossPathChoices(tournament);
+  }
+
   const rankedEnemies = getRankedAdventureEnemies();
-  const progress = tournament.nextCombatIndex / Math.max(1, tournament.maxCombats - 1);
-  const allowedRatio = clamp(0.42 + progress * 0.58, 0.42, 1);
+  const progress = getAdventureProgressValue(tournament);
+  const allowedRatio = clamp(0.36 + progress * 0.64, 0.36, 1);
   const allowedCount = Math.max(PATH_CHOICE_COUNT, Math.ceil(rankedEnemies.length * allowedRatio));
   const allowedEnemies = rankedEnemies.slice(0, allowedCount);
   const unusedEnemies = allowedEnemies.filter((enemy) => !tournament.usedPartyIds.includes(enemy.sourcePartyId));
   const pool = unusedEnemies.length >= PATH_CHOICE_COUNT ? unusedEnemies : allowedEnemies;
-  const targetMultiplier = 0.78 + progress * 0.55;
+  const targetMultiplier = getAdventureTargetMultiplier(tournament, progress);
   const targetScore = tournament.playerTeam.score.finalScore * targetMultiplier;
   const selected = shuffle(pool)
     .sort((left, right) => Math.abs(left.score.finalScore - targetScore) - Math.abs(right.score.finalScore - targetScore))
@@ -4036,10 +4784,278 @@ function createAdventurePathChoices(tournament) {
   return selected.map((enemy, index) => ({
     id: `path-${tournament.nextCombatIndex}-${index}-${enemy.sourcePartyId}`,
     label: index === 0 ? "Camino izquierdo" : "Camino derecho",
-    enemy,
-    eventChance: randomFloat(0.45, 0.82),
+    side: index === 0 ? "left" : "right",
+    enemy: applyAdventureEnemyScaling(enemy, tournament),
+    eventChance: randomFloat(0.48 + progress * 0.12, 0.82),
     rewardHint: getRewardHintForEnemy(enemy)
   }));
+}
+
+function isFinalBossStage(tournament) {
+  return !isInfiniteRun(tournament) &&
+    Boolean(tournament?.maxCombats) &&
+    Number(tournament.nextCombatIndex || 0) >= Number(tournament.maxCombats || ADVENTURE_MAX_COMBATS) - 1;
+}
+
+function isFinalBossMatch(match, tournament = state.tournament) {
+  return Boolean(match?.enemy?.isFinalBoss || (tournament?.maxCombats && isFinalBossStage(tournament)));
+}
+
+function createFinalBossPathChoices(tournament) {
+  const bossDefinitions = shuffle(getFinalBossDefinitions()).slice(0, PATH_CHOICE_COUNT);
+  const bosses = bossDefinitions
+    .map((definition, index) => createFinalBossTeam(definition, index, tournament))
+    .filter(Boolean);
+
+  if (!bosses.length) {
+    return [];
+  }
+
+  return bosses.map((enemy, index) => ({
+    id: `boss-${tournament.nextCombatIndex}-${index}-${enemy.bossDefinitionId}`,
+    label: index === 0 ? "Boss final izquierdo" : "Boss final derecho",
+    side: index === 0 ? "left" : "right",
+    enemy,
+    eventChance: randomFloat(0.72, 0.94),
+    rewardHint: "Ultima prueba del viaje"
+  }));
+}
+
+function getFinalBossDefinitions() {
+  const partyBossDefinitions = DND_PARTIES
+    .map(createPartyFinalBossDefinition)
+    .filter(Boolean);
+
+  return [...FINAL_BOSS_DEFINITIONS, ...partyBossDefinitions];
+}
+
+function createPartyFinalBossDefinition(party) {
+  if (!party?.characters?.length) {
+    return null;
+  }
+
+  const specialIds = getFinalBossSpecialIdsForParty(party);
+  const specialNames = specialIds
+    .map((specialId) => findSpecialCharacterById(specialId)?.name)
+    .filter(Boolean);
+  const specialBoost = Math.min(64, specialIds.length * 10);
+  const rosterBoost = Math.min(30, party.characters.length * 4);
+
+  return {
+    id: `party-boss-${getClassThemeSlug(party.id || party.name)}`,
+    name: `Boss Final: ${party.name}`,
+    theme: specialNames.length
+      ? `${party.name} llega reforzada por ${specialNames.join(", ")}; sus viejas alianzas pesan en la pelea final.`
+      : `${party.name} convierte la ultima ruta en una version mas dura de su propia campaña.`,
+    partyIds: [party.id],
+    specialIds,
+    eventPartyId: party.id,
+    scoreBonus: 62 + rosterBoost + specialBoost,
+    playerScale: 0.02 + Math.min(0.018, specialIds.length * 0.003),
+    targetMultiplier: 1.006 + Math.min(0.014, specialIds.length * 0.002),
+    targetBonus: 6 + Math.min(14, specialIds.length * 2),
+    minimumDelta: Math.min(10, Math.max(-6, specialIds.length - 3)),
+    maximumDelta: 16 + Math.min(8, specialIds.length),
+    generatedFromParty: true
+  };
+}
+
+function getFinalBossSpecialIdsForParty(party) {
+  const specialIds = new Set();
+  const candidateCharacters = [...(party.characters || [])];
+
+  for (let pass = 0; pass < 3; pass += 1) {
+    let addedThisPass = false;
+    SPECIAL_AFFILIATIONS.forEach((association) => {
+      if (!finalBossAssociationMatchesParty(association, party, candidateCharacters)) {
+        return;
+      }
+
+      const special = findSpecialCharacterById(association.specialId);
+      if (!special) {
+        return;
+      }
+
+      const key = normalizeLookupText(special.id || special.name);
+      if (specialIds.has(key)) {
+        return;
+      }
+
+      specialIds.add(key);
+      candidateCharacters.push(special);
+      addedThisPass = true;
+    });
+
+    if (!addedThisPass) {
+      break;
+    }
+  }
+
+  return [...specialIds];
+}
+
+function finalBossAssociationMatchesParty(association, party, candidateCharacters) {
+  if (association.alwaysEligible) {
+    return true;
+  }
+
+  if (association.partyIds?.some((partyId) => finalBossPartyMatchesId(party, partyId))) {
+    return true;
+  }
+
+  if (association.characterIds?.some((characterId) =>
+    candidateCharacters.some((character) => characterMatchesId(character, characterId))
+  )) {
+    return true;
+  }
+
+  if (association.groupIds?.some((groupId) =>
+    candidateCharacters.some((character) => characterIsInSpecialGroup(character, groupId))
+  )) {
+    return true;
+  }
+
+  return false;
+}
+
+function finalBossPartyMatchesId(party, partyId) {
+  const target = normalizeLookupText(partyId);
+  return [party?.id, party?.name].some((value) => normalizeLookupText(value) === target);
+}
+
+function createFinalBossTeam(definition, index, tournament) {
+  const members = [];
+
+  (definition.partyIds || []).forEach((partyId) => {
+    const party = DND_PARTIES.find((candidate) => normalizeLookupText(candidate.id) === normalizeLookupText(partyId));
+    if (!party) {
+      return;
+    }
+    party.characters.forEach((character) => {
+      const clone = cloneCharacterForRun(character);
+      clone.sourcePartyId = party.id;
+      clone.sourcePartyName = party.name;
+      members.push(clone);
+    });
+  });
+
+  (definition.specialIds || []).forEach((specialId) => {
+    const special = findSpecialCharacterById(specialId);
+    if (!special) {
+      return;
+    }
+    const clone = cloneCharacterForRun(special);
+    clone.sourcePartyId = definition.eventPartyId || definition.partyIds?.[0] || "boss";
+    clone.sourcePartyName = definition.name;
+    members.push(clone);
+  });
+
+  const uniqueMembers = uniqueCharactersById(members);
+  if (!uniqueMembers.length) {
+    return null;
+  }
+
+  const playerScore = Number(tournament?.playerTeam?.score?.finalScore || 0);
+  const bossBonus = Math.round(Number(definition.scoreBonus || 120) + playerScore * Number(definition.playerScale || 0.07));
+  const team = {
+    id: `boss-${definition.id}-${index}`,
+    name: definition.name,
+    theme: definition.theme,
+    sourcePartyId: definition.eventPartyId || definition.partyIds?.[0] || `boss-${definition.id}`,
+    sourcePartyName: definition.name,
+    members: uniqueMembers,
+    assignments: autoAssignRoles(uniqueMembers),
+    permanentScoreBonus: bossBonus,
+    isBoss: true,
+    isFinalBoss: true,
+    bossDefinitionId: definition.id,
+    isPlayer: false
+  };
+
+  team.score = calculatePartyScore(team);
+  team.score = tuneFinalBossScore(team.score, definition, playerScore);
+  const finalBossDelta = Math.round(Number(team.score?.finalScore || 0) - playerScore);
+  const specialNames = (definition.specialIds || [])
+    .map((specialId) => findSpecialCharacterById(specialId)?.name)
+    .filter(Boolean);
+  team.score.strengths = [
+    `Boss final calibrado (${formatModifier(finalBossDelta)} contra tu party)`,
+    ...(specialNames.length ? [`Especiales aliados: ${specialNames.join(", ")}`] : []),
+    ...(team.score.strengths || [])
+  ];
+
+  return team;
+}
+
+function tuneFinalBossScore(score, definition, playerScore) {
+  if (!playerScore || !score?.finalScore) {
+    return score;
+  }
+
+  const targetDelta = Math.round(
+    playerScore * (Number(definition.targetMultiplier || 1.015) - 1) +
+    Number(definition.targetBonus || 10)
+  );
+  const minimumDelta = Number(definition.minimumDelta ?? 4);
+  const maximumDelta = Number(definition.maximumDelta ?? 24);
+  const safeMaximumDelta = Math.max(minimumDelta, maximumDelta);
+  const tunedDelta = clamp(targetDelta, minimumDelta, safeMaximumDelta);
+  const tunedScore = Math.max(1, Math.round(playerScore + tunedDelta));
+
+  return {
+    ...score,
+    finalScore: tunedScore,
+    total: tunedScore,
+    strengths: score.strengths || []
+  };
+}
+
+function uniqueCharactersById(characters = []) {
+  const seen = new Set();
+  return characters.filter((character) => {
+    const key = normalizeLookupText(character.id || character.name);
+    if (!key || seen.has(key)) {
+      return false;
+    }
+    seen.add(key);
+    return true;
+  });
+}
+
+function applyAdventureEnemyScaling(enemy, tournament) {
+  const threatBonus = getAdventureStageThreatBonus(tournament);
+  if (!threatBonus) {
+    return enemy;
+  }
+
+  const scaledEnemy = deepCloneData(enemy);
+  scaledEnemy.id = `${enemy.id}-${isInfiniteRun(tournament) ? "ronda" : "tramo"}-${tournament.nextCombatIndex + 1}`;
+  scaledEnemy.stageThreatBonus = threatBonus;
+  scaledEnemy.score = {
+    ...enemy.score,
+    finalScore: Math.max(1, Math.round(Number(enemy.score?.finalScore || 0) + threatBonus)),
+    total: Math.max(1, Math.round(Number(enemy.score?.finalScore || 0) + threatBonus)),
+    strengths: [
+      `${isInfiniteRun(tournament) ? "Presion de ronda" : "Presion del tramo"} ${tournament.nextCombatIndex + 1} (${formatModifier(threatBonus)})`,
+      ...(enemy.score?.strengths || [])
+    ]
+  };
+
+  return scaledEnemy;
+}
+
+function getAdventureStageThreatBonus(tournament) {
+  if (!tournament?.maxCombats || isFinalBossStage(tournament)) {
+    return 0;
+  }
+
+  const stageIndex = Math.max(0, Number(tournament.nextCombatIndex || 0));
+  if (isInfiniteRun(tournament)) {
+    return Math.round(stageIndex * 9 + Math.pow(stageIndex, 1.22) * 3.2);
+  }
+
+  const progress = stageIndex / Math.max(1, Number(tournament.maxCombats || ADVENTURE_MAX_COMBATS) - 2);
+  return Math.round(stageIndex * 10 + progress * progress * 60);
 }
 
 function getRankedAdventureEnemies() {
@@ -5505,8 +6521,8 @@ function chooseAdventureReward(rewardId) {
   clearCampaignScoreImpact(tournament);
   refreshPlayerTeamScore(tournament);
 
-  if (tournament.completedCombats >= tournament.maxCombats) {
-    finishTournament("Expedicion completada", `${tournament.playerTeam.name} completo los siete combates y termino el viaje con ${tournament.boons.length} mejoras.`, true);
+  if (!isInfiniteRun(tournament) && tournament.completedCombats >= tournament.maxCombats) {
+    finishTournament("Expedicion completada", `${tournament.playerTeam.name} completo los ${tournament.maxCombats} combates y termino el viaje con ${tournament.boons.length} mejoras.`, true);
     return;
   }
 
@@ -5916,17 +6932,37 @@ function finishCurrentCombat(match) {
         tournament.completedMatches.push(match);
       }
       tournament.pendingFinish = {
-        title: "La expedicion cayo en el camino",
-        statusText: `${tournament.playerTeam.name} fue derrotada por ${match.enemy.name} en el tramo ${tournament.nextCombatIndex + 1}.`,
+        title: isInfiniteRun(tournament) ? "Modo infinito terminado" : "La expedicion cayo en el camino",
+        statusText: isInfiniteRun(tournament)
+          ? `${tournament.playerTeam.name} llego hasta la ronda ${getAdventureRoundNumber(tournament)} y fue derrotada por ${match.enemy.name}.`
+          : `${tournament.playerTeam.name} fue derrotada por ${match.enemy.name} en el tramo ${tournament.nextCombatIndex + 1}.`,
         champion: false
       };
-      tournament.statusText = "El viaje termina aqui. Resultado listo.";
+      tournament.statusText = isInfiniteRun(tournament)
+        ? `Ronda ${getAdventureRoundNumber(tournament)} terminada. Resultado listo.`
+        : "El viaje termina aqui. Resultado listo.";
       renderTournament();
       return;
     }
 
     if (!tournament.completedMatches.includes(match)) {
       tournament.completedMatches.push(match);
+    }
+
+    if (!isInfiniteRun(tournament) && isFinalBossMatch(match, tournament)) {
+      tournament.completedCombats += 1;
+      tournament.nextCombatIndex += 1;
+      tournament.playerTeam.campaignModifier = 0;
+      clearCampaignScoreImpact(tournament);
+      refreshPlayerTeamScore(tournament);
+      tournament.pendingFinish = {
+        title: "Boss final derrotado",
+        statusText: `${tournament.playerTeam.name} completo los ${tournament.maxCombats} combates y vencio a ${match.enemy.name}.`,
+        champion: true
+      };
+      tournament.statusText = "Boss final superado. Resultado listo.";
+      renderTournament();
+      return;
     }
 
     tournament.pendingReward = { enemy: match.enemy, match };
@@ -8925,31 +9961,31 @@ function createEnemyTeamFromParty(sourceParty, index) {
 }
 
 const CLASS_COMPATIBLE_ROLES = {
-  Barbarian: ["FRONTLINER", "DPS_MELEE"],
-  Fighter: ["FRONTLINER", "DPS_MELEE", "TACTICIAN"],
-  Paladin: ["FRONTLINER", "SUPPORT", "DPS_MELEE"],
-  Rogue: ["DPS_MELEE", "TACTICIAN"],
-  Ranger: ["DPS_RANGED", "TACTICIAN"],
-  Wizard: ["DPS_RANGED", "TACTICIAN"],
+  Barbarian: ["DPS_MELEE"],
+  Fighter: ["DPS_MELEE"],
+  Paladin: ["DPS_MELEE"],
+  Rogue: ["DPS_MELEE"],
+  Ranger: ["DPS_RANGED"],
+  Wizard: ["DPS_RANGED"],
   Sorcerer: ["DPS_RANGED"],
   Warlock: ["DPS_RANGED"],
-  Cleric: ["SUPPORT", "FRONTLINER", "DPS_RANGED"],
-  Druid: ["SUPPORT", "DPS_RANGED", "FRONTLINER"],
-  Bard: ["SUPPORT", "TACTICIAN", "DPS_RANGED"],
-  Artificer: ["TACTICIAN", "SUPPORT", "DPS_RANGED"],
-  Monk: ["DPS_MELEE", "TACTICIAN"],
-  "Blood Hunter": ["DPS_MELEE", "TACTICIAN"]
+  Cleric: [],
+  Druid: ["DPS_RANGED"],
+  Bard: [],
+  Artificer: ["DPS_RANGED"],
+  Monk: ["DPS_MELEE"],
+  "Blood Hunter": ["DPS_MELEE"]
 };
 
 const CLASS_GROUP_COMPATIBLE_ROLES = {
   tank: ["FRONTLINER", "DPS_MELEE"],
-  martial: ["FRONTLINER", "DPS_MELEE", "TACTICIAN"],
-  skirmisher: ["DPS_MELEE", "TACTICIAN"],
-  ranged: ["DPS_RANGED", "TACTICIAN"],
-  arcane: ["DPS_RANGED", "TACTICIAN"],
-  divine: ["SUPPORT", "FRONTLINER", "DPS_RANGED"],
-  primal: ["SUPPORT", "DPS_RANGED", "FRONTLINER"],
-  support: ["SUPPORT", "TACTICIAN"]
+  martial: ["DPS_MELEE"],
+  skirmisher: ["DPS_MELEE"],
+  ranged: ["DPS_RANGED"],
+  arcane: ["DPS_RANGED"],
+  divine: [],
+  primal: ["DPS_RANGED"],
+  support: []
 };
 
 function getClassMetadata(character) {
@@ -8971,17 +10007,135 @@ function getClassMetadata(character) {
 
 function getCharacterRolePriority(character) {
   const metadata = getClassMetadata(character);
-  return uniqueRoleIds([
-    ...(character.rolePriority || []),
+  const characterPriorityOverride = uniqueRoleIds(character.rolePriority || []);
+  if (characterPriorityOverride.length) {
+    return characterPriorityOverride;
+  }
+
+  const explicitRoles = uniqueRoleIds([
     ...getSubclassRolePriority(character),
-    ...(character.roles || []),
-    ...(metadata?.roles || [])
+    ...(character.roles || [])
   ]);
+  return uniqueRoleIds([
+    ...explicitRoles,
+    ...getBalancedMetadataRoles(character, metadata, explicitRoles)
+  ]);
+}
+
+function getBalancedMetadataRoles(character, metadata, explicitRoles = []) {
+  if (!metadata?.roles) {
+    return [];
+  }
+
+  return uniqueRoleIds(metadata.roles)
+    .filter((role) => explicitRoles.includes(role) || isBaselineClassRoleAllowed(character, role, metadata));
+}
+
+function isBaselineClassRoleAllowed(character, role, metadata) {
+  const className = String(character.className || "");
+  const classGroup = String(metadata?.classGroup || getCharacterClassGroup(character) || "").toLowerCase();
+  const attackStyle = String(metadata?.attackStyle || "").toLowerCase();
+  const armorProfile = String(metadata?.armorProfile || "").toLowerCase();
+  const metadataTags = new Set((metadata?.tags || []).map((tag) => String(tag).toLowerCase()));
+  const stats = character.stats || {};
+
+  if (role === "TACTICIAN") {
+    return ["Captain", "Investigator", "Warlord", "Gadgeteer", "Gunslinger"].includes(className);
+  }
+  if (role === "SUPPORT") {
+    return false;
+  }
+  if (role === "FRONTLINER") {
+    const armorClass = getCharacterArmorClass(character);
+    return classGroup === "tank" ||
+      (
+        classGroup === "martial" &&
+        armorClass >= 16 &&
+        Number(stats.CON || 0) >= 14 &&
+        (Number(stats.STR || 0) >= 15 || ["heavy", "medium", "unarmoredcon"].includes(armorProfile))
+      );
+  }
+  if (role === "DPS_MELEE") {
+    return ["tank", "martial", "skirmisher"].includes(classGroup) ||
+      ["melee", "hybrid"].includes(attackStyle);
+  }
+  if (role === "DPS_RANGED") {
+    return ["ranged", "arcane"].includes(classGroup) ||
+      ["ranged", "firearm", "magic", "explosive"].includes(attackStyle) ||
+      Boolean(metadata?.spellcasting && hasMeaningfulDamageSpell(character));
+  }
+
+  return false;
 }
 
 function getSubclassRolePriority(character) {
   const classification = getSubclassClassification(character);
-  return uniqueRoleIds(classification?.rolePriority || []);
+  return deriveSubclassRolePriority(character, classification);
+}
+
+function deriveSubclassRolePriority(character, classification) {
+  if (!classification) {
+    return [];
+  }
+
+  const explicitPriority = uniqueRoleIds(classification.rolePriority || []);
+  if (explicitPriority.length) {
+    return sanitizeSubclassRolePriority(character, classification, explicitPriority);
+  }
+
+  const subclassRoles = getSubclassRoleNames(classification);
+  return sanitizeSubclassRolePriority(
+    character,
+    classification,
+    uniqueRoleIds(subclassRoles.flatMap((role) => mapSubclassRoleToPartyRoles(character, role)))
+  );
+}
+
+function sanitizeSubclassRolePriority(character, classification, roles) {
+  if (!roles.includes("SUPPORT") || subclassHasSupportIdentity(classification) || hasReliableSupportTools(character)) {
+    return roles;
+  }
+
+  return roles.filter((role) => role !== "SUPPORT");
+}
+
+function subclassHasSupportIdentity(classification) {
+  const subclassRoles = getSubclassRoleNames(classification);
+  const mechanicalTags = new Set((classification?.tags || []).map((tag) => normalizeLookupText(tag)));
+
+  return ["Support", "Healer", "Buffer"].includes(classification?.primaryRole) ||
+    subclassRoles.some((role) => ["Support", "Healer", "Buffer"].includes(role)) ||
+    mechanicalTags.has("healing") ||
+    mechanicalTags.has("emergency healing");
+}
+
+function mapSubclassRoleToPartyRoles(character, role) {
+  const classGroup = getCharacterClassGroup(character);
+  const normalized = String(role || "");
+  const prefersRanged = ["ranged", "arcane", "support", "divine", "primal"].includes(classGroup);
+
+  if (["Tank"].includes(normalized)) {
+    return ["FRONTLINER"];
+  }
+  if (["Support", "Healer", "Buffer", "Defensive Caster"].includes(normalized)) {
+    return ["SUPPORT"];
+  }
+  if (["Battlefield Leader"].includes(normalized)) {
+    return ["TACTICIAN"];
+  }
+  if (["Controller", "Debuffer", "Disruptor", "Area Denial", "Anti-Magic", "Skill Expert"].includes(normalized)) {
+    return ["TACTICIAN"];
+  }
+  if (["Blaster", "Summoner"].includes(normalized)) {
+    return ["DPS_RANGED", "TACTICIAN"];
+  }
+  if (["Striker", "Nova", "Sustained Damage", "Assassin", "Skirmisher", "Gish"].includes(normalized)) {
+    return prefersRanged ? ["DPS_RANGED"] : ["DPS_MELEE"];
+  }
+  if (["Mobility"].includes(normalized)) {
+    return prefersRanged ? ["DPS_RANGED"] : ["DPS_MELEE"];
+  }
+  return [];
 }
 
 function getSubclassClassification(character) {
@@ -9291,7 +10445,9 @@ function calculateSpecialGroupBonus(members = []) {
     const threshold = Math.max(2, Number(group.threshold || Math.min(3, requiredIds.length)));
 
     if (matchedIds.length >= threshold) {
-      const bonus = Math.max(1, Number(group.bonus || (10 + matchedIds.length * 4)));
+      const baseBonus = Math.max(1, Number(group.bonus || (10 + matchedIds.length * 4)));
+      const extraMembers = Math.max(0, matchedIds.length - threshold);
+      const bonus = Math.round(baseBonus + matchedIds.length * 3 + extraMembers * 10);
       details.push({
         id: group.id,
         name: group.name || group.id,
@@ -9334,11 +10490,12 @@ function getRoleFitMultiplier(character, role) {
 function getCompatibleRoles(character) {
   const metadata = getClassMetadata(character);
   const explicitTags = new Set((character.tags || []).map((tag) => tag.toLowerCase()));
+  const explicitCompatibleRoles = new Set(uniqueRoleIds(character.compatibleRoles || []));
   const rolePriority = getCharacterRolePriority(character);
   const classGroup = getCharacterClassGroup(character);
   const subclassInfo = getSubclassClassification(character);
   const roles = new Set([
-    ...(character.compatibleRoles || []),
+    ...uniqueRoleIds(character.compatibleRoles || []),
     ...rolePriority,
     ...(CLASS_COMPATIBLE_ROLES[character.className] || []),
     ...(CLASS_GROUP_COMPATIBLE_ROLES[classGroup] || [])
@@ -9348,20 +10505,38 @@ function getCompatibleRoles(character) {
   if ((hasSpells(character) || isSpellcasterClass(character)) && bestMentalStat >= 16 && hasMeaningfulDamageSpell(character)) {
     roles.add("DPS_RANGED");
   }
-  if (hasAnySpellHint(character, HEALING_SPELL_HINTS)) {
+  if (isSupportCandidate(character, rolePriority, subclassInfo)) {
     roles.add("SUPPORT");
   }
-  if (character.stats.STR + character.stats.CON >= 32) {
+  if (isFrontlinerCandidate(character, rolePriority, subclassInfo)) {
     roles.add("FRONTLINER");
   }
-  if (getRoleStatScore(character, "DPS_MELEE") >= 32) {
+  const meleeDamageCandidate = isMeleeDamageCandidate(character, rolePriority, classGroup, subclassInfo, explicitTags);
+  const rangedDamageCandidate = isRangedDamageCandidate(character, rolePriority, classGroup, subclassInfo, explicitTags);
+  if (meleeDamageCandidate) {
     roles.add("DPS_MELEE");
   }
-  if (getRoleStatScore(character, "DPS_RANGED") >= 32) {
+  if (rangedDamageCandidate) {
     roles.add("DPS_RANGED");
   }
-  if (getRoleStatScore(character, "TACTICIAN") >= 28) {
+  if (isTacticianCandidate(character, rolePriority, subclassInfo)) {
     roles.add("TACTICIAN");
+  }
+
+  if (!explicitCompatibleRoles.has("FRONTLINER") && !isFrontlinerCandidate(character, rolePriority, subclassInfo)) {
+    roles.delete("FRONTLINER");
+  }
+  if (!explicitCompatibleRoles.has("TACTICIAN") && !isTacticianCandidate(character, rolePriority, subclassInfo)) {
+    roles.delete("TACTICIAN");
+  }
+  if (!explicitCompatibleRoles.has("SUPPORT") && !isSupportCandidate(character, rolePriority, subclassInfo) && !isBaselineClassRoleAllowed(character, "SUPPORT", metadata)) {
+    roles.delete("SUPPORT");
+  }
+  if (!explicitCompatibleRoles.has("DPS_MELEE") && !meleeDamageCandidate) {
+    roles.delete("DPS_MELEE");
+  }
+  if (!explicitCompatibleRoles.has("DPS_RANGED") && !rangedDamageCandidate) {
+    roles.delete("DPS_RANGED");
   }
 
   if (!isDamageTagWorthy(character, rolePriority, classGroup, subclassInfo, explicitTags)) {
@@ -9370,6 +10545,124 @@ function getCompatibleRoles(character) {
   }
 
   return uniqueRoleIds([...roles]);
+}
+
+function isFrontlinerCandidate(character, rolePriority, subclassInfo) {
+  const stats = character.stats || {};
+  const armorClass = getCharacterArmorClass(character);
+  const subclassRoles = getSubclassRoleNames(subclassInfo);
+
+  if (rolePriority[0] === "FRONTLINER" || subclassRoles.some((role) => role === "Tank")) {
+    return true;
+  }
+
+  return armorClass >= 16 &&
+    Number(stats.CON || 0) >= 14 &&
+    (
+      Number(stats.STR || 0) >= 16 ||
+      Number(stats.CON || 0) >= 18 ||
+      getCharacterClassGroup(character) === "tank"
+    );
+}
+
+function isMeleeDamageCandidate(character, rolePriority, classGroup, subclassInfo, explicitTags) {
+  if (!isDamageTagWorthy(character, rolePriority, classGroup, subclassInfo, explicitTags)) {
+    return false;
+  }
+
+  return rolePriority[0] === "DPS_MELEE" ||
+    ["tank", "martial", "skirmisher"].includes(classGroup) ||
+    getRoleStatScore(character, "DPS_MELEE") >= 35;
+}
+
+function isRangedDamageCandidate(character, rolePriority, classGroup, subclassInfo, explicitTags) {
+  if (!isDamageTagWorthy(character, rolePriority, classGroup, subclassInfo, explicitTags)) {
+    return false;
+  }
+
+  const stats = character.stats || {};
+  const strengthFrontliner = rolePriority[0] === "FRONTLINER" &&
+    Number(stats.STR || 0) >= Number(stats.DEX || 0) + 4 &&
+    Number(stats.CON || 0) >= 14 &&
+    !hasMeaningfulDamageSpell(character);
+  if (strengthFrontliner && rolePriority[0] !== "DPS_RANGED" && !explicitTags.has("ranged")) {
+    return false;
+  }
+
+  const bestMentalStat = Math.max(character.stats.INT, character.stats.WIS, character.stats.CHA);
+  return rolePriority[0] === "DPS_RANGED" ||
+    ["ranged", "arcane"].includes(classGroup) ||
+    ((hasSpells(character) || isSpellcasterClass(character)) && bestMentalStat >= 16 && hasMeaningfulDamageSpell(character)) ||
+    getRoleStatScore(character, "DPS_RANGED") >= 36;
+}
+
+function isSupportCandidate(character, rolePriority, subclassInfo) {
+  const explicitTags = new Set((character.tags || []).map((tag) => String(tag).toLowerCase()));
+  const supportIndex = rolePriority.indexOf("SUPPORT");
+
+  if (explicitTags.has("support")) {
+    return true;
+  }
+  if (supportIndex >= 0 && supportIndex <= 1) {
+    return true;
+  }
+
+  const subclassRoles = getSubclassRoleNames(subclassInfo);
+  if (["Support", "Healer", "Buffer"].includes(subclassInfo?.primaryRole)) {
+    return true;
+  }
+  if (subclassRoles.some((role) => ["Support", "Healer", "Buffer"].includes(role))) {
+    return true;
+  }
+
+  return hasReliableSupportTools(character);
+}
+
+function hasReliableSupportTools(character) {
+  if (hasAnySpellHint(character, HEALING_SPELL_HINTS) || characterHasSpellTag(character, "healing")) {
+    return true;
+  }
+
+  const hasBuffTools = hasAnySpellHint(character, BUFFER_SPELL_HINTS) || characterHasSpellTag(character, "buff");
+  if (!hasBuffTools) {
+    return false;
+  }
+
+  const supportClasses = new Set(["Bard", "Cleric", "Druid", "Artificer", "Alchemist", "Shaman"]);
+  return supportClasses.has(String(character.className || ""));
+}
+
+function isTacticianCandidate(character, rolePriority, subclassInfo) {
+  if (rolePriority[0] === "TACTICIAN") {
+    return true;
+  }
+
+  const hasTools = hasTacticalTools(character, subclassInfo);
+  return hasTools && getRoleStatScore(character, "TACTICIAN") >= 34 ||
+    getRoleStatScore(character, "TACTICIAN") >= 40;
+}
+
+function hasTacticalTools(character, subclassInfo) {
+  const subclassRoles = getSubclassRoleNames(subclassInfo);
+  const subclassTags = new Set((subclassInfo?.tags || []).map(normalizeLookupText));
+  const metadata = getClassMetadata(character);
+  const featureText = (metadata?.features || []).join(" ").toLowerCase();
+
+  return subclassRoles.some((role) => ["Controller", "Debuffer", "Disruptor", "Area Denial", "Anti-Magic", "Battlefield Leader", "Skill Expert"].includes(role)) ||
+    ["action economy", "battlefield control", "crowd control", "forced movement", "initiative bonus", "debuffs enemies", "counterspell support"].some((tag) => subclassTags.has(tag)) ||
+    hasAnySpellHint(character, DEBUFFER_SPELL_HINTS) ||
+    characterHasSpellTag(character, "control") ||
+    characterHasSpellTag(character, "debuff") ||
+    characterHasSpellTag(character, "anti-magic") ||
+    ["commands", "leadership", "trick shots", "exploit weakness", "tactics"].some((hint) => featureText.includes(hint));
+}
+
+function getSubclassRoleNames(subclassInfo) {
+  if (!subclassInfo) {
+    return [];
+  }
+
+  return [subclassInfo.primaryRole, ...(subclassInfo.secondaryRoles || [])].filter(Boolean);
 }
 
 function getPartyProfile(members, assignedByRole) {
@@ -9425,11 +10718,12 @@ function getCharacterTags(character) {
   const metadata = getClassMetadata(character);
   (metadata?.tags || [])
     .map((tag) => String(tag).toLowerCase())
-    .filter((tag) => tag !== "dps")
+    .filter((tag) => !["dps", "support", "healer", "buffer"].includes(tag))
     .forEach((tag) => tags.add(tag));
   const roles = getCharacterRolePriority(character);
   const classGroup = getCharacterClassGroup(character);
   const subclassInfo = getSubclassClassification(character);
+  const isSupportReady = isSupportCandidate(character, roles, subclassInfo);
 
   applySubclassTags(tags, subclassInfo);
 
@@ -9443,11 +10737,10 @@ function getCharacterTags(character) {
   } else {
     tags.delete("dps");
   }
-  if (roles.includes("SUPPORT") || ["Cleric", "Bard", "Druid", "Artificer"].includes(character.className) || ["divine", "primal", "support"].includes(classGroup)) {
-    tags.add("support");
-  }
-  if (roles.includes("TACTICIAN")) {
+  if (isTacticianCandidate(character, roles, subclassInfo)) {
     tags.add("tactician");
+  } else {
+    tags.delete("tactician");
   }
   if (hasSpells(character) || metadata?.spellcasting) {
     tags.add("spellcaster");
@@ -9457,6 +10750,11 @@ function getCharacterTags(character) {
   }
   if (hasAnySpellHint(character, BUFFER_SPELL_HINTS) || characterHasSpellTag(character, "buff")) {
     tags.add("buffer");
+  }
+  if (isSupportReady || tags.has("healer")) {
+    tags.add("support");
+  } else if (!explicitTags.has("support")) {
+    tags.delete("support");
   }
   if (hasAnySpellHint(character, DEBUFFER_SPELL_HINTS) || characterHasSpellTag(character, "debuff") || characterHasSpellTag(character, "control")) {
     tags.add("debuffer");
@@ -9475,7 +10773,7 @@ function applySubclassTags(tags, subclassInfo) {
   if (roles.some((role) => ["Tank", "Defensive Caster", "Survivalist"].includes(role))) {
     tags.add("tank");
   }
-  if (roles.some((role) => ["Support", "Healer", "Buffer", "Battlefield Leader"].includes(role))) {
+  if (roles.some((role) => ["Support", "Healer", "Buffer"].includes(role))) {
     tags.add("support");
   }
   if (roles.includes("Healer") || mechanicalTags.has("healing") || mechanicalTags.has("emergency healing")) {

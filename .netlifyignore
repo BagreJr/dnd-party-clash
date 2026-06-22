@@ -1,0 +1,3 @@
+# Keep local pixel backups out of Netlify deploys.
+# The game uses assets/portraits/pixel/optimized/*.webp.
+assets/portraits/pixel/*.png~

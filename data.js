@@ -28,7 +28,7 @@ const ROLE_LABELS = {
 // classGroup helps custom classes: martial, tank, skirmisher, ranged, arcane, divine, primal, support.
 // Spell names are matched against Class/spells.json through spellData.js; use the same spelling when possible.
 // Damage spells infer Fire, Cold, Poison, Thunder, Acid, Lightning, Radiant, Necrotic, Force, and Psychic.
-// Affinity scores go from -3 to +3 and affect party score when both characters are drafted.
+// Affinity scores can use -3..+3 as relationship ranks, or larger numbers as direct score points.
 const DND_PARTIES = [
   {
     id: "Fighter-Party",
@@ -326,7 +326,7 @@ const DND_PARTIES = [
     characters: [
       {
         id: "Karl-Mac-Dhiarmaid",
-        name: "Karl",
+        name: "Karl Mac Dhiarmaid",
         className: "Barbarian",
         subclass: "Path of the Titan",
         level: 3,
@@ -1438,6 +1438,7 @@ const DND_PARTIES = [
         armorClass: 21,
         stats: { STR: 18, DEX: 10, CON: 18, INT: 7, WIS: 14, CHA: 12 },
         spells: ["Hold Person","Bless"],
+        rolePriority: ["FRONTLINER", "DPS_MELEE", "TACTICIAN"],
       },
       {
         id: "Mina",
@@ -3018,7 +3019,13 @@ const SPECIAL_CHARACTERS = [
     spells: [],
     tags: ["especial", "vaquero", "comico"],
     eventLocked: true,
-    appearanceWeight: 0.01
+    appearanceWeight: 0.01,
+    affinities: {
+      "Atlas": { score: 30, note: "Vaqueros" },
+      "Ricardo": { score: 30, note: "Vaqueros" },
+      "Colt": { score: 30, note: "Vaqueros" },
+      "Robert-O": { score: 50, note: "Vaqueros" }
+    },
   },
   {
     id: "jhon-cross",

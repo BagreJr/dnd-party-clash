@@ -1026,40 +1026,51 @@ function calculateAffinityModifier(members) {
   const explanation = [];
   let rawAffinity = 0;
 
+  function addAffinityDetail(characterA, characterB, relationship, source = "explicit") {
+    const points = getAffinityPoints(relationship);
+    if (!points) {
+      return;
+    }
+
+    rawAffinity += points;
+    const score = Number(relationship.score || 0);
+    const label = points > 0 ? "positive" : points < 0 ? "negative" : "neutral";
+    const note = relationship.note || getDefaultAffinityNote(characterA, characterB, score);
+
+    details.push({
+      characterA: characterA.name,
+      characterB: characterB.name,
+      score,
+      points,
+      label,
+      source,
+      note
+    });
+
+    if (points > 0) {
+      explanation.push(`${characterA.name} and ${characterB.name} have positive affinity (${formatSigned(points)}). ${note}`);
+    } else if (points < 0) {
+      explanation.push(`${characterA.name} and ${characterB.name} have negative affinity (${formatSigned(points)}). ${note}`);
+    }
+  }
+
   for (let left = 0; left < members.length; left += 1) {
     for (let right = left + 1; right < members.length; right += 1) {
       const characterA = members[left];
       const characterB = members[right];
       const relationship = getPairAffinity(characterA, characterB);
 
-      if (!relationship) {
-        continue;
-      }
-
-      const score = clamp(Number(relationship.score || 0), -3, 3);
-      const points = score * 5;
-      rawAffinity += points;
-      const label = score > 0 ? "positive" : score < 0 ? "negative" : "neutral";
-      const note = relationship.note || getDefaultAffinityNote(characterA, characterB, score);
-
-      details.push({
-        characterA: characterA.name,
-        characterB: characterB.name,
-        score,
-        points,
-        label,
-        note
-      });
-
-      if (score > 0) {
-        explanation.push(`${characterA.name} and ${characterB.name} have positive affinity (${formatSigned(points)}). ${note}`);
-      } else if (score < 0) {
-        explanation.push(`${characterA.name} and ${characterB.name} have negative affinity (${formatSigned(points)}). ${note}`);
+      if (relationship) {
+        addAffinityDetail(characterA, characterB, relationship, "explicit");
       }
     }
   }
 
-  const affinityBonus = clamp(rawAffinity, -60, 60);
+  getOriginPartyAffinities(members).forEach((entry) =>
+    addAffinityDetail(entry.characterA, entry.characterB, entry.relationship, "origin")
+  );
+
+  const affinityBonus = clamp(rawAffinity, -120, 160);
   if (rawAffinity !== affinityBonus) {
     explanation.push(`Affinity total was capped from ${formatSigned(rawAffinity)} to ${formatSigned(affinityBonus)}.`);
   }
@@ -1072,6 +1083,88 @@ function calculateAffinityModifier(members) {
     details,
     explanation
   };
+}
+
+function getAffinityPoints(relationship) {
+  const rawScore = Number(relationship?.score || 0);
+  if (!Number.isFinite(rawScore) || rawScore === 0) {
+    return 0;
+  }
+
+  if (Math.abs(rawScore) <= 3) {
+    return rawScore * 8;
+  }
+
+  return clamp(rawScore, -50, 100);
+}
+
+function getOriginPartyAffinities(members = []) {
+  const grouped = new Map();
+
+  members.forEach((character) => {
+    const origin = getCharacterOriginParty(character);
+    if (!origin?.id) {
+      return;
+    }
+
+    if (!grouped.has(origin.id)) {
+      grouped.set(origin.id, { ...origin, members: [] });
+    }
+    grouped.get(origin.id).members.push(character);
+  });
+
+  const affinities = [];
+  grouped.forEach((group) => {
+    if (group.members.length < 2) {
+      return;
+    }
+
+    const pairPoints = group.members.length >= 4 ? 14 : group.members.length === 3 ? 12 : 10;
+    for (let left = 0; left < group.members.length; left += 1) {
+      for (let right = left + 1; right < group.members.length; right += 1) {
+        affinities.push({
+          characterA: group.members[left],
+          characterB: group.members[right],
+          relationship: {
+            score: pairPoints,
+            note: `Vienen de ${group.name} y recuperan ritmo de campana juntos.`
+          }
+        });
+      }
+    }
+  });
+
+  return affinities;
+}
+
+function getCharacterOriginParty(character) {
+  const partyRegistry = getPartyRegistry();
+  const explicitId = character?.sourcePartyId || character?.recruitedFromPartyId;
+  if (explicitId) {
+    const explicitParty = partyRegistry.find((party) => normalizeLookupText(party.id) === normalizeLookupText(explicitId));
+    if (explicitParty) {
+      return { id: explicitParty.id, name: explicitParty.name || explicitParty.id };
+    }
+  }
+
+  const directParty = partyRegistry.find((party) =>
+    (party.characters || []).some((candidate) =>
+      normalizeLookupText(candidate.id) === normalizeLookupText(character?.id) ||
+      normalizeLookupText(candidate.name) === normalizeLookupText(character?.name)
+    )
+  );
+
+  return directParty ? { id: directParty.id, name: directParty.name || directParty.id } : null;
+}
+
+function getPartyRegistry() {
+  if (typeof globalThis !== "undefined" && Array.isArray(globalThis.DND_PARTIES)) {
+    return globalThis.DND_PARTIES;
+  }
+  if (typeof window !== "undefined" && Array.isArray(window.DND_PARTIES)) {
+    return window.DND_PARTIES;
+  }
+  return [];
 }
 
 function getPairAffinity(characterA, characterB) {
